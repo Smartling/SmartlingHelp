@@ -28,9 +28,7 @@ body {
 
 /* Header */
 
-.navbar {
-    height: 100px;
-}
+
 
 .header-logo {
     width: 220px; 
@@ -86,6 +84,26 @@ header.carousel .fill {
 
 footer {
     margin: 50px 0;
+}
+
+.main {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container .article {
+    background-color: #fff;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+p.welcome {
+    padding: 20px;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #999999;
 }
 
 /* Responsive Styles */

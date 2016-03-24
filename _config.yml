@@ -9,10 +9,17 @@
 title: Smartling Help
 email: your-email@domain.com
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  
 
 # Build settings
 markdown: kramdown
+
+#Collections
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:title
