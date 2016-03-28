@@ -24,3 +24,7 @@ collections:
   articles:
     output: true
     permalink: /articles/:title
+
+  categories:
+    output: true
+    permalink: /categories/:title

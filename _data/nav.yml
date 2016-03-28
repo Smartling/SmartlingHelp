@@ -1,5 +1,104 @@
+- title: 'Getting Started'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Create a new project'
+    - title: 'Translate'
+    - title: 'Review'
 
-- name: 
-  	categories:
-  	articles:
-  	 - title: 
+- title: 'Linguistic Assets'
+  categories:
+    - title: 'Linguistic Packages'
+      articles:
+    - title: 'Style Guide'
+      articles:
+    - title: 'Glossary'
+      articles:
+    - title: 'Translation Memory'
+      articles:
+  articles:
+      -
+
+- title: 'Projects'
+  categories:
+    - title: 'Project Types'
+      articles:
+    - title: 'Settings'
+      articles:
+    - title: 'Languages'
+      articles:
+    - title: 'Projects Basiscs'
+      articles:
+  articles:
+    -
+
+- title: 'Jobs'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Create a job'
+
+- title: 'Workflows'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Create a workflow'
+
+- title: 'Content Management'
+  categories:
+    - title: 'Capture Content'
+      articles:
+    - title: 'Authorize Content for Translation'
+      articles:
+    - title: 'Move Content'
+      articles:
+    - title: 'Manage Content'
+      articles:
+    - title: 'Content Status'
+      articles:
+  articles:
+    - title: 'Create a job'
+
+- title: 'Users'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Create a workflow'
+
+- title: 'The Translation Interface'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Translate & Save'
+
+- title: 'Issues and Instructions'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Create an Issue'
+
+- title: 'Reports'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Translation Velocity'
+
+- title: 'Personal Settings & Notifications'
+  categories:
+    - title: 
+      articles:
+  articles:
+    - title: 'Manage personal settings'
+
+
+
+
+
+

@@ -27,12 +27,21 @@ title: Smartling Developer Documentation
             {% for category in site.data.nav %}
             <div class="col-md-4 col-sm-6">
                 <h4>
-                    {{category.name}}
+                    {{category.title}}
                 </h4>
                 <ul>
-                    {% for item in category.items}
+                    {% for subcat in category.categories}
+                        {% for category in site.categories %}
+                            {% if category.title == subcat.title %}
+                            <li>
+                                <a href="{{category.url}}">{{category.title}}</a>
+                            </li>
+                            {% endif %}
+                        {% endfor }
+                    {% endfor %}
+                    {% for subart in category.articles}
                         {% for article in site.articles %}
-                            {% if article.title == item.title %}
+                            {% if article.title == subart.title %}
                             <li>
                                 <a href="{{article.url}}">{{article.title}}</a>
                             </li>
