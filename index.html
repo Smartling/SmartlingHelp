@@ -41,7 +41,7 @@ title: Smartling Developer Documentation
                     {% endfor %}
                     {% for subart in category.articles}
                         {% for article in site.articles %}
-                            {% if article.title == subart.title %}
+                            {% if article.title == subart %}
                             <li>
                                 <a href="{{article.url}}">{{article.title}}</a>
                             </li>
