@@ -1,5 +1,5 @@
 ---
 title: 'Projects'
-articles:
-    - article:
+nav:
+  - article:
 ---
