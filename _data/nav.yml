@@ -1,27 +1,28 @@
-- category: '-empty'
+
+- category: 'Template'
   subcategories:
-    - category: linguisticassets
+    - category: ''
       subcategories:
-        - category: gettingstarted
-          subcategories:
-            - category: gettingstarted
-              subcategories:
-                - category: gettingstarted
-                  subcategories:
-                    - category: gettingstarted
-                      subcategories:
-                        - category: gettingstarted
-                          subarticles:
-                            article: processed-words-report
-                      subarticles:
-                        - article: processed-words-report
-                  subarticles:
-                    - article: processed-words-report
-              subarticles:
-                - article: processed-words-report
-          subarticles:
-            - article: processed-words-report
+       - category: ''
+         subcategories:
+           - category: ''
+             subcategories:
+               - category: ''
+                 subcategories:
+                   - category: ''
+                     subcategories:
+                       - category: ''
+                         subarticles:
+                           article: ''
+                     subarticles:
+                       - article: ''
+                 subarticles:
+                   - article: ''
+             subarticles:
+               - article: ''
+         subarticles:
+           - article: ''
       subarticles:
-        - article: processed-words-report
+        - article: ''
   subarticles:
-    - article: testarticle
+    - article: ''
