@@ -1,30 +1,28 @@
 
-- title: 'Getting Started'
+- category: 'Template'
   subcategories:
-    - category:
+    - category: ''
+      subcategories:
+       - category: ''
+         subcategories:
+           - category: ''
+             subcategories:
+               - category: ''
+                 subcategories:
+                   - category: ''
+                     subcategories:
+                       - category: ''
+                         subarticles:
+                           article: ''
+                     subarticles:
+                       - article: ''
+                 subarticles:
+                   - article: ''
+             subarticles:
+               - article: ''
+         subarticles:
+           - article: ''
       subarticles:
+        - article: ''
   subarticles:
     - article: ''
-
-
-- title: 'Linguistic Assets'
-  subcategories:
-    - category: ''
-    - category: ''
-    - category: ''
-    - category: ''
-  subarticles:
-      - article: ''
-
-- title: 'Projects'
-  subcategories:
-    - category: ''
-  subarticles:
-    - article: ''
-
-- title: 'Reports'
-  subcategories:
-    - category:
-  subarticles:
-    - article: ''
-
