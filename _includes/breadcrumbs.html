@@ -1,0 +1,38 @@
+
+
+<div class="breadcrumbs">
+{% assign Level1Categories = site.data.nav %}
+{% for Level1Category in Level1Categories %}
+  {% if Level1Category.category == page.title %}
+    <a href="/">Home</a> > {{page.title}}
+  {% else %}
+      {% for category in site.categories %}
+        {% if category.title == Level1Category.category %}
+          {% assign Crumb1 = category %}
+        {% endif %}
+      {% endfor %}
+      {% assign Level2Categories = Level1Category.subcategories %}
+      {% for Level2Category in Level2Categories %}
+        {% if Level2Category.category == page.title %}
+          <a href="/">Home</a> > <a href="{{Crumb1.url}}">{{Crumb1.title}}</a> > {{page.title}}
+        {% else %}
+          {% for category in site.categories %}
+            {% if category.title == Level2Category.category %}
+            {% assign Crumb2 = category %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+        {% for article in Level2Category.subarticles %}
+          {% if article.article == page.title %}
+            <a href="/">Home</a> > <a href="{{Crumb1.url}}">{{Crumb1.title}}</a> > <a href="{{Crumb2.url}}">{{Crumb2.title}}</a> > {{page.title}}
+          {% endif %}
+        {% endfor %}
+      {% for article in Level1Category.subarticles %}
+        {% if article.article == page.title %}
+          <a href="/">Home</a> > <a href="{{Crumb1.url}}">{{Crumb1.title}}</a> > {{page.title}}
+        {% endif %}
+      {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>
