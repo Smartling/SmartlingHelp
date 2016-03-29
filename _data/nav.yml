@@ -1,28 +1,55 @@
-
-- category: 'Template'
+- category: projects
   subcategories:
-    - category: ''
+    - category: '-empty'
       subcategories:
-       - category: ''
-         subcategories:
-           - category: ''
-             subcategories:
-               - category: ''
-                 subcategories:
-                   - category: ''
-                     subcategories:
-                       - category: ''
-                         subarticles:
-                           article: ''
-                     subarticles:
-                       - article: ''
-                 subarticles:
-                   - article: ''
-             subarticles:
-               - article: ''
-         subarticles:
-           - article: ''
+        - category: '-empty'
+          subcategories:
+            - category: '-empty'
+              subcategories:
+                - category: '-empty'
+                  subcategories:
+                    - category: '-empty'
+                      subcategories:
+                        - category: '-empty'
+                          subarticles:
+                            article: '-empty'
+                      subarticles:
+                        - article: '-empty'
+                  subarticles:
+                    - article: '-empty'
+              subarticles:
+                - article: '-empty'
+          subarticles:
+            - article: '-empty'
       subarticles:
-        - article: ''
+        - article: '-empty'
   subarticles:
-    - article: ''
+    - article: testarticle
+- category: reports
+  subcategories:
+    - category: '-empty'
+      subcategories:
+        - category: '-empty'
+          subcategories:
+            - category: '-empty'
+              subcategories:
+                - category: '-empty'
+                  subcategories:
+                    - category: '-empty'
+                      subcategories:
+                        - category: '-empty'
+                          subarticles:
+                            article: '-empty'
+                      subarticles:
+                        - article: '-empty'
+                  subarticles:
+                    - article: '-empty'
+              subarticles:
+                - article: '-empty'
+          subarticles:
+            - article: '-empty'
+      subarticles:
+        - article: '-empty'
+  subarticles:
+    - article: testarticle
+    - article: processed-words-report
