@@ -1,55 +1,31 @@
-- category: projects
+
+- category: 'Template'
   subcategories:
-    - category: '-empty'
+    - category:
+        title: ''
       subcategories:
-        - category: '-empty'
-          subcategories:
-            - category: '-empty'
-              subcategories:
-                - category: '-empty'
-                  subcategories:
-                    - category: '-empty'
-                      subcategories:
-                        - category: '-empty'
-                          subarticles:
-                            article: '-empty'
-                      subarticles:
-                        - article: '-empty'
-                  subarticles:
-                    - article: '-empty'
-              subarticles:
-                - article: '-empty'
-          subarticles:
-            - article: '-empty'
+       - category: ''
+         subcategories:
+           - category: ''
+             subcategories:
+               - category: ''
+                 subcategories:
+                   - category: ''
+                     subcategories:
+                       - category: ''
+                         subarticles:
+                           article: ''
+                     subarticles:
+                       - article: ''
+                 subarticles:
+                   - article: ''
+             subarticles:
+               - article: ''
+         subarticles:
+           - article: ''
       subarticles:
-        - article: '-empty'
+        - article: ''
   subarticles:
-    - article: testarticle
-- category: reports
-  subcategories:
-    - category: '-empty'
-      subcategories:
-        - category: '-empty'
-          subcategories:
-            - category: '-empty'
-              subcategories:
-                - category: '-empty'
-                  subcategories:
-                    - category: '-empty'
-                      subcategories:
-                        - category: '-empty'
-                          subarticles:
-                            article: '-empty'
-                      subarticles:
-                        - article: '-empty'
-                  subarticles:
-                    - article: '-empty'
-              subarticles:
-                - article: '-empty'
-          subarticles:
-            - article: '-empty'
-      subarticles:
-        - article: '-empty'
-  subarticles:
-    - article: testarticle
-    - article: processed-words-report
+    - article:
+        title: ''
+
