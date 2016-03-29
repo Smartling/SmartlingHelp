@@ -2,7 +2,7 @@
 - category: 'Template'
   subcategories:
     - category:
-        title: ''
+        title: 
       subcategories:
        - category: ''
          subcategories:
@@ -27,5 +27,4 @@
         - article: ''
   subarticles:
     - article:
-        title: ''
-
+        title:
