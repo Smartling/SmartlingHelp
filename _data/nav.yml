@@ -1,4 +1,4 @@
-- category: jobs
+- category: '-empty'
   subcategories:
     - category: linguisticassets
       subcategories:
@@ -25,30 +25,3 @@
         - article: processed-words-report
   subarticles:
     - article: testarticle
-- category: reports
-  subcategories:
-    - category: gettingstarted
-      subcategories:
-        - category: gettingstarted
-          subcategories:
-            - category: gettingstarted
-              subcategories:
-                - category: gettingstarted
-                  subcategories:
-                    - category: gettingstarted
-                      subcategories:
-                        - category: gettingstarted
-                          subarticles:
-                            article: processed-words-report
-                      subarticles:
-                        - article: processed-words-report
-                  subarticles:
-                    - article: processed-words-report
-              subarticles:
-                - article: processed-words-report
-          subarticles:
-            - article: processed-words-report
-      subarticles:
-        - article: processed-words-report
-  subarticles:
-    - article: processed-words-report
