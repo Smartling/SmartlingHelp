@@ -86,6 +86,9 @@ footer {
     margin: 50px 0;
 }
 
+
+/* Rough Styles */
+
 .main {
     background-color: #fff;
     max-width: 1000px;
@@ -96,7 +99,28 @@ footer {
     background-color: #fff;
     max-width: 900px;
     margin: auto;
+
+    img {
+        max-width: 90%;
+    }
+
+    img[alt="large"] {
+        max-width: 70%;
+    }
+
+    img[alt="medium"] {
+        max-width: 55%;
+    }
+    img[alt="small"] {
+        max-width: 40%;
+    }
+
+    h1 {
+
+    }
+
 }
+
 
 
 p.welcome {

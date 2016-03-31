@@ -20,11 +20,14 @@ markdown: kramdown
 
 #Collections
 
+breadcrumbLimit: [1, 2, 3, 4, 5, 6, 7]
+
 collections:
   articles:
     output: true
-    permalink: /articles/:title
+    permalink: "/:path/"
 
   categories:
     output: true
-    permalink: /categories/:title
+    permalink: "/:path/"
+

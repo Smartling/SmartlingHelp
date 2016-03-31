@@ -60,6 +60,7 @@ header.carousel .fill {
 footer {
   margin: 50px 0; }
 
+/* Rough Styles */
 .main {
   background-color: #fff;
   max-width: 1000px;
@@ -69,6 +70,14 @@ footer {
   background-color: #fff;
   max-width: 900px;
   margin: auto; }
+  .container .article img {
+    max-width: 90%; }
+  .container .article img[alt="large"] {
+    max-width: 70%; }
+  .container .article img[alt="medium"] {
+    max-width: 55%; }
+  .container .article img[alt="small"] {
+    max-width: 40%; }
 
 p.welcome {
   padding: 20px;
