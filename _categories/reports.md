@@ -1,6 +1,6 @@
 ---
 title: Reports
-sub_order:
+categories:
   - name: 'gdn'
     published: true
   - name: 'translation-activity'
