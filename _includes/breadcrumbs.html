@@ -1,7 +1,7 @@
 
 {% if page.layout == 'article' %}
   {% for article in site.articles %}
-    {% if article.url == page.url %}
+    {% if article.title == page.title %}
       {% assign currentArticle = article %}
     {% endif %}
   {% endfor %}
