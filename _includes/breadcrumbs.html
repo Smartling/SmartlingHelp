@@ -6,7 +6,9 @@
     {% endif %}
   {% endfor %}
   {% for category in site.categories %}
+  <p>test</p>
     {% for subart in category.subarts %}
+    <p>test2</p>
       {% if subart.title == currentArticle.title %}
         {% assign crumb1 = category %}
       {% endif %}
@@ -30,6 +32,7 @@
 {% endif %}
 
 <p>{{currentArticle.title}}</p>
+<p>Test3</p>
 <ol class="breadcrumbs">
   <li><a href="/">Herehome</a> &#187; </li>
   {% if crumb1 %}
