@@ -2,7 +2,7 @@
 title: Reports
 master_category: true
 sub_categories:
-  - category: ''
+  - category: 'gdn'
     published: true
 sub_articles:
   - article: ''
