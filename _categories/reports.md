@@ -2,12 +2,12 @@
 title: Reports
 master_category: true
 sub_cat:
-  - title: ''
+  - title: GDN
     published: true
 sub_art:
-  - title: ''
+  - title: Processed Words Report
     published: true
-  - title: ''
+  - title:
     published: true
 ---
 
