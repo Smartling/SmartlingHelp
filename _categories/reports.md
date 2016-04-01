@@ -1,14 +1,14 @@
 ---
 title: Reports
-categories:
-  - name: 'gdn'
+sub_order:
+  - category: 'gdn'
     published: true
-  - name: 'translation-activity'
+  - category: 'translation-activity'
     published: true
-articles:
-  - name: 'gdn'
+sub_art:
+  - article: 'gdn'
     published: true
-  - name: 'translation-activity'
+  - article: 'translation-activity'
     published: true
 ---
 
