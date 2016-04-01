@@ -1,12 +1,10 @@
 ---
-title: GDN
+title: ''
 master_category: false
 sub_categories:
-  - title:
+  - title: ''
     published: true
 sub_articles:
-  - title:
-    published: true
-  - title:
+  - title: ''
     published: true
 ---
