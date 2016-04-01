@@ -2,12 +2,12 @@
 title: Reports
 master_category: true
 sub_categories:
-  - title:
+  - title: ''
     published: true
 sub_articles:
-  - title: 'Processed Words Report'
+  - title: ''
     published: true
-  - title:
+  - title: ''
     published: true
 ---
 
