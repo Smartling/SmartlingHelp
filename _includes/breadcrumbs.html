@@ -6,7 +6,7 @@
     {% endif %}
   {% endfor %}
   {% for category in site.categories %}
-    {% for sub_article in category.sub_articles %}
+    {% for sub_article in category.sub_art %}
       {% if sub_article.title == currentArticle.title %}
         {% assign crumb1 = category %}
       {% endif %}
@@ -21,7 +21,7 @@
     {% endif %}
   {% endfor %}
   {% for category in site.categories %}
-    {% for sub_category in category.sub_categories %}
+    {% for sub_category in category.sub_cat %}
       {% if sub_category.category = currentCategory.name %}
         {% assign crumb1 = category %}
       {% endif %}
