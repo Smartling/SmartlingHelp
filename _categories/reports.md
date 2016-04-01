@@ -1,10 +1,10 @@
 ---
 title: Reports
 master_category: true
-sub_categories:
+sub_cat:
   - title: ''
     published: true
-sub_articles:
+sub_art:
   - title: ''
     published: true
   - title: ''
