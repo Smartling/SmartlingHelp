@@ -1,7 +1,7 @@
 ---
 title: Translation Activity
-article_order:
-  - 'Translation Velocity Report'
-  - 'Processed Words Report'
-  - 'Issues Report'
+article_order
+  articles:
+    - 'account-level-votes'
+    - 'processed-words-report'
 ---

@@ -1,11 +1,16 @@
 ---
 title: Reports
-sub_order: 
-  - 'GDN'
-  - 'Translation Activity'
+sub_order:
+  - name: 'gdn'
+    published: true
+  - name: 'translation-activity'
+    published: true
 article_order:
-  - 'Account-Level Reports'
-  - 'SmartMatch Leverage Report'
+  articles:
+    - name: 'gdn'
+      published: true
+    - name: 'translation-activity'
+      published: true
 ---
 
 Here's a little content about reports, generally.
