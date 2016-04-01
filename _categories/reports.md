@@ -7,7 +7,7 @@ sub_cat:
 sub_art:
   - title: Processed Words Report
     published: true
-  - title:
+  - title: Testing Breadcrumbs
     published: true
 ---
 
