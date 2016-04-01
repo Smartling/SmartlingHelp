@@ -2,11 +2,11 @@
 title: GDN
 master_category: false
 sub_categories:
-  - category: ''
+  - category:
     published: true
 sub_articles:
-  - article: ''
+  - article:
     published: true
-  - article: ''
+  - article:
     published: true
 ---
