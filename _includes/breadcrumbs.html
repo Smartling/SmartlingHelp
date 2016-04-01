@@ -7,7 +7,7 @@
   {% endfor %}
   {% for category in site.categories %}
     {% for item in category.sub_art %}
-    <p>{{item.title}}</p>
+    <p>{{item.title}}test</p>
       {% if item.title == currentArticle.title %}
         {% assign crumb1 = category %}
       {% endif %}
