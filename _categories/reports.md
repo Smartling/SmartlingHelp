@@ -1,10 +1,10 @@
 ---
 title: Reports
 master_category: true
-sub_cat:
+sub_cats:
   - title: GDN
     published: true
-sub_art:
+sub_arts:
   - title: Processed Words Report
     published: true
   - title: Testing Breadcrumbs
