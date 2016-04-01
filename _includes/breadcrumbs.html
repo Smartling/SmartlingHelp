@@ -6,8 +6,11 @@
     {% endif %}
   {% endfor %}
   {% for category in site.categories %}
+  <p>category</p>
     {% for sub_art in category.sub_arts %}
+    <p>categories</p>
       {% if sub_art.title == currentArticle.title %}
+      <p>match</p>
         {% assign crumb1 = category %}
       {% endif %}
     {% endfor %}
