@@ -6,7 +6,7 @@
     {% endif %}
   {% endfor %}
   {% for category in site.categories %}
-  <p>test</p> {{categoty.subarts}}
+  <p>test</p> {{category.subarts}}
     {% for subart in category.subarts %}
     <p>test2</p>
       {% if subart.title == currentArticle.title %}
