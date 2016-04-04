@@ -11,9 +11,6 @@ related-articles:
     link:
 ---
 
-{{page.handle}}
-
-{{page.name}}
 
 The Processed Words Report records the daily number of words translated for the first time in a project, either via a person or machine Translation. An&nbsp;[account-level version](http://support.smartling.com/hc/en-us/articles/216811267)&nbsp;is also available.
 
