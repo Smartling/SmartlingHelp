@@ -1,7 +1,7 @@
 ---
 title: GDN
 layout: section
-master_category: true
+master_category: false
 subsections:
   - title: none
     published: true
