@@ -18,6 +18,19 @@ layout: default
         <div class="row">
             <div class="col-md-12">
                 {{content}}
+
+            <h4>Articles</h4>
+            <ul>
+                {% for subarticle in page.subarticles %}
+                    {% for article in site.articles %}
+                        {% if article.title == subarticle.title %}
+                            <li class="article-link">
+                                <a href="{{article.url}}">{{article.title}}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
             </div>
         </div>
 
@@ -36,7 +49,7 @@ layout: default
         {% endfor %}    
         <div class="col-md-4 col-sm-6 cards">
             <h4>
-                {{currentSubsection.title}}
+                <a href="{{currentSubsection.url}}">{{currentSubsection.title}}</a>
             </h4>
             <ul>  
                 {% for subsection in currentSubsection.subsections %}

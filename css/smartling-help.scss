@@ -116,9 +116,25 @@ footer {
     }
 
     h1 {
-
+        font-family: "Helvetica Neue";
+        font-size: 28px;
+        color: #F26C5D;
+        line-height: 34px;
+        padding: 5px 20px 5px 20px; 
     }
 
+    p {
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+
+/* article styles */
+
+.article {
+    h1 {
+
+    }
 }
 
 
@@ -129,6 +145,12 @@ p.welcome {
     font-size: 16px;
     color: #999999;
 }
+
+
+
+
+
+
 
 /* Responsive Styles */
 

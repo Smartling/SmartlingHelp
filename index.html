@@ -26,15 +26,16 @@ title: Smartling Developer Documentation
         <div class="row">
             {% for heading in site.data.nav %}
             <div class="col-md-4 col-sm-6 cards">
+                {% for section in site.sections %}
+                    {% if section.title == heading %}
+                    {% assign currentSection = section %}
+                    {% endif %}
+                {% endfor %}
                 <h4>
-                    {{heading}}
+                    <a href="{{currentSection.url}}">{{heading}}</a>
                 </h4>
                 <ul>
-                    {% for section in site.sections %}
-                        {% if section.title == heading %}
-                        {% assign currentSection = section %}
-                        {% endif %}
-                    {% endfor %}
+
                     {% for subsection in currentSection.subsections %}
                         {% for section in site.sections %}
                           {% if section.title == subsection.title %}

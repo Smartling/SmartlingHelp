@@ -78,7 +78,16 @@ footer {
     max-width: 55%; }
   .container .article img[alt="small"] {
     max-width: 40%; }
+  .container .article h1 {
+    font-family: "Helvetica Neue";
+    font-size: 28px;
+    color: #F26C5D;
+    line-height: 34px;
+    padding: 5px 20px 5px 20px; }
+  .container .article p {
+    padding: 5px 20px 5px 20px; }
 
+/* article styles */
 p.welcome {
   padding: 20px;
   font-family: "Helvetica Neue";
