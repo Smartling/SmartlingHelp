@@ -3,7 +3,7 @@ title: GDN
 layout: section
 master_category: true
 subsections:
-  - title: GDN
+  - title: none
     published: true
 subarticles:
   - title: Another Report
