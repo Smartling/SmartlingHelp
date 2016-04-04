@@ -6,9 +6,7 @@ subsections:
   - title:
     published: true
 subarticles:
-  - title: Another Report
-    published: true
-  - title: Still Another Report
+  - title: Get Started with Smartling
     published: true
 ---
 
