@@ -16,7 +16,7 @@ Account owners and project managers can access a report that displays the total 
 Access the report by choosing&nbsp;**Words Under Management**&nbsp;from the&nbsp;**Reports**&nbsp;dropdown, anywhere in the dashboard.
 {: .present-before-paste}
 
-![](/uploads/versions/smartling___summary---x----742-474x---.png)
+![large](/uploads/versions/smartling___summary---x----742-474x---.png)
 {: .present-before-paste}
 
 &nbsp;
