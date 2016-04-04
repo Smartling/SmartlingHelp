@@ -10,6 +10,8 @@ subarticles:
     published: true
   - title: Testing Breadcrumbs
     published: true
+  - title: Issues Report
+    published: true
 ---
 
 
