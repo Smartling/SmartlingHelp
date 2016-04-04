@@ -25,9 +25,9 @@ breadcrumbLimit: [1, 2, 3, 4, 5, 6, 7]
 collections:
   articles:
     output: true
-    permalink: "/:path/"
+    permalink: "/articles/:title"
 
-  categories:
+  sections:
     output: true
-    permalink: "/:path/"
+    permalink: "/sections/:title"
 

@@ -30,23 +30,23 @@ title: Smartling Developer Documentation
                     {{heading}}
                 </h4>
                 <ul>
-                    {% for category in site.categories %}
-                        {% if category.title == heading %}
-                        {% assign currentCategory = category %}
+                    {% for section in site.sections %}
+                        {% if section.title == heading %}
+                        {% assign currentSection = section %}
                         {% endif %}
                     {% endfor %}
-                    {% for subcat in currentCategory.sub_order %}
-                        {% for category in site.categories %}
-                          {% if category.title == subcat %}
+                    {% for subsection in currentSection.subsections %}
+                        {% for section in site.sections %}
+                          {% if section.title == subsection.title %}
                              <li>
-                                <a href="{{category.url}}">{{category.title}}</a>
+                                <a href="{{section.url}}">{{section.title}}</a>
                             </li>
                           {% endif %}
                         {% endfor %} 
                     {% endfor %}                          
-                    {% for subart in currentCategory.article_order %}
+                    {% for subarticle in currentSection.subarticles %}
                         {% for article in site.articles %}
-                          {% if article.title == subart %}
+                          {% if article.title == subarticle.title %}
                              <li>
                                 <a href="{{article.url}}">{{article.title}}</a>
                             </li>
@@ -55,7 +55,7 @@ title: Smartling Developer Documentation
                     {% endfor %}
                 </ul>
             </div>
-            {% assign currentCategory = NULL %}
+            {% assign currentSection = NULL %}
             {% endfor %}
 
         <div class="row">

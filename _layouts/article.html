@@ -17,24 +17,5 @@ layout: default
     <div class="container article">
     	
     	<h1>{{page.title}}</h1>
-    	<p>{{page.handle}} test {{page.url}}</p>
-        {% for article in site.articles %}
-            {% if article.url == page.url %}
-                {% assign currentArticle = article %}
-                <p>{{currentArticle.name}} {{currentArticle.title}} {{currentArticle.url}}
-            </p>
-            {% endif %}
-        {% endfor %}
-
-        {% for category in site.categories %}
-            {% if category.title == 'Reports' %}
-                {% assign currentCategory = category %}
-                <p>{{currentCategory.name}} {{currentCategory.title}} {{currentCategory.url}}
-            </p>
-            {% endif %}
-        {% endfor %}
-
-        <p>{{page.layout}}</p>
-
         {{content}}
     </div>

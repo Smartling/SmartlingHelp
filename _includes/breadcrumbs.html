@@ -5,38 +5,87 @@
       {% assign currentArticle = article %}
     {% endif %}
   {% endfor %}
-  {% for category in site.categories %}
-  <p>test</p> {{category.subarts}}
-    {% for subart in category.subarts %}
-    <p>test2</p>
-      {% if subart.title == currentArticle.title %}
-        {% assign crumb1 = category %}
+  {% for section in site.sections %}
+    {% for subarticle in section.subarticles %}
+      {% if subarticle.title == currentArticle.title %}
+        {% assign crumb1 = section %}
       {% endif %}
     {% endfor %}
   {% endfor %}
 {% endif %}
 
-{% if page.layout == 'category' %}
-  {% for category in site.categories %}
-    {% if category.url == page.url %}
-      {% assign currentCategory = category %}
+{% if page.layout == 'section' %}
+  {% for section in site.sections %}
+    {% if section.url == page.url %}
+      {% assign currentSection = section %}
     {% endif %}
   {% endfor %}
-  {% for category in site.categories %}
-    {% for subcat in category.subcats %}
-      {% if subcat.title = currentCategory.title %}
-        {% assign crumb1 = category %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title = currentSection.title %}
+        {% assign crumb1 = section %}
       {% endif %}
     {% endfor %}
   {% endfor %}
 {% endif %}
 
-<p>{{currentArticle.title}}</p>
-<p>Test3</p>
-<ol class="breadcrumbs">
-  <li><a href="/">Herehome</a> &#187; </li>
-  {% if crumb1 %}
-    <li><a href="{{crumb1.url}}">{{crumb1.title}}</a> &#187; </li>
+{% if crumb1 %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title == crumb1.title %}
+        {% assign crumb2 = section %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if crumb2 %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title = crumb2.title %}
+        {% assign crumb3 = section %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if crumb3 %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title = crumb3.title %}
+        {% assign crumb4 = section %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  {% if crumb7 %}
+    <li><a href="{{crumb7.url}}">{{crumb7.title}}</a></li>
   {% endif %}
-    <li><a href="{{page.url}}">{{page.title}}</a> &#187; </li>
+  {% if crumb6 %}
+    <li><a href="{{crumb6.url}}">{{crumb6.title}}</a></li>
+  {% endif %}
+  {% if crumb5 %}
+    <li><a href="{{crumb5.url}}">{{crumb5.title}}</a></li>
+  {% endif %}
+  {% if crumb4 %}
+    <li><a href="{{crumb4.url}}">{{crumb4.title}}</a></li>
+  {% endif %}
+  {% if crumb3 %}
+    <li><a href="{{crumb3.url}}">{{crumb3.title}}</a></li>
+  {% endif %}
+  {% if crumb2 %}
+    <li><a href="{{crumb2.url}}">{{crumb2.title}}</a></li>
+  {% endif %}
+  {% if crumb1 %}
+    <li><a href="{{crumb1.url}}">{{crumb1.title}}</a></li>
+  {% endif %}
+    <li>{{page.title}}</li>
 </ol>
+
+
+
+
+
