@@ -1,5 +1,5 @@
 
-{% if page.layout == 'article' %}
+{% if page.layout != 'section' %}
   {% for article in site.articles %}
     {% if article.title == page.title %}
       {% assign currentArticle = article %}
@@ -54,6 +54,36 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb3.title %}
         {% assign crumb4 = section %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if crumb4 %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title == crumb4.title %}
+        {% assign crumb5 = section %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if crumb5 %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title == crumb5.title %}
+        {% assign crumb6 = section %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+
+{% if crumb6 %}
+  {% for section in site.sections %}
+    {% for subsection in section.subsections %}
+      {% if subsection.title == crumb6.title %}
+        {% assign crumb7 = section %}
       {% endif %}
     {% endfor %}
   {% endfor %}
