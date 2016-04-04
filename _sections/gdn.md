@@ -12,6 +12,8 @@ subarticles:
     published: true
   - title: Draft Test
     published: true
+  - title: SmartMatch Leverage Report
+    published: true
 ---
 
 
