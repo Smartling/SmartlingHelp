@@ -1,0 +1,24 @@
+---
+layout: page
+title: Previews
+---
+<p> <br> <br> <br> <br> <br> </p>
+{% assign allarticles = site.articles | sort: 'date' %}
+<h2>Recently Updated Articles</h2>
+<ul>
+{% for item in allarticles limit: 5 %}
+	<li>
+		<a href="{{item.url}}">{{item.title}}</a>
+	</li>
+{% endfor %}
+</ul>
+
+<h2>Recently Updated Sections</h2>
+{% assign allsections = site.sections | sort: 'date' %}
+<ul>
+{% for item in allsections limit: 5 %}
+	<li>
+		<a href="{{item.url}}">{{item.title}}</a>
+	</li>
+{% endfor %}
+</ul>

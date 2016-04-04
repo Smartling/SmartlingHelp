@@ -14,22 +14,55 @@ layout: default
 
 <!-- Home Page Content -->
     {% include breadcrumbs.html %}
-    <div class="container article">
-    	
-    	<h1>{{page.title}}</h1>
-        {{content}}
-        <ul>
-            {% for section in site.sections %}
-                {% if section.title == page.title %}
-                    {% assign currentSection = section %}
-                {% endif %}
-            {% endfor %}
-            {% for subarticle in currentSection.subarticles %}
-                {% for article in site.articles %}
-                    {% if article.title == subarticle.title %}
-                        <li><a href="{{article.url}}">{{article.title}}</li>
-                    {% endif %}
+        <div class="container main">
+        <div class="row">
+            <div class="col-md-12">
+                {{content}}
+            </div>
+        </div>
+
+
+        <div class="row">
+    {% for section in site.sections %}
+        {% if section.title == page.title %}
+            {% assign currentSection = section %}
+        {% endif %}
+    {% endfor %}
+    {% for subsection in currentSection.subsections %}
+        {% for section in site.sections%}
+            {% if section.title == subsection.title %}
+                {% assign currentSubsection = section%}
+            {% endif %}
+        {% endfor %}    
+        <div class="col-md-4 col-sm-6 cards">
+            <h4>
+                {{currentSubsection.title}}
+            </h4>
+            <ul>  
+                {% for subsection in currentSubsection.subsections %}
+                    {% for section in site.sections %}
+                        {% if section.title == subsection.title %}
+                            <li class="section-link">
+                                <a href="{{section.url}}">{{section.title}}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
                 {% endfor %}
-            {% endfor %}
+                {% for subarticle in currentSubsection.subarticles %}
+                    {% for article in site.articles %}
+                        {% if article.title == subarticle.title %}
+                            <li class="article-link">
+                                <a href="{{article.url}}">{{article.title}}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
             </ul>
+        </div>
+    {% endfor %}
+           
+        </div>
     </div>
+
+
+ 

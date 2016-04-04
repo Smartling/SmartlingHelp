@@ -10,3 +10,5 @@ related-articles:
   - title:
     link:
 ---
+
+Test content of the issues resport

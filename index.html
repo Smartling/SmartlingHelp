@@ -25,7 +25,7 @@ title: Smartling Developer Documentation
 
         <div class="row">
             {% for heading in site.data.nav %}
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-4 col-sm-6 cards">
                 <h4>
                     {{heading}}
                 </h4>
@@ -38,7 +38,7 @@ title: Smartling Developer Documentation
                     {% for subsection in currentSection.subsections %}
                         {% for section in site.sections %}
                           {% if section.title == subsection.title %}
-                             <li>
+                             <li class="section-link">
                                 <a href="{{section.url}}">{{section.title}}</a>
                             </li>
                           {% endif %}
@@ -47,7 +47,7 @@ title: Smartling Developer Documentation
                     {% for subarticle in currentSection.subarticles %}
                         {% for article in site.articles %}
                           {% if article.title == subarticle.title %}
-                             <li>
+                             <li class="article-link">
                                 <a href="{{article.url}}">{{article.title}}</a>
                             </li>
                           {% endif %}
