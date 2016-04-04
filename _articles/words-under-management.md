@@ -19,5 +19,11 @@ Access the report by choosing&nbsp;**Words Under Management**&nbsp;from the&nbsp
 ![large](/uploads/versions/smartling___summary---x----742-474x---.png)
 {: .present-before-paste}
 
-&nbsp;
+The report displays the total approved words under management, as well as approved words by project and locale.
+{: .present-before-paste}
+
+The Words Under Management report is updated daily, so it may take some time before changes in your project are reflected in the report.
+{: .present-before-paste}
+
+![](/uploads/versions/smartling___processed_words---x----1271-779x---.png)
 {: .present-before-paste}
