@@ -23,9 +23,9 @@ markdown: kramdown
 collections:
   articles:
     output: true
-    permalink: "/articles/:title"
+    permalink: "/articles/:title/"
 
   sections:
     output: true
-    permalink: "/sections/:title"
+    permalink: "/sections/:title/"
 
