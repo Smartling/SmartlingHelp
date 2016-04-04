@@ -3,7 +3,7 @@ title: Getting Started
 layout: section
 master_category: true
 subsections:
-  - title: GDN
+  - title:
     published: true
 subarticles:
   - title: Another Report
@@ -11,3 +11,5 @@ subarticles:
   - title: Still Another Report
     published: true
 ---
+
+
