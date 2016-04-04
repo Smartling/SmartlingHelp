@@ -1,5 +1,6 @@
 ---
 title: Reports
+layout: section
 master_category: true
 subsections:
   - title: GDN
