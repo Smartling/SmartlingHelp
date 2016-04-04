@@ -10,6 +10,8 @@ subarticles:
     published: true
   - title: Still Another Report
     published: true
+  - title: Draft Test
+    published: true
 ---
 
 
