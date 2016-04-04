@@ -22,7 +22,7 @@
   {% endfor %}
   {% for section in site.sections %}
     {% for subsection in section.subsections %}
-      {% if subsection.title = currentSection.title %}
+      {% if subsection.title == currentSection.title %}
         {% assign crumb1 = section %}
       {% endif %}
     {% endfor %}
@@ -42,7 +42,7 @@
 {% if crumb2 %}
   {% for section in site.sections %}
     {% for subsection in section.subsections %}
-      {% if subsection.title = crumb2.title %}
+      {% if subsection.title == crumb2.title %}
         {% assign crumb3 = section %}
       {% endif %}
     {% endfor %}
@@ -52,7 +52,7 @@
 {% if crumb3 %}
   {% for section in site.sections %}
     {% for subsection in section.subsections %}
-      {% if subsection.title = crumb3.title %}
+      {% if subsection.title == crumb3.title %}
         {% assign crumb4 = section %}
       {% endif %}
     {% endfor %}
