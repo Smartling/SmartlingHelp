@@ -6,10 +6,10 @@ subsections:
   - title: GDN
     published: true
 subarticles:
-  - title: Processed Words Report
+  - title: Another Report
     published: true
-  - title: Testing Breadcrumbs
-    published: true
-  - title: Issues Report
+  - title: Still Another Report
     published: true
 ---
+
+
