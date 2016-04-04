@@ -10,11 +10,9 @@ subarticles:
     published: true
   - title: Testing Breadcrumbs
     published: true
-  - title: Issues Report
-    published: true
   - title: Words Under Management
     published: true
-  - title: SmartMatch Leverage Report
+  - title: Issues Report
     published: true
 ---
 
