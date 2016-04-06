@@ -8,6 +8,8 @@ subsections:
 subarticles:
   - title: Another Report
     published: true
+  - title: GDN Site Traffic
+    published: true
   - title: Still Another Report
     published: true
   - title: Draft Test
