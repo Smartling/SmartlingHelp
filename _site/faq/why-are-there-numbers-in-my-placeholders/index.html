@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="description" content="">
-  <title>Draft Test</title>
-  <meta name="description" content="Let’s see if this appears in the preview.">
-  <link rel="canonical" href="http://yourdomain.com/articles/draft-test/">
+  <title>Why are there numbers in my placeholders?</title>
+  <meta name="description" content="Smartling automatically adds positional information to placeholders, because translators sometimes need to change the order in which placeholders appear in a...">
+  <link rel="canonical" href="http://yourdomain.com/faq/why-are-there-numbers-in-my-placeholders/">
   <link rel="alternate" type="application/rss+xml" title="Smartling Help" href="http://yourdomain.com/feed.xml">
 
   <!-- Bootstrap Core CSS -->
@@ -113,12 +113,8 @@
   
   
   
-    <li><a href="/sections/reports/">Reports</a></li>
   
-  
-    <li><a href="/sections/gdn/">GDN</a></li>
-  
-    <li>Draft Test</li>
+    <li>Why are there numbers in my placeholders?</li>
 </ol>
 
 
@@ -128,12 +124,27 @@
 
     <div class="container article">
     	
-    	<h1>Draft Test</h1>
-        <p>Let’s see if this appears in the preview.</p>
+    	<h1>Why are there numbers in my placeholders?</h1>
+        /faq/why-are-there-numbers-in-my-placeholders
+        <p>Smartling automatically adds positional information to placeholders, because translators sometimes need to change the order in which placeholders appear in a string.</p>
+
+<p>For example, if you upload this file to Smartling:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>string1=Welcome, %s, you have %s in your account.
+</code></pre>
+</div>
+
+<p>Smartling will display the string as</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Welcome, %1$, you have %2$s in your account.
+</code></pre>
+</div>
+
+<p>This won’t affect the functionality of your site or app, but if translators need to put the placeholders in a different order in a translated string, they’ll be able to tell them apart.</p>
 
     </div>
 
-    <p><a href="https://app.cloudcannon.com/editor#/site/19991/collections/_articles/.md">edit</a></p>
+    <p><a href="https://app.cloudcannon.com/editor#/site/19991/collections/_articles/why-are-there-numbers-in-my-placeholders.md">edit</a></p>
 
       </div>
     </div>
