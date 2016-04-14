@@ -29,3 +29,7 @@ collections:
     output: true
     permalink: "/sections/:title/"
 
+  faqs:
+    output: true
+    permalink: "/faq/:title/"
+

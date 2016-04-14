@@ -26,3 +26,15 @@ title: Previews
 	{% endif %}
 {% endfor %}
 </ul>
+
+<h2>Draft Sections</h2>
+
+<ul>
+{% for faq in site.faqs %}
+	{% if faq.draft %}
+		<li>
+			<a href="{{faq.url}}">{{faq.title}}</a>
+		</li>
+	{% endif %}
+{% endfor %}
+</ul>

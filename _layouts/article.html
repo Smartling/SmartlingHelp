@@ -2,6 +2,13 @@
 layout: default
 ---
 
+{% for faq in site.faqs %}
+    {% if faq.title == page.title %}
+        {% assign currentArticle = faq %}
+    {% endif %}
+{% endfor %}
+{% assign editUrl = currentArticle.title | slugify %}
+
 <!-- Padding -->
     <div class="container">
         <div class="row">
@@ -19,3 +26,5 @@ layout: default
     	<h1>{{page.title}}</h1>
         {{content}}
     </div>
+
+    <p><a href="https://app.cloudcannon.com/editor#/site/19991/collections/_articles/{{editUrl}}.md">edit</a></p>
