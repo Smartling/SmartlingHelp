@@ -10,6 +10,7 @@ related-articles:
   - title:
     link:
 ---
+The Processed Words Report records the daily number of words translated for the first time in a project, either via a person or machine Translation. An account-level version is also available.
 
 Words translated via SmartMatch are not included. Fuzzy match scores do not affect the count.
 
