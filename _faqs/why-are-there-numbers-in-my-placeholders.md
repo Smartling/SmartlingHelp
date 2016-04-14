@@ -1,9 +1,9 @@
 ---
 layout: faq
 title: Why are there numbers in my placeholders?
-draft: false
+draft: true
 related-articles:
-  - article:
+  - article: account-level-reports
 other-links:
   - text:
 url:
