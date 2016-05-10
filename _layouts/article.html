@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% for faq in site.faqs %}
-    {% if faq.title == page.title %}
-        {% assign currentArticle = faq %}
+{% for article in site.articles %}
+    {% if article.title == page.title %}
+        {% assign currentArticle = article %}
     {% endif %}
 {% endfor %}
 {% assign editUrl = currentArticle.title | slugify %}
