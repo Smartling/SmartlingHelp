@@ -17,7 +17,7 @@ further-reading:
 ---
 
 
-<div class="warning"><strong>Note:</strong> There are two ways to implement machine translation in Smartling. This article helps you automatically apply temporary Machine Translation to all content in your project. You may wish to use this method to quickly generate translated files for QA purposes, or as a stopgap to start serving new content immediately on your translated sites while you work on high-quality human translations. If you want to permanently apply machine translation to published content, for example, to save costs on low-priority content, see <a>Integrate Machine Translation into a Workflow</a>.</div>
+<p class="warning"><strong>Note:</strong> There are two ways to implement machine translation in Smartling. This article helps you automatically apply temporary Machine Translation to all content in your project. You may wish to use this method to quickly generate translated files for QA purposes, or as a stopgap to start serving new content immediately on your translated sites while you work on high-quality human translations. If you want to permanently apply machine translation to published content, for example, to save costs on low-priority content, see <a>Integrate Machine Translation into a Workflow</a>.</p>
 
 Smartling is not a computer-generated translation service provider, but can connect with third-party translation providers such as the Google Translate API.
 
