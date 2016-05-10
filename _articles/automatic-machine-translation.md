@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Automatic Machine Translation
-draft: false
+draft: true
 Applies to:
   GDN: false
   Application-Resource-Files: false
@@ -10,7 +10,7 @@ wistia:
   video: false
   id:
 related-articles:
-  - article:
+  - article: account-level-reports
 further-reading:
   - link:
     text:
