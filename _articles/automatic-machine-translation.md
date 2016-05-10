@@ -35,11 +35,7 @@ Enabling Automatic Machine Translation will affect GDN and Files projects differ
 You can add your computer-generated translation key and turn computer-generated translation on and off at **Project Settings** &gt;**External Translation**.
 
 1. If you are using the Google Translate API, you must obtain an API Key. Do not specify any IP addresses for the key.&nbsp;**Note:** Google Translate API is a paid service and you need to have a project set up in the Developers Console with billing enabled before you create a working API Key.
-2. Copy your API Key into the **Google Translate API Key (V2)&nbsp;**field.
+2. Copy your API Key into the **Google Translate API Key (V2)** field.
 3. Click **Save**
-4. Turn Automatic Machine Translation to **ON**.&nbsp;
+4. Turn Automatic Machine Translation to **ON**.
 
-   <br>&nbsp;
-
-
-&nbsp;
