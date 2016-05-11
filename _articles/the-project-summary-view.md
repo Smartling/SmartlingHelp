@@ -1,16 +1,16 @@
 ---
 layout: article
 title: The Project Summary View
-draft: false
+draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 wistia:
   video: true
   id: b5tf573pr1
 related-articles:
-  - article:
+  - article: account-level-reports
 further-reading:
   - link:
     text:
