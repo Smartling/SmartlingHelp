@@ -28,7 +28,6 @@ further-reading:
 
 ![](/hc/en-us/article_attachments/205309807/Smartling___Translate_Content.png)  
 
-
 **Note:** Image content will remain the same among all translated Zendesk articles and cannot be changed.
 
 For knowledge base articles, the Connector will also generate context for translators - showing them a real-time preview of what their translations will look like in the knowledge base:
