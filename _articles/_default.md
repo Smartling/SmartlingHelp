@@ -13,7 +13,7 @@ related-articles:
   - article:
 read-first:
   sections:
-    - section:
+    - section
   articles:
     - article
   others:
@@ -21,7 +21,7 @@ read-first:
       text: ''
 further-reading:
   sections:
-    - section:
+    - section
   articles:
     - article
   others:
