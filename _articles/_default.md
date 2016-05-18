@@ -6,6 +6,7 @@ Applies to:
   GDN: false
   Application-Resource-Files: false
   CMS-Connectors: false
+redirect-url: ''
 wistia:
   video: false
   id:
