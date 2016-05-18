@@ -1,0 +1,35 @@
+---
+layout: article
+title: Adding links to Translator Instructions or Issues
+draft: true
+Applies to:
+  GDN: false
+  Application-Resource-Files: false
+  CMS-Connectors: false
+wistia:
+  video: false
+  id:
+read-first:
+  include: false
+  sections:
+    - section
+  articles:
+    - article
+  others:
+    - link:
+      text:
+further-reading:
+  include: false
+  sections:
+    - section
+  articles:
+    - article
+  others:
+    - link:
+      text:
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+---
