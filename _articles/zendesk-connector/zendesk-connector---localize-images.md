@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Zendesk Connector - Localize Images
-draft: false
+draft: true
 Applies to:
   GDN: false
   Application-Resource-Files: false
@@ -10,20 +10,16 @@ wistia:
   video: false
   id:
 related-articles:
-  - article:
+  - article: automatic-machine-translation
 read-first:
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -33,6 +29,7 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
 
 In addition to translating your text content, you may want to display different images on your translated sites. For example, if you write markup on screenshots, each translated Help Center will need it's own image.
 
@@ -52,7 +49,7 @@ In addition to translating your text content, you may want to display different 
 
 ![](/hc/en-us/article_attachments/206553847/Smartling_Dev.png)
 
-**Note: **Zendesk does not display image names, only thumbnails. So check that you have named your files correctly before uploading.
+\*\*Note: \*\*Zendesk does not display image names, only thumbnails. So check that you have named your files correctly before uploading.
 
 **5)** [Translate](/hc/en-us/articles/216506558) your Zendesk article as normal.
 
