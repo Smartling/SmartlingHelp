@@ -23,7 +23,7 @@ Smartling is not a computer-generated translation service provider, but can conn
 
 Enabling Automatic Machine Translation will affect GDN and Files projects differently:
 
-* For Files projects, machine translations will be pre-populated in the list view but will not enter the translation workflow. If you download a file with the [Pending Translations](/hc/en-us/articles/201468416#DownloadOptions) option, the machine translation will be included.
+* For Files projects, machine translations will be pre-populated in the list view but will not enter the translation workflow. If you download a file with the [Pending Translations]() option, the machine translation will be included.
 * For GDN projects, any strings on a GDN page without a translation will be replaced with machine-translated strings. A message is appended to the footer of the page to warn the user that the page contains machine translation.
 
 
