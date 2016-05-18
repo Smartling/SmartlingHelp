@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'http://support.smartling.com/hc/en-us/articles/206280978-Issues-Report'
+title: Issue Report
 draft: true
 Applies to:
   GDN: false
@@ -12,18 +12,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -33,3 +29,5 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
