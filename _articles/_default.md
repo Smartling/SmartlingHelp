@@ -12,6 +12,7 @@ wistia:
 related-articles:
   - article:
 read-first:
+  include: false
   sections:
     - section
   articles:
@@ -20,6 +21,7 @@ read-first:
     - link: ''
       text: ''
 further-reading:
+  include: false
   sections:
     - section
   articles:
