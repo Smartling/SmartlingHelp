@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Zendesk Connector - Translate Content
-draft: false
+draft: true
 Applies to:
   GDN: false
   Application-Resource-Files: false
@@ -10,7 +10,7 @@ wistia:
   video: false
   id:
 related-articles:
-  - article:
+  - article: automatic-machine-translation
 further-reading:
   - link:
     text:
