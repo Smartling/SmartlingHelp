@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Issues Report
-draft: false
+draft: true
 Applies to:
   GDN: false
   Application-Resource-Files: false
