@@ -13,6 +13,11 @@ related-articles:
   - article:
 read-first:
   - article:
+migration-checklist:
+  - internal-links: false
+  - images: false
+  - FAQs: false
+  - related: false
 further-reading:
   - link: ''
     text: ''
