@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Zendesk Connector - Translate Content in Tour
+title: Zendesk Connector - Translate Content in Your Zendesk Theme
 draft: true
 Applies to:
   GDN: false
@@ -10,22 +10,18 @@ wistia:
   video: false
   id:
 related-articles:
-  - article:
+  - article: automatic-machine-translation
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -35,3 +31,5 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
