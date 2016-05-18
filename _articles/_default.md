@@ -11,6 +11,8 @@ wistia:
   id:
 related-articles:
   - article:
+read-first:
+  - article:
 further-reading:
   - link: ''
     text: ''
