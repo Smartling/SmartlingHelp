@@ -42,4 +42,4 @@ Even if you have been invited to be a Translation Resource on a Smartling projec
 * If your workflow step has (/hc/en-us/articles/203604913#Customize) enabled, you may only be able to see strings that have been specifically assigned to you.
 
 
-> **If you believe you should have content available for translation, contact the Content Owner.**
+> If you believe you should have content available for translation, contact the Content Owner.
