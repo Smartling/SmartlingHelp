@@ -12,13 +12,25 @@ wistia:
 related-articles:
   - article:
 read-first:
-  - article:
+  sections:
+    - section:
+  articles:
+    - article
+  others:
+    - link: ''
+      text: ''
+further-reading:
+  sections:
+    - section:
+  articles:
+    - article
+  others:
+    - link: ''
+      text: ''
 migration-checklist:
   - internal-links: false
   - images: false
   - FAQs: false
   - related: false
-further-reading:
-  - link: ''
-    text: ''
+
 ---
