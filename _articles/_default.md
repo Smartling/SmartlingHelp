@@ -9,8 +9,6 @@ Applies to:
 wistia:
   video: false
   id:
-related-articles:
-  - article:
 read-first:
   include: false
   sections:
