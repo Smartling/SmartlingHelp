@@ -44,9 +44,9 @@ In the Settings dialog box, select&nbsp;**Smartling spellcheck enabled**.![](/hc
 
 With Smartling spell check enabled, when Smartling detects a misspelled translation, it underlines the term in red.
 
-![](/hc/en-us/article_attachments/203650368/Smartling___Translations_Management.png)
+![]()
 
-Clicking the term displays a list of spelling suggestions.
+> Clicking the term displays a list of spelling suggestions.
 
 If you prefer to use your browser's built-in spell checking feature, just keep the Smartling custom spell checking&nbsp; deselected.
 
