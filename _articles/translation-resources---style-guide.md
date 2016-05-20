@@ -3,28 +3,24 @@ layout: article
 title: Translation Resources - Style Guide
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
+redirect-url: /hc/en-us/articles/206804628
 wistia:
   video: false
   id:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -34,6 +30,7 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
 
 Smartling allows the content owner to provide style information to translators in a Style Guide. The Style Guide may include information about translation length, conventions, formal/informal modes of address, expressions that should be left untranslated, etc.
 
