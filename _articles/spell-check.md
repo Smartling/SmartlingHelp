@@ -40,7 +40,7 @@ You can check spelling of translations within the Smartling Translation Interfac
 
 ![](/uploads/versions/smartling___translations_management---x----1201-390x---.png)
 
-In the Settings dialog box, select&nbsp;**Smartling spellcheck enabled**.![](/hc/en-us/article_attachments/203650358/Smartling___Translations_Management.png)
+In the Settings dialog box, select **Smartling spellcheck enabled**.![](/hc/en-us/article_attachments/203650358/Smartling___Translations_Management.png)
 
 With Smartling spell check enabled, when Smartling detects a misspelled translation, it underlines the term in red.
 
@@ -48,7 +48,7 @@ With Smartling spell check enabled, when Smartling detects a misspelled translat
 
 > Clicking the term displays a list of spelling suggestions.
 
-If you prefer to use your browser's built-in spell checking feature, just keep the Smartling custom spell checking&nbsp; deselected.
+If you prefer to use your browser's built-in spell checking feature, just keep the Smartling custom spell checking deselected.
 
 ## Smartling supports spell check in the Translation Interface for the following languages:
 
