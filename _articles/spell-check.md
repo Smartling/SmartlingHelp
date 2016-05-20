@@ -52,7 +52,7 @@ Clicking the term displays a list of spelling suggestions.
 
 If you prefer to use your browser's built-in spell checking feature, just keep the Smartling custom spell checking deselected.
 
-## Smartling supports spell check in the Translation Interface for the following languages:
+Smartling supports spell check in the Translation Interface for the following languages:
 
 Afrikaans, Bengali, Bulgarian, Breton, Catalan, Croatian, Czech, Danish, Dutch (dictionaries for Aspell), English, Faeroese, Finnish, French, Gaelic, Galician, German, Greek, Gujarati,  Hindi, Icelandic, Indonesian, Irish, Italian, Malayalam, Marathi, Norwegian, Polish, Portuguese, Portuguese - Brazilian, Russian, Serbian, Slovenian, Spanish, Swedish, Welsh.
 
