@@ -46,7 +46,7 @@ With Smartling spell check enabled, when Smartling detects a misspelled translat
 
 ![]()
 
-> Clicking the term displays a list of spelling suggestions.
+Clicking the term displays a list of spelling suggestions.
 
 If you prefer to use your browser's built-in spell checking feature, just keep the Smartling custom spell checking deselected.
 
