@@ -26,7 +26,7 @@ further-reading:
       text:
 migration-checklist:
   internal-links: false
-  images: false
+  images: true
   FAQs: false
   related: false
 ---
@@ -42,7 +42,7 @@ A Style Guide can be assigned to projects along with your other Linguistic Asset
 
 ![](/uploads/versions/style-guides1---x----1999-1037x---.png)
 
-**2)**&nbsp;Name your style guide, select your source language, and choose your style guide type. You can choose to create your style guide by answering a set of questions about your desired style, or create your own custom style guide from scratch. Click **Create Style Guide**
+**2)** Name your style guide, select your source language, and choose your style guide type. You can choose to create your style guide by answering a set of questions about your desired style, or create your own custom style guide from scratch. Click **Create Style Guide**
 
 ![](/uploads/versions/styleguides2---x----1142-724x---.png)
 
