@@ -3,9 +3,9 @@ layout: article
 title: Style Guides
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 redirect-url:
 wistia:
   video: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -35,26 +31,29 @@ migration-checklist:
   related: false
 ---
 
+
 A style guide is a collection of rules about your preferences for content formatting and writing tone, and style that you want translators to follow so that your users and customers have a consistent experience across all languages. The style guide explains punctuation, spelling, formatting, adaptations, and language-specific preferences or errors to avoid, and helps translators and editors ensure that translations are accurate and consistent.
 
 A Style Guide can be assigned to projects along with your other Linguistic Assets as part of a Linguistic Package. See (/hc/en-us/articles/218014537)for more details.
 
 **Create a New Style Guide**
 
-**1)** **Assets > Style Guides**  **Create Style Guide**
+**1)** **Assets &gt; Style Guides** **Create Style Guide**
 
+![](/uploads/versions/style-guides1---x----1999-1037x---.png)
 
-Name your style guide, select your source language, and choose your style guide type. You can choose to create your style guide by answering a set of questions about your desired style, or create your own custom style guide from scratch. Click **Create Style Guide**
+**2)**&nbsp;Name your style guide, select your source language, and choose your style guide type. You can choose to create your style guide by answering a set of questions about your desired style, or create your own custom style guide from scratch. Click **Create Style Guide**
 
+![](/uploads/versions/styleguides2---x----1142-724x---.png)
 
+**3a)** If you choose to work from a Smartling Template, respond to as
+<br>many of the questions as you can. No fields are required, but the more information you give translators, the more valuable your style guide will be.
 
-**3a)** If you choose to work from a Smartling Template, respond to as  
-many of the questions as you can. No fields are required, but the more information you give translators, the more valuable your style guide will be.
+![](/uploads/versions/styleguides3---x----1999-1053x---.png)
 
+**3b)** If you chose a custom style guide, write your style guide in the edit window. The editor provides basic formatting options. When you are ready, click&lt; **Save Changes**.
 
-
-**3b)** If you chose a custom style guide, write your style guide in the edit window. The editor provides basic formatting options. When you are ready, click< **Save Changes**.  
-
+![](/uploads/versions/styleguide3b---x----1999-1043x---.png)
 
 **Assign a Style Guide to a Project**
 
