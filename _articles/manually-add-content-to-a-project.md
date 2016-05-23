@@ -3,7 +3,7 @@ layout: article
 title: Manually Add Content to a Project
 draft: true
 Applies to:
-  GDN: false
+  GDN: true
   Application-Resource-Files: false
   CMS-Connectors: false
 redirect-url:
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -35,15 +31,15 @@ migration-checklist:
   related: false
 ---
 
-Account owners and project managers can manually add content for translation.  
 
-###To manually add strings: 
+Account owners and project managers can manually add content for translation.
 
-**1)**  Go to **Content>****Translations** and select **Awaiting Authorization.**
-**2)**  Click **Add String.  
+### To manually add strings:
 
-![](/hc/en-us/article_attachments/207486648/Smartling___Translations_Management.png)  
-    
+**1)** Go to **Content&gt;****Translations** and select **Awaiting Authorization.** **2)** Click \*\*Add String.
+
+![](/uploads/versions/smartling___translations_management---x----1377-570x---.png)
+
 **3)** Type your string then click **Add**. You can include HTML tags to your strings, as well as add strings that match an existing pattern (for example, `Hello {1+chars}`) or specify placeholders (for example, `Hello {0}`).
 
-**4)**  The string appears under **Awaiting Authorization**. You can search for the string by entering keywords or by setting your URL filter to 'strings'.
+**4)** The string appears under **Awaiting Authorization**. You can search for the string by entering keywords or by setting your URL filter to 'strings'.
