@@ -34,3 +34,8 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+If you have both tried to login and reset your password but still can't access the dashboard,you probably have not yet been set-up with access to the Smartling dashboard.
+
+Check your inbox for an invitation to access a translation project from Smartling.
+
+If you cannot find the email, please contact your project manager, agency owner or account owner to be granted access.
