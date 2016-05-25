@@ -34,6 +34,8 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
 The Processed Words Report records the daily number of words translated for the first time in a project, either via a person or machine Translation. An [account-level version](/hc/en-us/articles/216811267) is also available.
 
 Words translated via SmartMatch are not included. Fuzzy match scores do not affect the count.
@@ -41,3 +43,5 @@ Words translated via SmartMatch are not included. Fuzzy match scores do not affe
 Imported translations and words submitted from a revision step are not counted in the Processed Words report.
 
 To run the report, select Languages and a date range and click **Filter**.
+
+![](/uploads/versions/processed_words---x----2496-1558x---.png)
