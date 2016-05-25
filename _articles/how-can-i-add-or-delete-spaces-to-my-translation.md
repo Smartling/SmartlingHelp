@@ -45,6 +45,8 @@ Smartling does allow you to leave a target field empty, but warns you first.
 3. Use the code view to see where space appears and check that spacing is appropriate at the beginning and end of each field.
 
 
+![](/uploads/versions/smartling___translations_management_---x----2480-1324x---.png)
+
 **Please note:**
 
 * If you reorder a segment, the system automatically switches over to the manual space management.
