@@ -34,3 +34,16 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+If you have authorized content for translation by mistake, Smartling allows Account Owners and Project Managers to unauthorize strings from the List View. Unauthorized strings are returned to the **Awaiting Authorization** queue. The unauthorize action is recorded in the string's history.
+
+**Note:** Only strings without a translation can be unauthorized.
+
+**To unauthorize strings:**
+
+**(1)** From **Content>Translations**, select one or more strings and choose **Unauthorize** from the **Actions**menu.
+
+
+
+**(2)** Select the languages you want to unauthorize and click **Submit.**
+
