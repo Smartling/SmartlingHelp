@@ -7,7 +7,7 @@ Applies to:
   Application-Resource-Files: false
   CMS-Connectors: false
 redirect-url:
-wistia:https://app.cloudcannon.com/editor#/site/19991/collections/_articles/automatic-machine-translation.md
+wistia:
   video: false
   id:
 read-first:
