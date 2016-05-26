@@ -64,6 +64,8 @@ Fuzzy match estimates display the number of words for the profile at the time yo
 
 ![](/uploads/versions/fuzzyestimates2---x----1226-547x---.png)
 
+&nbsp;
+
 **3)**Select your locales and click **Create New Estimate**. The will be displayed in the dialogue when complete. Note that the estimate does not record the full list of strings you selected, so if you want to refer to the estimate again, it's a good idea to create a label, to remind you of the content.
 
 ![](/uploads/versions/fuzzyestimates3---x----877-277x---.png)
