@@ -77,6 +77,6 @@ Once you've deleted a language:
 
 From the **Summary** screen, mouseover to the right of the language you want to edit and click the **pencil** icon.
 
-![](/uploads/versions/smartling___summary-6---x----473-273x---.png)
+![small](/uploads/versions/smartling___summary-6---x----473-273x---.png)
 
 From the edit dialog box, you can select the [default workflow](){: .cc-active} and [style guide](){: .cc-active} for the language.
