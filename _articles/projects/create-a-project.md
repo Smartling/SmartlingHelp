@@ -46,7 +46,7 @@ Your first project will be created as you set up your Smartling account, but you
 
 **(2)** Select the Category and Type of your project.
 
-![](/hc/en-us/article_attachments/205215577/Smartling___Create_a_Project.png)
+![](/uploads/versions/smartling___create_a_project---x----650-587x---.png)
 
 Most project types require you to upload resource files for translation and are generally referred to as [Application Resource File](){: .cc-active} projects. There are three special project types to be aware of:
 
