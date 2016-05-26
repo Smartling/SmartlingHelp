@@ -63,6 +63,6 @@ Most project types require you to upload resource files for translation and are 
 * Target Languages - Translation languages for the project. You will only be able to add languages that are part of your selected Linguistic Package. You can add more languages to the package if necessary.
 
 
-![](/hc/en-us/article_attachments/207310127/Smartling___Create_a_Project.png)
+![](/uploads/versions/smartling___account_dashboard---x----1265-562x---.png)
 
 **(4)** Click **Create Project.** The new project is set up and ready for content to be added.
