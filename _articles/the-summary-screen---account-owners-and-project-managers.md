@@ -3,9 +3,9 @@ layout: article
 title: The Summary Screen - Account Owners and Project Managers
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 redirect-url:
 wistia:
   video: true
