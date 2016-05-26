@@ -33,9 +33,9 @@ migration-checklist:
 
 Smartling gives Account Owners the ability to add and delete languages in a project.
 
-**To add a language:**
+###To add a language:
 
-**(1)** From the **Content** summary screen, Click **Add language  
+**(1)** From the **Content** summary screen, Click **Add language ** 
 
 ![](/hc/en-us/article_attachments/204564347/Smartling___Summary.png)  
 **
@@ -57,9 +57,9 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
 
 **(3)** Click **Add**.
 
-You can [manage workflow settings](/hc/en-us/articles/203604913-Create-and-Customize-a-Workflow#Default) for the new language at **Project Settings > Workflow Settings**
+You can [manage workflow settings]() for the new language at **Project Settings > Workflow Settings**
 
-**To delete a language:**
+###To delete a language:
 
 From the **Summary** screen, mouseover to the right of the language you wish to delete and click **X**.
 
@@ -79,4 +79,4 @@ From the **Summary** screen, mouseover to the right of the language you want to 
 
 ![](/hc/en-us/article_attachments/204556658/Smartling___Summary.png)
 
-From the edit dialog box, you can select the [default workflow](/hc/en-us/articles/203604913-Create-and-Customize-a-Workflow#Default) and [style guide](/hc/en-us/articles/201427556) for the language.
+From the edit dialog box, you can select the [default workflow]() and [style guide]() for the language.
