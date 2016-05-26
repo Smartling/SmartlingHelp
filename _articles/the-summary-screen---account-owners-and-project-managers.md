@@ -32,7 +32,7 @@ migration-checklist:
 ---
 
 
-<iframe class="wistia_embed" src="//fast.wistia.net/embed/iframe/" name="wistia_embed" width="640" height="400" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+<iframe class="wistia_embed" src="//fast.wistia.net/embed/iframe/b5tf573pr1" name="wistia_embed" width="640" height="400" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
 
 The Summary screen offers an two overviews of a project. The main summary screen shows:
 
@@ -47,11 +47,7 @@ Click **⟳** to refresh the Summary display.
 
 Click **+ Add Language** to add a new language for translation.
 
-![](/hc/en-us/article_attachments/206049507/Smartling___Summary.png)
-
 Mouseover next to the name of a language to reveal the option to Edit or Delete a language. The Edit option allows you to change the [Default Workflow](/hc/en-us/articles/203604913#Default) for that language.
-
-![](/hc/en-us/article_attachments/206049517/Smartling___Summary.png)
 
 The Workflow summary screen gives you a breakdown of your content by Workflow. An expandable report for each workflow shows you the number of words of content per language in each step and word counts for Published and In Progress. Click on the word count for any Workflow step to go to see a list view of strings in that step. Red numbers next to a language indicate issues for that language.
 
