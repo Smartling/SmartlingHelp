@@ -8,23 +8,19 @@ Applies to:
   CMS-Connectors: false
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: b5tf573pr1
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -35,15 +31,17 @@ migration-checklist:
   related: false
 ---
 
+
 <iframe class="wistia_embed" src="//fast.wistia.net/embed/iframe/" name="wistia_embed" width="640" height="400" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
 
 The Summary screen offers an two overviews of a project. The main summary screen shows:
 
-*   Percentage of strings that are complete - for the whole project and by language
-*   Number of unresolved issues
-*   Number of strings to authorize
-*   Words in Translation Memory
-*   Daily translation activity - total or by language.
+* Percentage of strings that are complete - for the whole project and by language
+* Number of unresolved issues
+* Number of strings to authorize
+* Words in Translation Memory
+* Daily translation activity - total or by language.
+
 
 Click **⟳** to refresh the Summary display.
 
