@@ -3,28 +3,24 @@ layout: article
 title: Rename a Project
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
+redirect-url: /hc/en-us/articles/201788127
 wistia:
   video: false
   id:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -34,3 +30,8 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
+You can rename a project at any time from the&nbsp;**Projects**&nbsp;page by clicking the&nbsp;**Edit**&nbsp;icon next to the project in the&nbsp;**Actions**&nbsp;column.
+
+![](/uploads/versions/smartling___account_dashboard---x----1254-636x---.png)
