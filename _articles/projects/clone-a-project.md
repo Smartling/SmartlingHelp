@@ -44,11 +44,11 @@ Smartling must enable cloning functionality for each account. Ask your Client Se
 
 Click the dropdown menu on the project card and select **Clone**:
 
-![]()
+
 
 Smartling prompts you to edit the name of the cloned project and add/remove target languages
 
-![]()
+
 
 If you plan to clone several projects, consider creating a 'template' project that includes all potential languages that could be used as the source for cloning.
 
