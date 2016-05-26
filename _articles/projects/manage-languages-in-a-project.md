@@ -31,35 +31,34 @@ migration-checklist:
   related: false
 ---
 
+
 Smartling gives Account Owners the ability to add and delete languages in a project.
 
-###To add a language:
+### To add a language:
 
-**(1)** From the **Content** summary screen, Click **Add language ** 
+**(1)** From the **Content** summary screen, Click \*\*Add language \*\*
 
-![](/hc/en-us/article_attachments/204564347/Smartling___Summary.png)  
-**
+![](/hc/en-us/article_attachments/204564347/Smartling___Summary.png)
 
 **(2)** In the Add Language Dialog box, select:
 
-*   The **Language** you want to add.
-*   A **Style guide** from your style guide library.
-*   A **Default Translation Workflow** for authorized content in the new language.
-*   The **Authorization** type:
+* The **Language** you want to add.
+* A **Style guide** from your style guide library.
+* A **Default Translation Workflow** for authorized content in the new language.
+* The **Authorization** type:
+* **Authorize all active string**: all strings already active in the project will be authorized for translation
+* **Synchronize with a language**: use this option if you'd like to authorize the same strings authorized in another language (and have the option to select a language)
+* **I'll decide later**: the strings will be added to your awaiting authorization queue, where you'll be able to authorize them manually
+* **Sync Exclusions With -** Use this option to exclude strings for the new language based on excluded strings in another. This option is only available if you have chosen **Synchronize with a language**, above.
 
-*   **Authorize all active string**: all strings already active in the project will be authorized for translation
-*   **Synchronize with a language**: use this option if you'd like to authorize the same strings authorized in another language (and have the option to select a language)
-*   **I'll decide later**: the strings will be added to your awaiting authorization queue, where you'll be able to authorize them manually
-
-*   **Sync Exclusions With -** Use this option to exclude strings for the new language based on excluded strings in another. This option is only available if you have chosen **Synchronize with a language**, above.
 
 ![](/hc/en-us/article_attachments/204564477/Smartling___Summary.png)
 
 **(3)** Click **Add**.
 
-You can [manage workflow settings]() for the new language at **Project Settings > Workflow Settings**
+You can [manage workflow settings](){: .cc-active} for the new language at **Project Settings &gt; Workflow Settings**
 
-###To delete a language:
+### To delete a language:
 
 From the **Summary** screen, mouseover to the right of the language you wish to delete and click **X**.
 
@@ -67,11 +66,12 @@ From the **Summary** screen, mouseover to the right of the language you wish to 
 
 Once you've deleted a language:
 
-*   Published websites through the GDN will go offline.
-*   You will no longer be able to download translated files in the deleted language.
-*   Translations from the deleted language will no longer be counted towards your Words Under Management and your total will decrease. 
-*   Translations already completed in the deleted language will remain available in the Translation Memory and can be leveraged by other projects that share the same Translation Memory.
-*   Translations are not permanently lost. You can add the language back to the project at any time using **Add Languages** from the summary screen. Strings from the re-added language will return to whatever Workflow step they were in at the time they were deleted.
+* Published websites through the GDN will go offline.
+* You will no longer be able to download translated files in the deleted language.
+* Translations from the deleted language will no longer be counted towards your Words Under Management and your total will decrease.
+* Translations already completed in the deleted language will remain available in the Translation Memory and can be leveraged by other projects that share the same Translation Memory.
+* Translations are not permanently lost. You can add the language back to the project at any time using **Add Languages** from the summary screen. Strings from the re-added language will return to whatever Workflow step they were in at the time they were deleted.
+
 
 **To edit a language:**
 
@@ -79,4 +79,4 @@ From the **Summary** screen, mouseover to the right of the language you want to 
 
 ![](/hc/en-us/article_attachments/204556658/Smartling___Summary.png)
 
-From the edit dialog box, you can select the [default workflow]() and [style guide]() for the language.
+From the edit dialog box, you can select the [default workflow](){: .cc-active} and [style guide](){: .cc-active} for the language.
