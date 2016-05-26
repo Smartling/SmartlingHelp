@@ -3,8 +3,8 @@ layout: article
 title: Translation Memory
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
+  GDN: true
+  Application-Resource-Files: true
   CMS-Connectors: false
 redirect-url:
 wistia:
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -35,8 +31,6 @@ migration-checklist:
   related: false
 ---
 
-
-*The following article applies to Global Delivery Network, _Application Resource File*, Business Document, and CMS Connector project types._
 
 [What is Translation Memory?](#Intro)
 <br>[Manage Translation Memory for an Account](#Manage)
