@@ -4,8 +4,8 @@ title: Clone a Project
 draft: true
 Applies to:
   GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  Application-Resource-Files: true
+  CMS-Connectors: true
 redirect-url:
 wistia:
   video: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -34,15 +30,17 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
 Any Business Document, Application Resource File or CMS Connector project can be used as a template to clone a new project. The cloned project has the same languages, users, and settings as the source project, but no content or context files.
 
-All project-level Workflows will be copied to the cloned project, and users will have access to the same Workflow steps. Any locale-specific [Fuzzy Match profiles]() will also be copied to the cloned project.
+All project-level Workflows will be copied to the cloned project, and users will have access to the same Workflow steps. Any locale-specific [Fuzzy Match profiles](){: .cc-active} will also be copied to the cloned project.
 
 Cloning is useful if you expect to launch new projects frequently, or you want to organize your content into separate projects with similar settings. It’s also a quick way to get started on a new project with your usual settings.
 
 Smartling must enable cloning functionality for each account. Ask your Client Services Manager to enable cloning for your account.
 
-###To clone a project:
+### To clone a project:
 
 Click the dropdown menu on the project card and select **Clone**:
 
@@ -56,12 +54,13 @@ If you plan to clone several projects, consider creating a 'template' project th
 
 **What is Cloned?**
 
-*   Languages set up in your source project
-*   Users, including their roles and languages
-*   All elements of the workflow, including quality, assignment and auto-publish settings
-*   Any shared or imported Translation Memory files (.tmx), complete with the SmartMatch settings
-*   Style guides with locale-specific assignment
-*   Locale-specific fuzzy-match profiles
-*   Glossary
+* Languages set up in your source project
+* Users, including their roles and languages
+* All elements of the workflow, including quality, assignment and auto-publish settings
+* Any shared or imported Translation Memory files (.tmx), complete with the SmartMatch settings
+* Style guides with locale-specific assignment
+* Locale-specific fuzzy-match profiles
+* Glossary
+
 
 Source and image context files **will not be copied**.
