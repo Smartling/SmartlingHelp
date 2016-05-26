@@ -38,7 +38,7 @@ migration-checklist:
 
 Your first project will be created as you set up your Smartling account, but you can create any number of additional projects from the Dashboard. If you need assistance setting up new projects, contact your Client Services Manager.
 
-**To create a project:**
+###To create a project:
 
 **(1)** From the Projects section of the Account Dashboard, click **Create New Project**.
 
@@ -46,7 +46,7 @@ Your first project will be created as you set up your Smartling account, but you
 
 **(2)** Select the Category and Type of your project.
 
-!['medium'](/uploads/versions/smartling___create_a_project---x----650-587x---.png)
+!['small'](/uploads/versions/smartling___create_a_project---x----650-587x---.png)
 
 Most project types require you to upload resource files for translation and are generally referred to as [Application Resource File](){: .cc-active} projects. There are three special project types to be aware of:
 
