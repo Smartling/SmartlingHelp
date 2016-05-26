@@ -36,7 +36,9 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
 
 ### To add a language:
 
-**(1)** From the **Content** summary screen, Click **Add Language.**![](/uploads/versions/smartling___summary-3---x----1243-762x---.png)
+**(1)** From the **Content** summary screen, Click **Add Language.**
+
+![](/uploads/versions/smartling___summary-3---x----1243-762x---.png)
 
 **(2)** In the Add Language Dialog box, select:
 
