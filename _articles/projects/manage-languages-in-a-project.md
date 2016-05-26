@@ -36,9 +36,7 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
 
 ### To add a language:
 
-**(1)** From the **Content** summary screen, Click \*\*Add language \*\*
-
-![](/hc/en-us/article_attachments/204564347/Smartling___Summary.png)
+**(1)** From the **Content** summary screen, Click **Add Language.**![](/uploads/versions/smartling___summary-3---x----1243-762x---.png)
 
 **(2)** In the Add Language Dialog box, select:
 
@@ -46,9 +44,9 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
 * A **Style guide** from your style guide library.
 * A **Default Translation Workflow** for authorized content in the new language.
 * The **Authorization** type:
-    * **Authorize all active string**: all strings already active in the project will be authorized for translation
-    * **Synchronize with a language**: use this option if you'd like to authorize the same strings authorized in another language (and have the option to select a language)
-    * **I'll decide later**: the strings will be added to your awaiting authorization queue, where you'll be able to authorize them manually
+  * **Authorize all active string**: all strings already active in the project will be authorized for translation
+  * **Synchronize with a language**: use this option if you'd like to authorize the same strings authorized in another language (and have the option to select a language)
+  * **I'll decide later**: the strings will be added to your awaiting authorization queue, where you'll be able to authorize them manually
 * **Sync Exclusions With -** Use this option to exclude strings for the new language based on excluded strings in another. This option is only available if you have chosen **Synchronize with a language**, above.
 
 
