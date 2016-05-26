@@ -88,6 +88,6 @@ If your TMX file has a first line like:
 
 This is a legacy Trados text TM format that does not conform to the latest TMX standards and Smartling will not import the file. You can convert these TMX files to standard TMX files using free converters like Apsic XBench ([http://www.apsic.com/en/downloads.aspx](http://www.apsic.com/en/downloads.aspx)).
 
-**To upload a TMX file to Smartling**: 1. From Assets **Translation Memory, **clickUpload TMX 2. Select or Drag/Drop your TMX file and click OK. **Note:** An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/hc/en-us/articles/218671488), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file. 
+**To upload a TMX file to Smartling**: 1. From Assets **Translation Memory**, click **Upload TMX** 2. Select or Drag/Drop your TMX file and click OK. **Note:** An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/hc/en-us/articles/218671488), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file. 
 
 &nbsp;
