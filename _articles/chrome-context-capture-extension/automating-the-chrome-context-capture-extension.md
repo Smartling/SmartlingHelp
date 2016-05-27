@@ -60,12 +60,7 @@ By default the Chrome Context Capture Extension will not override existing conte
 
 <url-list> node populated with a list of URLs you wish to contextualize. You can also preload your Project UID and API key by adding this code at the top of your sitemap:</url-list>
 
-```
-<smartlingconfig>
-    <apikey>#######</apikey>
-    <projectUID>#######</projectUID>
-</smartlingconfig>
-```
+
 
 You can download a custom sitemap template [here](){: .cc-active}.
 
