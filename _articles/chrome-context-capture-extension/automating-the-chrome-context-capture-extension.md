@@ -48,7 +48,7 @@ By default the Chrome Context Capture Extension will not override existing conte
 
 **(2)** Select **Automation Tool**
 
-![](/uploads/versions/smartling_context_snapshot_options-1---x----688-752x---.png)
+![medium](/uploads/versions/smartling_context_snapshot_options-1---x----688-752x---.png)
 
 **(3)** Drag your site’s sitemap.xml file into the marked area.
 
