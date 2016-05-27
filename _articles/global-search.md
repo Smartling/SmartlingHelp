@@ -34,3 +34,10 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+Global Search lets you search content and translations across projects and languages to quickly find content, regardless of workflow state. You can find strings by source or translation, and for Resource File projects, by file or key. All strings matching the search criteria, including archived strings, display.
+
+Access Global Search for an account by clicking **Content Search** in the Account Dashboard.
+
+
+From the search screen, you can choose which projects, files and languages to search and construct your query.
