@@ -53,7 +53,7 @@ Only use the Chrome extension on **source language sites**. For example, if your
 
 **(3)** Click the Context Capture toolbar button. The extension will capture the current state of the page at the moment you click. If you want to capture a dynamic element such as a modal dialog, make sure that element is displaying on the page before you click the toolbar button.
 
-![](/uploads/versions/smartling_global_content_translation_and_localization_solution---x----491-303x---.png)
+![small](/uploads/versions/smartling_global_content_translation_and_localization_solution---x----491-303x---.png)
 
 **(4)** Login and, from the drop-down, select the destination project for the snapshot. You can preview the snapshot by clicking **Preview**.
 
@@ -108,7 +108,7 @@ Instrumented files are a modified version of the original file with each string 
 
 **1)** From **Content&gt;Files**, download the instrumented files containing the strings you want to contextualize. You can also download instrumented files [via API](https://docs.smartling.com/display/docs/Files+API#FilesAPI-/file/get(GET)).
 
-![](/uploads/versions/smartling___manage_files---x----794-570x---.png)
+![medium](/uploads/versions/smartling___manage_files---x----794-570x---.png)
 
 **2)** Deploy your web application using the instrumented files.
 
@@ -124,7 +124,7 @@ To make it easier to capture difficult-to-expose elements of a page, you can set
 
 **(2)** In the Smartling Context Capture section, type a keyboard shortcut and click **OK**.
 
-![](/uploads/versions/extensions-1---x----494-222x---.png)
+![small](/uploads/versions/extensions-1---x----494-222x---.png)
 
 ## Execute Custom Javascript Prior to Snapshot
 
@@ -134,7 +134,7 @@ You can set up the Chrome Context Capture Extension to execute custom javascript
 
 **(2)** Check **Execute javascript prior to snapshot** and enter the code you wish to execute.
 
-![](/uploads/versions/smartling_context_snapshot_options---x----685-761x---.png)
+![medium](/uploads/versions/smartling_context_snapshot_options---x----685-761x---.png)
 
 **(3)** Follow the procedure for [Taking a Snapshot](){: .cc-active}.
 
