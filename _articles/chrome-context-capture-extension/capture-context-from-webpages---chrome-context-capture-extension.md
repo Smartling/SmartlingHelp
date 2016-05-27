@@ -4,27 +4,23 @@ title: Capture Context from Webpages - Chrome Context Capture Extension
 draft: true
 Applies to:
   GDN: false
-  Application-Resource-Files: false
+  Application-Resource-Files: true
   CMS-Connectors: false
-redirect-url:
+redirect-url: /hc/en-us/articles/202007178/
 wistia:
   video: false
   id:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
