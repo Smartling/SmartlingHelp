@@ -3,9 +3,9 @@ layout: article
 title: Global Search
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 redirect-url:
 wistia:
   video: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
