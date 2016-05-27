@@ -36,9 +36,7 @@ migration-checklist:
 ---
 
 
-The Chrome Context Capture Extension can be automated to capture context for an entire website.
-
-The Automation Tool is only available for Application Resource Files projects.
+The Chrome Context Capture Extension can be automated to capture context for an entire website. The Automation Tool is only available for Application Resource Files projects.
 
 By default the Chrome Context Capture Extension will not override existing context.
 
@@ -69,7 +67,7 @@ By default the Chrome Context Capture Extension will not override existing conte
 
 You can download a custom sitemap template [here](){: .cc-active}.
 
-**(4)**Set up the automation tool:
+**(4)&nbsp;**Set up the automation tool:
 
 ![](/uploads/versions/smartling_context_snapshot_options-3---x----946-525x---.png)
 
