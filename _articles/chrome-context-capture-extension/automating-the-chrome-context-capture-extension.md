@@ -74,8 +74,8 @@ You can download a custom sitemap template [here](){: .cc-active}.
 ![](/uploads/versions/smartling_context_snapshot_options-3---x----946-525x---.png)
 
 * **Project UID** - Can be found on the Dashboard at **Project Settings&gt;API.
-* **API Key\** - Can be found on the Dashboard at **Project Settings&gt;API.
-* **Wait\** - Instructs the Chrome Context Capture Extension to wait X milliseconds after loading a page to take a snapshot. Use this feature if you have javascript that executes on loading a page.
+* **API Key** - Can be found on the Dashboard at **Project Settings&gt;API.
+* **Wait** - Instructs the Chrome Context Capture Extension to wait X milliseconds after loading a page to take a snapshot. Use this feature if you have javascript that executes on loading a page.
 * **Advanced** - allows you to execute custom javascript on each page before taking a snapshot.
 * **URL Filter** - Filters URLs by text. Snapshots will only be taken of URLs matching your filter text.
 * **Test mode** - If checked, the Chrome Context Capture Extension will crawl the selected urls, but will not take snapshots. You can also click test next to any URL to view a preview snapshot for that URL.
