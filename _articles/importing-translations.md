@@ -43,14 +43,14 @@ You cannot import translations unless there are source strings in the Smartling 
 
 1.  From the **Files** page, click the file for which you want to import translations, and next to the language, select**Import Translations**.  
 
-    ![](/hc/en-us/article_attachments/205440467/Smartling___Manage_Files.png)  
+   
 
 2.  In the Import Translations dialog box, select the corresponding translated file and the workflow step at which you want the translations: **First Revision Step** or **Published**. The content is imported into the language's default workflow. **Note:**if your default language workflow has no post-translation steps, you'll only be able to "Publish" .  
 
-    ![](/hc/en-us/article_attachments/205440507/Smartling___Manage_Files.png)  
+ 
 
 3.  A success message will display the total number of matched strings and list any import errors. An issue will be automatically created for each string with an import error.  
-    ![](/hc/en-us/article_attachments/206009138/Smartling___Manage_Files.png)
+
 
 The most common import error is a placeholder mismatch. This may be caused by having different placeholder directives in the original and translated files. If a later import has no errors, these issues will be resolved automatically.
 
