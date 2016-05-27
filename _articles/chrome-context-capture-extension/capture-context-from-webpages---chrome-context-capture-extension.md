@@ -41,11 +41,11 @@ Only use the Chrome extension on **source language sites**. For example, if your
 
 *   [Taking a Snapshot](#taking-a-snapshot)
 *   [Targeting Specific Strings](#targeting-specific-strings)
-*   [Snapshot History](#History)
-*   [Improve Context Matching with Instrumented Files](#Instrumented)
-*   [Setting a Keyboard Shortcut](#Shortcut)
-*   [Execute Custom Javascript Prior to Snapshot](#Custom)
-*   [Capturing Context on iframe Sites](#Iframe)
+*   [Snapshot History](#snapshot-history)
+*   [Improve Context Matching with Instrumented Files](#improve-context-matching-with-instrumented-files)
+*   [Setting a Keyboard Shortcut](#setting-a-keyboard-shortcut)
+*   [Execute Custom Javascript Prior to Snapshot](#execute-custom-javascript-prior-to-snapshot)
+*   [Capturing Context on iframe Sites](#capturing-context-on-iframe-sites)
 
 ##Taking a Snapshot
 
