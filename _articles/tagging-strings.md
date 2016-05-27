@@ -40,7 +40,6 @@ Content owners can add a tags to any Smartling string to help you group your con
 
 Select the strings you want to tag and, from the Actions menu, select **Add Tags** and type a tag.
 
-![](/hc/en-us/article_attachments/205280728/Smartling___Translations_Management_and__SLDSS-18938__Improve_working_with_Tags_-_Smartling.png)
 
 **Note:**You can only add one tag at a time.  
 
@@ -48,10 +47,8 @@ Select the strings you want to tag and, from the Actions menu, select **Add Tags
 
 From the List View, select tagged strings and, from the actions menu, select **Remove Tags**. You can clear all tags or choose tags to remove.
 
-![](/hc/en-us/article_attachments/205303537/Smartling___Translations_Management.png)
 
 **To search by tags:**
 
 From the List View, click the search dropdown and select a tag under **Search by Tag**.
 
-![](/hc/en-us/article_attachments/205281048/Smartling___Translations_Management.png)
