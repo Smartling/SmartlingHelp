@@ -48,20 +48,11 @@ If you use browser automation software - such as Selenium, PhantomJS - for testi
 
 **(3)** To take a snapshot during automation, add this code to your script.
 
-```javascript
-fireSmartlingChromeExtension({ 
-   "projectId": "projectUID",   
-   "apiKey":"project-api-key", 
-   "callback":function(submissionData){ 
-        //snapshot is submitted, move on 
-   } 
-});
-```
-
+`javascript fireSmartlingChromeExtension({ "projectId": "projectUID", "apiKey":"project-api-key", "callback":function(submissionData){ //snapshot is submitted, move on } });`
 
 ## Override Existing Context
 
-By default the Chrome Context Capture Extension will not override existing context, but this behavior can be customized by using your automation script to apply Smartling HTML classes to a page or to specific elements in the DOM.
+By default, the Chrome Context Capture Extension will not override existing context, but this behavior can be customized by using your automation script to apply Smartling HTML classes to a page or to specific elements in the DOM.
 
 ### To override context for an entire page:
 
