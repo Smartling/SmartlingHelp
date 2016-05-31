@@ -48,7 +48,16 @@ If you use browser automation software - such as Selenium, PhantomJS - for testi
 
 **(3)** To take a snapshot during automation, add this code to your script.
 
-`fireSmartlingChromeExtension({ "projectId": "projectUID", "apiKey":"project-api-key", "callback":function(submissionData){ //snapshot is submitted, move on } });`
+```
+fireSmartlingChromeExtension({ 
+   "projectId": "projectUID",   
+   "apiKey":"project-api-key", 
+   "callback":function(submissionData){ 
+        //snapshot is submitted, move on 
+   } 
+});
+```
+
 
 ## Override Existing Context
 
