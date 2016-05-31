@@ -3,9 +3,9 @@ layout: article
 title: 'Content Capture: String Ingestion Limits'
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 redirect-url:
 wistia:
   video: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -48,6 +44,6 @@ Files projects do not have a limit of strings that can be ingested, but we do [l
 
 **If you have reached the limit of content that can be ingested:**
 
-*   Authorize, exclude, or delete strings so that new strings can be captured.
-*   For Global Delivery Network Project, use [in-context authorization](/hc/en-us/articles/202297526-Inline-Content-Authorization-).
-*   Contact your Client Services Manager
+* Authorize, exclude, or delete strings so that new strings can be captured.
+* For Global Delivery Network Project, use [in-context authorization](/hc/en-us/articles/202297526-Inline-Content-Authorization-).
+* Contact your Client Services Manager
