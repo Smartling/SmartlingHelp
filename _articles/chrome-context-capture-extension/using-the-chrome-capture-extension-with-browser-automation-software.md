@@ -46,9 +46,9 @@ If you use browser automation software - such as Selenium, PhantomJS - for testi
 ![](/hc/en-us/article_attachments/207792667/Smartling_Context_Snapshot_Options.png)
 
 **(3)** To take a snapshot during automation, add this code to your script.
-'''
+```
 d
-'''
+```
 
 <span class="wysiwyg-font-size-large">**Override Existing Context**</span>
 
