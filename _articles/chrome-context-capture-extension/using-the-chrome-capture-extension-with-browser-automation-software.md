@@ -46,11 +46,9 @@ If you use browser automation software - such as Selenium, PhantomJS - for testi
 
 ![medium](/uploads/versions/smartling_context_snapshot_options---x----719-771x---.png)
 
-**(3)** To take a snapshot during automation, add this code to your script. 
+**(3)** To take a snapshot during automation, add this code to your script.
 
-```
-fireSmartlingChromeExtension({ "projectId": "projectUID", "apiKey":"project-api-key", "callback":function(submissionData){ //snapshot is submitted, move on } });
-```
+`fireSmartlingChromeExtension({ "projectId": "projectUID", "apiKey":"project-api-key", "callback":function(submissionData){ //snapshot is submitted, move on } });`
 
 ## Override Existing Context
 
