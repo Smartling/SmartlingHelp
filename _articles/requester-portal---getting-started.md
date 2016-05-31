@@ -34,6 +34,8 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
 <iframe class="wistia_embed" src="//fast.wistia.net/embed/iframe/htxr7wcdar" name="wistia_embed" width="630" height="394" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
 
 Smartling’s Requester Portal is a limited view of the Smartling dashboard that allows a user only to submit jobs for translation, monitor the progress of translations and download completed translations.
@@ -48,12 +50,12 @@ The Requester Portal must be enabled by Smartling before it can be accessed by a
 
 **(2)** Select **Requester** as the user role.
 
-
-****
+![](/uploads/versions/requesterintro1---x----1778-1090x---.png)
 
 **To set authorization preferences:**
 
-**(1)** From **Content>Jobs**, click the **Gear** icon.
+**(1)** From **Content&gt;Jobs**, click the **Gear** icon.
 
 **(2)** If you want Requesters to be able to authorize their own jobs for translation, check **Requesters authorize jobs for translation**. If the box is unchecked, jobs submitted by Requesters need to be authorized by a Project Manager or Account Owner.
 
+![](/uploads/versions/requestrintro2---x----2450-800x---.png)
