@@ -48,7 +48,7 @@ If you use browser automation software - such as Selenium, PhantomJS - for testi
 
 **(3)** To take a snapshot during automation, add this code to your script.
 
-```
+```javascript
 fireSmartlingChromeExtension({ 
    "projectId": "projectUID",   
    "apiKey":"project-api-key", 
