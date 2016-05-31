@@ -34,19 +34,25 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
 For non-web content such as mobile or desktop apps, Image files can be uploaded to provide context.
 
 **To add Image Context files**:
 
-**(1)** From **Translations** > **Image Context**, click **+** to upload an image (JPG or PNG) or drag and drop the image into the window.
+**(1)** From **Translations** &gt; **Image Context**, click **+** to upload an image (JPG or PNG) or drag and drop the image into the window.
+
+![](/uploads/versions/mobilecontext---x----1242-556x---.png)
 
 **(2)** Select a region containing a visible string, then type a few characters of the string and select the correct string from the menu that appears. Click **Save**.
+
+![](/uploads/versions/mobilecontext2---x----1219-828x---.png)
 
 **(3)** Repeat step 2 for all the strings in the image.
 
 **To remove Image Context files**:
 
-**(1)** On the image context page at **Files>Image Context**, click the image.
+**(1)** On the image context page at **Files&gt;Image Context**, click the image.
 
 **(2)** In the Image Context dialog, click **Remove**.
 
@@ -54,9 +60,9 @@ For non-web content such as mobile or desktop apps, Image files can be uploaded 
 
 When searching for the following string:
 
-"<b>Current location is {0}</b>. Click to select a new location."
+"**Current location is {0}**. Click to select a new location."
 
-If you type the following in the searches:  
-"Current location is. Click to select a new location" = no results"Current location is." = no results"Current location is" = correct result
+If you type the following in the searches:
+<br>"Current location is. Click to select a new location" = no results"Current location is." = no results"Current location is" = correct result
 
 **Please Note:** If your content can be viewed in a browser, it is preferable to capture dynamic context with the [Chrome Context Capture Extension](/hc/en-us/articles/202007178).
