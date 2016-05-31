@@ -6,7 +6,7 @@ Applies to:
   GDN: true
   Application-Resource-Files: true
   CMS-Connectors: true
-redirect-url:
+redirect-url: 201209266/index.html
 wistia:
   video: false
   id:
