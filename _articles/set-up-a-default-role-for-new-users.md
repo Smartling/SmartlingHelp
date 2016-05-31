@@ -33,7 +33,8 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
---
+---
+
 Account Owners can configure their Smartling account to allow anyone with an email address in a company domain (e.g. username@mycompany.com) to set up a Smartling profile, instead of having to invite each user individually. To do this you need to set up a default role and set of projects for new users to have access to.
 
 **To set up access for your domain:**
