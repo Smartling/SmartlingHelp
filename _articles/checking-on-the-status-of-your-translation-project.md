@@ -31,9 +31,7 @@ migration-checklist:
   related: false
 ---
 
-
-&nbsp;
-
+<div class="wistia_embed wistia_async_781522uoyz" style="height: 394px; width: 630px;"></div>
 **1. Use the Workflow summary view**
 
 ![](/uploads/versions/checkstatus---x----2560-1408x---.png)The [Workflow summary view](/hc/en-us/articles/203574006-The-Summary-Screen-Account-Owners-and-Project-Managers) gives you a global view of your content and quickly lets you know where your content is at by language, workflow and workflow step. Now just click on a number to access the content under that step and language.
