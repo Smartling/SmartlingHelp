@@ -32,7 +32,6 @@ migration-checklist:
 ---
 
 Your organization may decide to not translate specific content, so it may be appropriate to hide the original HTML element. In this case, you can use the exclusion class “SL_hide” to both exclude the content from translation and hide the original content on the translated site. This differs from the HTML class name "notranslate" which excludes the content from translation, but displays the original content on the translated site.
-
 For example, consider the following navigation:
 
 ~~~
@@ -46,14 +45,11 @@ For example, consider the following navigation:
 ~~~
 
 Smartling will translate all of the items in the navigation menu with the exception of “Offices”. This item will be hidden, and not display in the translation.  
-
 Given that Smartling excludes the entire HTML element, this may affect the layout on the translated page.
 
 **Hiding Content in the Head of a HTML Page**
 
-You can hide content in the `<head>` of HTML page using the `SL:start:hide` class.  
-
-For example:  
+You can hide content in the `<head>` of HTML page using the `SL:start:hide` class. For example:  
 
 ~~~
 <!-- SL:start:hide -->  
