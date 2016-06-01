@@ -35,6 +35,10 @@ By default, the Smartling Chrome Content Capture Extension will not overwrite ex
 
 You can also control context override in the Chrome Context Capture Extension by marking your site code with Smartling HTML classes. This is especially useful when automating. To override context for an entire page, just add the two classes "sl-override-context sl-translate" to the page's HTML tag.
 
+~~~
+Test Code Block
+~~~
+
 ###To override context for specific elements on the page:
 
 **(1)** Add the "sl-notranslate" class to the HTML tag of the page.
