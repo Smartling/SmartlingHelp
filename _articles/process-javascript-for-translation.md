@@ -211,6 +211,7 @@ SomeClass.method({"sl_translate" : "sl_all" , "markup" : "this is a test" });
 /* </sl:translate_json> */
 
 DoSomething(something);
+~~~
 
 **Notes**:
 
