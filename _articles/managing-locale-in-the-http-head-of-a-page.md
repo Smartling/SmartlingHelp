@@ -76,4 +76,4 @@ If you tag meta keywords for swapping to localize content (instead of excluding 
 
 ## Title and Meta
 
-Text appearing within the page <title></title> tags, as well as the keywords and description <meta> tags will always be translated and need not be marked for translation.
+Text appearing within the page ```<title></title>``` tags, as well as the keywords and description ```<meta>``` tags will always be translated and need not be marked for translation.
