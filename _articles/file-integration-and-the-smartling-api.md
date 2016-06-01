@@ -4,7 +4,7 @@ title: File Integration And The Smartling API
 draft: true
 Applies to:
   GDN: false
-  Application-Resource-Files: false
+  Application-Resource-Files: true
   CMS-Connectors: false
 redirect-url:
 wistia:
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -34,3 +30,5 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
