@@ -37,12 +37,11 @@ For example, consider the following navigation:
 
 ~~~
 <ul>  
-
-          <li>About Us</li>  
-          <li>Products</li>  
-          <li>Services</li>  
-          <li class=”SL_hide”>Offices</li>  
-          <li>Shopping Cart</li>  
+     <li>About Us</li>  
+     <li>Products</li>  
+     <li>Services</li>  
+     <li class=”SL_hide”>Offices</li>  
+     <li>Shopping Cart</li>  
 </ul>
 ~~~
 
@@ -52,7 +51,7 @@ Given that Smartling excludes the entire HTML element, this may affect the layou
 
 **Hiding Content in the Head of a HTML Page**
 
-You can hide content in the `<head>` of HTML page using the "SL:start:hide" class.  
+You can hide content in the `<head>` of HTML page using the `SL:start:hide` class.  
 
 For example:  
 
