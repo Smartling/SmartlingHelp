@@ -32,7 +32,7 @@ migration-checklist:
 ---
 Smartling uses patterns to avoid retranslating repeating content with variables. [Patterns can be created in the Dashboard](/hc/en-us/articles/202660343), or can be created by integrating your website's HTML code using the Smartling notranslate class.
 
-**Pattern Match Inline Content***
+**Pattern Match Inline Content**
 
 Using the “notranslate” tag within an inline tag such as a `<span>` or `<strong>`, you can use a placeholder that matches the overall pattern to force the content to be extracted for translation; for example, the following content  
 
