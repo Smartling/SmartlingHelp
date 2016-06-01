@@ -60,15 +60,27 @@ You can exclude or specify custom localized content in the meta tags (keywords a
 
 Here's an example that swaps meta keywords:
 
-```<div><!-- SL:swap-start:id:/page/html.html-keywords --></div>    <div><meta name="keywords" content="keyword1, keyword2, keyword three"></div>   <!-- SL:swap-end -->```
+```
+<div><!-- SL:swap-start:id:/page/html.html-keywords --></div>    
+<div><meta name="keywords" content="keyword1, keyword2, keyword three"></div>   
+<!-- SL:swap-end -->
+```
 
 **To exclude content**:
 
-```class="Body"><!-- SL:start:notranslate -->  <meta property="og:description" content="Smartling will exclude this content." />  <!-- SL:end:notranslate -->```
+```
+class="Body"><!-- SL:start:notranslate -->  
+<meta property="og:description" content="Smartling will exclude this content." />  
+<!-- SL:end:notranslate -->
+```
 
 **To localize content**:
 
-```class="Body"><!-- SL:[swap-start:id:UniqueID](http://swap-startidMetaDescription_Page1 "Link: http://swap-startidMetaDescription_Page1") -->  <meta property="[og:description](http://ogdescription "Link: http://ogdescription")" content="This content will appear in Smartling at Content > Localized Content" />  <!-- SL:swap-end -->```
+```
+class="Body"><!-- SL:[swap-start:id:UniqueID](http://swap-startidMetaDescription_Page1 "Link: http://swap-startidMetaDescription_Page1") -->  
+<meta property="[og:description](http://ogdescription "Link: http://ogdescription")" content="This content will appear in Smartling at Content > Localized Content" />  
+<!-- SL:swap-end -->
+```
 
 **UniqueID** is unique HTML ID that you specify and must be unique across all ID's in your content
 
