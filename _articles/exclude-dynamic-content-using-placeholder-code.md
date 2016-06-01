@@ -42,7 +42,7 @@ For example, the .properties string:
 
 is captured by Smartling with the placeholder code intact, allowing you to translate the static text and let your application populate the dynamic content.
 
-![](/hc/en-us/article_attachments/206386987/Smartling___Translations_Management.png)
+
 
 **Positional Information in Placeholders**
 
