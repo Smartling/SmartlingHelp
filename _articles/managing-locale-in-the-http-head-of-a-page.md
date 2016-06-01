@@ -56,12 +56,12 @@ You can add server-side logic to detect the language in use and add appropriate 
 
 Localized content consists of strings from your source site that you may want to completely replace with entirely different content in your translated locales. This could be either different source content that requires translation, or locale-specific content that is already translated such as a client testimonial. Smartling refers to this as content 'swap'.
 
-You can exclude or specify custom localized content in the meta tags (keywords and descriptions) and title tag that appear in the <head> tag of a page by using the Smartling "notranslate" and "SL:swap" HTML comments.
+You can exclude or specify custom localized content in the meta tags (keywords and descriptions) and title tag that appear in the `<head>` tag of a page by using the Smartling "notranslate" and "SL:swap" HTML comments.
 
 **Here's an example that swaps meta keywords:**
 
 ```
-<!-- SL:swap-start:id:/page/html.html-keywords -->
+<div><!-- SL:swap-start:id:/page/html.html-keywords --></div>
 
 <div><meta name="keywords" content="keyword1, keyword2, keyword three"></div>
 
