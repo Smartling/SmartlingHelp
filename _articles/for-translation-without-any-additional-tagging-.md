@@ -3,7 +3,7 @@ layout: article
 title: How to Specify a Language-Specific CSS
 draft: true
 Applies to:
-  GDN: false
+  GDN: true
   Application-Resource-Files: false
   CMS-Connectors: false
 redirect-url:
