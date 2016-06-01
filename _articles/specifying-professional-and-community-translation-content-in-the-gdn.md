@@ -40,7 +40,6 @@ You can also specify the translation method within existing classes.
 **How to Specify Content for Professional Translation**
 
 If you want to specify that content should be translated by professional translation across all languages, add a class of “pro” to the surrounding HTML element; for example:
-
 ~~~
 <div class=”pro”>
 This content will be translated.
@@ -48,7 +47,6 @@ This content will be translated.
 ~~~
 
 Nested elements inside a “pro” div will also be translated; for example:
-
 ~~~
 <div class=”pro”>
 This content will be translated.
