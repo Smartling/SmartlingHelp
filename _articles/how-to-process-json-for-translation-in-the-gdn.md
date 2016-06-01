@@ -59,7 +59,8 @@ where the value of `sl_translate` is a comma delimited list of the key names who
 Smartling also supports values of `sl_all` or `sl_none` in JSON. For example, Smartling will translate the values for all of the following key names:
 
 
-~~~{  
+~~~
+{  
     "sl_translate": "sl_all"  
     "markup_a": "<div>Smartling will translate this content</div>"  
     "markup_b": "<div>Smartling will also translate this content</div>",  
