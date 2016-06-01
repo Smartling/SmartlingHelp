@@ -202,6 +202,7 @@ This may work in testing, but minification is likely to change the function name
 
 Smartling automatically parses JSON in JavaScript in cases where there are special markers around the string, containing JSON. By default, opening and closing markers are `/* <sl:translate_json>*/` `/*</sl:translate_json>`
 
+
 ~~~
 var something = "Something"
 /* <sl:translate_json> */
