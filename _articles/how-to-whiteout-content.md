@@ -40,16 +40,14 @@ For security or privacy reasons, your organization may want to whiteout HTML con
 
 For example, the following HTML:
 
-```
-html <body>  Public text  <div class="sl_whiteout">  Private text   <div>Private text in a subtag</div>   </div>  </body>  </html>
-```
+`&lt;html&gt; &lt;body&gt; Public text &lt;div class="sl_whiteout"&gt; Private text &lt;div&gt;Private text in a subtag&lt;/div&gt; &lt;/div&gt; &lt;/body&gt; &lt;/html&gt;`
 
 Appears as the following in the Translator Interface for professional translators and other roles:
 
-Public text  
-******* ****  
-******* **** ** * ******
+Public text
+<br>**\*\***\* **\*\*
+<br>\*\*****\* \*\*** \*\* \* **\*\***
 
-Smartling also displays placeholders (***) that are not editable for any elements nested inside the whiteout class.
+Smartling also displays placeholders (\*\*\*) that are not editable for any elements nested inside the whiteout class.
 
 Smartling does not store the "whiteout" content anywhere in the Smartling infrastructure.
