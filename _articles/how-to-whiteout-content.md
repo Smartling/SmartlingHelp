@@ -40,11 +40,11 @@ For example, the following HTML:
 ~~~
 <html>  
 <body>  
-  Public text  
-  <div class="sl_whiteout">  
-    Private text  
-    <div>Private text in a subtag</div>  
-  </div>  
+Public text  
+<div class="sl_whiteout">  
+Private text  
+<div>Private text in a subtag</div>  
+</div>  
 </body>  
 </html>
 ~~~
