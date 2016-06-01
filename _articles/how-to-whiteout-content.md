@@ -41,7 +41,7 @@ For security or privacy reasons, your organization may want to whiteout HTML con
 For example, the following HTML:
 
 ```
-<html>  <body>  Public text  <div class="sl_whiteout">  Private text   <div>Private text in a subtag</div>   </div>  </body>  </html>
+html <body>  Public text  <div class="sl_whiteout">  Private text   <div>Private text in a subtag</div>   </div>  </body>  </html>
 ```
 
 Appears as the following in the Translator Interface for professional translators and other roles:
