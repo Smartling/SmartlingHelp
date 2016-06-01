@@ -39,9 +39,9 @@ If your source website has a Secure Sockets Layer (SSL) certificate and uses the
 
 **Wildcard Certificates**  
 
-A wildcard SSL certificate secures your website URL and an unlimited number of subdomains at the level you specify; for example, the wildcard certificate '`.mysite.com`, secures es.mysite.com, de.mysite.com, shop.mysite.com (but does not secure mysite.com, es.shop.mysite.com or de.shop.mysite.com).
+A wildcard SSL certificate secures your website URL and an unlimited number of subdomains at the level you specify; for example, the wildcard certificate `*.mysite.com`, secures es.mysite.com, de.mysite.com, shop.mysite.com (but does not secure mysite.com, es.shop.mysite.com or de.shop.mysite.com).
 
-The advantage of using a wildcard SSL certificate is that you can add any number of language subdomains without having to purchase or provide Smartling with another SSL certificate. This is a good solution if your site has multiple subdomains or a single domain that must be secure; for example, *.secure.mysite.com.
+The advantage of using a wildcard SSL certificate is that you can add any number of language subdomains without having to purchase or provide Smartling with another SSL certificate. This is a good solution if your site has multiple subdomains or a single domain that must be secure; for example, `*.secure.mysite.com`.
 
 **UC/SAN Certificates**  
 
