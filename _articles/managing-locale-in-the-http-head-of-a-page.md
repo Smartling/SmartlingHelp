@@ -59,25 +59,31 @@ Localized content consists of strings from your source site that you may want to
 You can exclude or specify custom localized content in the meta tags (keywords and descriptions) and title tag that appear in the `&lt;head&gt;` tag of a page by using the Smartling "notranslate" and "SL:swap" HTML comments.
 
 **Here's an example that swaps meta keywords:**
+
 ~~~
 <!-- SL:swap-start:id:/page/html.html-keywords -->
 <meta name="keywords" content="keyword1, keyword2, keyword three">
 <!-- SL:swap-end -->
 ~~~
 
+
 **To exclude content**:
+
 ~~~
 <!-- SL:start:notranslate -->
  <meta property="og:description" content="Smartling will exclude this content." />
 <!-- SL:end:notranslate -->
 ~~~
 
+
 **To localize content**:
+
 ~~~
 <!-- SL:swap-start:id:UniqueID -->
 <meta property="og:description" content="This content will appear in Smartling at Content > Localized Content" />
 <!-- SL:swap-end -->
 ~~~
+
 
 **UniqueID** is unique HTML ID that you specify and must be unique across all ID's in your content
 
