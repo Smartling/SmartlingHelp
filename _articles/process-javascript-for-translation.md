@@ -149,21 +149,21 @@ Smartling supports translating plain and escaped HTML content within JavaScript.
 When comments cannot be used in Javascript or if comments are removed because of Minification, Smartling offers an alternative using empty function calls within the code. The functions have the same purpose and should be used the same way as a comment. Function Calls to use in code:
 
 ~~~
-Start Translation:  sl_tr_start();  
-End Translation:  sl_tr_end();
+Start Translation:  sl_tr_start();  
+End Translation:  sl_tr_end();
 ~~~
 
 For html and json blocks inside Javascript:
 
 ~~~
-Start Translation:  sl_tr_html_start();  
-End Translation:  sl_tr_html_end();
+Start Translation:  sl_tr_html_start();  
+End Translation:  sl_tr_html_end();
 
-Start Translation:  sl_tr_json_start();  
-End Translation:  sl_tr_json_end();
+Start Translation: sl_tr_json_start();  
+End Translation: sl_tr_json_end();
 
-Start No Translate:  sl_notr_start();  
-End No Translate:  sl_notr_end();
+Start No Translate: sl_notr_start();  
+End No Translate: sl_notr_end();
 ~~~
 
 To enable translation of string literals found in a certain section of a javascript file, declare an empty function and as many directive variables as you need.
