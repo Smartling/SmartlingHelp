@@ -39,8 +39,7 @@ migration-checklist:
 For security or privacy reasons, your organization may want to whiteout HTML content so that it does not appear for translators and editors reviewing the site. In this case, you can use the class “**whiteout**” to ensure that strings appear with placeholders that users cannot edit.
 
 For example, the following HTML:
-~~~
-<html>  
+~~~<html>  
 <body>  
   Public text  
   <div class="sl_whiteout">  
@@ -48,8 +47,7 @@ For example, the following HTML:
     <div>Private text in a subtag</div>  
   </div>  
 </body>  
-</html>
-~~~
+</html>~~~
 
 
 Appears as the following in the Translator Interface for professional translators and other roles:
