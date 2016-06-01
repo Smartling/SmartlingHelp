@@ -45,9 +45,7 @@ You may want to force the Smartling service to extract a string of content as a 
 
 ~~~
 <p><span>View all watches</span></p>
-
 <p><span>View all bracelets</span></p>
-
 <p><span>View all earrings</span></p>
 ~~~
 
@@ -55,12 +53,8 @@ In this case, the phrase "View all" would need to be translated three times. To 
 
 ~~~
 <p><span class="SL_split">View all</span>watches</p>
-
 <p><span class="SL_split">View all</span>bracelets</p>
-
 <p><span class="SL_split">View all</span>earrings</p>  
-
-<div class="Body">
 ~~~
 
 Smartling will parse this HTML so that only the following phrases appear for translation: "View all", "watches", "bracelets", and "earrings".
