@@ -1,9 +1,9 @@
 ---
 layout: article
-title: How to Process JSON for Translation in the GDN
+title: Process JSON for Translation in the GDN
 draft: true
 Applies to:
-  GDN: false
+  GDN: true
   Application-Resource-Files: false
   CMS-Connectors: false
 redirect-url:
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -34,3 +30,5 @@ migration-checklist:
   FAQs: false
   related: false
 ---
+
+
