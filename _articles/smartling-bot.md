@@ -37,7 +37,7 @@ Smartling uses bots to capture GDN content and create context for strings in Sma
 Smartling bot User-Agent headers take the following form:
 
 ~~~
-Mozilla/5.0 (compatible; SmartlingBot/\*\*[XX]\*\*; +http://support.smartling.com/hc/en-us/articles/204443157)
+Mozilla/5.0 (compatible; SmartlingBot/[XX]; +http://support.smartling.com/hc/en-us/articles/204443157)
 ~~~
 
 where `/[XX]` is a suffix denoting the particular service performed by the bot.
