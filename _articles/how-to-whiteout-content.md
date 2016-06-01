@@ -38,7 +38,7 @@ For security or privacy reasons, your organization may want to whiteout HTML con
 
 For example, the following HTML:
 
-~~~
+~~~html
 <html>  
 <body>  
 Public text  
