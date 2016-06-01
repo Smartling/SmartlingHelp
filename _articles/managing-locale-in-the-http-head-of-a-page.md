@@ -58,7 +58,7 @@ Localized content consists of strings from your source site that you may want to
 
 You can exclude or specify custom localized content in the meta tags (keywords and descriptions) and title tag that appear in the <head> tag of a page by using the Smartling "notranslate" and "SL:swap" HTML comments.
 
-Here's an example that swaps meta keywords:
+**Here's an example that swaps meta keywords:**
 
 ```
 <div><!-- SL:swap-start:id:/page/html.html-keywords --></div>
@@ -67,7 +67,6 @@ Here's an example that swaps meta keywords:
 
 <!-- SL:swap-end --> 
 ```
-
 
 **To exclude content**:
 
