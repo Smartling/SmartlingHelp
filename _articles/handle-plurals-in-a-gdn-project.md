@@ -66,7 +66,7 @@ All forms of the translation move through workflow together. For example, if an 
 
 Similarly, issues raised for the translation of plural sensitive strings apply to all the forms. If the issue only applies to a specific form, the text of the issue should specify the plural form.
 
-**Notes (GDN)
+**Notes (GDN)**
 
 *   Smartling treats a string as plural if it contains at least one number wrapped in an HTML tag using the plural class or id `sl_plural`, and converts this number to a placeholder `{0}`
 *   Smartling does not recognize text in the span class as plural sensitive. For example, the following string is not recognized as plural:
