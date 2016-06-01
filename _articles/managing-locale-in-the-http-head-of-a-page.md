@@ -61,7 +61,7 @@ You can exclude or specify custom localized content in the meta tags (keywords a
 **Here's an example that swaps meta keywords:**
 
 ```
-div><!-- SL:swap-start:id:/page/html.html-keywords --></div>
+<!-- SL:swap-start:id:/page/html.html-keywords -->
 
 <div><meta name="keywords" content="keyword1, keyword2, keyword three"></div>
 
