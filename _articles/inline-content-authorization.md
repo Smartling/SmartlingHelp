@@ -36,24 +36,23 @@ The Smartling Translation Interface (TI) provides inline translation tools to he
 
 **To access the inline translation tools**:
 
-1.  Browse to **Global Delivery Network** > **Domains** and for the Domain you would like to edit, click **Translate in Context**.  
+1. Browse to **Global Delivery Network** &gt; **Domains** and for the Domain you would like to edit, click **Translate in Context**.
 
- 
-
-    This displays the localized site with **?smartling_editmode=1** appended to the URL.  
-
-2.  In the contextual view, browse over a string of text and from the drop-down menu, select **Authorize for Translation**.  
+   ![](/uploads/versions/inline-authorization---x----1802-1328x---.png)
+2. This displays the localized site with **?smartling_editmode=1** appended to the URL.
+3. In the contextual view, browse over a string of text and from the drop-down menu, select **Authorize for Translation**.
 
 
+![](/uploads/versions/inline-auhtorization-2---x----1086-778x---.png)
 
-    You can also click **Authorize & Next** to advance to the next string that is available for approval.  
+You can also click **Authorize & Next** to advance to the next string that is available for approval.
 
-    By default, this will send the content to the default Workflow for all locales. You can authorize select locales by clicking **Authorization Settings** and checking the languages you want to authorize.**  
+By default, this will send the content to the default Workflow for all locales. You can authorize select locales by clicking **Authorization Settings** and checking the languages you want to authorize.
 
-    ![](/hc/en-us/article_attachments/204297057/Smartling_Translation_Management_System.png)  
+![](/uploads/versions/inline-authorization-3---x----598-264x---.png)
 
-    **To choose a non-default Workflow, do not use the inline authorization tool. Instead, [authorize the content](/hc/en-us/articles/201012778-Authorize-content-for-translation) at Translations>Awaiting Authorization**.
+**To choose a non-default Workflow, do not use the inline authorization tool. Instead, [authorize the content](/hc/en-us/articles/201012778-Authorize-content-for-translation) at Translations&gt;Awaiting Authorization**.
 
 **See also**:
 
-*   [Contextual View](/hc/en-us/articles/201574473-Contextual-view)
+* [Contextual View](/hc/en-us/articles/201574473-Contextual-view)
