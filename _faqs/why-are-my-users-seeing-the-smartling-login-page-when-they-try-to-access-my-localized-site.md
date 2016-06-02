@@ -8,3 +8,6 @@ other-links:
   - text:
 url:
 ---
+
+
+If users are trying to visit your localized site, eg, http://www.mysite.ru and
