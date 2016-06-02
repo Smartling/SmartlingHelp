@@ -1,7 +1,7 @@
 ---
 title: Files
 layout: section
-master_category: false
+master_category: true
 subsections:
   - title: none
     published: true
@@ -9,6 +9,7 @@ subarticles:
   - title: none
     published: true
 ---
+
 
 Smartling gives you several options for uploading your resource files for translation and downloading your translated files so you can choose the one that best suits the needs of your project.
 
