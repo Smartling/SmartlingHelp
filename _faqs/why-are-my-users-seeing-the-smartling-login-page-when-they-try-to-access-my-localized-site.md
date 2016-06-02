@@ -20,4 +20,4 @@ To remove password protection:
 
 **2)** Uncheck the&nbsp;**Protect domain**&nbsp;checkbox.
 
-![](/uploads/versions/smartling___manage_domains---x----574-504x---.png)
+![medium](/uploads/versions/smartling___manage_domains---x----574-504x---.png)
