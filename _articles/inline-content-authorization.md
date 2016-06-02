@@ -52,7 +52,7 @@ The Smartling Translation Interface (TI) provides inline translation tools to he
 
     ![](/hc/en-us/article_attachments/204297057/Smartling_Translation_Management_System.png)  
 
-    **To choose a non-default Workflow, do not use the inline authorization tool. Instead, [authorize the content](/hc/en-us/articles/201012778-Authorize-content-for-translation) at **Translations>Awaiting Authorization**.
+    **To choose a non-default Workflow, do not use the inline authorization tool. Instead, [authorize the content](/hc/en-us/articles/201012778-Authorize-content-for-translation) at Translations>Awaiting Authorization**.
 
 **See also**:
 
