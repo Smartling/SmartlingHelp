@@ -10,4 +10,14 @@ url:
 ---
 
 
-If users are trying to visit your localized site, eg, `http://www.mysite.ru` and
+If users are trying to visit your localized site, eg, `http://www.mysite.ru` and seeing the Smartling login page, you may have password protection set up for the localized site.
+
+To remove password protection:
+
+**1)** Navigate to **Global Delivery Network &gt; Domains**, click your localized domain and select **Edit Domain Settings**.
+
+![](/uploads/versions/smartling___manage_domains---x----907-724x---.png)
+
+**2)** Uncheck the&nbsp;**Protect domain**&nbsp;checkbox.
+
+![](/uploads/versions/smartling___manage_domains---x----574-504x---.png)
