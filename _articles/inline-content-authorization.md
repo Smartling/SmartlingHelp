@@ -39,7 +39,7 @@ The Smartling Translation Interface (TI) provides inline translation tools to he
 1. Browse to **Global Delivery Network** &gt; **Domains** and for the Domain you would like to edit, click **Translate in Context**.
 
    ![](/uploads/versions/inline-authorization---x----1802-1328x---.png)
-2. This displays the localized site with **?smartling_editmode=1** appended to the URL.
+2. This displays the localized site with `?smartling_editmode=1` appended to the URL.
 3. In the contextual view, browse over a string of text and from the drop-down menu, select **Authorize for Translation**.
 
 
