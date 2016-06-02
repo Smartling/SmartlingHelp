@@ -49,10 +49,10 @@ In the **Edit Domain Dialog box**, modify the following:
 *   **CNAME**: **CNAME** is the hostname to which localized domain DNS records point and may be different for every domain. For more information, see: [Configuring CNAME Settings](/hc/en-us/articles/201552036-Configuring-CNAME-Settings).
 *   **Alternate Endpoint:** Use the **Alternate Endpoint** (or Proxy Pass) when the source content should come from a different location and references the source domain name. For example, a source domain that is an IP address requiring a host header with a fully qualified domain name to resolve, and produces content referencing that domain name.
 
-
+~~~
 Target Host: www.domain.com
-
 Alternate Endpoint: 127.0.0.1
+~~~
 
 *   **X-Language-Locale:** With every request Smartling sends an HTTP header with the locale code for the language. The format of the code can be customized from the default to map it to your applications method of indicating the language. For example if you need Portuguese for Brazil to use the code “pr-BR” instead of the default “pt-BR” you can can set that here.
 
