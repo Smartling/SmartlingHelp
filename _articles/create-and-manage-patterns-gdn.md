@@ -132,13 +132,15 @@ Other examples of pattern creation using the `notranslate` class:
 
 ~~~
 <span class="notranslate">37</span>comments<div> 
-displayed as: _{0} comments_ in Smartling
+displayed as: {0} comments in Smartling
+~~~
 
 *   **Example 2: Multiple placeholders**
 
 ~~~
 <span class="notranslate">1</span> of <span class="notranslate">10</span>comments<div>
-displayed as Page `{0}` of `{1}` comments in Smartling</span></pre>
+displayed as Page `{0}` of `{1}` comments in Smartling
+~~~
 
 Please note that the `notranslate` class cannot be used to create patterns with block tags. I.e. `<h1>`, `<p>`, `<table>`. When you add a `notranslate` class to block tags, Smartling ignores the entire block element from the translation workflow.
 
