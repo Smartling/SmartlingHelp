@@ -43,6 +43,7 @@ To swap content, tag the source HTML content that you want to localize, ingest c
 **To create localized content for a language**
 
 1.  Tag the source HTML using the class `SL_swap` and a unique ID that identifies the content block. For example:  
+
 ~~~   
 <div class="SL_swap" id="address1"><b>9 - 900 West 17th Street</b><span></div>
 ~~~
