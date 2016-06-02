@@ -10,4 +10,4 @@ url:
 ---
 
 
-If users are trying to visit your localized site, eg, http://www.mysite.ru and
+If users are trying to visit your localized site, eg, `http://www.mysite.ru` and
