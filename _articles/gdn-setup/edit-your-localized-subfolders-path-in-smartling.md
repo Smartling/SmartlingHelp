@@ -46,7 +46,7 @@ Once you’ve set your domain in Smartling edit the settings for your localized 
 
 In the **Edit Domain Dialog box**, modify the following:
 
-![](/uploads/versions/smartling___manage_domains-1---x----575-482x---.png)
+![medium](/uploads/versions/smartling___manage_domains-1---x----575-482x---.png)
 
 * **Domain Set-up Type** tells Smartling the type of domain set-up to expect. Choose **Folder**
 * **Protected:** Check Protected if your site is not publicly available so that it doesn’t get crawled by search engines.
@@ -56,6 +56,5 @@ In the **Edit Domain Dialog box**, modify the following:
 * **Source folder:** this is the path where the Smartling GDN will fetch the content for translation.
 * **X-Language-Locale:** With every request Smartling sends an HTTP header with the locale code for the language. The format of the code can be customized from the default to map it to your applications method of indicating the language. For example if you need Portuguese for Brazil to use the code “pr-BR” instead of the default “pt-BR” you can can set that here
 * **\*\*DNS Verified**:\*\* Smartling tries to verify that a domain points at the designated CNAME. If the CNAME does not point directly at Smartling - because of a Content Delivery Network (CDN) - or Smartling cannot immediately determine that a domain record exists, then you can click Verify DNS to force verification. DNS must be verified before a localized domain resolves.
-
 
 For more information on setting up localized folders on a CDN or Web server download the following documentation:
