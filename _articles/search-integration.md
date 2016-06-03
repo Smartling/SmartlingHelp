@@ -3,28 +3,24 @@ layout: article
 title: Search Integration
 draft: true
 Applies to:
-  GDN: false
+  GDN: true
   Application-Resource-Files: false
   CMS-Connectors: false
-redirect-url:
+redirect-url: /hc/en-us/articles/204240098
 wistia:
   video: false
   id:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -35,9 +31,10 @@ migration-checklist:
   related: false
 ---
 
+
 If your site has search functionality, it’s important for search to work as well on your translated sites as your original site. 3rd party search engine services will work on translated sites without altering your code. Embedded search features can be integrated with Smartling using specific html classes.
 
-##3rd Party Search Engine Services
+## 3rd Party Search Engine Services
 
 For 3rd party search engines, all you need to do is update your settings to add your translated domains as well as your original site.
 
@@ -45,36 +42,35 @@ For 3rd party search engines, all you need to do is update your settings to add 
 
 **2)** Add your translated domains to your list of sites. E.g. **ru.mysite.com**.
 
-##Embedded Search
+## Embedded Search
 
 Smartling supports Embedded Search using html GET requests. Your search query must be in the form of a URL request parameter. To set up Embedded search integration:
 
 **1)** Ask your Smartling Client Services Manager to enable Embedded search integration for your site.
 
-**2)** Add the class "sl-search-input" to any `<input>` element used for searching. For example:
+**2)** Add the class "sl-search-input" to any `&lt;input&gt;` element used for searching. For example:
 
 ~~~
-<form accept-charset="UTF-8" action="/hc/en-us/search" class="search-small" method="get" role="search">
- <div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
- <input id="query" value="Dog" name="query" class="sl-search-input" placeholder="Search" type="search" />
-</form>
+&lt;form accept-charset="UTF-8" action="/hc/en-us/search" class="search-small" method="get" role="search"&gt;
+ &lt;div style="display:none"&gt;&lt;input name="utf8" type="hidden" value="&#x2713;" /&gt;&lt;/div&gt;
+ &lt;input id="query" value="Dog" name="query" class="sl-search-input" placeholder="Search" type="search" /&gt;
+&lt;/form&gt;
 ~~~
 
 **3)** Add the class `sl-search-keyword` to any search term on the results page. For example:
 
 ~~~
 ...
-<form action="#" class="form-sort" novalidate="novalidate">
-     <fieldset>
-         <div class="search-frame">
-             <div class="search-row">
+&lt;form action="#" class="form-sort" novalidate="novalidate"&gt;
+     &lt;fieldset&gt;
+         &lt;div class="search-frame"&gt;
+             &lt;div class="search-row"&gt;
 ...
-             <span class="text"><b><span class="sl-search-keyword">Dog</span></b> clips (1 - 192 of 579 results)</span>
+             &lt;span class="text"&gt;&lt;b&gt;&lt;span class="sl-search-keyword"&gt;Dog&lt;/span&gt;&lt;/b&gt; clips (1 - 192 of 579 results)&lt;/span&gt;
 ...
-                             <div class="subpaging search">
-                     <div class="holder">
-                         <div class="frame search">
-                             <ul class="search-menu">
+                             &lt;div class="subpaging search"&gt;
+                     &lt;div class="holder"&gt;
+                         &lt;div class="frame search"&gt;
+                             &lt;ul class="search-menu"&gt;
 ...
 ~~~
-
