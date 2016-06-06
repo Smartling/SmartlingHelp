@@ -51,7 +51,7 @@ In the **Edit Domain Dialog box**, modify the following:
 * **Domain Set-up Type** tells Smartling the type of domain set-up to expect. Choose **Folder**
 * **Protected:** Check Protected if your site is not publicly available so that it doesn’t get crawled by search engines.
 * **Localized Regex**: If you require a localized Regular expression, include a Localized Regex URL.
-* **CNAME**: CNAME is the hostname to which localized domain DNS records point and may be different for every domain. For more information, see: [Configuring CNAME Settings](/test){: .cc-active}.
+* **CNAME**: CNAME is the hostname to which localized domain DNS records point and may be different for every domain. For more information, see: [Configuring CNAME Settings](){: .cc-active}.
 * **Localized folder**: this is the path to the folder that contains the translation for a given language
 * **Source folder:** this is the path where the Smartling GDN will fetch the content for translation.
 * **X-Language-Locale:** With every request Smartling sends an HTTP header with the locale code for the language. The format of the code can be customized from the default to map it to your applications method of indicating the language. For example if you need Portuguese for Brazil to use the code “pr-BR” instead of the default “pt-BR” you can can set that here
