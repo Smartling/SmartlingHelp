@@ -52,6 +52,6 @@ In addition to translating your text content, you may want to display different 
 
 **5)** [Translate](/hc/en-us/articles/216506558) your Zendesk article as normal.
 
-![](/uploads/versions/image-localization-3---x----648-623x---.png)
+![](/uploads/versions/bienvenue_dans_votre_centre_d_aide__-_smartling_dev__french__and_slack---x----2320-1214x---.png)
 
 Once your translated articles are published, they should display on your translated sites in the same position and at the same size as the source image.
