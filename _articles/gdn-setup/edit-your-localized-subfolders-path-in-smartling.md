@@ -42,7 +42,7 @@ When hosting your translation in a subfolder, the traffic will need to be split 
 
 Once you’ve set your domain in Smartling edit the settings for your localized domain.
 
-![](/uploads/versions/smartling___manage_domains---x----933-696x---.png)
+![](/uploads/versions/smartling___manage_domains---x----903-670x---.png)
 
 In the **Edit Domain Dialog box**, modify the following:
 
