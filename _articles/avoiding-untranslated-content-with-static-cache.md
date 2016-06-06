@@ -44,7 +44,7 @@ Not all sites can benefit from using the static cache feature and it may be that
 
 **1)** Contact your Smartling Client Services manager to request Static Cache be enabled on your site. Smartling will analyse your site to determine where caching can be effectively used. This process may take a few days.
 
-**2)** Once static caching is enabled. You can manage your cache from Global Delivery Network &gt; Configuration by selecting the Static Cache tab.
+**2)** Once static caching is enabled. You can manage your cache from Global Delivery Network &gt; Configuration by selecting the Static Cache tab.![](/uploads/versions/static-cachce1---x----1235-789x---.png)
 
 **3)** The page shows a list of all Domains in your project. For each domain that requires caching, set the switch to ON.
 
@@ -61,5 +61,7 @@ When all strings on a page for a particular domain have published translations, 
 **Manually from the Static Cache page**
 
 You can reset the cache for an entire domain by clicking Reset from the Static Cache configuration page. If you want to reset only a specific page, enter the URL in the text box and click Reset. You can also enter the URL of an asset such as a style sheet or JavaScript file.
+
+![](/uploads/versions/static-cache2---x----671-53x---.png)
 
 Some sites rely on non-HTML assets, most commonly CSS or JavaScript files, for serving content. These assets will not be captured by the automatic cache reset when strings on a page are translated, or by using the inline Translation Interface. To reset these assets, you must use the Static Cache Configuration page and specify the URL of the asset.
