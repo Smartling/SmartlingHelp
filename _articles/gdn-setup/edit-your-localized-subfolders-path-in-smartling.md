@@ -46,7 +46,7 @@ Once you’ve set your domain in Smartling edit the settings for your localized 
 
 In the **Edit Domain Dialog box**, modify the following:
 
-![](/uploads/versions/smartling___manage_domains---x----578-612x---.png)
+![medium](/uploads/versions/smartling___manage_domains---x----578-612x---.png)
 
 * **Domain Set-up Type** tells Smartling the type of domain set-up to expect. Choose **Folder**
 * **Protected:** Check Protected if your site is not publicly available so that it doesn’t get crawled by search engines.
