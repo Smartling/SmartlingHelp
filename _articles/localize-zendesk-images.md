@@ -45,12 +45,12 @@ In addition to translating your text content, you may want to display different 
 
 **2)** Insert the image into your Zendesk article, position and resize it as you like.
 
-![](/hc/en-us/article_attachments/206553867/Smartling_Dev.png)
+
 
 **3)** Rename your localized images to have the same name as your source image, but with the appropriate locale code. For example, 'LocalizedImage_fr-fr.png' and 'LocalizedImage_de-de.png'.
 
 **4)** In the Zendesk Editor,click **Insert Image**. Upload each of your localized images, but do not click Insert. Click **Close** when all your images are uploaded.
 
-![](/hc/en-us/article_attachments/206553847/Smartling_Dev.png)
+
 
 **Note:**Zendesk does not display image names, only thumbnails. So check that you have named your files correctly before uploading.
