@@ -5,7 +5,7 @@ draft: true
 Applies to:
   GDN: false
   Application-Resource-Files: false
-  CMS-Connectors: false
+  CMS-Connectors: true
 redirect-url:
 wistia:
   video: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
