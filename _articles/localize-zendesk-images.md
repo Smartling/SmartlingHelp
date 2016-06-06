@@ -53,3 +53,8 @@ In addition to translating your text content, you may want to display different 
 ![](/uploads/versions/zendesk-image-loc-2---x----657-534x---.png)
 
 **Note:&nbsp;**Zendesk does not display image names, only thumbnails. So check that you have named your files correctly before uploading.
+
+**5)** [Translate](/hc/en-us/articles/216506558) your Zendesk article as normal.
+
+Once your translated articles are published, they should display on your translated sites in the same position and at the same size as the source image.
+
