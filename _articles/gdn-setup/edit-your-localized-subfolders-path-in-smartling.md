@@ -40,13 +40,13 @@ An alternative to using translated domains, is to host your translations in fold
 
 When hosting your translation in a subfolder, the traffic will need to be split between requests for source content (going to your web server) and translated content (going to the Smartling GDN). Your options to split traffic are using the Smartling Global Delivery Network, a Content Delivery Network, or web server or network appliance (ie Netscaler, F5) with proxy capabilities.
 
-Once you’ve set your domain in Smartling edit the settings for your localized domain
+Once you’ve set your domain in Smartling edit the settings for your localized domain.
 
 ![](/uploads/versions/smartling___manage_domains---x----933-696x---.png)
 
 In the **Edit Domain Dialog box**, modify the following:
 
-![medium](/uploads/versions/smartling___manage_domains-1---x----575-482x---.png)
+![](/uploads/versions/smartling___manage_domains---x----578-612x---.png)
 
 * **Domain Set-up Type** tells Smartling the type of domain set-up to expect. Choose **Folder**
 * **Protected:** Check Protected if your site is not publicly available so that it doesn’t get crawled by search engines.
