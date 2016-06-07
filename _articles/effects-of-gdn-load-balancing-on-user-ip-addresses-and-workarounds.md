@@ -35,7 +35,9 @@ The Smartling Global Delivery Network typically includes load-balanced network c
 
 Smartling load balancers issue an additional header: “X-FORWARDED-FOR” in the format:
 
-            X-FORWARDED-FOR: [Client ip], [Smartling ip]
+~~~
+X-FORWARDED-FOR: [Client ip], [Smartling ip]
+~~~
 
 The best-practice approach to resolving the client’s IP address is to check for the existence of the X-FORWARDED-FOR http header:
 
