@@ -38,13 +38,15 @@ In either case, simply create the appropriate language image, Flash, or download
 
 The images must retain the same name but must be located in a separate folder distinguished by language and country code (`LL_CC` where LL=language and CC=country code); for example:
 
-Original Language Site Images:`/images/en_US/image.jpg`
-French (Canada) Site Images: `/images/fr_CA/image.jpg`
+* Original Language Site Images:`/images/en_US/image.jpg`
+* French (Canada) Site Images: `/images/fr_CA/image.jpg`
+
 
 For cases where the language is 'international' and does not use a country code, locate the images in the language folder; for example:
 
-Original Language Site Images: `/images/en_US/image.jpg`
-Spanish (international) Site Images: `/images/es/image.jpg`
+* Original Language Site Images: `/images/en_US/image.jpg`
+* Spanish (international) Site Images: `/images/es/image.jpg`
+
 
 **Note**: To use this functionality, your site must use a defined folder structure for files from the original site and the folder structure must include `/images/&lt;locale&gt;/` in the full path. Smartling will rewrite the original URLs to call the files from the language-specific folders.
 
@@ -52,16 +54,16 @@ If image, flash, or binary files on your source site use a different defined fol
 
 Example folder structures:
 
-Original Language Site Images: `/images/en_US/image.jpg`
-Aragonese Site Images: `/images/an_ES/image.jpg`
-Chinese (Traditional) Site Images: `/folder/images/zh_TW/image.jpg`
-Hindi Site Images:`/folder/subfolder/images/hi_IN/image.jpg`
-Spanish (international) Site Images:`/images/es/image.jpg`
+* Original Language Site Images: `/images/en_US/image.jpg`
+* Aragonese Site Images: `/images/an_ES/image.jpg`
+* Chinese (Traditional) Site Images: `/folder/images/zh_TW/image.jpg`
+* Hindi Site Images:`/folder/subfolder/images/hi_IN/image.jpg`
+* Spanish (international) Site Images:`/images/es/image.jpg`
+
 
 Note that it may be completely appropriate to leave certain original images, Flash files, or binary files in the original language with no substitution, depending on the needs of your organization and your customers.
 
-List of language codes: [http://en.wikipedia.org/wiki/ISO_639-1](http://en.wikipedia.org/wiki/ISO_639-1 "Link: http://en.wikipedia.org/wiki/ISO_639-1")
-List of country codes: [http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (https://smartling.zendesk.com/hc/admin/articles/new?section_id=200175148 "Link: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements")
+List of language codes: [http://en.wikipedia.org/wiki/ISO_639-1](http://en.wikipedia.org/wiki/ISO_639-1 "Link: http://en.wikipedia.org/wiki/ISO_639-1") List of country codes: [http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements](http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (https://smartling.zendesk.com/hc/admin/articles/new?section_id=200175148 "Link: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements")
 
 **Substituting Image, Flash or Binary Files in a Cascading Style Sheet**
 
