@@ -8,8 +8,8 @@ Applies to:
   CMS-Connectors: true
 redirect-url: /hc/en-us/articles/201997687
 wistia:
-  video: false
-  id:
+  video: true
+  id: rl37fvdbfi
 read-first:
   include: false
   sections:
