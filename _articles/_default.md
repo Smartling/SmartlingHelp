@@ -6,6 +6,7 @@ Applies to:
   GDN: false
   Application-Resource-Files: false
   CMS-Connectors: false
+edition: 
 redirect-url: ''
 wistia:
   video: false
@@ -33,4 +34,6 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
+
 ---
