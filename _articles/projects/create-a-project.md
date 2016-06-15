@@ -8,23 +8,19 @@ Applies to:
   CMS-Connectors: false
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: rl37fvdbfi
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -38,7 +34,7 @@ migration-checklist:
 
 Your first project will be created as you set up your Smartling account, but you can create any number of additional projects from the Dashboard. If you need assistance setting up new projects, contact your Client Services Manager.
 
-###To create a project:
+### To create a project:
 
 **(1)** From the Projects section of the Account Dashboard, click **Create New Project**.
 
