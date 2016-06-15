@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Leveraging your staging environment before launching a localized site
+title: Leverage your staging environment before launching a localized site
 draft: true
 Applies to:
   GDN: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
