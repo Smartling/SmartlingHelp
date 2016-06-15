@@ -49,23 +49,23 @@ You can configure SmartMatch settings at six levels of certainty:
 
 ![](/hc/en-us/article_attachments/205893168/Smartling___Translation_Memory.png)
 
-**100% match with variants matching  
-**The entire string, including text, whitespace, HTML tags and variant metadata matches.
+**100% match with variants matching**
+The entire string, including text, whitespace, HTML tags and variant metadata matches.
 
-**100% match without variants matching  
-**The entire content of the string, including text, whitespace & HTML tags matches, but the variant metadata is different.
+**100% match without variants matching**
+The entire content of the string, including text, whitespace & HTML tags matches, but the variant metadata is different.
 
-**100% match without whitespace matching  
-**The text of the strings matches, but there may be whitespace differences.
+**100% match without whitespace matching**
+The text of the strings matches, but there may be whitespace differences.
 
-**100% match without markup matching  
-**The text of the string matches, but may have different HTML markup tags.
+**100% match without markup matching**
+The text of the string matches, but may have different HTML markup tags.
 
-**100% match ignoring case  
-**The text of the string matches, but case may be different.
+**100% match ignoring case**
+The text of the string matches, but case may be different.
 
-**Match from any combination of the above  
-**The text of the string matches, but variant metadata, whitespace, markup and case may be different.  
+**Match from any combination of the above**
+The text of the string matches, but variant metadata, whitespace, markup and case may be different.  
 
 ##The SmartMatch Report
 
