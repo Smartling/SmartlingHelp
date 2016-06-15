@@ -48,7 +48,7 @@ SmartMatch settings are managed as part of a [Leverage Configuration](){: .cc-ac
 
 You can configure SmartMatch settings at six levels of certainty:
 
-![](/uploads/versions/smartling___translation_memory---x----573-593x---.png)
+![medium](/uploads/versions/smartling___translation_memory---x----573-593x---.png)
 
 **100% match with variants matching** The entire string, including text, whitespace, HTML tags and variant metadata matches.
 
