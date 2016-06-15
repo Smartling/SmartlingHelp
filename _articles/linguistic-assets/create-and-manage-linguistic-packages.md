@@ -79,20 +79,20 @@ You can assign a Linguistic Package to any number of Smartling Projects.
 
 At any time, you can edit the contents of a Linguistic Package. Any changes you make will be reflected in all projects that have that Package assigned.
 
-**1) \*\*From the summary page for the package, click \*\*Edit Package**.
+**1)**From the summary page for the package, click **Edit Package**.
 
-**2) \*\*Edit the Package Details, Required Assets and Optional Assets in the edit view. When you're ready, click \*\*Save Changes**.
+**2)**Edit the Package Details, Required Assets and Optional Assets in the edit view. When you're ready, click **Save Changes**.
 
-![](/hc/en-us/article_attachments/206692268/Smartling___Linguistic_Assets.png)
+![](/uploads/versions/smartling___linguistic_assets-7---x----594-484x---.png)
 
 ## Check Where Assets are Assigned
 
 The Asset page for any Translation Memory, Linguistic Package or Glossary shows a link to all Linguistic Packages where the Asset is assigned. Just click the link under **Active Packages**.
 
-![](/hc/en-us/article_attachments/207603188/Smartling___Linguistic_Assets.png)
+![](/uploads/versions/smartling___linguistic_assets-8---x----1257-377x---.png)
 
 ## Check where Linguistic Packages are assigned
 
 The Asset page for any Linguistic Package shows a link to all Smartling Projects the package is assigned to. Click the link under **Active Package** and click the name of any project in the list to navigate to it.
 
-![](/hc/en-us/article_attachments/208252628/Smartling___Linguistic_Assets_and_Slack.png)
+![](/uploads/versions/smartling___linguistic_assets_and_slack---x----1235-661x---.png)
