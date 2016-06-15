@@ -20,6 +20,13 @@ markdown: kramdown
 
 emptyArray: []
 
+editions:
+  - Express
+  - Basic
+  - Standard
+  - Growth
+  - Enterprise
+
 #Collections
 
 collections:
