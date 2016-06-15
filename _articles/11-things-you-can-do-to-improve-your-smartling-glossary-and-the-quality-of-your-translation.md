@@ -3,10 +3,10 @@ layout: article
 title: 11 things you can do to improve your  Smartling glossary (and the quality of your  translation)
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
+edition: Express
 redirect-url:
 wistia:
   video: false
@@ -14,18 +14,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
