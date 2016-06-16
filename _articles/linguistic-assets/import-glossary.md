@@ -76,6 +76,6 @@ Below is a list of allowed columns for your Excel file. Only the ‘Term’ colu
 
 **2)** Name your new glossary, select your Source Language, choose an Excel file to upload and click **Import Glossary**.
 
-![](/uploads/versions/smartling___glossary---x----575-506x---.png)
+![medium](/uploads/versions/smartling___glossary---x----575-506x---.png)
 
 **3)** The upload process may take a few minutes. You can switch to your new glossary by clicking the **Gear Wheel** and selecting your new glossary from the dropdown.
