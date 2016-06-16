@@ -8,8 +8,8 @@ Applies to:
   CMS-Connectors: true
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: mjtoo12ho5
 read-first:
   include: false
   sections:
@@ -34,7 +34,7 @@ migration-checklist:
 
 A style guide is a collection of rules about your preferences for content formatting and writing tone, and style that you want translators to follow so that your users and customers have a consistent experience across all languages. The style guide explains punctuation, spelling, formatting, adaptations, and language-specific preferences or errors to avoid, and helps translators and editors ensure that translations are accurate and consistent.
 
-A Style Guide can be assigned to projects along with your other Linguistic Assets as part of a Linguistic Package. See [Create and Manage Linguistic Packages]()for more details.
+A Style Guide can be assigned to projects along with your other Linguistic Assets as part of a Linguistic Package. See [Create and Manage Linguistic Packages](){: .cc-active}for more details.
 
 **Create a New Style Guide**
 
