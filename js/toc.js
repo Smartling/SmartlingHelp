@@ -1,4 +1,4 @@
-(document).ready(function() {
+$(document).ready(function() {
 
     var ToC =
       "<nav role='navigation' class='table-of-contents'>" +
