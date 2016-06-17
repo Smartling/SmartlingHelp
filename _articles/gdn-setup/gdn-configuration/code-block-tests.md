@@ -36,12 +36,13 @@ migration-checklist:
 
 Here's one thing
 
-~~~javascript
+~~~
 
 var you = 'Now here's a code block';
 function(arg, options) {
     var me = arg;
 }
+{:.language-javascript}
     
 
 ~~~
