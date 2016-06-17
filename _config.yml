@@ -17,6 +17,7 @@ github_username:
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
 emptyArray: []
 
