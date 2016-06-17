@@ -36,7 +36,7 @@ migration-checklist:
 
 Here's one thing
 
-~~~ javascript
+~~~js
 
 var you = 'Now here's a code block';
 function(arg, options) {
