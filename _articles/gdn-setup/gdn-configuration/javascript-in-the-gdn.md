@@ -127,13 +127,8 @@ $("#addUser").click(function{} {
 
 If you have a JSON object inside your Javascript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
 
-<sl:translate_json> tag.</sl:translate_json>
+`<sl:translate_json>` tag.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ~~~
 var user = {...}
