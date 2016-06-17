@@ -47,23 +47,23 @@ Note that you may need a few tweaks to optimize your Javascript for localization
 
 String concatenation is common in javascript, especially when handling variables, but it creates problems for localization and must be avoided in translatable content. Consider the following example:
 
-var item = {…} //
+~~~
 
-<sl:translate> var checkoutStatus = 'You have ' + item.quantity + ' ' + item.type + ' in your cart.' // </sl:translate>
+var item = {…} 
 
-&nbsp;
+//<sl:translate> 
+    var checkoutStatus = 'You have ' + item.quantity + ' ' + item.type + ' in your cart.' 
+// </sl:translate>
+
+~~~
 
 Smartling captures each javascript literal as a translatable string, so your translators will see three separate strings
 
-&nbsp;
-
-String 1: ‘You have ‘ String 2: ‘ ‘ String 3: ‘ in your cart’.
-
-&nbsp;
+String 1: ‘You have ‘ 
+String 2: ‘ ‘ 
+String 3: ‘ in your cart’.
 
 The variables will not be captured.
-
-&nbsp;
 
 Apart from it being difficult for the translator to understand and translate these three strings in isolation, it is impossible for the translator to change the position of the variables to allow for non-English sentence structure.
 
