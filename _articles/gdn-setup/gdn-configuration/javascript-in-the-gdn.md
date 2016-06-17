@@ -63,7 +63,7 @@ Apart from it being difficult for the translator to understand and translate the
 
 A much more localization-friendly way to handle the same content is by using a simple templating engine like mustache.js or by extending the String class with a supplant method. Here’s an example using mustache:
 
-~~~ javascript
+~~~ ruby
 
 //Note: this assumes Mustache.js is loaded
 
