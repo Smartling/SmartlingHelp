@@ -65,6 +65,7 @@ A much more localization-friendly way to handle the same content is by using a s
 
 ~~~javascript
 
+//Note: this assumes Mustache.js is loaded
 
 var item = {...};
 // <sl:translate>
