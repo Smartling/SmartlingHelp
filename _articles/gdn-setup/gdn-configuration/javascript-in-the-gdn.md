@@ -57,8 +57,8 @@ var item = {…}
 
 Smartling captures each javascript literal as a translatable string, so your translators will see three separate strings
 
-String 1: ‘You have ‘ 
-String 2: ‘ ‘ 
+String 1: ‘You have ‘ <br />
+String 2: ‘ ‘ <br />
 String 3: ‘ in your cart’.
 
 The variables will not be captured.
