@@ -16,7 +16,7 @@ $(document).ready(function() {
       link = "#" + el.attr("id");
     
       newLine =
-        "<li class='" + classname + "'>" +
+        "<li class='toc" + classname + "'>" +
           "<a href='" + link + "'>" +
             title +
           "</a>" +
