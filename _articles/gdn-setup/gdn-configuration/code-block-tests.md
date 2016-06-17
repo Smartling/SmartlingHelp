@@ -36,4 +36,8 @@ migration-checklist:
 
 Here's one thing
 
-&nbsp;
+~~~
+
+Now here's a code block
+
+~~~
