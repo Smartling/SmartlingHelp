@@ -57,7 +57,9 @@ var item = {…}
 
 Smartling captures each javascript literal as a translatable string, so your translators will see three separate strings
 
-String 1: ‘You have ‘ String 2: ‘ ‘ String 3: ‘ in your cart’.
+String 1: ‘You have ‘ 
+String 2: ‘ ‘ 
+String 3: ‘ in your cart’.
 
 The variables will not be captured.
 
@@ -192,9 +194,3 @@ sl_tr_end();
 To maximize efficiency, Smartling does not parse the contents of common Javascript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
 
 jquery jquery.min.js jquery.ui.js prototype.js yui ext ally ample artisan blackbird cappuccino datejs dhtmlx dojo puremvc mootools echo flot fuel glow closure-library himle jelly joose jwee jsdraw2d knockout midori mochikit plotkit pottisjs processing.js qooxdoo rico script.aculo.us smartclient soundmanager spark sproutcore spry sylvester swfobject taffydb typeface.js underscore.js zwt zreshk
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
