@@ -14,7 +14,10 @@ wistia:
 read-first:
   include: false
   sections:
+    - gdn
   articles:
+    - automatic-machine-translation
+    - chrome-context-capture-extension/using-the-chrome-capture-extension-with-browser-automation-software
   others:
     - link:
       text:
@@ -32,3 +35,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
