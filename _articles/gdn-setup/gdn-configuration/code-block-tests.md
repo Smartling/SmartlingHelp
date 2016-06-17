@@ -36,7 +36,7 @@ migration-checklist:
 
 Here's one thing
 
-~~~
+~~~javascript
 
 var you = 'Now here's a code block';
 function(arg, options) {
@@ -44,4 +44,3 @@ function(arg, options) {
 }
 
 ~~~
-{:.language-javascript}
