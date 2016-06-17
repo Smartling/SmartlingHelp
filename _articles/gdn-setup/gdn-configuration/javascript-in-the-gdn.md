@@ -48,20 +48,16 @@ Note that you may need a few tweaks to optimize your Javascript for localization
 String concatenation is common in javascript, especially when handling variables, but it creates problems for localization and must be avoided in translatable content. Consider the following example:
 
 ~~~
+var item = {…}
 
-var item = {…} 
-
-//<sl:translate> 
-    var checkoutStatus = 'You have ' + item.quantity + ' ' + item.type + ' in your cart.' 
+//<sl:translate>
+    var checkoutStatus = 'You have ' + item.quantity + ' ' + item.type + ' in your cart.'
 // </sl:translate>
-
 ~~~
 
 Smartling captures each javascript literal as a translatable string, so your translators will see three separate strings
 
-String 1: ‘You have ‘ 
-String 2: ‘ ‘ 
-String 3: ‘ in your cart’.
+String 1: ‘You have ‘ String 2: ‘ ‘ String 3: ‘ in your cart’.
 
 The variables will not be captured.
 
@@ -83,23 +79,13 @@ You will need to create a placeholder rule to capture content in double curly br
 
 This way, the translator can easily translate the string as a whole, and place the variables wherever they need to go for a given language.
 
-&nbsp;
-
 ## Javascript Directives
-
-&nbsp;
 
 > If you are minifying your assets, comments are likely to be stripped from your code. See Minification for an alternative syntax to use.
 
-&nbsp;
-
 ### Translate / Notranslate
 
-&nbsp;
-
 `&lt;sl:translate&gt;` and `&lt;sl:notranslate&gt;` can be used to mark content to translate and not translate. These tags can be nested inside each other, so you can mark a large block for translation, but single out select strings you don’t want translated.
-
-&nbsp;
 
 ~~~javascript
 // Translate some Strings
@@ -121,15 +107,9 @@ This way, the translator can easily translate the string as a whole, and place t
 // </sl:translate>
 ~~~
 
-&nbsp;
-
 ### Translate HTML
 
-&nbsp;
-
 Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML. Do this with the `&lt;sl:translate_html&gt;` tag. Here’s an example adding HTML to the DOM with jQuery.
-
-&nbsp;
 
 ~~~javascript
 $("#addUser").click(function{} {
@@ -143,15 +123,15 @@ $("#addUser").click(function{} {
 });
 ~~~
 
-&nbsp;
-
 ### Translate JSON inside a Javascript variable
-
-&nbsp;
 
 If you have a JSON object inside your Javascript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
 
 <sl:translate_json> tag.</sl:translate_json>
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -171,15 +151,9 @@ user.buildpage = function(messages) {
 user.buildpage(messages);
 ~~~
 
-&nbsp;
-
 ## Minification
 
-&nbsp;
-
 If you need to minify your Javascript for faster delivery, comments won’t work for you, as they are usually stripped out by minifiers. As an alternative, you can use functions. Once you have your functions set up, you can use them exactly like comment directives. To use function names as directives in Javascript for minification, add this to the top of your script.
-
-&nbsp;
 
 ~~~
 // Declare an empty function
@@ -196,11 +170,7 @@ sl_tr_json_start = sl_translate;
 sl_tr_json_end = sl_translate;
 ~~~
 
-&nbsp;
-
 Using this syntax will ensure that the directive names survive minification intact. You can then use your functions exactly the same way we use the comment directives above. The functions don’t actually do anything in Javascript, they only affect the Smartling parser.
-
-&nbsp;
 
 ~~~
 // Translate some Strings
@@ -222,16 +192,14 @@ sl_tr_start();
 sl_tr_end();
 ~~~
 
-&nbsp;
-
 ### Content in Common Libraries is Not Captured
 
-&nbsp;
-
-To maximise efficiency, Smartling does not parse the contents of common Javascript libraries. If you have added any translatable content to these libraries, you will need to move it outside the LIbrary file.
-
-&nbsp;
+To maximize efficiency, Smartling does not parse the contents of common Javascript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
 
 jquery jquery.min.js jquery.ui.js prototype.js yui ext ally ample artisan blackbird cappuccino datejs dhtmlx dojo puremvc mootools echo flot fuel glow closure-library himle jelly joose jwee jsdraw2d knockout midori mochikit plotkit pottisjs processing.js qooxdoo rico script.aculo.us smartclient soundmanager spark sproutcore spry sylvester swfobject taffydb typeface.js underscore.js zwt zreshk
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
