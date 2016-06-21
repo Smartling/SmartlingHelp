@@ -128,3 +128,31 @@ Although every OS has a different set of fonts installed, you or your DTP team s
 (Image placeholder)
 
 Fonts listed above are available from Adobe InDesign, organized by languages, after Roman languages, in the order: (1) Japanese, (2) Traditional Chinese, (3) Simplified Chinese, (4) Korean
+
+##### Turning off “Track Changes”
+
+Before you export your InDesign file to IDML, please check that the Track Changes feature is turned OFF in InDesign. If the feature is on and the IDML file is uploaded to Smartling Dashboard, it will cause segmentation issues:
+
+(Image placeholder) - Segmentation with Track Changes turned ON
+
+(Image placeholder) - Segmentation with Track Changes turned OFF
+
+To turn Track Changes off, go to Type &gt; Track Changes &gt; Disable tracking in all stories. If Track Changes is currently active, Make sure to click the Accept All Changes option to finalize the InDesign file, before turning the feature off. &nbsp;
+
+(image placeholder)&nbsp;
+
+##### Reduce the size of your INDD/IDML file
+
+If very rare cases, you might find that your file size is larger than the size authorized for upload by Smartling. In that case, you will need to downsize both the INDD and IDML file:
+
+(image placeholder)
+
+Go to Preferences &gt; Display Performance and &nbsp;set the Default View, as well as the Adjust View settings to Fast
+
+(image placeholder)
+
+Then go to File Handling and uncheck Always Save Preview Images with Documents.
+
+Once you’ve changed the Preferences Settings, save the INDD file and export it as an IDML. If you re-open the IDML file, you’ll notice that images are displayed as grey boxes, reducing the IDML file size by as much as 95%.
+
+To see the thumbnail images again, go back to preferences and revert both your Display Performance and File Handling settings.
