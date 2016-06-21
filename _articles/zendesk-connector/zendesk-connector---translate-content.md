@@ -25,11 +25,9 @@ further-reading:
 
 **(2)** You can switch between Article, Section, Category and [Dynamic Content](){: .cc-active} from the drop-down next to **Translate Article**.
 
-**(3)** Select the items you want to translate and click **Request Translation** and choose your target languages.
+**(3)**&nbsp;Select the items you want to translate. If you have a lot of items in the list try using the Section/Category filter to narrow down the list. Check the articles, click&nbsp;**Request Translation**&nbsp;and choose your target languages.
 
-![](/hc/en-us/article_attachments/205309807/Smartling___Translate_Content.png)
-
-**Note:** Image content will remain the same among all translated Zendesk articles and cannot be changed.
+![](/uploads/versions/smartling___translate_content_and_zendesk_connector_translate_content_-_smartling_help_center---x----1377-518x---.png)
 
 For knowledge base articles, the Connector will also generate context for translators - showing them a real-time preview of what their translations will look like in the knowledge base:
 
