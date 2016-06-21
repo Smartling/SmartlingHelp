@@ -33,14 +33,13 @@ migration-checklist:
   reviewed: false
 ---
 
-Smartling now gives you finer control over how your translation and source text looks in the translation interface.
 
-**Note: **These settings allow you to optimize your experience in the Translation Interface, but do not affect the way strings will appear in translated files or on the GDN.
+Smartling gives you finer control over how your translation and source text looks in the translation interface.
 
-In the Translation Interface, click **Settings > Translation Settings** to access your options.
+Note: These settings allow you to optimize your experience in the Translation Interface, but do not affect the way strings will appear in translated files or on the GDN.
 
-![](/hc/en-us/article_attachments/203738368/Smartling___Translations_Management.png)
+In the Translation Interface, click **Settings &gt; Translation Settings** to access your options.
 
-Choose a Font, Size and Letter Spacing. Check the preview text to see how your settings will look in the TI.
+![](/uploads/versions/smartling___translations_management_and_cloudcannon_and_skype---x----2557-1396x---.png)
 
-![](/hc/en-us/article_attachments/203637917/Smartling___Translations_Management.png)
+Choose a Font, Size and Letter Spacing. Check the preview text to see how your settings will look in the Translation Interface![](/uploads/versions/screenshot_6_21_16__2_07_pm---x----2560-1387x---.png)
