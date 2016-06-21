@@ -34,10 +34,9 @@ migration-checklist:
 ---
 
 
-**What is a placeholder?**
-In the Smartling dashboard, placeholders are used to mark parts of a string that do not need to be translated. The content contained within the placeholder will usually be populated dynamically in the application. In Smartling, placeholders are always represented by a number or a set of characters highlighted in grey and/or contained within curly brackets.
+**What is a placeholder?** In the Smartling dashboard, placeholders are used to mark parts of a string that do not need to be translated. The content contained within the placeholder will usually be populated dynamically in the application. In Smartling, placeholders are always represented by a number or a set of characters highlighted in grey and/or contained within curly brackets.
 
-![](/hc/en-us/article_attachments/206361628/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-1---x----302-59x---.png)
 
 **Placeholders in the Translation Interface**
 
@@ -49,7 +48,7 @@ Tocopy placeholders over to the target field:
 
 **(2)** Click on the placeholder in the source segment.
 
-![](/hc/en-us/article_attachments/200847767/placeholder3.gif)  
+![](/uploads/versions/placeholder3---x----1230-748x---.gif)
 
 To remove a placeholder from a target field:
 
