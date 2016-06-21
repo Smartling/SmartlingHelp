@@ -33,21 +33,21 @@ migration-checklist:
   reviewed: false
 ---
 
+
 The Zendesk Connector gives you two options for handling updated source content in an article you've already translated.
 
-###Automatic
+### Automatic
 
-Smartling will automatically retrieve any changes in your source content for Zendesk for translation. To enable this option, from **Project Settings > Zendesk Settings** set **Resubmit changed content** to **Auto**.
+Smartling will automatically retrieve any changes in your source content for Zendesk for translation. To enable this option, from&nbsp;**Project Settings &gt; Zendesk Settings** set&nbsp;**Resubmit changed content** to&nbsp;**Auto**.
 
-![](/hc/en-us/article_attachments/208538988/Smartling___Zendesk_Settings.png)
+![](/uploads/versions/smartling___zendesk_settings-1---x----1374-663x---.png)
 
-###Manual
+### Manual
 
-If you set **Resubmit changed content** to **Manual**, you can use Zendesk's **Outdated** flag to mark changed source content.
+If you set **Resubmit changed content** to&nbsp;**Manual**, you can use Zendesk's&nbsp;**Outdated** flag to mark changed source content.
 
-![](/hc/en-us/article_attachments/205309927/Smartling_Help_Center.png)
+![](/uploads/versions/smartling_help_center-1---x----1008-627x---.png)
 
-Outdated articles are marked in the **Translate Content** screen with a checkmark in the Outdate column. If you want to capture the changed content, simply check the outdated articles and click **Request Translation** again.
+Outdated articles are marked in the **Translate Content** screen with a checkmark in the Outdate column. If you want to capture the changed content, simply check the outdated articles and click&nbsp;**Request Translation** again.
 
-![](/hc/en-us/article_attachments/208539068/Smartling___Translate_Content.png)
-
+![](/uploads/versions/smartling___translate_content-1---x----1379-706x---.png)
