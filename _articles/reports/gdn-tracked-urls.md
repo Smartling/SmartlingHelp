@@ -4,10 +4,10 @@ title: GDN Tracked URLs
 draft: true
 Applies to:
   GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
+  Application-Resource-Files: false
+  CMS-Connectors: false
 edition: Express
-redirect-url:
+redirect-url: /hc/en-us/articles/201012768
 wistia:
   video: false
   id:
@@ -32,3 +32,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
