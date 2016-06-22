@@ -96,7 +96,7 @@ You can use the connector to translate files from the media library. They will b
 By default Sitecore creates Unversioned media items. Templates of such media items contain shared fields and cannot be translated. In this case you can save translations to another tree and cannot save fields translations or translated files to the original node. But you can change this behavior by using Versioned media items templates. Sitecore gives you control which templates to use for media items. You can find it in **Web.config**.
 
 ~~~
-<!--&nbsp; MEDIA - UPLOAD AS VERSIONABLE AS DEFAULT
-&nbsp; &nbsp; &nbsp; This setting controls if uploaded media is versionable by default or not.
+<!-- MEDIA - UPLOAD AS VERSIONABLE AS DEFAULT
+    This setting controls if uploaded media is versionable by default or not.
 -->
 ~~~
