@@ -47,7 +47,8 @@ migration-checklist:
 
 3) Go to the Sitecore Desktop, open Installation Wizard, and upload and then install the **Smartling.Connector.ver.[version].zip** package.  
 
-    ![](/hc/en-us/article_attachments/201141666/sitecore_install_wizard.jpg)
+![](/hc/en-us/article_attachments/201141666/sitecore_install_wizard.jpg)
+
 4) Add the following to the Web.config section:  
 
 ~~~
