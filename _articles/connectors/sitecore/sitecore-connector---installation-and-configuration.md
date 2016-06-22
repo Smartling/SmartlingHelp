@@ -129,7 +129,7 @@ By default, the connector will not submit all Shared fields with textual informa
 
 Or skip by field name.
 
-![](/hc/en-us/article_attachments/201144376/sitecore_excluding_2.jpg)
+![](/uploads/versions/sitecore_excluding_2---x----504-117x---.jpg)
 
 ### Auto-Authorize
 
@@ -139,11 +139,7 @@ Check the&nbsp;**Auto Authorize Content** box to automatically Authorize your co
 
 Browse to module settings (/sitecore/system/Modules/Smartling Connector) and verify your connection by clicking **Test Connection**.
 
-![](/hc/en-us/article_attachments/200580313/sitecore_testconnection.jpg)
-
-### Auto-Authorize
-
-Check the Auto Authorize Content box to automatically Authorize your content into the default workflow for each language in the Smartling Dashboard, rather than sending it to your Awaiting Authorization queue.
+![](/uploads/versions/sitecore_testconnection---x----144-79x---.jpg)
 
 ## Installing Sitecore Remote Connector (Optional)
 
