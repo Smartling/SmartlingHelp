@@ -7,7 +7,7 @@ Applies to:
   Application-Resource-Files: true
   CMS-Connectors: true
 edition: Express
-redirect-url:
+redirect-url: /hc/admin/articles/201413116/
 wistia:
   video: false
   id:
@@ -32,3 +32,12 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+As a translator or editor you can generate word count reports.&nbsp;
+
+To generate a word count report, Browse to&nbsp;**Reports &gt; Words Counts**, select a date range and click **Get Report**.
+
+The Word Count report provides you with a report on the number of translations submitted by translators or editors. Translation Resources only have access to their own reports.
+
+![](/uploads/versions/smartling___translator_words_count---x----1390-642x---.png)
