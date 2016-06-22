@@ -73,7 +73,7 @@ Modify the following settings to configure Sitecore for use with Smartling.
 
 Under the main settings item, **Profiles** contains one or more profiles that you can use for different content tree nodes, controlled by the **Source Path** setting.
 
-![](/uploads/versions/sitecore_profiles---x----180-235x---.jpg)
+![small](/uploads/versions/sitecore_profiles---x----180-235x---.jpg)
 
 Each profile should also contain one or more locales (target languages), that you can add using insert options.
 
