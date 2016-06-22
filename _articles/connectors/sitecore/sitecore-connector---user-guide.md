@@ -93,7 +93,7 @@ You can use the connector to translate files from the media library. They will b
 
 **Note**: As the item and the document associated with it will be sent to the different Smartling projects, they can be downloaded separately. Watch the **Content Type** column when downloading translations manually via Smartling Submissions application.
 
-By default Sitecore creates Unversioned media items. Templates of such mediatimes contain shared fields and cannot be translated. In this case you can save translations to another tree and cannot save fields translations or translated files to the original node. But you can change this behavior if you will use Versioned mediaitems templates. Sitecore gives you control which templates to use for mediaitems. You can find it in **Web.config**.
+By default Sitecore creates Unversioned media items. Templates of such media items contain shared fields and cannot be translated. In this case you can save translations to another tree and cannot save fields translations or translated files to the original node. But you can change this behavior by using Versioned media items templates. Sitecore gives you control which templates to use for media items. You can find it in **Web.config**.
 
 ~~~
 <!--&nbsp; MEDIA - UPLOAD AS VERSIONABLE AS DEFAULT
