@@ -40,4 +40,4 @@ To generate a word count report, Browse to&nbsp;**Reports &gt; Words Counts**, s
 
 The Word Count report provides you with a report on the number of translations submitted by translators or editors. Translation Resources only have access to their own reports.
 
-![](/uploads/versions/smartling___translator_words_count---x----1390-642x---.png)
+&nbsp;
