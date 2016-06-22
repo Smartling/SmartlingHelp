@@ -99,33 +99,33 @@ The following options are available:
 
 In the **Callback Domain** field, ensure that you specify a valid URL. It must be accessible from the Internet, for example:
 
-![](/hc/en-us/article_attachments/201141686/sitecore_domain.jpg)
+![](/uploads/versions/sitecore_domain---x----576-130x---.jpg)
 
 ### Translatable Fields
 
 **Translatable Fields** contains commons field types.
 <br>If you will translate **Dictionary** then you should add the **memo** field type to this list.
 
-![](/hc/en-us/article_attachments/200529598/sitecore_target_state.jpg)
+![](/uploads/versions/sitecore_target_state---x----576-414x---.jpg)
 
 ### Target Workflow States
 
 By default, **Target Workflow States** contains a workflow step for **Sample Workflow**.
 <br>If your items use another workflow, then you should add this step.
 
-![](/hc/en-us/article_attachments/201144346/sitecore_target_wf.jpg)
+![](/uploads/versions/sitecore_target_wf-1---x----576-385x---.jpg)
 
 ### Target Languages
 
 Use **Target Languages** to specify the languages to which you want to translate your content.
 
-![](/hc/en-us/article_attachments/201144366/sitecore_target_langs.jpg)
+![](/uploads/versions/sitecore_target_langs---x----576-170x---.jpg)
 
 ### Excluding Fields from Translation
 
 By default, the connector will not submit all Shared fields with textual information for translation. You can skip some fields by selecting **Exclude from translation** on the field item.
 
-![](/hc/en-us/article_attachments/201282763/sitecore_excluding_fields.jpg)
+![](/uploads/versions/sitecore_excluding_fields---x----504-231x---.jpg)
 
 Or skip by field name.
 
@@ -154,11 +154,11 @@ Go to Sitecore Desktop, and install **Smartling.Connector.Remove.ver.[version].z
 **1)** Open Sitecore Content Editor and browse to **/sitecore/system/Modules/Smartling Connector/Context** . It contains the following settings:
 
 ~~~
-\\*   \\*\\*Server Url\\*\\* - the remote module uses this URL for requesting HTML and resources such as CSS\JS\Img. In general, it should contain the domain of your site. Please don't use 'localhost' as the Server Url. If you test the connector on a local environment, then register the name in a hosts file and use it in the browser.
-\\*   \\*\\*Impersonated User\\*\\* - User account that used for getting HTML. If you didn't provide an user account, then Sitecore uses anonymous access.
-\\*   \\*\\*Enabled\\*\\* - You can enable\disable Context for translation
+\\\*   \\\*\\\*Server Url\\\*\\\* - the remote module uses this URL for requesting HTML and resources such as CSS\JS\Img. In general, it should contain the domain of your site. Please don't use 'localhost' as the Server Url. If you test the connector on a local environment, then register the name in a hosts file and use it in the browser.
+\\\*   \\\*\\\*Impersonated User\\\*\\\* - User account that used for getting HTML. If you didn't provide an user account, then Sitecore uses anonymous access.
+\\\*   \\\*\\\*Enabled\\\*\\\* - You can enable\disable Context for translation
 
-    ![](/hc/en-us/article_attachments/201286433/sitecore_context.jpg) 2) Browse to each of your settings profiles (items under \\*\\*/sitecore/system/Modules/Smartling Connector/Profiles\\*\\*). 3) Click \\*\\*Connect\\*\\*, and the remote module will use the \\*\\*Api Key\\*\\* + \\*\\*Project Id\\*\\* for connecting to the Smartling context Service.
+    ![](/hc/en-us/article_attachments/201286433/sitecore_context.jpg) 2) Browse to each of your settings profiles (items under \\\*\\\*/sitecore/system/Modules/Smartling Connector/Profiles\\\*\\\*). 3) Click \\\*\\\*Connect\\\*\\\*, and the remote module will use the \\\*\\\*Api Key\\\*\\\* + \\\*\\\*Project Id\\\*\\\* for connecting to the Smartling context Service.
 ~~~
 
 ![](/hc/en-us/article_attachments/201286463/sitecore_connect.jpg)
