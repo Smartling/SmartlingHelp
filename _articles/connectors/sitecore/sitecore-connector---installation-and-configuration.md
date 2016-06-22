@@ -154,8 +154,12 @@ Go to Sitecore Desktop, and install **Smartling.Connector.Remove.ver.[version].z
 * **Impersonated User** - User account that used for getting HTML. If you didn't provide an user account, then Sitecore uses anonymous access.
 * **Enabled** - You can enable\disable Context for translation
 
-    ![](/hc/en-us/article_attachments/201286433/sitecore_context.jpg) 2) Browse to each of your settings profiles (items under \\\*\\\*/sitecore/system/Modules/Smartling Connector/Profiles\\\*\\\*). 3) Click \\\*\\\*Connect\\\*\\\*, and the remote module will use the \\\*\\\*Api Key\\\*\\\* + \\\*\\\*Project Id\\\*\\\* for connecting to the Smartling context Service.
-~~~
+![](/hc/en-us/article_attachments/201286433/sitecore_context.jpg) 
+
+2) Browse to each of your settings profiles (items under **/sitecore/system/Modules/Smartling Connector/Profiles**). 
+
+3) Click **Connect**, and the remote module will use the **Api Key** + **Project Id** for connecting to the Smartling context Service.
+
 
 ![](/hc/en-us/article_attachments/201286463/sitecore_connect.jpg)
 
