@@ -160,7 +160,6 @@ Go to Sitecore Desktop, and install **Smartling.Connector.Remove.ver.[version].z
 
 3) Click **Connect**, and the remote module will use the **Api Key** + **Project Id** for connecting to the Smartling context Service.
 
-
 ![](/hc/en-us/article_attachments/201286463/sitecore_connect.jpg)
 
 ## Installing Extended Support for the General Link Field (Optional)
