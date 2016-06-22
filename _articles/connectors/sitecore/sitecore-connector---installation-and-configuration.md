@@ -139,7 +139,7 @@ Check the&nbsp;**Auto Authorize Content** box to automatically Authorize your co
 
 Browse to module settings (/sitecore/system/Modules/Smartling Connector) and verify your connection by clicking **Test Connection**.
 
-![](/uploads/versions/sitecore_testconnection---x----144-79x---.jpg)
+![small](/uploads/versions/sitecore_testconnection---x----144-79x---.jpg)
 
 ## Installing Sitecore Remote Connector (Optional)
 
