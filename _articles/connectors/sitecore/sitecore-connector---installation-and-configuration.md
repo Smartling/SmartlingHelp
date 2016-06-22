@@ -48,7 +48,7 @@ migration-checklist:
 
 **3)** Go to the Sitecore Desktop, open Installation Wizard, and upload and then install the **Smartling.Connector.ver.[version].zip** package.
 
-![](/hc/en-us/article_attachments/201141666/sitecore_install_wizard.jpg)
+![](/uploads/versions/sitecore_install_wizard---x----465-512x---.jpg)
 
 **4)** Add the following to the Web.config section:
 
@@ -72,8 +72,10 @@ Modify the following settings to configure Sitecore for use with Smartling.
 ### Profiles
 
 Under the main settings item, **Profiles** contains one or more profiles that you can use for different content tree nodes, controlled by the **Source Path** setting.
-<br>![](/hc/en-us/article_attachments/200579983/sitecore_profiles.jpg)
-<br>Each profile should also contain one or more locales (target languages), that you can add using insert options.
+
+![](/uploads/versions/sitecore_profiles---x----180-235x---.jpg)
+
+Each profile should also contain one or more locales (target languages), that you can add using insert options.
 
 ![](/hc/en-us/article_attachments/200580013/sitecore_content.jpg)
 
