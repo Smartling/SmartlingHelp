@@ -85,7 +85,7 @@ Each profile should also contain one or more locales (target languages), that yo
 
 You can also specify how Smartling retrieves and displays the content.
 
-![](/uploads/versions/sitecore_retrieval_type---x----324-63x---.jpg)
+![small](/uploads/versions/sitecore_retrieval_type---x----324-63x---.jpg)
 
 The following options are available:
 
