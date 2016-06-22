@@ -77,7 +77,7 @@ Under the main settings item, **Profiles** contains one or more profiles that yo
 
 Each profile should also contain one or more locales (target languages), that you can add using insert options.
 
-![](/hc/en-us/article_attachments/200580013/sitecore_content.jpg)
+![](/uploads/versions/sitecore_content---x----576-401x---.jpg)
 
 **Target Path** and **Smartling Locale** fields are optional and can be left empty.**Smartling Locale** field allows you to override the Sitecore languages code when sent to Smartling.
 
@@ -85,8 +85,9 @@ Each profile should also contain one or more locales (target languages), that yo
 
 You can also specify how Smartling retrieves and displays the content.
 
-![](/hc/en-us/article_attachments/200580043/sitecore_retrieval_type.jpg)
-<br>The following options are available:
+![](/uploads/versions/sitecore_retrieval_type---x----324-63x---.jpg)
+
+The following options are available:
 
 * **Published** - Replace the original string with translations that are reviewed and authorized for publishing
 * **Pending** - Translator finished translation, but the translation is waiting for authorization from Editor and Reviewer roles
@@ -153,11 +154,11 @@ Go to Sitecore Desktop, and install **Smartling.Connector.Remove.ver.[version].z
 **1)** Open Sitecore Content Editor and browse to **/sitecore/system/Modules/Smartling Connector/Context** . It contains the following settings:
 
 ~~~
-\*   \*\*Server Url\*\* - the remote module uses this URL for requesting HTML and resources such as CSS\JS\Img. In general, it should contain the domain of your site. Please don't use 'localhost' as the Server Url. If you test the connector on a local environment, then register the name in a hosts file and use it in the browser.
-\*   \*\*Impersonated User\*\* - User account that used for getting HTML. If you didn't provide an user account, then Sitecore uses anonymous access.
-\*   \*\*Enabled\*\* - You can enable\disable Context for translation
+\\*   \\*\\*Server Url\\*\\* - the remote module uses this URL for requesting HTML and resources such as CSS\JS\Img. In general, it should contain the domain of your site. Please don't use 'localhost' as the Server Url. If you test the connector on a local environment, then register the name in a hosts file and use it in the browser.
+\\*   \\*\\*Impersonated User\\*\\* - User account that used for getting HTML. If you didn't provide an user account, then Sitecore uses anonymous access.
+\\*   \\*\\*Enabled\\*\\* - You can enable\disable Context for translation
 
-    ![](/hc/en-us/article_attachments/201286433/sitecore_context.jpg) 2) Browse to each of your settings profiles (items under \*\*/sitecore/system/Modules/Smartling Connector/Profiles\*\*). 3) Click \*\*Connect\*\*, and the remote module will use the \*\*Api Key\*\* + \*\*Project Id\*\* for connecting to the Smartling context Service.
+    ![](/hc/en-us/article_attachments/201286433/sitecore_context.jpg) 2) Browse to each of your settings profiles (items under \\*\\*/sitecore/system/Modules/Smartling Connector/Profiles\\*\\*). 3) Click \\*\\*Connect\\*\\*, and the remote module will use the \\*\\*Api Key\\*\\* + \\*\\*Project Id\\*\\* for connecting to the Smartling context Service.
 ~~~
 
 ![](/hc/en-us/article_attachments/201286463/sitecore_connect.jpg)
