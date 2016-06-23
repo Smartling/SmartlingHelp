@@ -3,8 +3,8 @@ layout: article
 title: Wordpress Connector - Version History
 draft: true
 Applies to:
-  GDN: true
-  Application-Resource-Files: true
+  GDN: false
+  Application-Resource-Files: false
   CMS-Connectors: true
 edition: Express
 redirect-url:
@@ -32,5 +32,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
 
 See our [Wordpress Plugin page](https://wordpress.org/plugins/smartling-connector/changelog/) for version information.
