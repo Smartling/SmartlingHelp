@@ -18,4 +18,4 @@ When working with localized content in an agile, continuous deployment environme
 
 The Repository Connector acts a broker between the source repository and the Smartling project. Changes to resource files in the repository are automatically pushed to the Smartling project. &nbsp;The Connector will register a callback for each file so that it can be notified when the file is completely translated, then it will immediately download the translated file and can optionally push the translated files back to the repository.
 
-See our developer documentation for full details of the repository connector.
+See our developer documentation for [full details of the repository connector]().
