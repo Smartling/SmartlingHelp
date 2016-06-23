@@ -32,3 +32,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+See our [Wordpress Plugin page](https://wordpress.org/plugins/smartling-connector/changelog/) for version information.
