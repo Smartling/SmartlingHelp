@@ -355,6 +355,7 @@ Strings are created with variant metadata only if you have configured the XML fi
 
 </table>
 
+
 ### Business Documents Projects
 
 All strings are unique by document.  Within a single document in cases where strings have a small number of words (by default, less than three), Smartling will automatically generate variants allowing you to provide different translations for an identical string depending on the context within the document.
