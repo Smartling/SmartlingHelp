@@ -65,7 +65,7 @@ migration-checklist:
 
 ### Bug Fixes:
 
-* Fixed bug that caused errors handling branch names containing a slash. e.g. 'dev/martin'.
+* Fixed bug that caused errors handling branch names containing a slash. e.g. 'dev/martin'.
 
 
 ## Version 1.4.5 12/15/2015
@@ -77,7 +77,7 @@ migration-checklist:
 
 ### Bug Fixes:
 
-* Fixed bug that caused publishing of some resources to fail.
+* Fixed bug that caused publishing of some resources to fail.
 
 
 ## Version 1.4.3 - 11/23/2015
@@ -119,7 +119,7 @@ migration-checklist:
 
 ### Bug Fixes:
 
-* Warn user to login when resources configuration isn't found
+* Warn user to login when resources configuration isn't found
 
 
 ## Version 1.2.2 - 05/12/2015
@@ -142,7 +142,7 @@ migration-checklist:
 * Trigger for push back translations can be Smartling callback or cron
 * Customize where and how to push translated resources
 * Allow to configure Language mapping
-* Allow to enable\disable automatic authorize files for all\specific locales
+* Allow to enable/disable automatic authorize files for all or specific locales
 * Single Smartling project can be mappet to 1 or more repositories
 * Translate several branches at once (or only master branch)
 * Automatically remove resources files from Smartling project when files removed from Github
