@@ -265,7 +265,7 @@ The string is captured with variant metadata if ‘msgctxt’ is present for the
 
 <td>
 
-~~~
+
 #:0001  
 msgctxt "string1"  
 msgid "Home"  
@@ -275,7 +275,6 @@ msgstr ""
 msgctxt "string2"  
 msgid "Home"  
 msgstr ""
-~~~
 
 </td>
 
