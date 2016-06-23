@@ -72,7 +72,7 @@ For CSV files, you may download translations for all locales in a single file by
 
 **(4)**&nbsp;Choose how to organize the downloaded files. You can download a zip file organized into folders by language, or a single folder, with the language added to each file name. Click&nbsp;**Download.**
 
-&nbsp;![](/uploads/versions/smartling___manage_files-3---x----574-452x---.png)
+&nbsp;![](/uploads/versions/smartling___manage_files-4---x----574-452x---.png)
 
 **(4)****&nbsp;**A zip-file containing files will begin downloading. This may take some time, depending on the number of files. You can now navigate away from the Files page without interrupting the download. The zip file will be organized into directories according to language and the URI of each file.
 
