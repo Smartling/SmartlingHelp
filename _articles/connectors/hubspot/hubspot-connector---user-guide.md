@@ -50,7 +50,7 @@ The HubSpot Connector is managed entirely from within the Smartling dashboard. Y
 
 **(4)** Select the target languages and click **Request Translation**.
 
-![](/uploads/versions/smartling___translate_content-3---x----574-372x---.png)
+![medium](/uploads/versions/smartling___translate_content-3---x----574-372x---.png)
 
 The content for the requested language pages will be authorized and added to the default workflow for each target language. Smartling automatically uploads completed translations to HubSpot at regular intervals. If you want translations exported to HubSpot immediately, you can perform the export manually.
 
