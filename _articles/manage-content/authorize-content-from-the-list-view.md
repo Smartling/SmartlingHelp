@@ -37,7 +37,7 @@ Before content is translated, you must Authorize it. You can find unauthorized c
 
 ## Default authorization
 
-To authorize strings for all languages in a project and send strings to the default workflow [link] for each language, click **Authorize** for an individual string, and **Authorize Group** to authorize all strings in a URL or file.  
+To authorize strings for all languages in a project and send strings to the default workflow for each language, click **Authorize** for an individual string, and **Authorize Group** to authorize all strings in a URL or file.  
 
 ![](/hc/en-us/article_attachments/202989947/Smartling___Translations_Management.png)
 
