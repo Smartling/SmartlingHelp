@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Magento Connector
+title: Magento Connector - Install and Configure
 draft: true
 Applies to:
   GDN: true
@@ -52,7 +52,7 @@ This step gives the connector the necessary details to use Smartling’s API to 
 
 ## Create Localization Folders
 
-**(1)** Create folders for each locale under /app/locale/ &nbsp;in Magento folder.
+**(1)** Create folders for each locale under /app/locale/  in Magento folder.
 
 ![](/uploads/versions/image04---x----359-266x---.png)
 
@@ -82,7 +82,7 @@ Smartling Magento Connector uses three scheduled tasks to manage content.
 
 **(1)** In the Magento dashboard, go to **System &gt; Scheduler**.
 
-**(2)** Use a standard Cron Expression (for example, \*/5 \* \* \* \* &nbsp;means ‘every five minutes’) to set the frequency for each of these three tasks.
+**(2)** Use a standard Cron Expression (for example, \*/5 \* \* \* \*  means ‘every five minutes’) to set the frequency for each of these three tasks.
 
 * **upload_bulk_content** - Uploads all content you have selected to upload to Smartling.
 * **check_statuses** - Updates the translation status of all content currently in progress.
