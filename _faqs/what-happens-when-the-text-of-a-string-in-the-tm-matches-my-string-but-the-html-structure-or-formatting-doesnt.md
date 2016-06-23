@@ -10,7 +10,7 @@ url:
 ---
 
 
-In the Translation Interface, when you select a translation from the Translation Memory, the field structure of the TM translation may not match the field structure of the string you are translating. &nbsp;
+In the Translation Interface, when you select a translation from the [Translation Memory](), the field structure of the TM translation may not match the field structure of the string you are translating. &nbsp;
 
 For example, if there is a link in the TM translation but not in the string you are translating, the text matches, but not the structure.
 
