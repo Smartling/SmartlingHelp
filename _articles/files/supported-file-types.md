@@ -41,17 +41,17 @@ Most application resource file types can be uploaded to Smartling without being 
 
 <tr>
 
-<td>
+<th>
 
-**File Type**
+File Type
 
-</td>
+</th>
 
-<td>
+<th>
 
-**Prefix**
+Prefix
 
-</td>
+</th>
 
 </tr>
 
@@ -365,17 +365,17 @@ Smartling also supports the following business document files. These files are s
 
 <tr>
 
-<td>
+<th>
 
-**File Type**
+File Type
 
-</td>
+</th>
 
-<td>
+<th>
 
-**Extension**
+Extension
 
-</td>
+</th>
 
 </tr>
 
