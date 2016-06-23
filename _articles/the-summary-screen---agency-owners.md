@@ -7,7 +7,7 @@ Applies to:
   Application-Resource-Files: true
   CMS-Connectors: true
 edition: Express
-redirect-url:
+redirect-url: /hc/en-us/articles/203845283
 wistia:
   video: false
   id:
@@ -32,3 +32,15 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+The Summary screen offers an overview of a project:
+
+* Percentage of strings that are complete, by language
+* Summary of open issues
+* Daily translation activity - total or by language.
+
+
+Click ⟳&nbsp;to refresh the Summary display.
+
+![](/uploads/versions/smartling___summary---x----2518-1348x---.png)
