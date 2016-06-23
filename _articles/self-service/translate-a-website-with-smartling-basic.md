@@ -32,3 +32,12 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+If your website is localization-ready, you can translate it by uploading your resource files to Smartling.
+
+Smartling can translate HTML files, but most web localization frameworks use a different file format for storing strings. The most common formats are Gettext, java properties, JSON, YAML and XML.
+
+Below are some of the most common localization platforms, listing file type used and documentation where available.
+
+&nbsp;
