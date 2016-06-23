@@ -36,4 +36,69 @@ migration-checklist:
 
 Smartling Magento Connector allows you to upload your Magento content to Smartling and download translations to your Localized Stores. Ask your Smartling Customer Service representative for information about pricing and help installing the package.
 
-&nbsp;
+## Create a Smartling Settings Profile
+
+This step gives the connector the necessary details to use Smartling’s API to upload content and download translations.
+
+**(1)** Go to **System** > **Smartling Settings** > **Settings Profile** and click **Add New**
+
+**(2)** Choose your original website: 
+
+![](/hc/en-us/article_attachments/201858128/image07.png)
+
+**(3)** Enter your Smartling project details and locale codes for each translated website.
+
+![](/hc/en-us/article_attachments/201858098/image00.png)  
+
+## Create Localization Folders
+
+**(1)** Create folders for each locale under /app/locale/  in Magento folder.  
+
+![](/hc/en-us/article_attachments/201827997/image04.png)
+
+**(2)** In your Magento dashboard, go to **System** > **Manage stores**.
+
+**(3)** Select each **store view** and set the **Localization Directory** to the folder you created.
+
+****![](/hc/en-us/article_attachments/201827987/image01.png)  
+
+##Configure attributes for translation
+
+The Magento Connector can translate Products, Categories, Attributes, CMS Pages, CMS Static Blocks and Localization Files.
+
+For Products, Categories, CMS Pages and CMS Static Blocks we have to check attributes to translate:
+
+**(1)** In the Magento Dashboard, go to **System > Smartling Settings > Fields for Translation** and select a content type.
+
+![](/hc/en-us/article_attachments/201858108/image02.png)  
+
+**(2)** You will see a complete set of attributes for your chosen content type. Select the attributes you want to send to Smartling for translation. Unchecked attributes will remain in their original form in all translated stores.
+
+![](/hc/en-us/article_attachments/201828017/image05.png)  
+
+## Set up the Scheduler
+
+Smartling Magento Connector uses three scheduled tasks to manage content.
+
+**(1)** In the Magento dashboard, go to **System > Scheduler**.
+
+**(2)** Use a standard Cron Expression (for example, */5 * * * *  means ‘every five minutes’) to set the frequency for each of these three tasks.
+
+*   **upload_bulk_content** - Uploads all content you have selected to upload to Smartling.
+*   **check_statuses** - Updates the translation status of all content currently in progress.
+*   **check_files** - updates the list of content displayed in the Smartling Submissions view.
+
+![](/hc/en-us/article_attachments/201828037/image06.png)
+
+## Logging and testing [optional]
+
+**(1)** From the Magento dashboard, go to **System** > **Configuration** page and select the **Developer** tab.
+
+**(2)** Under **Log Settings**, set **Enabled** to **Yes** and specify a log file name.
+
+### Enable test mode
+
+Under **Smartling Settings**, set **Test Mode** to **Yes.** Test Mode uploads content as soon as it is submitted.
+
+![](/hc/en-us/article_attachments/201828007/image03.png)  
+
