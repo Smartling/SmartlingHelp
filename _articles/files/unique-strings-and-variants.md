@@ -45,7 +45,7 @@ To handle these instances, Smartling uses Variants. A Variant is one of two or m
 
 In some cases an identical string located in different contexts may need different manipulations or translations. Here are few scenarios where Variants can be useful to distinguish strings with identical text in the source language:
 
-###Identical strings where meaning varies based on context:
+### Identical strings where meaning varies based on context:
 
 A travel site where the word **_return_** has two distinct meanings:
 
@@ -59,7 +59,7 @@ The string 'Go back to the home page':
 *   On the main site, does not require a character limit.
 *   For a button, requires a character limit to fit space limitations.
 
-## *How Smartling Creates Variants
+## How Smartling Creates Variants
 
 Smartling creates Variants when two strings have the same text, but different context or metadata. Context is captured differently depending on the project type.
 
@@ -98,9 +98,9 @@ To manually create variants, you can use a **variant** HTML attribute within a b
 
 <td>
 
-**String 1**: <div>Same text, captured twice with variant metadata.</div>  
-**String** **2**: <div variant="Variant1">Same text, captured twice with variant metadata.</div>  
-**String 2****(****HTML5)**: <div data-sl-variant="Variant1">Same text, captured twice with variant metadata.</div>
+String 1: <div>Same text, captured twice with variant metadata.</div>  
+String 2: <div variant="Variant1">Same text, captured twice with variant metadata.</div>  
+String 2 (HTML5): <div data-sl-variant="Variant1">Same text, captured twice with variant metadata.</div>
 
 </td>
 
@@ -208,10 +208,10 @@ Every string is created with variant metadata which is the value of the string.n
 
 <td>
 
-~~~
+
 <string name="string1">Home</string  
 <string name="string2">Home</string>
-~~~
+
 
 </td>
 
@@ -233,7 +233,7 @@ Every string is created with variant metadata which is the value of the data.nam
 
 <td>
 
-~~~
+
 <data name="string1">  
  <value>Home</value>  
 </data>
@@ -241,7 +241,7 @@ Every string is created with variant metadata which is the value of the data.nam
 <data name="string2">  
  <value>Home</value>  
 </data>
-~~~
+
 
 </td>
 
@@ -290,13 +290,13 @@ JSON
 
 <td>
 
-Strings are created with variant metadata only if you have configured the JSON file to use keys and have turned on the variants behavior. Then the Smartling key for a string is used as the variant metadata for that string. **Note:** for [accounts created after June 11th 2015](/hc/en-us/articles/205589697), JSON strings will are created with variant metadata by default.
+Strings are created with variant metadata only if you have configured the JSON file to use keys and have turned on the variants behavior. Then the Smartling key for a string is used as the variant metadata for that string. **Note:** for [accounts created after June 11th 2015](), JSON strings will are created with variant metadata by default.
 
 </td>
 
 <td>
 
-~~~
+
 {  
 "smartling":{  
   "translate_mode":"custom",  
@@ -310,7 +310,7 @@ Strings are created with variant metadata only if you have configured the JSON f
  "string":"Home"  
    }  
 }
-~~~
+
 
 </td>
 
@@ -332,7 +332,7 @@ Strings are created with variant metadata only if you have configured the XML fi
 
 <td>
 
-~~~
+
 <?xml version="1.0" encoding="utf-8"?>  
 <!-- smartling.translate_paths = data/item/string -->  
 <!-- smartling.source_key_paths = data/item/{string.name} -->  
@@ -344,7 +344,7 @@ Strings are created with variant metadata only if you have configured the XML fi
     <string name="name2">Home</string>  
   </item>  
 </data>
-~~~
+
 
 
 </td>
