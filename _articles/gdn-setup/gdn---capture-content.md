@@ -44,7 +44,7 @@ Smartling limits ingestion to 10,000 strings that haven't been authorized or tra
 
 **1)** At **Global Delivery Network** &gt; **Domains**, click the domain and for the language you want to ingest, click&nbsp;**Translate in context** to launch your site.
 
-![](/uploads/versions/smartling___manage_domains-2---x----897-702x---.png)
+![large](/uploads/versions/smartling___manage_domains-2---x----897-702x---.png)
 
 **2)** Browse each page on the site that you want to translate, and Smartling ingests this content and displays it under **Translations** &gt; **Awaiting Authorization**.
 
