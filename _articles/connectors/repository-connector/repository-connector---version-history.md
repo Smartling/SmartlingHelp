@@ -7,7 +7,7 @@ Applies to:
   Application-Resource-Files: false
   CMS-Connectors: true
 edition: Express
-redirect-url:
+redirect-url: /hc/en-us/articles/204450637
 wistia:
   video: false
   id:
