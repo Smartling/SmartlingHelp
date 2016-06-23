@@ -32,3 +32,19 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+The HubSpot Connector allows you to upload your HubSpot Landing Page and Form assets to the Smartling Dashboard for translation and export translated asssets back into HubSpot for deployment.
+
+Before beginning to set up Smartling’s HubSpot connector you should have a Smartling account and have [added a project]() to your account of type CMS Connector to hold your HubSpot translations.
+
+**To connect Smartling to your HubSpot account:**
+
+**(1)** Login to both HubSpot and Smartling.
+
+**(2)** Visitv[https://hubspot.smartling.com/ui/sign-in/connect](https://hubspot.smartling.com/ui/sign-in/connect).
+
+**(3)** Enter your Hub ID and select the Smartling project you want to connect you your hubSpot account.
+
+![](/hc/en-us/article_attachments/208652648/Connect_to_Smartling.png)
+
+**(4)** Click **Authorize** to confirm the connection.
