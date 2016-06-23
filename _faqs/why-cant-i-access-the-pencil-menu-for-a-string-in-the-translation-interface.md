@@ -14,5 +14,5 @@ It's possible for the CSS on a page to prevent access to Smartling's pencil menu
 
 However, there are other ways to open a string for translation:
 
-1. CTRL + Right Click on any string highlighted yellow.
-2. Hold down the ALT key while a string is highlighted will lock the pencil menu in it's visible state until the key is released or another string is highlighted.
+1. `CTRL + Right Click` on any string highlighted yellow.
+2. Hold down the `ALT` key while a string is highlighted will lock the pencil menu in it's visible state until the key is released or another string is highlighted.
