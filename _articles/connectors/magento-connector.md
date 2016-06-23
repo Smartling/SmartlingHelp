@@ -32,3 +32,8 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+Smartling Magento Connector allows you to upload your Magento content to Smartling and download translations to your Localized Stores. Ask your Smartling Customer Service representative for information about pricing and help installing the package.
+
+&nbsp;
