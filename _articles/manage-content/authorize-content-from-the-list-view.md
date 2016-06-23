@@ -54,10 +54,10 @@ To authorize strings on a per-language basis or specify a workflow for those str
 
 **(3)** In the Authorize dialog box, select your languages, the Workflow for each language and a [job](){: .cc-active}, if desired. Click **Submit**.
 
-![](/uploads/versions/smartling___translations_management-10---x----571-431x---.png)
+![medium](/uploads/versions/smartling___translations_management-10---x----571-431x---.png)
 
 ## Partially Authorized Content
 
 The Awaiting Authorization List View can be configured to show partially authorized strings - that is, they have been authorized for one or more languages, but not for all languages in the project. To show these strings, check **Show Partially Authorized**.
 
-![](/uploads/versions/smartling___translations_management-11---x----254-482x---.png)
+![small](/uploads/versions/smartling___translations_management-11---x----254-482x---.png)
