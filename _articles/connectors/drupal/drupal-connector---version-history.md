@@ -33,4 +33,4 @@ migration-checklist:
   reviewed: false
 ---
 
-See Smartling's [release notes on the Drupal page](https://www.drupal.org/node/2345891/release) for version history.
+See Smartling's [release notes on the Drupal page](https://www.drupal.org/node/2345891/release) for version history.
