@@ -112,6 +112,7 @@ String 2 (HTML5): <div data-sl-variant="Variant1">Same text, captured twice with
 
 Smartling parses these as two unique strings, even though the content within the block tags is identical. String 1 has no variant metadata, String 2 has the variant metadata “Variant1”.
 
+
 ### Application Resource File Projects
 
 How Smartling creates variants from Application Resource Files depends on the file type and the parsing instructions included in the file. Most application resource files use key/value pairs, where the ‘value’ is the string and the ‘key’ is a label. For some file types, Smartling may capture keys as metadata for a string and create Variants if two different keys have the same value. See the table below for detailed information on each file type:
