@@ -44,11 +44,11 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 **(1)** Click **+** and choose **Add Project Workflow** or **Add Account Workflow**.
 
-![](/uploads/versions/smartling___translation_workflow---x----674-417x---.png)
+![medium](/uploads/versions/smartling___translation_workflow---x----674-417x---.png)
 
 **(2)** Name the workflow and check all languages you want the workflow to be used for.
 
-![](/uploads/versions/smartling___translation_workflow-1---x----577-425x---.png)
+![medium](/uploads/versions/smartling___translation_workflow-1---x----577-425x---.png)
 
 ## Customize a Workflow:
 
@@ -56,7 +56,7 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 **(1)** Add revision steps by clicking&nbsp;**+**. Choose the step type, add a name and set the properties for the step.
 
-![](/uploads/versions/smartling___translation_workflow-3---x----576-551x---.png)
+![medium](/uploads/versions/smartling___translation_workflow-3---x----576-551x---.png)
 
 | Field | Description |
 | Content Assignment | If set to ‘ON’ each string must be assigned to a specific translation resource. If ‘OFF’, any resource with access to this step can work on any string. |
@@ -72,7 +72,7 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 **(4)** To allow Translation Resources to reject published strings, edit the **Published** step of the workflow, check **Resources can reject content to:** and select the Workflow step you want rejected content to be returned to. Only resources assigned to a step with the&nbsp;**Resources can Reject and Edit Published Content**&nbsp;option enabled will be able to reject published content.
 
-![](/uploads/versions/smartling___translation_workflow-4---x----576-275x---.png)
+![medium](/uploads/versions/smartling___translation_workflow-4---x----576-275x---.png)
 
 ## Add Users to a Workflow
 
@@ -84,7 +84,7 @@ Access to each workflow step is customizable. Content owners have access to all 
 
 **2)** From the dialog, select a language and check the users you want to work in the step. Close the dialog when you’re done.
 
-![](/uploads/versions/smartling___translation_workflow-6---x----576-245x---.png)
+![medium](/uploads/versions/smartling___translation_workflow-6---x----576-245x---.png)
 
 **3)** The dialog will only show existing users who are available to work in the step. A user is considered available if they have been invited to the project and are set up to translate the selected language. Agency translators will not be displayed. To add a new user or manage a particular user’s access to languages and workflow steps in detail, use the **Team** page. See [Add and Manage User Access](/hc/en-us/articles/201016167) for more information.
 
