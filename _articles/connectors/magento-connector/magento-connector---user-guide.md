@@ -33,35 +33,34 @@ migration-checklist:
   reviewed: false
 ---
 
-Once you have [set up the Magento Connector](), you can send items to Smartling for translation, either individually, or in bulk, and download completed translations to your translated stores.
+
+Once you have [set up the Magento Connector](){: .cc-active}, you can send items to Smartling for translation, either individually, or in bulk, and download completed translations to your translated stores.
 
 ## Translate a single item
 
-**(1)** From the item page, go to **Smartling Translations**, select the languages you want to translate into and click **Send to Smartling**.
+**(1)**&nbsp;From the item page, go to **Smartling Translations**, select the languages you want to translate into and click **Send to Smartling**.
 
-![](/hc/en-us/article_attachments/201863748/image02.png)  
+![](/uploads/versions/image02-1---x----682-609x---.png)
 
+**(2)** The content will be sent to Smartling the next time the **upload_bulk_content** task is run. To run the task immediately, go to **System &gt; Scheduler**, check **upload_bulk_content** and select **Run now** from the **Actions** menu.
 
-**(2)** The content will be sent to Smartling the next time the **upload_bulk_content** task is run. To run the task immediately, go to **System > Scheduler**, check **upload_bulk_content** and select **Run now** from the **Actions** menu.
-
-![](/hc/en-us/article_attachments/201863708/image04.png)
+![](/uploads/versions/image04-1---x----944-330x---.png)
 
 ## Translate Items in Bulk
 
-**(1)** Go to **Smartling** > **Smartling Bulk Submit**.
+**(1)** Go to **Smartling** &gt; **Smartling Bulk Submit**.
 
 **(2)** Select a content type, check the languages you want to translate into and click **Continue**.
 
-![](/hc/en-us/article_attachments/201834957/image00.png)
+![](/uploads/versions/image00-1---x----586-341x---.png)
 
 **(3)** Select the items you want to translate and click **Continue**.
 
-![](/hc/en-us/article_attachments/201863718/image03.png)  
-
+![](/uploads/versions/image03-1---x----1059-616x---.png)
 
 ## Manually download translation
 
-**(1)** Go to **Smartling > Submissions.**
+**(1)** Go to **Smartling &gt; Submissions.**
 
 **(2)** You will see a list of all items that have been uploaded to Smartling, with a progress indicator for each item.
 
@@ -69,4 +68,4 @@ Once you have [set up the Magento Connector](), you can send items to Smartling 
 
 The translated content will be added to your translated stores.
 
-![](/hc/en-us/article_attachments/201834967/image01.png)  
+![](/uploads/versions/image01-2---x----1331-617x---.png)
