@@ -6,13 +6,13 @@ Applies to:
   GDN: false
   Application-Resource-Files: false
   CMS-Connectors: true
-edition: Express
-redirect-url:
+edition: Enterprise
+redirect-url: /hc/en-us/articles/203723828
 wistia:
   video: false
   id:
 read-first:
-  include: false
+  include: true
   sections:
   articles:
   others:
@@ -32,5 +32,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
 
 See Smartling's [release notes on the Drupal page](https://www.drupal.org/node/2345891/release) for version history.
