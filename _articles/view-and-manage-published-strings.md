@@ -60,6 +60,6 @@ Account Owners and Project managers can also directly edit published strings. In
 
 **(3)** A translation issue will automatically be opened. Enter some text to explain why you have rejected the string.
 
-![](/uploads/versions/smartling___translations_management-5---x----1158-602x---.png)
+![medium](/uploads/versions/smartling___translations_management-5---x----1158-602x---.png)
 
 The string will return to the workflow step specified in your **Translation Workflow** settings.
