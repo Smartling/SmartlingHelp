@@ -46,6 +46,6 @@ Before beginning to set up Smartling’s HubSpot connector you should have a Sma
 
 **(3)** Enter your Hub ID and select the Smartling project you want to connect you your hubSpot account.
 
-![](/uploads/versions/connect_to_smartling---x----659-320x---.png)
+![medium](/uploads/versions/connect_to_smartling---x----659-320x---.png)
 
 **(4)** Click **Authorize** to confirm the connection.
