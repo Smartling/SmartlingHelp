@@ -4,8 +4,8 @@ title: Third-Party Form and Button Integration
 draft: true
 Applies to:
   GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
+  Application-Resource-Files: false
+  CMS-Connectors: false
 edition: Express
 redirect-url:
 wistia:
@@ -32,3 +32,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
