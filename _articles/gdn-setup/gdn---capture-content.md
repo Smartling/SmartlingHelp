@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-Before strings can be reviewed and translated as part of the Smartling Global Delivery Network (GDN), you must capture the content you want translated from the current source site into Smartling. You can do this manually by viewing a language URL, or by using a [web crawler](http://en.wikipedia.org/wiki/Web_crawler) to systematically browse the pages that contain source content that you want to translate. You must browse the entire site as Smartling does not 'crawl' the site. Some tools, such as [sitesucker](http://sitesucker.us/mac/mac.html) will crawl authenticated (password-protected) pages, but &nbsp;typically will not capture content that requires user interaction though submissions.
+Before strings can be reviewed and translated as part of the Smartling Global Delivery Network (GDN), you must capture the content you want translated from the current source site into Smartling. You can do this manually by viewing a language URL, or by using a [web crawler](http://en.wikipedia.org/wiki/Web_crawler) to systematically browse the pages that contain source content that you want to translate. You must browse the entire site as Smartling does not 'crawl' the site. Some tools, such as [sitesucker](http://sitesucker.us/mac/mac.html) will crawl authenticated (password-protected) pages, but typically will not capture content that requires user interaction though submissions.
 
 Smartling limits ingestion to 10,000 strings that haven't been authorized or translated. Smartling imposes these limits to avoid overloading the dashboard with unmanageable amounts of content for translation.
 
