@@ -112,27 +112,34 @@ Plural sensitive forms for YAML files are indicated at the sub-key level. For ex
 image_upload_timestamp:
     one: "uploaded %{num_secs} second ago"
     other: "uploaded %{num_secs} seconds ago"
+~~~
 
 You can turn off detection of plurals using the following directive: # smartling.plurals_detection = off
 
 ## Plurals for QT TS Files
 
 Plural sensitive forms for QT Linguist files are indicated by the source string having "numerus = "yes" " and the variations using the "numerusform" element with the "plurality" attribute. For example:
-~~~
-
-<message numerus="yes"> <source />%1 subtitle(s) extracted <translation> <numerusform plurality="singular">%1 subtitle extracted</numerusform> <numerusform plurality="plural">%1 subtitles extracted</numerusform> </translation> </message>
-
-&nbsp;
 
 ~~~
+<message numerus="yes">
+ <source>%1 subtitle(s) extracted</source>
+ <translation>
+   <numerusform plurality="singular">%1 subtitle extracted</numerusform>
+   <numerusform plurality="plural">%1 subtitles extracted</numerusform>
+ </translation>
+</message>
+~~~
+
 ## Plurals for Android Files
 
 Plural sensitive forms for Android files are indicated by the source file having a string marked plurals, for example:
 
+~~~
 <plurals name="plural_strings2">
     <item quantity="one">You have %s item in your cart.</item>
     <item quantity="other">You have %s items in your cart.</item>
 </plurals>
+~~~
 
 Smartling conforms to the Android standard for plurals: [http://developer.android.com/guide/topics/resources/string-resource...](http://developer.android.com/guide/topics/resources/string-resource.html#Plurals)
 
@@ -141,44 +148,31 @@ Smartling conforms to the Android standard for plurals: [http://developer.androi
 While Apple has now released the [Stringsdict format]() to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
 
 Plural sensitive forms for iOS files are indicated by source files with strings in the following form:
+
+~~~
+KEY##{rule}
 ~~~
 
-&nbsp;
-
-KEY##{rule} ~~~
-
-&nbsp;
-
 Where:
-
-&nbsp;
-
 * `KEY` is the original key string
 * `rule` is one of the plural forms: zero, one, two, few, many, other, and conforms to the [CLDR](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html) specification on plural forms. Smartling loads a translation following rules as defined under CLDR.
 
-
-&nbsp;
-
 For example, here are sample resource files for the key `%d songs found:`
-
-&nbsp;
 
 ~~~
 en.lproj/Localizable.strings
 
-/\* Number of songs from search results \*/
+/* Number of songs from search results */
 
 "%d songs found##{one}" = "One song found";
 "%d songs found##{other}" = "%d songs found";
 
 ru.lproj/Localizable.strings
 
-/\* Number of songs from search results \*/
+/* Number of songs from search results */
 
 "%d songs found##{one}" = "Найдена одна песня";
 "%d songs found##{few}" = "Найдено %d песни";
 "%d songs found##{many}" = "Найдено %d песен";
 "%d songs found##{other}" = "Найдено %d песен";
 ~~~
-
-&nbsp;
