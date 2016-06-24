@@ -33,6 +33,7 @@ migration-checklist:
   reviewed: false
 ---
 
+
 The tight formatting of Adobe InDesign files makes context especially important for successful translation.
 
 Smartling can now show InDesign context in the Translation Interface. Context is not dynamic, as with HTML context, but must be regenerated when translations are edited.
@@ -41,10 +42,10 @@ To generate context for IDML strings:
 
 **1)** In the Translation Interface, click **Generate document with latest [language] translations**.
 
-![](/hc/en-us/article_attachments/208714948/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-12---x----1110-855x---.png)
 
 **2)** Switch between the source and target language by clicking the language name.
 
 **3)** To update with new translations click **Generate document with latest [language] translations** again.
 
-![](/hc/en-us/article_attachments/208727247/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-13---x----1109-855x---.png)
