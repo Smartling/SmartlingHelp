@@ -3,8 +3,8 @@ layout: article
 title: Wordpress Connector - Install and Configure
 draft: true
 Applies to:
-  GDN: true
-  Application-Resource-Files: true
+  GDN: false
+  Application-Resource-Files: false
   CMS-Connectors: true
 edition: Express
 redirect-url: /hc/en-us/articles/205418457
@@ -98,7 +98,7 @@ Before you can install the Smartling Connector, you need to have the following i
 
 ## Configure WP Cron
 
-The Wordpress Connector uses WP-Cron to run regular tasks. See here for further information about&nbsp;[hooking WP-Cron into the system task scheduler](https://developer.wordpress.org/plugins/cron/hooking-into-the-system-task-scheduler/).
+The Wordpress Connector uses WP-Cron to run regular tasks. See here for further information about [hooking WP-Cron into the system task scheduler](https://developer.wordpress.org/plugins/cron/hooking-into-the-system-task-scheduler/).
 
 **(1)** Ensure that the domain name of your Wordpress site is resolved on the server by pinging it when you're logged in via ssh. e.g.:
 
@@ -115,20 +115,20 @@ sudo -u nginx crontab -e
 **(3)** Add a line to the end of the file
 
 ~~~
-\*/5 \* \* \* \* curl http://mywordpressinstallation.com/wp-cron.php  > /dev/null 2>&1
+\\*/5 \\* \\* \\* \\* curl http://mywordpressinstallation.com/wp-cron.php  > /dev/null 2>&1
 ~~~
 
 or
 
 ~~~
-\*/5 \* \* \* \* wget -O - -q -t 1 http://mywordpressinstallation.com/wp-cron.php
+\\*/5 \\* \\* \\* \\* wget -O - -q -t 1 http://mywordpressinstallation.com/wp-cron.php
 ~~~
 
 This will run Wordpress cron every 5 minutes.
 
 > Remember to leave at least one blank line at the end of the file.
 
-**(4)**&nbsp;Edit your&nbsp;`wp-config.php` file and add the following line
+**(4)** Edit your `wp-config.php` file and add the following line
 
 ~~~
 define('DISABLE_WP_CRON', true);
