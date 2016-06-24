@@ -52,7 +52,9 @@ The sidekick also indicates if a user has updated a page submitted for translati
 ### To create a translation submission
 
 1) Browse to the Websites portal and double-click to open an existing page in the source language.
+
 2) In the Sidekick, open the **Workflow** tab, then expand the **Smartling** **Translations** section.  ![](/hc/en-us/article_attachments/201444157/English.png)
+
 3) Select the language(s) into which you would like to translate the pages and click **Translate**.  
 ![](/hc/en-us/article_attachments/201460238/English.png)  
 
@@ -61,14 +63,23 @@ The sidekick also indicates if a user has updated a page submitted for translati
 ### To create bulk translation submissions
 
 1) Browse to the Websites portal and double-click to open an existing page in the source language.
+
 2) In the Sidekick, open the **Workflow** tab, then expand the **Smartling** **Translations** section.
+
 3) Select the language(s) into which you would like to translate the pages.
+
 4) Select **Bulk Submit**, and click **Configure**.  
+
 ![](/hc/en-us/article_attachments/201444257/English.png)
+
 5) From the dialog box, select the pages you want to translate and click **OK**.  
+
 ![](/hc/en-us/article_attachments/201460338/English.png)  
+
 Child pages are only available after you select a parent page.
+
 6) Click **Translate**.  
+
 The sidekick displays progress of the submission.  
 
 ## Managing Submissions
@@ -78,9 +89,13 @@ Once you have submitted the page(s) for translation, you can view and manage the
 ![](/hc/en-us/article_attachments/201448247/Submissions.png)
 
 1) Browse to the **Websites** portal and double-click **Smartling** > **Submissions**.
+
 2) Use the sidebar to search submissions by title, path or status.
+
 3) Select one or more pages. (SHIFT + click to select multiple pages).
+
 4)Choose an action:
+
 * **Re-send:** Submit an updated version of the page to Smartling.  
 * **Download:** Manually download available translations from Smartling.  
 * **Cancel:** Cancels the submission. The download scheduler will no longer check for translations and the file will be unavailable for translation
