@@ -48,7 +48,7 @@ Account Owners and Project Managers have several different options for filtering
 
 ## Filter by status
 
-![](/uploads/versions/smartling___translations_management-22---x----392-560x---.png)
+![small](/uploads/versions/smartling___translations_management-22---x----392-560x---.png)
 
 * **Pending assignment:** Translations are authorized but still need to be assigned to translators
 * **Available for pre-publishing:** Translations can be [pre-published](/hc/en-us/articles/203233287#pre) but will remain in the workflow until all workflow steps are complete.
@@ -62,7 +62,7 @@ Account Owners and Project Managers have several different options for filtering
 
 Allows you to show only strings belonging to a workflow or steps within a workflow. You can select a whole workflow with a checkbox, or any number of individual steps.
 
-![](/uploads/versions/smartling___translations_management-23---x----1546-908x---.png)
+![medium](/uploads/versions/smartling___translations_management-23---x----1546-908x---.png)
 
 > If your project has only one workflow, you see a simplified drop-down filter showing the steps of your workflow.
 
@@ -81,7 +81,7 @@ Search for strings by their history. Select an action, a date range and, optiona
 
 For example, this search returns all strings authorized by the user 'Account Owner' in the last 7 days.
 
-![](/uploads/versions/smartling___translations_management-24---x----536-632x---.png)
+![small](/uploads/versions/smartling___translations_management-24---x----536-632x---.png)
 
 ## Keyword Search
 
@@ -91,7 +91,7 @@ Search both original source string and translations for keywords. Smartling sear
 
 Click the down arrow next to the keyword search.
 
-![](/uploads/versions/smartling___translations_management-25---x----267-606x---.png)
+![small](/uploads/versions/smartling___translations_management-25---x----267-606x---.png)
 
 * **URL:** Filter by URL to find content within a particular file or from a particular link on your website. When using the URL filter, Smartling may display search results from other URLs if that content is shared. In a GDN project, Smartling associates the first URL from which content is captured with that string. If the same string appears on other URLs (e.g. navigation) it will only be associated with one single URL. For Files projects, URLs may be the file name or may be the name of the image context file if one has been applied.
 * **File Name:**&nbsp;Search for all strings belonging to a particular file. This filter works similarly to the URL search, but will always show all strings belonging to a particular file, even if image context has caused the strings to have different URLs.
