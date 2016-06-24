@@ -80,10 +80,10 @@ Once you have submitted the page(s) for translation, you can view and manage the
 1) Browse to the **Websites** portal and double-click **Smartling** > **Submissions**.
 2) Use the sidebar to search submissions by title, path or status.
 3) Select one or more pages. (SHIFT + click to select multiple pages).
-4)Choose an action  
-*    **Re-send:** Submit an updated version of the page to Smartling.  
-*    **Download:** Manually download available translations from Smartling.  
-*    **Cancel:** Cancels the submission. The download scheduler will no longer check for translations and the file will be unavailable for translation
+4)Choose an action:
+* **Re-send:** Submit an updated version of the page to Smartling.  
+* **Download:** Manually download available translations from Smartling.  
+* **Cancel:** Cancels the submission. The download scheduler will no longer check for translations and the file will be unavailable for translation
 
 ## Translation Preview
 
