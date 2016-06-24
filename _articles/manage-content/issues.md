@@ -127,4 +127,31 @@ You can edit the text of issues and comments you created at any time. Just open 
 
 ## Permissions and Notifications Quick Reference
 
-&nbsp;
+<tbody>
+<tr>
+<td> </td>
+<td data-sheets-value="[null,2,&quot;Source String Issues&quot;]"><strong>Source String Issues</strong></td>
+<td data-sheets-value="[null,2,&quot;Translation Issues&quot;]"><strong>Translation Issues</strong></td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;Account Owner&quot;]"><strong>Account Owner</strong></td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications for all issues.&quot;]">Can see, comment and close. Receives notifications for all issues.</td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications if they opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications if they opened or commented on the issue.</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;Project Manager&quot;]">P<strong>roject Manager</strong></td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications for all issues.&quot;]">Can see, comment and close. Receives notifications for all issues.</td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications if they opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications if they opened or commented on the issue.</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;Translation Resource/ Translation Resource Manager&quot;]"><strong>Translation Resource/ Translation Resource Manager</strong></td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications only if they have opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications only if they have opened or commented on the issue.</td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue.&quot;]">Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue.</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;Agency Owner&quot;]"><strong>Agency Owner</strong></td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close. Can see, comment and close. Receives notifications only if they have opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications only if they have opened or commented on the issue.</td>
+<td data-sheets-value="[null,2,&quot;Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue.&quot;]">Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue.</td>
+</tr>
+</tbody>
+</table>
