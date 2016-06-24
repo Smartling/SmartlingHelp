@@ -32,3 +32,8 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+Once you have installed and configured the Smartling plugin, you can send content to Smartling, download translations to your translated sites and monitor the status of your submissions.
+
+&nbsp;
