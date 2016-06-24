@@ -33,48 +33,49 @@ migration-checklist:
   reviewed: false
 ---
 
+
 The Wordpress Connector is available to sites managed via [WP Engine](https://wpengine.com/). Follow the steps below to instal and configure the Connector.
 
-## Create and configure a site from the  WP engine
+## Create and configure a site from the WP engine
 
 **(1)** From WP Engine, in the **Installs** field, click **Add install**
 
-![](/hc/en-us/article_attachments/204214958/image02.png)
+![](/uploads/versions/image02-2---x----797-65x---.png)
 
 **(2)** Complete the form and select **Multisite**.
 
-![](/hc/en-us/article_attachments/204213147/image09.png)
+![](/uploads/versions/image09---x----600-432x---.png)
 
 The install will take several minutes.
 
-**(3)** Now login to WordPress and navigate to **My Sites > Network Admin > Dashboard**.
+**(3)** Now login to WordPress and navigate to **My Sites &gt; Network Admin &gt; Dashboard**.
 
-![](/hc/en-us/article_attachments/204214968/image03.png)  
-
+![](/uploads/versions/image03-2---x----339-111x---.png)
 
 **(4)** Install the following plugins
 
-*   Multilingual Press
-*   WP Crontrol
-*   Smartling Connector
+* Multilingual Press
+* WP Crontrol
+* Smartling Connector
+
 
 ## Configure Multilingual Press and creating translated sites.
 
-**(1)** Navigate to My Sites > Network Admin > Sites and edit your primary site.
+**(1)** Navigate to My Sites &gt; Network Admin &gt; Sites and edit your primary site.
 
-![](/hc/en-us/article_attachments/204213117/image04.png)
+![](/uploads/versions/image04-2---x----238-88x---.png)
 
 **(2)** Go to the MultilingualPress tab, choose your default language and save.
 
-![](/hc/en-us/article_attachments/204214978/image08.png)
+![](/uploads/versions/image08---x----824-254x---.png)
 
 **(3)** For each language:
 
-*   Click create site
-*   Complete the form and select the main site
+* Click create site
+* Complete the form and select the main site
 
-![](/hc/en-us/article_attachments/204213157/image06.png)  
 
+![](/uploads/versions/image06-1---x----1210-599x---.png)
 
 > If you want to set up subdomains you will need to contact customer support.
 
@@ -84,24 +85,22 @@ The install will take several minutes.
 
 `define('DISABLE_WP_CRON', true);`
 
-**(2)** Return to your main site Dashboard and navigate to **Tools > Crontrol**
+**(2)** Return to your main site Dashboard and navigate to **Tools &gt; Crontrol**
 
-![](/hc/en-us/article_attachments/204214938/image05.png)  
-
+![](/uploads/versions/image05-1---x----322-122x---.png)
 
 **(3)** Locate **smartling_cron_task**
 
-![](/hc/en-us/article_attachments/204214948/image00.png)
+![](/uploads/versions/image00-2---x----1719-76x---.png)
 
 **(4)** In the field **Event schedule** select the desired interval and save.
 
-![](/hc/en-us/article_attachments/204213167/image10.png)  
+![](/uploads/versions/image10---x----922-481x---.png)
 
+**(5)** If you want to save your interval, go to **Settings &gt; Cron Schedules**
 
-**(5)** If you want to save your interval, go to **Settings > Cron Schedules**
-
-![](/hc/en-us/article_attachments/204213127/image01.png)
+![](/uploads/versions/image01-3---x----316-207x---.png)
 
 Complete the form and save.
 
-![](/hc/en-us/article_attachments/204213137/image07.png)  
+![](/uploads/versions/image07-1---x----931-336x---.png)
