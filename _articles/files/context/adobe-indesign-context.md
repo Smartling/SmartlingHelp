@@ -3,9 +3,9 @@ layout: article
 title: Adobe InDesign Context
 draft: true
 Applies to:
-  GDN: true
+  GDN: false
   Application-Resource-Files: true
-  CMS-Connectors: true
+  CMS-Connectors: false
 edition: Express
 redirect-url:
 wistia:
@@ -32,3 +32,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
