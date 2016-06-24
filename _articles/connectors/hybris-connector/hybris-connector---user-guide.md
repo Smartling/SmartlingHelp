@@ -44,7 +44,7 @@ migration-checklist:
 
 **3)** Select the languages for translation and click **Done**.
 
-![](/uploads/versions/hybris_product_cockpit-1---x----558-617x---.png)
+![medium](/uploads/versions/hybris_product_cockpit-1---x----558-617x---.png)
 
 ## Download Translations to Hybris
 
@@ -60,4 +60,4 @@ Depending on your chosen settings, Hybris may download only items with Published
 
 You can also download translations for any individual item by clicking **Download Translations** in the edit window.
 
-![](/uploads/versions/hybris_product_cockpit-3---x----367-394x---.png)
+![small](/uploads/versions/hybris_product_cockpit-3---x----367-394x---.png)
