@@ -3,8 +3,8 @@ layout: article
 title: Marketo Connector - Setup Guide
 draft: true
 Applies to:
-  GDN: true
-  Application-Resource-Files: true
+  GDN: false
+  Application-Resource-Files: false
   CMS-Connectors: true
 edition: Express
 redirect-url:
