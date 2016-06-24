@@ -33,19 +33,18 @@ migration-checklist:
   reviewed: false
 ---
 
+
 ## Upload Translations to Smartling
 
 **1)** From the Product Cockpit or CMS Cockpit, select one or more products or CMS pages. To easily select multiple items, switch to the list view and use **Shift + Click**.
 
 **2)** Click the **Send for Translation** icon.
 
-![](/hc/en-us/article_attachments/208729427/hybris_Product_Cockpit.png)
+![](/uploads/versions/hybris_product_cockpit---x----1076-778x---.png)
 
 **3)** Select the languages for translation and click **Done**.
 
-![](/hc/en-us/article_attachments/208717328/hybris_Product_Cockpit.png)  
-
-
+![](/uploads/versions/hybris_product_cockpit-1---x----558-617x---.png)
 
 ## Download Translations to Hybris
 
@@ -53,7 +52,7 @@ migration-checklist:
 
 **2)** Select one or more items. Note that each item has one entry per locale. For example, the product ‘Hammer 1765’, sent for translation in Russian, German and Chinese, will have three entries in the Smartling Submissions Board.
 
-![](/hc/en-us/article_attachments/208729687/hybris_Product_Cockpit.png)
+![](/uploads/versions/hybris_product_cockpit-2---x----1339-722x---.png)
 
 **3)** Click **Download Translations**.
 
@@ -61,4 +60,4 @@ Depending on your chosen settings, Hybris may download only items with Published
 
 You can also download translations for any individual item by clicking **Download Translations** in the edit window.
 
-![](/hc/en-us/article_attachments/208717528/hybris_Product_Cockpit.png)  
+![](/uploads/versions/hybris_product_cockpit-3---x----367-394x---.png)
