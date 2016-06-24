@@ -127,6 +127,7 @@ You can edit the text of issues and comments you created at any time. Just open 
 
 ## Permissions and Notifications Quick Reference
 
+<table>
 <tbody>
 <tr>
 <td> </td>
