@@ -33,9 +33,10 @@ migration-checklist:
   reviewed: false
 ---
 
-![](/hc/en-us/article_attachments/203300977/Smartling___Translations_Management.png) 
 
-Issues are a way for users working on a translation workflow to communicate with other users about the original source content and translations. For example, a Translator might create an Issue to ask a question about terminology in a particular string. By using Issues, you can record any communication about a string, and this can be seen by anyone working on it. Issues streamline the translation workflow. Translators get answers to their questions about the original content so they can translate it quickly and correctly.  Translation resources can review and provide feedback about translations collaboratively. Issues can be created, commented on and resolved.
+![](/uploads/versions/smartling___translations_management-14---x----972-395x---.png)
+
+Issues are a way for users working on a translation workflow to communicate with other users about the original source content and translations. For example, a Translator might create an Issue to ask a question about terminology in a particular string. By using Issues, you can record any communication about a string, and this can be seen by anyone working on it. Issues streamline the translation workflow. Translators get answers to their questions about the original content so they can translate it quickly and correctly. &nbsp;Translation resources can review and provide feedback about translations collaboratively. Issues can be created, commented on and resolved.
 
 [Markdown-format links](/hc/en-us/articles/216722378) are supported in issue text.
 
@@ -47,60 +48,62 @@ There are two kinds of issues: **Source String** **issues** and **Translation is
 
 ### Source String:
 
-Issues or questions about the original content, such as clarification about the meaning of the original string or a mistake/typo. Source string issues are not language specific and will be visible to all users with access to the string in any language. By default, Account Owners, Project Managers will receive notification about Source String issues if they have enabled notifications.  The Translation Resource who opens the Source String Issue and any other who comments on it will receive notifications about comments and state change.
+Issues or questions about the original content, such as clarification about the meaning of the original string or a mistake/typo. Source string issues are not language specific and will be visible to all users with access to the string in any language. By default, Account Owners, Project Managers will receive notification about Source String issues if they have enabled notifications. &nbsp;The Translation Resource who opens the Source String Issue and any other who comments on it will receive notifications about comments and state change.
 
 #### Types:
 
-*   Question/Clarification
-*   Typo/Misspelling
+* Question/Clarification
+* Typo/Misspelling
+
 
 #### Visibility and Notifications:
 
-*   All users can see, comment on and close source string issues.
-*   Email notifications for source string issues are sent to all Account Owners and Project Managers for the project as well as any other users who participated in the issue by opening or commenting.  
+* All users can see, comment on and close source string issues.
+* Email notifications for source string issues are sent to all Account Owners and Project Managers for the project as well as any other users who participated in the issue by opening or commenting.
 
-### Translation: 
+
+### Translation:
 
 Issues dealing with the translation of the string for a particular language. Translation issues will be visible to Account Owners, Project Managers, and Translation Resources working in the same language.
 
 #### Types:
 
-*   Poor Translation
-*   Review Translation
-*   Doesn’t Fit Space
-*   Placeholder Issues - placeholders in the translated string do not match the source string.
-*   Placeholder Mismatch (created automatically only during translation Imports)
+* Poor Translation
+* Review Translation
+* Doesn’t Fit Space
+* Placeholder Issues - placeholders in the translated string do not match the source string.
+* Placeholder Mismatch (created automatically only during translation Imports)
+
 
 #### Visibility and Notifications:
 
-*   Translation issues can be seen, commented on and closed by all Account Owners and Project Managers for the project and any Translation Resources, Translation Resource Managers and Agency Owners working in the relevant language.
-*   Email Notifications are sent to any Translation Resources and Translation Resource Managers that worked on the translation as well as anyone who opened or commented on the issue. Account Owners and Project managers don't receive notifications unless they open or comment on a translation issue.
+* Translation issues can be seen, commented on and closed by all Account Owners and Project Managers for the project and any Translation Resources, Translation Resource Managers and Agency Owners working in the relevant language.
+* Email Notifications are sent to any Translation Resources and Translation Resource Managers that worked on the translation as well as anyone who opened or commented on the issue. Account Owners and Project managers don't receive notifications unless they open or comment on a translation issue.
+
 
 ## Create an Issue:
 
 **1)** Open the issues dialog from the string action menu (also accessible from the **String History** tab in the Translation Interface).
 
-![](/hc/en-us/article_attachments/203374268/Smartling___Translations_Management.png)  
-
+![](/uploads/versions/smartling___translations_management-15---x----952-223x---.png)
 
 **2)** From the issues dialog, select **Open New Issue**.
 
-![](/hc/en-us/article_attachments/203300897/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-16---x----974-468x---.png)
 
 **3)** Select the kind and type of issue, enter a description and click **Open this issue.**
 
-![](/hc/en-us/article_attachments/203374308/Smartling___Translations_Management.png)  
-
+![](/uploads/versions/smartling___translations_management-17---x----542-303x---.png)
 
 ## Comment on and Close an Issue
 
 **1)** Strings with issues are marked in the list view by a red bar. Click the bar to open the issues dialog. You can also access the issues dialog from the Translation Interface.
 
-![](/hc/en-us/article_attachments/203374368/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-18---x----462-82x---.png)
 
 **2)** In the issues dialog, click the arrow to open the issue you want to comment on.
 
-![](/hc/en-us/article_attachments/203300907/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-19---x----973-564x---.png)
 
 **3)** Type your comment in the text field and click **Comment**. If your comment resolves the issue, click **Comment & Close**.
 
@@ -110,14 +113,18 @@ Issues dealing with the translation of the string for a particular language. Tra
 
 You can edit the text of issues and comments you created at any time. Just open the issue and click the pencil **icon** that appears on mouseover.
 
-![](/hc/en-us/article_attachments/206540608/Smartling___Translations_Management.png)
+![](/uploads/versions/smartling___translations_management-20---x----974-630x---.png)
 
 ## Tips for managing Issues:
 
-*   At any time, Account Owners and Project Managers can view and manage all open issues for all their projects from the [Account Dashboard](/hc/en-us/articles/214197607#Projects).
-*   Anyone can close an issue, but it is often good practice to let the person who opened an issue close it, to make sure they are satisfied with the resolution.
-*   You can manage your e-mail notification preferences from the Project Notifications tab of your Smartling Profile
-*   Account Owners and Project Managers can keep track of issues in the [Issues Report]().
-*   We recommend that issues get resolved before the translation is published.  We allow content to be published with open issues because most users don’t want to hold up their translation workflow, however, it’s good practice to resolve all issues so that the reports will accurately reflect your project’s current state.  If needed you can return translations for editing after they are published in order to address the issue.
-*   Content owners (Account Owners and Project Managers) should respond to Source String Issues as fast as possible.  When translators open source string issues there is a good chance they are not able to proceed with translation or don’t feel confident in creating a translation because they need resolution of their question.  It’s also a strong indication that there might be integration/content capture issues that need to be resolved, and the string shouldn’t be translated at all.
-*   See the [Issues Permissions and Notifications Quick Reference]() guide to see who can see and work on issues.
+* At any time, Account Owners and Project Managers can view and manage all open issues for all their projects from the [Account Dashboard](/hc/en-us/articles/214197607#Projects).
+* Anyone can close an issue, but it is often good practice to let the person who opened an issue close it, to make sure they are satisfied with the resolution.
+* You can manage your e-mail notification preferences from the Project Notifications tab of your Smartling Profile
+* Account Owners and Project Managers can keep track of issues in the [Issues Report](){: .cc-active}.
+* We recommend that issues get resolved before the translation is published. We allow content to be published with open issues because most users don’t want to hold up their translation workflow, however, it’s good practice to resolve all issues so that the reports will accurately reflect your project’s current state. If needed you can return translations for editing after they are published in order to address the issue.
+* Content owners (Account Owners and Project Managers) should respond to Source String Issues as fast as possible. &nbsp;When translators open source string issues there is a good chance they are not able to proceed with translation or don’t feel confident in creating a translation because they need resolution of their question. It’s also a strong indication that there might be integration/content capture issues that need to be resolved, and the string shouldn’t be translated at all.
+
+
+## Permissions and Notifications Quick Reference
+
+&nbsp;
