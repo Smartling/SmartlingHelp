@@ -32,3 +32,8 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+On translated sites, it is often necessary to rewrite URLs so they point to target pages in the appropriate language. The Adobe AEM Classic Connector allows you to configure rewrites in three ways:
+
+&nbsp;
