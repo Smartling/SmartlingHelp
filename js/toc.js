@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
     var ToC =
-      "<nav role='navigation' class='table-of-contents'>" +
-        "<h2>On this Page</h2>" +
         "<ul>";
     
     var newLine, el, title, link, classname;
