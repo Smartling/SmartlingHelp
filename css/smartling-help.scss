@@ -96,12 +96,12 @@ footer {
 }
 
 .container .page {
-    min-width: 800px;
-    max-width: 900px;
+    width: 900px;
 }
 
 .container .article {
     background-color: #fff;
+    width: 75%;
     margin: auto;
 
     img {
@@ -136,6 +136,7 @@ footer {
 /* ToC Styles */
 
 div.toc {
+    width: 25%;
     background-color: #fff;
     ul {
         list-style-type: none;
