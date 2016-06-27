@@ -144,11 +144,12 @@ footer {
 div.smartling-breadcrumbs {
     position: fixed;
     margin-top: 100px;
-    .panel {
-        margin-bottom: 0px;
     }
 }
 
+.smartling-breadcrumbs .panel {
+    margin-bottom: 0px;
+}
 
 /* ToC Styles */
 
