@@ -95,9 +95,13 @@ footer {
     margin: auto;
 }
 
+.container .page {
+    min-width: 800px;
+    max-width: 900px;
+}
+
 .container .article {
     background-color: #fff;
-    max-width: 900px;
     margin: auto;
 
     img {
@@ -135,6 +139,7 @@ div.toc {
     background-color: #fff;
     ul {
         list-style-type: none;
+        
     }
 }
 
