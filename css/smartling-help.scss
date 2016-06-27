@@ -101,6 +101,8 @@ footer {
 }
 
 .container .article {
+    padding-top: 100px;
+    position: fixed;
     background-color: #fff;
     margin: auto;
     max-width: 95%;
@@ -144,6 +146,7 @@ div.breadcrumbs {
 /* ToC Styles */
 
 div.toc {
+    padding-top: 100px;
     margin: 5px;
     background-color: #fff;
     position: fixed;
