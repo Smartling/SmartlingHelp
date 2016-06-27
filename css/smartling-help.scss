@@ -146,9 +146,7 @@ div.smartling-breadcrumbs {
     margin-top: 100px;
 }
 
-.smartling-breadcrumbs .panel {
-    margin-bottom: 0px;
-}
+
 
 /* ToC Styles */
 
@@ -159,6 +157,10 @@ div.side-nav-widget {
         list-style-type: none;
         
     }
+}
+
+.side-nav-widget .panel {
+    margin-bottom: 0px;
 }
 
 
