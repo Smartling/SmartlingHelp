@@ -137,6 +137,19 @@ footer {
         padding: 5px 20px 5px 20px;
     }
     
+    blockquote {
+        border: none;
+        border-radius: 3px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        color: #565A5B;
+        background-color: #FBD4D0;
+
+    }
+
+    blockquote.info {
+        background-color: #B1FFFF;
+    }
 }
 
 /* Breadcrumbs */
@@ -178,21 +191,7 @@ p.welcome {
 }
 
 
-blockquote {
-    border: none;
-    border-radius: 3px;
-    margin: 10px 0px;
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    color: #565A5B;
-    background-color: #FBD4D0;
 
-}
-
-blockquote.info {
-    background-color: #B1FFFF
-
-}
 
 
 
