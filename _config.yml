@@ -18,6 +18,7 @@ github_username:
 # Build settings
 markdown: kramdown
 highlighter: rouge
+incremental: true
 
 
 emptyArray: []
