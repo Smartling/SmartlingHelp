@@ -158,9 +158,6 @@ p.welcome {
 
 
 blockquote {
-    .info {
-        background-color: #63c2dd
-    }
     border: none;
     border-radius: 3px;
     margin: 10px 0px;
@@ -168,10 +165,13 @@ blockquote {
     background-position: 10px center;
     color: #565A5B;
     background-color: #FBD4D0;
-    font-size: 16px;
 
 }
 
+blockquote.info {
+    background-color: #63c2dd
+
+}
 
 
 
