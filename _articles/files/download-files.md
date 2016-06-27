@@ -39,7 +39,6 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 > Here is a test warning box
 
 > Here is a test info box
-{: .info}
 
 ## Download individual files:
 
@@ -65,7 +64,7 @@ For CSV files, you may download translations for all locales in a single file by
 
 ![](/uploads/versions/smartling___manage_files-1---x----1012-542x---.png)&nbsp;
 
-### To download multiple files as a zip:
+### Download multiple files as a zip
 
 **(1)**&nbsp;Switch the&nbsp;**Files** window to table view.
 
