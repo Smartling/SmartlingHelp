@@ -1,5 +1,5 @@
 ---
-term: ''
+title: ''
 definition: ''
 link:
   - title: ''
