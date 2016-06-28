@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
    terms = ["file", "download"]
-   $(".content").mark(terms, {className: 'smartling-term'});
+   $(".content").mark(terms, {className: 'smartling-term' exclude: ["h1", "h2", "h3", "h4", "h5", "a"]});
    var done = []
    $(".smartling-term").each(function(index, value) {
        text = $(this).text().toLowerCase();
@@ -11,7 +11,6 @@ $(document).ready(function() {
            $(this).attr('data-toggle', 'popover');
            $(this).attr('title', 'Test');
            $(this).attr('data-content', 'This is a test');
-           $(this).attr('data-trigger', 'hover');
            done.push(text);
        }
    });
