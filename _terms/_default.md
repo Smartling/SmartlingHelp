@@ -1,6 +1,6 @@
 ---
-term:
-definition:
+term: ''
+definition: ''
 links:
   - title: ''
     url: ''
