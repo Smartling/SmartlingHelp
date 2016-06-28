@@ -45,4 +45,7 @@ collections:
   faqs:
     output: true
     permalink: "/faq/:title/"
+    
+  terms:
+    output: false
 
