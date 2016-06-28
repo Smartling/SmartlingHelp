@@ -15,7 +15,8 @@
    
    
    fullterms = [
-       {
+       {% for term in site.terms %}
+       {% unless forloop.first %},{% endunless %}{
            term: 'File',
            definition: 'Files can be uploaded and downloaded to Smartling.',
            links: [
@@ -28,14 +29,5 @@
                    url: '/test1'
                }
                ]
-       },
-       {
-           term: 'Download',
-           definition: 'Files are really easy to download',
-           links: [
-               {
-                   title: 'Get your files',
-                   url: '/test'
-               }]
        }
        ]
