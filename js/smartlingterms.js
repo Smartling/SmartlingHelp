@@ -33,13 +33,19 @@ $(document).ready(function() {
        text = $(this).text().toLowerCase();
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
+           fullterms.each(i, v) {
+               if(fullterms[i].term.toLowerCase() === text) {
+                   var title = fullterms[i].term
+                   var content = '<p>definition'
+               }
+           }
            $(this).attr('data-toggle', 'popover');
-           $(this).attr('title', 'Test');
+           $(this).attr('title', title);
            $(this).attr('data-content', 'This is a test');
            done.push(text);
        }
    });
     $(function () {
-      $('[data-toggle="popover"]').popover()
+      $('[data-toggle="popover"]').popover({html:true})
     }) 
 });
