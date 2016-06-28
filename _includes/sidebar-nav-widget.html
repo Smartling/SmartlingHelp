@@ -13,9 +13,10 @@
                                     <ul>
                                         {% assign readFirstSections = currentArticle.read-first.sections %}
                                         {% for readFirstSection in readFirstSections %}
+                                        {% assign currentRecord = readFirstSection | split: '/' | last %}
                                             {% for section in site.sections %}
                                             {% assign id = section.id | split: '/' | last %}
-                                                {% if id == readFirstSection %}
+                                                {% if id == currentRecord %}
                                                    <li><a href="{{section.url}}">{{section.title}}</a></li> 
                                                 {% endif %}
                                             {% endfor %} 
@@ -25,7 +26,7 @@
                                         {% for readFirstArticle in readFirstArticles %}
                                             {% for article in site.articles %}
                                             {% assign id = article.id | split: '/' | last %}
-                                                {% if id == readFirstArticle %}
+                                                {% if id == currentRecord %}
                                                    <li><a href="{{article.url}}">{{article.title}}</a></li> 
                                                 {% endif %}
                                             {% endfor %} 
@@ -49,7 +50,7 @@
                                         {% for furtherReadingSection in furtherReadingSections %}
                                             {% for section in site.sections %}
                                             {% assign id = section.id | split: '/' | last %}
-                                                {% if id == furtherReadingSection %}
+                                                {% if id == currentRecord %}
                                                    <li><a href="{{section.url}}">{{section.title}}</a></li> 
                                                 {% endif %}
                                             {% endfor %} 
