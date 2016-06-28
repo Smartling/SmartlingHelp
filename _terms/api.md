@@ -1,7 +1,9 @@
 ---
 title: API
-definition:
+definition: "You can use Smartling's API to handle tasks like uploading and downloading files automatically."
 links:
-  - title:
-    url:
+  - title: Developer Documentation
+    url: 'https://docs.smartling.com'
 ---
+
+
