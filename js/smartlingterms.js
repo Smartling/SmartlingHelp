@@ -24,6 +24,6 @@ for (var i=0; i < terms.length; i++) {
     var currentTerm = terms[i];
     $(":contains(currentTerm.term)").html(function(_, html) {
         var re = new RegExp(currentTerm.term,"gi");
-        return  html.replace(re, '<span class="smartlingTerm">$1</span>')
+        return  html.replace(re, '<span class="smartling-term">$1</span>')
     });
 }
