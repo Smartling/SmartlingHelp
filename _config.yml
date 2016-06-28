@@ -48,4 +48,6 @@ collections:
     
   terms:
     output: false
+    permalink: "/terms/:term/"
+    
 
