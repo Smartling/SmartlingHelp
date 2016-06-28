@@ -39,15 +39,16 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 > Here is a test warning box
 
 > Here is a test info box
-{: class="info"}
 
 ## Download individual files
 
-1. Navigate to **Content&gt;Files**.
-2. Select the file to download.
-3. Mouse over the target language.
-4. Select from one of the file download options.
+**1)** Navigate to **Content&gt;Files**.
 
+**2)** Select the file to download.
+
+**3)** Mouse over the target language.
+
+**4)** Select from one of the file download options.
 
 ![](/uploads/versions/smartling___manage_files---x----1237-830x---.png)
 
