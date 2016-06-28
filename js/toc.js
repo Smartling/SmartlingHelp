@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var l = $("h2, h3").length;
+    var l = $("h2").length;
     if (l > 1) {
         var ToC =
             "<ul>";
