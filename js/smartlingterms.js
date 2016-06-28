@@ -6,7 +6,6 @@ $(document).ready(function() {
    var done = []
    $(".smartling-term").each(function(index, value) {
        text = $(this).text().toLowerCase();
-       console.log(text)
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
            $(this).attr('data-toggle', 'popover');
@@ -16,5 +15,7 @@ $(document).ready(function() {
            done.push(text);
        }
    });
-   
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    }) 
 });
