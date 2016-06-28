@@ -18,7 +18,7 @@
        {% for term in site.terms %}
        {% unless forloop.first %},{% endunless %}{
            title: "{{term.title}}",
-           definition: "{{term.definition}}"",
+           definition: "{{term.definition}}",
            links: [
                {% for link in term.links %}
                {% unless forloop.first %},{% endunless %}{
