@@ -14,6 +14,7 @@
                                         {% assign readFirstArticles = currentArticle.read-first.articles %}
                                         {% for readFirstArticle in readFirstArticles %}
                                             {% for article in site.articles %}
+                                            <li>{{article.id}}</li>
                                                 {% if article.id == readFirstArticle %}
                                                    <li><a href="{{article.url}}">{{article.title}}</a></li> 
                                                 {% endif %}
