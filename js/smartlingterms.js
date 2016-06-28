@@ -33,20 +33,20 @@ $(document).ready(function() {
        text = $(this).text().toLowerCase();
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
-           fullterms.each(function (i, v) {
+           for(i=0; i < fullterms.length; i++) {
                if(fullterms[i].term.toLowerCase() === text) {
                    var title = fullterms[i].term
                    
                    if (fullterms[i].links) {
                        var termlinks = '<ul>'
-                       fullterms[i].links.each(function(j){
+                       for (j=0; j < fullterms[i].links.length; j++) {
                            termlinks.append('<li><a href="' + fullterms[i].links[j].url + '">' + fullterms[i].links[j].title + '</a></li>')
-                       });
+                       }
                        termlinks.append('</ul>');
                    }
                    var content = '<p>' + fullterms[i].definition + '</p>' + termlinks;
                }
-           })
+           }
            $(this).attr('data-toggle', 'popover');
            $(this).attr('title', title);
            $(this).attr('data-content', content);
