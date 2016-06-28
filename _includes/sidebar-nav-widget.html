@@ -12,6 +12,7 @@
                                 <div class="panel-body">
                                     <ul>
                                         {% assign readFirstArticles = currentArticle.read-first.articles %}
+                                        <li>{{readFirstArticle}}</li>
                                         {% for readFirstArticle in readFirstArticles %}
                                             {% for article in site.articles %}
                                             {% assign id = article.id | split: '/' | last %}
