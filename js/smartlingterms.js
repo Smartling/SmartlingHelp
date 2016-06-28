@@ -2,5 +2,5 @@
 
 $(document).ready(function() {
    terms = ["file", "download"]
-   $(".content").markRegexp(/download/i, {className: 'smartling-term'});
+   $(".content").markRegExp(/download/i, {className: 'smartling-term'});
 });
