@@ -29,19 +29,27 @@ $(document).ready(function() {
        ]
    $(".content").mark(terms, {className: 'smartling-term', exclude: ["h1", "h2", "h3", "h4", "h5", "a"]});
    var done = []
-   $(".smartling-term").each(function(index, value) {
+   $(".smartling-term").each(function(i) {
        text = $(this).text().toLowerCase();
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
            fullterms.each(i, v) {
                if(fullterms[i].term.toLowerCase() === text) {
                    var title = fullterms[i].term
-                   var content = '<p>definition'
+                   
+                   if (fullterms[i].links) {
+                       var termlinks = '<ul>'
+                       fullterms[i].links.each(function(j){
+                           termlinks.append('<li><a href="' + fullterms[i].links[j].url + '">' + fullterms[i].links[j].title + '</a></li>')
+                       });
+                       termlinks.append('</ul>');
+                   }
+                   var content = '<p>' + fullterms[i].definition + '</p>' + termlinks;
                }
            }
            $(this).attr('data-toggle', 'popover');
            $(this).attr('title', title);
-           $(this).attr('data-content', 'This is a test');
+           $(this).attr('data-content', content);
            done.push(text);
        }
    });
