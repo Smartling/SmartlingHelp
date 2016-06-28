@@ -1,19 +1,10 @@
 ---
 ---
-
    terms = [
        {% for term in site.terms %}
           {% unless forloop.first %},{% endunless %}"{{term.title}}"
        {% endfor %}
        ]
-       
-   
-   
-   
-   
-   
-   
-   
    fullterms = [
        {% for term in site.terms %}
        {% unless forloop.first %},{% endunless %}{
