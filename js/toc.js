@@ -1,5 +1,6 @@
 $(document).ready(function() {
     var l = $("h2").length;
+    console.log(l);
     if (l > 1) {
         var ToC =
             "<ul>";
