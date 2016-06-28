@@ -8,7 +8,7 @@ $(document).ready(function() {
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
            for(i=0; i < fullterms.length; i++) {
-               if(fullterms[i].term.toLowerCase() === text) {
+               if(fullterms[i].title.toLowerCase() === text) {
                    var title = fullterms[i].title
                    
                    if (fullterms[i].links) {
