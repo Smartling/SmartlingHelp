@@ -16,7 +16,7 @@
                                             {% for article in site.articles %}
                                             <li>{{readFirstArticle}}</li>
                                             <li>{{article.id}}</li>
-                                                {% if article.id | split: '/' | last == 'articlereadFirstArticle %}
+                                                {% if article.id | split: '/' | last == articlereadFirstArticle %}
                                                    <li><a href="{{article.url}}">{{article.title}}</a></li> 
                                                 {% endif %}
                                             {% endfor %} 
