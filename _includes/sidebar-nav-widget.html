@@ -10,7 +10,16 @@
                             </div>
                             <div id="collapse1" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    {
+                                    <ul>
+                                        {% assign readFirstArticles = currentArticle.read-first.articles %}
+                                        {% for readFirstArticle in readFirstArticles %}
+                                            {% for article in site.articles %}
+                                                {% if article.id == readFirstArticle %}
+                                                   <li><a href="{{article.url}}">{{article.title}}</a></li> 
+                                                {% endif %}
+                                            {% endfor %} 
+                                        {% endfor %}
+                                    </ul>
                                 </div>
                             </div>
                         </div>
