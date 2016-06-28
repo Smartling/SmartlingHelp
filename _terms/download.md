@@ -1,7 +1,11 @@
 ---
 title: Download
-definition:
+definition: 'You can download your translated files!'
 link:
-  - title:
-    url:
+  - title: Download Files
+    url: /test
+  - title: Download Files
+    url: /test
 ---
+
+
