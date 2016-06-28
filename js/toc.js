@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $(".panel-toc").hide();
     var l = $("h2").length;
     console.log(l);
     if (l > 1) {
@@ -31,6 +32,6 @@ $(document).ready(function() {
           "</nav>";
         
         $(".toc").prepend(ToC);
-        $(".panel-toc").attr('display', 'block')
+        $(".panel-toc").show();
     }
 });
