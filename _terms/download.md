@@ -1,7 +1,7 @@
 ---
 title: Download
 definition: 'You can download your translated files!'
-link:
+links:
   - title: Download Files
     url: /test
   - title: Managing Business Documents
