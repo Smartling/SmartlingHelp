@@ -1,7 +1,11 @@
 ---
 title: File
-definition:
+definition: 'Files are so great!'
 link:
-  - title:
-    url:
+  - title: Download Files
+    url: /test/
+  - title: More of the links
+    url: /test3/
 ---
+
+
