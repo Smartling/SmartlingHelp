@@ -2,7 +2,7 @@
 ---
 
    terms = [
-       {% for term in terms %}
+       {% for term in site.terms %}
           "{{term.title}}"{% unless forloop.first %},{% endunless %}
        {% endfor %}
        ]
