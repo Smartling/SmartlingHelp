@@ -6,9 +6,10 @@ $(document).ready(function() {
    var done = []
    $(".smartling-term").each(function(index, value) {
        text = $(this).text();
+       console.log(text)
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
-           done.push(value);
+           done.push(text);
        }
    });
    
