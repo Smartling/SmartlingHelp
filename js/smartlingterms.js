@@ -11,7 +11,7 @@ $(document).ready(function() {
            $(this).addClass('term-underline');
            $(this).attr)('data-toggle', 'popover');
            $(this).attr)('title', 'Test');
-           $(this).attr)('data-content', 'This is a test')
+           $(this).attr)('data-content', 'This is a test');
            $(this).attr)('data-trigger', 'hover');
            done.push(text);
        }
