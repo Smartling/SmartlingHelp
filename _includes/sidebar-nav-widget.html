@@ -14,8 +14,6 @@
                                         {% assign readFirstSections = currentArticle.read-first.sections %}
                                         {% for readFirstSection in readFirstSections %}
                                         {% assign currentRecord = readFirstSection | split: '/' | last %}
-                                        <li>readFirstSection</li>
-                                        <li>{{currentRecord}}</li>
                                             {% for section in site.sections %}
                                             {% assign id = section.id | split: '/' | last %}
                                                 {% if id == currentRecord %}
@@ -51,6 +49,7 @@
                                     <ul>
                                         {% assign furtherReadingSections = currentArticle.further-reading.sections %}
                                         {% for furtherReadingSection in furtherReadingSections %}
+                                        {% assign currentRecord = furtherReadingSection | split: '/' | last %}
                                             {% for section in site.sections %}
                                             {% assign id = section.id | split: '/' | last %}
                                                 {% if id == currentRecord %}
@@ -61,9 +60,10 @@
                                         
                                         {% assign furtherReadingArticles = currentArticle.further-reading.articles %}
                                         {% for furtherReadingArticle in furtherReadingArticles %}
+                                        {% assign currentRecord = furtherReadingArticle | split: '/' | last %}
                                             {% for article in site.articles %}
                                             {% assign id = article.id | split: '/' | last %}
-                                                {% if id == furtherReadingArticle %}
+                                                {% if id == currentRecord %}
                                                    <li><a href="{{article.url}}">{{article.title}}</a></li> 
                                                 {% endif %}
                                             {% endfor %} 
