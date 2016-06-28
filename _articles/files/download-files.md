@@ -39,7 +39,6 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 > Here is a test warning box
 
 > Here is a test info box
-{: class="info"}
 
 ## Download individual files
 
@@ -53,7 +52,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 ![](/uploads/versions/smartling___manage_files---x----1237-830x---.png)
 
-## File Download Options
+### File Download Options
 
 * **Download (published translations)** : Download the file with all of the published translations (this includes [pre-published](){: .cc-active} translations).
 * **Download (pseudo translations)** - The pseudo translation file contains the original strings with added characters so that it can be used for QA or layout purposes.
@@ -85,4 +84,4 @@ For CSV files, you may download translations for all locales in a single file by
 
 ## Automate
 
-* Our API can be used directly with our SDKs, BASH shell script or source code repository connectors.
+Our API can be used directly with our SDKs, BASH shell script or source code repository connectors.
