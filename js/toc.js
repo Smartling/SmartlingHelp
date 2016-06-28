@@ -31,5 +31,6 @@ $(document).ready(function() {
           "</nav>";
         
         $(".toc").prepend(ToC);
+        $(".panel-toc").attr('style', 'display; block;')
     }
 });
