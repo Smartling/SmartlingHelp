@@ -11,6 +11,19 @@
                             <div id="collapse1" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <ul>
+                                        {% assign readFirstSections = currentArticle.read-first.sections %}
+                                        {% for readFirstSection in readFirstSections %}
+                                            {% for section in site.sections %}
+                                            {% assign id = section.id | split: '/' | last %}
+                                                {% if id == readFirstSection %}
+                                                   <li><a href="{{section.url}}">{{section.title}}</a></li> 
+                                                {% endif %}
+                                            {% endfor %} 
+                                        {% endfor %}                                       
+                                        
+                                        
+                                        
+                                        
                                         {% assign readFirstArticles = currentArticle.read-first.articles %}
                                         {% for readFirstArticle in readFirstArticles %}
                                             {% for article in site.articles %}
