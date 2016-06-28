@@ -33,7 +33,7 @@ $(document).ready(function() {
        text = $(this).text().toLowerCase();
        if (done.indexOf(text) === -1) {
            $(this).addClass('term-underline');
-           fullterms.each(i, v) {
+           fullterms.each(function (i, v) {
                if(fullterms[i].term.toLowerCase() === text) {
                    var title = fullterms[i].term
                    
@@ -46,7 +46,7 @@ $(document).ready(function() {
                    }
                    var content = '<p>' + fullterms[i].definition + '</p>' + termlinks;
                }
-           }
+           })
            $(this).attr('data-toggle', 'popover');
            $(this).attr('title', title);
            $(this).attr('data-content', content);
