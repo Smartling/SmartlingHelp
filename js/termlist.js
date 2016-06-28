@@ -3,7 +3,7 @@
 
    terms = [
        {% for term in site.terms %}
-          "{{term.title}}"{% unless forloop.first %},{% endunless %}
+          {% unless forloop.first %},{% endunless %}"{{term.title}}"
        {% endfor %}
        ]
        
