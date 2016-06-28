@@ -7,7 +7,7 @@ layout: default
         {% assign currentArticle = article %}
     {% endif %}
 {% endfor %}
-{% assign editUrl = currentArticle.title | slugify %}
+{% assign editUrl = currentArticle.id %}
 
 <!-- Padding -->
     <div class="container page">
