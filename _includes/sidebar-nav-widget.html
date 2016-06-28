@@ -14,6 +14,7 @@
                                         {% assign readFirstSections = currentArticle.read-first.sections %}
                                         {% for readFirstSection in readFirstSections %}
                                         {% assign currentRecord = readFirstSection | split: '/' | last %}
+                                        <li>readFirstSection</li>
                                         <li>{{currentRecord}}</li>
                                             {% for section in site.sections %}
                                             {% assign id = section.id | split: '/' | last %}
@@ -25,6 +26,7 @@
                                         
                                         {% assign readFirstArticles = currentArticle.read-first.articles %}
                                         {% for readFirstArticle in readFirstArticles %}
+                                        {% assign currentRecord = readFirstArticle | split: '/' | last %}
                                             {% for article in site.articles %}
                                             {% assign id = article.id | split: '/' | last %}
                                                 {% if id == currentRecord %}
