@@ -1,7 +1,7 @@
 ---
 title: ''
 definition: ''
-link:
+links:
   - title: ''
     url: ''
 ---
