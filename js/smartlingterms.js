@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
    terms = ["file", "download"]
-   $(".content").markRegExp(terms, {"className": 'smartling-term', "exclude": ["h1", "h2", "h3", "h4", "h5"]});
+   $(".content").markRegExp(terms, {element: 'span', className: 'smartling-term'});
    var done = []
    $(".smartling-term").each(function(index, value) {
        text = $(this).text().toLowerCase();
