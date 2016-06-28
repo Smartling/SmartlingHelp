@@ -42,7 +42,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 > Here is a test warning box
 
 <blockquote class="info">
-Here is a test info box
+<p>Here is a test info box</p>
 </blockquote>
 
 ## Download individual files
