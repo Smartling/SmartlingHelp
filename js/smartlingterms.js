@@ -40,9 +40,9 @@ $(document).ready(function() {
                    if (fullterms[i].links) {
                        var termlinks = '<ul>'
                        for (j=0; j < fullterms[i].links.length; j++) {
-                           termlinks.append('<li><a href="' + fullterms[i].links[j].url + '">' + fullterms[i].links[j].title + '</a></li>')
+                           termlinks = termlinks + '<li><a href="' + fullterms[i].links[j].url + '">' + fullterms[i].links[j].title + '</a></li>';
                        }
-                       termlinks.append('</ul>');
+                       termlinks = termlinks + '</ul>';
                    }
                    var content = '<p>' + fullterms[i].definition + '</p>' + termlinks;
                }
