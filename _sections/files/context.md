@@ -6,7 +6,7 @@ subsections:
   - title: Chrome Context Capture Extension
 subarticles:
   - title: Adobe InDesign Context
-  - title: Adobe InDesign Context
+  - title: Image Context for Mobile and Desktop Apps
 ---
 
 
