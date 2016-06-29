@@ -16,8 +16,6 @@ subarticles:
     published: false
   - title: Zendesk Connector - Localize Images
     published: false
-  - title: Zendesk Connector - Translate Content in Your Zendesk Theme
-    published: false
 ---
 
 
