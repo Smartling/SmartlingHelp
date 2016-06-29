@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Automating the Chrome Context Capture Extension
+title: Chrome Context Capture Extension - Automation
 draft: true
 Applies to:
   GDN: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -67,7 +63,7 @@ By default the Chrome Context Capture Extension will not override existing conte
 
 You can download a custom sitemap template [here](){: .cc-active}.
 
-**(4)&nbsp;**Set up the automation tool:
+**(4)**Set up the automation tool:
 
 ![](/uploads/versions/smartling_context_snapshot_options-3---x----946-525x---.png)
 
