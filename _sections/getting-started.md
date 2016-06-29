@@ -7,9 +7,7 @@ subsections:
     published: true
 subarticles:
   - title: Get Started with Smartling
-    published: true
   - title: Processed Words Report
-    published: true
 ---
 
 
