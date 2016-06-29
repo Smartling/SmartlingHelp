@@ -7,13 +7,9 @@ subsections:
     published: true
 subarticles:
   - title: Processed Words Report
-    published: true
   - title: Testing Breadcrumbs
-    published: true
   - title: Words Under Management
-    published: true
   - title: Issues Report
-    published: true
 ---
 
 
