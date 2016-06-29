@@ -3,7 +3,7 @@ title: Connector Projects
 layout: section
 master_category: false
 subsections:
-  - title: none
+  - title: Zendesk Connector
 subarticles:
   - title: Another Report
   - title: GDN Site Traffic
@@ -11,3 +11,5 @@ subarticles:
   - title: Draft Test
   - title: SmartMatch Leverage Report
 ---
+
+
