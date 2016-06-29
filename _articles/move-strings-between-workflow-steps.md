@@ -38,14 +38,16 @@ migration-checklist:
 
 Account Owners and Project Managers can move translated strings from one Workflow step to another from the List View.
 
-**(1)** Find one of the strings you wish to move and click the step name to filter that Workflow step. You must set the Workflow step filter before you can move strings.![](/uploads/versions/moveworklow---x----1133-189x---.png)
+**1)** Select all strings you wish to move and from the **Actions** menu, choose **Move Strings**.
 
-**(2)** Select all strings you wish to move and from the **Actions** menu, choose **Move Strings**.
-
-OR
+**OR**
 
 From the **Actions** menu, select **Move All**. This will move ALL strings that fit your current filter settings, even if there are too many to display in the List View. Depending on the number of strings, it may take a few minutes to complete the move.
 
-![](/uploads/versions/moveworkflow-2png---x----574-453x---.png)
+**2)** Select languages, workflow and workflow step. The language you are currently viewing in the List View will be selected automatically. If you select additional languages, your choice of workflows will be limited to workflows available for all of your selected languages. Click&nbsp;**Submit**.
 
-**(3)** Select the Workflow and step to move the strings to. If you are moving strings because of an issue, you can also type text to create an issue for each string you are moving.
+![](/uploads/versions/smartling___translations_management-26---x----579-518x---.png)
+
+**3)**&nbsp;You will see a dialog containing a summary of changes to be made. Go back if you need to make changes, or confirm to continue.
+
+![](/uploads/versions/smartling___translations_management-27---x----578-423x---.png)
