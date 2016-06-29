@@ -6,8 +6,11 @@ subsections:
   - title: none
     published: true
 subarticles:
+  - title: Supported File Types
   - title: Download Files
-  - title: Download Files
+  - title: Managing Business Documents
+  - title: 'String Sharing & Namespaces'
+  - title: Unique Strings and Variants
 ---
 
 
