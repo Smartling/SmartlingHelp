@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Placeholders
+title: Placeholders in the Translation Interface
 draft: true
 Applies to:
   GDN: true
@@ -37,8 +37,6 @@ migration-checklist:
 **What is a placeholder?** In the Smartling dashboard, placeholders are used to mark parts of a string that do not need to be translated. The content contained within the placeholder will usually be populated dynamically in the application. In Smartling, placeholders are always represented by a number or a set of characters highlighted in grey and/or contained within curly brackets.
 
 ![](/uploads/versions/smartling___translations_management-1---x----302-59x---.png)
-
-**Placeholders in the Translation Interface**
 
 To translate a string with a placeholder, you can either copy the placeholder from the original string or type it manually. Typing the characters of the placeholder in your translation field will automaticallycreate a placeholder.
 
