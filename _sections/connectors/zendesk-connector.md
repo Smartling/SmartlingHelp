@@ -23,4 +23,4 @@ Smartling’s Zendesk Connector lets you use Smartling’s Global Fluency Platfo
 
 For Help Center items, the Zendesk Connector also creates context for translators.
 
-**Note:** To take advantage of the Connector, you must be able to utilize Zendesk’s localization features - currently restricted to ‘Plus’ and ‘Enterprise’ accounts.
+> To take advantage of the Connector, you must be able to utilize Zendesk’s localization features - currently restricted to ‘Plus’ and ‘Enterprise’ accounts.
