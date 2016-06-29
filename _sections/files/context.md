@@ -3,7 +3,7 @@ title: Context
 layout: section
 master_category: false
 subsections:
-  - title: none
+  - title: Chrome Context Capture Extension
 subarticles:
   - title: none
 ---
