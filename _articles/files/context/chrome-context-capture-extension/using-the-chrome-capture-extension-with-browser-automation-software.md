@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Using the Chrome Capture Extension with Browser Automation Software
+title: Chrome Capture Extension - Browser Automation Software
 draft: true
 Applies to:
   GDN: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
