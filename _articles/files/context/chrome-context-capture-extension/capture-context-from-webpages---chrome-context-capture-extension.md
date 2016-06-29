@@ -36,15 +36,6 @@ Smartling Account Owners and Project Managers can use the Chrome Context Capture
 
 Only use the Chrome extension on **source language sites**. For example, if your primary web site is [www.domain.com](http://www.domain.com/) and the Spanish version is [es.domain.com](http://es.domain.com/), only use the extension on [www.domain.com](http://www.domain.com/).
 
-* [Taking a Snapshot](#taking-a-snapshot)
-* [Targeting Specific Strings](#targeting-specific-strings)
-* [Snapshot History](#snapshot-history)
-* [Improve Context Matching with Instrumented Files](#improve-context-matching-with-instrumented-files)
-* [Setting a Keyboard Shortcut](#setting-a-keyboard-shortcut)
-* [Execute Custom Javascript Prior to Snapshot](#execute-custom-javascript-prior-to-snapshot)
-* [Capturing Context on iframe Sites](#capturing-context-on-iframe-sites)
-
-
 ## Taking a Snapshot
 
 **(1)** Install the Chrome Content Capture extension via the [Chrome Store](https://chrome.google.com/webstore/detail/smartling-context-capture/hbckdcedbkhjfeomlikdkgkfcibkeofi/related).
