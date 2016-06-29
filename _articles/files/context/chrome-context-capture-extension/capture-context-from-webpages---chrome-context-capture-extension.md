@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Capture Context from Webpages - Chrome Context Capture Extension
+title: Chrome Context Capture Extension - Capture Context from Webpages
 draft: true
 Applies to:
   GDN: false
