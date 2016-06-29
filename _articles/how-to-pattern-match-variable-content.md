@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Pattern Match Variable Content
+title: Create Pattern Match Rules
 draft: true
 Applies to:
   GDN: false
