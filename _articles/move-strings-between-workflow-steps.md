@@ -6,25 +6,21 @@ Applies to:
   GDN: false
   Application-Resource-Files: false
   CMS-Connectors: false
-redirect-url:
+redirect-url: /hc/en-us/articles/203416216
 wistia:
   video: false
   id:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
