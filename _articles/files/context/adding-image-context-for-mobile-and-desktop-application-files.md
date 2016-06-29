@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Adding image context for mobile and desktop application files
+title: Image Context for Mobile and Desktop Apps
 draft: true
 Applies to:
   GDN: false
