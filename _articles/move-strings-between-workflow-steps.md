@@ -42,8 +42,8 @@ From the **Actions** menu, select **Move All**. This will move ALL strings that 
 
 **2)** Select languages, workflow and workflow step. The language you are currently viewing in the List View will be selected automatically. If you select additional languages, your choice of workflows will be limited to workflows available for all of your selected languages. Click&nbsp;**Submit**.
 
-![](/uploads/versions/smartling___translations_management-26---x----579-518x---.png)
+![medium](/uploads/versions/smartling___translations_management-26---x----579-518x---.png)
 
 **3)**&nbsp;You will see a dialog containing a summary of changes to be made. Go back if you need to make changes, or confirm to continue.
 
-![](/uploads/versions/smartling___translations_management-27---x----578-423x---.png)
+![medium](/uploads/versions/smartling___translations_management-27---x----578-423x---.png)
