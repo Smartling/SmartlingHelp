@@ -5,7 +5,8 @@ master_category: false
 subsections:
   - title: Chrome Context Capture Extension
 subarticles:
-  - title: none
+  - title: Adobe InDesign Context
+  - title: Adobe InDesign Context
 ---
 
 
