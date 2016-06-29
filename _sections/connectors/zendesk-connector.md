@@ -6,7 +6,17 @@ subsections:
   - title: none
     published: true
 subarticles:
-  - title: SmartMatch Leverage Report
+  - title: Zendesk Connector - Setup Guide
+    published: false
+  - title: Zendesk Connector - Translate Content
+    published: false
+  - title: Zendesk Connector - Manage Updated Content
+    published: false
+  - title: Zendesk Connector - Translate Content in Your Zendesk Theme
+    published: false
+  - title: Zendesk Connector - Localize Images
+    published: false
+  - title: Zendesk Connector - Translate Content in Your Zendesk Theme
     published: false
 ---
 
