@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Exclude dynamic content using placeholder code
+title: Placeholders in Files
 draft: true
 Applies to:
   GDN: false
