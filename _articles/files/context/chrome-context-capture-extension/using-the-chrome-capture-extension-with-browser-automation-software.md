@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Chrome Capture Extension - Browser Automation Software
+title: Chrome Capture Extension - Integrate with Browser Automation Software
 draft: true
 Applies to:
   GDN: false
