@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Manually Add Content to a Project
+title: Manually Add Content to a GDN Project
 draft: true
 Applies to:
   GDN: true
