@@ -4,8 +4,12 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Managing Business Documents
+  - title: Translating your InDesign Files
+  - title: Troubleshooting Translated Business Documents
 wistia:
   video: false
   id:
 ---
+
+
