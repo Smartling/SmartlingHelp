@@ -3,6 +3,8 @@ title: Files
 layout: section
 master_category: true
 subsections:
+  - title: Capturing Content from Files
+    published: true
   - title: Context
     published: true
 subarticles:
