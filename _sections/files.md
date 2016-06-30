@@ -10,9 +10,8 @@ subsections:
 subarticles:
   - title: Supported File Types
   - title: Download Files
-  - title: Managing Business Documents
-  - title: 'String Sharing & Namespaces'
-  - title: Unique Strings and Variants
+  - title: Upload and Manage Files
+  - title: Add translator instructions to a file
 ---
 
 
