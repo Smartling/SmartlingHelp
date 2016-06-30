@@ -34,7 +34,9 @@ migration-checklist:
   FAQs: false
   related: false
 ---
-**My Translated file looks corrupted.**
+
+
+## **My Translated file looks corrupted.**
 
 When viewing and deploying translated business documents, it is important to remember that most fonts do not contain the characters necessary to display content in every language.
 
