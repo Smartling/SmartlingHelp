@@ -40,13 +40,6 @@ migration-checklist:
 
 Smartling allows you to create a new glossary from an imported Excel file (.xlsx). This is helpful if you want to edit a lot of terms at once, or if you have a legacy glossary that is formatted in a similar way to a Smartling glossary.
 
-## &nbsp;
-
-
-
-
-## Create a New Glossary from your Excel File
-
 **1)** From **Assets** &gt; **Glossaries**, click **Import Glossary**.
 
 ![](/uploads/versions/smartling___linguistic_assets-19---x----1254-486x---.png)
