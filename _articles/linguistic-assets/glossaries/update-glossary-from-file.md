@@ -46,7 +46,7 @@ Smartling allows you to Export any glossary as a spreadsheet. If you wish, you c
 
 **3)** Add new rows to add new terms to your glossary. Leave the ID column blank for these terms. Any terms without IDs will be treated as new, even if the term itself already exists in your Glossary.
 
-**4)** From the Asset page for the Glossary, from the **More** dropdown, select Update from File**.**
+**4)** From the Asset page for the Glossary, from the **More** dropdown, select **Update from File**.
 
 ![](/uploads/versions/smartling___linguistic_assets-24---x----1258-424x---.png)
 
