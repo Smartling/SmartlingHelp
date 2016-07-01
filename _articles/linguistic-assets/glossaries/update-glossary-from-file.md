@@ -52,14 +52,14 @@ Smartling allows you to Export any glossary as a spreadsheet. If you wish, you c
 
 Select your file and click **Upload**.
 
-![](/uploads/versions/smartling___linguistic_assets-25---x----580-244x---.png)
+![small](/uploads/versions/smartling___linguistic_assets-25---x----580-244x---.png)
 
 > If your glossary is very large (15k rows and above) or contains a great many locales, it is possible that the update will timeout. As a workaround, try splitting your glossary into smaller files.
 
 **5)** You will see a summary dialog, showing the number of terms to be updated or added. Click **Apply Changes**. If you don’t see the updates you expected check that your column names are correct and your ID column hasn’t been altered.
 
-![](/uploads/versions/smartling___linguistic_assets-26---x----573-264x---.png)
+![small](/uploads/versions/smartling___linguistic_assets-26---x----573-264x---.png)
 
-\*\* Add New Terms from a New File\*\*
+## Add New Terms from a New File
 
-If you only want to add new terms to your glossary, it isn’t necessary to start from an exported file. However, you need to pay careful attention to [formatting](/hc/en-us/articles/221074608) if you’re creating a Glossary spreadsheet from scratch. Any terms without an entry in an ID column are treated as new.
+If you only want to add new terms to your glossary, it isn’t necessary to start from an exported file. However, you need to pay careful attention to [formatting]() if you’re creating a Glossary spreadsheet from scratch. Any terms without an entry in an ID column are treated as new.
