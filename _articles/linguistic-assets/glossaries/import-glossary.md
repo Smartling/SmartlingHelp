@@ -55,7 +55,7 @@ Below is a list of allowed columns for your Excel file. Only the ‘Term’ colu
 * **Do Not Translate** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
 * **Case Sensitive** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
 * **Exact Match** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
-* **\*\*Variations**\*\*
+* **Variations**
 * **Synonyms**
 * **Antonyms**
 * **SEO** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
