@@ -6,8 +6,6 @@ subsections:
   - title: none
 subarticles:
   - title: Create and Manage Linguistic Packages
-  - title: Import Glossary
-  - title: Manage Glossaries
   - title: Translation Memory
   - title: Leverage Configuration
   - title: SmartMatch Settings
