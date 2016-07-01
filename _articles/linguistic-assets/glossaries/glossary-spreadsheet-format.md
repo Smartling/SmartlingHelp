@@ -44,34 +44,23 @@ Smartling only processes the first sheet of multi-sheet Excel files, so the firs
 
 Below is a list of allowed columns for your Excel file. Only the ‘Term’ column is required for a successful import. Columns can be in any order but the column names must match. Column names are case sensitive. For more information about what should go in each column, see manage the glossary.
 
-For the Source Term:
+**For the Source Term:**
 
-Term
+* **Term**
+* **Definition**
+* **Notes**
+* **Part Of Speech** - Allowed values are ‘Noun’, ‘Verb’, ‘Adjective’, ‘Adverb’, ‘Pronoun’, ‘Preposition’, ‘Interjection’, ‘Conjunction’. Default is undefined.
+* **Do Not Translate** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
+* **Case Sensitive** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
+* **Exact Match** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
+* **Variations**
+* **Synonyms**
+* **Antonyms**
+* **SEO** - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
 
-Definition
 
-Notes
+**For Each Target Language:**
 
-Part Of Speech - Allowed values are ‘Noun’, ‘Verb’, ‘Adjective’, ‘Adverb’, ‘Pronoun’, ‘Preposition’, ‘Interjection’, ‘Conjunction’. Default is undefined.
-
-Do Not Translate - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
-
-Case Sensitive - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
-
-Exact Match - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
-
-Variations
-
-Synonyms
-
-Antonyms
-
-SEO - Allowed values are ‘true’ and ‘false’. Default is ‘false’.
-
-For Each Target Language
-
-[Locale Name] [Locale Code] - Contains the translation for each term in the target language. For example, for French (France), This column should be titled ‘French (France) fr-FR’.
-
-Notes [Locale Name] [Locale Code] - Contains translation notes for each term in the target language. For example, for French (France), This column should be titled ‘Notes French (France) fr-FR’.
-
-Locked [Locale Name] [Locale Code] - Determines whether translation resources are prevented from editing the translation. Allowed values are ‘true’ and ‘false’. Default is ‘false’. For example, for French (France), This column should be titled ‘Locked French (France) fr-FR’.
+* **[Locale Name] [Locale Code]** - Contains the translation for each term in the target language. For example, for French (France), This column should be titled ‘French (France) fr-FR’.
+* **Notes [Locale Name] [Locale Code]** - Contains translation notes for each term in the target language. For example, for French (France), This column should be titled ‘Notes French (France) fr-FR’.
+* **Locked [Locale Name] [Locale Code]** - Determines whether translation resources are prevented from editing the translation. Allowed values are ‘true’ and ‘false’. Default is ‘false’. For example, for French (France), This column should be titled ‘Locked French (France) fr-FR’.
