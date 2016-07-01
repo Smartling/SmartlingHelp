@@ -5,7 +5,8 @@ master_category: false
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Create and Manage Linguistic Packages
+  - title:
 wistia:
   video: false
   id:
