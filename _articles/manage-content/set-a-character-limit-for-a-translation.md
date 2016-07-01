@@ -36,7 +36,7 @@ Smartling allows you to impose a character limit on a string’s translation. Se
 
 You can set character limits from the List View or from the Translation Interface
 
-**\*\*From the List View:**\*\*
+**From the List View:**
 
 **1)** Mouseover the string you want to limit and click the **T&nbsp;**icon.
 
