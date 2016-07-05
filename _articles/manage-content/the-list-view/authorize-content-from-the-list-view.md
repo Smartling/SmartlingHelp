@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Authorize Content from the List View
+title: Authorize/Unauthorize Content from the List View
 draft: true
 Applies to:
   GDN: true
@@ -48,7 +48,7 @@ To authorize strings on a per-language basis or specify a workflow for those str
 
 **(1)** Use the checkboxes to select the strings that you want to authorize, or set your filter to a single workflow step if you want to authorize all strings in that step.
 
-**(2)** From the Actions menu, select **Authorize for Translation** to authorize selected strings only or&nbsp;**Authorize All** to authorize all content matching the current filter.
+**(2)** From the Actions menu, select **Authorize for Translation** to authorize selected strings only or **Authorize All** to authorize all content matching the current filter.
 
 ![](/uploads/versions/smartling___translations_management-9---x----1343-601x---.png)
 
