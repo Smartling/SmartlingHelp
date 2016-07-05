@@ -7,12 +7,13 @@ subsections:
 subarticles:
   - title: Jobs
   - title: Issues
+  - title: Watching Content
   - title: Content Search
   - title: Plurals
   - title: Inactive Strings
   - title: Adding links to Translator Instructions or Issues
-  - title: none
-  - title: none
+  - title: Fuzzy Match Estimates
+  - title: Pseudo translations
 wistia:
   video: false
   id:
