@@ -4,7 +4,8 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Create and Customize a Workflow
+  - title: Integrate Machine Translation Into A Workflow
 wistia:
   video: false
   id:
