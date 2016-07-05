@@ -62,4 +62,16 @@ The Awaiting Authorization List View can be configured to show partially authori
 
 ![small](/uploads/versions/smartling___translations_management-11---x----254-482x---.png)
 
-&nbsp;
+## Unauthorize Content
+
+If you have authorized content for translation by mistake, Smartling allows Account Owners and Project Managers to unauthorize strings from the List View. Unauthorized strings are returned to the **Awaiting Authorization** queue. The unauthorize action is recorded in the string's history.
+
+> Only strings without a translation can be unauthorized.
+
+**(1)** From **Content&gt;Translations**, select one or more strings and choose **Unauthorize** from the **Action** menu.
+
+![](/uploads/versions/unauthorize---x----2470-1016x---.png)
+
+**(2)** Select the languages you want to unauthorize and click **Submit**.
+
+![](/uploads/versions/unauthorize2---x----1128-632x---.png)
