@@ -74,4 +74,4 @@ If you have authorized content for translation by mistake, Smartling allows Acco
 
 **(2)** Select the languages you want to unauthorize and click **Submit**.
 
-![](/uploads/versions/unauthorize2---x----1128-632x---.png)
+![medium](/uploads/versions/unauthorize2---x----1128-632x---.png)
