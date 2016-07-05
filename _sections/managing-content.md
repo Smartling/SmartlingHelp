@@ -1,5 +1,5 @@
 ---
-title: Managing Content
+title: Manage Content
 layout: section
 subsections:
   - title: The List View
