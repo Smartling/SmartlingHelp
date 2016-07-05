@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Global Search
+title: Content Search
 draft: true
 Applies to:
   GDN: true
