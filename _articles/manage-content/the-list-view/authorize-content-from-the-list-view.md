@@ -61,3 +61,5 @@ To authorize strings on a per-language basis or specify a workflow for those str
 The Awaiting Authorization List View can be configured to show partially authorized strings - that is, they have been authorized for one or more languages, but not for all languages in the project. To show these strings, check **Show Partially Authorized**.
 
 ![small](/uploads/versions/smartling___translations_management-11---x----254-482x---.png)
+
+&nbsp;
