@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Inactive strings
+title: Inactive Strings
 draft: true
 Applies to:
   GDN: true
@@ -44,4 +44,4 @@ By default, the list view will hide all inactive strings. However, you can show 
 
 ![](/uploads/versions/screenshot_6_21_16__1_36_pm---x----2560-1379x---.png)
 
-Inactive strings cannot be edited or translated, but they do still form a part of your translation memory, so poor translations in an inactive string can cause issues with future translations. If you wish to edit the translation for an inactive string, you need to reactivate it by clicking&nbsp;**Reactivate** or, for multiple strings, selecting **Reactivate String** from the **Actions** menu. This action can be performed by Account Owners and Project Managers only.![](/uploads/versions/screenshot_6_21_16__1_45_pm---x----2560-1374x---.png)
+Inactive strings cannot be edited or translated, but they do still form a part of your translation memory, so poor translations in an inactive string can cause issues with future translations. If you wish to edit the translation for an inactive string, you need to reactivate it by clicking **Reactivate** or, for multiple strings, selecting **Reactivate String** from the **Actions** menu. This action can be performed by Account Owners and Project Managers only.![](/uploads/versions/screenshot_6_21_16__1_45_pm---x----2560-1374x---.png)
