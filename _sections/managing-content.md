@@ -6,9 +6,11 @@ subsections:
   - title: Workflows
 subarticles:
   - title: Jobs
-  - title: none
-  - title: none
-  - title: none
+  - title: Issues
+  - title: Content Search
+  - title: Plurals
+  - title: Inactive Strings
+  - title: Adding links to Translator Instructions or Issues
   - title: none
   - title: none
 wistia:
