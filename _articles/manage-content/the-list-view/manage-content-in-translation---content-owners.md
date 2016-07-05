@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Manage Content In Translation - Content Owners
+title: Manage Content In Translation
 draft: true
 Applies to:
   GDN: true
