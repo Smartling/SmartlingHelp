@@ -43,8 +43,8 @@ SmartMatch is a process that occurs every time you add new content into Smartlin
 SmartMatch has six levels of exactness for a match and allows you to select a target workflow step for each level. Strings are SmartMatched, will be added to the workflow steps you have selected. Settings for more exact matches take precedence. You can choose the following workflow step options for SmartMatched content:
 
 *   **Published** - SmartMatched strings go directly to Published.
-*   **First Revision Step (Review)** - SmartMatched strings go to the first revision step where the [Primary Action](/hc/en-us/articles/203604913#Customize) is set to 'Review'.
-*   **First Revision Step (Edit)** - SmartMatched strings go to the first revision step where the [Primary Action](/hc/en-us/articles/203604913#Customize) is set to 'Edit'.
+*   **First Revision Step (Review)** - SmartMatched strings go to the first revision step where the [Primary Action]() is set to 'Review'.
+*   **First Revision Step (Edit)** - SmartMatched strings go to the first revision step where the [Primary Action]() is set to 'Edit'.
 *   **First Revision Step (Edit, Review or Holding)** - SmartMatched strings go to the first revision step regardless of the Primary Action.
 *   **Disabled** - SmartMatch is not applied for this match setting.
 
