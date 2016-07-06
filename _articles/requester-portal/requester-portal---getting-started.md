@@ -38,8 +38,6 @@ Smartling’s Requester Portal is a limited view of the Smartling dashboard that
 
 The Requester Portal is an ideal way to allow people in your organization to easily request occasional translation work without the level of access that a Project Manager role allows.
 
-The Requester Portal must be enabled by Smartling before it can be accessed by an account. Contact your Smartling Client Services representative and ask for Requester Portal to be enabled.
-
 **To create a Requester:**
 
 **(1)** Follow the steps in [Add a User](/hc/en-us/articles/201016167#Add).
