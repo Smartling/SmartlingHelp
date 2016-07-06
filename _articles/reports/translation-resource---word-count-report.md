@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Translation Resource - Word Count Report
+title: Translation Resource Word Count Report
 draft: true
 Applies to:
   GDN: true
@@ -34,9 +34,9 @@ migration-checklist:
 ---
 
 
-As a translator or editor you can generate word count reports.&nbsp;
+As a translator or editor you can generate word count reports.
 
-To generate a word count report, Browse to&nbsp;**Reports &gt; Words Counts**, select a date range and click **Get Report**.
+To generate a word count report, Browse to **Reports &gt; Words Counts**, select a date range and click **Get Report**.
 
 The Word Count report provides you with a report on the number of translations submitted by translators or editors. Translation Resources only have access to their own reports.
 
