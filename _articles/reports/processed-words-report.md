@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Processed Words Report
+title: Processed Words Report delete
 tag:
 style: Green
 wistia:
