@@ -37,10 +37,17 @@ migration-checklist:
   reviewed: false
 ---
 
-## Add a Do Not Translate rule by URL, Element Class or Element ID in the Dashboard.
+Content under a Do Not Translate rule is not captured for translation and is displayed on translated sites exactly as it is on your source site.
+
+When applied to inline elements, such as a span tag, this will cause a placeholder to be created, unless the element is at the beginning or end of a string, in which case, the content will not be captured.
+
+### How to Apply
 
 
-## Add the ‘notranslate’ class to your source code
+### Add a Do Not Translate rule by URL, Element Class or Element ID in the Dashboard.
+
+
+### Add the ‘notranslate’ class to your source code
 
 ~~~
 <p class="notranslate">This paragraph won’t be captured for translation</p>
@@ -54,13 +61,13 @@ If you add ‘notranslate’ to an inline tag at the very beginning of a string,
 
 Will be captured as ` items in cart.`
 
-## Set the HTML5 ‘translate’ attribute to ‘no’
+### Set the HTML5 ‘translate’ attribute to ‘no’
 
 ~~~
 <p translate="no">This paragraph won’t be captured for translation</p>
 ~~~
 
-## Add the classes `sl_notranslate_alt` or `sl_notranslate_title` to prevent an element's `alt` or `id` tag from being captured.
+### Add the classes `sl_notranslate_alt` or `sl_notranslate_title` to prevent an element's `alt` or `id` tag from being captured.
 
 ~~~
 <div id="user-details" class="notranslate_alt" title="{{user.name}}">
