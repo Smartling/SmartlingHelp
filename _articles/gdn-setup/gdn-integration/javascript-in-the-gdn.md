@@ -34,15 +34,15 @@ migration-checklist:
 ---
 
 
-It may be that not all translatable content on your site is delivered as plain HTML, especially for more complicated or dynamic sites. You may also have content delivered via JSON requests or in Javascript.
+It may be that not all translatable content on your site is delivered as plain HTML, especially for more complicated or dynamic sites. You may also have content delivered via JSON requests or in JavaScript.
 
-By default, Smartling doesn’t capture JSON and Javascript content, in order not to disrupt the functionality of your site. To translate this content you need to explicitly mark the content that you want translated. You can do this by using inserting Smartling directives as javascript comments. Wherever possible, consider externalizing your strings in separate files to make them easier to identify and translate.
+By default, Smartling doesn’t capture JSON and JavaScript content, in order not to disrupt the functionality of your site. To translate this content you need to explicitly mark the content that you want translated. You can do this by using inserting Smartling directives as javascript comments. Wherever possible, consider externalizing your strings in separate files to make them easier to identify and translate.
 
-Note that you may need a few tweaks to optimize your Javascript for localization. The most important of these is to remove any string concatenation.
+Note that you may need a few tweaks to optimize your JavaScript for localization. The most important of these is to remove any string concatenation.
 
 ## Avoid Concatenation
 
-String concatenation is common in javascript, especially when handling variables, but it creates problems for localization and must be avoided in translatable content. Consider the following example:
+String concatenation is common in JavaScript, especially when handling variables, but it creates problems for localization and must be avoided in translatable content. Consider the following example:
 
 ~~~javascript
 var item = {...}
@@ -51,7 +51,7 @@ var checkoutStatus = 'You added a ' + item.color + ' ' + item.type + ' to your c
 // </sl:translate>
 ~~~
 
-Smartling captures each javascript string literal as a translatable string, so your translators will see three separate strings:
+Smartling captures each JavaScript string literal as a translatable string, so your translators will see three separate strings:
 
 * ‘You added a ‘
 * ‘ ‘
@@ -79,7 +79,7 @@ You will need to create a placeholder rule to capture content in double curly br
 
 This way, the translator can easily translate the string as a whole, and place the variables wherever they need to go for a given language.
 
-## Javascript Directives
+## JavaScript Directives
 
 > If you are minifying your assets, comments are likely to be stripped from your code. See Minification for an alternative syntax to use.
 
@@ -115,6 +115,8 @@ Often HTML can be stored inside a Javascript string literal. To capture this con
 
 <sl:translate_html> tag. Here&rsquo;s an example adding HTML to the DOM with jQuery.</sl:translate_html>
 
+&nbsp;
+
 ~~~javascript
 $("#addUser").click(function{} {
 	var username = $("#inputUsername").val();
@@ -127,16 +129,24 @@ $("#addUser").click(function{} {
 });
 ~~~
 
+&nbsp;
+
 Smartling captures the following strings from this example:
+
+&nbsp;
 
 * ‘New user has been added.’
 * ‘Username: {{0}}’
 * ‘Role: {{0}}’
 
 
-### Translate JSON inside a Javascript string literal
+&nbsp;
 
-If you have a JSON object inside your Javascript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
+### Translate JSON inside a JavaScript string literal
+
+&nbsp;
+
+If you have a JSON object inside your JavaScript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
 
 <sl:translate_json> tag.</sl:translate_json>
 
@@ -156,9 +166,15 @@ user.buildpage = function(messages) {
 user.buildpage(messages);
 ~~~
 
+&nbsp;
+
 ## Minification
 
-If you need to minify your Javascript for faster delivery, comments won’t work for you, as they are usually stripped out by minifiers. As an alternative, you can use functions. Once you have your functions set up, you can use them exactly like comment directives. To use function names as directives in Javascript for minification, add this to the top of your script.
+&nbsp;
+
+If you need to minify your JavaScript for faster delivery, comments won’t work for you, as they are usually stripped out by minifiers. As an alternative, you can use functions. Once you have your functions set up, you can use them exactly like comment directives. To use function names as directives in JavaScript for minification, add this to the top of your script.
+
+&nbsp;
 
 ~~~javascript
 // Declare an empty function
@@ -175,7 +191,11 @@ sl_tr_json_start = sl_translate;
 sl_tr_json_end = sl_translate;
 ~~~
 
-Using this syntax will ensure that the directive names survive minification intact. You can then use your functions exactly the same way we use the comment directives above. The functions don’t actually do anything in Javascript, they only affect the Smartling parser.
+&nbsp;
+
+Using this syntax will ensure that the directive names survive minification intact. You can then use your functions exactly the same way we use the comment directives above. The functions don’t actually do anything in JavaScript, they only affect the Smartling parser.
+
+&nbsp;
 
 ~~~javascript
 // Translate some Strings
@@ -197,9 +217,15 @@ sl_tr_start();
 sl_tr_end();
 ~~~
 
+&nbsp;
+
 ## Content in Common Libraries is Not Captured
 
-To maximize efficiency, Smartling does not parse the contents of common Javascript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
+&nbsp;
+
+To maximize efficiency, Smartling does not parse the contents of common JavaScript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
+
+&nbsp;
 
 ~~~
 jquery
@@ -250,3 +276,5 @@ underscore.js
 zwt
 zreshk
 ~~~
+
+&nbsp;
