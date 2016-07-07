@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Fuzzy Match Estimates - Translators
+title: Fuzzy Match Estimates (Translators)
 draft: true
 Applies to:
   GDN: true
