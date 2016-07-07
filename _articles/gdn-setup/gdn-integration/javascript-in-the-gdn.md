@@ -37,6 +37,7 @@ migration-checklist:
   reviewed: false
 ---
 
+
 It may be that not all translatable content on your site is delivered as plain HTML, especially for more complicated or dynamic sites. You may also have content delivered via JSON requests or in Javascript.
 
 By default, Smartling doesn’t capture JSON and Javascript content, in order not to disrupt the functionality of your site. To translate this content you need to explicitly mark the content that you want translated. You can do this by using inserting Smartling directives as javascript comments. Wherever possible, consider externalizing your strings in separate files to make them easier to identify and translate.
@@ -60,7 +61,8 @@ Smartling captures each javascript string literal as a translatable string, so y
 * ‘ ‘
 * ‘ to your cart’.
 
-The variables will not be captured. 
+
+The variables will not be captured.
 
 Apart from it being difficult for the translator to understand and translate these three strings in isolation, it is impossible for the translator to change the position of the variables to allow for non-English sentence structure.
 
@@ -81,16 +83,15 @@ You will need to create a placeholder rule to capture content in double curly br
 
 This way, the translator can easily translate the string as a whole, and place the variables wherever they need to go for a given language.
 
-
 ## Javascript Directives
 
 > If you are minifying your assets, comments are likely to be stripped from your code. See Minification for an alternative syntax to use.
 
 ### Translate / Notranslate
 
-`<sl:translate>` and `<sl:notranslate>` can be used to mark content to translate and not translate.
+`&lt;sl:translate&gt;` and `&lt;sl:notranslate&gt;` can be used to mark content to translate and not translate.
 
-`<sl:notranslate>` tags can be nested inside `<sl:translate>` tags so you can mark a large block for translation, but single out select strings you don’t want translated. However, `<sl:translate>` tags cannot be nested inside `<sl:notranslate>` tags.
+`&lt;sl:notranslate&gt;` tags can be nested inside `&lt;sl:translate&gt;` tags so you can mark a large block for translation, but single out select strings you don’t want translated. However, `&lt;sl:translate&gt;` tags cannot be nested inside `&lt;sl:notranslate&gt;` tags.
 
 ~~~javascript
 // Translate some Strings
@@ -114,7 +115,9 @@ This way, the translator can easily translate the string as a whole, and place t
 
 ### Translate HTML
 
-Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the <sl:translate_html> tag. Here’s an example adding HTML to the DOM with jQuery.
+Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the
+
+<sl:translate_html> tag. Here&rsquo;s an example adding HTML to the DOM with jQuery.</sl:translate_html>
 
 ~~~javascript
 $("#addUser").click(function{} {
@@ -134,9 +137,12 @@ Smartling captures the following strings from this example:
 * ‘Username: {{0}}’
 * ‘Role: {{0}}’
 
+
 ### Translate JSON inside a Javascript string literal
 
-If you have a JSON object inside your Javascript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the <sl:translate_json> tag.
+If you have a JSON object inside your Javascript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
+
+<sl:translate_json> tag.</sl:translate_json>
 
 ~~~javascript
 var user = {...}
@@ -197,54 +203,54 @@ sl_tr_end();
 
 ## Content in Common Libraries is Not Captured
 
-To maximise efficiency, Smartling does not parse the contents of common Javascript libraries. If you have added any translatable content to these libraries, you will need to move it outside the LIbrary file.
+To maximize efficiency, Smartling does not parse the contents of common Javascript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
 
 ~~~
-jquery 
-jquery.min.js 
-jquery.ui.js 
-prototype.js 
-yui 
-ext 
-ally 
-ample 
-artisan 
-blackbird 
-cappuccino 
-datejs 
-dhtmlx 
-dojo 
-puremvc 
-mootools 
-echo 
-flot 
-fuel 
-glow 
-closure-library 
-himle 
-jelly 
-joose 
-jwee 
-jsdraw2d 
-knockout 
-midori 
-mochikit 
-plotkit 
-pottisjs 
-processing.js 
-qooxdoo 
-rico 
-script.aculo.us 
-smartclient 
-soundmanager 
-spark 
-sproutcore 
-spry 
-sylvester 
-swfobject 
-taffydb 
-typeface.js 
-underscore.js 
-zwt 
+jquery
+jquery.min.js
+jquery.ui.js
+prototype.js
+yui
+ext
+ally
+ample
+artisan
+blackbird
+cappuccino
+datejs
+dhtmlx
+dojo
+puremvc
+mootools
+echo
+flot
+fuel
+glow
+closure-library
+himle
+jelly
+joose
+jwee
+jsdraw2d
+knockout
+midori
+mochikit
+plotkit
+pottisjs
+processing.js
+qooxdoo
+rico
+script.aculo.us
+smartclient
+soundmanager
+spark
+sproutcore
+spry
+sylvester
+swfobject
+taffydb
+typeface.js
+underscore.js
+zwt
 zreshk
 ~~~
