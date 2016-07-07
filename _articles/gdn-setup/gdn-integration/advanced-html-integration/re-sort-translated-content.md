@@ -47,6 +47,7 @@ You can manage this by including the class  `sl_sort` in your list. If this clas
 ~~~html
 <select name="countryList" class="sl_sort">
      <option value="Albania">Albania</option>
+     <option value="France">France</option>
      <option value="Germany">Germany</option>
      <option value="South Africa">South Africa</option>
      <option value="United States">United States</option>
