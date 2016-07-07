@@ -42,7 +42,7 @@ This rule works like Do Not Localize URLs but it applies to link text as well.
 For example:
 
 ~~~html
-<a href=”http://www.mysite.com/about”>About Us</a>
+<a href="http://www.mysite.com/about">About Us</a>
 ~~~
 
 Would be served on a translated site exactly as it is on your source site.
