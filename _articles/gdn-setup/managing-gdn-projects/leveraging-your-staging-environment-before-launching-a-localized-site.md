@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Leverage your staging environment before launching a localized site
+title: Take Advantage of Your Staging Environment
 draft: true
 Applies to:
   GDN: false
