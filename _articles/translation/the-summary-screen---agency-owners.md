@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Summary Screen - Agency Owners
+title: The Summary Screen (Agency Owners)
 draft: true
 Applies to:
   GDN: true
@@ -41,6 +41,6 @@ The Summary screen offers an overview of a project:
 * Daily translation activity - total or by language.
 
 
-Click ⟳&nbsp;to refresh the Summary display.
+Click ⟳ to refresh the Summary display.
 
 ![](/uploads/versions/smartling___summary---x----2518-1348x---.png)
