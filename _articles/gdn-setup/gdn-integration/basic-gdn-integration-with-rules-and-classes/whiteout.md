@@ -55,7 +55,6 @@ Add the `sl_whiteout` class to your source code
 	</div>
 	<div>
 		<p>This text will be seen and translated</p>
+    </div>
 </div>
 ~~~
-
-</div>
