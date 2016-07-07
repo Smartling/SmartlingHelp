@@ -32,18 +32,13 @@ migration-checklist:
 ---
 
 
-*This article applies to Global Delivery Network, Application Resource File, Business Document, and CMS Connector project types.*
+By default, Smartling does not allow you to manage leading or trailing spaces manually between target fields. If necessary, you can enable manual space management.
 
-By default, Smartling does not allow you to manage leading or trailing spaces manually between target fields and, in a few cases and depending on the formatting, it creates unnecessary spaces.
+**1)** In the **Translation Interface**, go to the **Code View** tab.
 
-Smartling does allow you to leave a target field empty, but warns you first.
+**2)** Select **Manually manage spaces between translation fields** to add or delete leading spaces.
 
-**If you wish to manage spaces manually between target fields:**
-
-1. In the **Translation Interface**, go to the **Code View** tab
-2. Select **Manually manage spaces between translation fields** to add or delete leading spaces.
-3. Use the code view to see where space appears and check that spacing is appropriate at the beginning and end of each field.
-
+**3)** Use the code view to see where space appears and check that spacing is appropriate at the beginning and end of each field.
 
 ![](/uploads/versions/smartling___translations_management_---x----2480-1324x---.png)
 
