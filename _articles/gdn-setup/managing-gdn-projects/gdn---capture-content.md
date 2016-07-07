@@ -1,6 +1,6 @@
 ---
 layout: article
-title: GDN - Capture Content
+title: Capture GDN Content
 draft: true
 Applies to:
   GDN: true
@@ -42,7 +42,7 @@ Smartling limits ingestion to 10,000 strings that haven't been authorized or tra
 
 ## Manually ingest content
 
-**1)** At **Global Delivery Network** &gt; **Domains**, click the domain and for the language you want to ingest, click&nbsp;**Translate in context** to launch your site.
+**1)** At **Global Delivery Network** &gt; **Domains**, click the domain and for the language you want to ingest, click **Translate in context** to launch your site.
 
 ![large](/uploads/versions/smartling___manage_domains-2---x----897-702x---.png)
 
