@@ -56,9 +56,9 @@ var checkoutStatus = 'You added a ' + item.color + ' ' + item.type + ' to your c
 
 Smartling captures each javascript string literal as a translatable string, so your translators will see three separate strings:
 
-String 1: ‘You added a ‘
-String 2: ‘ ‘
-String 3: ‘ to your cart’.
+* ‘You added a ‘
+* ‘ ‘
+* ‘ to your cart’.
 
 The variables will not be captured. 
 
