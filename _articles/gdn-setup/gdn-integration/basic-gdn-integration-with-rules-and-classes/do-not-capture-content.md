@@ -37,6 +37,7 @@ migration-checklist:
   reviewed: false
 ---
 
+
 The Do Not Capture Content rule can only be applied to whole pages. When it is applied to a page, Smartling continues to serve existing translations for that page on your translated sites, but it will not capture any changes you make to the content after applying the rule. For example:
 
 If your source page has the heading
@@ -45,7 +46,7 @@ If your source page has the heading
 <h1>Hello!</h1>
 ~~~
 
-And it is translated on your Spanish site as 
+And it is translated on your Spanish site as
 
 ~~~
 <h1>Hola!</h1>
@@ -69,6 +70,4 @@ A good use of this rule is to capture a page once, authorize the permanent conte
 
 ### Add a Remove Content from Page rule by Element Class or Element ID in the Dashboard.
 
-
-
-
+![](/uploads/versions/smartling___global_delivery_network_configuration---x----979-149x---.png)
