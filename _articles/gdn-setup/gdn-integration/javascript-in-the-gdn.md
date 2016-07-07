@@ -111,7 +111,7 @@ This way, the translator can easily translate the string as a whole, and place t
 
 ### Translate HTML
 
-Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the `<sl:translate_html>` tag. Here&rsquo;s an example adding HTML to the DOM with jQuery.
+Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the `&lt;sl:translate_html&gt;` tag. Here’s an example adding HTML to the DOM with jQuery.
 
 ~~~javascript
 $("#addUser").click(function{} {
@@ -125,26 +125,20 @@ $("#addUser").click(function{} {
 });
 ~~~
 
-&nbsp;
-
 Smartling captures the following strings from this example:
-
-&nbsp;
 
 * ‘New user has been added.’
 * ‘Username: {{0}}’
 * ‘Role: {{0}}’
 
 
-&nbsp;
-
 ### Translate JSON inside a JavaScript string literal
-
-&nbsp;
 
 If you have a JSON object inside your JavaScript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
 
 <sl:translate_json> tag.</sl:translate_json>
+
+&nbsp;
 
 ~~~javascript
 var user = {...}
@@ -164,11 +158,23 @@ user.buildpage(messages);
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 ## Minification
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 If you need to minify your JavaScript for faster delivery, comments won’t work for you, as they are usually stripped out by minifiers. As an alternative, you can use functions. Once you have your functions set up, you can use them exactly like comment directives. To use function names as directives in JavaScript for minification, add this to the top of your script.
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -189,7 +195,15 @@ sl_tr_json_end = sl_translate;
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 Using this syntax will ensure that the directive names survive minification intact. You can then use your functions exactly the same way we use the comment directives above. The functions don’t actually do anything in JavaScript, they only affect the Smartling parser.
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -215,11 +229,23 @@ sl_tr_end();
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 ## Content in Common Libraries is Not Captured
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
 To maximize efficiency, Smartling does not parse the contents of common JavaScript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
 
@@ -272,5 +298,9 @@ underscore.js
 zwt
 zreshk
 ~~~
+
+&nbsp;
+
+&nbsp;
 
 &nbsp;
