@@ -37,13 +37,14 @@ migration-checklist:
   reviewed: false
 ---
 
+
 Some content on your GDN site may be delivered as JSON, for example, as a result of AJAX requests to a content API.
 
 Smartling does not automatically capture JSON content for translation, since translating the wrong content might affect the functioning of your site. To capture JSON for translation, you need to tell Smartling the keys whose values should be translated.
 
 JSON is made up of name/value pairs. Smartling translates only JSON values.
 
-> This article assumes JSON is the result of a JSON request. To identify JSON appearing within a Javascript string literal see [here]().
+> This article assumes JSON is the result of a JSON request. To identify JSON appearing within a Javascript string literal see [here](){: .cc-active}.
 
 ## Identify Translatable Content
 
@@ -53,11 +54,12 @@ To tell Smartling what to translate, you need to create an `"sl_translate"` entr
 * `"sl_none"` - No values are translated.
 * Comma-separated list of JSON names identifying the values that should be translated. Specify the direct name.
 
+
 For example
 
 ~~~
 {
-    "sl_translate": "string1, string2", 
+    "sl_translate": "string1, string2",
     "status": 200,
     "messages": "The Request was successful",
     "user": {
@@ -73,10 +75,9 @@ For example
 
 > Smartling automatically recognizes HTML content in JSON strings and parses it as HTML. Unlike in HTML, where tagging an element for translation captures all child nodes, in JSON, Smartling only captures directly identified values, not the values of child nodes. In the above example, adding "user" to the list of names in "sl_translate" would not cause the value of child node "role" to be captured for translation. If you want to translate "role", you need to specify it in "sl_translate".
 
-
 ## Create Variant Metadata for JSON strings
 
-If you want to create [variant metadata]() in Smartling, you can describe it by adding an "sl_variant" entry to your JSON object. This should contain a comma separated list of JSON names and variant values. For example:
+If you want to create [variant metadata](){: .cc-active} in Smartling, you can describe it by adding an "sl_variant" entry to your JSON object. This should contain a comma separated list of JSON names and variant values. For example:
 
 ~~~
 {
@@ -90,11 +91,9 @@ If you want to create [variant metadata]() in Smartling, you can describe it by 
 
 This would create the following strings in Smartling:
 
-* Variant: nav  
-  String: Home
-
-* Variant: nav  
-  String: Back
-
-* Variant: exitmessage  
-  String: Goodbye
+* **Variant:** nav
+  <br>**String:** Home
+* **Variant:** nav
+  <br>**String:** Back
+* **Variant:** exitmessage
+  <br>**String:** Goodbye
