@@ -2,7 +2,7 @@
 title: GDN Integration
 layout: section
 subsections:
-  - title: none
+  - title: Basic GDN Integration using Rules and Classes
 subarticles:
   - title: none
 wistia:
@@ -10,13 +10,13 @@ wistia:
   id:
 ---
 
-Once you have your basic [DNS setup]() working correctly and your requests are being handled by Smartling’s GDN proxy, you have a number of options for controlling how Smartling captures your content for translation and how your translation content is deployed. There are three basic methods of controlling your GDN integration:
 
-*   Create ‘Rules’ in the Smartling Dashboard.
+Once you have your basic [DNS setup](){: .cc-active} working correctly and your requests are being handled by Smartling’s GDN proxy, you have a number of options for controlling how Smartling captures your content for translation and how your translation content is deployed. There are three basic methods of controlling your GDN integration:
 
-*   Tagging HTML elements on your pages with special Smartling classes.
+* Create ‘Rules’ in the Smartling Dashboard.
+* Tagging HTML elements on your pages with special Smartling classes.
+* Tagging your JavaScript and JSON content using Smartling directives.
 
-*   Tagging your JavaScript and JSON content using Smartling directives.
 
 The methods you use most for your project will depend on how your website is set up. If you are assembling a significant amount of the DOM on the client-side, you will need to work with JavaScript and JSON integration. If you are serving static content or server-generated pages, you can use HTML classes, or write Rules in the Dashboard for simpler functions.
 
@@ -24,7 +24,7 @@ The methods you use most for your project will depend on how your website is set
 
 #### Well-formed HTML is important
 
-Smartling needs to parse your content just like a browser. However, Smartling necessarily parses HTML in a less forgiving way than most browsers. Refer to our [GDN Coding Requirements]().
+Smartling needs to parse your content just like a browser. However, Smartling necessarily parses HTML in a less forgiving way than most browsers. Refer to our [GDN Coding Requirements](){: .cc-active}.
 
 #### Remember that the GDN is a proxy service!
 
