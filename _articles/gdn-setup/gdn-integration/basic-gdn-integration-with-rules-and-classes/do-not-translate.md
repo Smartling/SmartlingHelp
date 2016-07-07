@@ -48,7 +48,9 @@ migration-checklist:
 
 If you add ‘notranslate’ to an inline tag at the very beginning of a string, the string will be split instead of a placeholder being created. This may be unwanted behavior. In these cases, you may want to [create a placeholder rule]() in the dashboard instead. For example:
 
+~~~
 <p><span class="notranslate">5</span> items in cart.</p>
+~~~
 
 Will be captured as ` items in cart.`
 
