@@ -4,8 +4,11 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: HubSpot Connector - Setup
+  - title: HubSpot Connector - User Guide
 wistia:
   video: false
   id:
 ---
+
+
