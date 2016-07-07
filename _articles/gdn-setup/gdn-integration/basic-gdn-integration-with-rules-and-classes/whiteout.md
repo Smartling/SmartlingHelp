@@ -46,4 +46,16 @@ The main reason for using a whiteout rule is to identify areas of your site that
 
 ## How to Apply
 
-&nbsp;
+Add the `sl_whiteout` class to your source code
+
+~~~html
+<div>
+	<div class=”sl_whiteout”>
+		Translators will not see this content.
+	</div>
+	<div>
+		<p>This text will be seen and translated</p>
+</div>
+~~~
+
+</div>
