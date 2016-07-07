@@ -3,6 +3,7 @@ title: GDN Integration
 layout: section
 subsections:
   - title: Basic GDN Integration using Rules and Classes
+  - title: Advanced HTML Integration
 subarticles:
   - title: none
 wistia:
