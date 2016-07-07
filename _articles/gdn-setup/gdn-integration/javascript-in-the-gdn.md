@@ -88,7 +88,7 @@ This way, the translator can easily translate the string as a whole, and place t
 
 ### Translate / Notranslate
 
-``<sl:translate>` and `<sl:notranslate>` can be used to mark content to translate and not translate.
+`<sl:translate>` and `<sl:notranslate>` can be used to mark content to translate and not translate.
 
 `<sl:notranslate>` tags can be nested inside `<sl:translate>` tags so you can mark a large block for translation, but single out select strings you don’t want translated. However, `<sl:translate>` tags cannot be nested inside `<sl:notranslate>` tags.
 
