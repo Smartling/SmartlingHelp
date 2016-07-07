@@ -5,7 +5,9 @@ subsections:
   - title: Basic GDN Integration using Rules and Classes
   - title: Advanced HTML Integration
 subarticles:
-  - title: none
+  - title: Creating Localized Content
+  - title: JavaScript in the GDN
+  - title: JSON in the GDN
 wistia:
   video: false
   id:
