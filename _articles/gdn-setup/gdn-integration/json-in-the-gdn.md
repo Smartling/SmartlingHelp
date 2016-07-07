@@ -90,11 +90,11 @@ If you want to create [variant metadata]() in Smartling, you can describe it by 
 
 This would create the following strings in Smartling:
 
-* Variant: nav
+* Variant: nav  
   String: Home
 
-* Variant: nav
+* Variant: nav  
   String: Back
 
-* Variant: exitmessage
+* Variant: exitmessage  
   String: Goodbye
