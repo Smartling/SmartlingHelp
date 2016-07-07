@@ -111,11 +111,7 @@ This way, the translator can easily translate the string as a whole, and place t
 
 ### Translate HTML
 
-Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the
-
-<sl:translate_html> tag. Here&rsquo;s an example adding HTML to the DOM with jQuery.</sl:translate_html>
-
-&nbsp;
+Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the `<sl:translate_html>` tag. Here&rsquo;s an example adding HTML to the DOM with jQuery.
 
 ~~~javascript
 $("#addUser").click(function{} {
