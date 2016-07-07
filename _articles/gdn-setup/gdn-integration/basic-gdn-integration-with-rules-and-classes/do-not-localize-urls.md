@@ -39,13 +39,13 @@ migration-checklist:
 
 By default, when you include an internal link on your site, Smartling automatically rewrites the link to point to the corresponding page on your translated site. For example:
 
-~~~
+~~~html
 <a href="http://www.mysite.com/about">About Us</a>
 ~~~
 
 Might be served on your Spanish site as
 
-~~~
+~~~html
 <a href="http://es.mysite.com/about">Sobre Nosotros</a>
 ~~~
 
@@ -62,13 +62,13 @@ If you do not want this rewriting to occur, apply the Do Not Localize URLs rule.
 
 ### Add the ‘sl_norewrite’ class to your source code
 
-~~~
+~~~html
 <a class="sl_norewrite" href="http://www.mysite.com/about">About Us</a>
 ~~~
 
 ### Add the `sl_norewrite_redirect` header to your 301 redirects
 
-~~~
+~~~php
 <?
 Header( "HTTP/1.1 301 Moved Permanently" );
 Header( "SL_NOREWRITE_REDIRECTS: 1" );
