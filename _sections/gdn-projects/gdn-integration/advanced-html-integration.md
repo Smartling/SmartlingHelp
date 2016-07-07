@@ -4,8 +4,12 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Re-Sort Translated Content
+  - title: Customize String Capture
+  - title: Include Content
 wistia:
   video: false
   id:
 ---
+
+
