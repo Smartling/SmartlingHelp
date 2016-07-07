@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Using Translation Memory in the Translation Interface
+title: Translation Memory in the Translation Interface
 draft: true
 Applies to:
   GDN: true
