@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Avoiding untranslated content with Static Cache
+title: Avoiding Untranslated Content with Static Cache
 draft: true
 Applies to:
   GDN: true
