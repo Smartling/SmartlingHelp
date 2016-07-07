@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Customize Fonts in the Translation Interface (Beta)
+title: Customize Fonts in the Translation Interface
 draft: true
 Applies to:
   GDN: true
