@@ -32,19 +32,13 @@ migration-checklist:
 ---
 
 
-[Introduction](#Intro)
-<br>[Segment Matching](#Segment)
-<br>[Pre-populate 100% matches](#Prepopulate)
-<br>[Concordance Search](#Concordance)
-<br>[Completed Translations in the List View](#Completed)
-
 The Translation Memory is a record of previous translations, either in the current project or from elsewhere in your organization. Smart use of your Translation Memory can speed up your work and keep your translations consistent over time.
 
 Translators and Editors will most often access Translation Memory from within Smartling’s Translation Interface (TI). The TI provides two distinct tools for accessing translation memory: Segment Matching and Concordance Search.
 
 ![](/uploads/versions/tmmi1---x----1172-390x---.png)
 
-**Segment Matching**
+## Segment Matching
 
 Segment Matching automatically searches the Translation Memory for strings or segments that closely match the one currently being translated.
 
@@ -54,7 +48,7 @@ If Translation Memory is sourced from a different project, the name of the sourc
 
 Click a segment to populate the translation in the target field. Don’t forget you may still need to edit the translation.
 
-**Pre-populated Translation Memory Matches**
+## **Pre-populated Translation Memory Matches**
 
 The Translation Interface can pre-populate translations for strings that have a 100% match in the translation memory. To enable pre-population, click **Settings** &gt; **Pre-populate 100% TM matches**
 
@@ -64,7 +58,7 @@ If you have enabled this option, any segment with a 100% match in the Translatio
 
 ![](/uploads/versions/tmti2---x----1168-406x---.png)
 
-**Concordance Search**
+## **Concordance Search**
 
 You can search the translation memory for any word or phrase using the Concordance Search. This may be useful if there is not a complete match for a whole segment and you need guidance on how a particular term has been translated previously.
 
@@ -78,7 +72,7 @@ The Concordance Search popup will display all strings in the Translation Memory 
 
 **Note:** Smartling does not currently support search in the target language, only the source
 
-**Completed Translations in the List View**
+## Completed Translations in the List View
 
 You can view and search all Published translations for the current project in the List View by selecting **Completed** from the dropdown.
 
