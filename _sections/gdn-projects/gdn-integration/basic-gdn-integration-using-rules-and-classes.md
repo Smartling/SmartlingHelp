@@ -36,37 +36,30 @@ Rules can be applied to content at two levels:
 
 *   To individual HTML elements on a page
 
-Most Rules can be applied in two different ways. The first way is to create a rule in the Smartling Dashboard at Global Delivery Network > Configuration, under the Rules tab.
+Most Rules can be applied in two different ways. The first way is to create a rule in the Smartling Dashboard at **Global Delivery Network > Configuration**, under the **Rules** tab.
 
 ![](https://lh6.googleusercontent.com/UefLXkF4mqVZwW84sPNeMhkskzE5khms7NyK0nGWoLPozXompkrgAfkcUaqBmGrO2CVtR0_f2jmI7pvomvNP5p7VpuUpyZPO45DNvthRjtcS_DgQcfIX7Cz_e0iYDUyx4-RBkNm4)
 
-The second say is to add special Smartling classes directly to your site’s source code. For example to not translate a paragraph of text:
+The second way is to add special Smartling classes directly to your site’s source code. For example to not translate a paragraph of text:
 
+~~~
 <p class=”notranslate”>This paragraph won’t be captured for translation</p>
+~~~
 
 Be aware that the rule will also be applied to all child elements of the element given the Smartling class:
 
+~~~
 <div id=”Comments” class=”notranslate”>
-
-<div class=”comment-box”>
-
-A user comment that won’t be translated.
-
+    <div class=”comment-box”>
+        A user comment that won’t be translated.
+    </div>
+    <div class=”comment-box”>
+        A second user comment that won’t be translated.
+    </div>
 </div>
+~~~
 
-<div class=”comment-box”>
-
-A second user comment that won’t be translated.
-
-</div>
-
-</div>
-
-<warning box>
-
-Note: Remember that the following HTML tags cannot take the ‘class’ attribute: base, head, html, meta, param, script & style.
-
-</warning box>
+> Remember that the following HTML tags cannot take the ‘class’ attribute: base, head, html, meta, param, script & style.
 
 Both methods have the same effect on content. Which you choose to implement will depend on how easily you can edit the source code of your site and whether you already have classes or IDs that you can use to identify content.
 
