@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Translation Resources - Style Guide
+title: Style Guide in the Translation Interface
 draft: true
 Applies to:
   GDN: true
