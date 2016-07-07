@@ -42,13 +42,13 @@ Most Rules can be applied in two different ways. The first way is to create a ru
 
 The second way is to add special Smartling classes directly to your site’s source code. For example to not translate a paragraph of text:
 
-~~~
+~~~html
 <p class=”notranslate”>This paragraph won’t be captured for translation</p>
 ~~~
 
 Be aware that the rule will also be applied to all child elements of the element given the Smartling class:
 
-~~~
+~~~html
 <div id=”Comments” class=”notranslate”>
     <div class=”comment-box”>
         A user comment that won’t be translated.
