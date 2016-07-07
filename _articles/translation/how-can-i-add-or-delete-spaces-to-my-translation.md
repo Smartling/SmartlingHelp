@@ -1,6 +1,6 @@
 ---
 layout: article
-title: How can I add or delete spaces to my translation?
+title: Manually Add or Delete Spaces in a Translation
 draft: true
 Applies to:
   GDN: true
