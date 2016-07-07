@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Create and Manage Patterns (GDN)
+title: Create and Manage Patterns in the GDN
 draft: true
 Applies to:
   GDN: false
@@ -13,18 +13,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -108,7 +104,7 @@ While the two below can be handled by a single pattern:
 &lt;div&gt;Hello, &lt;span style="{0}"&gt;Mark&lt;/span&gt;&lt;br/&gt;&lt;/div&gt;
 ~~~
 
-&nbsp;
+
 
 **Manage the Pattern Library**
 
