@@ -67,10 +67,10 @@ Will be captured as ` items in cart.`
 <p translate="no">This paragraph won’t be captured for translation</p>
 ~~~
 
-### Add the classes `sl_notranslate_alt` or `sl_notranslate_title` to prevent an element's `alt` or `id` tag from being captured.
+### Add the classes `notranslate_alt` or `notranslate_title` to prevent an element's `alt` or `id` tag from being captured.
 
 ~~~
-<div id="user-details" class="notranslate_alt" title="{{user.name}}">
+<div id="user-details" class="notranslate_title" title="{{user.name}}">
 	<p>This content will be translated.</p>
 	<p>But the ‘title’ attribute will not.</p>
 </div>
