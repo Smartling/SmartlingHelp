@@ -46,7 +46,7 @@ The main reason for using a whiteout rule is to identify areas of your site that
 
 ## How to Apply
 
-Add the `sl_whiteout` class to your source code
+### Add the `sl_whiteout` class to your source code
 
 ~~~html
 <div>
