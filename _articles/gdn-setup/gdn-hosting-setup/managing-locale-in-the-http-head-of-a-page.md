@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'Managing Locale in the HTTP <Head> of a Page'
+title: Managing Locale in the HTTP Head of a Page
 draft: true
 Applies to:
   GDN: true
@@ -66,7 +66,6 @@ You can exclude or specify custom localized content in the meta tags (keywords a
 <!-- SL:swap-end -->
 ~~~
 
-
 **To exclude content**:
 
 ~~~
@@ -75,7 +74,6 @@ You can exclude or specify custom localized content in the meta tags (keywords a
 <!-- SL:end:notranslate -->
 ~~~
 
-
 **To localize content**:
 
 ~~~
@@ -83,7 +81,6 @@ You can exclude or specify custom localized content in the meta tags (keywords a
 <meta property="og:description" content="This content will appear in Smartling at Content > Localized Content" />
 <!-- SL:swap-end -->
 ~~~
-
 
 **UniqueID** is unique HTML ID that you specify and must be unique across all ID's in your content
 
