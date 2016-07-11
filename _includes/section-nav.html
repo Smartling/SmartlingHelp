@@ -1,0 +1,55 @@
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse1">In this Section</a>
+        </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse">
+        <div class="panel-body">
+            <ul class="nav nav-stacked">
+                {% for section in site.sections %}
+                {% if section.title == page.title %}
+                {% assign currentSection = section %}
+                {% endif %}
+                {% endfor %}
+
+                {% for subsection in currentSection.subsections %}
+                {% unless subsection.title == 'none' %}
+                {% for section in site.sections %}
+                {% if section.title == subsection.title %}
+                {% assign currentSubsection = section%}
+                {% endif %}
+                {% endfor %}
+                <li class="primary-nav"><a href="{{currentSubsection.url}}">{{currentSubsection.title}}</a></li>
+                {% for subsection in currentSubsection.subsections %}
+                {% for section in site.sections %}
+                {% if section.title == subsection.title %}
+                <li class="secondary-nav"><a href="{{section.url}}">{{section.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% for subarticle in currentSubsection.subarticles %}
+                {% for article in site.articles %}
+                {% if article.title == subarticle.title %}
+                <li class="secondary-nav"><a href="{{article.url}}">{{article.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endunless %}
+                {% endfor %}
+
+                {% for subarticle in page.subarticles %}
+                {% unless subarticle.title == 'none' %}
+                {% for article in site.articles %}
+                {% if article.title == subarticle.title %}
+                <li class="primary-nav"><a href="{{article.url}}">{{article.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endunless %}
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+</div>

@@ -3,7 +3,7 @@ title: Linguistic Assets
 layout: section
 master_category: false
 subsections:
-  - title: none
+  - title: Glossaries
 subarticles:
   - title: Create and Manage Linguistic Packages
   - title: Translation Memory

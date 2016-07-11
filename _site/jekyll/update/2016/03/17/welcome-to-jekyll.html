@@ -15,6 +15,7 @@
   <!-- Bootstrap Core CSS -->
   <link href="/css/bootstrap.css" rel="stylesheet">
 
+
   <!-- Custom Fonts -->
   <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -72,8 +73,7 @@
 </header>
 
 
-    <div class="page-content">
-      <div class="wrapper">
+
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -101,14 +101,29 @@
 
 </article>
 
-      </div>
-    </div>
+
 
     <footer class="site-footer">
 
 
 
 </footer>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/7.0.0/jquery.mark.min.js"></script>
+<script type="text/javascript" src="/js/termlist.js"></script>
+<script type="text/javascript" src="/js/smartlingterms.js"></script>
+<script type="text/javascript" src="/js/toc.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+ $(document).ready(function(){
+  var new_width = $('#sidebar').width();
+  $('#side-nav-widget').width(new_width);
+ });
+ $( window ).resize(function() {
+  var new_width = $('#sidebar').width();
+  $('#side-nav-widget').width(new_width);
+ });
+</script>
 
 
   </body>

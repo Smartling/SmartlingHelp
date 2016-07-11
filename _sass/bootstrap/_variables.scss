@@ -23,6 +23,11 @@ $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
 
+// Smartling Colours
+
+$smartling-link-color: #63C2DD;
+
+
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
@@ -33,7 +38,7 @@ $body-bg:               #fff !default;
 $text-color:            #565a5b !default;
 
 //** Global textual link color.
-$link-color:            $brand-primary !default;
+$link-color:            $smartling-link-color !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
@@ -333,9 +338,9 @@ $grid-columns:              12 !default;
 $grid-gutter-width:         30px !default;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
-$grid-float-breakpoint:     $screen-sm-min !default;
+$grid-float-breakpoint:     $screen-md !default;
 //** Point at which the navbar begins collapsing.
-$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 2) !default;
 
 
 //== Container sizes

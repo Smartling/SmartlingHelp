@@ -32,7 +32,6 @@ migration-checklist:
 ---
 
 
-&nbsp;
 
 ## Create / Import Glossary
 

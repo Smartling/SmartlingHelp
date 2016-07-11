@@ -9,7 +9,8 @@ body {
   height: 100%; }
 
 body {
-  padding-top: 50px;
+  position: relative;
+  margin-top: 50px;
   /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */ }
 
 .img-portfolio {
@@ -19,6 +20,14 @@ body {
   opacity: 0.8; }
 
 /* Header */
+mark {
+  background: inherit;
+  color: inherit;
+  padding: 0em; }
+
+.term-underline {
+  border-bottom: 1px dashed #63c2dd; }
+
 .header-logo {
   width: 220px; }
 
@@ -66,34 +75,89 @@ footer {
   max-width: 1000px;
   margin: auto; }
 
-.container .article {
-  background-color: #fff;
-  max-width: 900px;
-  margin: auto; }
-  .container .article img {
-    max-width: 90%; }
-  .container .article img[alt="large"] {
-    max-width: 70%; }
-  .container .article img[alt="medium"] {
-    max-width: 55%; }
-  .container .article img[alt="small"] {
-    max-width: 40%; }
-  .container .article h1 {
-    font-family: "Helvetica Neue";
-    font-size: 28px;
-    color: #F26C5D;
-    line-height: 34px;
-    padding: 5px 20px 5px 20px; }
-  .container .article p {
-    padding: 5px 20px 5px 20px; }
+.content-start {
+  margin-top: 110px; }
 
-/* article styles */
+.page-content {
+  background-color: #fafafa; }
+
+.article {
+  padding: 5px, 20px, 5px, 20px;
+  margin: auto;
+  max-width: 95%;
+  /* h1 {
+      font-family: "Helvetica Neue";
+      font-size: 28px;
+      color: #F26C5D;
+      line-height: 34px;
+      padding: 5px 20px 5px 20px; 
+  }
+  */ }
+  .article img {
+    max-width: 90%; }
+  .article img[alt="large"] {
+    max-width: 70%; }
+  .article img[alt="medium"] {
+    max-width: 55%; }
+  .article img[alt="small"] {
+    max-width: 40%; }
+  .article p {
+    padding: 5px 0px 5px 0px; }
+  .article blockquote {
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #565A5B;
+    background-color: #FBD4D0; }
+  .article blockquote.info {
+    background-color: #B1FFFF; }
+
+/* Breadcrumbs */
+div.smartling-breadcrumbs {
+  position: fixed;
+  margin-top: 50px;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px; }
+
+/* ToC Styles */
+div.side-nav-widget {
+  padding: 5px, 20px, 5px, 20px;
+  max-height: 80%;
+  margin: auto;
+  max-width: 95%; }
+
+.side-nav-widget .panel {
+  margin-bottom: 0px; }
+
+:target:before {
+  content: "";
+  display: block;
+  height: 180px;
+  /* fixed header height*/
+  margin: -180px 0 0;
+  /* negative fixed header height */ }
+
+.secondary-nav {
+  left: 20px; }
+
 p.welcome {
   padding: 20px;
   font-family: "Helvetica Neue";
   font-size: 16px;
   color: #999999; }
 
+/* General Layout */
+.sidebar {
+  position: relative; }
+
+@media only screen and (min-width: 992px) {
+  .side-nav-widget {
+    position: fixed;
+    overflow-y: scroll; } }
 /* Responsive Styles */
 @media (max-width: 991px) {
   .customer-img,

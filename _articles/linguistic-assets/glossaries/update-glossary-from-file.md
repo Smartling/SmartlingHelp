@@ -38,6 +38,8 @@ Smartling allows you to Export any glossary as a spreadsheet. If you wish, you c
 
 ![](/uploads/versions/smartling___linguistic_assets-23---x----1258-422x---.png)
 
+## Update Terms
+
 **1)** Export your Glossary and open in your preferred spreadsheet editor.
 
 <blockquote class="info"><p>Column names and the contents of the ID column must be kept unedited in order to merge your edits back into Smartling. We recommend freezing/locking these cells in your editor.</p></blockquote>

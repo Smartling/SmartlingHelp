@@ -12,16 +12,19 @@ wistia:
   video: false
   id:
 read-first:
-  include: false
+  include: true
   sections:
   articles:
+    - upload-and-manage-files
   others:
     - link:
       text:
 further-reading:
-  include: false
+  include: true
   sections:
+    - context
   articles:
+    - files/managing-business-documents
   others:
     - link:
       text:

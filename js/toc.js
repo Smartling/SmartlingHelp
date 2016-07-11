@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $(".panel-toc").hide();
-    var l = $("h2").length;
+    var l = $("h2, h3").length;
     console.log(l);
     if (l > 1) {
         var ToC =
-            "<ul>";
+            "<ul class='nav nav-stacked'>";
         
         var newLine, el, title, link, classname;
         
@@ -12,12 +12,17 @@ $(document).ready(function() {
         
           el = $(this);
           title = el.text();
-          classname = el.prop("tagName"); 
+          if (el.prop("tagName").toLowerCase() === 'h2') {
+              classname = "primary-nav";
+          }
+          if (el.prop("tagName").toLowerCase() === 'h3') {
+              classname = "secondary-nav";
+          }
           el.attr("id",title.replace(/\s+/g, ''));
           link = "#" + el.attr("id");
         
           newLine =
-            "<li class='toc" + classname + "'>" +
+            "<li class='" + classname + "'>" +
               "<a href='" + link + "'>" +
                 title +
               "</a>" +
