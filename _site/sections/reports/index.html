@@ -121,7 +121,7 @@
                 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h4 class="panel-title">
+        <h4 class="panel-title no-anchor">
             <a data-toggle="collapse" href="#collapse1">In this Section</a>
         </h4>
     </div>
@@ -3324,7 +3324,7 @@
  anchors.options = {
   placement: 'left'
  }
- anchors.add('h2, h3, h4, h5')
+ anchors.add('h2:not(.no-anchor), h3:not(.no-anchor), h4:not(.no-anchor), h5:not(.no-anchor)');
 </script>
 
 

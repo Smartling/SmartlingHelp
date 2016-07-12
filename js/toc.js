@@ -17,7 +17,7 @@ $(document).ready(function() {
           if (el.prop("tagName").toLowerCase() === 'h3') {
               classname = "secondary-nav";
           }
-          el.attr("id",title.replace(/\s+/g, ''));
+          el.attr("id",title.toLowerCase().replace(/\s+/g, '-').replace('(', '').replace(')', ''));
           link = "#" + el.attr("id");
         
           newLine =
