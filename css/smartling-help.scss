@@ -8,6 +8,22 @@
  */
 
 
+//responsive queries
+@media only screen and (min-width: 992px) {
+    .side-nav-widget {
+        position: fixed;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .smartling-breadcrumbs {
+        display: block !important;
+    }
+    .content-start {
+        margin-top: 110px !important;
+    }
+}
+//end responsive queries
+
 /* Global Styles */
 
 html,
@@ -106,7 +122,7 @@ footer {
 }
 
 .content-start {
-    margin-top: 110px;
+    margin-top: 80px;
 }
 
 .page-content {
@@ -164,12 +180,15 @@ footer {
 /* Breadcrumbs */
 
 div.smartling-breadcrumbs {
+    display: none; //mobile-first style. min-width query reveals on desktop
     position: fixed;
     margin-top: 50px;
     z-index: 1000;
     width: 100%;
     background-color: #fff;
     padding-top: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
 
@@ -230,13 +249,7 @@ p.welcome {
 }
 
 
-@media only screen and (min-width: 992px) {
-    .side-nav-widget {
-        position: fixed;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-}
+
 
 
 

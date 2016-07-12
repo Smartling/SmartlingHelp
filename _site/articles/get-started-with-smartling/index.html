@@ -164,15 +164,40 @@
 
 
 </footer>
+
+<!-- Import General Dependencies -->
 <script type="text/javascript" src="/js/jquery.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/7.0.0/jquery.mark.min.js"></script>
+
+
+<!-- Enable Term Highlighting -->
 <script type="text/javascript" src="/js/termlist.js"></script>
 <script type="text/javascript" src="/js/smartlingterms.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.min.js"></script>
+
+
+
+
+
+<!-- Build the Table of Contents for Articles -->
+
 <script type="text/javascript" src="/js/toc.js"></script>
 
 
+
+
+<!-- Insert Anchors -->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.min.js"></script>
+<script>
+ anchors.options = {
+  placement: 'left'
+ }
+ anchors.add('h2, h3, h4, h5')
+</script>
+
+
+<!-- Manage Responsive Sidebar Width -->
 <script>
  $(document).ready(function(){
   var new_width = $('#sidebar').width();

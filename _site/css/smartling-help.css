@@ -3,6 +3,17 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@media only screen and (min-width: 992px) {
+  .side-nav-widget {
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+
+  .smartling-breadcrumbs {
+    display: block !important; }
+
+  .content-start {
+    margin-top: 110px !important; } }
 /* Global Styles */
 html,
 body {
@@ -76,7 +87,7 @@ footer {
   margin: auto; }
 
 .content-start {
-  margin-top: 110px; }
+  margin-top: 80px; }
 
 .page-content {
   background-color: #fafafa; }
@@ -116,12 +127,15 @@ footer {
 
 /* Breadcrumbs */
 div.smartling-breadcrumbs {
+  display: none;
   position: fixed;
   margin-top: 50px;
   z-index: 1000;
   width: 100%;
   background-color: #fff;
-  padding-top: 10px; }
+  padding-top: 10px;
+  white-space: nowrap;
+  overflow-x: auto; }
 
 /* ToC Styles */
 div.side-nav-widget {
@@ -163,11 +177,6 @@ p.welcome {
 .sidebar {
   position: relative; }
 
-@media only screen and (min-width: 992px) {
-  .side-nav-widget {
-    position: fixed;
-    overflow-y: scroll;
-    overflow-x: hidden; } }
 /* Responsive Styles */
 @media (max-width: 991px) {
   .customer-img,

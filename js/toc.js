@@ -1,7 +1,6 @@
 $(document).ready(function() {
     $(".panel-toc").hide();
     var l = $("h2, h3").length;
-    console.log(l);
     if (l > 1) {
         var ToC =
             "<ul class='nav nav-stacked'>";
@@ -39,8 +38,9 @@ $(document).ready(function() {
         $(".toc").prepend(ToC);
         $(".panel-toc").show();
     }
-    anchors.options = {
-        placement: 'left'
+    else {
+        if ( !$('#FurtherReadingPanel').length && !$('#ReadFirstPanel').length ) {
+            $('.page-content').addClass('col-md-offset-2');
+        }
     }
-    anchors.add('h2, h3, h4, h5')
 });
