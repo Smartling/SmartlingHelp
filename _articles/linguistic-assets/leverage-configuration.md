@@ -42,7 +42,7 @@ migration-checklist:
 
 ![](/uploads/versions/tm_diagram---x----1741-963x---.png)
 
-In a Smartling Project, 'Leverage' refers to re-using existing translations from a source (either a Translation Memory or another Smartling Project). These existing translations can be reused in two ways:
+In a Smartling Project, 'Leverage' refers to re-using existing translations from a source (either a [Translation Memory](/articles/create-and-customize-a-workflow/) or another Smartling Project). These existing translations can be reused in two ways:
 
 **1)** SmartMatch - When you upload new source strings, either in a file or through the GDN, Smartling compares these source strings against existing strings in your leverage source. If Smartling finds a matching string (how strictly strings are compared can be adjusted in your SmartMatch settings) which is already translated, the translation is automatically applied to the new string. The string is then either published automatically, or advanced to a revision step, depending on your SmartMatch settings.
 
