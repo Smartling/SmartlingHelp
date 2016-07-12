@@ -208,6 +208,19 @@ p.welcome {
     color: #999999;
 }
 
+// Anchors
+
+.anchorjs-link {
+    text-decoration: none;
+}
+
+.anchorjs-link:hover {
+    text-decoration: none;
+}
+
+.anchorjs-link:focus {
+    text-decoration: none;
+}
 
 /* General Layout */
 
@@ -221,6 +234,7 @@ p.welcome {
     .side-nav-widget {
         position: fixed;
         overflow-y: scroll;
+        overflow-x: hidden;
     }
 }
 

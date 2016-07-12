@@ -150,6 +150,15 @@ p.welcome {
   font-size: 16px;
   color: #999999; }
 
+.anchorjs-link {
+  text-decoration: none; }
+
+.anchorjs-link:hover {
+  text-decoration: none; }
+
+.anchorjs-link:focus {
+  text-decoration: none; }
+
 /* General Layout */
 .sidebar {
   position: relative; }
@@ -157,7 +166,8 @@ p.welcome {
 @media only screen and (min-width: 992px) {
   .side-nav-widget {
     position: fixed;
-    overflow-y: scroll; } }
+    overflow-y: scroll;
+    overflow-x: hidden; } }
 /* Responsive Styles */
 @media (max-width: 991px) {
   .customer-img,

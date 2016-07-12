@@ -39,4 +39,8 @@ $(document).ready(function() {
         $(".toc").prepend(ToC);
         $(".panel-toc").show();
     }
+    anchors.options = {
+        placement: 'left'
+    }
+    anchors.add('h2, h3, h4, h5')
 });
