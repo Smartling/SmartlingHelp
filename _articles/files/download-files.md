@@ -91,7 +91,7 @@ For documents that include significant visual context, such as Business Document
 
 ![](/uploads/versions/smartling___translations_management---x----1045-314x---.png)
 
-<div class="warning">This shortcut is intended primarily to help Translators get full context for documents they are translating. For full download options, use the Files page or the [File API]().</div>
+<blockquote class="info">This shortcut is intended primarily to help Translators get full context for documents they are translating. For full download options, use the Files page or the [File API]().</div>
 
 ## Automate
 
