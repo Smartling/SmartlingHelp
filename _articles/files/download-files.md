@@ -85,15 +85,13 @@ For CSV files, you may download translations for all locales in a single file by
 
 **(4)**A zip-file containing files will begin downloading. This may take some time, depending on the number of files. You can now navigate away from the Files page without interrupting the download. The zip file will be organized into directories according to language and the URI of each file.
 
-### Download Business Documents from the List View
+## Download Business Documents from the List View
 
 For documents that include significant visual context, such as Business Documents and HTML files, we provide a shortcut to download the file with any current translations from the List View.
 
 ![](/uploads/versions/smartling___translations_management---x----1045-314x---.png)
 
-<div class="warning">
-This shortcut is intended primarily to help Translators get full context for documents they are translating. For full download options, use the Files page or the [File API]().
-</div>
+<div class="warning">This shortcut is intended primarily to help Translators get full context for documents they are translating. For full download options, use the Files page or the [File API]().</div>
 
 ## Automate
 
