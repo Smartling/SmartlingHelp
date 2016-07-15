@@ -38,6 +38,13 @@ $target-height: $content-start-top-margin + 10;
 $target-margin: 0 - $target-height;
 
 
+//Standard Border Mixin
+
+@mixin standard-border {
+    border: $standard-border;
+    border-radius: 4px;
+}
+
 
 
 //responsive queries
@@ -162,8 +169,6 @@ footer {
 
 .page-content {
     background-color: $background-grey;
-    border: $standard-border;
-    border-radius: 4px;
     padding-top: 32px;
 }
 
@@ -181,6 +186,7 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        @include standard-border;
     }
 
     img[alt="large"] {
@@ -267,7 +273,7 @@ footer {
     white-space: nowrap;
     overflow-x: auto;
     height: $breadcrumb-height;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
@@ -285,11 +291,14 @@ footer {
 
 /* Side Nav Styles */
 
-@mixin side-links ($side-link-size, $side-link-leading) {
+@mixin side-links ($side-link-size, $side-link-leading, $side-link-bottom-padding) {
     a {
         font-size: $side-link-size;
         line-height: $side-link-leading;
-        padding: 0px 10px 0px 0px;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: $side-link-bottom-padding;
     }
     a:hover {
         color: $smartling-red;
@@ -314,7 +323,7 @@ footer {
         background-color: $background-grey;
         border-radius: 4px;
         h4 {
-            font-size: 24px;
+            font-size: 20px;
         }
         padding-left: 24px;
     }
@@ -324,14 +333,14 @@ footer {
         padding-left:24px;
     }
     .toc {
-        @include side-links(16px, 28px);
+        @include side-links(16px, 20px, 8px);
     }
 }
 
 
 .main-nav {
     .toc {
-        @include side-links(16px, 24px);
+        @include side-links(16px, 20px, 8px);
         padding-bottom: 15px;
     }
     h4 {
