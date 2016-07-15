@@ -23,6 +23,17 @@ incremental: true
 
 emptyArray: []
 
+
+# Set up Home Nav
+homeCardNavLimit: 6 #Max entries in nav cards
+
+navItem: []
+
+
+homeCardNavItems: []
+
+
+
 editions:
   - Express
   - Basic

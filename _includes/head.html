@@ -1,22 +1,37 @@
 <head>
+
+
+  <!-- Browser Stuff -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
+  <!-- meta -->
   <meta name="description" content="">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+
+  <!-- Set canonical URL -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Load Typekit -->
+  <script src="https://use.typekit.net/huv2mvs.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <!-- Custom CSS -->
+  <link href="/css/smartling-help.css" rel="stylesheet">
 
   <!-- Bootstrap Core CSS -->
   <link href="/css/bootstrap.css" rel="stylesheet">
 
 
-  <!-- Custom Fonts -->
-  <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-  <!-- Custom CSS -->
-  <link href="/css/smartling-help.css" rel="stylesheet">
 
 </head>

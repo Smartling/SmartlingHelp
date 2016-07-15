@@ -89,31 +89,35 @@
   {% endfor %}
 {% endif %}
 
-<ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  {% if crumb7 %}
-    <li><a href="{{crumb7.url}}">{{crumb7.title |}}</a></li>
-  {% endif %}
-  {% if crumb6 %}
-    <li><a href="{{crumb6.url}}">{{crumb6.title}}</a></li>
-  {% endif %}
-  {% if crumb5 %}
-    <li><a href="{{crumb5.url}}">{{crumb5.title}}</a></li>
-  {% endif %}
-  {% if crumb4 %}
-    <li><a href="{{crumb4.url}}">{{crumb4.title}}</a></li>
-  {% endif %}
-  {% if crumb3 %}
-    <li><a href="{{crumb3.url}}">{{crumb3.title}}</a></li>
-  {% endif %}
-  {% if crumb2 %}
-    <li><a href="{{crumb2.url}}">{{crumb2.title}}</a></li>
-  {% endif %}
-  {% if crumb1 %}
-    <li><a href="{{crumb1.url}}">{{crumb1.title}}</a></li>
-  {% endif %}
-    <li>{{page.title}}</li>
-</ol>
+<div class="row smartling-breadcrumbs">
+  <div class="col-xs-12">
+    <ol class="breadcrumb">
+      <li><a href="/">Home</a></li>
+      {% if crumb7 %}
+        <li><a href="{{crumb7.url}}">{{crumb7.title |}}</a></li>
+      {% endif %}
+      {% if crumb6 %}
+        <li><a href="{{crumb6.url}}">{{crumb6.title}}</a></li>
+      {% endif %}
+      {% if crumb5 %}
+        <li><a href="{{crumb5.url}}">{{crumb5.title}}</a></li>
+      {% endif %}
+      {% if crumb4 %}
+        <li><a href="{{crumb4.url}}">{{crumb4.title}}</a></li>
+      {% endif %}
+      {% if crumb3 %}
+        <li><a href="{{crumb3.url}}">{{crumb3.title}}</a></li>
+      {% endif %}
+      {% if crumb2 %}
+        <li><a href="{{crumb2.url}}">{{crumb2.title}}</a></li>
+      {% endif %}
+      {% if crumb1 %}
+        <li><a href="{{crumb1.url}}">{{crumb1.title}}</a></li>
+      {% endif %}
+        <li>{{page.title}}</li>
+    </ol>
+    </div>
+  </div>
 
 
 

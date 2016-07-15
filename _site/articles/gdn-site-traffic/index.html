@@ -2,25 +2,40 @@
 <html>
 
   <head>
+
+
+  <!-- Browser Stuff -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
+  <!-- meta -->
   <meta name="description" content="">
   <title>GDN Site Traffic</title>
   <meta name="description" content="Smartling offers high-level, downloadable Site Traffic Report compiling requests for each one of the locales set-up in your project.">
+
+
+  <!-- Set canonical URL -->
   <link rel="canonical" href="http://yourdomain.com/articles/gdn-site-traffic/">
   <link rel="alternate" type="application/rss+xml" title="Smartling Help" href="http://yourdomain.com/feed.xml">
+
+  <!-- Custom Fonts -->
+  <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Load Typekit -->
+  <script src="https://use.typekit.net/huv2mvs.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <!-- Custom CSS -->
+  <link href="/css/smartling-help.css" rel="stylesheet">
 
   <!-- Bootstrap Core CSS -->
   <link href="/css/bootstrap.css" rel="stylesheet">
 
 
-  <!-- Custom Fonts -->
-  <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-  <!-- Custom CSS -->
-  <link href="/css/smartling-help.css" rel="stylesheet">
 
 </head>
 
@@ -30,7 +45,7 @@
     <header class="site-header">
 
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top smartling-header" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -40,28 +55,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"><img class="header-logo" src="/img/SmartlingWhiteHorizontal.png"></a><a class="navbar-brand" href="index.html"></a>
+                <a class="navbar-brand" href="/">
+                    <img class="header-logo" src=
+                            "/img/SmartlingWhiteHorizontal.png"
+                    >
+                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right smartling-header-nav">
                     <li>
-                        <a href="about.html">Updates</a>
+                        <a href="/about.html">Support</a>
                     </li>
                     <li>
-                        <a href="services.html">Support</a>
+                        <a href="/services.html">Docs</a>
                     </li>
                     <li>
-                        <a href="contact.html">Documentation</a>
+                        <a href="/contact.html">Learning</a>
                     </li>
                     <li>
-                        <a href="contact.html">Resources</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Training</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Blog</a>
+                        <a href="/contact.html">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -69,21 +82,27 @@
         </div>
         <!-- /.container -->
     </nav>
+    <div class="search-bar">
+        <div class="container">
+
+        </div>
+    </div>
+
 
 </header>
-
+ <!-- test -->
 
 
         
 
 
-<!-- Padding -->
+
     <div class="container page">
         
 
-<!-- Home Page Content -->
-        <div class="row smartling-breadcrumbs">
-            <div class="col-xs-12">
+
+
+        
 
 
 
@@ -100,30 +119,35 @@
 
 
 
-<ol class="breadcrumb">
-  <li><a href="/">Home</a></li>
-  
-  
-  
-  
-  
-  
-  
-    <li><a href="/sections/reports/">Reports</a></li>
-  
-    <li>GDN Site Traffic</li>
-</ol>
+<div class="row smartling-breadcrumbs">
+  <div class="col-xs-12">
+    <ol class="breadcrumb">
+      <li><a href="/">Home</a></li>
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="/sections/reports/">Reports</a></li>
+      
+        <li>GDN Site Traffic</li>
+    </ol>
+    </div>
+  </div>
 
 
 
 
 
-</div>
-        </div>
+
+
+
         <div class="row content-start">
-            <div class="col-md-4 sidebar" id="sidebar">
-                <div class="side-nav-widget" id="side-nav-widget">
 
+            <div class="col-md-3 sidebar" id="sidebar">
+                <div class="side-nav-widget" id="side-nav-widget">
                 
 
 
@@ -146,8 +170,9 @@
 
                 </div>
             </div>
-            <div class="col-md-8 page-content">
-                <div class="article"><h1>GDN Site Traffic</h1></div>
+
+            <div class="col-md-9 page-content">
+                <div class="article title"><h1>GDN Site Traffic</h1></div>
                 <div class="article content"><p class="present-before-paste">Smartling offers high-level, downloadable Site Traffic Report compiling requests for each one of the locales set-up in your project.</p>
 
 <p class="present-before-paste">Only calls to HTML or XML content are considered requests, excluding redirects, or other formats such as images, .pdf, videos, etc. Ajax requests will be counted as well assuming they return HTML or XML content types.</p>
@@ -167,6 +192,7 @@
 <p class="present-before-paste">(4) Click Download CSV to get a copy of the report.</p>
 </div>
             </div>
+
         </div>
         <!--
         <p><a href="https://app.cloudcannon.com/editor#/site/19991/collections/_/articles/gdn-site-traffic.md">edit</a></p>
