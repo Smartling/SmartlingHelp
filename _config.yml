@@ -1,19 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+
+
+# Hi There!
+# Here are some settings for help.smartling.com
+# If you change theses, remember to rebuild your environments
+# so your changes are picked up!
+
+# Also, probably mostly don't change these!
 
 # Site settings
 version: 3.0.3
 title: Smartling Help
-email: your-email@domain.com
-description: 
 baseurl: ""
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: 
-github_username:  
+url: "http://help.smartling.com/" # the base hostname & protocol for your site
+
 
 # Build settings
 markdown: kramdown
@@ -21,24 +20,37 @@ highlighter: rouge
 incremental: false
 
 
-emptyArray: []
-
-
-# Set up Home Nav
-homeCardNavLimit: 6 #Max entries in nav cards
-
-navItem: []
-
-
-homeCardNavItems: []
-
-
-
 # LAYOUT
 
 # Column Widths (must add up to 12)
 left-width: 4
 right-width: 8
+
+# Set up Home Nav
+homeCardNavLimit: 6 #Max entries in nav cards
+
+
+#Collections
+
+collections:
+  articles:
+    output: true
+    permalink: "support/articles/:title/"
+
+  sections:
+    output: true
+    permalink: "support/sections/:title/"
+
+  faqs:
+    output: true
+    permalink: "support/faq/:title/"
+    
+  terms:
+    output: false
+    permalink: "/terms/:term/"
+
+
+#CloudCannon Helpers
 
 editions:
   - Express
@@ -48,23 +60,7 @@ editions:
   - Enterprise
   - Extra
 
-#Collections
-
-collections:
-  articles:
-    output: true
-    permalink: "/articles/:title/"
-
-  sections:
-    output: true
-    permalink: "/sections/:title/"
-
-  faqs:
-    output: true
-    permalink: "/faq/:title/"
-    
-  terms:
-    output: false
-    permalink: "/terms/:term/"
-    
-
+# For Liquid Calcs - DON'T CHANGE
+emptyArray: []
+navItem: []
+homeCardNavItems: []

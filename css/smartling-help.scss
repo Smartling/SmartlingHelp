@@ -1,236 +1,68 @@
 ---
 # comment
 ---
-/*!
- * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
+//
+//  Smartling Styles and Layout
+//  FOR STANDARD TEXT SIZES / COLORS SEE '/_sass/bootstrap/_variables.scss'
+//
 
 
 
-//Variables
-
+// COLORS
 
 $smartling-red: #F26C5D;
+$smartling-link-color: #419DB7;
 $background-grey: #F6F7F7;
-$border-grey: #f1f1f1;
 $text-color: #494E50;
+$border-grey: #f1f1f1;
 
-$standard-border: 1px solid $border-grey;
+//END COLORS
 
+
+
+
+
+// HEIGHTS AND TOP MARGINS
 
 // Fixed Component Heights
-
 $navbar-height: 120px;
 $search-height: 60px;
 $breadcrumb-height: 80px;
 
-//Top Margins
-
+// Top Margins
 $search-top-margin: $navbar-height;
 $breadcrumb-top-margin: $navbar-height + $search-height;
 $content-start-top-margin: $navbar-height + $search-height + $breadcrumb-height;
 
-//Target Height/Margin
-
+// Target Height/Margin
 $target-height: $content-start-top-margin + 10;
 $target-margin: 0 - $target-height;
 
+// END HEIGHTS AND TOP MARGINS
 
-//Standard Border Mixin
 
+
+
+
+
+// BORDERS
+
+$standard-border: 1px solid $border-grey;
 @mixin standard-border {
     border: $standard-border;
     border-radius: 4px;
 }
 
-
-
-//responsive queries
-@media only screen and (min-width: 992px) {
-    .side-nav-widget {
-        position: fixed;
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    .smartling-breadcrumbs {
-        display: block !important;
-    }
-    .content-start {
-        margin-top: $content-start-top-margin !important;
-    }
-}
-//end responsive queries
-
-/* Global Styles */
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    position: relative;
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
-
-.img-portfolio {
-    margin-bottom: 30px;
-}
-
-.img-hover:hover {
-    opacity: 0.8;
-}
-
-/* Header */
-
-
-mark {
-    background: inherit;
-    color: inherit;
-    padding: 0em;
-}
-
-.term-underline {
-        border-bottom: 1px dashed #63c2dd;
-}
+// END BORDERS
 
 
 
-.header-logo {
-    width: 220px; 
-}
 
 
+// HEADER STYLES AND LAYOUT
 
-/* Home Page Carousel */
-
-header.carousel {
-    height: 50%;
-}
-
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-
-/* 404 Page Styles */
-
-.error-404 {
-    font-size: 100px;
-}
-
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
-}
-
-.period {
-    display: block;
-    font-style: italic;
-}
-
-/* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
-
-/* Rough Styles */
-
-.main {
-    background-color: #fff;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.content-start {
-    margin-top: $navbar-height + $search-height + 20px;
-}
-
-.page-content {
-    background-color: $background-grey;
-    padding-top: 32px;
-}
-
-.article {
-    padding: 5px, 20px, 5px, 20px;
-    margin: auto;
-    max-width: 95%;
-
-    h1 {
-        padding-bottom: 32px;
-    }
-
-    img {
-        max-width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        @include standard-border;
-    }
-
-    img[alt="large"] {
-        max-width: 70%;
-    }
-
-    img[alt="medium"] {
-        max-width: 55%;
-    }
-    img[alt="small"] {
-        max-width: 40%;
-    }
-
-    /* h1 {
-        font-family: "Helvetica Neue";
-        font-size: 28px;
-        color: #F26C5D;
-        line-height: 34px;
-        padding: 5px 20px 5px 20px; 
-    }
-    */
-    p {
-        padding: 0px 0px 8px 0px;
-    }
-    
-    blockquote {
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        background-repeat: no-repeat;
-        background-position: 10px center;
-        color: #565A5B;
-        background-color: #FBD4D0;
-
-    }
-
-    blockquote.info {
-        background-color: #B1FFFF;
-    }
-}
-
-
-// Header Styles
-
+// Top header with logo and main nav
 .smartling-header {
     height: $navbar-height;
     ul {
@@ -244,7 +76,11 @@ footer {
     }
 }
 
+.header-logo {
+    width: 220px;
+}
 
+// Position Search Bar
 .search-bar {
     background: $background-grey;
     border: $standard-border;
@@ -255,14 +91,7 @@ footer {
     z-index: 1030;
 }
 
-
-
-
-
-
-
-
-
+// Position Breadcrumbs
 .smartling-breadcrumbs {
     display: none; //mobile-first style. min-width query reveals on desktop
     position: fixed;
@@ -273,27 +102,34 @@ footer {
     white-space: nowrap;
     overflow-x: auto;
     height: $breadcrumb-height;
-    font-size: 12px;
+    ol {
+        margin-top: 20px;
+    }
+    @media only screen and (min-width: 992px) {
+       display: block !important;
+    }
 }
 
+// Begin main content after all fixed bars
+.content-start {
+    margin-top: $navbar-height + $search-height + 20px; //Allow for disappearing breadcrumbs in mobile
+    @media only screen and (min-width: 992px) {
+        margin-top: $content-start-top-margin !important;
+    }
+}
+
+// END HEADER STYLES AND LAYOUT
 
 
 
 
-// End Header Styles
 
+// SIDE NAV STYLES
 
-/* Breadcrumbs */
-
-
-
-
-
-/* Side Nav Styles */
-
+// Define nav link styles - arguments for size, leading and padding
 @mixin side-links ($side-link-size, $side-link-leading, $side-link-bottom-padding) {
     a {
-        font-size: $side-link-size;
+
         line-height: $side-link-leading;
         padding-top: 0;
         padding-left: 0;
@@ -306,12 +142,14 @@ footer {
     }
 }
 
+// Indent children in the nav
+.secondary-nav {
+    left: 20px;
+}
 
-
-
+// Styles for the panels
 .side-nav-widget {
     padding: 5px, 20px, 5px, 20px;
-    max-height: 80%;
     margin: auto;
     max-width: 95%;
     .panel {
@@ -335,9 +173,19 @@ footer {
     .toc {
         @include side-links(16px, 20px, 8px);
     }
+
+    // Fix sidebar on large screens
+    @media only screen and (min-width: 992px) {
+        position: fixed;
+        max-height: 80%; // Stop bottom of fixed sidebar disappearing
+        overflow-y: scroll; // Scroll overflow when lots of nav entries
+        overflow-x: hidden;
+    }
 }
 
 
+
+// Home Page Main Nav - Similar to Side Nav list style but a little bigger
 .main-nav {
     .toc {
         @include side-links(16px, 20px, 8px);
@@ -352,13 +200,81 @@ footer {
     }
 }
 
+// END SIDE NAV STYLES
 
 
 
 
 
+// MAIN CONTENT CONTAINER
+
+// Set background
+.main-content-container {
+    background-color: $background-grey;
+    padding-top: 20px; //Spacing above article heading
+}
+
+// Styles for article content
+.main-content {
+    padding: 5px, 20px, 5px, 20px;
+    margin: auto;
+    max-width: 95%;
+
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    // Center images
+    img {
+        max-width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        @include standard-border;
+    }
+
+    //Set image sizes
+    img[alt="large"] {
+        max-width: 70%;
+    }
+
+    img[alt="medium"] {
+        max-width: 55%;
+    }
+    img[alt="small"] {
+        max-width: 40%;
+    }
+
+    // Paragraph spacing
+    p {
+        padding: 0px 0px 8px 0px;
+    }
+
+    // Warning and info divs
+    blockquote {
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        color: #565A5B;
+        background-color: #FBD4D0;
+
+    }
+    blockquote.info {
+        background-color: #B1FFFF;
+    }
+}
+
+// END MAIN CONTENT CONTAINER
 
 
+
+
+
+// MISC
+
+// Prevent deep link headings scrolling behind fixed header
 :target:before {
     content:"";
     display:block;
@@ -366,60 +282,27 @@ footer {
     margin: $target-margin 0 0; /* negative fixed header height */
 }
 
-.secondary-nav {
-    left: 20px;
+// Prevent Mark.js from doing ugly highlighting
+mark {
+    background: inherit;
+    color: inherit;
+    padding: 0em;
+}
+
+// Underline Smartling Terms
+.term-underline {
+    border-bottom: 1px dashed $smartling-link-color;
 }
 
 
-p.welcome {
-    padding: 20px;
-    font-family: "Helvetica Neue";
-    font-size: 16px;
-    color: #999999;
-}
-
-// Anchors
-
-.anchorjs-link {
+// Don't Underline Anchor Links
+.anchorjs-link, .anchorjs-link:hover, .anchorjs-link:focus {
     text-decoration: none;
 }
 
-.anchorjs-link:hover {
-    text-decoration: none;
+//JavaScript Helpers
+html, body {
+    height: 100%;
 }
 
-.anchorjs-link:focus {
-    text-decoration: none;
-}
-
-/* General Layout */
-
-
-.sidebar {
-    position: relative;
-}
-
-
-
-
-
-
-/* Responsive Styles */
-
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    }
-}
-
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
-    header.carousel .carousel {
-        height: 70%;
-    }
-}
-
+// END MISC
