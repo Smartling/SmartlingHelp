@@ -41,9 +41,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 > Here is a test warning box
 
-<blockquote class="info">
-<p>Here is a test info box</p>
-</blockquote>
+> Here is a test info box
 
 ## Download individual files
 
@@ -61,31 +59,39 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 * **Download (published translations)** : Download the file with all of the published translations (this includes [pre-published](){: .cc-active} translations).
 * **Download (pseudo translations)** - The pseudo translation file contains the original strings with added characters so that it can be used for QA or layout purposes.
-* **View pending translations** - Content owners  are re-directed to the Content view, where they  can review the latest status of content still being translated or content still in the translation workflow.
+* **View pending translations** - Content owners&nbsp; are re-directed to the Content view, where they&nbsp; can review the latest status of content still being translated or content still in the translation workflow.
 * **Download (pending translations)** - Download the file with the latest saved translations even if they have not been published or pre-published.
 
 
 ## Download All (CSV only)
 
-For CSV files, you may download translations for all locales in a single file by selecting **Download translations (all locales)**. This option requires some preparation of the original file. See our [Supported Files](https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-csv) documentation for more information on downloading CSV files.
+For CSV files, you may download translations for all locales in a single file by selecting&nbsp;**Download translations (all locales)**. This option requires some preparation of the original file. See our [Supported Files](https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-csv) documentation for more information on downloading CSV files.
 
 ![](/uploads/versions/smartling___manage_files-1---x----1012-542x---.png)
 
 ### Download multiple files as a zip
 
-**(1)** Switch the **Files** window to table view.
+**(1)**&nbsp;Switch the&nbsp;**Files** window to table view.
 
-**(2)** Select the files you want to download and, from the **Actions** menu, select **Download Selected**.
+**(2)** Select the files you want to download and, from the&nbsp;**Actions** menu, select&nbsp;**Download Selected**.
 
 ![](/uploads/versions/smartling___manage_files-2---x----1245-532x---.png)
 
 **(3)** Select the download type from the drop-down and the languages you want to download.
 
-**(4)** Choose how to organize the downloaded files. You can download a zip file organized into folders by language, or a single folder, with the language added to each file name. Click **Download.**
+**(4)**&nbsp;Choose how to organize the downloaded files. You can download a zip file organized into folders by language, or a single folder, with the language added to each file name. Click&nbsp;**Download.**
 
 ![](/uploads/versions/smartling___manage_files-4---x----574-452x---.png)
 
 **(4)**A zip-file containing files will begin downloading. This may take some time, depending on the number of files. You can now navigate away from the Files page without interrupting the download. The zip file will be organized into directories according to language and the URI of each file.
+
+## Download Business Documents from the List View
+
+For documents that include significant visual context, such as Business Documents and HTML files, we provide a shortcut to download the file with any current translations from the List View.
+
+![](/uploads/versions/smartling___translations_management---x----1045-314x---.png)
+
+<blockquote class="info">This shortcut is intended primarily to help Translators get full context for documents they are translating. For full download options, use the Files page or the <a href="">File API</a>.</blockquote>
 
 ## Automate
 

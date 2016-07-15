@@ -38,17 +38,17 @@ migration-checklist:
 ---
 
 
-**What is Leverage?**
+## **What is Leverage?**
 
 ![](/uploads/versions/tm_diagram---x----1741-963x---.png)
 
-In a Smartling Project, 'Leverage' refers to re-using existing translations from a source (either a Translation Memory or another Smartling Project). These existing translations can be reused in two ways:
+In a Smartling Project, 'Leverage' refers to re-using existing translations from a source (either a [Translation Memory](/articles/create-and-customize-a-workflow/) or another Smartling Project). These existing translations can be reused in two ways:
 
 **1)** SmartMatch - When you upload new source strings, either in a file or through the GDN, Smartling compares these source strings against existing strings in your leverage source. If Smartling finds a matching string (how strictly strings are compared can be adjusted in your SmartMatch settings) which is already translated, the translation is automatically applied to the new string. The string is then either published automatically, or advanced to a revision step, depending on your SmartMatch settings.
 
 **2)** If there is no exact match for the string, but similar strings have been translated in the past, these near matches are available to Translators when working in the Translation Interface. Looking at these near matches helps Translators keep translations consistent and avoid unnecessary retranslation.
 
-**Leverage Configurations**
+## Leverage Configurations
 
 Your Leverage Configuration determines which Projects and Translation Memories Smartling will look at when attempting to match strings and reuse existing translations, and the order in which each of these sources is considered.
 
@@ -64,7 +64,7 @@ If your Source is a Project, Smartling will match new strings against translated
 
 A Leverage Configuration is assigned to a project via a Linguistic Package. See [Create and Assign Linguistic Packages](/hc/en-us/articles/218014537) for details.
 
-**Set up a New Leverage Configuration**
+### **Set up a New Leverage Configuration**
 
 **1)** From **Assets &gt; Leverage**, click **Create Configuration**.
 
@@ -99,13 +99,13 @@ Click **Save** at the end of each Row. If you do not save the Record, it will be
 
 ![](/uploads/versions/smartling___linguistic_assets-15---x----927-88x---.png)
 
-## Setting Priority
+### Setting Priority
 
 You can move your Sources up and down in the list to set your priority order. Sources higher on the list will be considered before lower sources when looking for matches for new strings. Priority is especially important for SmartMatch, since as soon as a match is found, it is applied to the string, so if you have a better translation in a lower priority source, it won't be SmartMatched. As a general rule, set your most recent and highest quality sources at the top of your list.
 
 ![large](/uploads/versions/smartling___linguistic_assets-16---x----951-391x---.png)
 
-## Source Groups
+### Source Groups
 
 Any number of Sources can be grouped together and added to a leverage configuration as a single unit. To manage source groups:
 
