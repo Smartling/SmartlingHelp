@@ -10,13 +10,13 @@ title: Smartling Developer Documentation
 <div class="container page">
     <div class="row content-start">
 
-        <div class="col-md-3 sidebar" id="sidebar">
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
             <div class="side-nav-widget" id="side-nav-widget">
                 {% include home-sidebar.html %}
             </div>
         </div>
 
-        <div class="col-md-9 col-md-offset-3 main-nav">
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-nav">
             <div class="row">
                 {% include homepage-main-nav.html %}
             </div>

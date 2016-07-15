@@ -18,7 +18,7 @@ github_username:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-incremental: true
+incremental: false
 
 
 emptyArray: []
@@ -33,6 +33,12 @@ navItem: []
 homeCardNavItems: []
 
 
+
+# LAYOUT
+
+# Column Widths (must add up to 12)
+left-width: 4
+right-width: 8
 
 editions:
   - Express

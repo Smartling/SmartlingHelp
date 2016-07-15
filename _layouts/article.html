@@ -10,31 +10,25 @@ layout: default
 {% assign editUrl = currentArticle.id %}
 
 
-    <div class="container page">
-        
+<div class="container page">
+    {% include breadcrumbs.html %}
+    <div class="row content-start">
 
-
-
-        {% include breadcrumbs.html %}
-
-
-        <div class="row content-start">
-
-            <div class="col-md-3 sidebar" id="sidebar">
-                <div class="side-nav-widget" id="side-nav-widget">
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
                 {% include sidebar-nav-widget.html %}
-                </div>
             </div>
-
-            <div class="col-md-9 page-content">
-                <div class="article title"><h1>{{page.title}}</h1></div>
-                <div class="article content">{{content}}</div>
-            </div>
-
         </div>
+
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} page-content">
+            <div class="article title"><h1>{{page.title}}</h1></div>
+            <div class="article content">{{content}}</div>
+        </div>
+
+    </div>
         <!--
         <p><a href="https://app.cloudcannon.com/editor#/site/19991/collections/_{{editUrl}}.md">edit</a></p>
         -->
-    </div>
+</div>
 
 
