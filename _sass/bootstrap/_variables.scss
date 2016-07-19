@@ -23,11 +23,13 @@ $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
 
+
 // Smartling Colours
 
 $smartling-link-color: #419DB7;
 $navbar-inverse-color: #FFFFFF;
 $smartling-red: #F26C5D;
+$smartling-green: #66C6B4;
 
 
 
@@ -848,8 +850,8 @@ $close-text-shadow:           0 1px 0 #fff !default;
 //
 //##
 
-$code-color:                  #c7254e !default;
-$code-bg:                     #f9f2f4 !default;
+$code-color:                  $smartling-green !default;
+$code-bg:                     inherit !default;
 
 $kbd-color:                   #fff !default;
 $kbd-bg:                      #333 !default;

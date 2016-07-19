@@ -12,6 +12,7 @@
 // COLORS
 
 $smartling-red: #F26C5D;
+$smartling-green: #66C6B4;
 $smartling-link-color: #419DB7;
 $link-hover-color:      darken($smartling-link-color, 15%) !default;
 $background-grey: #F6F7F7;
@@ -280,6 +281,7 @@ $headline-padding: 12px;
         background-repeat: no-repeat;
         background-position: 10px center;
         color: #565A5B;
+        font-size: 14px;
         background-color: #FBD4D0;
 
     }
@@ -289,8 +291,6 @@ $headline-padding: 12px;
 }
 
 // END MAIN CONTENT CONTAINER
-
-
 
 
 

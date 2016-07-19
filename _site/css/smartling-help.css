@@ -133,10 +133,10 @@
   .main-content blockquote {
     border: none;
     border-radius: 4px;
-    font-size: 16px;
     background-repeat: no-repeat;
     background-position: 10px center;
     color: #565A5B;
+    font-size: 14px;
     background-color: #FBD4D0; }
   .main-content blockquote.info {
     background-color: #B1FFFF; }
