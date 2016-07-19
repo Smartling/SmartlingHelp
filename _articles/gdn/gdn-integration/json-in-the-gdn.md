@@ -73,7 +73,7 @@ For example
 }
 ~~~
 
-> Smartling automatically recognizes HTML content in JSON strings and parses it as HTML. Unlike in HTML, where tagging an element for translation captures all child nodes, in JSON, Smartling only captures directly identified values, not the values of child nodes. In the above example, adding "user" to the list of names in "sl_translate" would not cause the value of child node "role" to be captured for translation. If you want to translate "role", you need to specify it in "sl_translate".
+> Smartling automatically recognizes HTML content in JSON strings and parses it as HTML. Unlike in HTML, where tagging an element for translation captures all child nodes, in JSON, Smartling only captures directly identified values, not the values of child nodes. In the above example, adding `"user"` to the list of names in `"sl_translate"` would not cause the value of child node `"role"` to be captured for translation. If you want to translate `"role"`, you need to specify it in `"sl_translate"`.
 
 ## Create Variant Metadata for JSON strings
 
