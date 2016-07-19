@@ -64,9 +64,9 @@ For example
     "messages": "The Request was successful",
     "user": {
     	"firstName": "John",
-	"role": "Editor"
+	"role": "Editor",
     	"admin": false
-    }
+    },
     "string1": "Here's some content for John",
     "string2": "<div>Smartling <strong>automatically</strong> recognises HTML markup a JSON string</div>",
     "string3": "This content will not be translated"
