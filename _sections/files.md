@@ -1,12 +1,11 @@
 ---
-title: Files
+title: Files Projects
 layout: section
 master_category: true
 subsections:
   - title: Capturing Content from Files
-    published: true
   - title: Context
-    published: true
+  - title: Business Documents
 subarticles:
   - title: Supported File Types
   - title: Download Files

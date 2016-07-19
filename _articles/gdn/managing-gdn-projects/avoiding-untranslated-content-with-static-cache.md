@@ -40,7 +40,7 @@ Using a Static Cache allows you to take a snapshot of the current state of your 
 
 Not all sites can benefit from using the static cache feature and it may be that only some parts of your site can be cached. Generally speaking, a significant amount of dynamic content on a page will prevent effective caching.
 
-**To set up Static Cache for your site:**
+## Set up Static Cache for your site
 
 **1)** Contact your Smartling Client Services manager to request Static Cache be enabled on your site. Smartling will analyse your site to determine where caching can be effectively used. This process may take a few days.
 
@@ -50,15 +50,15 @@ Not all sites can benefit from using the static cache feature and it may be that
 
 **4)** Once caching has been enabled, each page will be cached the first time it is requested through the GDN. You can fill the cache manually by browsing your translated website or by using a crawler. From then on, requests to that domain will be served from the cache and any changes to your source site will not be reflected in cached domains.
 
-**Using static cache to prevent untranslated content appearing on your translated sites**
+## Using static cache to prevent untranslated content appearing on your translated sites
 
 When preparing to make changes to your site, make sure caching is ON for your translated domains. Then you can make changes to your source site, capture your new content and begin translating. When your translated content is published you need to reset your cache. There are two ways to do this
 
-**Automatic**
+### Automatic
 
 When all strings on a page for a particular domain have published translations, the cache for that page will be reset automatically.
 
-**Manually from the Static Cache page**
+### Manually from the Static Cache page
 
 You can reset the cache for an entire domain by clicking Reset from the Static Cache configuration page. If you want to reset only a specific page, enter the URL in the text box and click Reset. You can also enter the URL of an asset such as a style sheet or JavaScript file.
 

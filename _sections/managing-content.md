@@ -3,6 +3,8 @@ title: Manage Content
 layout: section
 subsections:
   - title: The List View
+  - title: Linguistic Assets
+  - title: Projects
   - title: Workflows
 subarticles:
   - title: Jobs

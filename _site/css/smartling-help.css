@@ -1,18 +1,25 @@
 .smartling-header {
-  height: 120px; }
-  .smartling-header ul li a {
-    font-size: 20px;
-    line-height: 28px;
-    padding-top: 60px; }
+  height: 80px; }
+  .smartling-header ul {
+    position: relative;
+    bottom: 0; }
+    .smartling-header ul li a {
+      font-size: 18px;
+      line-height: 30px; }
+    .smartling-header ul li a.active {
+      color: #F26C5D;
+      background-color: inherit; }
 
 .header-logo {
-  width: 220px; }
+  width: 220px;
+  position: relative;
+  bottom: 20px; }
 
 .search-bar {
   background: #F6F7F7;
   border: 1px solid #f1f1f1;
   height: 60px;
-  margin-top: 120px;
+  margin-top: 80px;
   position: fixed;
   width: 100%;
   z-index: 1030; }
@@ -20,24 +27,27 @@
 .smartling-breadcrumbs {
   display: none;
   position: fixed;
-  margin-top: 180px;
+  margin-top: 140px;
   z-index: 1000;
   width: 100%;
   background-color: #fff;
   white-space: nowrap;
   overflow-x: auto;
-  height: 80px; }
+  height: 60px; }
   .smartling-breadcrumbs ol {
-    margin-top: 20px; }
+    margin-top: 12px; }
   @media only screen and (min-width: 992px) {
     .smartling-breadcrumbs {
       display: block !important; } }
 
 .content-start {
-  margin-top: 200px; }
+  margin-top: 160px; }
   @media only screen and (min-width: 992px) {
     .content-start {
-      margin-top: 260px !important; } }
+      margin-top: 200px !important; } }
+
+.content-start-no-crumb {
+  margin-top: 160px; }
 
 .secondary-nav {
   left: 20px; }
@@ -54,8 +64,11 @@
     background-color: #F6F7F7;
     border-radius: 4px;
     padding-left: 24px; }
-    .side-nav-widget .panel-heading h4 {
-      font-size: 20px; }
+    .side-nav-widget .panel-heading a h4 {
+      font-size: 20px;
+      color: #494E50; }
+    .side-nav-widget .panel-heading a :hover {
+      color: #2d6d7f; }
   .side-nav-widget .panel-body {
     border-top: 1px solid #f1f1f1;
     border-top-color: #f1f1f1 !important;
@@ -94,20 +107,20 @@
 
 .main-content-container {
   background-color: #F6F7F7;
-  padding-top: 20px; }
+  padding-top: 12px; }
 
 .main-content {
   padding: 5px, 20px, 5px, 20px;
   margin: auto;
   max-width: 95%; }
   .main-content h1 {
-    padding-bottom: 20px; }
+    padding-bottom: 12px; }
   .main-content img {
     max-width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #f1f1f1;
+    border: 3px solid white;
     border-radius: 4px; }
   .main-content img[alt="large"] {
     max-width: 70%; }
@@ -116,7 +129,7 @@
   .main-content img[alt="small"] {
     max-width: 40%; }
   .main-content p {
-    padding: 0px 0px 8px 0px; }
+    margin: 0 0 8px 0; }
   .main-content blockquote {
     border: none;
     border-radius: 4px;
@@ -128,12 +141,19 @@
   .main-content blockquote.info {
     background-color: #B1FFFF; }
 
+a:hover {
+  text-decoration: none !important;
+  color: #F26C5D; }
+
+a:active, a:focus {
+  text-decoration: none !important; }
+
 :target:before {
   content: "";
   display: block;
-  height: 270px;
+  height: 210px;
   /* fixed header height*/
-  margin: -270px 0 0;
+  margin: -210px 0 0;
   /* negative fixed header height */ }
 
 mark {

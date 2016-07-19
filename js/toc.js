@@ -35,7 +35,7 @@ $(document).ready(function() {
            "</ul>" +
           "</nav>";
         
-        $(".toc").prepend(ToC);
+        $("#contents").prepend(ToC);
         $(".panel-toc").show();
     }
     else {

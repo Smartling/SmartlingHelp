@@ -35,8 +35,6 @@ Agency Owners and Translation Resource Managers can generate word count reports 
 
 A report by locale will show total words translated and a fuzzy match breakdown for each locale within the selected date range. A report by translation resource will show separate per-locale totals and a Fuzzy Match breakdowns for each translation resource.
 
-**To generate a translator word count report:**
-
 **(1)** Browse to **Reports** &gt; **Words Counts**.
 <br>**(2)** Select the report type and set a date range for the report.
 <br>**(3)** Click **Get Report** or **Download CSV**.

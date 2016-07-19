@@ -2,7 +2,9 @@
 title: GDN Projects
 layout: section
 subsections:
-  - title: none
+  - title: GDN Hosting Setup
+  - title: GDN Integration
+  - title: Managing GDN Projects
 subarticles:
   - title: none
 wistia:

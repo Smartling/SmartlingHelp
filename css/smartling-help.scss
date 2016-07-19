@@ -13,6 +13,7 @@
 
 $smartling-red: #F26C5D;
 $smartling-link-color: #419DB7;
+$link-hover-color:      darken($smartling-link-color, 15%) !default;
 $background-grey: #F6F7F7;
 $text-color: #494E50;
 $border-grey: #f1f1f1;
@@ -26,9 +27,9 @@ $border-grey: #f1f1f1;
 // HEIGHTS AND TOP MARGINS
 
 // Fixed Component Heights
-$navbar-height: 120px;
+$navbar-height: 80px;
 $search-height: 60px;
-$breadcrumb-height: 80px;
+$breadcrumb-height: 60px;
 
 // Top Margins
 $search-top-margin: $navbar-height;
@@ -68,16 +69,23 @@ $standard-border: 1px solid $border-grey;
     ul {
         li {
             a {
-                font-size: 20px;
-                line-height: 28px;
-                padding-top: 60px;
+                font-size: 18px;
+                line-height: 30px;
+                }
+            a.active {
+                color: $smartling-red;
+                background-color: inherit;
             }
         }
+        position: relative;
+        bottom: 0;
     }
 }
 
 .header-logo {
     width: 220px;
+    position: relative;
+    bottom: $navbar-height*0.25;
 }
 
 // Position Search Bar
@@ -103,7 +111,7 @@ $standard-border: 1px solid $border-grey;
     overflow-x: auto;
     height: $breadcrumb-height;
     ol {
-        margin-top: 20px;
+        margin-top: 12px;
     }
     @media only screen and (min-width: 992px) {
        display: block !important;
@@ -116,6 +124,11 @@ $standard-border: 1px solid $border-grey;
     @media only screen and (min-width: 992px) {
         margin-top: $content-start-top-margin !important;
     }
+}
+
+// For pages with no breadcrumb, bump up main content
+.content-start-no-crumb {
+    margin-top: $navbar-height + $search-height + 20px;
 }
 
 // END HEADER STYLES AND LAYOUT
@@ -160,8 +173,14 @@ $standard-border: 1px solid $border-grey;
         border-bottom: none;
         background-color: $background-grey;
         border-radius: 4px;
-        h4 {
-            font-size: 20px;
+        a {
+            h4 {
+                font-size: 20px;
+                color: $text-color;
+            }
+            :hover {
+                color: $link-hover-color;
+            }
         }
         padding-left: 24px;
     }
@@ -208,10 +227,13 @@ $standard-border: 1px solid $border-grey;
 
 // MAIN CONTENT CONTAINER
 
+// Padding above and below article headline
+$headline-padding: 12px;
+
 // Set background
 .main-content-container {
     background-color: $background-grey;
-    padding-top: 20px; //Spacing above article heading
+    padding-top: $headline-padding; //Spacing above article heading
 }
 
 // Styles for article content
@@ -221,7 +243,7 @@ $standard-border: 1px solid $border-grey;
     max-width: 95%;
 
     h1 {
-        padding-bottom: 20px;
+        padding-bottom: $headline-padding;
     }
 
     // Center images
@@ -230,7 +252,8 @@ $standard-border: 1px solid $border-grey;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        @include standard-border;
+        border: 3px solid white;
+        border-radius: 4px;
     }
 
     //Set image sizes
@@ -247,7 +270,7 @@ $standard-border: 1px solid $border-grey;
 
     // Paragraph spacing
     p {
-        padding: 0px 0px 8px 0px;
+        margin: 0 0 8px 0;
     }
 
     // Warning and info divs
@@ -273,6 +296,17 @@ $standard-border: 1px solid $border-grey;
 
 
 // MISC
+
+// Active styles for all links
+
+a:hover {
+    text-decoration: none !important;
+    color: $smartling-red;
+}
+
+a:active, a:focus {
+    text-decoration: none !important;
+}
 
 // Prevent deep link headings scrolling behind fixed header
 :target:before {
