@@ -39,10 +39,6 @@ migration-checklist:
 
 Smartling allows you to download files, individually or [in bulk](){: .cc-active}.
 
-> Here is a test warning box
-
-> Here is a test info box
-
 ## Download individual files
 
 **1)** Navigate to **Content&gt;Files**.
