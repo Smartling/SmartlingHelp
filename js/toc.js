@@ -40,7 +40,7 @@ $(document).ready(function() {
     }
     else {
         if ( !$('#FurtherReadingPanel').length && !$('#ReadFirstPanel').length ) {
-            $('.page-content').addClass('col-md-offset-2');
+            $('#main-content-container').removeClass('col-md-offset-4').addClass('col-md-offset-2');
         }
     }
 });
