@@ -64,7 +64,7 @@ Apart from it being difficult for the translator to understand and translate the
 
 A much more localization-friendly way to handle the same content is by using a simple templating engine like [mustache.js](https://github.com/janl/mustache.js) or by extending the String class with a [supplant method](https://gist.github.com/pbroschwitz/3891293). Here’s an example using mustache:
 
-~~~javascript
+~~~html
 <script type="text/javascript" src="/js/mustache.min.js"></script>
 <script>
 	var item = {...};
@@ -85,9 +85,9 @@ This way, the translator can easily translate the string as a whole, and place t
 
 ### Translate / Notranslate
 
-`&lt;sl:translate&gt;` and `&lt;sl:notranslate&gt;` can be used to mark content to translate and not translate.
+`<sl:translate>` and `<sl:notranslate>` can be used to mark content to translate and not translate.
 
-`&lt;sl:notranslate&gt;` tags can be nested inside `&lt;sl:translate&gt;` tags so you can mark a large block for translation, but single out select strings you don’t want translated. However, `&lt;sl:translate&gt;` tags cannot be nested inside `&lt;sl:notranslate&gt;` tags.
+`<sl:notranslate>` tags can be nested inside `<sl:translate>` tags so you can mark a large block for translation, but single out select strings you don’t want translated. However, `<sl:translate>` tags cannot be nested inside `<sl:notranslate>` tags.
 
 ~~~javascript
 // Translate some Strings
@@ -111,7 +111,7 @@ This way, the translator can easily translate the string as a whole, and place t
 
 ### Translate HTML
 
-Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the `&lt;sl:translate_html&gt;` tag. Here’s an example adding HTML to the DOM with jQuery.
+Often HTML can be stored inside a Javascript string literal. To capture this content, you need to let Smartling know to parse the content as HTML so that block level tags can be captured as individual strings instead of capturing one large string for all content within the literal. Do this with the `<sl:translate_html>` tag. Here’s an example adding HTML to the DOM with jQuery.
 
 ~~~javascript
 $("#addUser").click(function{} {
@@ -134,11 +134,8 @@ Smartling captures the following strings from this example:
 
 ### Translate JSON inside a JavaScript string literal
 
-If you have a JSON object inside your JavaScript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the
+If you have a JSON object inside your JavaScript you can use the JSON directives to identify the translatable content, but you still need to tell Smartling to parse the content as JSON. Do this with the `<sl:translate_json>` tag.
 
-<sl:translate_json> tag.</sl:translate_json>
-
-&nbsp;
 
 ~~~javascript
 var user = {...}
@@ -156,27 +153,12 @@ user.buildpage = function(messages) {
 user.buildpage(messages);
 ~~~
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ## Minification
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 If you need to minify your JavaScript for faster delivery, comments won’t work for you, as they are usually stripped out by minifiers. As an alternative, you can use functions. Once you have your functions set up, you can use them exactly like comment directives. To use function names as directives in JavaScript for minification, add this to the top of your script.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ~~~javascript
 // Declare an empty function
@@ -193,19 +175,9 @@ sl_tr_json_start = sl_translate;
 sl_tr_json_end = sl_translate;
 ~~~
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 Using this syntax will ensure that the directive names survive minification intact. You can then use your functions exactly the same way we use the comment directives above. The functions don’t actually do anything in JavaScript, they only affect the Smartling parser.
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ~~~javascript
 // Translate some Strings
@@ -227,27 +199,10 @@ sl_tr_start();
 sl_tr_end();
 ~~~
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 ## Content in Common Libraries is Not Captured
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 To maximize efficiency, Smartling does not parse the contents of common JavaScript libraries. If you have added any translatable content to these libraries, you will need to move it outside the Library file.
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
 
 ~~~
 jquery
@@ -299,8 +254,3 @@ zwt
 zreshk
 ~~~
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
