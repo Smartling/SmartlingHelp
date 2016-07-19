@@ -35,7 +35,7 @@ $search-top-margin: $navbar-height;
 $breadcrumb-top-margin: $navbar-height + $search-height;
 $content-start-top-margin: $navbar-height + $search-height + $breadcrumb-height;
 
-// Target Height/Margin
+// Target Height/Margin - Stops deeplink headings disappearing under fixed headers
 $target-height: $content-start-top-margin + 10;
 $target-margin: 0 - $target-height;
 
