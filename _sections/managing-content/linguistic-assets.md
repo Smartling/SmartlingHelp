@@ -11,8 +11,8 @@ subarticles:
   - title: SmartMatch Settings
   - title: Style Guides
 wistia:
-  video: false
-  id:
+  video: true
+  id: gds77xzgmg
 ---
 
 
