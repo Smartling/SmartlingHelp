@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-   $(".content").mark(terms, {className: 'smartling-term', exclude: ["h1", "h2", "h3", "h4", "h5", "a"]});
+   $("#main-text").mark(terms, {className: 'smartling-term', exclude: ["h1", "h2", "h3", "h4", "h5", "a"]});
    var done = []
    $(".smartling-term").each(function(i) {
        text = $(this).text().toLowerCase();
@@ -33,18 +33,18 @@ $(document).ready(function() {
 
     $('body').on('click', function (e) {
     //only buttons
-    if ($(e.target).data('toggle') !== 'popover'
-        && $(e.target).parents('.popover.in').length === 0) { 
-        $('[data-toggle="popover"]').popover('hide');
-    }
-    //buttons and icons within buttons
-    /*
-    if ($(e.target).data('toggle') !== 'popover'
-        && $(e.target).parents('[data-toggle="popover"]').length === 0
-        && $(e.target).parents('.popover.in').length === 0) { 
-        $('[data-toggle="popover"]').popover('hide');
-    }
-    */
-});
+        if ($(e.target).data('toggle') !== 'popover'
+            && $(e.target).parents('.popover.in').length === 0) {
+            $('[data-toggle="popover"]').popover('hide');
+        }
+        //buttons and icons within buttons
+        /*
+        if ($(e.target).data('toggle') !== 'popover'
+            && $(e.target).parents('[data-toggle="popover"]').length === 0
+            && $(e.target).parents('.popover.in').length === 0) {
+            $('[data-toggle="popover"]').popover('hide');
+        }
+        */
+    });
 });
 

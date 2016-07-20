@@ -147,7 +147,7 @@ $standard-border: 1px solid $border-grey;
         line-height: $side-link-leading;
         padding-top: 0;
         padding-left: 0;
-        padding-right: 0;
+        padding-right: 10px;
         padding-bottom: $side-link-bottom-padding;
     }
     a:hover {
@@ -163,7 +163,6 @@ $standard-border: 1px solid $border-grey;
 
 // Styles for the panels
 .side-nav-widget {
-    padding: 5px, 20px, 5px, 20px;
     margin: auto;
     max-width: 95%;
     .panel {
@@ -189,6 +188,9 @@ $standard-border: 1px solid $border-grey;
         border-top: $standard-border;
         border-top-color: $border-grey !important;
         padding-left:24px;
+    }
+    #contents {
+        padding-bottom: 30px;
     }
     .toc {
         @include side-links(16px, 20px, 8px);

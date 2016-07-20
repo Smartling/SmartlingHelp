@@ -53,7 +53,6 @@
   left: 20px; }
 
 .side-nav-widget {
-  padding: 5px, 20px, 5px, 20px;
   margin: auto;
   max-width: 95%; }
   .side-nav-widget .panel {
@@ -73,11 +72,13 @@
     border-top: 1px solid #f1f1f1;
     border-top-color: #f1f1f1 !important;
     padding-left: 24px; }
+  .side-nav-widget #contents {
+    padding-bottom: 30px; }
   .side-nav-widget .toc a {
     line-height: 20px;
     padding-top: 0;
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 10px;
     padding-bottom: 8px; }
   .side-nav-widget .toc a:hover {
     color: #F26C5D;
@@ -95,7 +96,7 @@
     line-height: 20px;
     padding-top: 0;
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 10px;
     padding-bottom: 8px; }
   .main-nav .toc a:hover {
     color: #F26C5D;
@@ -107,7 +108,8 @@
 
 .main-content-container {
   background-color: #F6F7F7;
-  padding-top: 12px; }
+  padding-top: 12px;
+  padding-bottom: 20px; }
 
 .main-content {
   padding: 5px, 20px, 5px, 20px;
