@@ -31,4 +31,4 @@ The Smartling Dashboard is your home base for managing all of your translation c
 * [Leverage](/support/articles/leverage-configuration/) translations you've already done to save time and money.
 * [Find](/support/articles/global-search/) the content you need, whenever you need it.
 * Communicate with your translation team using [Issues](/support/articles/issues/).
-* Create packages of translation work and predict your translation costs.
+* Create [packages of translation work](/support/articles/jobs/) and predict your translation costs.
