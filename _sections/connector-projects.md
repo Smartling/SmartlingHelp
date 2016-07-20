@@ -5,11 +5,7 @@ master_category: true
 subsections:
   - title: Zendesk Connector
 subarticles:
-  - title: Another Report
-  - title: GDN Site Traffic
-  - title: Still Another Report
-  - title: Draft Test
-  - title: SmartMatch Leverage Report
+  - title: none
 ---
 
 
