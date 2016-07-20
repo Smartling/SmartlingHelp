@@ -22,7 +22,7 @@ wistia:
 ---
 
 
-The Smartling Dashboard is your home base for managing all of your translation content.
+The Smartling Dashboard is your home base for managing all of your translation content. This section will teach you to:
 
 * Create and manage [projects](/support/sections/projects/) to organize your content.
 * Set up custom&nbsp;[translation workflows](/support/sections/workflows/) for different types of content.
