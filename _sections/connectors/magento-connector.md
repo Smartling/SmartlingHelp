@@ -4,8 +4,11 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Magento Connector - Install and Configure
+  - title: Magento Connector - User Guide
 wistia:
   video: false
   id:
 ---
+
+
