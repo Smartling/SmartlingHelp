@@ -3,8 +3,9 @@ layout: faq
 title: 
 draft: false
 promoted: false
-related-articles:
-  - article:
+related:
+    sections:
+    articles:
 other-links:
   - text:
 	url:
