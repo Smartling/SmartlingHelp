@@ -4,6 +4,7 @@ title: What happens when I change my content?
 draft: false
 promoted: false
 related-articles:
+  - article: files/capturing-content-from-files/unique-strings-and-variants
   - article:
 other-links:
   - text:
@@ -17,11 +18,11 @@ You probably don't have to do much. Change management is built into Smartling. W
 
 ## Files Projects
 
-For Files projects, you'll first need to upload your changed resource files. If you update your files often, you should automate this process). If you upload the updated file to the same [namespace](), it will share strings with previous versions and new strings will only be created for the content you have changed. If you upload the file to a new namespace, all new strings will be created but as long as you have set up SmartMatch, you still only need to worry about the changes.
+For Files projects, you'll first need to upload your changed resource files. If you update your files often, you should automate this process). If you upload the updated file to the same [namespace](){: .cc-active}, it will share strings with previous versions and new strings will only be created for the content you have changed. If you upload the file to a new namespace, all new strings will be created but as long as you have set up SmartMatch, you still only need to worry about the changes.
 
-New strings will either be automatically authorized into your default workflow for each language or be added to your [Authorization queue](). From there, your translation workflow proceeds as normal.
+New strings will either be automatically authorized into your default workflow for each language or be added to your [Authorization queue](){: .cc-active}. From there, your translation workflow proceeds as normal.
 
-Once your new strings have been translated, you can download your translated file for deployment. Again, [API automation]() or our [Repository Connector]() can take care of this part for you.
+Once your new strings have been translated, you can download your translated file for deployment. Again, [API automation](){: .cc-active} or our [Repository Connector](){: .cc-active} can take care of this part for you.
 
 ## GDN Projects
 
@@ -29,4 +30,4 @@ Any changes to the source content on a page will be automatically captured the n
 
 Depending on your Authorization settings, new strings will either be added to your Authorization queue or will be authorized into the nearest workflow. Once your strings have been published or pre-published, new translations will begin displaying on your translated sites.
 
-Note that on the GDN, source content is served when translations are unavailable, so translation lag time can cause a mix of translated and source content to appear on your page. Consider implementing [Caching]() to manage this.
+Note that on the GDN, source content is served when translations are unavailable, so translation lag time can cause a mix of translated and source content to appear on your page. Consider implementing [Caching](){: .cc-active} to manage this.
