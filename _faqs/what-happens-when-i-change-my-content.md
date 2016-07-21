@@ -3,12 +3,12 @@ layout: faq
 title: What happens when I change my content?
 draft: false
 promoted: false
-related-articles:
-  - article: files/capturing-content-from-files/unique-strings-and-variants
-  - article:
+related:
+    sections:
+    articles:
 other-links:
   - text:
-url:
+	url:
 ---
 
 
