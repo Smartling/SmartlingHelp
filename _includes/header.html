@@ -13,7 +13,7 @@
                 </button>
                 <a class="navbar-brand" href="/support/">
                     <img class="header-logo" src=
-                            {% if page.url contains "/support/" %}
+                            {% if page.url contains "support/" %}
                             "/img/SmartlingHelpLogo.png"
                             {% endif %}
                             "/img/SmartlingWhiteHorizontal.png"
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right smartling-header-nav">
                     <li>
-                        <a {% if page.url contains "/support/" %} class="active" {% endif %} href="/support/">Support</a>
+                        <a {% if page.url contains "support/" %} class="active" {% endif %} href="/support/">Support</a>
                     </li>
                     <li>
                         <a {% if page.url contains "/developers/" %} class="active" {% endif %} href="/services.html">Docs</a>
