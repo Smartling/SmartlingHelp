@@ -17,7 +17,7 @@ url:
 
 You've uploaded and translated your content, but now you want to change something. What do you do now?
 
-You probably don't have to do much. Change management is built into Smartling. What will happen depends on your setup, but it breaks down into two basic steps: capture your changed content and translate new strings. In Smartling, the source content of each string is constant and editing your source content will always create new strings, rather than changing old ones.
+You probably don't have to do very much. Change management is built into Smartling. What will happen depends on your setup, but it breaks down into two basic steps: capture your changed content and translate new strings. In Smartling, the source content of each string is constant and editing your source content will always create new strings, rather than changing old ones.
 
 ## Files Projects
 
