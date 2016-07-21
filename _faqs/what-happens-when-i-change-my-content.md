@@ -4,11 +4,14 @@ title: What happens when I change my content?
 draft: false
 promoted: false
 related:
-    sections:
-    articles:
+  sections:
+  articles:
+    - files/capturing-content-from-files/string-sharing--namespaces
+    - files/capturing-content-from-files/unique-strings-and-variants
+    - gdn/managing-gdn-projects/avoiding-untranslated-content-with-static-cache
 other-links:
   - text:
-	url:
+url:
 ---
 
 
