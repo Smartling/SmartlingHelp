@@ -2,30 +2,24 @@
 layout: default
 ---
 
-{% for faq in site.faqs %}
-    {% if faq.title == page.title %}
-        {% assign currentArticle = faq %}
-    {% endif %}
-{% endfor %}
-{% assign editUrl = currentArticle.title | slugify %}
+<div class="container page">
+    {% include breadcrumbs.html %}
+    <div class="row content-start">
 
-<!-- Padding -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p></p>
-                <p>
-                    <br/> <br/> <br/> <br/> </p>
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include faq-side-nav.html %}
             </div>
         </div>
 
-<!-- Home Page Content -->
-    {% include breadcrumbs.html %}
-    <div class="container article">
-    	
-    	<h1>{{currentArticle.title}}</h1>
-        {{currentArticle.id}}
-        {{content}}
-    </div>
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content"><h1>{{page.title}}</h1></div>
+            <!-- Heading, video and article separated for CloudCannon editing, not layout -->
+            {% if page.wistia.video %}
+            {% include wistia-video.html %}
+            {% endif %}
+            <div class="main-content" id="main-text">{{content}}</div>
+        </div>
 
-    <p><a href="https://app.cloudcannon.com/editor#/site/19991/collections/_articles/{{editUrl}}.md">edit</a></p>
+    </div>
+</div>
