@@ -11,7 +11,7 @@ related:
     - gdn/managing-gdn-projects/avoiding-untranslated-content-with-static-cache
 other-links:
   - text:
-url:
+    url:
 ---
 
 

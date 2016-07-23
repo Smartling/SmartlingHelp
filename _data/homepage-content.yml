@@ -1,0 +1,42 @@
+
+
+action-cards:
+# Entry point cards. Each has a title, icon and link. Must be exactly four entries.
+  - title: Get Started
+    icon: fa-star
+    link: /
+
+  - title: Translation Resources
+    icon: fa-globe
+    link: /
+
+  - title: Account Owners
+    icon: fa-sliders
+    link: /
+
+  - title: Developers
+    icon: fa-cogs
+    link: /
+
+
+popular-topics:
+# Section and title of popular topics. Careful what you put here.
+# First <p> element will be displayed under the heading truncated to ____. If it starts straight in with
+# numbered instructions it will look bad. The relevant section page is probably better.
+  - type: section
+    title: Linguistic Assets
+
+  - type: section
+    title: Glossaries
+
+  - type: section
+    title: Context
+
+home-faqs:
+  - title: Does Smartling Offer Computer-Generated Translation?
+  - title: How do I manage changes in text length?
+  - title: How do I remove or reset context
+  - title: How is my Translation Memory Leveraged?
+  - title: "I'm locked out of my Account! How long do I have to wait?"
+  - title: Required Symbols in Translated Strings
+  - title: What happens when I change my content?
