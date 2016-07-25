@@ -2,9 +2,9 @@
 
 action-cards:
 # Entry point cards. Each has a title, icon and link. Must be exactly four entries.
-  - title: Get Started
+  - title: PRODUCT REVIEW
     icon: fa-star
-    link: /
+    link: /full-nav
 
   - title: Translation Resources
     icon: fa-globe
