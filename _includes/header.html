@@ -12,12 +12,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/support/">
-                    <img class="header-logo" src=
-                            {% if page.url contains "support/" %}
-                            "/img/SmartlingHelpLogo.png"
-                            {% endif %}
-                            "/img/SmartlingWhiteHorizontal.png"
-                    >
+                    <img class="header-logo" src="/img/SmartlingHelpLogo.png">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,16 +38,22 @@
     </nav>
 
     {%if page.home %}
-    <div class="banner">
-        <h1 class="banner-title">
-            Smartling Help
-        </h1>
-        <p>Lormem ipsum dolor sit amet, consectetur adipisicing sed do <br/> eiusmod  tempor incididunt ut labore et dolore magna aliqua</p>
+    <div class="home-banner">
+        <div class="container">
+            <h1 class="banner-title">
+                Smartling Help
+            </h1>
+            <p>Lormem ipsum dolor sit amet, consectetur adipisicing sed do <br/> eiusmod  tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
     </div>
     {% endif %}
-    <div class="search-bar">
+    <div class="{% if page.home %}search-bar-home{% else %}search-bar-page{% endif %}">
         <div class="container">
-
+            <div class="row">
+                <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}}">
+                    <span class="search-icon"></span><input class="search-input" placeholder="Search Smartling Help...">
+                </div>
+            </div>
         </div>
     </div>
 

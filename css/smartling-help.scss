@@ -13,11 +13,14 @@
 
 $smartling-red: #F26C5D;
 $smartling-green: #66C6B4;
+$smartling-yellow: #EDBB6C;
 $smartling-link-color: #419DB7;
 $link-hover-color:      darken($smartling-link-color, 15%) !default;
 $background-grey: #F6F7F7;
 $text-color: #494E50;
 $border-grey: #f1f1f1;
+$home-heading-color: #2d3133;
+$navbar-black: #2A3536;
 
 //END COLORS
 
@@ -31,6 +34,7 @@ $border-grey: #f1f1f1;
 $navbar-height: 80px;
 $search-height: 60px;
 $breadcrumb-height: 60px;
+$home-banner-height: 160px;
 
 // Top Margins
 $search-top-margin: $navbar-height;
@@ -67,6 +71,7 @@ $standard-border: 1px solid $border-grey;
 // Top header with logo and main nav
 .smartling-header {
     height: $navbar-height;
+    background: $navbar-black !important;
     ul {
         li {
             a {
@@ -81,10 +86,11 @@ $standard-border: 1px solid $border-grey;
         position: relative;
         bottom: 0;
     }
+    //border: none !important;
 }
 
 .header-logo {
-    width: 220px;
+    width: 263px;
     position: relative;
     bottom: $navbar-height*0.25;
 }
@@ -94,10 +100,42 @@ $standard-border: 1px solid $border-grey;
     background: $background-grey;
     border: $standard-border;
     height: $search-height;
-    margin-top: $search-top-margin;
     position: fixed;
     width: 100%;
     z-index: 1030;
+    .search-input {
+        position: absolute;
+        top: 15px;
+
+        background: inherit;
+        border: none;
+        font-size: 18px;
+        &:focus {
+            outline: none;
+        }
+        @media only screen and (min-width: 992px) {
+            margin-left: -50px;
+        }
+    }
+    .search-icon {
+        display: block;
+        background: url('../img/magnifying-glass.svg');
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin: 0 10px 0 0;
+        position: relative;
+        top: 15px;
+        @media only screen and (min-width: 992px) {
+            right: 50px;
+        }
+    }
+}
+
+.search-bar-page {
+    @extend .search-bar;
+    margin-top: $search-top-margin;
 }
 
 // Position Breadcrumbs
@@ -294,6 +332,127 @@ $headline-padding: 12px;
 }
 
 // END MAIN CONTENT CONTAINER
+
+// SPECIAL CLASSES FOR HOME PAGE
+
+//Content height adjustment to allow for banner
+
+
+.home-banner {
+    margin-top: $navbar-height;
+    position: fixed;
+    height: $home-banner-height;
+    z-index: 1030;
+    width: 100%;
+    background-color: $navbar-black;
+    color: #fff;
+    text-align: center;
+    h1 {
+        color: inherit;
+        position: relative;
+    }
+}
+
+.action-cards {
+    text-align: center;
+    i {
+        font-size: 80px;
+        padding-bottom: 10px;
+    }
+    .card-text {
+        color: $text-color;
+    }
+    padding-bottom: 10px;
+}
+
+
+.home-section {
+    h2 {
+        color: $home-heading-color;
+        border-bottom: 1px solid black;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        font-size: 19px;
+        margin-bottom: 15px;
+        }
+    padding-bottom: 30px;
+}
+
+.whats-new-cards {
+    .card {
+        height: 170px;
+        background: #2A3536;
+        color: white;
+        h3, h4, p {
+            color: white;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+        h3, h4 {
+            text-transform: uppercase;
+        }
+        h3 {
+            padding-top: 15px;
+            font-size: 19px;
+        }
+        h4 {
+            font-size: 14px;
+        }
+
+        .home-card-button {
+            text-transform: uppercase;
+            color: white;
+            padding: 10px 10px 10px 10px;
+            border-radius: 4px;
+            position: absolute;
+            display: inline-block;
+            bottom: 15px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            text-align: center;
+            width: 180px;
+        }
+
+        .read-more {
+           position: absolute;
+           bottom: 15px;
+           right: 30px;
+        }
+
+        .button-red {
+            @extend .home-card-button;
+            background: $smartling-red;
+        }
+
+        .button-yellow {
+            @extend .home-card-button;
+            background: $smartling-yellow;
+        }
+
+    }
+}
+
+.search-bar-home {
+    @extend .search-bar;
+    margin-top: $navbar-height + $home-banner-height;
+}
+
+.content-start-homepage {
+    margin-top: $navbar-height + $home-banner-height + $search-height + 20px;
+}
+
+
+
+
+
+
+
+
+// END SPECIAL CLASSES FOR HOMEPAGE
+
+
 
 
 

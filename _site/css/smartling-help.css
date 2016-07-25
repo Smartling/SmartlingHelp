@@ -1,5 +1,6 @@
 .smartling-header {
-  height: 80px; }
+  height: 80px;
+  background: #2A3536 !important; }
   .smartling-header ul {
     position: relative;
     bottom: 0; }
@@ -11,18 +12,44 @@
       background-color: inherit; }
 
 .header-logo {
-  width: 220px;
+  width: 263px;
   position: relative;
   bottom: 20px; }
 
-.search-bar {
+.search-bar, .search-bar-page, .search-bar-home {
   background: #F6F7F7;
   border: 1px solid #f1f1f1;
   height: 60px;
-  margin-top: 80px;
   position: fixed;
   width: 100%;
   z-index: 1030; }
+  .search-bar .search-input, .search-bar-page .search-input, .search-bar-home .search-input {
+    position: absolute;
+    top: 15px;
+    background: inherit;
+    border: none;
+    font-size: 18px; }
+    .search-bar .search-input:focus, .search-bar-page .search-input:focus, .search-bar-home .search-input:focus {
+      outline: none; }
+    @media only screen and (min-width: 992px) {
+      .search-bar .search-input, .search-bar-page .search-input, .search-bar-home .search-input {
+        margin-left: -50px; } }
+  .search-bar .search-icon, .search-bar-page .search-icon, .search-bar-home .search-icon {
+    display: block;
+    background: url("../img/magnifying-glass.svg");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 15px; }
+    @media only screen and (min-width: 992px) {
+      .search-bar .search-icon, .search-bar-page .search-icon, .search-bar-home .search-icon {
+        right: 50px; } }
+
+.search-bar-page {
+  margin-top: 80px; }
 
 .smartling-breadcrumbs {
   display: none;
@@ -142,6 +169,81 @@
     background-color: #FBD4D0; }
   .main-content blockquote.info {
     background-color: #B1FFFF; }
+
+.home-banner {
+  margin-top: 80px;
+  position: fixed;
+  height: 160px;
+  z-index: 1030;
+  width: 100%;
+  background-color: #2A3536;
+  color: #fff;
+  text-align: center; }
+  .home-banner h1 {
+    color: inherit;
+    position: relative; }
+
+.action-cards {
+  text-align: center;
+  padding-bottom: 10px; }
+  .action-cards i {
+    font-size: 80px;
+    padding-bottom: 10px; }
+  .action-cards .card-text {
+    color: #494E50; }
+
+.home-section {
+  padding-bottom: 30px; }
+  .home-section h2 {
+    color: #2d3133;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 15px; }
+
+.whats-new-cards .card {
+  height: 170px;
+  background: #2A3536;
+  color: white; }
+  .whats-new-cards .card h3, .whats-new-cards .card h4, .whats-new-cards .card p {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .whats-new-cards .card h3, .whats-new-cards .card h4 {
+    text-transform: uppercase; }
+  .whats-new-cards .card h3 {
+    padding-top: 15px;
+    font-size: 19px; }
+  .whats-new-cards .card h4 {
+    font-size: 14px; }
+  .whats-new-cards .card .home-card-button, .whats-new-cards .card .button-red, .whats-new-cards .card .button-yellow {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    position: absolute;
+    display: inline-block;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 180px; }
+  .whats-new-cards .card .read-more {
+    position: absolute;
+    bottom: 15px;
+    right: 30px; }
+  .whats-new-cards .card .button-red {
+    background: #F26C5D; }
+  .whats-new-cards .card .button-yellow {
+    background: #EDBB6C; }
+
+.search-bar-home {
+  margin-top: 240px; }
+
+.content-start-homepage {
+  margin-top: 320px; }
 
 a:hover {
   text-decoration: none !important;
