@@ -1,0 +1,141 @@
+---
+layout: default
+title: Full Nav
+---
+
+<p><br/><br/><br/><br/><br/><br/><br/></p>
+
+<h1>This is Everything</h1>
+
+{% for heading in site.data.nav %}
+<div class="col-md-12">
+    <style type="text/css" scoped>
+        li.level1 {
+            padding-left: 20px;
+        }
+        li.level2 {
+            padding-left: 40px;
+        }
+        li.level3 {
+            padding-left: 60px;
+        }
+        li.level4 {
+            padding-left: 80px;
+        }
+        li.level5 {
+            padding-left: 100px;
+        }
+
+    </style>
+    {% for section in site.sections %}
+    {% if section.title == heading %}
+    {% assign currentSection = section %}
+    {% endif %}
+    {% endfor %}
+    <h4>
+        <a href="{{currentSection.url}}">{{heading}}</a>
+    </h4>
+    <ul>
+
+        {% for subarticle in currentSection.subarticles %}
+            {% for article in site.articles %}
+                {% if article.title == subarticle.title %}
+                    <li class="level1">
+                        <a href="{{article.url}}">{{article.title}}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+        {% for subsection in currentSection.subsections %}
+            {% for section in site.sections %}
+                {% if section.title == subsection.title %}
+                    <li class="level1">
+                        <a href="{{section.url}}">{{section.title}}</a>
+                    </li>
+                    {% assign currentSection = section %}
+                    {% for subarticle in currentSection.subarticles %}
+                        {% for article in site.articles %}
+                            {% if article.title == subarticle.title %}
+                                <li class="level2">
+                                    <a href="{{article.url}}">{{article.title}}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    {% for subsection in currentSection.subsections %}
+                        {% for section in site.sections %}
+                            {% if section.title == subsection.title %}
+                                <li class="level2">
+                                    <a href="{{section.url}}">{{section.title}}</a>
+                                </li>
+                                {% assign currentSection = section %}
+                                {% for subarticle in currentSection.subarticles %}
+                                    {% for article in site.articles %}
+                                        {% if article.title == subarticle.title %}
+                                            <li class="level3">
+                                                <a href="{{article.url}}">{{article.title}}</a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                                {% for subsection in currentSection.subsections %}
+                                    {% for section in site.sections %}
+                                        {% if section.title == subsection.title %}
+                                            <li class="level3">
+                                                <a href="{{section.url}}">{{section.title}}</a>
+                                            </li>
+                                            {% assign currentSection = section %}
+                                            {% for subarticle in currentSection.subarticles %}
+                                                {% for article in site.articles %}
+                                                    {% if article.title == subarticle.title %}
+                                                        <li class="level4">
+                                                            <a href="{{article.url}}">{{article.title}}</a>
+                                                        </li>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endfor %}
+                                            {% for subsection in currentSection.subsections %}
+                                                {% for section in site.sections %}
+                                                    {% if section.title == subsection.title %}
+                                                        <li class="level4">
+                                                            <a href="{{section.url}}">{{section.title}}</a>
+                                                        </li>
+                                                        {% assign currentSection = section %}
+                                                        {% for subarticle in currentSection.subarticles %}
+                                                            {% for article in site.articles %}
+                                                                {% if article.title == subarticle.title %}
+                                                                    <li>
+                                                                        <a href="{{article.url}}">{{article.title}}</a>
+                                                                    </li>
+                                                                {% endif %}
+                                                            {% endfor %}
+                                                        {% endfor %}
+                                                        {% for subsection in currentSection.subsections %}
+                                                            {% for section in site.sections %}
+                                                                {% if section.title == subsection.title %}
+                                                                    <li class="level5">
+                                                                        <a href="{{section.url}}">{{section.title}}</a>
+                                                                    </li>
+                                                                {% endif %}
+                                                            {% endfor %}
+                                                        {% endfor %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endfor %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+
+
+    </ul>
+</div>
+
+{% assign currentSection = NULL %}
+{% endfor %}

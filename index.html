@@ -14,8 +14,9 @@ home: true
 
             <div class="home-section">
                 <div class="row">
+                    <div class="col-md-2 col-sm-2 hidden-xs-down"></div>
                     {% for card in site.data.homepage-content.action-cards %}
-                    <div class="col-md-3 col-xs-6 action-cards">
+                    <div class="col-md-2 col-sm-2 col-xs-6 action-cards">
                         <div>
                             <a href="{{card.link}}">
                                 <i class="fa {{card.icon}}" aria-hidden="true"></i>
@@ -25,6 +26,7 @@ home: true
                         </div>
                     </div>
                     {% endfor %}
+                    <div class="col-md-2 col-sm-2 hidden-xs-down"></div>
                 </div>
             </div>
 
@@ -75,32 +77,38 @@ home: true
         </div>
         <div class="home-section">
             <h2>Popular Topics</h2>
+            <div class="row">
 
-            {% for topic in site.data.homepage-content.popular-topics %}
-                {% if topic.type == 'section' %}
-                    {% for section in site.sections %}
-                        {% if section.title == topic.title %}
-                            {% assign current-topic = section %}
+                <div class="col-md-12">
+                    <div class="popular-topics">
+                        {% for topic in site.data.homepage-content.popular-topics %}
+                            {% if topic.type == 'section' %}
+                                {% for section in site.sections %}
+                                    {% if section.title == topic.title %}
+                                        {% assign current-topic = section %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                            {% if topic.type == 'article' %}
+                                {% for article in site.articles %}
+                                    {% if article.title == topic.title %}
+                                        {% assign current-topic = article %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% if topic.type == 'faq' %}
+                        {% for faq in site.faqs %}
+                        {% if faq.title == topic.title %}
+                        {% assign current-topic = faq %}
                         {% endif %}
-                    {% endfor %}
-                {% endif %}
-                {% if topic.type == 'article' %}
-                    {% for article in site.articles %}
-                        {% if article.title == topic.title %}
-                            {% assign current-topic = article %}
+                        {% endfor %}
                         {% endif %}
-                    {% endfor %}
-                {% endif %}
-            {% if topic.type == 'faq' %}
-            {% for faq in site.faqs %}
-            {% if faq.title == topic.title %}
-            {% assign current-topic = faq %}
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            <p><a href="{{current-topic.url}}">{{current-topic.title}}</a></p>
-            <p>{{ current-topic.content | markdownify | strip_html | truncatewords: 50 }}</p>
-            {% endfor %}
+                        <p><a href="{{current-topic.url}}">{{current-topic.title}}</a></p>
+                        <p>{{ current-topic.content | markdownify | strip_html | truncatewords: 50 }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="home-section">
             <h2>Frequently Asked Questions</h2>

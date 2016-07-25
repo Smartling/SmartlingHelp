@@ -75,7 +75,7 @@ $standard-border: 1px solid $border-grey;
     ul {
         li {
             a {
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 30px;
                 }
             a.active {
@@ -86,11 +86,10 @@ $standard-border: 1px solid $border-grey;
         position: relative;
         bottom: 0;
     }
-    //border: none !important;
 }
 
 .header-logo {
-    width: 263px;
+    width: 220px;
     position: relative;
     bottom: $navbar-height*0.25;
 }
@@ -362,7 +361,7 @@ $headline-padding: 12px;
     .card-text {
         color: $text-color;
     }
-    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -434,13 +433,18 @@ $headline-padding: 12px;
     }
 }
 
+.popular-topics {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .search-bar-home {
     @extend .search-bar;
     margin-top: $navbar-height + $home-banner-height;
 }
 
 .content-start-homepage {
-    margin-top: $navbar-height + $home-banner-height + $search-height + 20px;
+    margin-top: $navbar-height + $home-banner-height + $search-height + 70px; //last number is distance from search bar
 }
 
 
@@ -498,6 +502,17 @@ mark {
 //JavaScript Helpers
 html, body {
     height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .row-center {
+        text-align: center;
+    }
+
+    .col-center {
+        display: inline-block;
+        float: none !important;
+    }
 }
 
 // Highlight Code
