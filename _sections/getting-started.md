@@ -8,6 +8,12 @@ subsections:
 subarticles:
   - title: Get Started with Smartling
   - title: Processed Words Report
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

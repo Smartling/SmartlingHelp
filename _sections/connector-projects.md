@@ -16,6 +16,12 @@ subsections:
   - title: Sitecore Connector
 subarticles:
   - title: none
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

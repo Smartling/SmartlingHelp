@@ -25,6 +25,12 @@ title: Full Nav
         li.level5 {
             padding-left: 100px;
         }
+        .red {
+            color: red;
+        }
+        .green {
+            color: green;
+        }
 
     </style>
     {% for section in site.sections %}
@@ -41,7 +47,7 @@ title: Full Nav
             {% for article in site.articles %}
                 {% if article.title == subarticle.title %}
                     <li class="level1">
-                        <a href="{{article.url}}">{{article.title}}</a>
+                        {% include article-checklist.html %}
                     </li>
                 {% endif %}
             {% endfor %}
@@ -50,14 +56,14 @@ title: Full Nav
             {% for section in site.sections %}
                 {% if section.title == subsection.title %}
                     <li class="level1">
-                        <a href="{{section.url}}">{{section.title}}</a>
+                        {% include section-checklist.html %}
                     </li>
                     {% assign currentSection = section %}
                     {% for subarticle in currentSection.subarticles %}
                         {% for article in site.articles %}
                             {% if article.title == subarticle.title %}
                                 <li class="level2">
-                                    <a href="{{article.url}}">{{article.title}}</a>
+                                    {% include article-checklist.html %}
                                 </li>
                             {% endif %}
                         {% endfor %}
@@ -66,14 +72,14 @@ title: Full Nav
                         {% for section in site.sections %}
                             {% if section.title == subsection.title %}
                                 <li class="level2">
-                                    <a href="{{section.url}}">{{section.title}}</a>
+                                    {% include section-checklist.html %}
                                 </li>
                                 {% assign currentSection = section %}
                                 {% for subarticle in currentSection.subarticles %}
                                     {% for article in site.articles %}
                                         {% if article.title == subarticle.title %}
                                             <li class="level3">
-                                                <a href="{{article.url}}">{{article.title}}</a>
+                                                {% include article-checklist.html %}
                                             </li>
                                         {% endif %}
                                     {% endfor %}
@@ -82,14 +88,14 @@ title: Full Nav
                                     {% for section in site.sections %}
                                         {% if section.title == subsection.title %}
                                             <li class="level3">
-                                                <a href="{{section.url}}">{{section.title}}</a>
+                                                {% include section-checklist.html %}
                                             </li>
                                             {% assign currentSection = section %}
                                             {% for subarticle in currentSection.subarticles %}
                                                 {% for article in site.articles %}
                                                     {% if article.title == subarticle.title %}
                                                         <li class="level4">
-                                                            <a href="{{article.url}}">{{article.title}}</a>
+                                                            {% include article-checklist.html %}
                                                         </li>
                                                     {% endif %}
                                                 {% endfor %}
@@ -98,14 +104,14 @@ title: Full Nav
                                                 {% for section in site.sections %}
                                                     {% if section.title == subsection.title %}
                                                         <li class="level4">
-                                                            <a href="{{section.url}}">{{section.title}}</a>
+                                                            {% include section-checklist.html %}
                                                         </li>
                                                         {% assign currentSection = section %}
                                                         {% for subarticle in currentSection.subarticles %}
                                                             {% for article in site.articles %}
                                                                 {% if article.title == subarticle.title %}
                                                                     <li>
-                                                                        <a href="{{article.url}}">{{article.title}}</a>
+                                                                        {% include article-checklist.html %}
                                                                     </li>
                                                                 {% endif %}
                                                             {% endfor %}
@@ -114,7 +120,7 @@ title: Full Nav
                                                             {% for section in site.sections %}
                                                                 {% if section.title == subsection.title %}
                                                                     <li class="level5">
-                                                                        <a href="{{section.url}}">{{section.title}}</a>
+                                                                        {% include section-checklist.html %}
                                                                     </li>
                                                                 {% endif %}
                                                             {% endfor %}

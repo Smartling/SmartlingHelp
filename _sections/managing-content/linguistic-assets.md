@@ -13,6 +13,12 @@ subarticles:
 wistia:
   video: true
   id: gds77xzgmg
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

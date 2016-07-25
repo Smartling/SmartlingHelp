@@ -7,6 +7,12 @@ subsections:
 subarticles:
   - title: Adobe InDesign Context
   - title: Image Context for Mobile and Desktop Apps
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

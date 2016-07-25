@@ -11,6 +11,12 @@ subarticles:
   - title: Download Files
   - title: Upload and Manage Files
   - title: Add translator instructions to a file
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 
