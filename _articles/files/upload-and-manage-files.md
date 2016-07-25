@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 

@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 <div class="wistia_embed wistia_async_781522uoyz" style="height: 394px; width: 630px;"></div>

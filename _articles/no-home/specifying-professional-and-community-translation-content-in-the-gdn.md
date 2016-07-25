@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 When you add a language to the Smartling Dashboard, you specify a default translation method (Volunteer or Professional), and Smartling accordingly extracts and makes content available for translation. In some cases it may be appropriate to explicitly set a translation method that differs from the language-specific default translation method.

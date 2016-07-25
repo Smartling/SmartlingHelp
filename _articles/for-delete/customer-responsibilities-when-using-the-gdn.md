@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 The following article applies to Global Delivery Network project types.

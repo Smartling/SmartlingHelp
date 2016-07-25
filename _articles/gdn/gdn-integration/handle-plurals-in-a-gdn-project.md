@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 Many languages have multiple ways to express a plural form.

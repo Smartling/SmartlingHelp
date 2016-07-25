@@ -33,6 +33,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 If your source website has a Secure Sockets Layer (SSL) certificate and uses the HTTPS protocol, you must obtain and maintain an SSL certificate for your language domains. If there are several language domains in scope a “wildcard” certificate or a UC/SAN certificate is preferable to obtain coverage for all subdomains appropriate for your original website and alternate language websites. **The GDN will not operate for your HTTPS pages unless you provide Smartling with a valid SSL certificate.**

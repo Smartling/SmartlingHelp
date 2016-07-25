@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 The Smartling service adds a specific class to the `<body>` tag of each language website, specific to that language. The added class is in the format `smartling-[language code]`; for example:
 

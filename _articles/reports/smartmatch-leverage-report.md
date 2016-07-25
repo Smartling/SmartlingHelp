@@ -9,6 +9,12 @@ related-articles:
   - article: issues-report
   - article: tracked-urls
   - article: words-under-management
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

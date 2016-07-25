@@ -26,9 +26,10 @@ further-reading:
       text:
 migration-checklist:
   internal-links: false
-  images: true
+  images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 

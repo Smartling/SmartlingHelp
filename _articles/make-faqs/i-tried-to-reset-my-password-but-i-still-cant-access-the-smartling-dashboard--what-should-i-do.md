@@ -33,6 +33,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 If you have both tried to login and reset your password but still can't access the dashboard,you probably have not yet been set-up with access to the Smartling dashboard.
 

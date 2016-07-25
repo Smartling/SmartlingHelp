@@ -9,6 +9,12 @@ related-articles:
   - article: account-level-reports
   - article: account-level-reports
   - article: account-level-reports
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

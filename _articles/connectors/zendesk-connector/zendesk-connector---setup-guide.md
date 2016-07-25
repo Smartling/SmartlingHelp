@@ -14,6 +14,12 @@ related-articles:
 further-reading:
   - link:
     text:
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 

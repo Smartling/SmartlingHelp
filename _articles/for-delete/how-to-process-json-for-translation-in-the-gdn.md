@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 **The following article applies to using JSON with the Global Delivery Network. To learn about using JSON documents in a resource file project visit [docs.smartling.com](https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-json).**

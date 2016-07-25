@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 
 The Smartling Global Delivery Network typically includes load-balanced network components. Under certain conditions, the user’s source IP address as received by your alternative language site(s) may resolve to the load balancer, rather than the user’s actual IP address. Incorrect IP addresses may negatively impact your website, especially for IP address logging or location-based services that geo-encode based on IP address.

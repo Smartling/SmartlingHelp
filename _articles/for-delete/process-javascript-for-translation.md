@@ -29,6 +29,7 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
+  reviewed: false
 ---
 Smartling does not recognize JavaScript content for translation by default as it may affect your site's functionality.  
 
