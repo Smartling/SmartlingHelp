@@ -3,9 +3,9 @@ layout: article
 title: 'Managing a project with Smartling: a video guide for agencies'
 draft: true
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 edition:
 redirect-url:
 wistia:
