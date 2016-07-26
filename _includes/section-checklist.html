@@ -3,5 +3,4 @@
 {%if section.migration-checklist.internal-links %} <span class="green"> Internal Links Complete </span> {% else %} <span class="red">Internal Links Incomplete</span> {% assign nolinks = nolinks | append: 'x' %} {% endif %}
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 {% if section.migration-checklist.reviewed %} <span class="green"> Product Review Complete </span> {% else %} <span class="red">Product Review Incomplete</span> {% assign unreviewed = unreviewed | append: 'x' %} {% endif %}
-{{section.content.size}}
 {% if section.content.size < 1 %} &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span class="red"> No Section Content </span> {% assign emptysection = emptysection | append: 'x' %} {% endif %}
