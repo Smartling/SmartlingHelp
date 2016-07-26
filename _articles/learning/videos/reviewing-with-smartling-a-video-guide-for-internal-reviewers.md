@@ -9,23 +9,19 @@ Applies to:
 edition:
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: lfmkhi2qfo
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -36,3 +32,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+The reviewer's guide to Smartling is a short video that will guide you through the review process in Smartling in a few minutes: how to review, but also when to edit, reject, or simply submit translated content.&nbsp;
