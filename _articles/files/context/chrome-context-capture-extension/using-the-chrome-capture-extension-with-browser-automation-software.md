@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -35,17 +35,23 @@ migration-checklist:
 
 If you use browser automation software - such as Selenium, PhantomJS - for testing purposes, you can set up the Chrome Context Capture Extension to integrate with your existing test scripts and take a snapshot and any point in a script.
 
-### To use the Chrome Context Capture Extension with browser automation:
-
 **(1)** In **Chrome&gt;Preferences&gt;Extensions**, find the Chrome Context Capture Extension, and click **Options**.
 
 **(2)** Check **Detect Automation**.
 
 ![medium](/uploads/versions/smartling_context_snapshot_options---x----719-771x---.png)
 
-**(3)** To take a snapshot during automation, add this code to your script.
+**(3)** To take a snapshot during automation, add this code to your script, substituting your Project ID and API Key.
 
-`javascript fireSmartlingChromeExtension({ "projectId": "projectUID", "apiKey":"project-api-key", "callback":function(submissionData){ //snapshot is submitted, move on } });`
+~~~javascript
+fireSmartlingChromeExtension({ 
+    "projectId": "projectUID", 
+    "apiKey":"project-api-key", 
+    "callback":function(submissionData){ 
+        /* snapshot is submitted, move on */
+     } 
+});
+~~~
 
 ## Override Existing Context
 
@@ -53,10 +59,10 @@ By default, the Chrome Context Capture Extension will not override existing cont
 
 ### To override context for an entire page:
 
-Add the two classes "sl-override-context sl-translate" to the page's HTML tag.
+Add the two classes `sl-override-context sl-translate` to the page's HTML tag.
 
 ### To override context for specific elements on the page:
 
-**(1)** Add the "sl-notranslate" class to the HTML tag of the page.
+**(1)** Add the `sl-notranslate` class to the HTML tag of the page.
 
-**(2)** Add the two classes "sl-override-context sl-translate" to the elements you want to override context for. Any nested child elements will also be overwritten.
+**(2)** Add the two classes `sl-override-context sl-translate` to the elements you want to override context for. Any nested child elements will also be overwritten.

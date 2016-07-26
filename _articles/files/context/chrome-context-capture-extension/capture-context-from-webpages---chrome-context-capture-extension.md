@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -33,7 +33,7 @@ migration-checklist:
 ---
 
 
-Smartling Account Owners and Project Managers can use the Chrome Context Capture Extension to [capture context](){: .cc-active}.
+Smartling Account Owners and Project Managers can use the Chrome Context Capture Extension to [capture context](/support/sections/context/).
 
 Only use the Chrome extension on **source language sites**. For example, if your primary web site is [www.domain.com](http://www.domain.com/) and the Spanish version is [es.domain.com](http://es.domain.com/), only use the extension on [www.domain.com](http://www.domain.com/).
 
@@ -59,7 +59,7 @@ Smartling posts the snapshot to the selected project. If it matches uploaded str
 
 ## Targeting Specific Strings
 
-By default, a Chrome Context snapshot will capture all strings visible on a page at that moment. You can use the string selection tool to target specific strings for contextualization and exclude strings for which the snapshot will not provide good context. For example, if you want to capture context for a modal dialog in the middle of the page, but exclude strings outside that dialog, use the selection tool to target only the dialog and its strings. Using this function will [overwrite](/hc/en-us/articles/203519607) any existing context for your selected strings.
+By default, a Chrome Context snapshot will capture all strings visible on a page at that moment. You can use the string selection tool to target specific strings for contextualization and exclude strings for which the snapshot will not provide good context. For example, if you want to capture context for a modal dialog in the middle of the page, but exclude strings outside that dialog, use the selection tool to target only the dialog and its strings. Using this function will [overwrite](/support/articles/override-existing-context-with-the-chrome-context-capture-extension/) any existing context for your selected strings.
 
 ### To use string selection:
 
@@ -77,7 +77,7 @@ If you select a region, all visible strings within that region will be included 
 
 The History function displays a list of context snapshots and statistics about the number of successful string matches.
 
-**(1)** From the Context Capture toolbar button, click the **Gear** &gt; **History**. The Feedback dialog displays a list of context snapshots with information such as the number of strings updated and matched. Note, that a snapshot will only be created if context has been updated for at least one string.
+**(1)** From the Context Capture toolbar button, click the **Gear > History**. The Feedback dialog displays a list of context snapshots with information such as the number of strings updated and matched. Note, that a snapshot will only be created if context has been updated for at least one string.
 
 ![](/uploads/versions/feedback---x----1095-420x---.png)
 
@@ -98,7 +98,7 @@ Instrumented files are a modified version of the original file with each string 
 
 ### To use instrumented files:
 
-**1)** From **Content&gt;Files**, download the instrumented files containing the strings you want to contextualize. You can also download instrumented files [via API](https://docs.smartling.com/display/docs/Files+API#FilesAPI-/file/get(GET)).
+**1)** From **Content&gt;Files**, download the instrumented files containing the strings you want to contextualize. You can also download instrumented files [via API](http://docs.smartling.com/pages/API/v2/FileAPI/Download-File/Single-Locale/).
 
 ![medium](/uploads/versions/smartling___manage_files---x----794-570x---.png)
 
@@ -128,7 +128,7 @@ You can set up the Chrome Context Capture Extension to execute custom javascript
 
 ![medium](/uploads/versions/smartling_context_snapshot_options---x----685-761x---.png)
 
-**(3)** Follow the procedure for [Taking a Snapshot](){: .cc-active}.
+**(3)** Follow the procedure for [Taking a Snapshot](#taking-a-snapshot).
 
 ## Capturing Context on iframe Sites
 

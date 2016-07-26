@@ -35,7 +35,7 @@ migration-checklist:
 
 For non-web content such as mobile or desktop apps, Image files can be uploaded to provide context.
 
-**To add Image Context files**:
+## Add Image Context files
 
 **(1)** From **Translations** &gt; **Image Context**, click **+** to upload an image (JPG or PNG) or drag and drop the image into the window.
 
@@ -47,13 +47,15 @@ For non-web content such as mobile or desktop apps, Image files can be uploaded 
 
 **(3)** Repeat step 2 for all the strings in the image.
 
-**To remove Image Context files**:
+## Remove Image Context files
 
 **(1)** On the image context page at **Files&gt;Image Context**, click the image.
 
 **(2)** In the Image Context dialog, click **Remove**.
 
-**Searching for strings**When you search for a string, type as few letters of the string as possible, as the search function does not display HTML formatting or placeholders. For example:
+**Searching for strings
+
+When you search for a string, type as few letters of the string as possible, as the search function does not display HTML formatting or placeholders. For example:
 
 When searching for the following string:
 

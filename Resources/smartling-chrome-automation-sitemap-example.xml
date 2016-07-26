@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+<smartlingconfig>
+
+<apikey>######</apikey>
+<projectUID>#####</projectUID>
+<!-- 
+Optional routine lets you:
+1. Control timing of snapshots
+2. Perform manipulations prior to  
+3. Take multiple snapshots of various states of a single page
+-->
+<routines>
+
+    <routine>
+    
+        function($, takeSnapshot){
+
+        	$("html").addClass("sl-override-context sl-translate");
+			
+			takeSnapshot();
+		
+
+    	}
+    
+    </routine>
+
+</routines>
+
+
+</smartlingconfig>
+
+<!-- You can list urls in one of two ways -->
+    
+<!-- (1) use this if it's easier to produce delimitted list -->
+<url-list>
+http://www.smartling.com
+http://www.smartling.com/company/careers
+http://www.smartling.com/company/contact
+</url-list>
+
+<!-- (2) use this if you already have an existing sitemap -->
+<url>
+	<loc>http://www.smartling.com/company/careers</loc>
+</url>
+<url>
+	<loc>http://www.smartling.com/company/contact</loc>
+</url>
+<url>
+    <loc>http://www.smartling.com/company/customers</loc>
+</url>
+<url>
+	<loc>http://www.smartling.com/company/leadership</loc>
+</url>
+<url>
+    <loc>http://www.smartling.com/company/news-and-press</loc>
+</url>
+
+       
+</urlset> 
