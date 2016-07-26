@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -35,7 +35,7 @@ migration-checklist:
 
 When Smartling captures content from a file or website, it parses the content into **strings**. Within a Smartling GDN project, strings can be shared, so that content appearing more than once will usually not be duplicated in the Smartling Dashboard. For example, a ‘Home’ button might appear many times on a website, but Smartling captures it as one unique string, to be translated once. For a Files project, handling is different for business documents and resource files. For business documents, each file is considered separately and strings are never shared between files. For Application Resource Files, strings can be shared between files, so a string that appears in two different files is created in the dashboard only once and shared by both files.
 
-> a [new default sharing behavior]() is in effect for accounts created after 31 July 2015.
+> A [new default sharing behavior](/support/articles/string-sharing-namespaces/) is in effect for accounts created after 31 July 2015.
 
 Sometimes, however, two strings with the same text in the source language may require different translations. For example, the string ‘Home’ on a webpage might refer to the homepage of the domain, or to a residence.
 
@@ -67,174 +67,61 @@ Smartling creates Variants when two strings have the same text, but different co
 
 The Global Delivery Network analyzes every HTML request and captures strings based on HTML block tags. If content within the block tags (such as an in-line tag) changes, Smartling creates a new unique string, even if the text itself is identical to another unique string. For example:
 
-<table>
 
-<tbody>
 
-<tr>
+**String 1:** `p>Please contact us to find out more.</p>`  
+**String 2:** `<p>Please <a href="contact.html">contact us</a> to find out more.</p>`
 
-<td>
-
-**String 1:** <p>Please contact us to find out more.</p>  
-**String 2:** <p>Please <a href="contact.html">contact us</a> to find out more.</p>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 These are parsed by the GDN as two unique strings, even though the text is identical, because there are different inline tags within the blocks.
 
 To manually create variants, you can use a **variant** HTML attribute within a block tag to enclose the string you want to make a variant and assign it a numeric or text value. The HTML5 compliant version of this attribute is **data-sl-variant**.  For example:
 
-<table>
+**String 1**: `<div>Same text, captured twice with variant metadata.</div>`   
+**String 2:** `<div variant="Variant1">Same text, captured twice with variant metadata.</div>`   
+**String 2 (HTML5):** `<div data-sl-variant="Variant1">Same text, captured twice with variant metadata.</div>`   
 
-<tbody>
 
-<tr>
-
-<td>
-
-String 1: <div>Same text, captured twice with variant metadata.</div>  
-String 2: <div variant="Variant1">Same text, captured twice with variant metadata.</div>  
-String 2 (HTML5): <div data-sl-variant="Variant1">Same text, captured twice with variant metadata.</div>
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-Smartling parses these as two unique strings, even though the content within the block tags is identical. String 1 has no variant metadata, String 2 has the variant metadata “Variant1”.
+Smartling parses these as two unique strings, even though the content within the block tags is identical. String 1 has no variant metadata, String 2 has the variant metadata `Variant1`.
 
 
 ### Application Resource File Projects
 
-How Smartling creates variants from Application Resource Files depends on the file type and the parsing instructions included in the file. Most application resource files use key/value pairs, where the ‘value’ is the string and the ‘key’ is a label. For some file types, Smartling may capture keys as metadata for a string and create Variants if two different keys have the same value. See the table below for detailed information on each file type:
+How Smartling creates variants from Application Resource Files depends on the file type and the parsing instructions included in the file. Most application resource files use key/value pairs, where the ‘value’ is the string and the ‘key’ is a label. For some file types, Smartling may capture keys as metadata for a string and create Variants if two different keys have the same value. See below for detailed information on each file type:
 
-<table>
-
-<tbody>
-
-<tr>
-
-<th>
-
-File Type
-
-</th>
-
-<th>
-
-Variant Metadata (Or context Metadata)
-
-</th>
-
-<th>
-
-Example - Two Unique Strings with variant metadata
-
-</th>
-
-</tr>
-
-<tr>
-
-<td>
-
-Key-value based files: Java Properties, iOS/Mac OS .strings
-
-</td>
-
-<td>
+#### Key-value based files: Java Properties, iOS/Mac OS .strings
 
 Every string is created with variant metadata, which is the key. If the ‘keys’ are different for two strings with the same ‘value’ then Smartling will create two strings using the key as context metadata.
 
-</td>
-
-<td>
-
+~~~properties 
 string1= Home  
 string2= Home
+~~~
 
-"string1"="Home";  
-"string2"="Home";
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-YAML
-
-</td>
-
-<td>
+#### YAML
 
 Every string is created with variant metadata. The variant metadata is the full path of keys leading to the translatable string.
 
-</td>
-
-<td>
-
+~~~yaml
 Strings:  
  string1: Home  
  string2: Home
+~~~
 
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-Android Resources
-
-</td>
-
-<td>
+#### Android Resources
 
 Every string is created with variant metadata which is the value of the string.name attribute.  So if the value of a string is the same for two strings but the string.name attribute is different Smartling creates two strings.
 
-</td>
-
-<td>
-
-
-<string name="string1">Home</string  
+~~~xml
+<string name="string1">Home</string>
 <string name="string2">Home</string>
+~~~
 
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-RESX/RESW
-
-</td>
-
-<td>
+#### RESX/RESW
 
 Every string is created with variant metadata which is the value of the data.name attribute. If the value of a string is the same for two strings but the data.name attribute is different, Smartling creates two strings.
 
-</td>
-
-<td>
-
-
+~~~xml
 <data name="string1">  
  <value>Home</value>  
 </data>
@@ -242,31 +129,15 @@ Every string is created with variant metadata which is the value of the data.nam
 <data name="string2">  
  <value>Home</value>  
 </data>
+~~~
 
+#### Gettext POT
 
-</td>
+The `msgid` value is captured as the key but is not used to create variants.
 
-</tr>
+The string is captured with variant metadata if `msgctxt` is present for the string. The value of the `msgctxt` key will be used as variant metadata.
 
-<tr>
-
-<td>
-
-gettext POT
-
-</td>
-
-<td>
-
-The 'msgid' value is captured as the key but is not used to create variants.
-
-The string is captured with variant metadata if ‘msgctxt’ is present for the string. The value of the msgctxt key will be used as variant metadata.
-
-</td>
-
-<td>
-
-
+~~~
 #:0001  
 msgctxt "string1"  
 msgid "Home"  
@@ -276,64 +147,26 @@ msgstr ""
 msgctxt "string2"  
 msgid "Home"  
 msgstr ""
+~~~
 
-</td>
+#### JSON
 
-</tr>
+Strings are created with variant metadata only if you have configured the JSON file to use keys and have turned on the variants behavior. Then the Smartling key for a string is used as the variant metadata for that string. For [accounts created after June 11th 2015](), JSON strings are created with variant metadata by default, with the full path of keys leading to a string being captured as the variant.
 
-<tr>
+> For some files uploaded before June 2015, an older parser version applies and variants must be enabled through [file directives](http://docs.smartling.com/pages/supported-file-types/JSON/).
 
-<td>
-
-JSON
-
-</td>
-
-<td>
-
-Strings are created with variant metadata only if you have configured the JSON file to use keys and have turned on the variants behavior. Then the Smartling key for a string is used as the variant metadata for that string. **Note:** for [accounts created after June 11th 2015](), JSON strings will are created with variant metadata by default.
-
-</td>
-
-<td>
-
-
+~~~json
 {  
-"smartling":{  
-  "translate_mode":"custom",  
-  "translate_paths":["*/string"],     "source_key_paths":[{*}/{*}"],  
-  "variants_enabled":"true"  
-},  
-"string1":{  
- "string":"Home"  
-   },  
-"string2":{  
- "string":"Home"  
-   }  
+"string1": "Home",
+"string2": "Home"
 }
+~~~
 
-
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-XML
-
-</td>
-
-<td>
+#### XML
 
 Strings are created with variant metadata only if you have configured the XML file to use keys and have turned on the variants behavior. Then the Smartling key for a string is used as the variant metadata for that string.
 
-</td>
-
-<td>
-
-
+~~~xml
 <?xml version="1.0" encoding="utf-8"?>  
 <!-- smartling.translate_paths = data/item/string -->  
 <!-- smartling.source_key_paths = data/item/{string.name} -->  
@@ -345,17 +178,7 @@ Strings are created with variant metadata only if you have configured the XML fi
     <string name="name2">Home</string>  
   </item>  
 </data>
-
-
-
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
+~~~
 
 ### Business Documents Projects
 
@@ -380,4 +203,4 @@ Since Smartling’s List View displays the plain text of a string, it can be dif
 
 ## Using Smartmatch to avoid re-translating identical text
 
-You can [set up Smartmatch]() to match variants of strings in your Translation Memory. Enabling **100% match with variants** will only match strings with identical text when their variant metadata is the same. Enabling **100% match without variants** will ignore variant metadata and match any strings with identical text.
+You can [set up Smartmatch](/support/articles/smartmatch-settings/) to match variants of strings in your Translation Memory. Enabling **100% match with variants** will only match strings with identical text when their variant metadata is the same. Enabling **100% match without variants** will ignore variant metadata and match any strings with identical text.

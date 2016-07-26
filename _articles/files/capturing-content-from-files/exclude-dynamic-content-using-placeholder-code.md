@@ -43,7 +43,7 @@ is captured by Smartling with the placeholder code intact, allowing you to trans
 
 ![](/uploads/versions/excludedynamiccontent---x----1005-742x---.png)
 
-**Positional Information in Placeholders**
+## Positional Information in Placeholders
 
 Smartling automatically adds positional information to all placeholders, since translators sometimes need to alter the positioning of words in a sentence. This will not affect the way your site or app works. For example, for the string
 
@@ -53,6 +53,6 @@ Smartling will output:
 
 `string1=Welcome, %1$s. You have %2$s in your account.`
 
-**Custom Placeholders**
+## Custom Placeholders
 
-You can use Smartling Files API or file directives to specify a custom placeholder format when uploading a file. See the [Files API](https://docs.smartling.com/display/docs/Files+API) and [Supported File Types](https://docs.smartling.com/display/docs/Supported+File+Types) documentation for more details on placeholders for each file type.
+You can use Smartling Files API or file directives to specify a custom placeholder format when uploading a file. See the [Files API]() and [Supported File Types]() documentation for more details on placeholders for each file type.

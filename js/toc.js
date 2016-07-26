@@ -9,7 +9,7 @@ $(document).ready(function() {
     $(".panel-toc").hide();
 
     // Get number of subheadings on the page
-    var l = $("h2, h3").length;
+    var l = $("h2, h3, h4").length;
 
     // If we have at least 2 subheadings, make a ToC!
     if (l > 1) {
@@ -20,7 +20,7 @@ $(document).ready(function() {
         
         var newLine, el, title, link, classname;
         
-        $("h2, h3").each(function() {
+        $("h2, h3, h4").each(function() {
         
           el = $(this);
           title = el.text();
@@ -31,6 +31,9 @@ $(document).ready(function() {
           }
           if (el.prop("tagName").toLowerCase() === 'h3') {
               classname = "secondary-nav";
+          }
+          if (el.prop("tagName").toLowerCase() === 'h4') {
+              classname = "tertiary-nav";
           }
 
           // Make a clean id tag for each element by removing unnecessary characters

@@ -195,7 +195,10 @@ $standard-border: 1px solid $border-grey;
 
 // Indent children in the nav
 .secondary-nav {
-    left: 20px;
+    left: 15px;
+}
+.tertiary-nav {
+    left: 30px;
 }
 
 // Styles for the panels
@@ -211,7 +214,7 @@ $standard-border: 1px solid $border-grey;
         background-color: $background-grey;
         border-radius: 4px;
         a {
-            h4 {
+            h5 {
                 font-size: 20px;
                 color: $text-color;
             }

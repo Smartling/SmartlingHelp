@@ -77,7 +77,10 @@
   margin-top: 160px; }
 
 .secondary-nav {
-  left: 20px; }
+  left: 15px; }
+
+.tertiary-nav {
+  left: 30px; }
 
 .side-nav-widget {
   margin: auto;
@@ -90,7 +93,7 @@
     background-color: #F6F7F7;
     border-radius: 4px;
     padding-left: 24px; }
-    .side-nav-widget .panel-heading a h4 {
+    .side-nav-widget .panel-heading a h5 {
       font-size: 20px;
       color: #494E50; }
     .side-nav-widget .panel-heading a :hover {
