@@ -1,0 +1,36 @@
+---
+layout: article
+title: Everything you need to know about language selectors
+draft: true
+Applies to:
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
+edition:
+redirect-url:
+wistia:
+  video: false
+  id:
+read-first:
+  include: false
+  sections:
+  articles:
+  others:
+    - link:
+      text:
+further-reading:
+  include: false
+  sections:
+  articles:
+  others:
+    - link:
+      text:
+migration-checklist:
+  internal-links: false
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
+---
+
+
