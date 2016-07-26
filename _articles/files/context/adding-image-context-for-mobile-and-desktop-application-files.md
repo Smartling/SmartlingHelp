@@ -47,7 +47,7 @@ For non-web content such as mobile or desktop apps, Image
 
 **(2)** Any matches from the OCR process will be automatically selected. Select a region containing a visible string, then type a few characters of the string and select the correct string from the menu that appears. Click **Save**. Delete any incorrect matches by clicking **x** next to the string.
 
-![](/uploads/versions/smartling---image-context---x0-72-1272-864-1219-828x---.png)
+![](/uploads/versions/smartling---image-context---x----1272-1007x---.png)
 
 **(3)** Repeat step 2 for all the strings in the image.
 
