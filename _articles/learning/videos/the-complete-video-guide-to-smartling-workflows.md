@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The complete video guide to Smartling Workflows
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -35,5 +35,3 @@ migration-checklist:
 
 
 Find out how to easily build and manage your translation workflows
-
-&nbsp;
