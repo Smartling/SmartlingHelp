@@ -5,7 +5,20 @@ title: Full Nav
 
 <p><br/><br/><br/><br/><br/><br/><br/></p>
 
-<h1>This is Everything</h1>
+<h1>Smartling Help Review</h1>
+
+<h4>Internal Links Incomplete</h4>
+<div id="no-links"></div>
+
+<h4>Product Review</h4>
+<div id="unreviewed"></div>
+
+<h4>Empty Sections</h4>
+<div id="empty-section"></div>
+
+{% assign nolinks = '' %}
+{% assign unreviewed = '' %}
+{% assign emptysection = '' %}
 
 {% for heading in site.data.nav %}
 <div class="col-md-12">
@@ -145,3 +158,15 @@ title: Full Nav
 
 {% assign currentSection = NULL %}
 {% endfor %}
+{% include footer.html %}
+
+<script>
+    var noLinks = '<p>{{nolinks.size}}</p>';
+    var unreviewed = '<p>{{unreviewed.size}}</p>';
+    var emptySection = '<p>{{emptysection.size}}</p>';
+    $(document).ready(function() {
+        $('#no-links').append(noLinks);
+        $('#unreviewed').append(unreviewed);
+        $('#empty-section').append(emptySection);
+    });
+</script>
