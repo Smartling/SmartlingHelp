@@ -34,3 +34,4 @@ migration-checklist:
 ---
 
 
+In this video we walk you through the dashboard and how to easily translate or review your content.&nbsp;
