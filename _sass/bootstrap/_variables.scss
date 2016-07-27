@@ -4,6 +4,50 @@ $bootstrap-sass-asset-helper: false !default;
 // --------------------------------------------------
 
 
+
+
+// SMARTLING COLORS
+
+$smartling-link-color: #419DB7;
+$navbar-inverse-color: #FFFFFF;
+$smartling-red: #F26C5D;
+$smartling-green: #66C6B4;
+$smartling-text-color: #494e50;
+$smartling-background-white: #fff;
+$smartling-content-headings-color: #63C2DD;
+
+// END SMARTLING COLORS
+
+//SMARTLING TYPOGRAPHY
+
+$smartling-font-family:   "adelle-sans", Helvetica, Arial, sans-serif !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
+
+// Heading sizes - These are used mostly for content headings
+// Site headers, nav headings, etc have special styles. See smartling-help.scss
+$font-size-h1:            floor(($font-size-base * 2.8)) !default;
+$font-size-h2:            floor(($font-size-base * 2.1)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.777)) !default;
+$font-size-h4:            ceil(($font-size-base * 1.333)) !default;
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
+
+
+// END SMARTLING TYPOGRAPHY
+
+
+
+//
+// DON'T EDIT BELOW HERE PLEASE!
+//
+// DON'T EDIT BELOW HERE PLEASE!
+//
+
+
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -24,28 +68,14 @@ $brand-danger:          #d9534f !default;
 
 
 
-// Smartling Colours
-
-$smartling-link-color: #419DB7;
-$navbar-inverse-color: #FFFFFF;
-$smartling-red: #F26C5D;
-$smartling-green: #66C6B4;
-
-
-
-
-
-
-
-
 //== Scaffolding
 //
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$body-bg:               $smartling-background-white !default;
 //** Global text color on `<body>`.
-$text-color:            #494e50 !default;
+$text-color:            $smartling-text-color !default;
 
 //** Global textual link color.
 $link-color:            $smartling-link-color !default;
@@ -59,22 +89,13 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "adelle-sans", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  $smartling-font-family;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default;
-$font-size-small:         ceil(($font-size-base * 0.85)) !default;
 
-$font-size-h1:            floor(($font-size-base * 2.8)) !default;
-$font-size-h2:            floor(($font-size-base * 2.1)) !default;
-$font-size-h3:            ceil(($font-size-base * 1.777)) !default;
-$font-size-h4:            ceil(($font-size-base * 1.333)) !default;
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.5 !default; // 18/12
@@ -85,7 +106,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 $headings-font-family:    inherit !default;
 $headings-font-weight:    500 !default;
 $headings-line-height:    1.1 !default;
-$headings-color:          #63C2DD;
+$headings-color:          $smartling-content-headings-color;
 
 
 //== Iconography

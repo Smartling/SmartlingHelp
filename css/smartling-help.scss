@@ -26,8 +26,6 @@ $navbar-black: #2A3536;
 
 
 
-
-
 // HEIGHTS AND TOP MARGINS
 
 // Fixed Component Heights
@@ -50,15 +48,9 @@ $target-margin: 0 - $target-height;
 
 
 
-
-
 // BORDERS
 
 $standard-border: 1px solid $border-grey;
-@mixin standard-border {
-    border: $standard-border;
-    border-radius: 4px;
-}
 
 // END BORDERS
 
@@ -178,7 +170,7 @@ $standard-border: 1px solid $border-grey;
 // SIDE NAV STYLES
 
 // Define nav link styles - arguments for size, leading and padding
-@mixin side-links ($side-link-size, $side-link-leading, $side-link-bottom-padding) {
+@mixin nav-links ($side-link-size, $side-link-leading, $side-link-bottom-padding) {
     a {
 
         line-height: $side-link-leading;
@@ -193,7 +185,7 @@ $standard-border: 1px solid $border-grey;
     }
 }
 
-// Indent children in the nav
+// Indent child pages in the nav
 .secondary-nav {
     left: 15px;
 }
@@ -233,7 +225,7 @@ $standard-border: 1px solid $border-grey;
         padding-bottom: 30px;
     }
     .toc {
-        @include side-links(16px, 20px, 8px);
+        @include nav-links(16px, 20px, 8px);
     }
 
     // Fix sidebar on large screens
@@ -250,8 +242,7 @@ $standard-border: 1px solid $border-grey;
 // Home Page Main Nav - Similar to Side Nav list style but a little bigger
 .main-nav {
     .toc {
-        @include side-links(16px, 20px, 8px);
-        padding-bottom: 15px;
+        @include nav-links(16px, 20px, 15px);
     }
     h4 {
         a {

@@ -120,17 +120,15 @@
       overflow-y: scroll;
       overflow-x: hidden; } }
 
-.main-nav .toc {
+.main-nav .toc a {
+  line-height: 20px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 10px;
   padding-bottom: 15px; }
-  .main-nav .toc a {
-    line-height: 20px;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 10px;
-    padding-bottom: 8px; }
-  .main-nav .toc a:hover {
-    color: #F26C5D;
-    background-color: inherit; }
+.main-nav .toc a:hover {
+  color: #F26C5D;
+  background-color: inherit; }
 .main-nav h4 a {
   color: #494E50;
   font-size: 20px;

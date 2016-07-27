@@ -53,7 +53,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 ### File Download Options
 
-* **Download(published translations)** :
+* **Download(published translations)**:
 
   Download the file with all of the published translations (this includes [pre-published](){: .cc-active} translations).
 * **Download (pseudo translations)** - The pseudo translation file contains the original strings with added characters so that it can be used for QA or layout purposes.
