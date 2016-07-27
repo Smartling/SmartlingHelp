@@ -2,8 +2,8 @@
 layout: default
 title: Previews
 ---
-<p> <br> <br> <br> <br> <br> </p>
-{% assign allarticles = site.articles | sort: 'date' %}
+<p> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> </p>
+{% assign allarticles = site.articles | sort: 'title' %}
 <h2>Draft Articles</h2>
 <ul>
 {% for item in allarticles %}
@@ -19,11 +19,9 @@ title: Previews
 {% assign allsections = site.sections | sort: 'date' %}
 <ul>
 {% for item in allsections %}
-	{% if item.draft %}
 		<li>
 			<a href="{{item.url}}">{{item.title}}</a>
 		</li>
-	{% endif %}
 {% endfor %}
 </ul>
 

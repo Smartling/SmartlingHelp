@@ -41,7 +41,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 ## Download individual files
 
-**1)** Navigate to **Content > Files**.
+**1)** Navigate to **Content &gt; Files**.
 
 **2)** Select the file to download.
 
@@ -56,11 +56,8 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 * **Download(published translations)** :
 
   Download the file with all of the published translations (this includes [pre-published](){: .cc-active} translations).
-  
 * **Download (pseudo translations)** - The pseudo translation file contains the original strings with added characters so that it can be used for QA or layout purposes.
-
 * **View pending translations** - Content owners&nbsp; are re-directed to the Content view, where they&nbsp; can review the latest status of content still being translated or content still in the translation workflow.
-
 * **Download (pending translations)** -
 
   Download the file with the latest saved translations even if they have not been published or pre-published.
