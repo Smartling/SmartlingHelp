@@ -15,6 +15,8 @@ $smartling-red: #F26C5D;
 $smartling-green: #66C6B4;
 $smartling-yellow: #EDBB6C;
 $smartling-link-color: #419DB7;
+$smartling-warning-color: #FBD4D0;
+$smartling-info-color: #B1FFFF;
 $link-hover-color:      darken($smartling-link-color, 15%) !default;
 $background-grey: #F6F7F7;
 $text-color: #494E50;
@@ -281,7 +283,7 @@ $headline-padding: 12px;
         padding-bottom: $headline-padding;
     }
 
-    // Center images
+    // Center images and set default size to almost fill the container - standard for full-screen caps
     img {
         max-width: 90%;
         display: block;
@@ -291,7 +293,7 @@ $headline-padding: 12px;
         border-radius: 4px;
     }
 
-    //Set image sizes
+    //Non-default image sizes - editors can apply these sizes using alt tags in markdown like ![medium](/image/url/)
     img[alt="large"] {
         max-width: 70%;
     }
@@ -316,11 +318,11 @@ $headline-padding: 12px;
         background-position: 10px center;
         color: #565A5B;
         font-size: 14px;
-        background-color: #FBD4D0;
+        background-color: $smartling-warning-color;
 
     }
     blockquote.info {
-        background-color: #B1FFFF;
+        background-color: $smartling-info-color;
     }
 }
 
