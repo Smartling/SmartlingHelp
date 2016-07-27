@@ -9,8 +9,8 @@ Applies to:
 edition: Express
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: quji34kue9
 read-first:
   include: false
   sections:
@@ -127,8 +127,8 @@ You can edit the text of issues and comments you created at any time. Just open 
 
 ## Permissions and Notifications Quick Reference
 
-|  | **Source String Issues** | **Translation Issues** |
-| **Account Owner** | Can see, comment and close. Receives notifications for all issues. | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
-| P**roject Manager** | Can see, comment and close. Receives notifications for all issues. | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
-| **Translation Resource/ Translation Resource Manager** | Can see, comment and close. Receives notifications only if they have opened or commented on the issue. | Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue. |
-| **Agency Owner** | Can see, comment and close. Receives notifications only if they have opened or commented on the issue. | Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue. |
+|        | **Source String Issues**       | **Translation Issues** |
+| **Account Owner**       | Can see, comment and close. Receives notifications for all issues.       | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
+| P**roject Manager**       | Can see, comment and close. Receives notifications for all issues.       | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
+| **Translation Resource/ Translation Resource Manager**       | Can see, comment and close. Receives notifications only if they have opened or commented on the issue.       | Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue. |
+| **Agency Owner**       | Can see, comment and close. Receives notifications only if they have opened or commented on the issue.       | Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue. |
