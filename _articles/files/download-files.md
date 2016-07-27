@@ -45,7 +45,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 **2)** Select the file to download.
 
-**3)** Mouse over the target language. test
+**3)** Mouse over the target language.
 
 **4)** Select from one of the file download options.
 
