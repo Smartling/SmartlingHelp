@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'Weekly Q&A: Translation Resources'
+title: 'Weekly Q&A: Agencies'
 draft: true
 Applies to:
   GDN: true
@@ -34,10 +34,12 @@ migration-checklist:
 ---
 
 
-![](/uploads/versions/ask-more-questions---x----1497-836x---.png)
+&nbsp;
 
-Still have questions on how to use Smartling? The Translation Interface? We offer a weekly Q&A sessions dedicated to Translation Resources working in Smartling: Translators, editors, and Internal or External Reviewers.&nbsp;
+![](/uploads/versions/qa2---x----1497-836x---.png)
 
-Sessions are held weekly on Tuesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.&nbsp;
+Still have questions on how to use Smartling? Fuzzy matches? Managing user access? We offer a weekly Q&A sessions dedicated to Agency Project Managers working in Smartling
 
-Click here for a [detailed schedule, upcoming sessions and sign-up](https://attendee.gotowebinar.com/rt/6547639393794862850).&nbsp;
+Sessions are held weekly on Wednesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.&nbsp;
+
+Click here for a [detailed schedule, upcoming sessions, and sign-up](https://attendee.gotowebinar.com/rt/3962727139312039426).&nbsp;
