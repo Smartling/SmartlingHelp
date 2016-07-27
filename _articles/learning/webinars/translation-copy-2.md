@@ -34,10 +34,10 @@ migration-checklist:
 ---
 
 
-![](/uploads/versions/ask-more-questions---x----1497-836x---.png)
+![](/uploads/versions/ao---x----1497-836x---.png)
 
-Still have questions on how to use Smartling? The Translation Interface? We offer a weekly Q&A sessions dedicated to Translation Resources working in Smartling: Translators, editors, and Internal or External Reviewers.
+This weekly session covers Smartling basics for account owners and Project managers: access to projects, workflow and user management, linguistic assets, content management, and reporting.&nbsp;
 
-Sessions are held weekly on Tuesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.
+Sessions are held weekly on Thursdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.
 
-Click here for a [detailed schedule, upcoming sessions and sign-up](https://attendee.gotowebinar.com/rt/6547639393794862850).
+Click here for a [detailed schedule, upcoming sessions and sign-up](https://attendee.gotowebinar.com/rt/6522134022565190402).
