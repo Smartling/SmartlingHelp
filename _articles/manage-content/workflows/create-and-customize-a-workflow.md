@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Create and Customize a Workflow
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -9,8 +9,8 @@ Applies to:
 edition: Express
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: 2g4tanp1v1
 read-first:
   include: false
   sections:
@@ -50,23 +50,23 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 ![](/uploads/versions/smartling___translation_workflow-2---x----968-165x---.png)
 
-**(1)** Add revision steps by clicking&nbsp;**+**. Choose the step type, add a name and set the properties for the step.
+**(1)** Add revision steps by clicking **+**. Choose the step type, add a name and set the properties for the step.
 
 ![medium](/uploads/versions/smartling___translation_workflow-3---x----576-551x---.png)
 
-| Field | Description |
-| Content Assignment | If set to ‘ON’ each string must be assigned to a specific translation resource. If ‘OFF’, any resource with access to this step can work on any string. |
-| Primary Action | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/hc/admin/articles/201519367/) strings enter the workflow. |
-| Resources can revise content | If checked, Translation Resources can edit the translation. Checking \*\*Automatically submit edits by Resources\*\* will cause strings to proceed to the next Workflow step when a Translation Resource saves an edit. |
-| Resources can reject content to: | If set, Translation Resources on revision steps will be able to return content to a previous step. |
-| Resources can Reject and Edit Published Content | If checked, Translation Resources assigned to this step will also be able to edit or reject published strings from this workflow. |
-| Pre-publish all translation submits | If checked, any strings submitted to the next workflow step will be automatically pre-published. |
+| Field       | Description |
+| Content Assignment       | If set to ‘ON’ each string must be assigned to a specific translation resource. If ‘OFF’, any resource with access to this step can work on any string. |
+| Primary Action       | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/hc/admin/articles/201519367/) strings enter the workflow. |
+| Resources can revise content       | If checked, Translation Resources can edit the translation. Checking \*\*Automatically submit edits by Resources\*\* will cause strings to proceed to the next Workflow step when a Translation Resource saves an edit. |
+| Resources can reject content to:       | If set, Translation Resources on revision steps will be able to return content to a previous step. |
+| Resources can Reject and Edit Published Content       | If checked, Translation Resources assigned to this step will also be able to edit or reject published strings from this workflow. |
+| Pre-publish all translation submits       | If checked, any strings submitted to the next workflow step will be automatically pre-published. |
 
 **(2)** Drag and drop steps to reorder the workflow.
 
 **(3)** Edit or remove a step by clicking the drop-down.
 
-**(4)** To allow Translation Resources to reject published strings, edit the **Published** step of the workflow, check **Resources can reject content to:** and select the Workflow step you want rejected content to be returned to. Only resources assigned to a step with the&nbsp;**Resources can Reject and Edit Published Content**&nbsp;option enabled will be able to reject published content.
+**(4)** To allow Translation Resources to reject published strings, edit the **Published** step of the workflow, check **Resources can reject content to:** and select the Workflow step you want rejected content to be returned to. Only resources assigned to a step with the **Resources can Reject and Edit Published Content** option enabled will be able to reject published content.
 
 ![medium](/uploads/versions/smartling___translation_workflow-4---x----576-275x---.png)
 
@@ -90,7 +90,7 @@ Pre-translation steps and Workflow Holds are special steps that pause the flow o
 
 ## Default Authorization Settings
 
-Click&nbsp;**Language Settings** from the&nbsp;**Translation Workflow** page to set a default Workflow for each language. An authorized string will use the default Workflow for its target language unless you specify a different Workflow
+Click **Language Settings** from the **Translation Workflow** page to set a default Workflow for each language. An authorized string will use the default Workflow for its target language unless you specify a different Workflow
 
 ![](/uploads/versions/smartling___translation_workflow-7---x----1249-497x---.png)
 
