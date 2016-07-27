@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Everything you need to know about language selectors
+title: 'Managing a project with Smartling: a video guide for agencies'
 draft: true
 Applies to:
   GDN: true
@@ -9,8 +9,8 @@ Applies to:
 edition:
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: t0rxqx9bmr
 read-first:
   include: false
   sections:
@@ -34,3 +34,4 @@ migration-checklist:
 ---
 
 
+This 10 minute training video provides Translation Resource Managers with the fundamentals of using Smartling and goes over accessing content, setting-up your translation team with access, assigning content, and managing settings.&nbsp;
