@@ -1,5 +1,5 @@
 
-
+/*
 $(document).ready(function() {
     if (window.location.host === 'help.smartling.com' || window.location.host === 'plain-lemongrass.cloudvent.net' || window.location.host === 'localhost:4000') {
         $("#main-text").mark(terms, {className: 'smartling-term', exclude: ["h1", "h2", "h3", "h4", "h5", "a"]});
@@ -42,3 +42,4 @@ $(document).ready(function() {
     }
 });
 
+*/
