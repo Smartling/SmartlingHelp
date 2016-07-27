@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Profile Settings and Project Notifications  for Translation Resources
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -9,8 +9,8 @@ Applies to:
 edition: Express
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: 52sx2doao5
 read-first:
   include: false
   sections:
