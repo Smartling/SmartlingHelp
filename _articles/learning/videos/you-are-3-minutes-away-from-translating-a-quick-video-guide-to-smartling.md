@@ -9,23 +9,19 @@ Applies to:
 edition:
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: bkxddd5abk
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -36,3 +32,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+This short guide, gives you the quick steps to translating in Smartling:&nbsp;
