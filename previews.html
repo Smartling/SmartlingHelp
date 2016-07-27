@@ -3,7 +3,7 @@ layout: default
 title: Previews
 ---
 <p> <br> <br> <br> <br> <br> </p>
-{% assign allarticles = site.articles | sort: 'date' %}
+{% assign allarticles = site.articles | sort: 'title' %}
 <h2>Draft Articles</h2>
 <ul>
 {% for item in allarticles %}
