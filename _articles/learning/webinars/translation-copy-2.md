@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 'Weekly Q&A: Translation Resources'
+title: 'Weekly Training: Introduction to Smartling for Account Owners'
 draft: true
 Applies to:
   GDN: true
@@ -36,8 +36,8 @@ migration-checklist:
 
 ![](/uploads/versions/ask-more-questions---x----1497-836x---.png)
 
-Still have questions on how to use Smartling? The Translation Interface? We offer a weekly Q&A sessions dedicated to Translation Resources working in Smartling: Translators, editors, and Internal or External Reviewers.&nbsp;
+Still have questions on how to use Smartling? The Translation Interface? We offer a weekly Q&A sessions dedicated to Translation Resources working in Smartling: Translators, editors, and Internal or External Reviewers.
 
-Sessions are held weekly on Tuesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.&nbsp;
+Sessions are held weekly on Tuesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.
 
-Click here for a [detailed schedule, upcoming sessions and sign-up](https://attendee.gotowebinar.com/rt/6547639393794862850).&nbsp;
+Click here for a [detailed schedule, upcoming sessions and sign-up](https://attendee.gotowebinar.com/rt/6547639393794862850).
