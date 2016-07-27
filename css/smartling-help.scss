@@ -267,8 +267,8 @@ $headline-padding: 12px;
 // Set background
 .main-content-container {
     background-color: $background-grey;
-    padding-top: $headline-padding; //Spacing above article heading
-    padding-bottom: 20px;
+    padding-top: $headline-padding; //Spacing above and below article heading
+    padding-bottom: 20px; //Stop the end of scrolling content getting cramped at the bottom of the viewport
 }
 
 // Styles for article content
