@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Create and Customize a Workflow
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

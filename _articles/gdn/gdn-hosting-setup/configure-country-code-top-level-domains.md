@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Configure Country Code Top-Level Domains
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

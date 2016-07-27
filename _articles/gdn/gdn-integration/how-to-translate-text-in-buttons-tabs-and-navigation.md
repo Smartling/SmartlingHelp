@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Translate Text in Buttons, Tabs, and, Navigation'
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

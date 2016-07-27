@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Authorize/Unauthorize Content from the List View
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

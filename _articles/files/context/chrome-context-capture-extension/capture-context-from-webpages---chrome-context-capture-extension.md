@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Chrome Context Capture Extension - Capture Context from Webpages
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

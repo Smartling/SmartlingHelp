@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Customize String Capture
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

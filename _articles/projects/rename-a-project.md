@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Rename a Project
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

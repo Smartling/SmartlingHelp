@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Move Strings Between Workflow Steps
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

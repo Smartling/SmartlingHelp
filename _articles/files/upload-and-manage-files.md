@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Upload and Manage Files
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

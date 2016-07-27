@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Do Not Capture Content
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

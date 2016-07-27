@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Processed Words Report
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

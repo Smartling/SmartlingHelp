@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Managing Locale in the HTTP Head of a Page
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

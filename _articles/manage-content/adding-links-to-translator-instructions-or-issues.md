@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Adding links to Translator Instructions or Issues
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

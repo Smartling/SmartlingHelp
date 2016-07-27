@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Magento Connector - User Guide
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

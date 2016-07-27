@@ -1,7 +1,7 @@
 ---
 layout: article
 title: SmartMatch Leverage Report
-draft: true
+draft: false
 wistia:
   video: false
   id:

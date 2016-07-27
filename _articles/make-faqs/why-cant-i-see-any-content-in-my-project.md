@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Why can’t I see any content in my project?
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

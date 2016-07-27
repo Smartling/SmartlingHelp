@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Avoiding Untranslated Content with Static Cache
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

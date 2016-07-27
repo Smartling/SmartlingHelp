@@ -1,7 +1,7 @@
 ---
 layout: article
 title: AEM Classic Connector - Configure Rewrites
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

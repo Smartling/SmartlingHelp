@@ -1,7 +1,7 @@
 ---
 layout: article
 title: What Browsers Does Smartling Support?
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

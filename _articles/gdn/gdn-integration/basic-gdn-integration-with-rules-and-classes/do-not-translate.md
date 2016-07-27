@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Do Not Translate
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

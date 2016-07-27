@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Include Content
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Zendesk Connector - Setup Guide
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

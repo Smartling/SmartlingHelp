@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Edit your Localized Subfolders Path in Smartling
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

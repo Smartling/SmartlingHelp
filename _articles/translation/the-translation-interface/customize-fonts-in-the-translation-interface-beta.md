@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Customize Fonts in the Translation Interface
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

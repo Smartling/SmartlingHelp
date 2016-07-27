@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Requester Portal - Getting Started
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

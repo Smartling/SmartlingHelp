@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Take Advantage of Your Staging Environment
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

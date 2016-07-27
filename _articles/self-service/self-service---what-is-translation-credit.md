@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Self Service - What is Translation Credit?
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

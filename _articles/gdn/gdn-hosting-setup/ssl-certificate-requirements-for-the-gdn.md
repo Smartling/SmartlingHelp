@@ -1,7 +1,7 @@
 ---
 layout: article
 title: SSL Certificate Requirements for the GDN
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

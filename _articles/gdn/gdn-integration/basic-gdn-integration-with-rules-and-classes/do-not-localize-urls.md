@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Do Not Localize URLs
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Chrome Context Capture Extension - Automation
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Set Up A Default Role For New Users
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

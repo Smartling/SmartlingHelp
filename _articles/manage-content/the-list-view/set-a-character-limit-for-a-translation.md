@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Set A Character Limit For A Translation
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

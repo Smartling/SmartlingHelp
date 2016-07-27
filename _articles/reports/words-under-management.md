@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Words Under Management
-draft: true
+draft: false
 wistia:
   video: false
   id:

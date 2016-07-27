@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Image Context for Mobile and Desktop Apps
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

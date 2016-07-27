@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Re-Sort Translated Content
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

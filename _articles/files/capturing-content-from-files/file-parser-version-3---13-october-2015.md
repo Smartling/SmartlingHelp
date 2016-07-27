@@ -1,7 +1,7 @@
 ---
 layout: article
 title: File Parser Version 3 - 13 October 2015
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

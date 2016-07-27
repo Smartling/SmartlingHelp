@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Sitecore Connector - Upgrading to Version 1.3x
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

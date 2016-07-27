@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "I tried to reset my password but I still can't access the Smartling dashboard. What should I do?"
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

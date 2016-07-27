@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Pseudo translations
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

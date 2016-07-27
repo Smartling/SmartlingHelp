@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Inline Content Authorization
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Create a Project
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

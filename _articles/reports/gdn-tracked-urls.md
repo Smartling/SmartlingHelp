@@ -1,7 +1,7 @@
 ---
 layout: article
 title: GDN Tracked URLs
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

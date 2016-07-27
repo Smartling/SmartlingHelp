@@ -1,7 +1,7 @@
 ---
 layout: article
 title: File Integration And The Smartling API
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Plurals
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Zendesk Connector - Manage Updated Content
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

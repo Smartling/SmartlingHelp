@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Fuzzy Match Estimates (Translators)
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

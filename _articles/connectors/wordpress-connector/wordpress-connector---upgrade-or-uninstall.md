@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Wordpress Connector - Upgrade or Uninstall
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

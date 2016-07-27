@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Manually Add Content to a GDN Project
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Profile Settings and Project Notifications  for Translation Resources
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

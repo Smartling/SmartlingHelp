@@ -1,7 +1,7 @@
 ---
 layout: article
 title: How to Specify a Language-Specific CSS
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

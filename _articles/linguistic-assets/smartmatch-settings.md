@@ -1,7 +1,7 @@
 ---
 layout: article
 title: SmartMatch Settings
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

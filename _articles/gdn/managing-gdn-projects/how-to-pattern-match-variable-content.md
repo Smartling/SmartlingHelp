@@ -1,7 +1,7 @@
 ---
 layout: article
 title: GDN - Create Pattern Match Rules
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

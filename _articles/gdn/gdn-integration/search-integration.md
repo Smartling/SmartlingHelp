@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Search Integration
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

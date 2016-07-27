@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Manually Add or Delete Spaces in a Translation
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

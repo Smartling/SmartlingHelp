@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Profile Settings & Project Notifications'
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

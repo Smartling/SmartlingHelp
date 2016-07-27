@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Modify the Smartling Language Selector Menu
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

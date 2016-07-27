@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Adobe InDesign Context
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

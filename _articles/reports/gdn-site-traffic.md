@@ -1,7 +1,7 @@
 ---
 layout: article
 title: GDN Site Traffic
-draft: true
+draft: false
 wistia:
   video: false
   id:

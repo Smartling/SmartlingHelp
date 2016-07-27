@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Placeholders in Files
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: true

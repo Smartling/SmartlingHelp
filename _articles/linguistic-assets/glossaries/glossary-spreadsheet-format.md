@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Glossary Spreadsheet Format
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Marketo Connector - Translate Content
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

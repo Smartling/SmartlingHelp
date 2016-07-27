@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Assign Content to a Translation Resource
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

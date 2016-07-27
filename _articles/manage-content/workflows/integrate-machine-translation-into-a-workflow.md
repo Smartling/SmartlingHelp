@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Integrate Machine Translation Into A Workflow
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

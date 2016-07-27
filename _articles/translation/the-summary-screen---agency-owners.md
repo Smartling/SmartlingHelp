@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Summary Screen (Agency Owners)
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

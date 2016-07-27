@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Troubleshooting Translated Business Documents
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

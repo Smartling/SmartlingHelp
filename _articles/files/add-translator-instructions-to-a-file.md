@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Add translator instructions to a file
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

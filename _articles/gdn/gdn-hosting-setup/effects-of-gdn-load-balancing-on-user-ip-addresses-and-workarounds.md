@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Effects of GDN load-balancing on user IP addresses and workarounds
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: false

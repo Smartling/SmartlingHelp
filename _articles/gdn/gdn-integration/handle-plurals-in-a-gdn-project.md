@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Handle Plurals in a GDN Project
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

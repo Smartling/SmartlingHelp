@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Manage Glossaries
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

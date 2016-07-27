@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Chrome Context Capture Extension - Override Existing Context
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

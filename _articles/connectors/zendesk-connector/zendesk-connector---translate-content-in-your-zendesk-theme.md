@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Zendesk Connector - Translate Content in Your Zendesk Theme
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

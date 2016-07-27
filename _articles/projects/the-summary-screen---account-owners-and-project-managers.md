@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Summary Screen - Account Owners and Project Managers
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Authenticating Users Using Facebook
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

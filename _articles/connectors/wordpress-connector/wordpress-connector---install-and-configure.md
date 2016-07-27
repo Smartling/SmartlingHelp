@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Wordpress Connector - Install and Configure
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false

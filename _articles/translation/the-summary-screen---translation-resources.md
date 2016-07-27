@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Summary Screen (Translation Resources)
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false
