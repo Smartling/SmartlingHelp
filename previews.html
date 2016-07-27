@@ -19,11 +19,9 @@ title: Previews
 {% assign allsections = site.sections | sort: 'date' %}
 <ul>
 {% for item in allsections %}
-	{% if item.draft %}
 		<li>
 			<a href="{{item.url}}">{{item.title}}</a>
 		</li>
-	{% endif %}
 {% endfor %}
 </ul>
 
