@@ -76,7 +76,7 @@ For both excel and word documents, you create a NOTRANSLATE Style, then apply th
 
 ![](/uploads/versions/notranslate-style-1---x----1726-723x---.png)
 
-OPTION #4 - Patterns
+#### OPTION #4 - Patterns
 
 **Project types availability** - Global Delivery Network&nbsp;
 
@@ -94,10 +94,12 @@ In the pattern window, replace the content you don’t want translated by a plac
 
 **Greedy Patterns**
 
-<address>A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.&nbsp;</address>
+<div>A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.&nbsp;</div>
+
+<div><img alt="" src="/uploads/versions/patterns2---x----1176-411x---.png" width="1176" height="411" /></div>
 
 &nbsp;
 
-<address alt="" src="/uploads/versions/patterns2---x----1176-411x---.png" width="1176" height="411">&nbsp;</address>
+<div alt="" src="/uploads/versions/patterns2---x----1176-411x---.png" width="1176" height="411">&nbsp;</div>
 
-<address>In the previous example your pattern ensures that dynamic content is preceded or followed by static content in order to trigger the pattern rule. In the current example you have created, what we refer to, as a greedy pattern which will replace any strings with an email address, no matter what other words precedes or follows it.&nbsp;</address>
+<div>In the previous example your pattern ensures that dynamic content is preceded or followed by static content in order to trigger the pattern rule. In the current example you have created, what we refer to, as a greedy pattern which will replace any strings with an email address, no matter what other words precedes or follows it.&nbsp;</div>
