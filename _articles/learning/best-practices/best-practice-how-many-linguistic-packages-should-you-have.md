@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Best Practice: How Many Linguistic Packages should you have'
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
