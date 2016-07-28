@@ -62,7 +62,7 @@ If you are dealing with an element that does not have a unique class or ID, then
 
 ![](/uploads/versions/example-notranslate--html---x----1176-288x---.png)
 
-#### &nbsp;Option #3 - NOTRANSLATE Style
+#### &nbsp;OPTION #3 - NOTRANSLATE Style
 
 **Project types availability** - Business Documents (excel and Word documents)&nbsp;
 
@@ -74,7 +74,7 @@ For both excel and word documents, you create a NOTRANSLATE Style, then apply th
 
 ![](/uploads/versions/notranslate-style-1---x----1726-723x---.png)
 
-#### Option #4 - Patterns
+#### OPTION #4 - Patterns
 
 **Project types availability** - Global Delivery Network&nbsp;
 
@@ -90,9 +90,9 @@ In the pattern window, replace the content you don’t want translated by a plac
 
 **Greedy Patterns**
 
-<div>A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.&nbsp;</div>
+A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.
 
-<div><img alt="" width="1176" height="411" src="/uploads/versions/patterns2---x----1176-411x---.png" /></div>
+![](/uploads/versions/patterns2---x----1176-411x---.png/)
 
 In the previous example your pattern ensures that dynamic content is preceded or followed by static content in order to trigger the pattern rule. In the current example you have created, what we refer to, as a greedy pattern which will replace any strings with an email address, no matter what other words precedes or follows it.&nbsp;
 
@@ -106,7 +106,7 @@ When you integrate directives inline into the file, you can change the behavior 
 
 ![](/uploads/versions/custom-xml---smartling-slack---x----1014-717x---.png)&nbsp;
 
-#### Option #6 - Delete a string
+#### OPTION #6 - Delete a string
 
 **Project types availability** - Global Delivery Network&nbsp;
 
@@ -122,7 +122,7 @@ To delete strings, go to the Authorization or In Progress view. Once deleted, st
 
 ![](/uploads/versions/delete1---x----1536-861x---.png)
 
-#### Option #7 - Unauthorize
+#### OPTION #7 - Unauthorize
 
 **Project types availability** - Global Delivery Network, Files, and Connectors
 
