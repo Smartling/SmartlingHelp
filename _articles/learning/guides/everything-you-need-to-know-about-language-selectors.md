@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Everything you need to know about language selectors
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -52,21 +52,21 @@ There are quite few [types of website language selection solutions available](ht
 
 **Does Smartling provide its own solution?**
 
-We do offer an embeddable language selector available to Subdomain and ccTLD-type sites. the selector’s code can be pasted onto your site’s template. Not only does the language selector adds [customizable language drop-down](/support/articles/everything-you-need-to-know-about-language-selectors/) list to your site, it also detects the the user’s browser language preferences and automatically redirects them to the appropriate translation of your site.
+We do offer an embeddable language selector available to Subdomain and ccTLD-type sites. the selector’s code can be pasted onto your site’s template. Not only does the language selector adds [customizable language drop-down](/support/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active} list to your site, it also detects the the user’s browser language preferences and automatically redirects them to the appropriate translation of your site.
 
 **Can I use another language selector than the one you are offering?**
 
 You can and should if your site is folder or cookie-based. Very often, simple HTML will do:
 
-~~~
-<div class="lang_selector sl_opaque">
- <ul>
-    <li><a href="http://www.yoursite.com">English</a></li>
-    <li><a href="http://fr.yoursite.com">Fran&ccedil;ais</a></li>
-    <li><a href="http://es.yoursite.com">Espa&ntilde;ol</a></li>
- </ul>
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;div class="lang_selector sl_opaque"&gt;
+ &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.yoursite.com"&gt;English&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://fr.yoursite.com"&gt;Fran&amp;ccedil;ais&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://es.yoursite.com"&gt;Espa&amp;ntilde;ol&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre>
 </div>
-~~~
 
 And if you want to add fancy options, such as putting the current language on top, you’ll need to source your own javascript/CSS.
 
@@ -86,6 +86,6 @@ In the case of Forced IP, the server uses the IP address location of the request
 
 **Other Resources**
 
-Smartling Help Center: [Install and customize the Smarting Language Selector](/support/articles/everything-you-need-to-know-about-language-selectors/)
+Smartling Help Center: [Install and customize the Smarting Language Selector](/support/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active}
 
 Smartling Blog: [A few tips on Navigation for multilingual site](https://www.smartling.com/blog/a-few-tips-for-language-navigation-on-multilingual-sites/)
