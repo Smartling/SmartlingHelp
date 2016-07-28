@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Plurals
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -91,14 +91,13 @@ When you download the translated file, the number of plural forms in the file de
 
 ## Plurals for Gettext Files
 
-Plural sensitive forms for Gettext files are indicated by the source .pot file having a string marked 'msgid_plural', for example:
+Plural sensitive forms for Gettext files are indicated by the source .pot file having a string marked ‘msgid_plural’, for example:
 
-~~~
-msgid “added %d item to cart”
-msgid_plural “added %d items to cart”
-msgstr[0] “”
-msgstr[1] “”
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>msgid &ldquo;added %d item to cart&rdquo;
+msgid_plural &ldquo;added %d items to cart&rdquo;
+msgstr[0] &ldquo;&rdquo;
+msgstr[1] &ldquo;&rdquo;
+</code></pre></div>
 
 Once translated, the downloaded .po file will have the plural forms needed for the target language and the appropriate language-specific headers. Smartling returns the PluralForm header in the top of the file (if it existed in the original file) that contains the correct plurals rules for that locale.
 
@@ -108,59 +107,52 @@ Once translated, the downloaded .po file will have the plural forms needed for t
 
 Plural sensitive forms for YAML files are indicated at the sub-key level. For example, the one and other keys in the following English source file indicate that the string is plural sensitive:
 
-~~~
-image_upload_timestamp:
+<div class="highlighter-rouge"><pre class="highlight"><code>image_upload_timestamp:
     one: "uploaded %{num_secs} second ago"
     other: "uploaded %{num_secs} seconds ago"
-~~~
+</code></pre></div>
 
 You can turn off detection of plurals using the following directive: # smartling.plurals_detection = off
 
 ## Plurals for QT TS Files
 
-Plural sensitive forms for QT Linguist files are indicated by the source string having "numerus = "yes" " and the variations using the "numerusform" element with the "plurality" attribute. For example:
+Plural sensitive forms for QT Linguist files are indicated by the source string having “numerus = “yes” “ and the variations using the “numerusform” element with the “plurality” attribute. For example:
 
-~~~
-<message numerus="yes">
- <source>%1 subtitle(s) extracted</source>
- <translation>
-   <numerusform plurality="singular">%1 subtitle extracted</numerusform>
-   <numerusform plurality="plural">%1 subtitles extracted</numerusform>
- </translation>
-</message>
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;message numerus="yes"&gt;
+ &lt;source&gt;%1 subtitle(s) extracted&lt;/source&gt;
+ &lt;translation&gt;
+   &lt;numerusform plurality="singular"&gt;%1 subtitle extracted&lt;/numerusform&gt;
+   &lt;numerusform plurality="plural"&gt;%1 subtitles extracted&lt;/numerusform&gt;
+ &lt;/translation&gt;
+&lt;/message&gt;
+</code></pre></div>
 
 ## Plurals for Android Files
 
 Plural sensitive forms for Android files are indicated by the source file having a string marked plurals, for example:
 
-~~~
-<plurals name="plural_strings2">
-    <item quantity="one">You have %s item in your cart.</item>
-    <item quantity="other">You have %s items in your cart.</item>
-</plurals>
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;plurals name="plural_strings2"&gt;
+    &lt;item quantity="one"&gt;You have %s item in your cart.&lt;/item&gt;
+    &lt;item quantity="other"&gt;You have %s items in your cart.&lt;/item&gt;
+&lt;/plurals&gt;
+</code></pre></div>
 
-Smartling conforms to the Android standard for plurals: [http://developer.android.com/guide/topics/resources/string-resource...](http://developer.android.com/guide/topics/resources/string-resource.html#Plurals)
+Smartling conforms to the Android standard for plurals: [http://developer.android.com/guide/topics/resources/string-resource…](http://developer.android.com/guide/topics/resources/string-resource.html#Plurals)
 
 ## Plurals for iOS Files
 
-While Apple has now released the [Stringsdict format]() to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
+While Apple has now released the [Stringsdict format](){: .cc-active} to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
 
 Plural sensitive forms for iOS files are indicated by source files with strings in the following form:
 
-~~~
-KEY##{rule}
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>KEY##{rule}
+</code></pre></div>
 
-Where:
-* `KEY` is the original key string
-* `rule` is one of the plural forms: zero, one, two, few, many, other, and conforms to the [CLDR](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html) specification on plural forms. Smartling loads a translation following rules as defined under CLDR.
+Where: \* `KEY`{: .highlighter-rouge} is the original key string \* `rule`{: .highlighter-rouge} is one of the plural forms: zero, one, two, few, many, other, and conforms to the [CLDR](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html) specification on plural forms. Smartling loads a translation following rules as defined under CLDR.
 
-For example, here are sample resource files for the key `%d songs found:`
+For example, here are sample resource files for the key `%d songs found:`{: .highlighter-rouge}
 
-~~~
-en.lproj/Localizable.strings
+<div class="highlighter-rouge"><pre class="highlight"><code>en.lproj/Localizable.strings
 
 /* Number of songs from search results */
 
@@ -175,4 +167,4 @@ ru.lproj/Localizable.strings
 "%d songs found##{few}" = "Найдено %d песни";
 "%d songs found##{many}" = "Найдено %d песен";
 "%d songs found##{other}" = "Найдено %d песен";
-~~~
+</code></pre></div>
