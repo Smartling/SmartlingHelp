@@ -92,7 +92,7 @@ In the pattern window, replace the content you don’t want translated by a plac
 
 A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.
 
-![](/uploads/versions/patterns2---x----1176-411x---.png/)
+![](/uploads/versions/patterns2---x----1176-411x---.png)
 
 In the previous example your pattern ensures that dynamic content is preceded or followed by static content in order to trigger the pattern rule. In the current example you have created, what we refer to, as a greedy pattern which will replace any strings with an email address, no matter what other words precedes or follows it.&nbsp;
 
