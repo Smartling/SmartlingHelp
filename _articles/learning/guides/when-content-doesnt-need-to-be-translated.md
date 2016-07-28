@@ -62,7 +62,7 @@ If you are dealing with an element that does not have a unique class or ID, then
 
 ![](/uploads/versions/example-notranslate--html---x----1176-288x---.png)
 
-#### &nbsp;OPTION #3 - NOTRANSLATE Style
+#### &nbsp;Option #3 - NOTRANSLATE Style
 
 **Project types availability** - Business Documents (excel and Word documents)&nbsp;
 
@@ -74,7 +74,7 @@ For both excel and word documents, you create a NOTRANSLATE Style, then apply th
 
 ![](/uploads/versions/notranslate-style-1---x----1726-723x---.png)
 
-#### OPTION #4 - Patterns
+#### Option #4 - Patterns
 
 **Project types availability** - Global Delivery Network&nbsp;
 
@@ -106,7 +106,7 @@ When you integrate directives inline into the file, you can change the behavior 
 
 ![](/uploads/versions/custom-xml---smartling-slack---x----1014-717x---.png)&nbsp;
 
-#### OPTION #6 - Delete a string
+#### Option #6 - Delete a string
 
 **Project types availability** - Global Delivery Network&nbsp;
 
@@ -122,7 +122,7 @@ To delete strings, go to the Authorization or In Progress view. Once deleted, st
 
 ![](/uploads/versions/delete1---x----1536-861x---.png)
 
-#### OPTION #7 - Unauthorize
+#### Option #7 - Unauthorize
 
 **Project types availability** - Global Delivery Network, Files, and Connectors
 
