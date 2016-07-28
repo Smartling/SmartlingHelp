@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Weekly Q&A: Agencies'
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -34,12 +34,10 @@ migration-checklist:
 ---
 
 
-&nbsp;
-
 ![](/uploads/versions/qa2---x----1497-836x---.png)
 
 Still have questions on how to use Smartling? Fuzzy matches? Managing user access? We offer a weekly Q&A sessions dedicated to Agency Project Managers working in Smartling
 
-Sessions are held weekly on Wednesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.&nbsp;
+Sessions are held weekly on Wednesdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.
 
-Click here for a [detailed schedule, upcoming sessions, and sign-up](https://attendee.gotowebinar.com/rt/3962727139312039426).&nbsp;
+Click here for a [detailed schedule, upcoming sessions, and sign-up](https://attendee.gotowebinar.com/rt/3962727139312039426).
