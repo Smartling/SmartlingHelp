@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "When content doesn't need to be translated"
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -122,7 +122,7 @@ To delete strings, go to the Authorization or In Progress view. Once deleted, st
 
 ![](/uploads/versions/delete1---x----1536-861x---.png)
 
-#### OPTION #7 - Unauthorize
+#### Option #7 - Unauthorize
 
 **Project types availability** - Global Delivery Network, Files, and Connectors
 
