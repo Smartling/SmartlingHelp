@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Issues
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -9,8 +9,8 @@ Applies to:
 edition: Express
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: quji34kue9
 read-first:
   include: false
   sections:
@@ -30,13 +30,13 @@ migration-checklist:
   images: false
   FAQs: false
   related: false
-  reviewed: false
+  reviewed: true
 ---
 
 
 ![](/uploads/versions/smartling___translations_management-14---x----972-395x---.png)
 
-Issues are a way for users working on a translation workflow to communicate with other users about the original source content and translations. For example, a Translator might create an Issue to ask a question about terminology in a particular string. By using Issues, you can record any communication about a string, and this can be seen by anyone working on it. Issues streamline the translation workflow. Translators get answers to their questions about the original content so they can translate it quickly and correctly. &nbsp;Translation resources can review and provide feedback about translations collaboratively. Issues can be created, commented on and resolved.
+Issues are a way for users working on a translation workflow to communicate with other users about the original source content and translations. For example, a Translator might create an Issue to ask a question about terminology in a particular string. By using Issues, you can record any communication about a string, and this can be seen by anyone working on it. Issues streamline the translation workflow. Translators get answers to their questions about the original content so they can translate it quickly and correctly.  Translation resources can review and provide feedback about translations collaboratively. Issues can be created, commented on and resolved.
 
 [Markdown-format links](/hc/en-us/articles/216722378) are supported in issue text.
 
@@ -48,7 +48,7 @@ There are two kinds of issues: **Source String** **issues** and **Translation is
 
 ### Source String:
 
-Issues or questions about the original content, such as clarification about the meaning of the original string or a mistake/typo. Source string issues are not language specific and will be visible to all users with access to the string in any language. By default, Account Owners, Project Managers will receive notification about Source String issues if they have enabled notifications. &nbsp;The Translation Resource who opens the Source String Issue and any other who comments on it will receive notifications about comments and state change.
+Issues or questions about the original content, such as clarification about the meaning of the original string or a mistake/typo. Source string issues are not language specific and will be visible to all users with access to the string in any language. By default, Account Owners, Project Managers will receive notification about Source String issues if they have enabled notifications.  The Translation Resource who opens the Source String Issue and any other who comments on it will receive notifications about comments and state change.
 
 #### Types:
 
@@ -78,7 +78,7 @@ Issues dealing with the translation of the string for a particular language. Tra
 #### Visibility and Notifications:
 
 * Translation issues can be seen, commented on and closed by all Account Owners and Project Managers for the project and any Translation Resources, Translation Resource Managers and Agency Owners working in the relevant language.
-* Email Notifications are sent to any Translation Resources and Translation Resource Managers that worked on the translation as well as anyone who opened or commented on the issue. Account Owners and Project managers don't receive notifications unless they open or comment on a translation issue.
+* Email Notifications are sent to any Translation Resources and Translation Resource Managers that worked on the translation as well as anyone who opened or commented on the issue. Account Owners and Project managers don’t receive notifications unless they open or comment on a translation issue.
 
 
 ## Create an Issue:
@@ -122,37 +122,13 @@ You can edit the text of issues and comments you created at any time. Just open 
 * You can manage your e-mail notification preferences from the Project Notifications tab of your Smartling Profile
 * Account Owners and Project Managers can keep track of issues in the [Issues Report](){: .cc-active}.
 * We recommend that issues get resolved before the translation is published. We allow content to be published with open issues because most users don’t want to hold up their translation workflow, however, it’s good practice to resolve all issues so that the reports will accurately reflect your project’s current state. If needed you can return translations for editing after they are published in order to address the issue.
-* Content owners (Account Owners and Project Managers) should respond to Source String Issues as fast as possible. &nbsp;When translators open source string issues there is a good chance they are not able to proceed with translation or don’t feel confident in creating a translation because they need resolution of their question. It’s also a strong indication that there might be integration/content capture issues that need to be resolved, and the string shouldn’t be translated at all.
+* Content owners (Account Owners and Project Managers) should respond to Source String Issues as fast as possible.  When translators open source string issues there is a good chance they are not able to proceed with translation or don’t feel confident in creating a translation because they need resolution of their question. It’s also a strong indication that there might be integration/content capture issues that need to be resolved, and the string shouldn’t be translated at all.
 
 
 ## Permissions and Notifications Quick Reference
 
-<table>
-<tbody>
-<tr>
-<td> </td>
-<td data-sheets-value="[null,2,&quot;Source String Issues&quot;]"><strong>Source String Issues</strong></td>
-<td data-sheets-value="[null,2,&quot;Translation Issues&quot;]"><strong>Translation Issues</strong></td>
-</tr>
-<tr>
-<td data-sheets-value="[null,2,&quot;Account Owner&quot;]"><strong>Account Owner</strong></td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications for all issues.&quot;]">Can see, comment and close. Receives notifications for all issues.</td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications if they opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications if they opened or commented on the issue.</td>
-</tr>
-<tr>
-<td data-sheets-value="[null,2,&quot;Project Manager&quot;]">P<strong>roject Manager</strong></td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications for all issues.&quot;]">Can see, comment and close. Receives notifications for all issues.</td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications if they opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications if they opened or commented on the issue.</td>
-</tr>
-<tr>
-<td data-sheets-value="[null,2,&quot;Translation Resource/ Translation Resource Manager&quot;]"><strong>Translation Resource/ Translation Resource Manager</strong></td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close. Receives notifications only if they have opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications only if they have opened or commented on the issue.</td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue.&quot;]">Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue.</td>
-</tr>
-<tr>
-<td data-sheets-value="[null,2,&quot;Agency Owner&quot;]"><strong>Agency Owner</strong></td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close. Can see, comment and close. Receives notifications only if they have opened or commented on the issue.&quot;]">Can see, comment and close. Receives notifications only if they have opened or commented on the issue.</td>
-<td data-sheets-value="[null,2,&quot;Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue.&quot;]">Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue.</td>
-</tr>
-</tbody>
-</table>
+|        | **Source String Issues**       | **Translation Issues** |
+| **Account Owner**       | Can see, comment and close. Receives notifications for all issues.       | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
+| P**roject Manager**       | Can see, comment and close. Receives notifications for all issues.       | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
+| **Translation Resource/ Translation Resource Manager**       | Can see, comment and close. Receives notifications only if they have opened or commented on the issue.       | Can see, comment and close only if they have access to the language at issue. Receives notifications if they have worked on the translation or if they opened or commented on the issue. |
+| **Agency Owner**       | Can see, comment and close. Receives notifications only if they have opened or commented on the issue.       | Can see, comment and close only if they have access to the language at issue. Receives notifications if they opened or commented on the issue. |
