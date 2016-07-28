@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Weekly Training: Introduction to Smartling for Account Owners'
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -36,7 +36,7 @@ migration-checklist:
 
 ![](/uploads/versions/ao---x----1497-836x---.png)
 
-This weekly session covers Smartling basics for account owners and Project managers: access to projects, workflow and user management, linguistic assets, content management, and reporting.&nbsp;
+This weekly session covers Smartling basics for account owners and Project managers: access to projects, workflow and user management, linguistic assets, content management, and reporting.
 
 Sessions are held weekly on Thursdays from 10 to 11:00 AM EST or 3:00 to 4:00 PM EST.
 
