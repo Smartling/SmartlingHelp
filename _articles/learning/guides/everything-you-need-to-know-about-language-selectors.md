@@ -69,7 +69,7 @@ You can and should if your site is folder or cookie-based. Very often, simple HT
 
 And if you want to add fancy options, such as putting the current language on top, you’ll need to source your own javascript/CSS.
 
-**Are there more seamless ways to direct end-users to a translated version of my site?**
+#### **Are there more seamless ways to direct end-users to a translated version of my site?**
 
 you might want to consider a server-side solution which “force-directs” the user to a translated version of your site based on their browser language settings or IP location:
 
@@ -83,7 +83,7 @@ The browser, through the Accept-language header, sends out, as part of the reque
 
 In the case of Forced IP, the server uses the IP address location of the requester to decide which translated version of your site to display. In addition to implementing server-side code, you’ll need to use IP Geolocation technologies such as [Maxmind](https://www.maxmind.com/en/home) to help you determine where the end-user’s computer is actually located.
 
-**Other Resources**
+#### **Other Resources**
 
 Smartling Help Center: [Install and customize the Smarting Language Selector](/support/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active}
 
