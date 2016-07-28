@@ -54,7 +54,7 @@ Although we are in the business of translation, we’ll be the first to point ou
 
 **When should you use the &lt;notranslate&gt; tag**- Use&nbsp; if you don’t want a set or class of strings translated but still need them displayed ‘as-is’ in the localized version of your site or file, for example email addresses, proper names, company names, addresses etc.&nbsp;
 
-&nbsp;If you know what HTML element the strings are being ingested from, and the element has a unique class or ID, you can simply apply the no translate rule to that specific class or ID via the [GDN rule configuration](http://plain-lemongrass.cloudvent.net/support/sections/basic-gdn-integration-using-rules-and-classes/).&nbsp;
+&nbsp;If you know what HTML element the strings are being ingested from, and the element has a unique class or ID, you can simply apply the no translate rule to that specific class or ID via the GDN rule configuration.&nbsp;
 
 ![](/uploads/versions/notranslate-1---x----1671-1038x---.png)
 
@@ -82,7 +82,7 @@ For both excel and word documents, you create a NOTRANSLATE Style, then apply th
 
 **When should you use Patterns&nbsp;**- Use patterns to exclude only a part of string instead of the entire string.
 
-To create a pattern, head over to the list view, select the string you want to exclude content from, and go to the actions menu.&nbsp;
+To [create a pattern](/create-and-manage-patterns-gdn/), head over to the list view, select the string you want to exclude content from, and go to the actions menu.&nbsp;
 
 In the pattern window, replace the content you don’t want translated by a placeholder.&nbsp; Then run a pattern match to see if there are any similar strings.&nbsp; Finally click Apply to run the pattern rule on the selected matches: this will ensure that static content is only translated&nbsp; once and that smartling passes through any “paternized value” the GDN may see, without translation.&nbsp;
 
@@ -90,9 +90,9 @@ In the pattern window, replace the content you don’t want translated by a plac
 
 **Greedy Patterns**
 
-A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.
+<div>A common mistake is to turn an entire string into a pattern, for example a string that is only made-up of email address.&nbsp;</div>
 
-![](/uploads/versions/patterns2---x----1176-411x---.png)
+<div><img alt="" width="1176" height="411" src="/uploads/versions/patterns2---x----1176-411x---.png" /></div>
 
 In the previous example your pattern ensures that dynamic content is preceded or followed by static content in order to trigger the pattern rule. In the current example you have created, what we refer to, as a greedy pattern which will replace any strings with an email address, no matter what other words precedes or follows it.&nbsp;
 
@@ -128,6 +128,6 @@ To delete strings, go to the Authorization or In Progress view. Once deleted, st
 
 **What you need to know about Unauthorize**- Unauthorizing content is more of a way to send back content in the authorization queue that was mistakenly authorized for translation. Please note that you can only unauthorize content that has not yet been translated.
 
-To unauthorize strings, go to the In progress view. Once unauthorized strings are removed from the In Progress view and placed back in your authorization queue.&nbsp;
+To [unauthorize strings](/authorize-content-from-the-list-view/), go to the In progress view. Once unauthorized strings are removed from the In Progress view and placed back in your authorization queue.&nbsp;
 
 ![](/uploads/versions/unauthorize---x----1509-951x---.png)
