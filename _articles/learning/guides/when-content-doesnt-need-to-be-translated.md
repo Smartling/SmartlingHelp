@@ -54,7 +54,7 @@ Although we are in the business of translation, we’ll be the first to point ou
 
 **When should you use the &lt;notranslate&gt; tag**- Use&nbsp; if you don’t want a set or class of strings translated but still need them displayed ‘as-is’ in the localized version of your site or file, for example email addresses, proper names, company names, addresses etc.&nbsp;
 
-&nbsp;If you know what HTML element the strings are being ingested from, and the element has a unique class or ID, you can simply apply the no translate rule to that specific class or ID via the GDN rule configuration.&nbsp;
+&nbsp;If you know what HTML element the strings are being ingested from, and the element has a unique class or ID, you can simply apply the no translate rule to that specific class or ID via the [GDN rule configuration](http://plain-lemongrass.cloudvent.net/support/sections/basic-gdn-integration-using-rules-and-classes/).&nbsp;
 
 ![](/uploads/versions/notranslate-1---x----1671-1038x---.png)
 
