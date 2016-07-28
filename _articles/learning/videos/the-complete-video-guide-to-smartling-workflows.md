@@ -9,7 +9,7 @@ Applies to:
 edition:
 redirect-url:
 wistia:
-  video: false
+  video: true
   id: 2g4tanp1v1
 read-first:
   include: false
