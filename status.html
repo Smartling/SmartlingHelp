@@ -3,29 +3,47 @@ layout: default
 title: Site Status
 ---
 
-<p><br /> <br /> <br /> <br /> </p>
 
-<h1>{{page.title}}</h1>
+<p><br /> <br /> <br /> <br /> <br /> <br /> <br /> </p>
+<div class="container">
+	<h1>{{page.title}}</h1>
 
-<h2>Duplicated Navigation</h2>
+	<h2>Duplicated Navigation</h2>
 
-{% for article in site.articles %}
-	{% assign currentSections = site.emptyArray %}
-	{% for section in site.sections %}
-		{% for subarticle in section.subarticles %}
-		{% if subarticle.title == article.title %}
-			{% assign currentSections = currentSections | push: section %}
-		{% endif %}
-		{% endfor %}
-	{% endfor %}
-	{% assign currentSectionsLength = currentSections | size %}
-	{% if currentSectionsLength > 1 %}
-		<h5>{{article.title}}</h5>
-		<ul>
-			{% for currentSection in currentSections %}
-				<li><a href="{{currentSection.url}}">{{currentSection.title}}</a></li>
+	{% assign orphans = site.emptyArray %}
+	{% for article in site.articles %}
+		{% assign currentSections = site.emptyArray %}
+		{% for section in site.sections %}
+			{% for subarticle in section.subarticles %}
+			{% if subarticle.title == article.title %}
+				{% assign currentSections = currentSections | push: section %}
+			{% endif %}
 			{% endfor %}
-		</ul>
-	{% endif %}
-{% endfor %}
+		{% endfor %}
+		{% assign currentSectionsLength = currentSections | size %}
+		{% if currentSectionsLength > 1 %}
+			<h5>{{article.title}}</h5>
+			<ul>
+				{% for currentSection in currentSections %}
+					<li><a href="{{currentSection.url}}">{{currentSection.title}}</a></li>
+				{% endfor %}
+			</ul>
+		{% endif %}
+		{% if currentSectionsLength == 0 %}
+			{% assign orphans = orphans | push: article %}
+		{% endif %}
+	{% endfor %}
 
+	<h2>
+		Unpublished Articles
+	</h2>
+	<ul>
+		{% assign orphans = orphans | sort: 'title' %}
+		{% for orphan in orphans %}
+			<li>
+				<a href="{{orphan.url}}">{{orphan.title}}</a>
+			</li>
+		{% endfor %}
+	</ul>
+
+</div>

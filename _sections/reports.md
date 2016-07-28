@@ -6,6 +6,7 @@ subsections:
   - title: none
     published: true
 subarticles:
+  - title: Account-Level Reports
   - title: Processed Words Report
   - title: Issue Report
   - title: SmartMatch Leverage Report

@@ -6,6 +6,7 @@
     bottom: 0; }
     .smartling-header ul li a {
       font-size: 16px;
+      font-weight: 300;
       line-height: 30px; }
     .smartling-header ul li a.active {
       color: #F26C5D;
@@ -98,6 +99,22 @@
       color: #494E50; }
     .side-nav-widget .panel-heading a :hover {
       color: #2d6d7f; }
+  .side-nav-widget .request-button {
+    margin: 0 auto; }
+    .side-nav-widget .request-button .panel-heading {
+      background-color: #62C2DD !important;
+      padding-left: 10px; }
+      .side-nav-widget .request-button .panel-heading a i {
+        font-size: 30px;
+        vertical-align: middle;
+        color: #fff !important;
+        display: inline-block; }
+      .side-nav-widget .request-button .panel-heading a h5 {
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 100;
+        vertical-align: middle;
+        display: inline-block; }
   .side-nav-widget .panel-body {
     border-top: 1px solid #f1f1f1;
     border-top-color: #f1f1f1 !important;
@@ -206,9 +223,9 @@
 .whats-new-cards .card {
   height: 170px;
   background: #2A3536;
-  color: white; }
+  color: #fff; }
   .whats-new-cards .card h3, .whats-new-cards .card h4, .whats-new-cards .card p {
-    color: white;
+    color: #fff;
     padding-left: 15px;
     padding-right: 15px; }
   .whats-new-cards .card h3, .whats-new-cards .card h4 {
@@ -220,7 +237,7 @@
     font-size: 14px; }
   .whats-new-cards .card .home-card-button, .whats-new-cards .card .button-red, .whats-new-cards .card .button-yellow {
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     padding: 10px 10px 10px 10px;
     border-radius: 4px;
     position: absolute;
@@ -231,14 +248,14 @@
     margin: 0 auto;
     text-align: center;
     width: 180px; }
-  .whats-new-cards .card .read-more {
-    position: absolute;
-    bottom: 15px;
-    right: 30px; }
   .whats-new-cards .card .button-red {
     background: #F26C5D; }
   .whats-new-cards .card .button-yellow {
     background: #EDBB6C; }
+  .whats-new-cards .card .read-more {
+    position: absolute;
+    bottom: 15px;
+    right: 30px; }
 
 .popular-topics {
   padding-left: 30px;

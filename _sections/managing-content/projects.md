@@ -9,6 +9,8 @@ subarticles:
   - title: Archive/Unarchive a Project
   - title: Manage Languages in a Project
   - title: Rename a Project
+  - title: The Project Summary View
+  - title: Manage Languages
 wistia:
   video: false
   id:

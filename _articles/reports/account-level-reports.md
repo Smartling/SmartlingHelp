@@ -37,6 +37,6 @@ In addition to project-level reports, content owners can access reports covering
 
 ![](/uploads/versions/account-level-reports---x----593-193x---.png)
 
-Account level versions of the [Processed Words](/hc/en-us/articles/206988847), [Translation Velocity](/hc/en-us/articles/207185267), [SmartMatch Leverage](/hc/en-us/articles/206281078) and [Words Under Management](/hc/en-us/articles/201684323) reports are available.
+Account level versions of the [Processed Words](), [Translation Velocity](), [SmartMatch Leverage]() and [Words Under Management]() reports are available.
 
 ![](/uploads/versions/account-level-reports2---x----1261-785x---.png)

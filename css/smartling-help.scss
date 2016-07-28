@@ -17,9 +17,11 @@ $smartling-yellow: #EDBB6C;
 $smartling-link-color: #419DB7;
 $smartling-warning-color: #FBD4D0;
 $smartling-info-color: #B1FFFF;
+$smartling-blue: #62C2DD;
 $link-hover-color:      darken($smartling-link-color, 15%) !default;
 $background-grey: #F6F7F7;
 $text-color: #494E50;
+$smartling-white-text-color: #fff;
 $border-grey: #f1f1f1;
 $home-heading-color: #2d3133;
 $navbar-black: #2A3536;
@@ -70,6 +72,7 @@ $standard-border: 1px solid $border-grey;
         li {
             a {
                 font-size: 16px;
+                font-weight: 300;
                 line-height: 30px;
                 }
             a.active {
@@ -218,6 +221,30 @@ $standard-border: 1px solid $border-grey;
         }
         padding-left: 24px;
     }
+
+    .request-button {
+        margin: 0 auto;
+        .panel-heading {
+            background-color: $smartling-blue !important;
+            padding-left: 10px;
+            a {
+                i {
+                    font-size: 30px;
+                    vertical-align: middle;
+                    color: $smartling-white-text-color !important;
+                    display: inline-block;
+                }
+                h5 {
+                    color: $smartling-white-text-color !important;
+                    font-size: 18px;
+                    font-weight: 100;
+                    vertical-align: middle;
+                    display: inline-block;
+
+                }
+            }
+        }
+    }
     .panel-body {
         border-top: $standard-border;
         border-top-color: $border-grey !important;
@@ -237,7 +264,11 @@ $standard-border: 1px solid $border-grey;
         overflow-y: scroll; // Scroll overflow when lots of nav entries
         overflow-x: hidden;
     }
+
+
+
 }
+
 
 
 
@@ -332,7 +363,6 @@ $headline-padding: 12px;
 
 //Content height adjustment to allow for banner
 
-
 .home-banner {
     margin-top: $navbar-height;
     position: fixed;
@@ -340,7 +370,7 @@ $headline-padding: 12px;
     z-index: 1030;
     width: 100%;
     background-color: $navbar-black;
-    color: #fff;
+    color: $smartling-white-text-color;
     text-align: center;
     h1 {
         color: inherit;
@@ -348,56 +378,63 @@ $headline-padding: 12px;
     }
 }
 
+// Styles for action cards at the top of the home page 'Getting Started', Account Owners', 'Developers' etc
+
 .action-cards {
     text-align: center;
     i {
-        font-size: 80px;
-        padding-bottom: 10px;
+        font-size: 80px; //This is the size of the icons
+        padding-bottom: 10px; // Leave space between icons and text
     }
     .card-text {
-        color: $text-color;
+        color: $text-color; // Stop default link color from applying to the icon text
     }
-    margin-bottom: 30px;
+    margin-bottom: 30px;  // Leave space between the action cards and the next
 }
 
 
+// Section headings - 'What's New', 'Popular Topics'
 .home-section {
     h2 {
         color: $home-heading-color;
         border-bottom: 1px solid black;
         padding-bottom: 15px;
-        text-transform: uppercase;
+        text-transform: uppercase; //Displays text in all caps
         font-size: 19px;
         margin-bottom: 15px;
         }
-    padding-bottom: 30px;
+    padding-bottom: 30px; //leave space below each heading
 }
 
+
+// Black cards for 'What's New section
 .whats-new-cards {
     .card {
         height: 170px;
         background: #2A3536;
-        color: white;
+        color: $smartling-white-text-color;
         h3, h4, p {
-            color: white;
+            color: $smartling-white-text-color;
             padding-left: 15px;
             padding-right: 15px;
 
         }
         h3, h4 {
-            text-transform: uppercase;
+            text-transform: uppercase; //Always show headings in all caps
         }
+        // Main card heading - 'Blog', 'Webinars' etc
         h3 {
             padding-top: 15px;
             font-size: 19px;
         }
+        // Subheading - title of a featured blog article, best practice.
         h4 {
             font-size: 14px;
         }
 
         .home-card-button {
             text-transform: uppercase;
-            color: white;
+            color: $smartling-white-text-color;
             padding: 10px 10px 10px 10px;
             border-radius: 4px;
             position: absolute;
@@ -405,15 +442,9 @@ $headline-padding: 12px;
             bottom: 15px;
             left: 0;
             right: 0;
-            margin: 0 auto;
-            text-align: center;
-            width: 180px;
-        }
-
-        .read-more {
-           position: absolute;
-           bottom: 15px;
-           right: 30px;
+            margin: 0 auto;  //center the button within the card
+            text-align: center;  //centers text within the button
+            width: 180px;  //Buttons have a set width - change text with caution
         }
 
         .button-red {
@@ -424,6 +455,12 @@ $headline-padding: 12px;
         .button-yellow {
             @extend .home-card-button;
             background: $smartling-yellow;
+        }
+
+        .read-more {
+            position: absolute;
+            bottom: 15px;
+            right: 30px;
         }
 
     }

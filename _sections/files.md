@@ -10,6 +10,7 @@ subarticles:
   - title: Supported File Types
   - title: Download Files
   - title: Upload and Manage Files
+  - title: Importing Translations
   - title: Add translator instructions to a file
 migration-checklist:
   internal-links: false

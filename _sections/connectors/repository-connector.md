@@ -6,8 +6,7 @@ subsections:
   - title: none
     published: true
 subarticles:
-  - title:
-    published: true
+  - title: Repository Connector - Version History
 wistia:
   video: false
   id:

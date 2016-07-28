@@ -4,7 +4,7 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Drupal Connector - Version History
 wistia:
   video: false
   id:

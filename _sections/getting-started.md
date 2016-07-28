@@ -7,7 +7,6 @@ subsections:
     published: true
 subarticles:
   - title: Get Started with Smartling
-  - title: Processed Words Report
 migration-checklist:
   internal-links: false
   images: false
