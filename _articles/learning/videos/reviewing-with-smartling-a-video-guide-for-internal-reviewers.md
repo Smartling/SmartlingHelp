@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Reviewing with Smartling: A video guide for internal reviewers'
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false
@@ -34,4 +34,4 @@ migration-checklist:
 ---
 
 
-The reviewer's guide to Smartling is a short video that will guide you through the review process in Smartling in a few minutes: how to review, but also when to edit, reject, or simply submit translated content.&nbsp;
+The reviewer’s guide to Smartling is a short video that will guide you through the review process in Smartling in a few minutes: how to review, but also when to edit, reject, or simply submit translated content.
