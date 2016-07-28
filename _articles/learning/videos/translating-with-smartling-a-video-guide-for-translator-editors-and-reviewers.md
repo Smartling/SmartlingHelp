@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 'Translating with Smartling: a video guide for translator, editors, and reviewers'
-draft: true
+draft: false
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -34,4 +34,4 @@ migration-checklist:
 ---
 
 
-In this video we walk you through the dashboard and how to easily translate or review your content.&nbsp;
+In this video we walk you through the dashboard and how to easily translate or review your content.
