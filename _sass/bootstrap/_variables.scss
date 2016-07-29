@@ -30,9 +30,9 @@ $font-size-small:         ceil(($font-size-base * 0.85)) !default;
 
 // Heading sizes - These are used mostly for content headings
 // Site headers, nav headings, etc have special styles. See smartling-help.scss
-$font-size-h1:            floor(($font-size-base * 2.8)) !default;
-$font-size-h2:            floor(($font-size-base * 2.1)) !default;
-$font-size-h3:            ceil(($font-size-base * 1.777)) !default;
+$font-size-h1:            30px; //floor(($font-size-base * 2.8)) !default;
+$font-size-h2:            24px; //floor(($font-size-base * 2.1)) !default;
+$font-size-h3:            20px; //ceil(($font-size-base * 1.777)) !default;
 $font-size-h4:            ceil(($font-size-base * 1.333)) !default;
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default;

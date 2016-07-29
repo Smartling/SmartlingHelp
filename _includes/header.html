@@ -1,7 +1,7 @@
 <header class="site-header">
 
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top smartling-header" role="navigation">
+    <nav class="navbar navbar-fixed-top {% if page.home %}smartling-header-home{% else %}smartling-header-page{% endif %}" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -15,8 +15,12 @@
                     <img class="header-logo" src="/img/SmartlingHelpLogo.png">
                 </a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="search-bar-page">
+                    <span class="search-icon"></span><input id="help-search" class="search-input" placeholder="Search Smartling Help...">
+                </div>
                 <ul class="nav navbar-nav navbar-right smartling-header-nav">
                     <li>
                         <a {% if page.url contains "support/" %} class="active" {% endif %} href="/support/">Support</a>
@@ -50,6 +54,7 @@
         </div>
     </div>
     {% endif %}
+    <!--
     <div class="{% if page.home %}search-bar-home{% else %}search-bar-page{% endif %}">
         <div class="container">
             <div class="row">
@@ -59,6 +64,7 @@
             </div>
         </div>
     </div>
+    -->
 
 
 </header>

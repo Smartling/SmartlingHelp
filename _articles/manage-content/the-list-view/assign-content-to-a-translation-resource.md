@@ -35,7 +35,7 @@ migration-checklist:
 
 ### Some HTML
 
-**Step 1 - Turn on Assignment**
+**Step 1 - Turn on Assignment
 
 From **Project Settings** &gt; **Translation Workflow**,edit the Workflow step you want to assign content for and enable Content Assignment.
 

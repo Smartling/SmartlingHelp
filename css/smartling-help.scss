@@ -18,13 +18,13 @@ $smartling-link-color: #419DB7;
 $smartling-warning-color: #FBD4D0;
 $smartling-info-color: #B1FFFF;
 $smartling-blue: #62C2DD;
-$link-hover-color:      darken($smartling-link-color, 15%) !default;
+$link-hover-color: darken($smartling-link-color, 15%) !default;
 $background-grey: #F6F7F7;
 $text-color: #494E50;
 $smartling-white-text-color: #fff;
 $border-grey: #f1f1f1;
 $home-heading-color: #2d3133;
-$navbar-black: #2A3536;
+$navbar-black: #fff;
 
 //END COLORS
 
@@ -33,15 +33,15 @@ $navbar-black: #2A3536;
 // HEIGHTS AND TOP MARGINS
 
 // Fixed Component Heights
-$navbar-height: 80px;
+$navbar-height: 60px;
 $search-height: 60px;
-$breadcrumb-height: 60px;
+$breadcrumb-height: 50px;
 $home-banner-height: 160px;
 
 // Top Margins
 $search-top-margin: $navbar-height;
-$breadcrumb-top-margin: $navbar-height + $search-height;
-$content-start-top-margin: $navbar-height + $search-height + $breadcrumb-height;
+$breadcrumb-top-margin: $navbar-height;
+$content-start-top-margin: $navbar-height + $breadcrumb-height;
 
 // Target Height/Margin - Stops deeplink headings disappearing under fixed headers
 $target-height: $content-start-top-margin + 10;
@@ -65,18 +65,22 @@ $standard-border: 1px solid $border-grey;
 // HEADER STYLES AND LAYOUT
 
 // Top header with logo and main nav
-.smartling-header {
-    height: $navbar-height;
+@mixin smartling-header {
+    height: $navbar-height !important;
+    min-height: $navbar-height !important;
+    max-height: $navbar-height !important;
     background: $navbar-black !important;
     ul {
+        margin-top: -24px;
         li {
             a {
+                color: $text-color;
                 font-size: 16px;
                 font-weight: 300;
                 line-height: 30px;
                 }
             a.active {
-                color: $smartling-red;
+                color: $smartling-red !important;
                 background-color: inherit;
             }
         }
@@ -85,43 +89,60 @@ $standard-border: 1px solid $border-grey;
     }
 }
 
+.smartling-header-page {
+    @include smartling-header();
+    border-bottom: 1px solid #999 !important;
+}
+
 .header-logo {
     width: 220px;
     position: relative;
-    bottom: $navbar-height*0.25;
+    bottom: 26px;
+    filter: invert(60%);
 }
 
 // Position Search Bar
-.search-bar {
-    background: $background-grey;
-    border: $standard-border;
-    height: $search-height;
-    position: fixed;
-    width: 100%;
-    z-index: 1030;
-    .search-input {
-        position: absolute;
-        top: 15px;
 
+#help-search::-webkit-input-placeholder { font-style:italic; }
+#help-search::-moz-placeholder { font-style:italic; }
+
+.search-bar {
+    //background: $background-grey;
+    //border: $standard-border;
+    //height: $search-height;
+    position: absolute;
+    left: 30%;
+    top: -20px;
+    margin-top: 40px;
+    display: inline;
+    margin-left: 60px;
+    width: 100%;
+    //z-index: 1030;
+    .search-input {
+        //position: absolute;
+        display: inline-block;
+        top: 15px;
+        padding-left: 50px;
         background: inherit;
         border: none;
-        font-size: 18px;
+        font-size: 16px;
         &:focus {
             outline: none;
         }
+
         @media only screen and (min-width: 992px) {
             margin-left: -50px;
         }
     }
     .search-icon {
-        display: block;
+        display: inline-block;
         background: url('../img/magnifying-glass.svg');
         background-size: cover;
-        width: 30px;
-        height: 30px;
+        width: 22px;
+        height: 22px;
         float: left;
         margin: 0 10px 0 0;
-        position: relative;
+        //position: relative;
         top: 15px;
         @media only screen and (min-width: 992px) {
             right: 50px;
@@ -131,7 +152,7 @@ $standard-border: 1px solid $border-grey;
 
 .search-bar-page {
     @extend .search-bar;
-    margin-top: $search-top-margin;
+    //margin-top: $search-top-margin;
 }
 
 // Position Breadcrumbs
@@ -146,7 +167,7 @@ $standard-border: 1px solid $border-grey;
     overflow-x: auto;
     height: $breadcrumb-height;
     ol {
-        margin-top: 12px;
+        margin-top: 7px;
     }
     @media only screen and (min-width: 992px) {
        display: block !important;
@@ -370,8 +391,9 @@ $headline-padding: 12px;
     z-index: 1030;
     width: 100%;
     background-color: $navbar-black;
-    color: $smartling-white-text-color;
+    color: $text-color;
     text-align: center;
+    border-bottom: 1px solid #999;
     h1 {
         color: inherit;
         position: relative;
@@ -408,6 +430,11 @@ $headline-padding: 12px;
 
 
 // Black cards for 'What's New section
+
+.smartling-header-home {
+    @include smartling-header();
+}
+
 .whats-new-cards {
     .card {
         height: 170px;
