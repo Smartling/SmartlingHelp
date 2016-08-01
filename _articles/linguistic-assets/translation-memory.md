@@ -88,11 +88,10 @@ This is a legacy Trados text TM format that does not conform to the latest TMX s
 
 ![](/uploads/versions/tm4---x----1255-447x---.png)
 
-**1)** From Assets **Translation Memory**, click **Upload TMX**
+**1)** From Assets **Translation Memory**, click **Upload TMX.**
 
 ![](/uploads/versions/tm4---x----1255-447x---.png)
 
 **2)** Select or Drag/Drop your TMX file and click OK.
-
 
 > An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/hc/en-us/articles/218671488), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file.
