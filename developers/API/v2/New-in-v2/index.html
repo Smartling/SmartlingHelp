@@ -1,0 +1,116 @@
+---
+layout: devpage
+title:  New in V2
+Section: New in V2
+---
+<p> </p>
+<p dir="ltr">
+    Smartling is rolling out a new, expanded suite of APIs. Beginning with Authentication and Files APIs. API v1 is still supported but will be deprecated on March 1 2017.
+</p>
+<p dir="ltr">
+    Version 2 of FilesAPI will be familiar to you if you’ve used v1 but there are some important differences to keep in mind while you’re getting started.
+</p>
+
+<p>
+    See our <a href="/developers/API/v2/Migrate-to-v2/">Migration guide</a> for help getting started.
+</p>
+
+<h3 dir="ltr">
+    Authentication
+</h3>
+
+<p dir="ltr">
+    <p>V2 APIs replace the single API key with Oauth 2.0 authentication, requiring an access token to be included in the header of every request. Tokens are obtained via an Authenticate request containing a User ID and User Secret.</p>
+
+    <p>See <a href="/developers/API/v2/Authentication/">Authentication</a> for more information.</p>
+
+<h3 dir="ltr">
+    Path Variables
+</h3>
+
+<p dir="ltr">
+    Some V2 URLs contain path variables that you need to consider when you write your calls. In FilesAPI there are two path variables that may appear in a URL.
+
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            <code>projectId</code> - the unique identifier for a Smartling project. You can find this information in the Smartling dashboard at <strong>Project Settings &gt; API</strong>.
+        </p>
+    </li>
+        <li dir="ltr">
+        <p dir="ltr">
+            <code>locale</code> - the locale code for a translated file. You can find a full list of locale codes used in each of your projects in the Smartling dashboard at <strong>Project Settings &gt; API</strong>.
+        </p>
+    </li>
+</ul>
+
+<h3>New Terminology</h3>
+
+<p>Some terminology and parameter names in v2 are different from their v1 equivalents. Changes include</p>
+<ul>
+    <li>To bring the API in line with Smartling's Dashboard terminology, the API uses 'authorize' instead of 'approve'. For example, the <code>localesToApprove</code> parameter in the v1 version of <a href="/developers/API/v1/FileAPI/Upload-File/">Upload File</a> call is now <code>localeIdsToAuthorize</code> in v2</li>
+    <li>URLs now use hyphens (-) instead of underscores (_). For example: <code>/last_modified</code> is now <code>/last-modified</code></li>
+</ul>
+
+<h3 id="Arrays">Arrays</h3>
+
+<p>Most Smartling API arguments are strings, but some v2 calls take arrays as arguments to return information on multiple files or locales.</p>
+
+<h4>Examples:</h4>
+
+<p><strong>www-url-encoded:</strong></p>
+<pre><code>?localeId[]=de-DE&localeId[]=fr-FR</code></pre>
+<p>Don’t forget the square brackets for array values, even if you’re only passing a single argument.</p>
+
+<p><strong>Form Parameters:</strong></p>
+<pre><code> -F "localeId[]=fr-FR" -F "localeId[]=de-DE"</code></pre>
+
+<p><strong>JSON:</strong></p>
+<pre><code>{"localeIds":["es-ES","zh-CN"]}</code></pre>
+
+
+<h3 dir="ltr">
+    New Options
+</h3>
+<p dir="ltr">
+    If you’re already using v1 of Smartling’s File API, you may be able to improve on your integration with the new, more powerful calls included in v2.
+    Significant new options include:
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            You now have four different options for downloading files:
+        </p>
+    </li>
+    <ul>
+        <li dir="ltr">
+            <p dir="ltr">
+                <a href="/developers/API/v2/FileAPI/Download-File/Single-Locale">Download a single translated file;</a>
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <a href="/developers/API/v2/FileAPI/Download-File/All-Locales">Download all locales for a single file as a .ZIP archive</a>
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <a href="/developers/API/v2/FileAPI/Download-File/Multiple-Locales">Download multiple files for multiple locales as a .ZIP archive</a>
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <a href="/developers/API/v2/FileAPI/Download-File/All-Locales-CSV">Download translations for all locales in a single CSV file</a>
+            </p>
+        </li>
+    </ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            Choose between detailed status of a file in a <a href="/developers/API/v2/FileAPI/Status/Single-Locale">single locale</a> or a summary for <a href="/developers/API/v2/FileAPI/Status/All-Locales">all locales.</a>
+        </p>
+    </li>
+    <li dir="ltr">
+        Check last modified dates for a <a href="/developers/API/v2/FileAPI/Last-Modified/Single-Locale/">selected locale</a> or <a href="/developers/API/v2/FileAPI/Last-Modified/All-Locales/">all locales.</a>
+    </li>
+</ul>

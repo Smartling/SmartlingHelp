@@ -1,0 +1,216 @@
+---
+layout: devpage
+title:  Repository Connector - Install and Configure
+---
+
+<p>
+    There are three basic steps to set up the Repository Connector:
+</p>
+
+
+    <ol class="text-list">
+
+    <li>
+    <a href="#Install">
+        Install the connector on any server with Java 7 or higher installed.
+    </a>
+    </li>
+
+    <li>
+    <a href="#Modify">
+        Connect to your Repository and Smartling.
+    </a>
+    </li>
+
+    <li>
+    <a href="#Start">
+        Start the Repository Connector application and monitor it.
+    </a>
+    </li>
+    <li>
+    <a href="#TranslationSettings">
+        Configure your translation settings
+    </a>
+    </li>
+    </ol>
+
+
+
+<section>
+    <a class="anchor" id="Install"></a>
+<h4>Install the connector</h4>
+
+<p>
+Download the <a href="https://smartling-connector-public.s3.amazonaws.com/repo_connector/repo-connector-1.5.1-bin.zip" rel="nofollow">Repository Connector package</a>
+    and unpack it into the desired folder. The application should be hosted on a server that is continuously available and publicly addressable, with Java
+    version 7 or higher.
+</p>
+
+    <p class="warning">
+        As of version 1.5.0, the Repository Connector uses version 2 of the Smartling File API. This version is not backwards compatible with previous versions and requires new API credentials. See <a href="http://docs.smartling.com/developers/API/v2/Authentication/">Authentication</a> for help obtaining the User Identifier and User Secret you will need to set up the connector.
+    </p>
+
+</section>
+
+<section>
+    <a class="anchor" id="Modify"></a>
+<h4>Connect to your repository and Smartling</h4>
+
+<p>
+    Configuration information for the Repository Connector is kept in two separate files. The first, <code>repo-connector.conf</code>, is part of the Repository Connector package and defines how the Repository Connector communicates with your repositories and with Smartling. A second configuration file is placed in the repository, covering which files are uploaded to Smartling and where translated files end up in your repository. <code>repo-connector.conf</code> should be completed first.
+</p>
+<p>
+    By default, the <code>repo-connector.conf</code> file is located in <code>[repository connector directory]/cfg</code> and defines the necessary parameters for the Repository Connector to access your repositories and listen for callbacks. At a minimum, you must define a URL, access credentials and a related Smartling Project for each of your repositories. Edits to <code>repo-connector.conf</code> must be valid JSON. For additional configuration see the Advanced Configuration instructions.
+</p>
+<p>
+    The package contains an annotated version of <code>repo-connector.conf</code> to help you set up the connector. The basic required parameters are:</p>
+
+    <strong>Required Parameters:</strong>
+</p>
+<ul>
+    <li dir="ltr">
+        <p dir="ltr">
+            <code>repositories</code> - Defines an array of source repositories. A repository cannot have more than one authentication attribute and a public repository may
+            have neither. Without authentication information, the connector will be able to get files from the repository but not download translated files from
+            Smartling. Repositories have the following attributes:
+        </p>
+    </li>
+    <ul>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>url</code> - the URL for the repository. Must be unique in the array
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+<code>alias</code> - alias for the repository. The alias is used in creating the                <a href="https://docs.smartling.com/display/docs/Files+API#FilesAPI-/file/upload(POST)">fileURI</a> that is registered with Smartling for
+                uploaded files. A unique alias value is recommended but not required. The complete uri will be "alias/branch/file”.
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>type</code> - Repository type. Possible values are GIT and SVN
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>userPassword</code> (optional) - defines user/password authentication type for a Github repository. Other authentication options are available.
+            </p>
+        </li>
+        <ul>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>user</code> - user name
+                </p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>password</code> - user password
+                </p>
+            </li>
+        </ul>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>smartlingProject</code> - defines your Smartling project credentials. You can find these in the Smartling Dashboard at Project Settings&gt;API. <strong>Note: </strong>This section was changed in version 1.5.0 and is not backwards compatible with previous versions.
+            </p>
+        </li>
+        <ul>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>projectId</code> - unique id for your project.
+                </p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>userIdentifier</code> - The User Identifier for your Smartling v2 API Token.
+                </p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>tokenSecret</code> - The token secret for your Smartling v2 API Token.
+                </p>
+            </li>
+        </ul>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>resourcesConfig</code> - the path to the repository configuration file, if hosted in your code repository. Default is 'smartling-config.json'
+            </p>
+        </li>
+
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>serverResourcesConfig</code> - if you would prefer not to commit the repository configuration file to your code repository, you can host it on the
+                Connector server. In this case, use serverResourcesConfig to define a path to the config file. You can define the absolute path or the relative
+                path from the repo-connector.conf folder.
+            </p>
+        </li>
+
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>namespace</code> - <code>TRUE</code> or <code>FALSE</code> (default). If <code>TRUE</code>, strings are shared between all files. Repeated strings are translated only once in Smartling. If your file names contain version information, this setting will avoid having to retranslate entire files when you upload a new version. If <code>FALSE</code>, strings are unique to each file. See the <a href="http://support.smartling.com/hc/en-us/articles/207178807">namespace</a> documentation for more details. <strong>Warning:</strong> This property should not be edited after you start uploading content to Smartling.
+            </p>
+        </li>
+
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>branches</code> - Regular expression for branch names to be checked for resources. If this is undefined, all branch names will be checked. Example:
+            </p>
+            <pre>"branches": "(dev|master|dev_cx-chat|dev_active-booking)",</pre>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>pollingSchdule</code> - Cron expression defining how often the Repository Connector polls your repository for updates.
+            </p>
+        </li>
+        <li dir="ltr">
+            <p dir="ltr">
+                <code>Scheduler</code>
+            </p>
+        </li>
+        <ul>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>checkTranslation</code> - Cron expression defining how often the Connector will poll Smartling projects for updated translations.
+                </p>
+            </li>
+        </ul>
+        
+        <li dir="ltr">
+            <p dir="ltr">
+                Other authentication options are included in the example file.
+            </p>
+        </li>
+    </ul>
+</ul>
+</section>
+<section>
+    <a class="anchor" id="Start"></a>
+<h4>Start the Repository Connector Application</h4>
+
+<p>
+    To start the Repository Connector, execute:
+</p>
+<pre>java -jar repo-connector-1.5.1.jar -start</pre>
+<p>
+    To stop the Repository Connector, execute:
+</p>
+<pre>java -jar repo-connector-1.5.1.jar -stop</pre>
+<p>
+    If you have saved your configuration files in a folder other than the default (/cfg) add the parameter -configuration &lt;folder_name&gt; to the command.
+</p>
+<p>
+    To run as a daemon, execute:
+</p>
+<pre>java -jar repo-connector-1.5.1.jar -start&amp;</pre>
+
+</section>
+
+<section>
+    <a class="anchor" id="TranslationSettings"></a>
+<h4>Configure your Translation Settings</h4>
+
+<p>
+    Now that the Repository Connector is up and running, it's time to <a href="/developers/Repository-Connector/Translation-Settings/">set up how you will translate your project</a>.
+</p>
+
+</section>

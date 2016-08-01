@@ -1,0 +1,238 @@
+---
+layout: devpage
+title:  Advanced JSON Configuration
+---
+
+<h3>Contents</h3>
+    <ul>
+    <li><a href="#Multiple">Multiple Translate Blocks</a></li>
+    <li><a href="#Compound">Compound Keys</a></li>
+    <li><a href="#CompleteExample">Complete Example</a></li>
+    </ul>
+
+
+<h3 id="Multiple">Multiple Translate Blocks</h3>
+<p dir="ltr">
+    If you have more than one translatable block in your JSON file and you need to apply different rules, you can define your “translate_paths” as an array, like this:
+</p>
+<pre><code>
+"translate_paths": [{
+    "key": "/Buttons/button",
+    "path": "/Buttons/text"
+}, {
+    "key": "/Errors/{Id}",
+    "path": "/Errors/message"
+}]
+</pre></code>
+
+<div class="warning">
+    <p><strong>Note:</strong> When specifying multiple translate blocks, especially if using wildcards, try to avoid situations where a path in your file matches more than one block. If this does happen, an exact path match will take precedence over a match with wildcards</p>
+</div>
+
+<h3 id="Compound">Compound Keys</h3>
+<p dir="ltr">
+    You can define a compound key -  joining two different paths - using a comma-separated list of paths surrounded by square brackets, like this:
+</p>
+<pre><code>
+{
+    "smartling": {
+        "translate_paths": {
+            "key": ["/Buttons/button","/Buttons/type"],
+            "path": "/Buttons/text"
+        }
+    },
+    "Buttons": [{
+        "button": "button1",
+        "type" : "active",
+        "text": "Home"
+    },
+    {
+        "button": "button2",
+        "type" : "active",
+        "text": "Back"   
+    }]
+}
+</pre></code>
+
+<p dir="ltr">
+    This will capture both paths as the key, separated by <code>:#:</code>. For example: <code>button1:#:active</code>
+</p>
+
+<p dir="ltr">
+    <strong>Note:</strong> All parts of the compound key must match content in the file or no key will be returned.
+</p>
+
+
+<h3 id="CompleteExample">Complete Example</h3>
+<p>See below for a complete example of a JSON configuration involving multiple translate blocks, compound keys, and both JSON names and JSON values captured as keys.</p>
+
+<pre><code>
+{
+    "smartling": {
+        "translate_paths": [{
+            "path": "*/title",
+            "key": "{*}/title",
+            "instruction": "*/note"
+        }, {
+            "path": "*/summary",
+            "key": ["{*}/summary", "*/title"]
+        }]
+    },
+    "key1": {
+        "note": "Released 1994",
+        "title": "Forrest Gump",
+        "summary": "A movie about a guy called Forrest Gump."
+    },
+    "key2": {
+        "note": "Released 2004",
+        "title": "Ray",
+        "summary": "A movie about a guy called Ray."
+    },
+    "key3": {
+        "note": "Released 1991",
+        "title": "JFK",
+        "summary": "A movie about a guy called Jim Garrison."
+    }
+}
+</code></pre>
+
+<p>Uploading this file to smartling will give:</p>
+
+<div>
+    <table class="table">
+
+        <colgroup>
+            <col/>
+            <col/>
+            <col/>
+        </colgroup>
+
+        <tbody>
+            <tr>
+                <td>
+                    <p >
+                        <strong>Key</strong>
+                    </p>
+                </td>
+                <td>
+                    <p >
+                        <strong>String</strong>
+                    </p>
+                </td>
+                <td>
+                    <p >
+                        <strong>Instruction</strong>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Key1
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Forrest Gump
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Released 1994
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Key1:#:Forrest Gump
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        A movie about a guy called Forrest Gump.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        (none)
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                       Key2 
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Ray
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Released 2004
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Key2:#:Ray
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        A movie about a guy called Ray.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        (none)
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Key3
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        JFK
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Released 2004
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        Key3:#:JFK
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        A movie about a guy called Jim Garrison.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        (none)
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+

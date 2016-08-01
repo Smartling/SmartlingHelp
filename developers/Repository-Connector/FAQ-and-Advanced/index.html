@@ -1,0 +1,270 @@
+---
+layout: devpage
+title:  Repository Connector - FAQs and Advanced
+---
+
+<ul class="text-list">
+    <li>
+        <a href="#AddLocales">
+            What happens if I add locales to my project?
+        </a>
+    </li>
+    <li>
+        <a href="#Reupload">
+            Why are my translated files being re-uploaded to the Dashboard as original files?
+        </a>
+    </li>
+    <li>
+        <a href="#AlterConf">
+            Can I alter the configuration files while the Repository Connector is running?
+        </a>
+    </li>
+    <li>
+        <a href="#DownloadOptions">
+            What are my options for downloading translated files?
+        </a>
+    </li>
+    <li>
+        <a href="#ExcludeMaster">
+            Can I upload/download resource files from all branches except my master branch?
+        </a>
+    </li>    
+    <li>
+        <a href="#Memory">
+            How much memory do I need to allocate?
+        </a>
+    </li>
+    <li>
+        <a href="#Logs">
+            How do I control the size of my logs?
+        </a>
+    </li>
+    <li>
+        <a href="#AWS">
+            What size AWS ec2 instance is appropriate for deploying?
+        </a>
+    </li>
+    <li>
+        <a href="#Callback">
+            Can I configure callbacks for completed translation instead of using the cron checker?
+        </a>
+    </li>
+    <li>
+        <a href="#Proxy">
+            Can the Connector work from behind a proxy?
+        </a>
+    </li>
+    <li>
+        <a href="#CompleteConfig">
+            Can I see a complete configuration example with all optional parameters?
+        </a>
+    </li>
+</ul>
+
+<section>
+    <a class="anchor" id="AddLocales"></a>
+<h4>
+    What happens if I add locales to my project?
+</h4>
+<p>
+    If you add locales to your project you will need to update your translation configuration file and add the new locales to the array. When the configuration file is uploaded, the Repository Connector will automatically update files in the Smartling dashboard based on your new settings. 
+</p>
+
+</section>
+
+
+<section>
+    <a class="anchor" id="Reupload"></a>
+    <h4>
+    Why are my translated files being re-uploaded to the Dashboard as original files?
+</h4>
+<p>
+    The Repository Connector cannot automatically distinguish between an original file and a translated file in the repository. The Connector uploads files based on the value of <code>resourceSets.pathRegex</code> in your translation configuration file. If your regular expression makes use of wildcards or your translated files are downloaded to the same folder as your original files, it may be that both original and translated files will match the regular expression. 
+</p>
+<p>
+    To avoid this problem, consider altering the structure and location of the original and translated resource files in your repository, or update your regular expression to make sure it only uploads resource files in the your project's original language to Smartling.
+</p>
+
+</section>
+
+<section>
+    <a class="anchor" id="AlterConf"></a>
+<h4 >
+Can I alter the configuration files while the Repository Connector is running?
+</h4>
+<p>
+   You can alter the translation configuration file while the connector is running. If it is hosted in your code repository, any new commit to this file will trigger an automatic update to the Smartling dashboard. However, changes to the <code>repo-connector.conf</code> file require a restart.
+</p>
+      </section>
+      
+<section>
+    <a class="anchor" id="DownloadOptions"></a>
+<h4 >
+What are my options for downloading translated files?
+</h4>
+<p>
+   Smartling gives you a few advanced options for configuring how you get your translated files back from Smartling. To set these up, you need to add a <code>downloadTranslations</code> node to the repo-connector.conf file. The <code>downloadTranslations</code> node can contain the following parameters:
+</p>
+        <ul>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>trigger</code> - <code>COMPLETED</code> or <code>ONCHANGE</code> - determines when to download translated files from Smartling. <code>COMPLETED</code> downloads files only when all translations are complete. <code>ONCHANGE</code> downloads translated files whenever they are updated. Default is <code>COMPLETED.</code>
+                </p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>retrievalType</code> - Sets type of translation for downloaded files. Allowed values are <code>PUBLISHED</code> (default), <code>PENDING</code>, and <code>PSEUDO</code>. See <a href="http://docs.smartling.com/developers/API/FileAPI/Download-File/">Download Files</a> for more information on retrieval type.
+                </p>
+            </li>
+            <li dir="ltr">
+                <p dir="ltr">
+                    <code>includeOriginalStrings</code> - If <code>TRUE</code>, Smartling returns the original string if there is no translations available. If <code>FALSE</code>, Smartling returns a blank string if there is no translations. Defaults to <code>TRUE</code>. This parameter is supported only for Gettext, java properties, custom XML, Android XML and JSON files. See <a href="/developers/API/v1/FileAPI/Download-File/">Download Files</a> for more information.
+                </p>
+            </li>
+        </ul>
+</section>
+   
+<section>
+    <a class="anchor" id="ExcludeMaster"></a>
+<h4 >
+Can I upload/download resource files from all branches except my master branch?
+</h4>
+<p>
+   Sure. If you'd rather control your master branch via pull requests, you can set up the Repository Connector not to check the master brance. In the <code>repo-connector.conf</code> file, write your <code>branches</code> regular expression like this, to exclude your master branch:
+</p>
+<pre><code>"branches": "^(?!master).*",</code></pre>
+</section>
+
+<section>
+    <a class="anchor" id="Memory"></a>
+<h4 >
+How much memory do I need to allocate?
+</h4>
+<p>
+   On average, memory consumption for an instance of the Repository Connector is around 40M. We recommend having at least 64M available. You can define maximum memory allocation for the connector by starting with the <code>-Xmx</code> flag on startup. For example, to set the max memory to 64M: <code>java -Xmx64M -jar repo-connector-1.4.2.jar -start</code>
+</p>
+</section>
+      
+<section>
+    <a class="anchor" id="Logs"></a>
+<h4 >
+How do I control the size of my logs?
+</h4>
+<p>
+   The Repository Connector uses logback. You can configure the length of history and the file size of your logs by editing the <code>logback.xml</code> file in the <code>cfg</code> directory. See the <a href="http://logback.qos.ch/manual/appenders.html">Logback documentation</a> for full options.
+</p>
+      </section>
+
+<section>
+    <a class="anchor" id="AWS"></a>
+<h4 >
+What size AWS ec2 instance is appropriate for deploying?
+</h4>
+<p>
+   Space requirements for the Repository Connector are not high. For most use cases, a micro instance will be sufficient.
+</p>
+      </section>
+    
+<section>
+    <a class="anchor" id="Callback"></a>
+<h4 >
+Can I configure callbacks for completed translation instead of using the cron checker?
+</h4>
+<p>
+   For most use cases, we recommend using the standard cron checker to look for completed applications. However, it is possible to configure callbacks, as long as you can open a port for an http listener.
+</p>
+<p>
+    To configure callbacks, you need to add an "http" section to the repo-connector.conf file. It should look like this:
+</p>
+<pre>
+    &nbsp;&nbsp;&quot;http&quot;:&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;host&quot;:&nbsp;&quot;localhost&quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;port&quot;:&nbsp;&quot;5555&quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;protocol&quot;:&nbsp;&quot;http&quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;callbackUrl&quot;:&nbsp;&quot;http://callback.mydomain.com&quot;<br/>&nbsp;&nbsp;}
+</pre>
+<p><strong>Parameters:</strong></p>
+<ul>
+    <li>
+        <code>host</code> - the host name, set by default to localhost. Public server may require value to be set to ‘0.0.0.0’
+    </li>
+    <li>
+        <code>port</code> - the local port for the http listener. Any free port can be assigned.
+    </li>
+    <li>
+        <code>protocol</code> - can be set to <code>http</code> or <code>https</code> depending on the requirements of your server.
+    </li>
+    <li>
+        <code>callbackURL</code> - URL for your instance of the Repository Connector. This is the URL that Smartling will send a callback to on completion of translation for a file.
+    </li>
+</ul>
+    <p>
+        We recommend still running a regular Cron checker in case there are errors with your callbacks.
+    </p>
+</section>
+
+<section>
+    <a class="anchor" id="Proxy"></a>
+<h4 >
+Can the Connector work from behind a proxy?
+</h4>
+<p>
+   Yes. From version 1.5.1 onward, the Connector can work with a proxy. The following arguments need to be passed to the Connector on start:
+</p>
+<ul>
+    <li>
+        http.proxyHost
+    </li>
+    <li>
+        http.proxyPort
+    </li>
+    <li>
+        http.proxyPassword
+    </li>
+    <li>
+        http.proxyUsername
+    </li>
+</ul>
+<p>
+    Your startup command should look something like this:
+</p>
+<pre>
+java -Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttp.proxyUsername=testuser -Dhttp.proxyPassword=password -jar repo-connector-1.5.1.jar -start
+</pre>
+
+<p>
+    To configure callbacks, you need to add an "http" section to the repo-connector.conf file. It should look like this:
+</p>
+<pre>
+    &nbsp;&nbsp;&quot;http&quot;:&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;host&quot;:&nbsp;&quot;localhost&quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;port&quot;:&nbsp;&quot;5555&quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;protocol&quot;:&nbsp;&quot;http&quot;,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&quot;callbackUrl&quot;:&nbsp;&quot;http://callback.mydomain.com&quot;<br/>&nbsp;&nbsp;}
+</pre>
+<p><strong>Parameters:</strong></p>
+<ul>
+    <li>
+        <code>host</code> - the host name, set by default to localhost. Public server may require value to be set to ‘0.0.0.0’
+    </li>
+    <li>
+        <code>port</code> - the local port for the http listener. Any free port can be assigned.
+    </li>
+    <li>
+        <code>protocol</code> - can be set to <code>http</code> or <code>https</code> depending on the requirements of your server.
+    </li>
+    <li>
+        <code>callbackURL</code> - URL for your instance of the Repository Connector. This is the URL that Smartling will send a callback to on completion of translation for a file.
+    </li>
+</ul>
+    <p>
+        We recommend still running a regular Cron checker in case there are errors with your callbacks.
+    </p>
+</section>
+
+<section>
+    <a class="anchor" id="CompleteConfig"></a>
+<h4 >
+Can I see a complete configuration example with all optional parameters?
+</h4>
+<p>
+   Sure! Download this <a href="/public/Example-Files/repo-connector-complete-example.conf">complete repo-connector.conf example file</a>, see comments for how each optional parameter is used. Recommended for advanced users only. If you use this file as a template to fill in your own information, remember to rename the file to <code>repo-connector.conf</code>.
+</p>
+      </section>
+
+
+
+
+    
