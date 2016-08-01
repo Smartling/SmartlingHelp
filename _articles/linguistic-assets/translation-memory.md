@@ -64,7 +64,7 @@ You can import translations in TMX format to Smartling. TMX files must follow th
 >
 ~~~
 
-The *srclang* must be specified in the &lt;header&gt; and all other *srclang* declarations within the document must match this value.
+The `srclang` must be specified in the `<header>` and all other `srclang` declarations within the document must match this value.
 
 The *datatype* value must be one of the following:
 
