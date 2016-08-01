@@ -5,13 +5,17 @@
 // Add listener to clear current filter
 function listenclear () {
     $('.clear-filter').click(function() {
+
         // Show all cards
         $('.learning-card-col').show();
+
         // Return button to regular background
         $(this).css({"background-color": "#F6F7F7", "color": "#494E50"});
+
         // Remove the clear-filter class
         $('.panel-heading').removeClass('clear-filter');
-        // Reset filter listeners
+
+        // Reset listeners
         listentoggle();
     });
 }

@@ -307,6 +307,9 @@
 .content-start-homepage {
   margin-top: 290px; }
 
+.learning-toggle {
+  cursor: pointer; }
+
 .container-fluid.learning-cards {
   padding-left: 0;
   padding-right: 0; }
