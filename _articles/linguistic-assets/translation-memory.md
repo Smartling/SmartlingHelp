@@ -77,7 +77,7 @@ The *datatype* value must be one of the following:
 If your TMX file has a first line like:
 
 ~~~
-&lt;TWBExportFile version="7.0" generator="TW4Win" build="8.2.0.835"&gt;
+<TWBExportFile version="7.0" generator="TW4Win" build="8.2.0.835">
 ~~~
 
 This is a legacy Trados text TM format that does not conform to the latest TMX standards and Smartling will not import the file. You can convert these TMX files to standard TMX files using free converters like Apsic XBench ([http://www.apsic.com/en/downloads.aspx](http://www.apsic.com/en/downloads.aspx)).
@@ -92,6 +92,5 @@ This is a legacy Trados text TM format that does not conform to the latest TMX s
 
 2. Select or Drag/Drop your TMX file and click OK.
 
-~~~
-**Note:** An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/hc/en-us/articles/218671488), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file.
-~~~
+
+> An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/hc/en-us/articles/218671488), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file.
