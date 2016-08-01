@@ -57,7 +57,7 @@ Translation Memory is managed from **Assets &gt; Translation Memory**. From here
 
 You can import translations in TMX format to Smartling. TMX files must follow the TMX standard. The specifications appear [here](https://www.gala-global.org/tmx-14b). In addition to the TMX standard, the file must contain a `<header>` tag with `srclang` and `datatype` attributes/values:
 
-~~~
+~~~xml
 <header
   srclang="EN-GB"
   datatype="rtf"
