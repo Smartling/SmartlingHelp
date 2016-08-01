@@ -25,6 +25,7 @@ $smartling-white-text-color: #fff;
 $border-grey: #f1f1f1;
 $home-heading-color: #2d3133;
 $navbar-black: #fff;
+$card-black: #2A3536;
 
 //END COLORS
 
@@ -34,7 +35,6 @@ $navbar-black: #fff;
 
 // Fixed Component Heights
 $navbar-height: 60px;
-$search-height: 60px;
 $breadcrumb-height: 50px;
 $home-banner-height: 160px;
 
@@ -44,7 +44,7 @@ $breadcrumb-top-margin: $navbar-height;
 $content-start-top-margin: $navbar-height + $breadcrumb-height;
 
 // Target Height/Margin - Stops deeplink headings disappearing under fixed headers
-$target-height: $content-start-top-margin + 10;
+$target-height: $content-start-top-margin + 10px;
 $target-margin: 0 - $target-height;
 
 // END HEIGHTS AND TOP MARGINS
@@ -71,21 +71,26 @@ $standard-border: 1px solid $border-grey;
     max-height: $navbar-height !important;
     background: $navbar-black !important;
     ul {
-        margin-top: -24px;
+        margin-top: 14px;
+        background: white;
         li {
             a {
                 color: $text-color;
                 font-size: 16px;
                 font-weight: 300;
                 line-height: 30px;
-                }
+            }
             a.active {
                 color: $smartling-red !important;
-                background-color: inherit;
+                background-color: white;
             }
+            a:hover {
+                color: $smartling-red;
+                background-color: white;
+            }
+            position: relative;
+            bottom: 0;
         }
-        position: relative;
-        bottom: 0;
     }
 }
 
@@ -97,7 +102,8 @@ $standard-border: 1px solid $border-grey;
 .header-logo {
     width: 220px;
     position: relative;
-    bottom: 26px;
+    margin-top: 20px;
+    bottom: 7px;
     filter: invert(60%);
 }
 
@@ -107,9 +113,6 @@ $standard-border: 1px solid $border-grey;
 #help-search::-moz-placeholder { font-style:italic; }
 
 .search-bar {
-    //background: $background-grey;
-    //border: $standard-border;
-    //height: $search-height;
     position: absolute;
     left: 30%;
     top: -20px;
@@ -176,7 +179,7 @@ $standard-border: 1px solid $border-grey;
 
 // Begin main content after all fixed bars
 .content-start {
-    margin-top: $navbar-height + $search-height + 20px; //Allow for disappearing breadcrumbs in mobile
+    margin-top: $navbar-height + 20px; //Allow for disappearing breadcrumbs in mobile
     @media only screen and (min-width: 992px) {
         margin-top: $content-start-top-margin !important;
     }
@@ -184,7 +187,7 @@ $standard-border: 1px solid $border-grey;
 
 // For pages with no breadcrumb, bump up main content
 .content-start-no-crumb {
-    margin-top: $navbar-height + $search-height + 20px;
+    margin-top: $navbar-height + 50px;
 }
 
 // END HEADER STYLES AND LAYOUT
@@ -233,7 +236,7 @@ $standard-border: 1px solid $border-grey;
         border-radius: 4px;
         a {
             h5 {
-                font-size: 20px;
+                font-size: 18px;
                 color: $text-color;
             }
             :hover {
@@ -504,17 +507,71 @@ $headline-padding: 12px;
 }
 
 .content-start-homepage {
-    margin-top: $navbar-height + $home-banner-height + $search-height + 70px; //last number is distance from search bar
+    margin-top: $navbar-height + $home-banner-height + 70px; //last number is distance from search bar
+}
+
+
+// END SPECIAL CLASSES FOR HOMEPAGE
+
+
+
+
+
+// SPECIAL CLASSES FOR LEARNING PAGE
+
+
+
+.container-fluid.learning-cards {
+    padding-left: 0;
+    padding-right: 0;
+    .learning-card {
+        margin-bottom: 20px;
+        .learning-card-top {
+            position: relative;
+            width: 100%;
+            background-color: $background-grey;
+        }
+        .learning-card-top:before {
+            content: '';
+            display: block;
+            padding-top: 62.5%;
+        }
+        .learning-card-top-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        .learning-card-bottom {
+            background: $card-black;
+            color: #fff;
+            padding: 5px 10px 5px 10px;
+            h5 {
+                &.blue {
+                    color: $smartling-blue;
+                }
+                &.yellow {
+                    color: $smartling-yellow;
+                }
+                &.green {
+                    color: $smartling-green;
+                }
+                &.red {
+                    color: $smartling-red;
+                }
+            }
+        }
+    }
 }
 
 
 
 
 
+// END SPECIAL CLASSES FOR LEARNING PAGE
 
 
-
-// END SPECIAL CLASSES FOR HOMEPAGE
 
 
 

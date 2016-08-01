@@ -5,22 +5,28 @@
   background: #fff !important;
   border-bottom: 1px solid #999 !important; }
   .smartling-header-page ul {
-    margin-top: -24px;
-    position: relative;
-    bottom: 0; }
-    .smartling-header-page ul li a {
-      color: #494E50;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 30px; }
-    .smartling-header-page ul li a.active {
-      color: #F26C5D !important;
-      background-color: inherit; }
+    margin-top: 14px;
+    background: white; }
+    .smartling-header-page ul li {
+      position: relative;
+      bottom: 0; }
+      .smartling-header-page ul li a {
+        color: #494E50;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px; }
+      .smartling-header-page ul li a.active {
+        color: #F26C5D !important;
+        background-color: white; }
+      .smartling-header-page ul li a:hover {
+        color: #F26C5D;
+        background-color: white; }
 
 .header-logo {
   width: 220px;
   position: relative;
-  bottom: 26px;
+  margin-top: 20px;
+  bottom: 7px;
   filter: invert(60%); }
 
 #help-search::-webkit-input-placeholder {
@@ -79,13 +85,13 @@
       display: block !important; } }
 
 .content-start {
-  margin-top: 140px; }
+  margin-top: 80px; }
   @media only screen and (min-width: 992px) {
     .content-start {
       margin-top: 110px !important; } }
 
 .content-start-no-crumb {
-  margin-top: 140px; }
+  margin-top: 110px; }
 
 .secondary-nav {
   left: 15px; }
@@ -105,7 +111,7 @@
     border-radius: 4px;
     padding-left: 24px; }
     .side-nav-widget .panel-heading a h5 {
-      font-size: 20px;
+      font-size: 18px;
       color: #494E50; }
     .side-nav-widget .panel-heading a :hover {
       color: #2d6d7f; }
@@ -237,17 +243,22 @@
   max-height: 60px !important;
   background: #fff !important; }
   .smartling-header-home ul {
-    margin-top: -24px;
-    position: relative;
-    bottom: 0; }
-    .smartling-header-home ul li a {
-      color: #494E50;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 30px; }
-    .smartling-header-home ul li a.active {
-      color: #F26C5D !important;
-      background-color: inherit; }
+    margin-top: 14px;
+    background: white; }
+    .smartling-header-home ul li {
+      position: relative;
+      bottom: 0; }
+      .smartling-header-home ul li a {
+        color: #494E50;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px; }
+      .smartling-header-home ul li a.active {
+        color: #F26C5D !important;
+        background-color: white; }
+      .smartling-header-home ul li a:hover {
+        color: #F26C5D;
+        background-color: white; }
 
 .whats-new-cards .card {
   height: 170px;
@@ -294,7 +305,39 @@
   margin-top: 220px; }
 
 .content-start-homepage {
-  margin-top: 350px; }
+  margin-top: 290px; }
+
+.container-fluid.learning-cards {
+  padding-left: 0;
+  padding-right: 0; }
+  .container-fluid.learning-cards .learning-card {
+    margin-bottom: 20px; }
+    .container-fluid.learning-cards .learning-card .learning-card-top {
+      position: relative;
+      width: 100%;
+      background-color: #F6F7F7; }
+    .container-fluid.learning-cards .learning-card .learning-card-top:before {
+      content: '';
+      display: block;
+      padding-top: 62.5%; }
+    .container-fluid.learning-cards .learning-card .learning-card-top-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+    .container-fluid.learning-cards .learning-card .learning-card-bottom {
+      background: #2A3536;
+      color: #fff;
+      padding: 5px 10px 5px 10px; }
+      .container-fluid.learning-cards .learning-card .learning-card-bottom h5.blue {
+        color: #62C2DD; }
+      .container-fluid.learning-cards .learning-card .learning-card-bottom h5.yellow {
+        color: #EDBB6C; }
+      .container-fluid.learning-cards .learning-card .learning-card-bottom h5.green {
+        color: #66C6B4; }
+      .container-fluid.learning-cards .learning-card .learning-card-bottom h5.red {
+        color: #F26C5D; }
 
 a:hover {
   text-decoration: none !important;

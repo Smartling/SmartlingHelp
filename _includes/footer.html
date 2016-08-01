@@ -14,9 +14,10 @@
 <script type="text/javascript" src="/js/termlist.js"></script>
 <script type="text/javascript" src="/js/smartlingterms.js"></script>
 
-
-
-
+{% if page.title == 'Learning' %}
+<!-- Learning Page Script -->
+<script type="text/javascript" src="/js/learningcards.js"></script>
+{% endif %}
 
 <!-- Build the Table of Contents for Articles -->
 {% if page.layout == 'article' or page.layout == 'faq' %}

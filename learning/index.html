@@ -1,0 +1,46 @@
+---
+title: Learning
+layout: default
+---
+
+<div class="container page">
+
+
+
+    <div class="row content-start-no-crumb">
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include learning-sidebar.html %}
+            </div>
+        </div>
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}}">
+            <div class="container-fluid learning-cards">
+                {% for article in site.articles %}
+                    {% if article.learning.include %}
+                        <div class="col-md-6 {% case article.learning.type %}{% when 'Video' %}learning-video{% when 'Webinar' %}learning-webinar{% when 'Guide' %}learning-guide{% when 'Best Practice' %}learning-best-practice{% endcase %} learning-card-col">
+                            <div class="learning-card">
+                                <div class="learning-card-top">
+                                    <div class="learning-card-top-content">
+                                        {% if article.learning.type == 'Video' %}
+
+                                        <script src="//fast.wistia.com/assets/external/E-v1.js" async="" charset="ISO-8859-1"></script>
+                                        <div class="wistia_embed wistia_async_{{article.wistia.id}} learning-card-top-content"> </div>
+
+                                        {% endif %}
+
+                                    </div>
+                                </div>
+                                <div class="learning-card-bottom">
+                                    <h5 class="{% case article.learning.type %}{% when 'Video' %}blue{% when 'Webinar' %}green{% when 'Guide' %}red{% when 'Best Practice' %}yellow{% endcase %}">
+                                        {{article.learning.type}}: {{article.title}}
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>

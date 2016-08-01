@@ -31,6 +31,10 @@ migration-checklist:
   FAQs: false
   related: false
   reviewed: false
+learning:
+  include: true
+  type: Best Practice
+  image_path: 
 ---
 
 

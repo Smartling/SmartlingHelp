@@ -35,4 +35,8 @@ migration-checklist:
   FAQs: false
   related: false
   reviewed: false
+learning:
+  include: true
+  type: Guide
+  image_path: 
 ---
