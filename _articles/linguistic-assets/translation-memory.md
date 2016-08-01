@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Translation Memory
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -33,12 +33,7 @@ migration-checklist:
 ---
 
 
-[What is Translation Memory?](#Intro)
-<br>[Manage Translation Memory for an Account](#Manage)
-<br>[Import](#Import)
-<br>[Export](#Export)
-
-**What is Translation Memory?**
+## What is Translation Memory?
 
 ![](/uploads/versions/tm_diagram---x----1741-963x---.png)
 
@@ -46,7 +41,7 @@ Each Smartling Project saves it's translations to a specific Translation Memory,
 
 While a Smartling project can only save translations to a single translation memory, you can reuse translations from several different Translation Memories as well as other sources. See&nbsp;[Leverage Configuration](/hc/en-us/articles/218671488-Leverage-Configuration) for details.
 
-**Manage Translation Memory for an Account**
+## Manage Translation Memory for an Account
 
 ![](/uploads/versions/tm2---x----1242-739x---.png)
 
@@ -58,9 +53,9 @@ Translation Memory is managed from **Assets &gt; Translation Memory**. From here
 * Manage/Export a Translation Memory.
 
 
-**Import**
+## Import
 
-You can import translations in TMX format to Smartling. TMX files must follow the TMX standard. The specifications appear [here](https://www.gala-global.org/tmx-14b). In addition to the TMX standard, the file must contain a &lt;header&gt; tag with *srclang* and *datatype* attributes/values:
+You can import translations in TMX format to Smartling. TMX files must follow the TMX standard. The specifications appear [here](https://www.gala-global.org/tmx-14b). In addition to the TMX standard, the file must contain a `<header>` tag with `srclang` and `datatype` attributes/values:
 
 &lt;header
 <br>&nbsp; &nbsp; srclang="EN-GB"
