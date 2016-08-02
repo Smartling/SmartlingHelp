@@ -50,14 +50,24 @@ $target-margin: 0 - $target-height;
 // END HEIGHTS AND TOP MARGINS
 
 
-
-
 // BORDERS
 
 $standard-border: 1px solid $border-grey;
 
 // END BORDERS
 
+
+// GENERAL MIXINS
+
+// Prevent selection of text
+
+@mixin no-select {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
 
 
 
@@ -223,6 +233,18 @@ $standard-border: 1px solid $border-grey;
 }
 
 // Styles for the panels
+
+
+// Include this in any button to set the color to your choice and text to white
+// use like:   @include smartling-button($smartling-red);
+@mixin smartling-button($button-background) {
+    color: #fff !important;
+    background-color: $button-background !important;
+}
+
+
+
+
 .side-nav-widget {
     margin: auto;
     max-width: 95%;
@@ -231,6 +253,7 @@ $standard-border: 1px solid $border-grey;
         border-radius: 4px;
     }
     .panel-heading {
+        @include no-select();
         border-bottom: none;
         background-color: $background-grey;
         border-radius: 4px;
@@ -330,7 +353,6 @@ $headline-padding: 12px;
 
 // Styles for article content
 .main-content {
-    padding: 5px, 20px, 5px, 20px;
     margin: auto;
     max-width: 95%;
 
@@ -519,8 +541,25 @@ $headline-padding: 12px;
 
 // SPECIAL CLASSES FOR LEARNING PAGE
 
+
 .learning-toggle {
     cursor: pointer;
+}
+
+// Colors for active buttons
+.clear-filter {
+    &[data-learning-type="learning-video"] {
+        @include smartling-button($smartling-blue);
+    }
+    &[data-learning-type="learning-guide"] {
+        @include smartling-button($smartling-red);
+    }
+    &[data-learning-type="learning-best-practice"] {
+        @include smartling-button($smartling-yellow);
+    }
+    &[data-learning-type="learning-webinar"] {
+        @include smartling-button($smartling-green);
+    }
 }
 
 

@@ -2,23 +2,12 @@
  * Created by kalebogdanovs on 7/29/16.
  */
 
-// Add listener to clear current filter
-function listenclear () {
-    $('.clear-filter').click(function() {
+// Initialize on page load
+$(document).ready(function() {
+    listentoggle();
+});
 
-        // Show all cards
-        $('.learning-card-col').show();
 
-        // Return button to regular background
-        $(this).css({"background-color": "#F6F7F7", "color": "#494E50"});
-
-        // Remove the clear-filter class
-        $('.panel-heading').removeClass('clear-filter');
-
-        // Reset listeners
-        listentoggle();
-    });
-}
 // Add listeners to filter buttons
 function listentoggle() {
 
@@ -44,22 +33,7 @@ function listentoggle() {
         // Show cards matching the filter settings
         $('.' + filter).show();
 
-        // Get the right color for clicked button
-        if (filter === 'learning-video') {
-            var color = '#62C2DD';
-        }
-        if (filter === 'learning-guide') {
-            var color = '#F26C5D';
-        }
-        if (filter === 'learning-best-practice') {
-            var color = '#EDBB6C';
-        }
-        if (filter === 'learning-webinar') {
-            var color = '#66C6B4';
-        }
-
-        // Add color to clicked button and set up class for 'clear filter' listener
-        $(this).css({"background-color": color, "color": "#fff"});
+        // Add class hook for active button style and clear filter listener
         $(this).addClass('clear-filter');
 
         // Reset listeners
@@ -68,7 +42,18 @@ function listentoggle() {
     });
 }
 
-// Initialize listeners on page load
-$(document).ready(function() {
-    listentoggle();
-});
+// Add listener to clear current filter
+function listenclear () {
+    $('.clear-filter').click(function() {
+
+        // Show all cards
+        $('.learning-card-col').show();
+
+        // Remove the clear-filter class
+        $('.panel-heading').removeClass('clear-filter');
+
+        // Reset listeners
+        listentoggle();
+    });
+}
+
