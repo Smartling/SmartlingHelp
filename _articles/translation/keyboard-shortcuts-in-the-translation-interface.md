@@ -54,15 +54,15 @@ The Translation Interface includes a set of 4 popular CAT tool keyboard shortcut
 
 The Default Smartling keyboard shortcuts in the translation interface are:
 
-<table align="center">
+<table >
 
 <tbody >
 
 <tr >
 
-<th  align="center">Function</td>
+<th  >Function</td>
 
-<th  align="center">Shortcut</td>
+<th  >Shortcut</td>
 
 </tr>
 
@@ -70,7 +70,7 @@ The Default Smartling keyboard shortcuts in the translation interface are:
 
 <td >Search source Translation Memory for the highlighted term.</td>
 
-<td   align="center">
+<td>
 
 Ctrl+Alt+T 
 
@@ -82,7 +82,7 @@ Ctrl+Alt+T
 
 <td >Navigate to the previous untranslated string</td>
 
-<td  align="center">Alt+Shift+Up Arrow  
+<td  >Alt+Shift+Up Arrow  
 </td>
 
 </tr>
@@ -95,7 +95,7 @@ Navigate to the previous consecutive string
 
 </td>
 
-<td  align="center">Alt+Up Arrow
+<td  >Alt+Up Arrow
 </td>
 
 </tr>
@@ -108,7 +108,7 @@ Navigate to the next consecutive string
 
 </td>
 
-<td  align="center">Alt+Down Arrow
+<td  >Alt+Down Arrow
 </td>
 
 </tr>
@@ -121,7 +121,7 @@ Navigate to the next untranslated string
 
 </td>
 
-<td  align="center">Ctrl+Shift+Down Arrow
+<td  >Ctrl+Shift+Down Arrow
 </td>
 
 </tr>
