@@ -117,11 +117,11 @@ Navigate to the next consecutive string
 
 <td style="margin: 0px; padding: 0px;">
 
-Navigate to the next untranslated string 
+Navigate to the next untranslated string
 
 </td>
 
-<td style="margin: 0px; padding: 0px;" align="center">**Ctrl+Shift+Down Arrow**  
+<td style="margin: 0px; padding: 0px;" align="center">Ctrl+Shift+Down Arrow
 </td>
 
 </tr>
@@ -138,9 +138,9 @@ Display translation memory for a string
 
 Click in the translation box, and do one of the following:
 
-**Mac**: press **Cmd+Down Arrow**
+Mac: press Cmd+Down Arrow
 
-**Windows**: press**Ctrl+Down Arrow**
+Windows: press Ctrl+Down Arrow
 
 </td>
 
@@ -158,9 +158,9 @@ Insert first match from translation memory for a string
 
 Click in the translation box, and do one of the following:
 
-**Mac**: press **Cmd+Down Arrow+Down Arrow** (selects the first option in the drop-down)
+Mac: press Cmd+Down Arrow+Down Arrow (selects the first option in the drop-down)
 
-**Windows**: press**Ctrl+Down Arrow+Down Arrow** (selects the first option in the drop-down)
+Windows: press Ctrl+Down Arrow+Down Arrow  (selects the first option in the drop-down)
 
 </td>
 
@@ -170,15 +170,15 @@ Click in the translation box, and do one of the following:
 
 <td style="margin: 0px; padding: 0px;">Display the Translation Dialog </td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Hold down the **Ctrl** key and right-click any string highlighted yellow.</td>
+<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Hold down the Ctrl key and right-click any string highlighted yellow.</td>
 
 </tr>
 
 <tr style="margin: 0px; padding: 0px;">
 
-<td style="margin: 0px; padding: 0px;">Display the 'pencil'** ![ti_pencil_menu.jpg](https://smartling.zendesk.com/attachments/token/3ntumlyw4q9ngbv/?name=ti_pencil_menu.jpg) **menu</td>
+<td style="margin: 0px; padding: 0px;">Display the 'pencil'<img src="https://smartling.zendesk.com/attachments/token/3ntumlyw4q9ngbv/?name=ti_pencil_menu.jpg"> menu</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Hold down the **Alt** key while highlighting a string, and the pencil menu will lock in its visible state even if you move your mouse off the string. It will disappear if you highlight another string on the page.</td>
+<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Hold down the Alt key while highlighting a string, and the pencil menu will lock in its visible state even if you move your mouse off the string. It will disappear if you highlight another string on the page.</td>
 
 </tr>
 
@@ -188,9 +188,9 @@ Click in the translation box, and do one of the following:
 
 <td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">
 
-**Mac**: Hold down the **Cmd** key and press **I**  
+Mac: Cmd + I  
 
-**Windows**: Hold down the **Ctrl** key and press **Insert**
+Windows: Ctrl + Insert
 
 </td>
 
@@ -198,11 +198,11 @@ Click in the translation box, and do one of the following:
 
 <tr style="margin: 0px; padding: 0px;">
 
-<td style="margin: 0px; padding: 0px;">Copy the source text to _all_corresponding translation fields</td>
+<td style="margin: 0px; padding: 0px;">Copy the source text to allcorresponding translation fields</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">****Mac**:** Hold down the **Cmd** key and press **I + I **(double-click I)  
+<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Mac: Hold down the Cmd key and pressI+I (double-click I)  
 
-**Windows**_: _Hold down the **Ctrl **key and press **Insert + Insert**(double-click Insert)
+Windows: Hold down the Ctrl key and press Insert + Insert (double-click Insert)
 
 </td>
 
@@ -212,7 +212,7 @@ Click in the translation box, and do one of the following:
 
 <td style="margin: 0px; padding: 0px;">Move cursor to original text field</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;"><font color="#444444">**F4**</font></td>
+<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;"><font color="#444444">F4</font></td>
 
 </tr>
 
