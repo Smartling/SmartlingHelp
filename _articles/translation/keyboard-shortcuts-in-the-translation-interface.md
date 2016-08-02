@@ -54,23 +54,23 @@ The Translation Interface includes a set of 4 popular CAT tool keyboard shortcut
 
 The Default Smartling keyboard shortcuts in the translation interface are:
 
-<table style="margin: 12px 0px; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: #ffffff; width: 483px; height: 368px;" border="2" align="center">
+<table align="center">
 
-<tbody style="margin: 0px; padding: 0px;">
+<tbody >
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<th style="margin: 0px; padding: 0px;" align="center">Function</td>
+<th  align="center">Function</td>
 
-<th style="margin: 0px; padding: 0px;" align="center">Shortcut</td>
+<th  align="center">Shortcut</td>
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">Search source Translation Memory for the highlighted term.</td>
+<td >Search source Translation Memory for the highlighted term.</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;" align="center">
+<td   align="center">
 
 Ctrl+Alt+T 
 
@@ -78,63 +78,63 @@ Ctrl+Alt+T
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">Navigate to the previous untranslated string</td>
+<td >Navigate to the previous untranslated string</td>
 
-<td style="margin: 0px; padding: 0px;" align="center">Alt+Shift+Up Arrow  
+<td  align="center">Alt+Shift+Up Arrow  
 </td>
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">
+<td >
 
 Navigate to the previous consecutive string
 
 </td>
 
-<td style="margin: 0px; padding: 0px;" align="center">Alt+Up Arrow
+<td  align="center">Alt+Up Arrow
 </td>
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">
+<td >
 
 Navigate to the next consecutive string
 
 </td>
 
-<td style="margin: 0px; padding: 0px;" align="center">Alt+Down Arrow
+<td  align="center">Alt+Down Arrow
 </td>
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">
+<td >
 
 Navigate to the next untranslated string
 
 </td>
 
-<td style="margin: 0px; padding: 0px;" align="center">Ctrl+Shift+Down Arrow
+<td  align="center">Ctrl+Shift+Down Arrow
 </td>
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">
+<td >
 
 Display translation memory for a string
 
 </td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">
+<td>
 
 Click in the translation box, and do one of the following:
 
@@ -146,15 +146,15 @@ Windows: press Ctrl+Down Arrow
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">
+<td >
 
 Insert first match from translation memory for a string
 
 </td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">
+<td>
 
 Click in the translation box, and do one of the following:
 
@@ -166,27 +166,27 @@ Windows: press Ctrl+Down Arrow+Down Arrow  (selects the first option in the drop
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">Display the Translation Dialog </td>
+<td >Display the Translation Dialog </td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Hold down the Ctrl key and right-click any string highlighted yellow.</td>
-
-</tr>
-
-<tr style="margin: 0px; padding: 0px;">
-
-<td style="margin: 0px; padding: 0px;">Display the 'pencil'<img src="https://smartling.zendesk.com/attachments/token/3ntumlyw4q9ngbv/?name=ti_pencil_menu.jpg"> menu</td>
-
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Hold down the Alt key while highlighting a string, and the pencil menu will lock in its visible state even if you move your mouse off the string. It will disappear if you highlight another string on the page.</td>
+<td  >Hold down the Ctrl key and right-click any string highlighted yellow.</td>
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">Copy the source text to the corresponding translation field</td>
+<td >Display the 'pencil'<img src="https://smartling.zendesk.com/attachments/token/3ntumlyw4q9ngbv/?name=ti_pencil_menu.jpg"> menu</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">
+<td  >Hold down the Alt key while highlighting a string, and the pencil menu will lock in its visible state even if you move your mouse off the string. It will disappear if you highlight another string on the page.</td>
+
+</tr>
+
+<tr >
+
+<td >Copy the source text to the corresponding translation field</td>
+
+<td  >
 
 Mac: Cmd + I  
 
@@ -196,11 +196,11 @@ Windows: Ctrl + Insert
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">Copy the source text to allcorresponding translation fields</td>
+<td >Copy the source text to allcorresponding translation fields</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;">Mac: Hold down the Cmd key and pressI+I (double-click I)  
+<td  >Mac: Hold down the Cmd key and pressI+I (double-click I)  
 
 Windows: Hold down the Ctrl key and press Insert + Insert (double-click Insert)
 
@@ -208,11 +208,11 @@ Windows: Hold down the Ctrl key and press Insert + Insert (double-click Insert)
 
 </tr>
 
-<tr style="margin: 0px; padding: 0px;">
+<tr >
 
-<td style="margin: 0px; padding: 0px;">Move cursor to original text field</td>
+<td >Move cursor to original text field</td>
 
-<td class="wysiwyg-text-align-center" style="margin: 0px; padding: 0px;"><font color="#444444">F4</font></td>
+<td>F4</td>
 
 </tr>
 
