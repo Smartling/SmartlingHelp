@@ -69,7 +69,7 @@ A much more localization-friendly way to handle the same content is by using a s
 <script>
 	var item = {...};
 	// <sl:translate>
-	var checkoutStatus = 'You added a \{\{item.quantity\}\} \{\{item.type\}\} to your cart.';
+	var checkoutStatus = 'You added a \{\{item.color\}\} \{\{item.type\}\} to your cart.';
 	// </sl:translate>
 	var checkoutStatus = Mustache.render(checkoutStatus, item);
 </script>
