@@ -239,8 +239,8 @@
     Values:         'String of characters (default is <code>"</code>)'
     Description:    'Defines the sequence of characters that may enclose values. To use the character sequence inside values you should escape it with repeating twice (default is "").'
     Examples:
-        - CodeCSV: 'smartling.field_separator="'
-          Description: 'Fields are separated with a <code>"</code> character'
+        - CodeCSV: 'smartling.string_encloser="'
+          Description: 'String literals are inclosed in <code>"</code> characters'
 
   - Directive:      'paths'
     Values:         '<p>Values of all columns to be ingested as strings.</p><p>For import, all values will be imported for the selected locale.</p>'

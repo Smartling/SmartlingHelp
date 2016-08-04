@@ -17,7 +17,7 @@ url: "http://help.smartling.com/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 highlighter: rouge
-incremental: true
+incremental: false
 
 
 # LAYOUT

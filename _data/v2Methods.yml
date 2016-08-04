@@ -4,7 +4,7 @@
   - Method: Authenticate
     Name: 'Authenticate'
     Url: '/auth-api/v2/authenticate'
-    Link: '/developers/API/v2/Authentication/Authenticate/'
+    Link: '/developers/api/v2/authentication/authenticate/'
     Type : POST
     Intro: 'Authenticates the user with a User Identifier and Secret. Returns an access token that can be attached to the header of any API request to authenticate the user, and a refresh token which can be used to obtain a new access token. See <a href="/developers/API/v2/Authentication/">Authentication</a> for more information.'
     CurlGist: 7ade6ca1e334e8cc51ce
@@ -45,7 +45,7 @@
   - Method: RefreshAuthentication
     Name: 'Refresh Authentication'
     Url: '/auth-api/v2/authenticate/refresh'
-    Link: '/developers/API/v2/Authentication/Refresh-Authentication/'
+    Link: '/developers/api/v2/authentication/refresh-authentication/'
     Type : POST
     Intro: 'Returns a renewed access token that can be attached to the header of any API request to authenticate the user, and a refresh token which can be used to obtain a new access token. See <a href="/developers/API/v2/Authentication/">Authentication</a> for more information.'
     CurlGist: 6dd0ebe17c19927b5d80
