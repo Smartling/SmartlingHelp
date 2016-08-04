@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Translate SendwithusEmails
+title: Translate Sendwithus Emails
 draft: true
 Applies to:
   GDN: false
@@ -14,18 +14,14 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
@@ -36,3 +32,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+Users of Sendwithus can use Smartling to translate their email templates.
