@@ -1,5 +1,5 @@
 ---
-layout: MiscAPIMethods
+layout: miscapimethods
 title:  Reset Cache
 method: ResetCache
 redirect_from:

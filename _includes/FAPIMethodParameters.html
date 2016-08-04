@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/public/css/FAPIMethods.css">
+<link rel="stylesheet" href="/public/css/fapimethods.css">
 
 
              <div class="parameter {% if Parameter.Required == "required" %}required{% else %}optional{% endif %}">
@@ -9,7 +9,7 @@
                 <h4>projectId (required)</h4>
                 <p>The unique ID for your project. Available in the Smartling dashboard at <a href="https://dashboard.smartling.com/settings/api">Project Settings>API</a>.</p>
             </div>
-        {% for Parameter in FAPIMethod.Parameters%}
+        {% for Parameter in fapimethod.Parameters%}
             <div class="parameter {% if Parameter.Required == "required" %}required{% else %}optional{% endif %}">
                 <h4 id="{{Parameter.Name}}">{{Parameter.Name}} ({{Parameter.Required}})</h4>
 

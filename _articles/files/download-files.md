@@ -67,7 +67,7 @@ Smartling allows you to download files, individually or [in bulk](){: .cc-active
 
 For CSV files, you may download translations for all locales in a single file by selecting&nbsp;**Download translations (all locales)**. This option requires some preparation of the original
 
-file. See our [Supported Files](https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-csv) documentation for more information on downloading CSV files.
+file. See our [Supported Files](https://docs.smartling.com/display/docs/Supported+File+Types#supportedfiletypes-csv) documentation for more information on downloading CSV files.
 
 ![](/uploads/versions/smartling___manage_files-1---x----1012-542x---.png)
 

@@ -1,0 +1,12 @@
+---
+layout: devdefault
+---
+<div class="page">
+	{% for supportedfiletype in site.data.supportedfiletypes %}
+		{% if supportedfiletype.file_type == page.title %}
+			{% if supportedfiletype.template == 'standard' %}
+        		{% include supportedfiletypes.html %}
+       		{% endif %}
+       	{% endif %}
+    {% endfor %}
+</div>

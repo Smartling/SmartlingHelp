@@ -36,18 +36,18 @@ calls require both the<strong> apiKey</strong> and<strong>projectId</strong> par
     Smartling supports string variants, which are duplications of the same string with different keys for context. You cannot specify which variant of a string
     you are contextualizing with the current version of this API.
 </p>
-    {% assign FAPIMethods = site.data.MiscAPIMethods %}
-    {% for FAPIMethod in FAPIMethods %}
-        {% if FAPIMethod.Method == 'HTMLContextUpload' %}
+    {% assign fapimethods = site.data.miscapimethods %}
+    {% for fapimethod in fapimethods %}
+        {% if fapimethod.Method == 'HTMLContextUpload' %}
     <section>
-           <a class="anchor" id="{{FAPIMethod.Method}}"></a>
-           <h2>{{FAPIMethod.Method}} ({{FAPIMethod.Url}})</h2>
-           <p>{{FAPIMethod.Intro}}</p>
+           <a class="anchor" id="{{fapimethod.Method}}"></a>
+           <h2>{{fapimethod.Method}} ({{fapimethod.Url}})</h2>
+           <p>{{fapimethod.Intro}}</p>
     <br/>
     <div class="panel panel-default">
         <div class="panel-heading">Parameters</div>
         <div class="panel-body">
-            {% include FAPIMethodParameters.html %}
+            {% include fapimethodParameters.html %}
         </div>
     </div>
     <div class="panel panel-default">
@@ -66,17 +66,17 @@ calls require both the<strong> apiKey</strong> and<strong>projectId</strong> par
         {% endif %} 
     {% endfor %}
 
-    {% for FAPIMethod in FAPIMethods %}
-        {% if FAPIMethod.Method == 'HTMLContextStats' %}
+    {% for fapimethod in fapimethods %}
+        {% if fapimethod.Method == 'HTMLContextStats' %}
     <section>
-           <a class="anchor" id="{{FAPIMethod.Method}}"></a>
-           <h2>{{FAPIMethod.Method}} ({{FAPIMethod.Url}})</h2>
-           <p>{{FAPIMethod.Intro}}</p>
+           <a class="anchor" id="{{fapimethod.Method}}"></a>
+           <h2>{{fapimethod.Method}} ({{fapimethod.Url}})</h2>
+           <p>{{fapimethod.Intro}}</p>
     <br/>
     <div class="panel panel-default">
         <div class="panel-heading">Parameters</div>
         <div class="panel-body">
-            {% include FAPIMethodParameters.html %}
+            {% include fapimethodParameters.html %}
         </div>
     </div>
     <div class="panel panel-default">

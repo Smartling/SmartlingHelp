@@ -1,5 +1,5 @@
 ---
-layout: FileTypePage
+layout: filetypepage
 title:  'YAML'
 ---
 

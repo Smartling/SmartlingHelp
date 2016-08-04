@@ -1,5 +1,5 @@
 ---
-layout: FileTypePage
+layout: filetypepage
 title:  'MadCap Lingo ZIP packages'
 ---
 

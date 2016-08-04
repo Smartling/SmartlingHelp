@@ -35,18 +35,18 @@ redirect_from:
 </p>
 
 
-    {% assign FAPIMethods = site.data.MiscAPIMethods %}
-    {% for FAPIMethod in FAPIMethods %}
-        {% if FAPIMethod.Method == 'TranslationImport' %}
+    {% assign fapimethods = site.data.miscapimethods %}
+    {% for fapimethod in fapimethods %}
+        {% if fapimethod.Method == 'TranslationImport' %}
     <section>
-           <a class="anchor" id="{{FAPIMethod.Method}}"></a>
-           <h2>{{FAPIMethod.Method}} ({{FAPIMethod.Url}})</h2>
-           <p>{{FAPIMethod.Intro}}</p>
+           <a class="anchor" id="{{fapimethod.Method}}"></a>
+           <h2>{{fapimethod.Method}} ({{fapimethod.Url}})</h2>
+           <p>{{fapimethod.Intro}}</p>
     <br/>
     <div class="panel panel-default">
         <div class="panel-heading">Parameters</div>
         <div class="panel-body">
-            {% include FAPIMethodParameters.html %}
+            {% include fapimethodParameters.html %}
         </div>
     </div>
     <div class="panel panel-default">

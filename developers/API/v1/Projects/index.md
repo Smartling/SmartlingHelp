@@ -1,5 +1,5 @@
 ---
-layout: MiscAPIMethods
+layout: miscapimethods
 title:  Projects
 method: ProjectsAPI
 redirect_from: 

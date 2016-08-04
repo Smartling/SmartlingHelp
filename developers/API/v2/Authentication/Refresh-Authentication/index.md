@@ -1,5 +1,5 @@
 ---
-layout: v2Methods
+layout: v2methods
 title:  Refresh Authentication
 method: RefreshAuthentication
 ---

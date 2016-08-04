@@ -4,7 +4,7 @@ layout: devdefault
 
 
 <div class="page">
-{% for Method in site.data.v2Methods %}
+{% for Method in site.data.v2methods %}
     {% if Method.Method == page.method %}
     <a class="anchor" id="{{Method.Method}}"></a>
     <h2>{{Method.Name}}</h2>
@@ -21,7 +21,7 @@ layout: devdefault
     <div class="panel panel-default">
         <div class="panel-heading">Parameters</div>
         <div class="panel-body">
-            {% include v2MethodParameters.html %}
+            {% include v2methodParameters.html %}
         </div>
     </div>
     {% endif %}

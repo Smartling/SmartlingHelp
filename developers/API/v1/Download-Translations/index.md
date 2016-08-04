@@ -1,5 +1,5 @@
 ---
-layout: MiscAPIMethods
+layout: miscapimethods
 title:  Download Translations
 method: DownloadTranslations
 redirect_from: 

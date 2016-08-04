@@ -21,10 +21,10 @@
                 <li class="">
                     <a href="/developers/api/v1/fileapi" class="title">File API</a>
                     <ul class="{% if page.url contains "/developers/api/v1/fileapi" %}shown{% endif %} tertiary">
-                        {% for FAPIMethod in site.data.FAPIMethods %}
+                        {% for fapimethod in site.data.fapimethods %}
 
-                            <li class= "{% if page.url contains FAPImethod.Link | downcase %}active{% endif %}">
-                                <a href="{{FAPIMethod.Link}}">{{FAPIMethod.Name}} ({{FAPIMethod.Type}})</a>
+                            <li class= "{% if page.url contains fapimethod.Link | downcase %}active{% endif %}">
+                                <a href="{{fapimethod.Link}}">{{fapimethod.Name}} ({{fapimethod.Type}})</a>
                             </li>
                         {% endfor %}
                     </ul>
@@ -77,7 +77,7 @@
                 <li class="">
                     <a href="/developers/api/v2/authentication" class="title">Authentication</a>
                     <ul class="{% if page.url contains "/developers/api/v2/authentication" %}shown{% endif %} tertiary">
-                    {% for Method in site.data.v2Methods %}
+                    {% for Method in site.data.v2methods %}
                         {% if Method.Link contains "/developers/api/v2/authentication" %}
                             <li class= "{% if page.url contains Method.Link %}active{% endif %}">
                                 <a href="{{Method.Link}}">{{Method.Name}}</a>
@@ -196,8 +196,8 @@
         <li class="{% if page.url contains "/developers/supported-file-types" %}shown{% endif %}">
             <a href="/developers/supported-file-types"><i class="fa fa-thumbs-up"></i> Supported File Types</a>
             <ul class="secondary">
-                {% for SupportedFileType in site.data.SupportedFileTypes %}
-                <li class= "{% if page.url contains SupportedFileType.link %}active{% endif %}"><a href="{{SupportedFileType.link}}">{{SupportedFileType.file_type}}</a></li>
+                {% for supportedfiletype in site.data.supportedfiletypes %}
+                <li class= "{% if page.url contains supportedfiletype.link %}active{% endif %}"><a href="{{supportedfiletype.link}}">{{supportedfiletype.file_type}}</a></li>
                 {% endfor %}
             </ul>
         </li>

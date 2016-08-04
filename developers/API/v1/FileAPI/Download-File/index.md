@@ -1,5 +1,5 @@
 ---
-layout: FAPIMethods
+layout: fapimethods
 title:  Download Files
 method: DownloadFiles
 redirect_from: 

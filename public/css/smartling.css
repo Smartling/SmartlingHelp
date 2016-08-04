@@ -334,7 +334,7 @@ pre {
 .page .panel-heading a.collapsed:after {
   content: "\f054";
 }
-.supportedFileTypes td {
+.supportedfiletypes td {
   padding: 8px 15px;
   border: 1px solid #eee;
 }

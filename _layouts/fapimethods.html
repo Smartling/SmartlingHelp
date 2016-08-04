@@ -3,22 +3,20 @@ layout: devdefault
 ---
 
 <div class="page">
+{% for fapimethod in site.data.fapimethods %}
+    {% if fapimethod.Method == page.method %}
+
     
-    {% assign FAPIMethods = site.data.MiscAPIMethods %}
-    {% for FAPIMethod in FAPIMethods %}
-        {% if FAPIMethod.Method == page.method %}
-
-
-    <h1>{{FAPIMethod.Name}}<br/>({{FAPIMethod.Url}})</h1>
+    <a class="anchor" id="{{fapimethod.Method}}"></a>
+    <h2>{{fapimethod.Name}} ({{fapimethod.Url}})</h2>
     <div class="warning">
-        This v1 API method is scheduled for deprecation March 1, 2017. Where possible, use <a href="{% if FAPIMethod.v2Link %}{{FAPIMethod.v2Link}}{% else %}/pages/API/v2/{% endif %}">File API v2</a>
+        This v1 API method is scheduled for deprecation March 1, 2017. Where possible, use <a href="{% if fapimethod.v2Link %}{{fapimethod.v2Link}}{% else %}/developers/API/v2/{% endif %}">File API v2</a>
     </div>
-    <p>{{FAPIMethod.Intro}}</p>
-    <br/>
+    <p>{{fapimethod.Intro}}</p>
     <div class="panel panel-default">
         <div class="panel-heading">Parameters</div>
         <div class="panel-body">
-            {% include FAPIMethodParameters.html %}
+            {% include fapimethodParameters.html %}
         </div>
     </div>
     <div class="panel panel-default">
@@ -32,9 +30,9 @@ layout: devdefault
         <div class="panel-body">
             {% include FAPICodeExamples.html %}
         </div>
+        <br/>
     </div>
 
-        {% endif %} 
-    {% endfor %}
-
+    {% endif %}
+{% endfor %}
 </div>

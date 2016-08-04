@@ -287,7 +287,7 @@
    keys_variants_info: ''
    string_instructions: 'Set using string_instructions_paths directive.'
    specify_paths: '<p>Some directives require you to specify a path or set of paths to keys or strings in the file. A path in CSV files is simply a column number, such as <code>1</code></p><p><strong>Note:</strong> When declaring a path for a key or string instruction the key or instruction will be applied to the next translatable string to the right, so you will need to organize your files so that keys and instructions are to the left of translatable strings in each row.</p>'
-   other: '<p>You may define values with and without quotations. For example:</p> <pre><code>value1, "Value 2"</code></pre> <p>If you want to use the symbol " inside quoted value you escape it with double quotes like:</p> <pre><code>"value""178"</code></pre> <p>which corresponds to the string: <strong?value"178</strong></p><p>Smartling offers several options for downloading CSV files. <a href="/developers/Misc/CSV-Download/">More info</a></p>'
+   other: '<p>You may define values with and without quotations. For example:</p> <pre><code>value1, "Value 2"</code></pre> <p>If you want to use the symbol " inside quoted value you escape it with double quotes like:</p> <pre><code>"value""178"""</code></pre> <p>which corresponds to the string: <strong>value"178"</strong></p><p>Smartling offers several options for downloading CSV files. <a href="/developers/Misc/CSV-Download/">More info</a></p>'
    directive_format: '# smartling.[directive_name] = [value]'
    directive_prefix: '# '
    directive_suffix: ''

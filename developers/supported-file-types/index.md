@@ -6,9 +6,9 @@ redirect_from: "/display/docs/Supported+File+Types/"
 
 Smartling supports the following file formats:
 
-<ul class="textList supportedFileTypes">
-  {% for SupportedFileType in site.data.SupportedFileTypes %}
-  <li><a href="{{SupportedFileType.link}}">{{SupportedFileType.file_type}}</a></li>
+<ul class="textList supportedfiletypes">
+  {% for supportedfiletype in site.data.supportedfiletypes %}
+  <li><a href="{{supportedfiletype.link}}">{{supportedfiletype.file_type}}</a></li>
   {% endfor %}
 </ul>
 

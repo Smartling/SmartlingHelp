@@ -1,5 +1,5 @@
 ---
-layout: FAPIMethods
+layout: fapimethods
 title:  List
 method: List
 redirect_from: "/developers/API/FileAPI/List"
