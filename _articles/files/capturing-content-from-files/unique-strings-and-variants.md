@@ -195,7 +195,7 @@ Since Smartling’s List View displays the plain text of a string, it can be dif
 ![](/uploads/versions/smartling---translations-management-and-grabtab---x----2468-926x---.png)
 
 **(2)** If you have used GDN or File integration to mark Variants, you can search for your Variant names in the **Key**(Files only) or **Variant** search box.
-<br>![medium](/uploads/versions/smartling---translations-management-28---x----474-819x---.png)
+<br>![small](/uploads/versions/smartling---translations-management-28---x----474-819x---.png)
 
 **(3)** If there is no variant metadata, the context and code views in the Translation Interface may reveal the differences in the inline tags that caused two unique strings to be created.
 
