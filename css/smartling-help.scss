@@ -117,8 +117,9 @@ $standard-border: 1px solid $border-grey;
     filter: invert(60%);
 }
 
-// Position Search Bar
+// Search Bar
 
+// Make placeholder text italic (only available for firefox/safari/chrome - nothing I can do about IE.)
 #help-search::-webkit-input-placeholder { font-style:italic; }
 #help-search::-moz-placeholder { font-style:italic; }
 
@@ -126,7 +127,7 @@ $standard-border: 1px solid $border-grey;
     position: absolute;
     left: 30%;
     top: -20px;
-    margin-top: 40px;
+    margin-top: 37px;
     display: inline;
     margin-left: 60px;
     width: 100%;
@@ -154,7 +155,7 @@ $standard-border: 1px solid $border-grey;
         width: 22px;
         height: 22px;
         float: left;
-        margin: 0 10px 0 0;
+        margin: 2px 10px 0 0;
         //position: relative;
         top: 15px;
         @media only screen and (min-width: 992px) {
@@ -677,6 +678,12 @@ html, body {
 // Highlight Code
 
 @import "syntax-highlighting";
+
+// Hide edit link (shown with jQuery on test domain)
+#editLink {
+    display: none;
+}
+
 
 
 // END MISC
