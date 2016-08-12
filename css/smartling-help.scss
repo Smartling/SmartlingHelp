@@ -242,6 +242,7 @@ $standard-border: 1px solid $border-grey;
             }
             .search-icon {
                 display: inline-block;
+                float: right;
                 background: url('../img/magnifying-glass.svg');
                 background-size: cover;
                 width: 18px;
