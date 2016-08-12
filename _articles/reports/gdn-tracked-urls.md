@@ -1,7 +1,7 @@
 ---
 layout: article
 title: GDN Tracked URLs
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: false
@@ -52,4 +52,4 @@ You will receive one line item in reports showing cumulative request that matche
 
 You can specify specific parameters using wildcards; for example, `/checkout/success?complete=true`
 
-For each URL, you can also optionally specify a "currency value" using decimal points. The currency type is required.
+For each URL, you can also optionally specify a "currency" value using decimal points. The currency type is required.
