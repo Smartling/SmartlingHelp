@@ -83,7 +83,7 @@ See our [Files Integration](http://docs.smartling.com/pages/supported-file-types
 
 ## JSON Files
 
-Note: Accounts created after June 5th 2015 have new default rules for JSON handling. [See here](/hc/en-us/articles/205589697) for details.
+Note: Accounts created after June 5th 2015 have new default rules for JSON handling. [See here]() for details.
 
 By default, all values in a JSON file are translated. If you wish to translate all values, you do not need to add directives to the file. Only JSON values are captured as strings. Keys are not captured as strings, but can optionally be captured as metadata for a string. For example:
 
@@ -147,7 +147,7 @@ Smartling also supports the following business document files. These files are s
 
 The size of files that can be uploaded to Smartling are limited to:
 
-* 50MB for .ppt, .pptx
+* 50MB for .pptx
 * 25MB for .idml
 * 20MB for madcap zip packages
 * 20MB for .doc, .docx
