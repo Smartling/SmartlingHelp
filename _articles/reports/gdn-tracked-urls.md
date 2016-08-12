@@ -51,5 +51,3 @@ You can use wildcard "\*" symbols to generate a report that cumulatively counts 
 You will receive one line item in reports showing cumulative request that matched `/user/\*/profile/\*` - not a breakdown of the specific pages.
 
 You can specify specific parameters using wildcards; for example, `/checkout/success?complete=true`
-
-For each URL, you can also optionally specify a "currency" value using decimal points. The currency type is required.
