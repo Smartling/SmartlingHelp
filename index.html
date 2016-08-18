@@ -6,19 +6,29 @@ home: true
 
 <!-- Home Page Content -->
 
-
+<div class="search-main" data-spy="affix" data-offset-top="160">
+    <div class="search-bar-home">
+        <div class="container">
+            <div class="home-search-left">
+                <span class="search-icon"></span>
+                <input id="help-search" class="search-input" placeholder="Search Smartling Help...">
+            </div>
+            <div class="home-search-right">
+                <a><i class="fa fa-user"></i>Login</a>
+                <a href="http://status.smartling.com/"><i class="fa fa-info-circle"></i>Status</a>
+                <a><i class="fa fa-life-ring"></i>Support Request</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container page">
+
+
+
     <div class="content-start-homepage">
 
-            <div class="search-main">
-                <div class="row">
-                    <div class="search-bar">
-                        <span class="search-icon"></span>
-                        <input id="help-search" class="search-input" placeholder="Search Smartling Help...">
-                    </div>
-                </div>
-            </div>
+
             <div class="home-section">
                 <div class="row">
                     <div class="col-md-2 col-sm-2 hidden-xs-down"></div>
@@ -39,24 +49,25 @@ home: true
 
 
         <div class="home-section whats-new-cards">
-            <h2>What's New?</h2>
+            <!-- <h2>What's New?</h2> -->
             <div class="row">
                 <div class="col-md-5">
-                    <div class="card">
+                    <div class="card" id="blog">
                         <h3>Blog</h3>
-                        <h4></h4>
-                        <p></p>
+                        <h4>Test Heading</h4>
+                        <p>Lormem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua</p>
+                        <a href="/" class="read-more">Read more ></a>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card" id="webinars">
                         <h3>Webinars</h3>
                         <p>Attend weekly trainings, Q&A sessions, and product demos.</p>
                         <p><a href="/" class="button-yellow">Sign-up for training</a></p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" id="newsletter">
                         <h3>Newsletter</h3>
                         <p>Get weekly updates straight to your inbox.</p>
                         <p><a href="/" class="button-red">Get the Newsletter</a></p>
@@ -65,7 +76,7 @@ home: true
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card">
+                    <div class="card" id="new-features">
                         <h3>New Features</h3>
                         <h4>Test Heading</h4>
                         <p>Lormem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua</p>
@@ -73,7 +84,7 @@ home: true
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="card">
+                    <div class="card" id="best-practices">
                         <h3>Best Practices</h3>
                         <h4>Test Heading</h4>
                         <p>Lormem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua</p>

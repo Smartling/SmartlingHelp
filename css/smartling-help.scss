@@ -409,7 +409,8 @@ $headline-padding: 12px;
 }
 
 .content-start-homepage {
-    margin-top: 50px
+    position: relative;
+    top: 50px
 }
 
 // Search Bar
@@ -456,7 +457,7 @@ $headline-padding: 12px;
     .card-text {
         color: $text-color; // Stop default link color from applying to the icon text
     }
-    margin-bottom: 30px;  // Leave space between the action cards and the next
+    margin-bottom: 20px;  // Leave space between the action cards and the next
 }
 
 
@@ -484,10 +485,9 @@ $headline-padding: 12px;
 .whats-new-cards {
     .card {
         height: 170px;
-        background: #2A3536;
-        color: $smartling-white-text-color;
+        color: #fef;
         h3, h4, p {
-            color: $smartling-white-text-color;
+            color: #fef;
             padding-left: 15px;
             padding-right: 15px;
 
@@ -507,7 +507,7 @@ $headline-padding: 12px;
 
         .home-card-button {
             text-transform: uppercase;
-            color: $smartling-white-text-color;
+            color: #fef;
             padding: 10px 10px 10px 10px;
             border-radius: 4px;
             position: absolute;
@@ -536,7 +536,33 @@ $headline-padding: 12px;
             right: 30px;
         }
 
+        @mixin card-background($url) {
+            background: url($url) center;
+        }
+
+        &#blog {
+            @include card-background('../img/blog-background.png');
+        }
+        &#webinars {
+            @include card-background('../img/webinar-background.png');
+        }
+        &#newsletter {
+            @include card-background('../img/newsletter-background.png');
+        }
+        &#new-features {
+            @include card-background('../img/new-features-background.png');
+        }
+        &#best-practices {
+            @include card-background('../img/best-practices-background.png');
+        }
     }
+}
+
+.search-main.affix {
+    top: 60px;
+    width: 100%;
+    z-index: 1030;
+
 }
 
 .popular-topics {
@@ -545,10 +571,56 @@ $headline-padding: 12px;
 }
 
 .search-bar-home {
-    @extend .search-bar;
-    margin-top: $navbar-height + $home-banner-height;
-}
+    #help-search::-webkit-input-placeholder { font-style:italic; color: $text-color;}
+    #help-search::-moz-placeholder { font-style:italic; color: $text-color;}
+    text-align: left;
+    height: 50px;
+    background: $background-grey;
+    width: 100%;
+    padding-top: 15px;
+    .home-search-left {
+        display: inline-block;
+        .search-input {
+            position: relative;
+            bottom: 3px;
+            display: inline-block;
+            background: inherit;
+            border: none;
+            font-size: 16px;
+            color: $text-color;
+            &:focus {
+                outline: none;
+            }
 
+        }
+        .search-icon {
+            display: inline-block;
+            background: url('../img/magnifying-glass.svg');
+            background-size: cover;
+            width: 18px;
+            height: 18px;
+            margin: 0 5px 0 0;
+        }
+    }
+    .home-search-right {
+        display: inline-block;
+        float: right;
+        a {
+            margin-right: 15px;
+            color: $text-color;
+            text-decoration: none;
+            cursor: pointer;
+            &:hover {
+                color: $smartling-red;
+                text-decoration: none;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
 
 
 // END SPECIAL CLASSES FOR HOMEPAGE
