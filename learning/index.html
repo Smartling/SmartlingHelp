@@ -22,13 +22,14 @@ subarticles:
         </div>
         <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}}">
             <div class="container-fluid learning-cards">
+                {% for subarticle in page.subarticles %}
                 {% for article in site.articles %}
-                    {% if article.learning.include %}
+                    {% if article.title == subarticle.title %}
                         <div class="col-md-6 {% case article.learning.type %}{% when 'Video' %}learning-video{% when 'Webinar' %}learning-webinar{% when 'Guide' %}learning-guide{% when 'Best Practice' %}learning-best-practice{% endcase %} learning-card-col">
                             <div class="learning-card">
-                                <div class="learning-card-top">
+                                <div class="learning-card-top" style="background: {{subarticle.image_path}}">
                                     <div class="learning-card-top-content">
-                                        {% if article.learning.type == 'Video' %}
+                                        {% if subarticle.learning_type == 'Video' %}
 
                                         <script src="//fast.wistia.com/assets/external/E-v1.js" async="" charset="ISO-8859-1"></script>
                                         <div class="wistia_embed wistia_async_{{article.wistia.id}} learning-card-top-content"> </div>
@@ -39,12 +40,13 @@ subarticles:
                                 </div>
                                 <div class="learning-card-bottom">
                                     <h5 class="{% case article.learning.type %}{% when 'Video' %}blue{% when 'Webinar' %}green{% when 'Guide' %}red{% when 'Best Practice' %}yellow{% endcase %}">
-                                        {{article.learning.type}}: {{article.title}}
+                                        {{subarticle.learning_type}}: {{article.title}}
                                     </h5>
                                 </div>
                             </div>
                         </div>
                     {% endif %}
+                {% endfor %}
                 {% endfor %}
             </div>
         </div>
