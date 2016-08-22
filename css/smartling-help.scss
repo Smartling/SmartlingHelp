@@ -26,6 +26,7 @@ $border-grey: #f1f1f1;
 $home-heading-color: #2d3133;
 $navbar-black: #2A3536;
 $card-black: #2A3536;
+$smartling-button-text-white: #fff;
 
 //END COLORS
 
@@ -35,7 +36,7 @@ $card-black: #2A3536;
 
 // Fixed Component Heights
 $navbar-height: 60px;
-$breadcrumb-height: 50px;
+$breadcrumb-height: 53px;
 $home-banner-height: 160px;
 
 // Top Margins
@@ -134,7 +135,7 @@ $standard-border: 1px solid $border-grey;
     overflow-x: auto;
     height: $breadcrumb-height;
     ol {
-        margin-top: 7px;
+        margin-top: 9px;
     }
     @media only screen and (min-width: 992px) {
        display: block !important;
@@ -192,7 +193,7 @@ $standard-border: 1px solid $border-grey;
 // Include this in any button to set the color to your choice and text to white
 // use like:   @include smartling-button($smartling-red);
 @mixin smartling-button($button-background) {
-    color: #fff !important;
+    color: $smartling-button-text-white !important;
     background-color: $button-background !important;
 }
 
@@ -261,11 +262,11 @@ $standard-border: 1px solid $border-grey;
                 i {
                     font-size: 30px;
                     vertical-align: middle;
-                    color: $smartling-white-text-color !important;
+                    color: $smartling-button-text-white !important;
                     display: inline-block;
                 }
                 h5 {
-                    color: $smartling-white-text-color !important;
+                    color: $smartling-button-text-white !important;
                     font-size: 18px;
                     font-weight: 100;
                     vertical-align: middle;
@@ -330,7 +331,6 @@ $headline-padding: 12px;
 // Set background
 .main-content-container {
     background-color: $background-grey;
-    padding-top: 0; //Spacing above and below article heading
     padding-bottom: 20px; //Stop the end of scrolling content getting cramped at the bottom of the viewport
 }
 
@@ -368,7 +368,8 @@ $headline-padding: 12px;
 
     // Paragraph spacing
     p {
-        margin: 0 0 8px 0;
+        margin: 0 0 10px 0;
+        line-height: 1.8;
     }
 
     // Warning and info divs
@@ -658,6 +659,7 @@ $headline-padding: 12px;
     padding-right: 0;
     .learning-card {
         margin-bottom: 20px;
+        //border: 1px solid;
         .learning-card-top {
             position: relative;
             width: 100%;
@@ -676,10 +678,10 @@ $headline-padding: 12px;
             right: 0;
         }
         .learning-card-bottom {
-            background: $card-black;
+            //background: $card-black;
             color: #fff;
             padding: 5px 10px 5px 10px;
-            h5 {
+            /*h5 {
                 &.blue {
                     color: $smartling-blue;
                 }
@@ -692,7 +694,7 @@ $headline-padding: 12px;
                 &.red {
                     color: $smartling-red;
                 }
-            }
+            }*/
         }
     }
 }
