@@ -25,16 +25,16 @@ subarticles:
                 {% for subarticle in page.subarticles %}
                 {% for article in site.articles %}
                     {% if article.title == subarticle.title %}
-                        <div class="col-md-6 {% case article.learning.type %}{% when 'Video' %}learning-video{% when 'Webinar' %}learning-webinar{% when 'Guide' %}learning-guide{% when 'Best Practice' %}learning-best-practice{% endcase %} learning-card-col">
+                        <div class="col-md-6 {% case subarticle.learning_type %}{% when 'Video' %}learning-video{% when 'Webinar' %}learning-webinar{% when 'Guide' %}learning-guide{% when 'Best Practice' %}learning-best-practice{% endcase %} learning-card-col">
                             <div class="learning-card">
-                                <div class="learning-card-top" style="background: {{subarticle.image_path}}">
+                                <div class="learning-card-top" style='background: url("{{subarticle.image_path}}"); background-size: cover; background-position: center;'>
                                     <div class="learning-card-top-content">
-                                        {% if subarticle.learning_type == 'Video' %}
+                                        <!--{% if subarticle.learning_type == 'Video' %}
 
                                         <script src="//fast.wistia.com/assets/external/E-v1.js" async="" charset="ISO-8859-1"></script>
                                         <div class="wistia_embed wistia_async_{{article.wistia.id}} learning-card-top-content"> </div>
 
-                                        {% endif %}
+                                        {% endif %} -->
 
                                     </div>
                                 </div>
