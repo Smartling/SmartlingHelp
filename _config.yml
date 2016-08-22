@@ -60,6 +60,12 @@ editions:
   - Enterprise
   - Extra
 
+learning_types:
+  - Guide
+  - Video
+  - Best Practice
+  - Webinar
+
 # For Liquid Calcs - DON'T CHANGE
 emptyArray: []
 navItem: []
