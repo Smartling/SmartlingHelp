@@ -14,18 +14,15 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
+    - linguistic-assets/glossaries/manage-glossaries
   others:
     - link:
       text:
@@ -45,7 +42,7 @@ The Glossary helps translators to provide correct and consistent translations of
 There are two ways to access the Glossary from inside the TI:
 
 * Click a bracketed term to view/edit the details of a term
-* Click&nbsp;**Glossary**&nbsp;to search the whole glossary.
+* Click **Glossary** to search the whole glossary.
 
 
 ![](/uploads/versions/smartling---translations-management--smartling-hotels----x----944-742x---.png)
@@ -56,4 +53,4 @@ If the Account Owner has permitted Translation Resources to edit Glossary terms 
 
 ![](/uploads/versions/smartling---translations-management--smartling-hotels----x----457-251x---.png)
 
-<blockquote class="info">Note that changes you make to the Translation and Translation Comment will only affect the current language you are working on, but changes to the Part of Speech and Definition will affect all languages.</blockquote>
+> Note that changes you make to the Translation and Translation Comment will only affect the current language you are working on, but changes to the Part of Speech and Definition will affect all languages.
