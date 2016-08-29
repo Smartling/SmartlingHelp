@@ -54,4 +54,4 @@ If the Account Owner has permitted Translation Resources to edit Glossary terms 
 
 ![](/uploads/versions/smartling---translations-management--smartling-hotels----x----457-251x---.png)
 
-> Note that changes you make to the Translation and Translation Comment will only affect the current language you are working on, but changes to the Part of Speech and Definition will affect all languages.{:class="info}
+> Note that changes you make to the Translation and Translation Comment will only affect the current language you are working on, but changes to the Part of Speech and Definition will affect all languages.
