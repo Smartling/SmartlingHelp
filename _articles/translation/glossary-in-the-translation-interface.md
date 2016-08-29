@@ -19,8 +19,9 @@ read-first:
     - link:
       text:
 further-reading:
-  include: false
+  include: true
   sections:
+    - managing-content/linguistic-assets/glossaries
   articles:
     - linguistic-assets/glossaries/manage-glossaries
   others:
