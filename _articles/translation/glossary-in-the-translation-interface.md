@@ -52,6 +52,8 @@ There are two ways to access the Glossary from inside the TI:
 
 ## Editing a term
 
-If the Account Owner has permitted Translation Resources to edit Glossary terms you will be able to edit the part of speech, definition, translation, and translation comment for the term.
+If the Account Owner has permitted Translation Resources to edit Glossary terms you will be able to edit the Part of Speech, Definition, Translation, and Translation Comment for the term.
 
 ![](/uploads/versions/smartling---translations-management--smartling-hotels----x----457-251x---.png)
+
+<blockquote class="info">Note that changes you make to the Translation and Translation Comment will only affect the current language you are working on, but changes to the Part of Speech and Definition will affect all languages.</blockquote>
