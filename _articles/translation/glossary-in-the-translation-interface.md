@@ -38,4 +38,20 @@ migration-checklist:
 ---
 
 
-The Glossary helps translators to provide correct and consistent translations of key brand terms. In the Translation Interface, Translators can&nbsp;
+The Glossary helps translators to provide correct and consistent translations of key brand terms. Glossary terms are highlighted for translators in the Translation Interface (TI).
+
+## Access the Glossary from the TI
+
+There are two ways to access the Glossary from inside the TI:
+
+* Click a bracketed term to view/edit the details of a term
+* Click&nbsp;**Glossary**&nbsp;to search the whole glossary.
+
+
+![](/uploads/versions/smartling---translations-management--smartling-hotels----x----944-742x---.png)
+
+## Editing a term
+
+If the Account Owner has permitted Translation Resources to edit Glossary terms you will be able to edit the part of speech, definition, translation, and translation comment for the term.
+
+![](/uploads/versions/smartling---translations-management--smartling-hotels----x----457-251x---.png)
