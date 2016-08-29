@@ -36,3 +36,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+The Glossary helps translators to provide correct and consistent translations of key brand terms. In the Translation Interface, Translators can&nbsp;
