@@ -8,6 +8,51 @@ subarticles:
   - title: Translation workflows for your business needs
     learning_type: Best Practice
     image_path: /copy of why smartling - hero desktop img.jpg
+  - title: 5 ways you can fast track your translation
+    learning_type: Guide
+    image_path:
+  - title: Checking On The Status Of Your Translation Project
+    learning_type: Guide
+    image_path:
+  - title: 'Content parsing: strings, segments, and snippets'
+    learning_type: Guide
+    image_path:
+  - title: Everything you need to know about language selectors
+    learning_type: Guide
+    image_path:
+  - title: Preparing your business document for translation
+    learning_type: Guide
+    image_path:
+  - title: Translating your InDesign Files
+    learning_type: Guide
+    image_path:
+  - title: "When content doesn't need to be translated"
+    learning_type: Guide
+    image_path:
+  - title: 'Managing a project with Smartling: a video guide for agencies'
+    learning_type: Video
+    image_path:
+  - title: 'Reviewing with Smartling: A video guide for internal reviewers'
+    learning_type: Video
+    image_path:
+  - title: The complete video guide to Smartling Workflows
+    learning_type: Video
+    image_path:
+  - title: 'Translating with Smartling: a video guide for translator, editors, and reviewers'
+    learning_type: Video
+    image_path:
+  - title: 'You Are 3 Minutes Away From Translating: A Quick Video Guide To Smartling'
+    learning_type: Video
+    image_path:
+  - title: 'Weekly Q&A: Translation Resources'
+    learning_type: Webinar
+    image_path:
+  - title: 'Weekly Q&A: Agencies'
+    learning_type: Webinar
+    image_path:
+  - title: 'Weekly Training: Introduction to Smartling for Account Owners'
+    learning_type: Webinar
+    image_path:
 ---
 
 <div class="container page">
@@ -26,7 +71,7 @@ subarticles:
                 {% for article in site.articles %}
                     {% if article.title == subarticle.title %}
                         <div class="col-md-6 {% case subarticle.learning_type %}{% when 'Video' %}learning-video{% when 'Webinar' %}learning-webinar{% when 'Guide' %}learning-guide{% when 'Best Practice' %}learning-best-practice{% endcase %} learning-card-col">
-                            <div class="learning-card">
+                            <div class="learning-card match-height">
                                 <div class="learning-card-top" style='background: url("{{subarticle.image_path}}"); background-size: cover; background-position: center;'>
                                     <div class="learning-card-top-content">
                                         <!--{% if subarticle.learning_type == 'Video' %}
@@ -53,3 +98,5 @@ subarticles:
     </div>
 
 </div>
+
+

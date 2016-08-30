@@ -1,6 +1,6 @@
 
 {% for heading in site.data.nav %}
-<div class="toc col-md-6">
+<div class="toc col-md-6 match-height">
     {% for section in site.sections %}
     {% if section.title == heading %}
     {% assign currentSection = section %}

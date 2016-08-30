@@ -213,6 +213,10 @@ $standard-border: 1px solid $border-grey;
         border-bottom: none;
         background-color: $background-grey;
         border-radius: 4px;
+        &:hover {
+            outline: 1px solid $link-hover-color;
+            -moz-outline-radius: 4px;
+        }
         a {
             h5 {
                 font-size: 18px;
@@ -486,9 +490,9 @@ $headline-padding: 12px;
 .whats-new-cards {
     .card {
         height: 170px;
-        color: #fef;
+        color: #fff;
         h3, h4, p {
-            color: #fef;
+            color: #fff;
             padding-left: 15px;
             padding-right: 15px;
 
@@ -508,7 +512,7 @@ $headline-padding: 12px;
 
         .home-card-button {
             text-transform: uppercase;
-            color: #fef;
+            color: #fff;
             padding: 10px 10px 10px 10px;
             border-radius: 4px;
             position: absolute;
