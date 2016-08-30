@@ -17,6 +17,8 @@ read-first:
     - section
   articles:
     - article
+  faqs
+    - faq
   others:
     - link: ''
       text: ''
@@ -26,6 +28,8 @@ further-reading:
     - section
   articles:
     - article
+  faqs
+    - faq
   others:
     - link: ''
       text: ''

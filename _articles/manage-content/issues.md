@@ -41,13 +41,13 @@ migration-checklist:
 
 Issues are a way for users working on a translation workflow to communicate with other users about the original source content and translations. For example, a Translator might create an Issue to ask a question about terminology in a particular string. By using Issues, you can record any communication about a string, and this can be seen by anyone working on it. Issues streamline the translation workflow. Translators get answers to their questions about the original content so they can translate it quickly and correctly.  Translation resources can review and provide feedback about translations collaboratively. Issues can be created, commented on and resolved.
 
-[Markdown-format links](/hc/en-us/articles/216722378) are supported in issue text.
+[Markdown-format links](/support/faq/adding-links-to-translator-instructions-or-issues/) are supported in issue text.
 
 > The processes below are for managing Issues from the List View. The same functionality is also accessible from the **Issues** tab of the Translation Interface.
 
 ## Issue Categories
 
-There are two kinds of issues: **Source String** **issues** and **Translation issues**. The kind of issue you create will affect who sees the issue in the dashboard and receives notifications about it. Each string can support multiple issues.
+There are two kinds of issues: **Source String issues** and **Translation issues**. The kind of issue you create will affect who sees the issue in the dashboard and receives notifications about it. Each string can support multiple issues.
 
 ### Source String:
 
