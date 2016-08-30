@@ -48,7 +48,7 @@ Use the new **Watch** feature to mark any group of content you want to keep an e
 
 ![](/uploads/versions/smartling---summary-7---x----476-474x---.png)
 
-From the Account Dashboard, click any of your watched items to navigate straight to your content. [Find out more about watching](/hc/en-us/articles/213731208).
+From the Account Dashboard, click any of your watched items to navigate straight to your content. [Find out more about watching](/support/articles/watching-content/).
 
 ![](/uploads/versions/smartling---account-dashboard-3---x----1093-404x---.png)
 
