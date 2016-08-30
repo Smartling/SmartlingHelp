@@ -19,7 +19,7 @@ read-first:
     - link:
       text:
 further-reading:
-  include: false
+  include: true
   sections:
   articles:
     - projects/the-project-summary-view
