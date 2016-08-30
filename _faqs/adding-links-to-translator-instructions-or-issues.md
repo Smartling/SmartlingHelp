@@ -6,6 +6,8 @@ promoted: false
 related:
   sections:
   articles:
+    - files/add-translator-instructions-to-a-file
+    - manage-content/issues
 other-links:
   - text:
 url:
