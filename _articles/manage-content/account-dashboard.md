@@ -7,25 +7,23 @@ Applies to:
   Application-Resource-Files: false
   CMS-Connectors: false
 edition:
-redirect-url:
+redirect-url: /hc/en-us/articles/214197607
 wistia:
   video: false
   id:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
+    - manage-content/watching-content
+    - projects/the-project-summary-view
   others:
     - link:
       text:
@@ -37,44 +35,44 @@ migration-checklist:
   reviewed: false
 ---
 
+
 The Account Dashboard is the home for all your Smartling projects.
 
 Access the Account Dashboard by clicking the **Smartling** logo.
 
-![](/hc/en-us/article_attachments/204515508/Smartling___Account_Dashboard.png)
+![](/uploads/versions/smartling---account-dashboard-2---x----1286-958x---.png)
 
 ## Watch Content
 
 Use the new **Watch** feature to mark any group of content you want to keep an eye on. You can watch a whole project, a workflow or a single workflow step - either for a chosen language or for all languages. Click the **Eye** anywhere content appears in the dashboard to add content to your watch list.
 
-![](/hc/en-us/article_attachments/204064558/Smartling___Summary.png)
+![](/uploads/versions/smartling---summary-7---x----476-474x---.png)
 
 From the Account Dashboard, click any of your watched items to navigate straight to your content. [Find out more about watching](/hc/en-us/articles/213731208).
 
-![](/hc/en-us/article_attachments/204526677/Smartling___Account_Dashboard.png)
-
-
+![](/uploads/versions/smartling---account-dashboard-3---x----1093-404x---.png)
 
 ## Manage your Projects
 
 The new Account Dashboard gives you a list view of projects instead of cards to let you manage any number of projects easily. From the same screen you can:
 
-*   Filter and search to find the project you’re looking for
-*   Clone any project or create a brand new one
-*   Rename or archive your projects
-*   View and interact with issues for each project.
-*   See counts for words and strings in progress for each project.
+* Filter and search to find the project you’re looking for
+* Clone any project or create a brand new one
+* Rename or archive your projects
+* View and interact with issues for each project.
+* See counts for words and strings in progress for each project.
 
-![](/hc/en-us/article_attachments/204744157/Smartling___Account_Dashboard.png)  
 
-### Project Details  
+![](/uploads/versions/smartling---account-dashboard-4---x----2190-1154x---.png)
 
-Click the **Details **icon ![](/hc/en-us/article_attachments/204512848/Smartling___Account_Dashboard.png)next to any project to show a panel of summary details.
+### Project Details
 
-![](/hc/en-us/article_attachments/204512868/Smartling___Account_Dashboard_and_Untitled_document_-_Google_Docs_and_Application_Resource_Files_Project__Upload_and_Manage_Files___Smartling_Help_Center.png)
+Click the&nbsp;**Details&nbsp;**icon next to any project to show a panel of summary details.
+
+![](/uploads/versions/smartling---account-dashboard-and-untitled-document---google-docs-and-application-resource-files-project--upload-and-manage-files--smartling-help-center---x----1280-936x---.png)
 
 ### Labels
 
 When you have a lot of projects it can be hard to keep them organized. That’s why we’ve added the ability to label projects for better organization.
 
-![](/hc/en-us/article_attachments/204057177/Smartling___Account_Dashboard.png)  
+![](/uploads/versions/smartling---account-dashboard-5---x----570-307x---.png)
