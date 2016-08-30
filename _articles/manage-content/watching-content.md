@@ -6,7 +6,7 @@ Applies to:
   GDN: true
   Application-Resource-Files: true
   CMS-Connectors: true
-redirect-url:
+redirect-url: /hc/en-us/articles/213731208
 wistia:
   video: false
   id:
