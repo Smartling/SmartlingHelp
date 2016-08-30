@@ -22,13 +22,13 @@ further-reading:
   include: false
   sections:
   articles:
-    - manage-content/watching-content
     - projects/the-project-summary-view
+    - manage-content/watching-content
   others:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -67,7 +67,7 @@ The new Account Dashboard gives you a list view of projects instead of cards to 
 
 ### Project Details
 
-Click the&nbsp;**Details&nbsp;**icon next to any project to show a panel of summary details.
+Click the **Details**icon next to any project to show a panel of summary details.
 
 ![](/uploads/versions/smartling---account-dashboard-and-untitled-document---google-docs-and-application-resource-files-project--upload-and-manage-files--smartling-help-center---x----1280-936x---.png)
 
