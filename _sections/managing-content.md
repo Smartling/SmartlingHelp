@@ -7,6 +7,7 @@ subsections:
   - title: Projects
   - title: Workflows
 subarticles:
+  - title: Account Dashboard
   - title: Jobs
   - title: Issues
   - title: Watching Content
