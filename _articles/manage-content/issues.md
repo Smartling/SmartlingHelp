@@ -15,6 +15,7 @@ read-first:
   include: false
   sections:
   articles:
+  faqs:
   others:
     - link:
       text:
@@ -22,6 +23,7 @@ further-reading:
   include: false
   sections:
   articles:
+  faqs:
   others:
     - link:
       text:
