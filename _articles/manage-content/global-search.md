@@ -21,19 +21,20 @@ further-reading:
   include: false
   sections:
   articles:
+    - manage-content/the-list-view/search-and-filter-in-the-list-view
   others:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
-  related: false
+  related: true
   reviewed: false
 ---
 
 
-Global Content Search lets you search content and translations across projects and languages to quickly find content, regardless of workflow state. You can find strings by source or translation, and for Resource File projects, by file or key. All strings matching the search criteria, including archived strings, display.
+Global Content Search lets you search content and translations across all projects and languages to quickly find content, regardless of workflow state. You can find strings by source or translation, and for Resource File projects, by file or key. All strings matching the search criteria, including archived strings, display.
 
 Access Global Search for an account by clicking **Content Search** in the Account Dashboard.
 
