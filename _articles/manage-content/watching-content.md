@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Watching Content
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -42,20 +42,19 @@ The new Watching feature allows you to mark content you want to pay close attent
 
 Within each level, you can choose to watch all languages or a specified language. You can mark up to 100 items of content to watch in the dashboard by clicking the **eye** icon:
 
-* From the Project Summary Screen:
-
+## From the Project Summary screen
 
 ![](/uploads/versions/watchingcontent1---x----2546-1406x---.png)
 
-* From the Workflow Summary Screen:
-
+## From the Workflow Summary screen
 
 ![](/uploads/versions/watchingcontent2---x----2550-1020x---.png)
 
-* From the Account Dashboard:
-
+## From the Account Dashboard
 
 ![](/uploads/versions/watchingcontent3---x----1293-1042x---.png)
+
+## Manage watched items
 
 Watched content is displayed in the **Watching** section of the account dashboard. From here you can:
 
