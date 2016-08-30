@@ -19,9 +19,10 @@ read-first:
     - link:
       text:
 further-reading:
-  include: false
+  include: true
   sections:
   articles:
+    - manage-content/the-list-view/search-and-filter-in-the-list-view
   others:
     - link:
       text:
