@@ -1,13 +1,13 @@
 ---
 layout: article
 title: Inactive Strings
-draft: false
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
   CMS-Connectors: true
 edition: Express
-redirect-url:
+redirect-url: /hc/en-us/articles/203587968
 wistia:
   video: false
   id:
@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
