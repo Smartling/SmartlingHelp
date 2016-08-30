@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Content Search
-draft: false
+title: Global Content Search
+draft: true
 Applies to:
   GDN: true
   Application-Resource-Files: true
@@ -33,7 +33,7 @@ migration-checklist:
 ---
 
 
-Global Search lets you search content and translations across projects and languages to quickly find content, regardless of workflow state. You can find strings by source or translation, and for Resource File projects, by file or key. All strings matching the search criteria, including archived strings, display.
+Global Content Search lets you search content and translations across projects and languages to quickly find content, regardless of workflow state. You can find strings by source or translation, and for Resource File projects, by file or key. All strings matching the search criteria, including archived strings, display.
 
 Access Global Search for an account by clicking **Content Search** in the Account Dashboard.
 
