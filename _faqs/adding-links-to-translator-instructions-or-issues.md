@@ -10,7 +10,7 @@ related:
     - manage-content/issues
 other-links:
   - text:
-url:
+    url:
 ---
 
 
