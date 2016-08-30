@@ -24,6 +24,7 @@ further-reading:
   sections:
   articles:
   faqs:
+    - adding-links-to-translator-instructions-or-issues
   others:
     - link:
       text:
