@@ -125,7 +125,7 @@ To view archived jobs check **Show Archived Jobs** in the search options.
 
 ## View Fuzzy Match Estimates for a Job
 
-You can generate [Fuzzy Match Estimates](/support/articles/fuzzy-match-estimates){: .cc-active} for the content of a job.
+You can generate [Fuzzy Match Estimates](/support/articles/fuzzy-match-estimates-2){: .cc-active} for the content of a job.
 
 **(1)** Go to **Content &gt; Jobs**
 
