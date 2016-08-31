@@ -54,9 +54,9 @@ You can also create a new job when authorizing one or more strings for translati
 
 ## Create a new Files Job
 
-Smartling gives you the option to upload files for translation and create a job for them in one action. This function was created primarily for [Requesters](){: .cc-active} - users with a limited permission set - but is also available to Account Owners and Project Managers.
+Smartling gives you the option to upload files for translation and create a job for them in one action. This function was created primarily for [Requesters](/support/sections/requester-portal/){: .cc-active} - users with a limited permission set - but is also available to Account Owners and Project Managers.
 
-Each file uploaded to a files job will be given the Job name as a [namespace](){: .cc-active}. This means that strings will be shared between files in the same job. If you have the string ‘Hello’ in three files in your Job, you will only need to translate it once.
+Each file uploaded to a files job will be given the Job name as a [namespace](/support/articles/string-sharing-namespaces/){: .cc-active}. This means that strings will be shared between files in the same job. If you have the string ‘Hello’ in three files in your Job, you will only need to translate it once.
 
 > Files jobs cannot be edited once they are created, so you may wish to Upload your files separately and add the strings to a job if you want to be able to add more locales or strings to the job later. If you do make a Files job, check that it is complete and correct before your click **Create**.
 
@@ -105,7 +105,7 @@ Because priorities constantly change, Jobs gives you the ability to add or remov
 
 **(1)** Go to **Content &gt; Jobs**.
 
-**(2)** Click the **Actions** menu for a job and select **Edit Details.**
+**(2)** Click the **Actions** menu for a job and select **Edit Details**.
 
 ![](/uploads/versions/smartling___translation_jobs-2---x----898-579x---.png)
 
@@ -125,7 +125,7 @@ To view archived jobs check **Show Archived Jobs** in the search options.
 
 ## View Fuzzy Match Estimates for a Job
 
-You can generate [Fuzzy Match Estimates](){: .cc-active} for the content of a job.
+You can generate [Fuzzy Match Estimates](/support/articles/fuzzy-match-estimates){: .cc-active} for the content of a job.
 
 **(1)** Go to **Content &gt; Jobs**
 
