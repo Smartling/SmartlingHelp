@@ -16,9 +16,7 @@ other-links:
 
 Smartling supports markdown format for providing links in string instructions and issues. To add a link, use the following syntax:
 
-~~~
-[Link Text](http://www.link-url.com)
-~~~
+`[Link Text](http://www.link-url.com)`
 
 Note that there is no space between the brackets and parentheses. The URL can be a relative URL (you may want to use a relative URL to point the user somewhere in the Smartling Dashboard).
 
