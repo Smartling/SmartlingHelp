@@ -1,11 +1,13 @@
-
-
 # Hi There!
+
 # Here are some settings for help.smartling.com
-# If you change theses, remember to rebuild your environments
+# If you change these, remember to rebuild your environments
 # so your changes are picked up!
 
 # Also, probably mostly don't change these!
+
+# Cheers,
+# Kale
 
 # Site settings
 version: 3.0.3
@@ -17,7 +19,7 @@ url: "http://help.smartling.com/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 highlighter: rouge
-incremental: true
+incremental: false
 
 
 # LAYOUT
