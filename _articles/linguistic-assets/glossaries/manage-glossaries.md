@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -40,7 +40,7 @@ migration-checklist:
 
 ![](/uploads/versions/smartling___linguistic_assets-20---x----1386-592x---.png)
 
-**2)** Give a name, source language and a short description for your Glossary. If you chose Import, choose an Excel (.xlsx) file to import. For information on formatting this file, see [Import Glossary](/hc/en-us/articles/218650017). Click **Create Glossary** / **Import Glossary**.
+**2)** Give a name, source language and a short description for your Glossary. If you chose Import, choose an Excel (.xlsx) file to import. For information on formatting this file, see [Import Glossary](/support/articles/import-glossary/). Click **Create Glossary** / **Import Glossary**.
 
 ![](/uploads/versions/smartling___linguistic_assets-21---x----576-490x---.png)
 
@@ -82,22 +82,22 @@ The Translation Details section applies only to the current language (and isn't 
 
 ### Term Details
 
-* Term - The source language term
-* Definition - Give the meaning of the term.
-* Part of Speech - Select from noun/verb/adjective/etc
-* Case Sensitive - If checked, only terms where the case matches will be highlighted in the TI as Glossary terms. For example, if the Glossary term is ‘Word’, then ‘word’ will not be treated as a glossary term.
-* Exact Match - If checked, Smartling will not highlight close matches as Glossary terms. For example, if the Glossary term is ‘Word’, then ‘Words’ will not be treated as a Glossary term.
-* Variations/Synonyms/Antonyms - List related terms as an aid to translators. These are not used for matching. For example, if ‘create’ is a Glossary term, you may wish to declare ‘creates’, ‘creator’, or ‘creating’ as variations; ‘write’ or ‘build’ as synonyms and ‘destroy’ as an antonym.
-* Notes - Add any additional information that may be of use to translators.
-* Do Not Translate - if checked, instructs translators not to translate your term. For example, the name of your company should probably be flagged as Do Not Translate.
-* SEO Term - used to mark a term that is important for Search Engine Optimization.
+* **Term** - The source language term
+* **Definition** - Give the meaning of the term.
+* **Part of Speech** - Select from noun/verb/adjective/etc
+* **Case Sensitive** - If checked, only terms where the case matches will be highlighted in the TI as Glossary terms. For example, if the Glossary term is ‘Word’, then ‘word’ will not be treated as a glossary term.
+* **Exact Match** - If checked, Smartling will not highlight close matches as Glossary terms. For example, if the Glossary term is ‘Word’, then ‘Words’ will not be treated as a Glossary term.
+* **Variations/Synonyms/Antonyms** - List related terms as an aid to translators. These are not used for matching. For example, if ‘create’ is a Glossary term, you may wish to declare ‘creates’, ‘creator’, or ‘creating’ as variations; ‘write’ or ‘build’ as synonyms and ‘destroy’ as an antonym.
+* **Notes** - Add any additional information that may be of use to translators.
+* **Do Not Translate** - if checked, instructs translators not to translate your term. For example, the name of your company should probably be flagged as Do Not Translate.
+* **SEO Term** - used to mark a term that is important for Search Engine Optimization.
 
 
 ### Translation Details
 
-* [Language] Translation- The translated glossary term.
-* [Language] Notes - Any additional information applying to the term. Use this field for notes specific to the current language. General notes should go in the Term Details section.
-* Translation Locked - If this box is checked, Translation Resouces cannot edit the translation of this term.
+* **[Language] Translation** - The translated glossary term.
+* **[Language] Notes** - Any additional information applying to the term. Use this field for notes specific to the current language. General notes should go in the Term Details section.
+* **Translation Locked** - If this box is checked, Translation Resouces cannot edit the translation of this term.
 
 
 ## Suggested Glossary Terms
@@ -106,9 +106,9 @@ Smartling scans the content of your project for recurring words in order to sugg
 
 ![](/uploads/versions/image00-3---x----1253-670x---.png)
 
-Add or reject suggested terms, using the buttons next to each term or check multiple terms and click **Add to Glossary** or &nbsp;**Reject**.
+Add or reject suggested terms, using the buttons next to each term or check multiple terms and click **Add to Glossary** or **Reject**.
 
-**Note:** If you add multiple terms in bulk, the glossary entries will not include any detail beyond the terms themselves. Don't forget to edit each term to add information.
+> If you add multiple terms in bulk, the glossary entries will not include any detail beyond the terms themselves. Don't forget to edit each term to add information.
 
 ## Find Terms that Require Translation
 
