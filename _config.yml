@@ -45,9 +45,7 @@ collections:
     output: true
     permalink: "support/faq/:title/"
     
-  terms:
-    output: false
-    permalink: "/terms/:term/"
+
 
 
 #CloudCannon Helpers
