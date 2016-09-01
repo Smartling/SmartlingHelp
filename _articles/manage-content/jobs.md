@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -56,7 +56,7 @@ You can also create a new job when authorizing one or more strings for translati
 
 Smartling gives you the option to upload files for translation and create a job for them in one action. This function was created primarily for [Requesters](/support/sections/requester-portal/){: .cc-active} - users with a limited permission set - but is also available to Account Owners and Project Managers.
 
-Each file uploaded to a files job will be given the Job name as a [namespace](){: .cc-active}. This means that strings will be shared between files in the same job. If you have the string ‘Hello’ in three files in your Job, you will only need to translate it once.
+Each file uploaded to a files job will be given the Job name as a [namespace](/support/articles/string-sharing-namespaces/){: .cc-active}. This means that strings will be shared between files in the same job. If you have the string ‘Hello’ in three files in your Job, you will only need to translate it once.
 
 > Files jobs cannot be edited once they are created, so you may wish to Upload your files separately and add the strings to a job if you want to be able to add more locales or strings to the job later. If you do make a Files job, check that it is complete and correct before your click **Create**.
 
@@ -93,19 +93,19 @@ Because priorities constantly change, Jobs gives you the ability to add or remov
 
 ### Add or Remove translations from a job
 
-**(1)** Go to **Content&gt;Translations** and select In Progress.
+**1)** Go to **Content&gt;Translations** and select In Progress.
 
-**(2)** Select the translations you would like to remove or add to a job
+**2)** Select the translations you would like to remove or add to a job
 
-**(3)** Select **Add to Job** or **Remove from Job** in the Actions drop-down menu
+**3)** Select **Add to Job** or **Remove from Job** in the Actions drop-down menu
 
 ![](/uploads/versions/smartling___translations_management-7---x----1243-613x---.png)
 
 ### Edit details and due-dates
 
-**(1)** Go to **Content &gt; Jobs**.
+**1)** Go to **Content &gt; Jobs**.
 
-**(2)** Click the **Actions** menu for a job and select **Edit Details**.
+**2)** Click the **Actions** menu for a job and select **Edit Details**.
 
 ![](/uploads/versions/smartling___translation_jobs-2---x----898-579x---.png)
 
@@ -113,9 +113,9 @@ Because priorities constantly change, Jobs gives you the ability to add or remov
 
 When a job is archived, you will not see it in the list of jobs.  A translation can continue even if you archive a job that it was added to.  Archived jobs are not listed in the Translation lists.
 
-**(1)** Go to **Content &gt; Jobs**.
+**1)** Go to **Content &gt; Jobs**.
 
-**(2)** Click the **Actions** menu for a job and select **Archive**.
+**2)** Click the **Actions** menu for a job and select **Archive**.
 
 ![](/uploads/versions/smartling___translation_jobs-3---x----585-684x---.png)
 
@@ -125,18 +125,18 @@ To view archived jobs check **Show Archived Jobs** in the search options.
 
 ## View Fuzzy Match Estimates for a Job
 
-You can generate [Fuzzy Match Estimates](){: .cc-active} for the content of a job.
+You can generate [Fuzzy Match Estimates](/support/articles/fuzzy-match-estimates/){: .cc-active} for the content of a job.
 
-**(1)** Go to **Content &gt; Jobs**
+**1)** Go to **Content &gt; Jobs**
 
-**(2)** Click the **Actions** menu for a job and select **Fuzzy Match Report**. Reports can be viewed in a lightbox within the **Jobs** window or from **Content &gt; Fuzzy Estimates**. Estimates are kept in the dashboard for sixty days.
+**2)** Click the **Actions** menu for a job and select **Fuzzy Match Report**. Reports can be viewed in a lightbox within the **Jobs** window or from **Content &gt; Fuzzy Estimates**. Estimates are kept in the dashboard for sixty days.
 
 ![](/uploads/versions/smartling___translation_jobs-5---x----589-605x---.png)
 
 ## View Progress for a Job
 
-**(1)** From the Job’s dropdown menu, select  **View Details**.
+**1)** From the Job’s dropdown menu, select  **View Details**.
 
-**(2)** Click **Workflow Progress** to display the number of strings at each workflow step for each language.
+**2)** Click **Workflow Progress** to display the number of strings at each workflow step for each language.
 
 ![](/uploads/versions/smartling___jobs---x----579-665x---.png)

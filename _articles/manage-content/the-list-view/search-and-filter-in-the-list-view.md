@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -94,14 +94,14 @@ Click the down arrow next to the keyword search.
 ![small](/uploads/versions/smartling___translations_management-25---x----267-606x---.png)
 
 * **URL:** Filter by URL to find content within a particular file or from a particular link on your website. When using the URL filter, Smartling may display search results from other URLs if that content is shared. In a GDN project, Smartling associates the first URL from which content is captured with that string. If the same string appears on other URLs (e.g. navigation) it will only be associated with one single URL. For Files projects, URLs may be the file name or may be the name of the image context file if one has been applied.
-* **File Name:**&nbsp;Search for all strings belonging to a particular file. This filter works similarly to the URL search, but will always show all strings belonging to a particular file, even if image context has caused the strings to have different URLs.
-* **Key/Variant**: If the string is a [variant](/hc/en-us/articles/201120226-About-Variants-Global-Delivery-Network) use this filter to look up the Translations by variant or key metadata.
-* **Context****:**&nbsp;Finds strings that have or do not have visual context. This filter appears for files projects only.
+* **File Name:** Search for all strings belonging to a particular file. This filter works similarly to the URL search, but will always show all strings belonging to a particular file, even if image context has caused the strings to have different URLs.
+* **Key/Variant**: If the string is a [variant](/support/articles/unique-strings-and-variants/) use this filter to look up the Translations by variant or key metadata.
+* **Context:** Finds strings that have or do not have visual context. This filter appears for files projects only.
 * **Search by Translation Resource:** Find strings currently assigned to a specific Translation Resource.
 * **Job:** Find strings that are part of a specific Job, or have no Job assigned.
 * **Search by Domain:** If you have multiple domains setup in your project, filter content by domain.
-* **Search by Tag:** Filter for translations by [tags](/hc/en-us/articles/203233287#tag).
-* **Active/Inactive Strings:&nbsp;**Show strings which are active, [inactive](/hc/en-us/articles/203587968) or both.
+* **Search by Tag:** Filter for translations by [tags](/support/articles/tagging-strings/).
+* **Active/Inactive Strings:** Show strings which are active, [inactive](/support/articles/inactive-strings/) or both.
 
 
 ## Settings

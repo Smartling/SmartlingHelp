@@ -36,7 +36,7 @@ migration-checklist:
 
 Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be created for individual projects or at the account level, so they are available for all projects under that account. Only an account owner can create Workflows at the account level.
 
-## Create a Workflow:
+## Create a Workflow
 
 **(1)** Click **+** and choose **Add Project Workflow** or **Add Account Workflow**.
 
@@ -46,7 +46,7 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 ![medium](/uploads/versions/smartling___translation_workflow-1---x----577-425x---.png)
 
-## Customize a Workflow:
+## Customize a Workflow
 
 ![](/uploads/versions/smartling___translation_workflow-2---x----968-165x---.png)
 

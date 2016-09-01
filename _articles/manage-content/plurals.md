@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -55,25 +55,25 @@ Smartling currently supports plural forms in YAML, Gettext, QT TS Linguist, Andr
 
 ## Add translations for plural forms
 
-1) [Upload](){: .cc-active} the file.
+**1)** [Upload](/articles/upload-and-manage-files/){: .cc-active} the file.
 
-2) The source strings appear at Translations &gt; In progress.
+**2)** The source strings appear at Translations &gt; In progress.
 
 ![](/uploads/versions/plurals_list_view---x----576-213x---.jpg)
 
-3) The “1” icon indicates that the string is plural sensitive. Click to view all the plural forms in the original language.
+**3)** The “1” icon indicates that the string is plural sensitive. Click to view all the plural forms in the original language.
 
-4) For the plural sensitive string you want to modify, click **Edit**.
+**4)** For the plural sensitive string you want to modify, click **Edit**.
 
-5) The Translation Interface provides the correct number of plural forms depending on the target language.
+**5)** The Translation Interface provides the correct number of plural forms depending on the target language.
 
 ![](/uploads/versions/name-ti_content_plurals---x----576-277x---.jpg)
 
-6) Add a translation for each form and click **Save**.
+**6)** Add a translation for each form and click **Save**.
 
-7) You can copy down the content in the translation box, by clicking **Copy** this translation down to the rest of the plural forms.
+**7)** You can copy down the content in the translation box, by clicking **Copy** this translation down to the rest of the plural forms.
 
-8) To save the translation, you must provide a translation for each plural form in the target language (Smartling does not allow partial translations).
+**8)** To save the translation, you must provide a translation for each plural form in the target language (Smartling does not allow partial translations).
 
 ![](/uploads/versions/name-ti_content_plurals_copydown---x----576-280x---.jpg)
 
@@ -85,7 +85,7 @@ You can now download the file that includes the translated forms.
 
 All forms of the translation move through workflow together. For example, if an editor rejects the translation because there is a problem with one plural form, they reject all plural forms for the translation. A translator only needs to modify the form that requires re-translation, but all plural forms move through the workflow together.
 
-Similarly, [issues](){: .cc-active} raised for the translation of plural sensitive strings apply to all the forms. If the issue only applies to a specific form, the text of the issue should specify the plural form.
+Similarly, [issues](/articles/issues/){: .cc-active} raised for the translation of plural sensitive strings apply to all the forms. If the issue only applies to a specific form, the text of the issue should specify the plural form.
 
 When you download the translated file, the number of plural forms in the file depends on the target language and file format.
 
@@ -141,7 +141,7 @@ Smartling conforms to the Android standard for plurals: [http://developer.androi
 
 ## Plurals for iOS Files
 
-While Apple has now released the [Stringsdict format](){: .cc-active} to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
+While Apple has now released the [Stringsdict format](/developers/supported-file-types/iOS-stringsdict/){: .cc-active} to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
 
 Plural sensitive forms for iOS files are indicated by source files with strings in the following form:
 

@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-Before content is translated, you must Authorize it. You can find unauthorized content at **Content&gt;Translations** by setting the stage filter to **Awaiting Authorization**. Smartling gives you two ways to authorize content: default and custom.
+Before content is translated, you must Authorize it. You can find unauthorized content at **Content &gt; Translations** by setting the stage filter to **Awaiting Authorization**. Smartling gives you two ways to authorize content: default and custom.
 
 ## Default authorization
 
@@ -46,13 +46,13 @@ To authorize strings for all languages in a project and send strings to the defa
 
 To authorize strings on a per-language basis or specify a workflow for those strings:
 
-**(1)** Use the checkboxes to select the strings that you want to authorize, or set your filter to a single workflow step if you want to authorize all strings in that step.
+**1)** Use the checkboxes to select the strings that you want to authorize, or set your filter to a single workflow step if you want to authorize all strings in that step.
 
-**(2)** From the Actions menu, select **Authorize for Translation** to authorize selected strings only or **Authorize All** to authorize all content matching the current filter.
+**2)** From the Actions menu, select **Authorize for Translation** to authorize selected strings only or **Authorize All** to authorize all content matching the current filter.
 
 ![](/uploads/versions/smartling___translations_management-9---x----1343-601x---.png)
 
-**(3)** In the Authorize dialog box, select your languages, the Workflow for each language and a [job](){: .cc-active}, if desired. Click **Submit**.
+**3)** In the Authorize dialog box, select your languages, the Workflow for each language and a [job](/support/articles/jobs/){: .cc-active}, if desired. Click **Submit**.
 
 ![medium](/uploads/versions/smartling___translations_management-10---x----571-431x---.png)
 
@@ -68,10 +68,10 @@ If you have authorized content for translation by mistake, Smartling allows Acco
 
 > Only strings without a translation can be unauthorized.
 
-**(1)** From **Content&gt;Translations**, select one or more strings and choose **Unauthorize** from the **Action** menu.
+**1)** From **Content &gt; Translations**, select one or more strings and choose **Unauthorize** from the **Action** menu.
 
 ![](/uploads/versions/unauthorize---x----2470-1016x---.png)
 
-**(2)** Select the languages you want to unauthorize and click **Submit**.
+**2)** Select the languages you want to unauthorize and click **Submit**.
 
 ![medium](/uploads/versions/unauthorize2---x----1128-632x---.png)

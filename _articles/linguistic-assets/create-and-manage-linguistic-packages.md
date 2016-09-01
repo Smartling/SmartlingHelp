@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -73,7 +73,7 @@ You can assign a Linguistic Package to any number of Smartling Projects.
 
 ![](/uploads/versions/smartling___linguistic_assets-6---x----1123-654x---.png)
 
-**Note:** A project can have only one Linguistic Package assigned at once. Assigning a Package to a project that already has a Linguistic Package assigned will overwrite the original assignment.
+> A project can have only one Linguistic Package assigned at once. Assigning a Package to a project that already has a Linguistic Package assigned will overwrite the original assignment.
 
 ## Edit a Linguistic Package
 
