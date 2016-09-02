@@ -30,7 +30,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,11 +38,11 @@ migration-checklist:
 ---
 
 
-## **What is Leverage?**
+## What is Leverage?
 
 ![](/uploads/versions/tm_diagram---x----1741-963x---.png)
 
-In a Smartling Project, 'Leverage' refers to re-using existing translations from a source (either a [Translation Memory](/articles/create-and-customize-a-workflow/) or another Smartling Project). These existing translations can be reused in two ways:
+In a Smartling Project, 'Leverage' refers to re-using existing translations from a source (either a [Translation Memory](/support/articles/translation-memory/) or another Smartling Project). These existing translations can be reused in two ways:
 
 **1)** SmartMatch - When you upload new source strings, either in a file or through the GDN, Smartling compares these source strings against existing strings in your leverage source. If Smartling finds a matching string (how strictly strings are compared can be adjusted in your SmartMatch settings) which is already translated, the translation is automatically applied to the new string. The string is then either published automatically, or advanced to a revision step, depending on your SmartMatch settings.
 
@@ -55,14 +55,14 @@ Your Leverage Configuration determines which Projects and Translation Memories S
 A Leverage Configuration is made up of any number of Source Records. A source record can be:
 
 * A Smartling Translation Memory
-* A [Source Group](#SourceGroups)
-* An imported TMX file
+* A [Source Group](#source-groups)
+* An [imported TMX file](/support/articles/translation-memory/#import)
 * A Smartling Project
 
 
 If your Source is a Project, Smartling will match new strings against translated strings in that project. If it is a Smartling Translation Memory, TMX file or Group, Smartling will match new strings against strings in the Translation Memory.
 
-A Leverage Configuration is assigned to a project via a Linguistic Package. See [Create and Assign Linguistic Packages](/hc/en-us/articles/218014537) for details.
+A Leverage Configuration is assigned to a project via a Linguistic Package. See [Create and Manage Linguistic Packages](/support/articles/create-and-manage-linguistic-packages/) for details.
 
 ### **Set up a New Leverage Configuration**
 
@@ -95,7 +95,7 @@ A Leverage Configuration is assigned to a project via a Linguistic Package. See 
 
 Click **Save** at the end of each Row. If you do not save the Record, it will be lost if you navigate away from the page.
 
-**6)** SmartMatch will initially be disabled for each source. To enable, click disabled and configure at least one SmartMatch setting. See [SmartMatch](){: .cc-active} for details. SmartMatched strings do not count towards your Processed Words count, regardless of leverage source.
+**6)** SmartMatch will initially be disabled for each source. To enable, click disabled and configure at least one SmartMatch setting. See [SmartMatch](/support/articles/smartmatch-settings/){: .cc-active} for details. SmartMatched strings do not count towards your Processed Words count, regardless of leverage source.
 
 ![](/uploads/versions/smartling___linguistic_assets-15---x----927-88x---.png)
 

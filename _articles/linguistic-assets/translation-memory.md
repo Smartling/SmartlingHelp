@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -39,7 +39,7 @@ migration-checklist:
 
 Each Smartling Project saves it's translations to a specific Translation Memory, assigned to the project as part of a linguistic package. Each time a string is published in a given language, the translation becomes part of the Translation Memory. These translations can then be reused if a similar source string is uploaded again.
 
-While a Smartling project can only save translations to a single translation memory, you can reuse translations from several different Translation Memories as well as other sources. See&nbsp;[Leverage Configuration](/hc/en-us/articles/218671488-Leverage-Configuration) for details.
+While a Smartling project can only save translations to a single translation memory, you can reuse translations from several different Translation Memories as well as other sources. See&nbsp;[Leverage Configuration](/support/articles/leverage-configuration/) for details.
 
 ## Manage Translation Memory for an Account
 
@@ -84,6 +84,8 @@ If your TMX file has a first line like:
 
 This is a legacy Trados text TM format that does not conform to the latest TMX standards and Smartling will not import the file. You can convert these TMX files to standard TMX files using free converters like [Apsic XBench](http://www.apsic.com/en/downloads.aspx).
 
+> An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/support/articles/leverage-configuration/), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file.
+
 ### To upload a TMX file to Smartling
 
 ![](/uploads/versions/tm4---x----1255-447x---.png)
@@ -94,4 +96,3 @@ This is a legacy Trados text TM format that does not conform to the latest TMX s
 
 **2)** Select or Drag/Drop your TMX file and click OK.
 
-> An uploaded TMX file can be leveraged by a Smartling Project through a [Leverage Configuration](/hc/en-us/articles/218671488), but it is not a Smartling Translation Memory. Future translations won't be saved to your uploaded TMX file.

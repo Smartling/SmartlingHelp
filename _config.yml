@@ -19,7 +19,7 @@ url: "http://help.smartling.com/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 highlighter: rouge
-incremental: true
+incremental: false
 
 
 # LAYOUT
@@ -49,7 +49,7 @@ collections:
     
 #  terms:
 #    output: false
-#    permalink: "/terms/:term/"
+#    permalink: "/terms/:title/"
 
 
 #CloudCannon Helpers

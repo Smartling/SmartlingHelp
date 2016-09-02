@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -35,9 +35,7 @@ migration-checklist:
 
 A style guide is a collection of rules about your preferences for content formatting and writing tone, and style that you want translators to follow so that your users and customers have a consistent experience across all languages. The style guide explains punctuation, spelling, formatting, adaptations, and language-specific preferences or errors to avoid, and helps translators and editors ensure that translations are accurate and consistent.
 
-A Style Guide can be assigned to projects along with your other Linguistic Assets as part of a Linguistic Package. See [Create and Manage Linguistic Packages](){: .cc-active}for more details.
-
-**Create a New Style Guide**
+## Create a New Style Guide
 
 **1)** **Assets &gt; Style Guides** **Create Style Guide**
 
@@ -56,6 +54,6 @@ A Style Guide can be assigned to projects along with your other Linguistic Asset
 
 ![](/uploads/versions/styleguide3b---x----1999-1043x---.png)
 
-**Assign a Style Guide to a Project**
+## Assign a Style Guide to a Project
 
-Style guides are assigned to a project as part of a Linguistic Package. See [Create and Manage Linguistic Packages](/hc/en-us/articles/218014537) for more information.
+Style guides are assigned to a project as part of a Linguistic Package. See [Create and Manage Linguistic Packages](/support/articles/create-and-manage-linguistic-packages/) for more information.
