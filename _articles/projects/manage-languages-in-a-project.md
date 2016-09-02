@@ -52,7 +52,7 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
 * **Sync Exclusions With -** Use this option to exclude strings for the new language based on excluded strings in another. This option is only available if you have chosen **Synchronize with a language**, above.
 
 
-![medium](/uploads/versions/smartling___summary-4---x----575-492x---.png)
+![](/uploads/versions/smartling---summary--besttest-web-app----x----571-525x---.png)
 
 **(3)** Click **Add**.
 
