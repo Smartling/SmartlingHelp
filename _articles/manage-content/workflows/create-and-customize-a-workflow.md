@@ -55,6 +55,7 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 ![medium](/uploads/versions/smartling___translation_workflow-3---x----576-551x---.png)
 
 | Field       | Description |
+ ---------    : --------    |
 | Content Assignment       | If set to ‘ON’ each string must be assigned to a specific translation resource. If ‘OFF’, any resource with access to this step can work on any string. |
 | Primary Action       | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/hc/admin/articles/201519367/) strings enter the workflow. |
 | Resources can revise content       | If checked, Translation Resources can edit the translation. Checking \*\*Automatically submit edits by Resources\*\* will cause strings to proceed to the next Workflow step when a Translation Resource saves an edit. |
@@ -94,4 +95,6 @@ Click **Language Settings** from the **Translation Workflow** page to set a de
 
 ![](/uploads/versions/smartling___translation_workflow-7---x----1249-497x---.png)
 
-Note: You can also manage default workflow from each language [from the Project Summary page](){: .cc-active}.
+<div class="info">
+You can also manage default workflow from each language from the <a href="/support/articles/manage-languages-in-a-project/">Project Summary page</a>.
+</div>

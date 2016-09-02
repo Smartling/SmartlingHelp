@@ -15,7 +15,7 @@ wistia:
   video: false
   id:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
