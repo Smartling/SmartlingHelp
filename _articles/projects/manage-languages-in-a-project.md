@@ -50,6 +50,7 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
   * **Synchronize with a language**: use this option if you'd like to authorize the same strings authorized in another language (and have the option to select a language)
   * **I'll decide later**: the strings will be added to your awaiting authorization queue, where you'll be able to authorize them manually
 * **Sync Exclusions With -** Use this option to exclude strings for the new language based on excluded strings in another. This option is only available if you have chosen **Synchronize with a language**, above.
+* If the language you are adding is not currently supported in your project's Linguistic Package, you will be prompted to review it.
 
 
 ![](/uploads/versions/smartling---summary--besttest-web-app----x----571-525x---.png)
