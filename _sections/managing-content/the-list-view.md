@@ -16,13 +16,12 @@ wistia:
   video: false
   id:
 migration-checklist:
-  internal-links:
+  internal-links: true
   images: false
   FAQs: false
   related: false
   reviewed: false
 ---
-
 
 ![](/uploads/versions/smartling---translations-management--smartling-hotels----x----1338-726x---.png)
 
