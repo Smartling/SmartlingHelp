@@ -16,7 +16,7 @@ wistia:
   video: false
   id:
 migration-checklist:
-  internal-links: 
+  internal-links:
   images: false
   FAQs: false
   related: false
@@ -24,3 +24,6 @@ migration-checklist:
 ---
 
 
+![](/uploads/versions/smartling---translations-management--smartling-hotels----x----1338-726x---.png)
+
+The List View is your home base for finding and working with strings in your Smartling project.
