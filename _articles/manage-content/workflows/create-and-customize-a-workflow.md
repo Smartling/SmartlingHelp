@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,11 +38,11 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 ## Create a Workflow
 
-**(1)** Click **+** and choose **Add Project Workflow** or **Add Account Workflow**.
+**1)** Click **+** and choose **Add Project Workflow** or **Add Account Workflow**.
 
 ![medium](/uploads/versions/smartling___translation_workflow---x----674-417x---.png)
 
-**(2)** Name the workflow and check all languages you want the workflow to be used for.
+**2)** Name the workflow and check all languages you want the workflow to be used for.
 
 ![medium](/uploads/versions/smartling___translation_workflow-1---x----577-425x---.png)
 
@@ -50,24 +50,24 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 
 ![](/uploads/versions/smartling___translation_workflow-2---x----968-165x---.png)
 
-**(1)** Add revision steps by clicking **+**. Choose the step type, add a name and set the properties for the step.
+**1)** Add revision steps by clicking **+**. Choose the step type, add a name and set the properties for the step.
 
 ![medium](/uploads/versions/smartling___translation_workflow-3---x----576-551x---.png)
 
 | Field       | Description |
  ---------    : --------    |
 | Content Assignment       | If set to ‘ON’ each string must be assigned to a specific translation resource. If ‘OFF’, any resource with access to this step can work on any string. |
-| Primary Action       | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/hc/admin/articles/201519367/) strings enter the workflow. |
-| Resources can revise content       | If checked, Translation Resources can edit the translation. Checking \*\*Automatically submit edits by Resources\*\* will cause strings to proceed to the next Workflow step when a Translation Resource saves an edit. |
+| Primary Action       | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/support/articles/smartmatch-settings/) strings enter the workflow. |
+| Resources can revise content       | If checked, Translation Resources can edit the translation. Checking **Automatically submit edits by Resources** will cause strings to proceed to the next Workflow step when a Translation Resource saves an edit. |
 | Resources can reject content to:       | If set, Translation Resources on revision steps will be able to return content to a previous step. |
 | Resources can Reject and Edit Published Content       | If checked, Translation Resources assigned to this step will also be able to edit or reject published strings from this workflow. |
 | Pre-publish all translation submits       | If checked, any strings submitted to the next workflow step will be automatically pre-published. |
 
-**(2)** Drag and drop steps to reorder the workflow.
+**2)** Drag and drop steps to reorder the workflow.
 
-**(3)** Edit or remove a step by clicking the drop-down.
+**3)** Edit or remove a step by clicking the drop-down.
 
-**(4)** To allow Translation Resources to reject published strings, edit the **Published** step of the workflow, check **Resources can reject content to:** and select the Workflow step you want rejected content to be returned to. Only resources assigned to a step with the **Resources can Reject and Edit Published Content** option enabled will be able to reject published content.
+**4)** To allow Translation Resources to reject published strings, edit the **Published** step of the workflow, check **Resources can reject content to:** and select the Workflow step you want rejected content to be returned to. Only resources assigned to a step with the **Resources can Reject and Edit Published Content** option enabled will be able to reject published content.
 
 ![medium](/uploads/versions/smartling___translation_workflow-4---x----576-275x---.png)
 
@@ -83,7 +83,7 @@ Access to each workflow step is customizable. Content owners have access to all 
 
 ![medium](/uploads/versions/smartling___translation_workflow-6---x----576-245x---.png)
 
-**3)** The dialog will only show existing users who are available to work in the step. A user is considered available if they have been invited to the project and are set up to translate the selected language. Agency translators will not be displayed. To add a new user or manage a particular user’s access to languages and workflow steps in detail, use the **Team** page. See [Add and Manage User Access](/hc/en-us/articles/201016167) for more information.
+**3)** The dialog will only show existing users who are available to work in the step. A user is considered available if they have been invited to the project and are set up to translate the selected language. Agency translators will not be displayed. To add a new user or manage a particular user’s access to languages and workflow steps in detail, use the **Team** page. See [Manage Users and Agencies](/support/articles/add-and-manage-users-and-agencies/) for more information.
 
 ## Workflow Holds and Pre-Translation Steps
 
@@ -96,5 +96,5 @@ Click **Language Settings** from the **Translation Workflow** page to set a de
 ![](/uploads/versions/smartling___translation_workflow-7---x----1249-497x---.png)
 
 <div class="info">
-You can also manage default workflow from each language from the <a href="/support/articles/manage-languages-in-a-project/">Project Summary page</a>.
+You can also manage default workflow for each language from the <a href="/support/articles/manage-languages-in-a-project/">Project Summary page</a>.
 </div>
