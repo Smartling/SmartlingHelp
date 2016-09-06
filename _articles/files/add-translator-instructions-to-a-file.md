@@ -44,7 +44,7 @@ Smartling offers several ways to give your Translation Resources information: Fo
 
 **2)** Either type your instruction in the text box or upload a file. [Markdown-format links](/support/faq/adding-links-to-translator-instructions-or-issues/) are supported. The file can be of any type, for example, an image file to aid Indesign translation, a Word document, spreadsheet, etc.
 
-![](/uploads/versions/smartling---manage-files-5---x----1150-812x---.png)
+![medium](/uploads/versions/smartling---manage-files-5---x----1150-812x---.png)
 
 The instruction will be attached to every string extracted from the file. Translation resources will be able to read the instruction or download the file from the Translation Interface or in the List View.
 
@@ -54,4 +54,4 @@ The instruction will be attached to every string extracted from the file. Transl
 
 **2)** Either edit the text and click **Save**. Or click **Remove Instruction**.
 
-![](/uploads/versions/smartling---manage-files-6---x----1142-812x---.png)
+![medium](/uploads/versions/smartling---manage-files-6---x----1142-812x---.png)
