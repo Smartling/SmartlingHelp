@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -33,7 +33,7 @@ migration-checklist:
 ---
 
 
-The Processed Words Report records the daily number of words translated for the first time in a project, either via a person or machine Translation. An [account-level version](/hc/en-us/articles/216811267) is also available.
+The Processed Words Report records the daily number of words translated for the first time in a project, either via a person or machine Translation. An [account-level version](/support/articles/account-level-reports/) is also available.
 
 Words translated via SmartMatch are not included. Fuzzy match scores do not affect the count.
 

@@ -32,7 +32,7 @@ migration-checklist:
 ---
 
 
-The [Issues](/hc/en-us/articles/201921378) report keeps track of how many issues were opened and closed within your selected date range.
+The [Issues](/support/articles/issues/) report keeps track of how many issues were opened and closed within your selected date range.
 
 Separate reports are available for Source Issues and Translation Issues. Click the&nbsp;**Source** or **Translation** tab to select the issue category.
 
