@@ -6,6 +6,7 @@ subsections:
 subarticles:
   - title: Managing Business Documents
   - title: Troubleshooting Translated Business Documents
+  - title: Translating Adobe InDesign Files
 wistia:
   video: false
   id:

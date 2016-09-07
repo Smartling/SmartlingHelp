@@ -8,7 +8,7 @@ subarticles:
   - title: Adobe InDesign Context
   - title: Image Context for Mobile and Desktop Apps
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -26,11 +26,11 @@ Image context is a static JPG or PNG image used to display context for non-web c
 
 ## Context for GDN projects
 
-Context is gathered automatically when you capture content from your website. For many websites, you may get adequate context without taking any further action. However, automatic context gathering through the GDN is limited with some types of web content, such as javascript. In these instances, you can use the [Smartling Context Capture Chrome Extension](){: .cc-active} to fill in any gaps in your context.
+Context is gathered automatically when you capture content from your website. For many websites, you may get adequate context without taking any further action. However, automatic context gathering through the GDN is limited with some types of web content, such as javascript. In these instances, you can use the [Smartling Context Capture Chrome Extension](/support/sections/chrome-context-capture-extension/){: .cc-active} to fill in any gaps in your context.
 
 ## Context for Files projects
 
-There are two ways to manage context. Any content that can be displayed in a browser can be captured using the Smartling Context Capture Chrome Extension. For other content, such as mobile apps, you can [upload screenshots](){: .cc-active} to provide context.
+There are two ways to manage context. Any content that can be displayed in a browser can be captured using the Smartling Context Capture Chrome Extension. For other content, such as mobile apps, you can [upload screenshots](/support/articles/adding-image-context-for-mobile-and-desktop-application-files/){: .cc-active} to provide context.
 
 ## Context for Business Documents projects
 

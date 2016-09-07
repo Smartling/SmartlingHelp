@@ -28,7 +28,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -43,7 +43,7 @@ To translate Adobe InDesign files using Smartling, you or your designer must sim
 
 You can also provide document instructions to provide context. By attaching a JPG or PDF export of the InDesign document in the original language and providing instructions about the document, you can create an excellent reference for translators to help them understand context. Remember that not all translators can open the IDML file so Smartling strongly recommends that you provide context via instructions.
 
-<div class="info"> you need to convert a batch of Adobe InDesign files from their native file format (.indd) to InDesign Markup Language format (IDML) there are applications that can assist with the process. </div>
+<div class="info"> If you need to convert a batch of Adobe InDesign files from their native file format (.indd) to InDesign Markup Language format (IDML) there are applications that can assist with the process. </div>
 
 ## Adobe InDesign format translation workflow
 
@@ -58,6 +58,8 @@ You can also provide document instructions to provide context. By attaching a JP
 **4)** Download the translated IDML file. You or your design resource can open the file with all links intact and if necessary, save it in the native Adobe InDesign (.indd) format for production. You can also request retranslation of certain segments using the Smartling dashboard.
 
 > Smartling only translates the text of the IDML file. Other data, such as fonts are not changed. This means that if you are translating into a language with a non-latin character set, such as Chinese, you may need to set new fonts with the appropriate character set before you can read your translated files.
+
+## InDesign Translation Tips
 
 Find out how you can better prepare your InDesign document for translation
 

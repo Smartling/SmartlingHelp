@@ -37,23 +37,19 @@ The Chrome Context Capture Extension can be automated to capture context for an 
 
 By default the Chrome Context Capture Extension will not override existing context.
 
-### To use the built-in Automation Tool:
-
-**(1)** In Chrome, navigate to **Chrome&gt;Preferences&gt;Extensions** and click **Options**.
+**1)** In Chrome, navigate to **Chrome&gt;Preferences&gt;Extensions** and click **Options**.
 
 ![](/uploads/versions/extensions-2---x----918-428x---.png)
 
-**(2)** Select **Automation Tool**
+**2)** Select **Automation Tool**
 
 ![medium](/uploads/versions/smartling_context_snapshot_options-1---x----688-752x---.png)
 
-**(3)** Drag your site’s sitemap.xml file into the marked area.
+**3)** Drag your site’s sitemap.xml file into the marked area.
 
 ![](/uploads/versions/smartling_context_snapshot_options-2---x----1247-141x---.png)
 
-**Note:** In your sitemap.xml file you can create a
-
-<url-list> node populated with a list of URLs you wish to contextualize. You can also preload your Project UID and API key by adding this code at the top of your sitemap:</url-list>
+In your sitemap.xml file you can create a `<url-list>` node populated with a list of URLs you wish to contextualize. You can also preload your Project UID and API key by adding this code at the top of your sitemap:
 
 ~~~
 <smartlingconfig>
@@ -64,7 +60,7 @@ By default the Chrome Context Capture Extension will not override existing conte
 
 You can download a custom sitemap template <a href="/resources/smartling-chrome-automation-sitemap-example.xml" download target="_blank">here</a>
 
-**(4)**Set up the automation tool:
+**4)** Set up the automation tool:
 
 ![](/uploads/versions/smartling_context_snapshot_options-3---x----946-525x---.png)
 
@@ -76,4 +72,4 @@ You can download a custom sitemap template <a href="/resources/smartling-chrome-
 * **Test mode** - If checked, the Chrome Context Capture Extension will crawl the selected urls, but will not take snapshots. You can also click test next to any URL to view a preview snapshot for that URL.
 
 
-**(5)** Click **Start**. The Automation Tool will capture a snapshot of each selected URL and match the snapshots to any matching strings in your project.
+**5)** Click **Start**. The Automation Tool will capture a snapshot of each selected URL and match the snapshots to any matching strings in your project.
