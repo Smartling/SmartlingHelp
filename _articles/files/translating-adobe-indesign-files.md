@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Translating Adobe InDesign Files
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false
