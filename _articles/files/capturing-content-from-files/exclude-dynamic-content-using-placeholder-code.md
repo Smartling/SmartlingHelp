@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -55,4 +55,4 @@ Smartling will output:
 
 ## Custom Placeholders
 
-You can use Smartling Files API or file directives to specify a custom placeholder format when uploading a file. See the [Files API]() and [Supported File Types]() documentation for more details on placeholders for each file type.
+You can use Smartling Files API or file directives to specify a custom placeholder format when uploading a file. See the [Supported File Types](/developers/supported-file-types/) documentation for more details on placeholders for each file type.

@@ -29,7 +29,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,12 +38,9 @@ migration-checklist:
 
 Account Owners can configure their Smartling account to allow anyone with an email address in a company domain (e.g. username@mycompany.com) to set up a Smartling profile, instead of having to invite each user individually. To do this you need to set up a default role and set of projects for new users to have access to.
 
-**To set up access for your domain:**
-
 **1)** Contact your Smartling administrator to make sure this feature is enabled for your account.
 
 **2)** In any Smartling project under your account, navigate to **Project Settings > Sign In Settings** and switch to the **New User Management**
-
 
 **3)** Check **Allow any domain users to login to Smarting.**
 
@@ -51,7 +48,7 @@ Account Owners can configure their Smartling account to allow anyone with an ema
 
 **5)** Add the projects you want new users to have access to under **Default Projects**
 
-**6)** Set the Default User Role. You can choose either Requester or Project Manager. See our [User Roles documentation](/hc/en-us/articles/204381147) for details.
+**6)** Set the Default User Role. You can choose either Requester or Project Manager. See our [User Roles documentation](/sd) for details.
 
 **7)** Click **Save**
 

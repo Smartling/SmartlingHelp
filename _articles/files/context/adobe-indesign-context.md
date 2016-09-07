@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -37,8 +37,6 @@ migration-checklist:
 The tight formatting of Adobe InDesign files makes context especially important for successful translation.
 
 Smartling can now show InDesign context in the Translation Interface. Context is not dynamic, as with HTML context, but must be regenerated when translations are edited.
-
-To generate context for IDML strings:
 
 **1)** In the Translation Interface, click **Generate document with latest [language] translations**.
 

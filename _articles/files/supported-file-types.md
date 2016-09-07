@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -37,6 +37,7 @@ migration-checklist:
 Most application resource file types can be uploaded to Smartling without being altered. Custom XML files require directives to be added before uploading. Smartling supports the following resource files:
 
 | File Type | Prefix |
+|-----------|--------|
 | Android xml | .xml |
 | Comma Separated Values\* | .csv |
 | Gettext | .pot (or .po but original source should be .pot) |
@@ -52,7 +53,7 @@ Most application resource file types can be uploaded to Smartling without being 
 | XML\* | .xml |
 | YAML | .yaml, yml |
 
-\*May require integration directives.
+\* May require integration directives.
 
 ## Custom XML
 
@@ -79,11 +80,11 @@ Uploading this file to Smartling will result in four strings.
 4. Go to the home page
 
 
-See our [Files Integration](http://docs.smartling.com/pages/supported-file-types/#xml) documentation for more information on Custom XML directives.
+See our [Files Integration](/developers/supported-file-types/custom-xml/) documentation for more information on Custom XML directives.
 
 ## JSON Files
 
-Note: Accounts created after June 5th 2015 have new default rules for JSON handling. [See here]() for details.
+Note: Accounts created after June 5th 2015 have new default rules for JSON handling. [See here](/developers/supported-file-types/json/) for details.
 
 By default, all values in a JSON file are translated. If you wish to translate all values, you do not need to add directives to the file. Only JSON values are captured as strings. Keys are not captured as strings, but can optionally be captured as metadata for a string. For example:
 
@@ -102,7 +103,7 @@ Uploading this file to Smartling will result in three strings
 3. Return to home page
 
 
-See our [Files Integration](http://docs.smartling.com/pages/supported-file-types/#csv) documentation for more information on JSON integration.
+See our [Files Integration](/developers/supported-file-types/json/) documentation for more information on JSON integration.
 
 ## Comma Separated Values Files
 
@@ -119,7 +120,7 @@ String2,Back
 String3,Home
 ~~~
 
-See our [Files Integration](){: .cc-active} documentation for more information on CSV integration.
+See our [Files Integration](/developers/supported-file-types/csv/) documentation for more information on CSV integration.
 
 ## Optional Integration
 
@@ -135,9 +136,10 @@ See our [Files Integration](http://docs.smartling.com/pages/supported-file-types
 
 ## Business Documents
 
-Smartling also supports the following business document files. These files are supported as-is. Optional integration directives are also supported for some file types. See our [Files Integration](http://docs.smartling.com/pages/supported-file-types/) documentation for more information.
+Smartling also supports the following business document files. These files are supported as-is. Optional integration directives are also supported for some file types. See our [Files Integration](/developers/supported-file-types/) documentation for more information.
 
 | File Type | Extension |
+|-----------|-----------|
 | Plain Text | .txt |
 | Open Office XML | .docx, .pptx, .xlsx |
 | Adobe InDesign | .idml |
@@ -147,8 +149,12 @@ Smartling also supports the following business document files. These files are s
 
 The size of files that can be uploaded to Smartling are limited to:
 
-* 50MB for .pptx
-* 25MB for .idml
-* 20MB for madcap zip packages
-* 20MB for .doc, .docx
-* 10MB for all others
+| File Type | Limit |
+|------------|-------|
+|.pptx | 50MB |
+|.idml | 25MB |
+| Madcap | 20MB |
+| .docx | 20MB |
+| All others | 10MB |
+
+
