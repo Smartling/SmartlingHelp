@@ -17,7 +17,7 @@ read-first:
     - section
   articles:
     - article
-  faqs
+  faqs:
     - faq
   others:
     - link: ''
