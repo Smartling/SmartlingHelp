@@ -28,7 +28,7 @@ further-reading:
     - section
   articles:
     - article
-  faqs
+  faqs:
     - faq
   others:
     - link: ''
@@ -39,5 +39,4 @@ migration-checklist:
   FAQs: false
   related: false
   reviewed: false
-
 ---
