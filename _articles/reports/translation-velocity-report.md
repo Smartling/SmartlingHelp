@@ -24,7 +24,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -32,7 +32,7 @@ migration-checklist:
 ---
 
 
-The Translation Velocity report allows you to track how fast your strings in your project are being translated. An [account-level version](/hc/en-us/articles/216811267) of this report is also available.
+The Translation Velocity report allows you to track how fast your strings in your project are being translated. An [account-level version](/support/articles/account-level-reports/) of this report is also available.
 
 For a selected period of time, the report gives you the average time in hours between:
 
@@ -44,5 +44,3 @@ For a selected period of time, the report gives you the average time in hours be
 To run the report, select Languages and a date range and click **Filter**.
 
 ![](/uploads/versions/download-10---x----1269-704x---.png)
-
-&nbsp;

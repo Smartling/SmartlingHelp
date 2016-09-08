@@ -30,7 +30,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -41,7 +41,7 @@ Content under a Do Not Translate rule is not captured for translation and is dis
 
 When applied to inline elements, such as a span tag, this will cause a placeholder to be created, unless the element is at the beginning or end of a string, in which case, the content will not be captured.
 
-### How to Apply
+## How to Apply
 
 
 ### Add a Do Not Translate rule by URL, Element Class or Element ID in the Dashboard.
@@ -53,13 +53,13 @@ When applied to inline elements, such as a span tag, this will cause a placehold
 <p class="notranslate">This paragraph won’t be captured for translation</p>
 ~~~
 
-If you add ‘notranslate’ to an inline tag at the very beginning of a string, the string will be split instead of a placeholder being created. This may be unwanted behavior. In these cases, you may want to [create a placeholder rule]() in the dashboard instead. For example:
+If you add ‘notranslate’ to an inline tag at the very beginning of a string, the string will be split instead of a placeholder being created. This may be unwanted behavior. In these cases, you may want to [create a pattern rule](/support/articles/create-and-manage-patterns-gdn/) in the dashboard instead. For example:
 
 ~~~
 <p><span class="notranslate">5</span> items in cart.</p>
 ~~~
 
-Will be captured as ` items in cart.`
+Will be captured as " items in cart."
 
 ### Set the HTML5 ‘translate’ attribute to ‘no’
 

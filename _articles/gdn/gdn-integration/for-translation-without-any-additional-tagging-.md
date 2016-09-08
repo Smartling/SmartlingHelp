@@ -25,20 +25,20 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
   reviewed: false
 ---
-The Smartling service adds a specific class to the `<body>` tag of each language website, specific to that language. The added class is in the format `smartling-[language code]`; for example:
+The Smartling service adds a specific class to the `<body>` tag of each language website, specific to that language. The added class is in the format `smartling-{language code}`; for example:
 
 ~~~
-<body class=”smartling-fr”> (for French)
+<body class="smartling-fr"> (for French)
 
-<body class=”smartling-ru”> (for Russian)
+<body class="smartling-ru"> (for Russian)
 
-<body class=”smartling-es”> (for Spanish)
+<body class="smartling-es"> (for Spanish)
 ~~~
 
 This class allows you to create language-specific CSS entries. For example, some languages may require more letters — and more width — to communicate the same message, so you may wish to allow for multi-line wrapping to better fit the translated letters, or for or character-based languages, you may want to increase the line spacing.

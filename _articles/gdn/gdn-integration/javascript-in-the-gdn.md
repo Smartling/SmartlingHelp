@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -69,7 +69,7 @@ A much more localization-friendly way to handle the same content is by using a s
 <script>
 	var item = {...};
 	// <sl:translate>
-	var checkoutStatus = 'You added a \{\{item.color\}\} \{\{item.type\}\} to your cart.';
+	var checkoutStatus = 'You added a {{item.color}} {{item.type}} to your cart.';
 	// </sl:translate>
 	var checkoutStatus = Mustache.render(checkoutStatus, item);
 </script>
@@ -128,8 +128,8 @@ $("#addUser").click(function{} {
 Smartling captures the following strings from this example:
 
 * ‘New user has been added.’
-* ‘Username: {{0}}’
-* ‘Role: {{0}}’
+* ‘Username: {0}’
+* ‘Role: {0}’
 
 
 ### Translate JSON inside a JavaScript string literal
@@ -143,12 +143,7 @@ user.buildpage = function(messages) {
 	...
 }
 // <sl:translate_json>
-	var messages = '{
-		"sl_translate": "sl_all",
-		"greeting": "Hello, valued user!",
-		"farewell": "Thanks for stopping by!",
-		"error": "There seems to be a small problem."
-	}'
+	var messages = '{ "sl_translate": "sl_all","greeting": "Hello, valued user!","farewell": "Thanks for stopping by!","error": "There seems to be a small problem."}'
 // </sl:translate_json>
 user.buildpage(messages);
 ~~~
@@ -183,19 +178,19 @@ Using this syntax will ensure that the directive names survive minification inta
 // Translate some Strings
 
 sl_tr_start();
-	var string 1 = 'Translate this string';
-	var string 2 = 'And this string';
-	var string 3 - 'And this string, too.'
+	var string1 = 'Translate this string';
+	var string2 = 'And this string';
+	var string3 - 'And this string, too.'
 sl_tr_end();
 
 // Nest a notranslate block inside of a larger translate block
 
 sl_tr_start();
-	var string 1 = 'Translate this string';
+	var string1 = 'Translate this string';
 	sl_notr_start();
-		var string 2 = 'But not this string';
+		var string2 = 'But not this string';
 	sl_notr_end();
-	var string 3 - 'Translate this string, too.'
+	var string3 - 'Translate this string, too.'
 sl_tr_end();
 ~~~
 

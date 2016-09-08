@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -49,29 +49,29 @@ Smartling supports Embedded Search using html GET requests. Your search query mu
 
 **1)** Ask your Smartling Client Services Manager to enable Embedded search integration for your site.
 
-**2)** Add the class "sl-search-input" to any `&lt;input&gt;` element used for searching. For example:
+**2)** Add the class `sl-search-input` to any `<input>` element used for searching. For example:
 
 ~~~
-&lt;form accept-charset="UTF-8" action="/hc/en-us/search" class="search-small" method="get" role="search"&gt;
- &lt;div style="display:none"&gt;&lt;input name="utf8" type="hidden" value="&#x2713;" /&gt;&lt;/div&gt;
- &lt;input id="query" value="Dog" name="query" class="sl-search-input" placeholder="Search" type="search" /&gt;
-&lt;/form&gt;
+<form accept-charset="UTF-8" action="/hc/en-us/search" class="search-small" method="get" role="search">
+ <div style="display:none"><input name="utf8" type="hidden" value="✓" /></div>
+ <input id="query" value="Dog" name="query" class="sl-search-input" placeholder="Search" type="search" />
+</form>
 ~~~
 
 **3)** Add the class `sl-search-keyword` to any search term on the results page. For example:
 
 ~~~
 ...
-&lt;form action="#" class="form-sort" novalidate="novalidate"&gt;
-     &lt;fieldset&gt;
-         &lt;div class="search-frame"&gt;
-             &lt;div class="search-row"&gt;
+<form action="#" class="form-sort" novalidate="novalidate">
+     <fieldset>
+         <div class="search-frame">
+             <div class="search-row">
 ...
-             &lt;span class="text"&gt;&lt;b&gt;&lt;span class="sl-search-keyword"&gt;Dog&lt;/span&gt;&lt;/b&gt; clips (1 - 192 of 579 results)&lt;/span&gt;
+                <span class="text"><b><span class="sl-search-keyword">Dog</span></b> clips (1 - 192 of 579 results)</span>
 ...
-                             &lt;div class="subpaging search"&gt;
-                     &lt;div class="holder"&gt;
-                         &lt;div class="frame search"&gt;
-                             &lt;ul class="search-menu"&gt;
+                <div class="subpaging search">
+                     <div class="holder">
+                         <div class="frame search">
+                             <ul class="search-menu">
 ...
 ~~~

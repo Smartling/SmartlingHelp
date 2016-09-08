@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -45,7 +45,9 @@ Not all sites can benefit from using the static cache feature and it may be that
 
 **1)** Contact your Smartling Client Services manager to request Static Cache be enabled on your site. Smartling will analyse your site to determine where caching can be effectively used. This process may take a few days.
 
-**2)** Once static caching is enabled. You can manage your cache from Global Delivery Network &gt; Configuration by selecting the Static Cache tab.![](/uploads/versions/static-cachce1---x----1235-789x---.png)
+**2)** Once static caching is enabled. You can manage your cache from Global Delivery Network &gt; Configuration by selecting the Static Cache tab.
+
+![](/uploads/versions/static-cachce1---x----1235-789x---.png)
 
 **3)** The page shows a list of all Domains in your project. For each domain that requires caching, set the switch to ON.
 

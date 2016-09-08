@@ -30,7 +30,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -44,7 +44,7 @@ Smartling does not automatically capture JSON content for translation, since tra
 
 JSON is made up of name/value pairs. Smartling translates only JSON values.
 
-> This article assumes JSON is the result of a JSON request. To identify JSON appearing within a Javascript string literal see [here](){: .cc-active}.
+> This article assumes JSON is the result of a JSON request. To identify JSON appearing within a Javascript string literal see [here](/support/articles/javascript-in-the-gdn/).
 
 ## Identify Translatable Content
 
@@ -68,16 +68,18 @@ For example
     	"admin": false
     },
     "string1": "Here's some content for John",
-    "string2": "<div>Smartling <strong>automatically</strong> recognises HTML markup a JSON string</div>",
+    "string2": "<div>Smartling <strong>automatically</strong> recognises HTML markup in a JSON string</div>",
     "string3": "This content will not be translated"
 }
 ~~~
 
-> Smartling automatically recognizes HTML content in JSON strings and parses it as HTML. Unlike in HTML, where tagging an element for translation captures all child nodes, in JSON, Smartling only captures directly identified values, not the values of child nodes. In the above example, adding `"user"` to the list of names in `"sl_translate"` would not cause the value of child node `"role"` to be captured for translation. If you want to translate `"role"`, you need to specify it in `"sl_translate"`.
+Smartling automatically recognizes HTML content in JSON strings and parses it as HTML. 
+
+> Unlike in HTML, where tagging an element for translation captures all child nodes, in JSON, Smartling only captures directly identified values, not the values of child nodes. In the above example, adding `"user"` to the list of names in `"sl_translate"` would not cause the value of child node `"role"` to be captured for translation. If you want to translate `"role"`, you need to specify it in `"sl_translate"`.
 
 ## Create Variant Metadata for JSON strings
 
-If you want to create [variant metadata](){: .cc-active} in Smartling, you can describe it by adding an "sl_variant" entry to your JSON object. This should contain a comma separated list of JSON names and variant values. For example:
+If you want to create [variant metadata](/support/articles/unique-strings-and-variants/){: .cc-active} in Smartling, you can describe it by adding an `"sl_variant"` entry to your JSON object. This should contain a comma separated list of JSON names and variant values. For example:
 
 ~~~
 {

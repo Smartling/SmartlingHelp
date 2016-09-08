@@ -30,7 +30,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -52,7 +52,7 @@ You can add sl_split tags to capture each section as it’s own string:
 <p><span class="sl_split"><a href="/home">Home</a> / </span><span class="sl_split"><a href="/Support">Support</a> / </span><span class="sl_split"></span><a href="/Download-Files/">Download Files</a></span></p>
 ~~~
 
-> When customizing string splitting behavior, always keep your translators in mind. Each string is translated separately in the Smartling Translation Interface. Lowering the number of words you need to translate using methods like sl_split may risk confusing translators and possibly lowering your translation quality.
+> When customizing string splitting behavior, always keep your translators in mind. Each string is translated separately in the Smartling Translation Interface. Lowering the number of words you need to translate using methods like `sl_split` may risk confusing translators and possibly lowering your translation quality.
 
 ## Variations
 * `Sl_nosplit` - forces Smartling not to create separate strings where it normally would. For example, applying `sl_nosplit` to a `<ul>` tag would capture a single string for an entire list.

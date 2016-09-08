@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -37,18 +37,18 @@ migration-checklist:
 
 The Requester Portal must be enabled by Smartling before it can be accessed by an account. Contact your Smartling Client Services representative and ask for Requester Portal to be enabled.
 
-**To create a Requester:**
+## Create a Requester
 
-**(1)** Follow the steps in [Add a User](/hc/en-us/articles/201016167#Add).
+**1)** Follow the steps in [Add a User](/support/articles/add-and-manage-users-and-agencies/#add-a-user).
 
-**(2)** Select **Requester** as the user role.
+**2)** Select **Requester** as the user role.
 
 ![](/uploads/versions/requesterintro1---x----1778-1090x---.png)
 
-**To set authorization preferences:**
+## Set authorization preferences
 
-**(1)** From **Content&gt;Jobs**, click the **Gear** icon.
+**1)** From **Content&gt;Jobs**, click the **Gear** icon.
 
-**(2)** If you want Requesters to be able to authorize their own jobs for translation, check **Requesters authorize jobs for translation**. If the box is unchecked, jobs submitted by Requesters need to be authorized by a Project Manager or Account Owner.
+**2)** If you want Requesters to be able to authorize their own jobs for translation, check **Requesters authorize jobs for translation**. If the box is unchecked, jobs submitted by Requesters need to be authorized by a Project Manager or Account Owner.
 
 ![](/uploads/versions/requestrintro2---x----2450-800x---.png)

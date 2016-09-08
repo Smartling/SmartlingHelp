@@ -14,7 +14,7 @@ wistia:
   video: false
   id:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -49,28 +49,28 @@ Most Rules can be applied in two different ways. The first way is to create a ru
 The second way is to add special Smartling classes directly to your site’s source code. For example to not translate a paragraph of text:
 
 ~~~html
-<p class=”notranslate”>This paragraph won’t be captured for translation</p>
+<p class="notranslate">This paragraph won’t be captured for translation</p>
 ~~~
 
 Be aware that the rule will also be applied to all child elements of the element given the Smartling class:
 
 ~~~html
-<div id=”Comments” class=”notranslate”>
-    <div class=”comment-box”>
+<div id="Comments" class="notranslate">
+    <div class="comment-box">
         A user comment that won’t be translated.
     </div>
-    <div class=”comment-box”>
+    <div class="comment-box">
         A second user comment that won’t be translated.
     </div>
 </div>
 ~~~
 
-> Remember that the following HTML tags cannot take the ‘class’ attribute: base, head, html, meta, param, script & style.
+> Remember that the following HTML tags cannot take the `class` attribute: `base`, `head`, `html`, `meta`, `param`, `script` & `style`.
 
 Both methods have the same effect on content. Which you choose to implement will depend on how easily you can edit the source code of your site and whether you already have classes or IDs that you can use to identify content.
 
-> ## Difference from Excluding strings
->
-> You can also exclude strings from translation in the list view. This has a slightly different effect. If you exclude the string ‘Hello!’ from the list view, any instances of the string ‘Hello!’ on your site will not be translated. If you apply a Do Not Translate rule to a `&lt;h1&gt;` element on your site containing the word ‘Hello!’, that content will not be captured by Smartling for translation. If the string ‘Hello!’ appears elsewhere in your site, for example, inside a regular `&lt;p&gt;` tag, it will be captured and translated as normal.
->
-> As a general best practice, you should use Exclude in the Smartling dashboard for identifying particular text that you don’t ever want translated. For sections of your site that you know you will never want translated, use a Rule..For example the comment section of your site; Instead of trying to exclude each new comment on your site manually, you can give your comments `&lt;div&gt;` the “notranslate” class so that comments are never captured by Smartling.
+## Difference from Excluding strings
+
+You can also exclude strings from translation in the list view. This has a slightly different effect. If you exclude the string ‘Hello!’ from the list view, any instances of the string ‘Hello!’ on your site will not be translated. If you apply a Do Not Translate rule to a `<h1>` element on your site containing the word ‘Hello!’, that content will not be captured by Smartling for translation. If the string ‘Hello!’ appears elsewhere in your site, for example, inside a regular `<p>` tag, it will be captured and translated as normal.
+
+As a general best practice, you should use Exclude in the Smartling dashboard for identifying particular text that you don’t ever want translated. For sections of your site that you know you will never want translated, use a Rule..For example the comment section of your site; Instead of trying to exclude each new comment on your site manually, you can give your comments `<div>` the `notranslate` class so that comments are never captured by Smartling.

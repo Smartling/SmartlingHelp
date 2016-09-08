@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -33,11 +33,11 @@ migration-checklist:
 ---
 
 
-Smartling uses patterns to avoid retranslating repeating content with variables. [Patterns can be created in the Dashboard](/hc/en-us/articles/202660343), or can be created by integrating your website's HTML code using the Smartling notranslate class.
+Smartling uses patterns to avoid retranslating repeating content with variables. [Patterns can be created in the Dashboard](/support/articles/create-and-manage-patterns-gdn/), or can be created by integrating your website's HTML code using the Smartling notranslate class.
 
 One way to create patterns is by using a Do Not Translate rule or by adding tags to your source code. If this is not possible, you can also create configuration rules.
 
-**How to Pattern Match Via Configuration**
+## Pattern Match Via Configuration
 
 Using translation classes and exclusion classes, you have better control over exactly what is and is not translated (and the translation method).
 

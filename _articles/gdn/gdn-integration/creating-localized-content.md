@@ -30,7 +30,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -72,7 +72,7 @@ You will need to make sure you have captured your source content by browsing to 
 
 > If you do need to translate your swapped content, you will need to browse to the translated page again to capture it for translation.
 
-> If you repeat your source content in your swap for some languages, remember that they will not change if you alter the source content.
+> If you repeat your source content in your swap for some languages, remember that they will not automatically change if you alter the source content.
 
 ### Content Swap Tips
 
@@ -89,10 +89,7 @@ Examples of our default rules are below. If your site uses a substantially diffe
 
 ### Images
 
-To take advantage of automatic image swapping, you need to store images for your site with the folder structure ‘/images/
-
-<locale>&rsquo;. For example. To use a different banner image on your translated sites, store the images as &lsquo;/images/en-US/banner.jpg&rsquo; for your source site, and &lsquo;images/es-ES/banner.jpg&rsquo; for your Spanish site.</locale>
-
+To take advantage of automatic image swapping, you need to store images for your site with the folder structure `/images/{locale}/{filename}`. For example. To use a different banner image on your translated sites, store the images as `/images/en-US/banner.jpg` for your source site, and `images/es-ES/banner.jpg` for your Spanish site.
 Then, if you include the image on your source site like:
 
 ~~~html

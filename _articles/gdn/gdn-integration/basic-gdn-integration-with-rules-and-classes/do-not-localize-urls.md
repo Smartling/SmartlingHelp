@@ -30,7 +30,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -60,7 +60,7 @@ If you do not want this rewriting to occur, apply the Do Not Localize URLs rule.
 ### Add a Do Not Translate rule by URL, Element Class or Element ID in the Dashboard.
 
 
-### Add the ‘sl_norewrite’ class to your source code
+### Add the `sl_norewrite` class to your source code
 
 ~~~html
 <a class="sl_norewrite" href="http://www.mysite.com/about">About Us</a>

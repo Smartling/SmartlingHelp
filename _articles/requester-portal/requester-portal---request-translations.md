@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,15 +38,15 @@ A user with the Project Manager, Account Owner, or Requester role can upload fil
 
 ## Create a job
 
-**(1)** From **Content &gt; Jobs**, click **Add Job.**
+**1)** From **Content &gt; Jobs**, click **Add Job.**
 
 ![medium](/uploads/versions/smartling___translation_jobs-6---x----1274-772x---.png)
 
-**(2)** Give the job a name, due date and description. Select your target languages.
+**2)** Give the job a name, due date and description. Select your target languages.
 
-**(3)** Upload the files you want translated by clicking **Upload File** and browsing to the files’ location.&nbsp;**Note:**&nbsp;Files jobs cannot be edited once they are created so check that all files and languages are correct.
+**3)** Upload the files you want translated by clicking **Upload File** and browsing to the files’ location.&nbsp;**Note:**&nbsp;Files jobs cannot be edited once they are created so check that all files and languages are correct.
 
-**(4)** Click **Create**.
+**4)** Click **Create**.
 
 ![medium](/uploads/versions/smartling___translation_jobs-7---x----1344-1380x---.png)
 
@@ -56,11 +56,11 @@ A user with the Project Manager, Account Owner, or Requester role can upload fil
 
 ## Check the status of a job
 
-**(1)** From the dropdown on the job card, click **View Details**.
+**1)** From the dropdown on the job card, click **View Details**.
 
 ![small](/uploads/versions/smartling___translation_jobs-9---x----1154-984x---.png)
 
-**(2)** For each file in the job, the details dialog displays a progress bar for each language. The green bar indicates completed strings, while the yellow bar indicate strings which have a translation but are not yet completed.
+**2)** For each file in the job, the details dialog displays a progress bar for each language. The green bar indicates completed strings, while the yellow bar indicate strings which have a translation but are not yet completed.
 
 ![medium](/uploads/versions/smartling___translation_jobs-10---x----562-142x---.png)
 
