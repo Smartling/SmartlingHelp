@@ -48,6 +48,8 @@ See the [Zendesk documentation](){: .cc-active} for more information about Dynam
 
 **2)** In your Zendesk Dashboard, create a new piece of Dynamic Content and paste in your theme text.
 
-![](/hc/en-us/article_attachments/206606618/Smartling_Dev_-_Agent.png)
+![](/uploads/versions/smartling-dev---agent---x----1037-666x---.png)
 
 **3)** Replace the text in your Zendesk theme with your new Dynamic Content tag.
+
+![](/uploads/versions/smartling-dev-1---x----547-396x---.png)
