@@ -29,7 +29,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -37,7 +37,7 @@ migration-checklist:
 ---
 
 
-> The Smartling Language Selector can only be used for a ['subdomains'-style]() GDN setup.
+> The Smartling Language Selector can only be used for a subdomains-style GDN setup.
 
 You can optimize the Smartling language selector to control how it displays and acts in a page by using one of the following procedures to modify the text that appears, how the site handles redirects, or to replace language text in the selector with an image.
 

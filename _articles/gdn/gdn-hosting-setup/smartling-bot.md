@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -42,5 +42,3 @@ Mozilla/5.0 (compatible; SmartlingBot/[XX]; +http://support.smartling.com/hc/en-
 ~~~
 
 where `/[XX]` is a suffix denoting the particular service performed by the bot.
-
-For more information or to contact smartling, [visit our support site](/).

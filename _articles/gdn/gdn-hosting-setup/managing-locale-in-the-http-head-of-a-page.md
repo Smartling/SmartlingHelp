@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -53,7 +53,7 @@ The header names are case sensitive, but the language and locale name (for examp
 
 You can add server-side logic to detect the language in use and add appropriate language-specific logic. This might be useful for such things as language-specific options, setting language defaults for the user or customizing checkout experiences.
 
-## Excluding or Specifying Localized Content in the &lt;head&gt; of a page
+## Excluding or Specifying Localized Content in the `<head>` of a page
 
 Localized content consists of strings from your source site that you may want to completely replace with entirely different content in your translated locales. This could be either different source content that requires translation, or locale-specific content that is already translated such as a client testimonial. Smartling refers to this as content 'swap'.
 

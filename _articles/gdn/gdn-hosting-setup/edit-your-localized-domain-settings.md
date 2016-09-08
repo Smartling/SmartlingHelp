@@ -46,7 +46,7 @@ In the **Edit Domain Dialog box**, modify the following:
 
 * **Protected**: Check **Protected** if your site is not publicly available so that it doesn’t get crawled by search engines.
 * **Localized Regex:** If you require a localized Regular expression, include a **Localized Regex** URL.
-* **CNAME**: **CNAME** is the hostname to which localized domain DNS records point and may be different for every domain. For more information, see: [Configuring CNAME Settings](/hc/en-us/articles/201552036-Configuring-CNAME-Settings).
+* **CNAME**: CNAME is the hostname to which localized domain DNS records point and may be different for every domain. For more information, see: [Configuring CNAME Settings](/hc/en-us/articles/201552036-Configuring-CNAME-Settings).
 * **Alternate Endpoint:** Use the **Alternate Endpoint** (or Proxy Pass) when the source content should come from a different location and references the source domain name. For example, a source domain that is an IP address requiring a host header with a fully qualified domain name to resolve, and produces content referencing that domain name.
 
 

@@ -25,7 +25,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -33,14 +33,14 @@ migration-checklist:
 ---
 
 
-Account owners and project managers can manually add content for translation.
+Account owners and project managers can manually add content for translation in  a GDN project.
 
-### To manually add strings:
+**1)** Go to **Content &gt; Translations** and select **Awaiting Authorization.** 
 
-**1)** Go to **Content&gt;****Translations** and select **Awaiting Authorization.** **2)** Click \*\*Add String.
+**2)** Click **Add String**sd.
 
 ![](/uploads/versions/smartling___translations_management---x----1377-570x---.png)
 
-**3)** Type your string then click **Add**. You can include HTML tags to your strings, as well as add strings that match an existing pattern (for example, `Hello {1+chars}`) or specify placeholders (for example, `Hello {0}`).
+**3)** Type your string then click **Add**. You can include HTML tags in your strings, as well as add strings that match an existing pattern, like: `Hello {1+chars}`, or specify placeholders, like: `Hello {0}`.
 
-**4)** The string appears under **Awaiting Authorization**. You can search for the string by entering keywords or by setting your URL filter to 'strings'.
+**4)** The string appears under **Awaiting Authorization**. You can search for the string by entering keywords or by setting your [URL filter](/support/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) to 'strings'.

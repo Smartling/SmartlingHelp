@@ -39,7 +39,7 @@ migration-checklist:
 
 An alternative to using translated domains, is to host your translations in folders, like:&nbsp;[www.mycompanysite.com/language](){: .cc-active}
 
-When hosting your translation in a subfolder, the traffic will need to be split between requests for source content (going to your web server) and translated content (going to the Smartling GDN). Your options to split traffic are using the Smartling Global Delivery Network, a Content Delivery Network, or web server or network appliance (ie Netscaler, F5) with proxy capabilities.
+When hosting your translation in a subfolder, the traffic will need to be split between requests for source content (going to your web server) and translated content (going to the Smartling GDN). To split your traffic you can use the Smartling Global Delivery Network, a Content Delivery Network, or web server or network appliance (ie Netscaler, F5) with proxy capabilities.
 
 Once you’ve set your domain in Smartling edit the settings for your localized domain.
 
