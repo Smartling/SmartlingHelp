@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,13 +38,13 @@ The Marketo Connector is controlled from the **Marketo** tab in the Smartling Da
 
 ## Import content for translation
 
-**(1)** Navigate to **Marketo &gt; Translate Content**, to find a list of available emails, landing pages and snippets. Click the down arrow to switch between emails, landing pages and snippets.
+**1)** Navigate to **Marketo &gt; Translate Content**, to find a list of available emails, landing pages and snippets. Click the down arrow to switch between emails, landing pages and snippets.
 
-**(2)** The initial view will show all available content. In the Emails and Landing Pages views, you can navigate to a specific folder using the tree on the left and filter emails for approved/unapproved status. Check the content you want to translate and select **Request Translation**.
+**2)** The initial view will show all available content. In the Emails and Landing Pages views, you can navigate to a specific folder using the tree on the left and filter emails for approved/unapproved status. Check the content you want to translate and select **Request Translation**.
 
 ![](/uploads/versions/smartling___translate_content-4---x----1335-742x---.png)
 
-**(3)** Choose the languages for translation and click **Request Translation**. The content will be authorized into the default workflow for each selected language.
+**3)** Choose the languages for translation and click **Request Translation**. The content will be authorized into the default workflow for each selected language.
 
 ![](/uploads/versions/smartling___translate_content-5---x----574-370x---.png)
 

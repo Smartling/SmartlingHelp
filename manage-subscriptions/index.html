@@ -9,18 +9,80 @@ layout: default
             <h1>Manage Subscriptions</h1>
         </div>
     </div>
+
     <div class="row subscription-form">
         <div class="col-sm-8 col-sm-offset-2">
             <!--[if lte IE 8]>
             <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
             <![endif]-->
             <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script type="text/javascript" src="/js/jquery.js"></script>
             <script>
+                function populate() {
+                    /* This is to prefill form details from a query string */
+
+                    // Parse Querystring
+                    (function($) {
+                        $.QueryString = (function(a) {
+                            if (a == "") return {};
+                            var b = {};
+                            for (var i = 0; i < a.length; ++i) {
+                                var p = a[i].split('=');
+                                if (p.length != 2) continue;
+                                b[p[0]] = decodeURIComponent(p[1]);
+                            }
+                            return b;
+                        })(window.location.search.substr(1).split('&'));
+                    })(jQuery);
+                    console.log($.QueryString)
+
+                    // Querystring Info
+                    var email = $.QueryString["email"];
+                    var weekly = $.QueryString["weekly"] === "true";
+                    var quarterly = $.QueryString["quarterly"] === "true";
+                    var blogs = $.QueryString["blogs"] === "true";
+
+
+                    // Input Selectors
+                    var $email = $('input[name="email"]');
+                    var $weekly = $("input[name='weekly_updates']");
+                    var $quarterly = $("input[name='quarterly_newsletter']");
+                    var $blogs = $("input[name='blog_posts']");
+                    // Populate form fields
+                    $email.val(email).change();
+                    $weekly.prop("checked", weekly).change();
+                    $quarterly.prop("checked", quarterly).change();
+                    $blogs.prop("checked", blogs).change();
+                }
+
                 hbspt.forms.create({
                     portalId: '485320',
-                    formId: 'd43aa825-f463-4cfa-bbea-ff9d977cf193'
+                    formId: 'd43aa825-f463-4cfa-bbea-ff9d977cf193',
+                    onFormReady: function($form, ctx){
+                        populate();
+                    }
                 });
+
             </script>
+
         </div>
     </div>
+    <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+
+            <ul>
+                <li>
+                    <strong>Weekly Updates:</strong> Information about new features and bug fixes released in the last week. Delivered Tuesday or Wednesday each week.
+                </li>
+                <li>
+                    <strong>Quarterly Newsletter:</strong> Roadmap updates, big features and news for the quarter.
+                </li>
+                <li>
+                    <strong>Blog Posts:</strong> Smartling's Product team regularly blogs about upcoming features, tips, tricks and best practices. Get notified whenever we publish a new post.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
 </div>

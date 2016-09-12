@@ -36,11 +36,11 @@ migration-checklist:
 
 ## Installing Sitecore Connecter Module
 
-**1)** Create a new database, and at the SQL Server, execute the script **Sitecore_Data.sql** (can be found in %website root%/sitecore modules/Shell/Smartling.Connector folder).
+**1)** Create a new database, and at the SQL Server, execute the script **Sitecore_Data.sql** (can be found in the `%website root%/sitecore modules/Shell/Smartling.Connector` folder).
 
 > Don't forget to update first line of the script (USE [%**your database name**%]).
 
-**2)** Add new conneciton string to /Website/App_Config/ConnectionStrings.config, name should be "SitecoreLocalization", here's the example:
+**2)** Add new connection string to /Website/App_Config/ConnectionStrings.config, name should be "SitecoreLocalization", here's the example:
 
 ~~~
 <add name="SitecoreLocalization" connectionString="user id=sa;password=Password12345;Data Source=.\SQLEXPRESS;Database=SitecoreLocalization_Data"/>
@@ -87,12 +87,7 @@ You can also specify how Smartling retrieves and displays the content.
 
 ![small](/uploads/versions/sitecore_retrieval_type---x----324-63x---.jpg)
 
-The following options are available:
-
-* **Published** - Replace the original string with translations that are reviewed and authorized for publishing
-* **Pending** - Translator finished translation, but the translation is waiting for authorization from Editor and Reviewer roles
-* **Pseudo** - Replace characters on the fly. For example, "Translate it" can be converted to something like this "~Tpa~nc~la~те ит~"
-  <br>This is useful for testing and faster than machine translation.
+Options are 'published',
 
 
 ### Callback Domain

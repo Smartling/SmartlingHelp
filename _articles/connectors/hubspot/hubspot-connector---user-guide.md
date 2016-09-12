@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,17 +38,17 @@ The HubSpot Connector is managed entirely from within the Smartling dashboard. Y
 
 ## Request translation of a Form or Landing Page
 
-**(1)** Go to **HubSpot &gt; Translate Content**. Smartling will display a list of all available content in your HubSpot account.
+**1)** Go to **HubSpot &gt; Translate Content**. Smartling will display a list of all available content in your HubSpot account.
 
-**(2)** Select either **Landing Pages** or **Forms**. You can filter the list by status or search for a name.
+**2)** Select either **Landing Pages** or **Forms**. You can filter the list by status or search for a name.
 
 > Currently only an exact and complete match will be found by the name search.
 
 ![](/uploads/versions/smartling___translate_content-2---x----1297-536x---.png)
 
-**(3)** Select the content you want to translate and click **Request Translation.**
+**3)** Select the content you want to translate and click **Request Translation.**
 
-**(4)** Select the target languages and click **Request Translation**.
+**4)** Select the target languages and click **Request Translation**.
 
 ![medium](/uploads/versions/smartling___translate_content-3---x----574-372x---.png)
 
@@ -56,12 +56,12 @@ The content for the requested language pages will be authorized and added to the
 
 ## Monitor progress and export completed translations
 
-**(1)** Go to **HubSpot &gt; Translation Progress.** Smartling will display a list of content with pending translations. Each language will have its own entry. The **Progress** bar shows the proportion of completed translations
+**1)** Go to **HubSpot &gt; Translation Progress.** Smartling will display a list of content with pending translations. Each language will have its own entry. The **Progress** bar shows the proportion of completed translations
 
-**(2)** Select any completed Landing Pages and Forms and click **Export to HubSpot**.
+**2)** Select any completed Landing Pages and Forms and click **Export to HubSpot**.
 
 ![](/uploads/versions/smartling___translation_progress---x----1288-527x---.png)
 
-**(3)** The Content will be added to your HubSpot dashboard with the locale (e.g. fr-FR) appended to the name.
+**3)** The Content will be added to your HubSpot dashboard with the locale (e.g. fr-FR) appended to the name.
 
 ![](/uploads/versions/image01---x----968-454x---.png)

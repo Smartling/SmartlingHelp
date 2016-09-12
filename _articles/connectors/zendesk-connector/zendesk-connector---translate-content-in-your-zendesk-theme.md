@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,9 +38,9 @@ Smartling uses the Zendesk API to retrieve Articles and Dynamic Content from you
 
 However, you can make your Theme content available for translation in Smartling by replacing text in your theme with Zendesk Dynamic Content.
 
-See the [Zendesk documentation](){: .cc-active} for more information about Dynamic Content.
-
-## To Translate your Zendesk Theme text in Smartling:
+<div class="info">
+See the <a href="https://support.zendesk.com/hc/en-us/articles/203661426-Change-your-Help-Center-design-using-Dynamic-Content">Zendesk documentation</a> for more information about Dynamic Content.
+</div>
 
 **1)** Copy the text you want to localize from your Zendesk theme.
 

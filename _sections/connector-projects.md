@@ -11,9 +11,9 @@ subsections:
   - title: Zendesk Connector
   - title: Hubspot Connector
   - title: Hybris Connector
-  - title: Magento Connector
   - title: Repository Connector
   - title: Sitecore Connector
+##  - title: Magento Connector
 subarticles:
   - title: none
 migration-checklist:

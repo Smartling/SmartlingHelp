@@ -746,9 +746,26 @@ $headline-padding: 12px;
     background-size: cover;
     text-align: center;
     h1 {
-        position: relative;
-        top: 100px;
-        color: $smartling-red;
+        position: absolute;
+        bottom: 10px;
+        color: white;
+        text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+        font-size: 55px;
+        width: 100%;
+    }
+}
+
+.hs-form {
+    .actions {
+        padding: 0 20px 18px 0 !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        input {
+            @include smartling-button($smartling-blue);
+            background-image: none !important;
+            border: none !important;
+            font-family: adelle-sans !important;
+        }
     }
 }
 
@@ -759,69 +776,70 @@ $headline-padding: 12px;
 
 
 
-// MISC
+    // MISC
 
-// Active styles for all links
+    // Active styles for all links
 
-a:hover {
-    text-decoration: none !important;
-    color: $smartling-red;
-}
-
-a:active, a:focus {
-    text-decoration: none !important;
-}
-
-// Prevent deep link headings scrolling behind fixed header
-:target:before {
-    content:"";
-    display:block;
-    height: $target-height; /* fixed header height*/
-    margin: $target-margin 0 0; /* negative fixed header height */
-}
-
-// Prevent Mark.js from doing ugly highlighting
-mark {
-    background: inherit;
-    color: inherit;
-    padding: 0em;
-}
-
-// Underline Smartling Terms
-.term-underline {
-    border-bottom: 1px dashed $smartling-link-color;
-}
-
-
-// Don't Underline Anchor Links
-.anchorjs-link, .anchorjs-link:hover, .anchorjs-link:focus {
-    text-decoration: none;
-}
-
-//JavaScript Helpers
-html, body {
-    height: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-    .row-center {
-        text-align: center;
+    a:hover {
+        text-decoration: none !important;
+        color: $smartling-red;
     }
 
-    .col-center {
-        display: inline-block;
-        float: none !important;
+    a:active, a:focus {
+        text-decoration: none !important;
     }
-}
 
-// Highlight Code
+    // Prevent deep link headings scrolling behind fixed header
+    :target:before {
+        content:"";
+        display:block;
+        height: $target-height; /* fixed header height*/
+        margin: $target-margin 0 0; /* negative fixed header height */
+    }
 
-@import "syntax-highlighting";
+    // Prevent Mark.js from doing ugly highlighting
+    mark {
+        background: inherit;
+        color: inherit;
+        padding: 0em;
+    }
 
-// Hide edit link (shown with jQuery on test domain)
-#editLink {
-    display: none;
-}
+    // Underline Smartling Terms
+    .term-underline {
+        border-bottom: 1px dashed $smartling-link-color;
+    }
+
+
+    // Don't Underline Anchor Links
+    .anchorjs-link, .anchorjs-link:hover, .anchorjs-link:focus {
+        text-decoration: none;
+    }
+
+    //JavaScript Helpers
+    html, body {
+        height: 100%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .row-center {
+            text-align: center;
+        }
+
+        .col-center {
+            display: inline-block;
+            float: none !important;
+        }
+    }
+
+    // Highlight Code
+
+    @import "syntax-highlighting";
+
+    // Hide edit link (shown with jQuery on test domain)
+    #editLink {
+        display: none;
+    }
+
 
 
 

@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -38,7 +38,7 @@ Smartling's AEM Touch Connector allows you to submit content for translation and
 
 Once the connector is installed, you can manage your translations through Adobe Experience Manager's [translation projects](http://docs.adobe.com/docs/en/aem/6-1/administer/sites/translation.html).
 
-# Create and configure the Smartling Cloud Service
+## Create and configure the Smartling Cloud Service
 
 **1)** Under Cloud Services, find the Smartling service and click **Configure now**.
 <br>![](/uploads/versions/2015-05-18_04_04_32_pm---x----2220-954x---.png)
@@ -46,7 +46,7 @@ Once the connector is installed, you can manage your translations through Adobe 
 **2)** Create a new Cloud Configuration.
 <br>![](/uploads/versions/2015-05-18_04_05_27_pm---x----2724-1336x---.png)
 
-3) Click **Edit** and enter your API Key and Project ID - these can be found [in the Smartling Dashboard](https://dashboard.smartling.com/settings/api.htm) at \*\*Project Settings &gt; API.
+3) Click **Edit** and enter your API Key and Project ID - these can be found in the Smartling Dashboard at **Project Settings &gt; API**.
 <br>![](/uploads/versions/2dcd121b5_-_connector_test---x----1648-688x---.png)
 
 ## Context Configuration
@@ -61,7 +61,7 @@ The Smartling Context configuration includes following settings:
 
 ## To configure context
 
-**1)**In the Web console, open **Components (/system/console/configMgr)**
+**1)**In the Web console, open **Components** (`/system/console/configMgr`)
 
 ![](/uploads/versions/9a86b7d2-fd52-11e4-846d-6c2fcf41673f---x----1662-580x---.png)
 
@@ -70,7 +70,8 @@ The Smartling Context configuration includes following settings:
 ## Disabling context
 
 To fully disable Context, use the “Smartling - Context Connection Manager” component and uncheck **Enabled**.
-<br>![](/uploads/versions/945d38e2-e4eb-11e4-84ba-77e36cc1b8e5---x----1210-432x---.png)
+
+![](/uploads/versions/945d38e2-e4eb-11e4-84ba-77e36cc1b8e5---x----1210-432x---.png)
 
 Context is **enabled** by default.
 

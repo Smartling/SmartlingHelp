@@ -17,7 +17,7 @@ subarticles:
   - title: Zendesk Connector - Localize Images
     published: false
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false

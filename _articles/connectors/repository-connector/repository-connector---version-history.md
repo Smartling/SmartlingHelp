@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 migration-checklist:
-  internal-links: false
+  internal-links: true
   images: false
   FAQs: false
   related: false
@@ -36,20 +36,20 @@ migration-checklist:
 
 ## Version 1.5.1 06/10/2016 [current]
 
-### Features:
+### Features
 
 * Updated handling of Github and Beanstalk webhooks.
 * Added support for running the Connector behind a [proxy](http://docs.smartling.com/pages/Repository-Connector/FAQ-and-Advanced/#Proxy).
 
 
-### Bug Fixes:
+### Bug Fixes
 
 * Made improvements to flow of Check Smartling Progress function in case of failure getting status or downloading translations to the repository.
 
 
 ## Version 1.5.0 04/19/2016
 
-### Improvements:
+### Improvements
 
 * Automatically resolves merge conflicts if Connector fails to pull updates.
 * Purges obsolete branch folders in workspace and files from Smartling Dashboard. If a branch is deleted in the repository, files uploaded to Smartling from that branch are also deleted, along with the local folder created by the connector for that branch.
@@ -58,38 +58,38 @@ migration-checklist:
 
 ## Version 1.4.8 03/03/2016
 
-### Improvements:
+### Improvements
 
 * Dockerized the Connector.
 
 
-### Bug Fixes:
+### Bug Fixes
 
 * Fixed bug that caused errors handling branch names containing a slash. e.g. 'dev/martin'.
 
 
 ## Version 1.4.5 12/15/2015
 
-### Improvements:
+### Improvements
 
 * Translated files are downloaded every time a callback is received. Even if completion progress of the file is unchanged.
 
 
-### Bug Fixes:
+### Bug Fixes
 
 * Fixed bug that caused publishing of some resources to fail.
 
 
 ## Version 1.4.3 - 11/23/2015
 
-### Improvements:
+### Improvements
 
 * Added ability to set download trigger and retrieval type.
 
 
 ## Version 1.4.0 - 10/29/2015
 
-### Bug Fixes:
+### Bug Fixes
 
 * Changed trigger condition for downloading translated files. Now connector take into account not only translated strings but not authorized too
 * New version is backward compatible with previous configuration files. Just backup your configuration, install new version and apply configuration
@@ -97,19 +97,19 @@ migration-checklist:
 
 ## Version 1.3.1 - 10/29/2015
 
-### Improvements:
+### Improvements
 
 * Allow user to filter branches that must be processed by regex. Optional property branches is added to repository configurations to repo-connector.conf
 
 
-### Bug Fixes:
+### Bug Fixes
 
 * Fixed SSH authorization on Indeed environment
 
 
 ## Version 1.3.0 - 05/26/2015
 
-### Improvements:
+### Improvements
 
 * Default repo-connector.conf is minimized and contains polling configuration only. If client requires hooks functionality they must add the configuration.
 * Required repository type property is added to repository configurations to repo-connector.conf
@@ -117,14 +117,14 @@ migration-checklist:
 * SVN layout customization. User can define trunk and brunches folders name with "layout"."trunkFolder" and "layout"."branchesFolder" properties of the repository configuration in repo-connector.conf
 
 
-### Bug Fixes:
+### Bug Fixes
 
 * Warn user to login when resources configuration isn't found
 
 
 ## Version 1.2.2 - 05/12/2015
 
-### Bug Fixes:
+### Bug Fixes
 
 * Fixed a bug that caused errors handling SSH keys.
 * Fixed handling of SSH repository URLs.
@@ -132,7 +132,7 @@ migration-checklist:
 
 ## Version 1.0.1 - 12/15/2014
 
-### First Release:
+### First Release
 
 * Service works as standalone app
 * Native Github service configuration UI
