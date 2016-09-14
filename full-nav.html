@@ -47,8 +47,9 @@ title: Full Nav
 
     </style>
     {% for section in site.sections %}
-    {% if section.title == heading %}
-    {% assign currentSection = section %}
+        {% if section.title == heading %}
+        {% assign currentSection = section %}
+        {% break %}
     {% endif %}
     {% endfor %}
     <h4>
@@ -62,6 +63,7 @@ title: Full Nav
                     <li class="level1">
                         {% include article-checklist.html %}
                     </li>
+                {% break %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
@@ -78,6 +80,7 @@ title: Full Nav
                                 <li class="level2">
                                     {% include article-checklist.html %}
                                 </li>
+                            {% break %}
                             {% endif %}
                         {% endfor %}
                     {% endfor %}
@@ -88,12 +91,14 @@ title: Full Nav
                                     {% include section-checklist.html %}
                                 </li>
                                 {% assign currentSection = section %}
+
                                 {% for subarticle in currentSection.subarticles %}
                                     {% for article in site.articles %}
                                         {% if article.title == subarticle.title %}
                                             <li class="level3">
                                                 {% include article-checklist.html %}
                                             </li>
+                                        {% break %}
                                         {% endif %}
                                     {% endfor %}
                                 {% endfor %}
@@ -104,12 +109,14 @@ title: Full Nav
                                                 {% include section-checklist.html %}
                                             </li>
                                             {% assign currentSection = section %}
+
                                             {% for subarticle in currentSection.subarticles %}
                                                 {% for article in site.articles %}
                                                     {% if article.title == subarticle.title %}
                                                         <li class="level4">
                                                             {% include article-checklist.html %}
                                                         </li>
+                                                    {% break %}
                                                     {% endif %}
                                                 {% endfor %}
                                             {% endfor %}
@@ -120,12 +127,14 @@ title: Full Nav
                                                             {% include section-checklist.html %}
                                                         </li>
                                                         {% assign currentSection = section %}
+
                                                         {% for subarticle in currentSection.subarticles %}
                                                             {% for article in site.articles %}
                                                                 {% if article.title == subarticle.title %}
                                                                     <li>
                                                                         {% include article-checklist.html %}
                                                                     </li>
+                                                                {% break %}
                                                                 {% endif %}
                                                             {% endfor %}
                                                         {% endfor %}
@@ -135,18 +144,23 @@ title: Full Nav
                                                                     <li class="level5">
                                                                         {% include section-checklist.html %}
                                                                     </li>
+                                                                {% break %}
                                                                 {% endif %}
                                                             {% endfor %}
                                                         {% endfor %}
+                                                        {% break %}
                                                     {% endif %}
                                                 {% endfor %}
                                             {% endfor %}
+                                            {% break %}
                                         {% endif %}
                                     {% endfor %}
                                 {% endfor %}
+                                {% break %}
                             {% endif %}
                         {% endfor %}
                     {% endfor %}
+                    {% break %}
                 {% endif %}
             {% endfor %}
         {% endfor %}

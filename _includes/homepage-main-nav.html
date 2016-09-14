@@ -1,52 +1,55 @@
 
 {% for heading in site.data.nav %}
-<div class="toc col-md-6 match-height">
-    {% for section in site.sections %}
-    {% if section.title == heading %}
-    {% assign currentSection = section %}
-    {% endif %}
-    {% endfor %}
-    <h4>
-        <a href="{{currentSection.url}}">{{heading}}</a>
-    </h4>
-    <ul class="nav nav-stacked">
-        {% assign count = '' %}
-        {% for subsection in currentSection.subsections %}
-        {% if count.size == 5 %}
-        <li>
-            <a href="{{currentSection.url}}">More...</a>
-        </li>
-        {% break %}
-        {% endif %}
+    <div class="toc col-md-6 match-height">
         {% for section in site.sections %}
-        {% if section.title == subsection.title %}
-        <li>
-            <a href="{{section.url}}">{{section.title}}</a>
-        </li>
-        {% assign count = count | append: 'x' %}
-        {% endif %}
+            {% if section.title == heading %}
+                {% assign currentSection = section %}
+            {% break %}
+            {% endif %}
         {% endfor %}
-        {% endfor %}
+        <h4>
+            <a href="{{currentSection.url}}">{{heading}}</a>
+        </h4>
+        <ul class="nav nav-stacked">
+            {% assign count = '' %}
+            {% for subsection in currentSection.subsections %}
+                {% if count.size == 5 %}
+                    <li>
+                        <a href="{{currentSection.url}}">More...</a>
+                    </li>
+                    {% break %}
+                {% endif %}
+                {% for section in site.sections %}
+                    {% if section.title == subsection.title %}
+                        <li>
+                            <a href="{{section.url}}">{{section.title}}</a>
+                        </li>
+                        {% assign count = count | append: 'x' %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
 
 
-        {% for subarticle in currentSection.subarticles %}
-        {% if count.size == 5 and forloop.last != true %}
-        <li>
-            <a href="{{currentSection.url}}">More...</a>
-        </li>
-        {% break %}
-        {% endif %}
-        {% for article in site.articles %}
-        {% if article.title == subarticle.title %}
-        <li>
-            <a href="{{article.url}}">{{article.title}}</a>
-        </li>
-        {% assign count = count | append: 'x' %}
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-    </ul>
-</div>
+            {% for subarticle in currentSection.subarticles %}
+                {% if count.size == 5 and forloop.last != true %}
+                    <li>
+                        <a href="{{currentSection.url}}">More...</a>
+                    </li>
+                    {% break %}
+                {% endif %}
+                {% for article in site.articles %}
+                    {% if article.title == subarticle.title %}
+                        <li>
+                            <a href="{{article.url}}">{{article.title}}</a>
+                        </li>
+                        {% assign count = count | append: 'x' %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
 
-{% assign currentSection = NULL %}
+    {% assign currentSection = NULL %}
 {% endfor %}

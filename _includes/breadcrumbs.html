@@ -3,12 +3,14 @@
   {% for article in site.articles %}
     {% if article.title == page.title %}
       {% assign currentArticle = article %}
+      {% break %}
     {% endif %}
   {% endfor %}
   {% for section in site.sections %}
     {% for subarticle in section.subarticles %}
       {% if subarticle.title == currentArticle.title %}
         {% assign crumb1 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -18,12 +20,14 @@
   {% for section in site.sections %}
     {% if section.url == page.url %}
       {% assign currentSection = section %}
+      {% break %}
     {% endif %}
   {% endfor %}
   {% for section in site.sections %}
     {% for subsection in section.subsections %}
       {% if subsection.title == currentSection.title %}
         {% assign crumb1 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -34,6 +38,7 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb1.title %}
         {% assign crumb2 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -44,6 +49,7 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb2.title %}
         {% assign crumb3 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -54,6 +60,7 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb3.title %}
         {% assign crumb4 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -64,6 +71,7 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb4.title %}
         {% assign crumb5 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -74,6 +82,7 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb5.title %}
         {% assign crumb6 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -84,6 +93,7 @@
     {% for subsection in section.subsections %}
       {% if subsection.title == crumb6.title %}
         {% assign crumb7 = section %}
+        {% break %}
       {% endif %}
     {% endfor %}
   {% endfor %}

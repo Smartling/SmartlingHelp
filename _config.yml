@@ -35,6 +35,8 @@ homeCardNavLimit: 6 #Max entries in nav cards
 #Collections
 
 collections:
+
+  # Main Support Center
   articles:
     output: true
     permalink: "support/articles/:title/"
@@ -46,7 +48,16 @@ collections:
   faqs:
     output: true
     permalink: "support/faq/:title/"
-    
+
+  # Developers
+
+  filetypes:
+    output: true
+    permalink: "developers/supported-file-type/:title"
+
+
+
+
 #  terms:
 #    output: false
 #    permalink: "/terms/:title/"
@@ -67,6 +78,17 @@ learning_types:
   - Video
   - Best Practice
   - Webinar
+
+example_types:
+  - generic_paths
+  - generic_nonpaths
+  - json
+  - customxml
+  - yaml
+  - csv
+
+
+
 
 # For Liquid Calcs - DON'T CHANGE
 emptyArray: []

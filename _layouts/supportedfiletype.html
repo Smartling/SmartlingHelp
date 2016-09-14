@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<div class="container page">
+    {% include breadcrumbs.html %}
+    <div class="row content-start">
+
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include sidebar-nav-widget.html %}
+            </div>
+        </div>
+
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content"><h1>{{page.title}}</h1></div>
+            <div class="main-content file-type-info">
+                <table class="file-info">
+                    {% if page.extension %}
+                    <tr>
+                        <td>
+                            <strong>Extension</strong>
+                        </td>
+                        <td>
+                            <code>{{page.extension}}</code>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if page.smartling_identifier %}
+                    <tr>
+                        <td>
+                            <strong>Smartling Identifier</strong>
+                        </td>
+                        <td>
+                            <code>{{page.smartling_identifier}}</code>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if page.download_sample %}
+                    <tr>
+                        <td>
+                            <strong>Example File</strong>
+                        </td>
+                        <td>
+                            <a href="">{{page.download_sample}}</code>
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% if page.resources %}
+                    <tr>
+                        <td>
+                            <strong>Resources</strong>
+                        </td>
+                        <td>
+                                <ul class="resources-list">
+                                    {% for resource in page.resources %}
+                                        <li><a href="{{resource.link}}">{{resource.title}}</a></li>
+                                    {% endfor %}
+                                </ul>
+
+                        </td>
+                    </tr>
+                    {% endif %}
+                </table>
+            </div>
+            <div class="main-content" id="main-text">{{content}}</div>
+            <div class="main-content" id="main-text">
+                {% assign directiveslength = page.directives | size %}
+                {% if directiveslength > 0 %}
+                <h2>Directives</h2>
+                <h3>Format</h3>
+                <pre class="highlight"><code>{{page.directive_format}}</code></pre>
+                <p>{{page.directive_instructions}}</p>
+                {% endif %}
+
+                {% for directive in page.directives %}
+                    <h3>{{}}</h3>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
