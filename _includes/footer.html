@@ -60,14 +60,14 @@
 {% endif %}
 
 <!-- Build the Table of Contents for Articles -->
-{% if page.layout == 'article' or page.layout == 'faq' or page.layout == 'supportedfiletype' %}
+{% if page.layout == 'article' or page.layout == 'faq' or page.layout == 'supportedfiletype' page.layout == 'supportedfiletype' or page.layout == 'v2endpoint' %}
 <script type="text/javascript" src="/js/toc.js"></script>
 {% endif %}
 
 
 
 <!-- Insert Anchors -->
-{% if page.layout == 'article' or page.layout == 'section'  %}
+{% if page.layout == 'article' or page.layout == 'section' or page.layout == 'supportedfiletype' or page.layout == 'v2endpoint'  %}
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.0/anchor.min.js"></script>
 <script>
  anchors.options = {

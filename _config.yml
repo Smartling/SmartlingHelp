@@ -19,7 +19,7 @@ url: "http://help.smartling.com/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 highlighter: rouge
-incremental: true
+incremental: false
 
 
 # LAYOUT
@@ -53,10 +53,18 @@ collections:
 
   filetypes:
     output: true
-    permalink: "developers/supported-file-type/:title"
+    permalink: "developers/supported-file-type/:title/"
 
+  filedirectives:
+    output: false
 
+  v2endpoints:
+    output: true
+    permalink: "developers/apii/v2/:categories/:title/"
 
+  v2section:
+    output: true
+    permalink: "developers/apii/v2/:title/"
 
 #  terms:
 #    output: false
@@ -80,15 +88,22 @@ learning_types:
   - Webinar
 
 example_types:
-  - generic_paths
-  - generic_nonpaths
+  - generic
   - json
   - customxml
   - yaml
   - csv
 
+methods:
+  - GET
+  - POST
+  - DELETE
 
-
+types:
+  - string
+  - array
+  - number
+  - boolean
 
 # For Liquid Calcs - DON'T CHANGE
 emptyArray: []

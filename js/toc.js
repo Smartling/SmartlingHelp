@@ -20,7 +20,7 @@ $(document).ready(function() {
         
         var newLine, el, title, link, classname;
         
-        $("h2, h3, h4").each(function() {
+        $("h2, h3, h4").not(".no-toc").each(function() {
         
           el = $(this);
           title = el.text();

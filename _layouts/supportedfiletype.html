@@ -42,7 +42,7 @@ layout: default
                             <strong>Example File</strong>
                         </td>
                         <td>
-                            <a href="">{{page.download_sample}}</code>
+                            <a href="">{{page.download_sample}}</a>
                         </td>
                     </tr>
                     {% endif %}
@@ -64,7 +64,7 @@ layout: default
                 </table>
             </div>
             <div class="main-content" id="main-text">{{content}}</div>
-            <div class="main-content" id="main-text">
+            <div class="main-content">
                 {% assign directiveslength = page.directives | size %}
                 {% if directiveslength > 0 %}
                 <h2>Directives</h2>
@@ -73,8 +73,60 @@ layout: default
                 <p>{{page.directive_instructions}}</p>
                 {% endif %}
 
-                {% for directive in page.directives %}
-                    <h3>{{}}</h3>
+                {% for d in page.directives %}
+                    {% for directive in site.filedirectives %}
+                        {% if directive.directive_id == d %}
+                            <h3>{{directive.title}}</h3>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    Values
+                                </div>
+                                <div class="col-md-9">
+                                    {{directive.values_markdown | markdownify}}
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    Description
+                                </div>
+                                <div class="col-md-9">
+                                    {{directive.description_markdown | markdownify}}
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    Examples
+                                </div>
+                                <div class="col-md-9">
+                                    {% assign example_array = site.emptyArray %}
+                                    {% for example in directive.examples %}
+                                        {% if example.type == page.smartling_identifier %}
+                                            {% assign example_array = example_array | push: example %}
+                                        {% endif %}
+                                    {% endfor %}
+                                    {% assign specificExampleLength = example_array | size %}
+                                    {% if specificExampleLength == 0 %}
+                                        {% for example in directive.example %}
+                                            {% if example.type == 'generic' %}
+                                                {% assign example_array = example_array | push: example %}
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                    {% for example in example_array %}
+                                        {% if example.code_single_line %}
+                                            <pre><code>{{page.directive_prefix}}{{example.code_single_line}}{{page.directive_suffix}}</code></pre>
+                                        {% else %}
+                                            {{example.code_markdown | markdownify}}
+                                        {% endif %}
+                                        <p>{{example.description_markdown | markdownify}}</p>
+                                    {% endfor % }
+
+                                </div>
+                            </div>
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
             </div>
 
 

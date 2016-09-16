@@ -1,10 +1,23 @@
 ---
-directive: 'translate_paths '
-values:         'A comma-separated list of paths to be captured as strings for translation.'
-description:    'When included in this list, all plain text within the specified tag will be considered a translatable string. Optionally, you can append a "." and a relevant attribute name to the path to translate tag attributes with the file. You can end the path with a trailing slash, "/" and it will treat all child nodes as translatable (content must still be text within a tag).'
+directive_id: 'variants_enabled'
+title: 'variants_enabled'
+values_markdown: |
+  `true|TRUE|on|ON` OR `false|FALSE|off|OFF`
+description_markdown: |
+  When enabled, Smartling will make strings unique using variant metadata. Must be used in conjunction with the `source_key_paths` directive, which provides the information needed to generate variant metadata.
+  
+  > If you have previously uploaded a file with variants turned off, and reupload the file with variants on, Smartling will capture all content as new strings. You can configure [Smartmatch](/support/articles/smartmatch-settings/) to automatically match the existing translations.
+  
 examples:
-    - type: customxml 
-      code:'smartling.translate_paths = data/localize/string, data/localize.title, data/localize/root/'
-      Code: 'testcode'
-      Description: 'Smartling will translate content in the data/localize/string & data/localize/root nodes. The <code>title</code> attribute of the data/localize node will also be translated.'
----
+    - type: xml
+      code_single_line: smartling.variants_enabled = TRUE
+      code_block_markdown:
+      description_markdown:
+        Strings will be captured with variant metadata.  
+    - type: json
+      block: false
+      code_single_line: '"variants_enabled" : "TRUE"'
+      code_block_markdown:
+      description_markdown: |
+        Strings will be captured with variant metadata.
+-e--
