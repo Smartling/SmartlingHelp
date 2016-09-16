@@ -28,8 +28,9 @@ layout: default
                     <h3 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
                         {{parameter.title}}
                     </h3>
-                    {{parameter.description_markdown | markdownify }}
-
+                    {% if parameter.description_markdown %}
+                        {{parameter.description_markdown | markdownify }}
+                    {% endif %}
                     {% for value in parameter.values %}
                         <div class="row">
                             <div class="col-md-3">
