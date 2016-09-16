@@ -1,6 +1,6 @@
 ---
-endpoint_id: UploadFile
 title: 'Upload File'
+endpoint_id: UploadFile
 categories:
   - files
 layout: v2endpoint

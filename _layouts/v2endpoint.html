@@ -21,7 +21,7 @@ layout: default
             <div class="main-content">
                 <h2>Example Request Body</h2>
                 {% if page.request.json_markdown %}
-                    <pre><code>{{page.request.json_markdown}}</code></pre>
+                    <pre><code>{{page.request.json_markdown | markdownify}}</code></pre>
                 {% endif %}
                 <h2>Request Parameters</h2>
                 {% for parameter in page.request.parameters %}
@@ -35,9 +35,11 @@ layout: default
                             <div class="col-md-3">
                                 {{value.title}}
                             </div>
-                            <div class="col-md-3">
-                                {{value.description_markdown | markdownify }}
-                            </div>
+                            {% if value.description_markdown %}
+                                <div class="col-md-3">
+                                    {{value.description_markdown | markdownify }}
+                                </div>
+                            {% endif %}
                         </div>
                     {% endfor %}
                 {% endfor %}
@@ -50,7 +52,9 @@ layout: default
                     <h3 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
                         {{parameter.title}}
                     </h3>
-                    {{parameter.description_markdown | markdownify }}
+                    {% if parameter.description_markdown %}
+                        {{parameter.description_markdown | markdownify }}
+                    {% endif %}
                 {% endfor %}
 
 
