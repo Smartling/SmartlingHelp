@@ -18,26 +18,18 @@ request:
           description_markdown:
 response:
   json_markdown: >-
+    ~~~json
     {
-
-    <br>&nbsp; "response": {
-
-    <br>&nbsp; &nbsp; "code": "SUCCESS",
-
-    <br>&nbsp; &nbsp; "data": {
-
-    <br>&nbsp; &nbsp; &nbsp; "contextUid":
-    "de2b359a-de7b-4aca-9b67-4321446ae540",
-
-    <br>&nbsp; &nbsp; &nbsp; "contextType": "IMAGE",
-
-    <br>&nbsp; &nbsp; &nbsp; "name": "puppy.jpg"
-
-    <br>&nbsp; &nbsp; }
-
-    <br>&nbsp; }
-
-    <br>}
+      "response": {
+        "code": "SUCCESS",
+        "data": {
+          "contextUid": "de2b359a-de7b-4aca-9b67-4321446ae540",
+          "contextType": "IMAGE",
+          "name": "puppy.jpg"
+        }
+      }
+    }
+    ~~~
   parameters:
     - title: contextUid
       type: string
