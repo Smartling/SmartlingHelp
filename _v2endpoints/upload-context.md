@@ -26,7 +26,6 @@ response:
           "contextUid": "de2b359a-de7b-4aca-9b67-4321446ae540",
           "contextType": "IMAGE",
           "name": "puppy.jpg"
-          "test": "test"
         }
       }
     }
