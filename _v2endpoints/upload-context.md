@@ -17,7 +17,7 @@ request:
         - title:
           description_markdown:
 response:
-  json_markdown: >-
+  json_markdown: |
     ~~~json
     {
       "response": {
