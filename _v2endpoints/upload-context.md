@@ -3,7 +3,6 @@ title: Upload Context
 endpoint_id:
 categories:
   - context
-  -
 layout: v2endpoint
 endpoint_url:
 method:
