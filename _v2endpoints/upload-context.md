@@ -17,7 +17,7 @@ request:
         - title:
           description_markdown:
 response:
-  json_markdown: |
+  json_markdown: |-
     ~~~json
     {
       "response": {
@@ -26,11 +26,11 @@ response:
           "contextUid": "de2b359a-de7b-4aca-9b67-4321446ae540",
           "contextType": "IMAGE",
           "name": "puppy.jpg"
+          "test": "test"
         }
       }
     }
     ~~~
-
   parameters:
     - title: contextUid
       type: string
