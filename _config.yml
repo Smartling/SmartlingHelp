@@ -62,7 +62,7 @@ collections:
     output: true
     permalink: "developers/apii/v2/:categories/:title/"
 
-  v2section:
+  v2sections:
     output: true
     permalink: "developers/apii/v2/:title/"
 

@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" href="#collapse1">
+            <h5 class="panel-title no-anchor">
+                In this Section
+            </h5>
+        </a>
+    </div>
+    <div id="collapse1" class="panel-collapse">
+        <div class="panel-body toc" id="contents">
+            <ul class="nav nav-stacked">
+                {% for endpoint in page.endpoints %}
+                    {% for v2endpoint in site.v2endpoints %}
+                        {% if v2endpoint.title == endpoint.title %}
+                            <li><a href="{{v2endpoint.url}}">{{v2endpoint.title}}</a></li>
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,24 +1,24 @@
 ---
-title: Upload Context
-endpoint_id: UploadContext
+title: Download Context File
+endpoint_id: DownloadContextFile
 categories:
-  - context
+  -
 layout: v2endpoint
-endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts'
-method: POST
+endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts/{{contextUid}}/content'
+method: GET
 request:
   json_markdown:
   parameters:
-    - title: content
-      type: array
-      required: true
-      description_markdown: The context image file. Must be uploaded as a multi-part form request.
+    - title:
+      type:
+      required: false
+      description_markdown:
       values:
         - title:
           description_markdown:
 response:
   json_markdown: |-
-    ~~~json
+    ~~~
     {
       "response": {
         "code": "SUCCESS",
@@ -31,10 +31,6 @@ response:
     }
     ~~~
   parameters:
-    - title: contextUid
-      type: string
-      required: false
-      description_markdown: Unique identifier for the context file
     - title:
       type:
       required: false
@@ -46,3 +42,4 @@ examples:
 ---
 
 
+Return a context file.

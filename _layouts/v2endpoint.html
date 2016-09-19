@@ -19,40 +19,43 @@ layout: default
             </div>
             <div class="main-content" id="main-text">{{content}}</div>
             <div class="main-content">
-                <h2>Example Request Body</h2>
-                {% if page.request.json_markdown %}
-                    <pre><code>{{page.request.json_markdown | markdownify}}</code></pre>
-                {% endif %}
-                <h2>Request Parameters</h2>
-                {% for parameter in page.request.parameters %}
-                    <h3 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
-                        {{parameter.title}}
-                    </h3>
-                    {% if parameter.description_markdown %}
-                        {{parameter.description_markdown | markdownify }}
+                {% unless page.request.noparams %}
+                    <h2>Request</h2>
+                    {% if page.request.json_markdown %}
+                        {{page.request.json_markdown | markdownify}}
                     {% endif %}
-                    {% for value in parameter.values %}
-                        <div class="row">
-                            <div class="col-md-3">
-                                {{value.title}}
-                            </div>
-                            {% if value.description_markdown %}
+                    <h3>Parameters</h3>
+                    {% for parameter in page.request.parameters %}
+                        <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
+                            {{parameter.title}}
+                        </h4>
+                        {% if parameter.description_markdown %}
+                            {{parameter.description_markdown | markdownify }}
+                        {% endif %}
+                        {% for value in parameter.values %}
+                            <div class="row">
                                 <div class="col-md-3">
-                                    {{value.description_markdown | markdownify }}
+                                    {{value.title}}
                                 </div>
-                            {% endif %}
-                        </div>
+                                {% if value.description_markdown %}
+                                    <div class="col-md-3">
+                                        {{value.description_markdown | markdownify }}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
                     {% endfor %}
-                {% endfor %}
+                {% endunless %}
 
                 <h2>Response</h2>
                 {% if page.response.json_markdown %}
                 {{page.response.json_markdown | markdownify }}
                 {% endif %}
+                <h3>Parameters</h3>
                 {% for parameter in page.response.parameters %}
-                    <h3 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
+                    <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
                         {{parameter.title}}
-                    </h3>
+                    </h4>
                     {% if parameter.description_markdown %}
                         {{parameter.description_markdown | markdownify }}
                     {% endif %}

@@ -2,13 +2,6 @@
 layout: default
 ---
 
-{% for article in site.articles %}
-{% if article.title == page.title %}
-{% assign currentArticle = article %}
-{% endif %}
-{% endfor %}
-{% assign editUrl = currentArticle.id %}
-
 
 <div class="container page">
 
