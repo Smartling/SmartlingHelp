@@ -2,7 +2,7 @@
 layout: faq
 title: Can I translate PDF files??
 related-articles:
-  - article: managing-business-documents
+  - article:
 other-links:
   - text:
     url:
