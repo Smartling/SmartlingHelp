@@ -102,8 +102,8 @@ Every string is created with variant metadata. The variant metadata is the full 
 
 ~~~yaml
 Strings:
-&nbsp;string1: Home
-&nbsp;string2: Home
+  string1: Home
+  string2: Home
 ~~~
 
 #### Android Resources
