@@ -3,7 +3,7 @@ layout: faq
 title: Does Smartling Offer Computer-Generated Translation?
 draft: true
 related-articles:
-  - article: account-level-reports
+  - title: 
 other-links:
   - text:
     url:

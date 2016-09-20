@@ -3,9 +3,10 @@ layout: faq
 title: 
 draft: false
 promoted: false
-related:
-    sections:
-    articles:
+related-sections:
+  - title:
+related-articles:
+  - title:
 other-links:
   - text:
 	url:
