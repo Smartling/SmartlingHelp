@@ -11,7 +11,10 @@ endpoints:
   - title: Delete Binding
 ---
 
-The Context API allows you to upload context images to Smartling and bind them to strings. For example, take a look at this screen from our Smartling Hotels app
+
+The Context API allows you to upload context images to Smartling and bind them to strings. For example, take a look at this screen from our Smartling Hotels app:
+
+![](/uploads/versions/browse-hotels---smartlinghotels---x----396-624x---.png)
 
 We want our translators to realize that the string 'Check Availability' is inside a button so they know to keep their translation short. We can use the Context API to attach this picture to the string 'Check Availability', so that it is displayed to the Translation Resource as they translate the string.
 
