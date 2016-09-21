@@ -842,5 +842,33 @@ $headline-padding: 12px;
 
 
 
-
 // END MISC
+
+/*
+.postman-run-button {
+    height: 40px !important;
+    width: 100% !important;
+    background: #FC906B !important;
+    h5 {
+        color: white;
+        padding-left: 24px;
+        font-weight: 500;
+        font-size: 18px;
+        position: relative;
+        bottom: 4px;
+    }
+    margin-bottom: 15px;
+    border: $standard-border !important;
+}
+*/
+/*
+.postman-run-button {
+    margin-bottom: 20px;
+}
+*/
+.postman-run-button {
+    display: inline-block;
+    float: right;
+    margin-top: 24px !important;
+    margin-right: 24px !important;
+}

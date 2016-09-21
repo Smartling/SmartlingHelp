@@ -13,7 +13,14 @@ layout: default
             </div>
         </div>
         <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
-            <div class="main-content"><h1>{{page.title}}</h1></div>
+            <div class="main-content">
+                <h1 style="display: inline-block">{{page.title}}</h1>
+                {% include postman-button.html %}
+
+
+
+            </div>
+
             <!-- Heading and article separated for CloudCannon editing, not layout - please don't change -->
             <div class="main-content" id="main-text">{{content}}</div>
         </div>
