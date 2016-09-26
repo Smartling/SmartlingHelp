@@ -5,6 +5,7 @@ layout: v2section
 endpoints:
   - title: Upload Context File
   - title: Download Context File
+  - title: Match Context to Strings
   - title: Create Bindings
   - title: Get Bindings for a Context File
   - title: Get Bindings for a String
