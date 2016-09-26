@@ -1,5 +1,19 @@
 
 
+{% if page.layout == 'v2section' %}
+    {% assign endpoints = page.endpoints %}
+{% endif %}
+{% if page.layout == 'v2endpoint' %}
+    {% for section in site.v2sections %}
+        {% assign category = page.categories | first %}
+        {% if section.category == category %}
+            {% assign endpoints = section.endpoints %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+
 <div class="panel panel-default">
     <div class="panel-heading">
         <a data-toggle="collapse" href="#collapse1">
@@ -10,9 +24,9 @@
         </a>
     </div>
     <div id="collapse1" class="panel-collapse">
-        <div class="panel-body toc" id="contents">
+        <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for endpoint in page.endpoints %}
+                {% for endpoint in endpoints %}
                     {% for v2endpoint in site.v2endpoints %}
                         {% if v2endpoint.title == endpoint.title %}
                             <li><a href="{{v2endpoint.url}}">{{v2endpoint.title}}</a></li>

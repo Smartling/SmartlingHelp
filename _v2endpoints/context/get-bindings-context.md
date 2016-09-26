@@ -6,8 +6,6 @@ categories:
 layout: v2endpoint
 endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts/{{contextUid}}/bindings'
 method: GET
-request:
-  noparams: true
 response:
   json_markdown: |-
     ~~~json

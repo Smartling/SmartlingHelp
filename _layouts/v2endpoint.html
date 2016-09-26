@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="container page">
-    {% include breadcrumbs.html %}
+    {% include developer-breadcrumbs.html %}
     <div class="row content-start">
 
         <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
             <div class="side-nav-widget" id="side-nav-widget">
-                {% include sidebar-nav-widget.html %}
+                {% include v2section-nav.html %}
             </div>
         </div>
 
@@ -20,7 +20,7 @@ layout: default
             </div>
             <div class="main-content" id="main-text">{{content}}</div>
             <div class="main-content">
-                {% unless page.request.noparams %}
+                {% if page.request %}
                     <h2>Request</h2>
                     {% if page.request.json_markdown %}
                         {{page.request.json_markdown | markdownify}}
@@ -46,22 +46,23 @@ layout: default
                             </div>
                         {% endfor %}
                     {% endfor %}
-                {% endunless %}
+                {% endif %}
 
                 <h2>Response</h2>
                 {% if page.response.json_markdown %}
                 {{page.response.json_markdown | markdownify }}
                 {% endif %}
-                <h3>Parameters</h3>
-                {% for parameter in page.response.parameters %}
-                    <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
-                        {{parameter.title}}
-                    </h4>
-                    {% if parameter.description_markdown %}
-                        {{parameter.description_markdown | markdownify }}
-                    {% endif %}
-                {% endfor %}
-
+                {% if response.parameters %}
+                    <h3>Parameters</h3>
+                    {% for parameter in page.response.parameters %}
+                        <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
+                            {{parameter.title}}
+                        </h4>
+                        {% if parameter.description_markdown %}
+                            {{parameter.description_markdown | markdownify }}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
 
 
 

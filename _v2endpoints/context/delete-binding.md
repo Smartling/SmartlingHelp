@@ -5,7 +5,7 @@ categories:
   - context
 layout: v2endpoint
 endpoint_url: '/context-api/v2/projects/{{projectUid}}/bindings/{{bindingUid}}'
-method: GET
+method: DELETE
 request:
   parameters:
     - title: bindingUid
