@@ -1,5 +1,5 @@
 ---
-title: Context
+title: Context API
 category: context
 layout: v2section
 endpoints:

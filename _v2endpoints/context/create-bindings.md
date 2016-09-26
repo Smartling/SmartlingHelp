@@ -12,9 +12,14 @@ request:
     [
         {
           "contextUid": "de2r339a-df7b-4gca-9b67-432144f5e540",
-          "stringHashcode": "2edfdt08510b9483472e7edbf8805356"
-        },
-        ...
+          "stringHashcode": "2edfdt08510b9483472e7edbf8805356",
+          "coordinates": {
+            "top": 114,
+            "left": 589,
+            "height": 33,
+            "width": 346
+          }
+        }
     ]
     ~~~
   parameters:
@@ -22,13 +27,20 @@ request:
       type: string
       required: true
       description_markdown: |
-        Unique identifier for the context to bind. Available from the [Upload Context]() response.
+        Unique identifier for the context to bind. Available from the [Upload Context](/developers/apii/v2/context/upload-context/) response.
         
     - title: stringHashcode
       type: string
       required: true
       description_markdown: |
         Unique identifier for the string to bind.
+
+    - title: coordinates
+      type: object
+      required: false
+      description_markdown: |
+        Describes the location and size of a box enclosing the string in a context image. 'top' and 'left' are the distance in pixels of the top left corner of the string from the top and left of the image. 'width' and 'height' are the dimensions of the string in pixels.
+    
 response:
   json_markdown: |-
     ~~~json
@@ -44,10 +56,10 @@ response:
                 "contextUid": "de2b359a-de7b-4fca-9b67-4323446ak540",
                 "stringHashcode": "2edfdd03310bd483472e7edbf8s05356",
                 "coordinates": {
-                  "top": 50,
-                  "left": 80,
-                  "bottom": 200,
-                  "right": 500
+                  "top": 114,
+                  "left": 589,
+                  "height": 33,
+                  "width": 346
                 }
               }
             ]
