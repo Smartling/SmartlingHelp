@@ -7,15 +7,14 @@ layout: v2endpoint
 endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts'
 method: POST
 request:
-  json_markdown:
+  json_markdown: |
+    The Upload Context File request body takes the form of a multi-part post request.
   parameters:
     - title: content
       type: array
       required: true
-      description_markdown: The context image file. Must be uploaded as a multi-part form request.
-      values:
-        - title:
-          description_markdown:
+      description_markdown: |
+        The context image file.
 response:
   json_markdown: |-
     ~~~json
