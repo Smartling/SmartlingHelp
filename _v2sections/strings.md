@@ -9,4 +9,4 @@ endpoints:
 ---
 
 
-The Strings API allows you to direcly upload strings to a Smartling project.
+The Strings API allows you to direcly upload strings to a Smartling project and fetch original strings or translations.
