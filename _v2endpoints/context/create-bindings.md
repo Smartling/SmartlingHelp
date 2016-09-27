@@ -39,7 +39,7 @@ request:
       type: object
       required: false
       description_markdown: |
-        Describes the location and size of a box enclosing the string in a context image. 'top' and 'left' are the distance in pixels of the top left corner of the string from the top and left of the image. 'width' and 'height' are the dimensions of the string in pixels.
+        Describes the location and size of a box enclosing the string in a context image. 'top' and 'left' are the distance in pixels of the top left corner of the string from the top and left of the image. 'width' and 'height' are the dimensions of the string in pixels. This information is used to highlight the position of the string when displaying the context image in the Translation Interface. If coordinates are not provided, Smartling will attempt to locate the string on the image using Optical Character Recognition. If OCR fails, coordinates will default to `0, 0, 0, 0`, meaning the image will be displayed when the string is translated, without any highlighting to show the position of the string.
     
 response:
   json_markdown: |-

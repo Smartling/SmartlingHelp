@@ -14,7 +14,7 @@ request:
       type: array
       required: true
       description_markdown: |
-        The context image file. Supported image types are `PNG`, `JPG` and `GIF`.
+        The context image file. Supported image types are `.png` and `.jpg` / `jpeg`.
 response:
   json_markdown: |-
     ~~~json

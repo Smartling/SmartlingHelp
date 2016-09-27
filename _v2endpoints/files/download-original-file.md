@@ -19,7 +19,7 @@ response:
     ~~~
     200 OK
     HEADER:
-    Content-Disposition: attachment; filename="fname.ext"
+    Content-Disposition: attachment; filename="{{filename}}"
     file contents
     ~~~
   parameters:

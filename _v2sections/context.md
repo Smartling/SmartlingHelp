@@ -4,7 +4,8 @@ category: context
 layout: v2section
 endpoints:
   - title: Upload Context File
-  - title: Download Context File
+  - title: Delete Context File
+  - title: List Context Files
   - title: Match Context to Strings
   - title: Create Bindings
   - title: Get Bindings for a Context File
