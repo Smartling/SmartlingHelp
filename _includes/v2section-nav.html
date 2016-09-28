@@ -29,7 +29,7 @@
                 {% for endpoint in endpoints %}
                     {% for v2endpoint in site.v2endpoints %}
                         {% if v2endpoint.title == endpoint.title %}
-                            <li><a href="{{v2endpoint.url}}">{{v2endpoint.title}}</a></li>
+                            <li><a {% if page.url == v2endpoint.url %}class="active"{% endif %} href="{{v2endpoint.url}}">{{v2endpoint.title}}</a></li>
                             {% break %}
                         {% endif %}
                     {% endfor %}

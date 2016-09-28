@@ -40,7 +40,7 @@ layout: default
                                 </div>
                                 {% if value.description_markdown %}
                                     <div class="col-md-3">
-                                        {{value.description_markdown | markdownify }}
+                                        {{ value.description_markdown | markdownify }}
                                     </div>
                                 {% endif %}
                             </div>
@@ -52,7 +52,7 @@ layout: default
                 {% if page.response.json_markdown %}
                 {{page.response.json_markdown | markdownify }}
                 {% endif %}
-                {% if response.parameters %}
+                {% if page.response.parameters %}
                     <h3>Parameters</h3>
                     {% for parameter in page.response.parameters %}
                         <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
