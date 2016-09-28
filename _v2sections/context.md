@@ -1,5 +1,5 @@
 ---
-title: Context
+title: Image Context
 category: context
 layout: v2section
 endpoints:
