@@ -1,5 +1,5 @@
 ---
-title: Strings API
+title: Strings
 category: strings
 layout: v2section
 endpoints:

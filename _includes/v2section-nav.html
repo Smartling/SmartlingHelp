@@ -1,6 +1,7 @@
 
 
 {% if page.layout == 'v2section' %}
+    {% assign collection = page.title %}
     {% assign endpoints = page.endpoints %}
 {% endif %}
 {% if page.layout == 'v2endpoint' %}
@@ -8,6 +9,7 @@
         {% assign category = page.categories | first %}
         {% if section.category == category %}
             {% assign endpoints = section.endpoints %}
+            {% assign collection = section.title %}
             {% break %}
         {% endif %}
     {% endfor %}
@@ -18,7 +20,7 @@
     <div class="panel-heading">
         <a data-toggle="collapse" href="#collapse1">
             <h5 class="panel-title no-anchor">
-                Context Endpoints
+                {{collection}} Endpoints
             </h5>
 
         </a>
