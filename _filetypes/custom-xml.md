@@ -1,8 +1,8 @@
 ---
-title: 'Custom XML'
+title: 'iOS String Files'
 layout: supportedfiletype
-extension: '.xml'
-smartling_identifier: 'xml'
+extension: '.strings'
+smartling_identifier: 'ios'
 download_sample: 'customxml.xml'
 resources: 
   - title: XML Standards
