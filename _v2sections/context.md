@@ -1,12 +1,10 @@
 ---
-title: Context API
+title: Image Context
 category: context
 layout: v2section
 endpoints:
   - title: Upload Context File
-  - title: Delete Context File
-  - title: List Context Files
-  - title: Match Context to Strings
+  - title: Download Context File
   - title: Create Bindings
   - title: Get Bindings for a Context File
   - title: Get Bindings for a String
