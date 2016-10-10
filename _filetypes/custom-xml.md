@@ -12,13 +12,13 @@ directive_instructions: 'The directive must be a single comment on one line, and
 directive_prefix: '&lt!-- '
 directive_suffix: ' --&gt'
 directives:
+  - variants_enabled
   - 'translate_paths '
   - 'string_format_paths '
   - placeholder_format_custom
   - placeholder_format
   - sltrans
   - source_key_paths
-  - variants_enabled
   - pseudo_inflation
 ---
 

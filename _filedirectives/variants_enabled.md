@@ -20,4 +20,4 @@ examples:
       code_block_markdown:
       description_markdown: |
         Strings will be captured with variant metadata.
--e--
+---

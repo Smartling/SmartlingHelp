@@ -76,14 +76,11 @@ layout: default
                 {% for d in page.directives %}
                     {% for directive in site.filedirectives %}
                         {% if directive.directive_id == d %}
-                            <h3>{{directive.title}}</h3>
+
+                            <div class="row"><h3>{{directive.title}}</h3></div>
                             <div class="row">
-                                <div class="col-md-3">
-                                    Values
-                                </div>
-                                <div class="col-md-9">
-                                    {{directive.values_markdown | markdownify}}
-                                </div>
+                                <div class="col-md-3">Values</div>
+                                <div class="col-md-9">{{directive.values_markdown | markdownify}}</div>
                             </div>
                             <div class="row">
                                 <div class="col-md-3">
@@ -106,7 +103,7 @@ layout: default
                                     {% endfor %}
                                     {% assign specificExampleLength = example_array | size %}
                                     {% if specificExampleLength == 0 %}
-                                        {% for example in directive.example %}
+                                        {% for example in directive.examples %}
                                             {% if example.type == 'generic' %}
                                                 {% assign example_array = example_array | push: example %}
                                             {% endif %}
@@ -115,12 +112,14 @@ layout: default
                                     {% for example in example_array %}
                                         {% if example.code_single_line %}
                                             <pre><code>{{page.directive_prefix}}{{example.code_single_line}}{{page.directive_suffix}}</code></pre>
-                                        {% else %}
+                                        {% endif %}
+                                        {% if example.code_markdown %}
                                             {{example.code_markdown | markdownify}}
                                         {% endif %}
-                                        <p>{{example.description_markdown | markdownify}}</p>
-                                    {% endfor % }
-
+                                        {% if example.description_markdown %}
+                                        {{example.description_markdown | markdownify}}
+                                        {% endif %}
+                                    {% endfor %}
                                 </div>
                             </div>
                             {% break %}

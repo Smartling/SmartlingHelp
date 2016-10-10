@@ -5,8 +5,13 @@ extension: '.xml'
 smartling_identifier: 'android'
 download_sample: 'android.xml'
 resources: 
-  - title:
-    link: 'd<ul><li><a href="http://developer.android.com/guide/topics/resources/string-resource.html">Android String Resources</a></li><li><a href="http://developer.android.com/guide/topics/resources/localization.html">Android Localization</a></li></ul>'
+  - title: Android String Resources
+    link: 'http://developer.android.com/guide/topics/resources/string-resource.html'
+  - title: Android Localization
+    link: 'http://developer.android.com/guide/topics/resources/localization.html'
+standard_placeholder:
+  include: true
+  type: Java
 directive_prefix: '&lt!-- '
 directive_suffix: ' --&gt'
 directive_format: '&lt!-- smartling.[directive_name] = [value] --&gt'
@@ -18,6 +23,8 @@ directives:
   - instruction_attributes
   - pseudo_inflation
 ---
+
+Smartling supports the Android XML resource file format. When you upload an Android XML file make sure to specify that it is an android file, so it is not parsed as a [custom XML](/developers/supported-file-type/custom-xml/) file.
 
 ## Keys / Variants
 
@@ -37,3 +44,7 @@ To exclude a string from translation use the `translatable="FALSE"` attribute an
 ~~~
 
 When downloading translated Android XML files via the [File API](/developers/API/FileAPI/Download-File/), setting the parameter `includeOriginalStrings=false` will strip untranslated elements from the file.' 
+
+## Standard Placeholder Format
+
+By default, Smartling recognizes java-style placeholder (`%d`) in Android XML files.
