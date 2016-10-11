@@ -47,4 +47,6 @@ When downloading translated Android XML files via the [File API](/developers/API
 
 ## Standard Placeholder Format
 
-By default, Smartling recognizes java-style placeholder (`%d`) in Android XML files.
+{% include standard_placeholders.md %} 
+
+By default, Smartling recognizes java-style placeholders in Android XML files.

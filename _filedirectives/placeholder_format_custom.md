@@ -7,8 +7,6 @@ values_markdown: |
 description_markdown: |
   Specifies a custom placeholder format. Any text in your file matching the regular expression you provide will be captured as a placeholder..
   
-  This directive works in addition to the placeholder_format_custom directive. For example, if you specify both `smartling.placeholder_format = IOS` and `smartling.placeholder_format_custom = \[.+?\]`, both iOS style placeholders (`%d`) and your custom placeholders (`[username]`) will be recognized.
-  
 examples:
     - type: generic
       code_single_line: smartling.placeholder_format_custom = \[.+?\]
