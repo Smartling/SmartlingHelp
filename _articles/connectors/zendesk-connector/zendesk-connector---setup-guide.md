@@ -31,15 +31,13 @@ Once your Smartling Administrator has enabled the Zendesk Connector you need to 
 
 ![](/uploads/versions/download-11---x----1284-885x---.png)
 
-<div class="info">Zendesk’s list of supported languages may not match up completely with Smartling’s supported language codes. You can match Zendesk’s languages to languages in your Smartling project later in the setup process.</div>
+<div class="info">Zendesk&rsquo;s list of supported languages may not match up completely with Smartling&rsquo;s supported language codes. You can match Zendesk&rsquo;s languages to languages in your Smartling project later in the setup process.</div>
 
 **2)** From your Help Center widget, click General Settings, scroll down to the Languages section and check each language to enable it in your Help Center.
 
 ![](/uploads/versions/download-12---x----1021-392x---.png)
 
-<div class="info">
-The Help Center languages need to be enabled for your translations to be publicly accessible, but you can begin translating content with these settings disabled. You may want to leave them disabled while you do your translating and enable them when your translated articles are ready.
-</div>
+<div class="info">The Help Center languages need to be enabled for your translations to be publicly accessible, but you can begin translating content with these settings disabled. You may want to leave them disabled while you do your translating and enable them when your translated articles are ready.</div>
 
 ## Get a Zendesk API key
 
@@ -68,11 +66,19 @@ You can now begin translating your Zendesk content.
 
 If the process of translating your Help Center takes a little time, you may not wish to launch your translated Help Center until all your content is ready. In order to push translated content back to Zendesk, each language must be enabled in your Zendesk settings. However, you can employ a simple workaround to hide this content from users until you are ready by hiding languages in the language selector.
 
-**1)** From your Zendesk dashboard, navigate to **General > Customize design**. 
+**1)** From your Zendesk dashboard, navigate to **General &gt; Customize design**.
+
+![](/uploads/versions/zendesk-connector--smartling-help-center---x----404-148x---.png)
 
 **2)** In the sidebar, click **Edit theme**.
 
-**3)** Click the **JS** tab, scroll to the bottom of the editor, and add the following code:
+![](/uploads/versions/smartling-help-center---x----307-376x---.png)
+
+**3)** Click the **JS** tab.
+
+![](/uploads/versions/edit-js---x----752-795x---.png)
+
+Scroll to the bottom of the editor, and add the following code:
 
 ~~~javascript
 // Hide particular language in language selector
