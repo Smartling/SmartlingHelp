@@ -63,3 +63,44 @@ In the Zendesk Admin Dashboard, go to **Channels &gt; API**. Under Token Access,
 **3)** Once your API details have been verified, Smartling will populate the Language Configuration section of the page with the languages enabled in your Zendesk configuration. For each language, select a matching language from your Smartling project and click Save.
 
 You can now begin translating your Zendesk content.
+
+## Hide localized Help Center
+
+If the process of translating your Help Center takes a little time, you may not wish to launch your translated Help Center until all your content is ready. In order to push translated content back to Zendesk, each language must be enabled in your Zendesk settings. However, you can employ a simple workaround to hide this content from users until you are ready by hiding languages in the language selector.
+
+**1)** From your Zendesk dashboard, navigate to **General > Customize design**. 
+
+**2)** In the sidebar, click **Edit theme**.
+
+**3)** Click the **JS** tab, scroll to the bottom of the editor, and add the following code:
+
+~~~javascript
+// Hide particular language in language selector
+var hideLanguageLinkByLocale = function(elements, localeId){
+    if(elements.length) {
+        elements.each(function(){
+            var link = $(this);
+            var href = link.prop("href");
+                if(new RegExp("/hc/change_language/" + localeId).test(href)){
+                    link.hide();
+                }
+        });
+    }
+}
+~~~
+
+This defines a Javascript function to hide any language from your language selector. For each language you want to hide, add a further line:
+
+~~~
+hideLanguageLinkByLocale($(".dropdown.language-selector a"), "{zendesk locale code}");
+
+//examples
+hideLanguageLinkByLocale($(".dropdown.language-selector a"), "es");
+hideLanguageLinkByLocale($(".dropdown.language-selector a"), "fr-fr");
+~~~
+
+You can work out your zendesk locale codes by checking the URLs for your translated sites. For example, looking at the URL 'https://smartlinghotels.zendesk.com/hc/**en-us**/articles/218339888', 'en-us' is the locale code.
+
+This script will not prevent your translated articles from being published - and you can still access your articles directly, by browsing to a source article and manually changing the locale code in your browser's address bar - but the languages will not be available in your language selector so users will not be able to browse to the translated articles.
+
+When you are ready to launch your translated sites, simply delete the `hideLanguageLinkByLocale` line for each language you are ready to launch.
