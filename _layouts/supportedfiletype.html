@@ -67,34 +67,38 @@ layout: default
             <div class="main-content">
                 {% assign directiveslength = page.directives | size %}
                 {% if directiveslength > 0 %}
-                <h2>Directives</h2>
-                <h3>Format</h3>
-                <pre class="highlight"><code>{{page.directive_format}}</code></pre>
-                <p>{{page.directive_instructions}}</p>
+                    <h2>Directives</h2>
+                    <h3 class="no-toc">Format</h3>
+                    <pre class="highlight"><code>{{page.directive_format}}</code></pre>
+                    {% if page.directive_instrucions_markdown %}
+                        <p>{{page.directive_instructions_markdown | markdownify}}</p>
+                    {% endif %}
                 {% endif %}
 
                 {% for d in page.directives %}
                     {% for directive in site.filedirectives %}
                         {% if directive.directive_id == d %}
 
-                            <div class="row"><h3>{{directive.title}}</h3></div>
                             <div class="row">
-                                <div class="col-md-3">Values</div>
-                                <div class="col-md-9">{{directive.values_markdown | markdownify}}</div>
+                                <div class="col-md-12"><h3>{{directive.title}}</h3></div>
                             </div>
                             <div class="row">
-                                <div class="col-md-3">
-                                    Description
+                                <div class="col-md-2"><strong>Values</strong></div>
+                                <div class="col-md-10">{{directive.values_markdown | markdownify}}</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <strong>Description</strong>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-10">
                                     {{directive.description_markdown | markdownify}}
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-3">
-                                    Examples
+                                <div class="col-md-2">
+                                    <strong>Examples</strong>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-10">
                                     {% assign example_array = site.emptyArray %}
                                     {% for example in directive.examples %}
                                         {% if example.type == page.smartling_identifier %}

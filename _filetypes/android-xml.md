@@ -15,7 +15,8 @@ standard_placeholder:
 directive_prefix: '&lt!-- '
 directive_suffix: ' --&gt'
 directive_format: '&lt!-- smartling.[directive_name] = [value] --&gt'
-directive_instructions: "The directive must be a single comment on one line, and there should not be any inline trailing symbols after the directive.  Directives apply to all strings that follow them. Directives can be changed throughout the file"
+directive_instructions_markdown: |
+  The directive must be a single comment on one line, and there should not be any inline trailing symbols after the directive.  Directives apply to all strings that follow them. Directives can be changed throughout the file.
 directives:
   - placeholder_format_custom
   - placeholder_format
@@ -40,12 +41,14 @@ String instructions can be set using the `instruction_comments_enabled` and `ins
 To exclude a string from translation use the `translatable="FALSE"` attribute and value in the string tag:
 
 ~~~xml
-<string name="string_11" translatable="FALSE">This android string has been marked not to be translated using the translatable attribute.</string>
+<string name="string_11" translatable="FALSE">
+    This android string has been marked not to be translated using the translatable attribute.
+</string>
 ~~~
 
 When downloading translated Android XML files via the [File API](/developers/API/FileAPI/Download-File/), setting the parameter `includeOriginalStrings=false` will strip untranslated elements from the file.' 
 
-## Standard Placeholder Format
+## Standard Placeholder format
 
 {% include standard_placeholders.md %} 
 

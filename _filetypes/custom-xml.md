@@ -8,7 +8,8 @@ resources:
   - title: XML Standards
     link: http://www.w3.org/standards/xml/
 directive_format: '&lt!-- smartling.[directive_name] = [value] --&gt'
-directive_instructions: 'The directive must be a single comment on one line, and there should not be any inline trailing symbols after the directive.  Directives apply to all strings that follow them. Directives can be changed throughout the file'
+directive_instructions_markdown: |
+  The directive must be a single comment on one line, and there should not be any inline trailing symbols after the directive.  Directives apply to all strings that follow them. Directives can be changed throughout the file.
 directive_prefix: '&lt!-- '
 directive_suffix: ' --&gt'
 directives:
@@ -72,3 +73,7 @@ Some XML files closely resemble HTML files and are more effectively translated b
 ## Managing Untranslated Strings
 
 If using File API to download Custom XML files from Smartling, the parameter `includeOriginalStrings=false` can be set to return an empty string if no translation is available. By default (`includeOriginalStrings=true`) Smartling returns the original string.
+
+## Standard Placeholder format
+
+{% include standard_placeholders.md %} 
