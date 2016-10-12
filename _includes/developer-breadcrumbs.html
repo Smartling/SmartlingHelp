@@ -2,7 +2,7 @@
 <div class="row smartling-breadcrumbs">
     <div class="col-xs-12">
         <ol class="breadcrumb">
-            <li><a href="/support/">Developers</a></li>
+            <li><a href="/developers/">Developers</a></li>
             {% if page.layout == 'v2endpoint' %}
                 <li><a href="/">API</a></li>
                 <li><a href="/">v2</a></li>
@@ -17,6 +17,9 @@
             {% if page.layout == 'v2section' %}
                 <li><a href="/">API</a></li>
                 <li><a href="/">v2</a></li>
+            {% endif %}
+            {% if page.layout == 'supportedfiletype' %}
+                <li><a href="/developers/supported-file-type/">Supported File Types</a></li>
             {% endif %}
             <li>{{page.title}}</li>
         </ol>

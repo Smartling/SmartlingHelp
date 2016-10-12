@@ -1,0 +1,52 @@
+---
+layout: default
+title: Supported File Types
+---
+
+<div class="container page">
+
+    {% include developer-breadcrumbs.html %}
+
+    <div class="row content-start">
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include supported-files-nav.html %}
+            </div>
+        </div>
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content">
+                <h1>{{page.title}}</h1>
+            </div>
+
+            <!-- Heading and article separated for CloudCannon editing, not layout - please don't change -->
+            <div class="main-content editable" id="main-text">
+                <p>
+                    Smartling supports a range of resource file types and Business Documents. You can upload files to a Smartling project from the dashboard, Smartling's File API or by using the Repository Connector to integrate directly with a git or svn repository.
+                </p>
+                <p>
+                    Smartling captures content from your files and parses them into individual 'strings' for translation. How files are parsed depends on the file type. See individual file type pages for specific information. The way Smartling parses resource files can often be modified using integration directives: special lines of code added to your resource file, often in the form of comments. See individual file type pages for integration directives.
+                </p>
+                <div class="info">
+                    <h3>General notes on file parsing:</h3>
+                    <ul>
+                        <li>
+                            If a source string contains valid markup tags or has any ampersand-escaped characters, Smartling considers the string web content, and all HTML base entity characters ( &amp;, &lt;, &gt; and “ ) will be ampersand-escaped in all translations.
+                        </li>
+                        <li>
+                            If a source string is not considered web content then HTML base entity characters will remain un-escaped in all translations.
+                        </li>
+                        <li>
+                            All ampersand-escaped BMP plane unicode characters (excluding &amp;, &lt;, &gt; and “ ) in original strings will be un-escaped in translation strings. For example ‘&amp;copy;’ will turn into ©.
+                        </li>
+                        <li>
+                            For XML-based file types, any CDATA content within a translation string causes the entire translation to be enclosed in CDATA.
+                        </li>
+                        <li>
+                            Users who cannot modify files for file upload configuration may define supported configuration directives as parameters in the upload API service call. For more information, see Files API.  When you integrate directives inline into the file, you can change the behavior for different strings within a single file.  When using directives via the API call they apply to the entire file, as if they only appeared at the top of the file, before all other content.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

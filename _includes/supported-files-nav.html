@@ -1,0 +1,43 @@
+
+{% if page.layout == 'v2section' %}
+    {% assign collection = page.title %}
+    {% assign endpoints = page.endpoints %}
+{% endif %}
+{% if page.layout == 'v2endpoint' %}
+    {% for section in site.v2sections %}
+        {% assign category = page.categories | first %}
+        {% if section.category == category %}
+{% assign endpoints = section.endpoints %}
+{% assign collection = section.title %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <a data-toggle="collapse" href="#collapse1">
+            <h5 class="panel-title no-anchor">
+                Supported File Types
+            </h5>
+
+        </a>
+    </div>
+    <div id="collapse1" class="panel-collapse">
+        <div class="panel-body toc">
+            <ul class="nav nav-stacked">
+                {% for type in site.data.supportedfiles %}
+                    {% for filetype in site.filetypes %}
+                        {% if filetype.title == type %}
+                            <li><a href="{{filetype.url}}">{{filetype.title}}</a></li>
+                            {% break%}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
