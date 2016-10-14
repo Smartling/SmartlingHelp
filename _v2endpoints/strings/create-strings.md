@@ -92,17 +92,18 @@ response:
     { 
        "wordCount": 6,
        "stringCount": 2,
+       "processUid": "134x4r543435ff"
        "items": [ 
           { 
-             "variant": "variant1",
+             "variant": "results",
              "stringText": "Search results for [city]:",
-             "hashcode": "bd603147d945h3es74d6874422bbe5e0",
+             "hashcode": "bd606147d945h3es74d6874422bne5e0",
              "overWritten": "true"
           },
           { 
-             "variant": "variant2",
+             "variant": "nav-back",
              "stringText": "Back to results",
-             "hashcode": "as24874d687239n245g3es4422f4ecs7",
+             "hashcode": "as24874d687239n245g3ss4422f2ecs7",
              "overWritten": "false"
           }
        ]
@@ -116,6 +117,10 @@ response:
       type: object
       description_markdown:
         Total number of strings captured as a result of the request.
+    - title: processUid
+      type: string
+      description_markdown: |
+        If the request takes longer than 60 seconds to process, a 202 response will be returned, indicating the request has not failed, but is not yet complete. Use the `processUid` value to check the status of the request using the [Check Create String Status](/developers/apii/v2/strings/check-create-strings-status/) request.
     - title: items
       type: object
       description_markdown:
@@ -125,3 +130,7 @@ examples:
     code_markdown:
     description_markdown:
 ---
+
+Uploads an array of strings to a Smartling project. A maximum of 100 strings can be created per request. A request with more than 100 items will return an error.
+ 
+ Most uploads will return a `200` response indicating success. If processing the request takes longer than 60 seconds, a `202` request will be returned, including a `processUid` value that can be used to check on the progress of the request.

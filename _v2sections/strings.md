@@ -4,6 +4,7 @@ category: strings
 layout: v2section
 endpoints:
   - title: Create Strings
+  - title: Check Create Strings Status
   - title: Get Source Strings
   - title: Get String Translations
 ---
