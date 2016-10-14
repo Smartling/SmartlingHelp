@@ -4,7 +4,7 @@ endpoint_id: GetBindingsString
 categories:
   - context
 layout: v2endpoint
-endpoint_url: '/context-api/v2/projects/{{projectUid}}/strings/{{stringHashcode}}/bindings'
+endpoint_url: '/context-api/v2/projects/{{projectId}}/strings/{{stringHashcode}}/bindings'
 method: GET
 request:
   parameters:
@@ -56,7 +56,7 @@ examples:
   - title: Curl
     code_markdown: |
       ~~~curl
-      curl -X GET -H "Authorization: Bearer {{token}}" -H "Content-Type: application/json" "https://api.smartling.com/context-api/v2/projects/{{projectUid}}/strings/{{stringHashcode}}/bindings"
+      curl -X GET -H "Authorization: Bearer {{token}}" -H "Content-Type: application/json" "https://api.smartling.com/context-api/v2/projects/{{projectId}}/strings/{{stringHashcode}}/bindings"
       ~~~     
     description_markdown:
 

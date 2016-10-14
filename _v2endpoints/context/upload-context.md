@@ -4,7 +4,7 @@ endpoint_id: UploadContext
 categories:
   - context
 layout: v2endpoint
-endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts'
+endpoint_url: '/context-api/v2/projects/{{projectId}}/contexts'
 method: POST
 request:
   json_markdown: |

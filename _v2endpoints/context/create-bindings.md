@@ -4,7 +4,7 @@ endpoint_id: CreateBindings
 categories:
   - context
 layout: v2endpoint
-endpoint_url: '/context-api/v2/projects/{{projectUid}}/bindings'
+endpoint_url: '/context-api/v2/projects/{{projectId}}/bindings'
 method: POST
 request:
   json_markdown: |

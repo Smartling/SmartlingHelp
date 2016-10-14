@@ -4,7 +4,7 @@ endpoint_id:
 categories:
   - files
 layout: v2endpoint
-endpoint_url: /files-api/v2/projects/{{projectUid}}/locales/{{localeId}}/file
+endpoint_url: /files-api/v2/projects/{{projectId}}/locales/{{localeId}}/file
 method: GET
 request:
   parameters:

@@ -4,7 +4,7 @@ endpoint_id: DeleteContextFile
 categories:
   - context
 layout: v2endpoint
-endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts/{{contextUid}}'
+endpoint_url: '/context-api/v2/projects/{{projectId}}/contexts/{{contextUid}}'
 method: DELETE
 response:
   json_markdown: |-

@@ -4,7 +4,7 @@ endpoint_id: GetStringTranslations
 categories:
   - strings
 layout: v2endpoint
-endpoint_url: '/strings-api/v2/projects/{{projectUid}}/sources'
+endpoint_url: '/strings-api/v2/projects/{{projectId}}/sources'
 method: GET
 request:
   parameters:

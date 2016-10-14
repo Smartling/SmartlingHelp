@@ -4,7 +4,7 @@ endpoint_id: MatchContext
 categories:
   - context
 layout: v2endpoint
-endpoint_url: '/context-api/v2/projects/{{projectUid}}/contexts/{{contextUid}}/match'
+endpoint_url: '/context-api/v2/projects/{{projectId}}/contexts/{{contextUid}}/match'
 method: POST
 request:
   json_markdown: |-

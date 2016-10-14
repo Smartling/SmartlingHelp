@@ -4,7 +4,7 @@ endpoint_id: CreateStrings
 categories:
   - strings
 layout: v2endpoint
-endpoint_url: '/strings-api/v2/projects/{{projectUid}}'
+endpoint_url: '/strings-api/v2/projects/{{projectId}}'
 method: POST
 request:
   json_markdown: |
