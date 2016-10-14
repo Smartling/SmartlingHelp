@@ -32,12 +32,11 @@ response:
   parameters:
     - title: contextUid
       type: string
-      required: false
       description_markdown: Unique identifier for the context file
-    - title:
-      type:
-      required: false
-      description_markdown:
+    - title: contextType
+      type: string
+      description_markdown: |
+        Type of context file created. Currently, this will always be `IMAGE` but support for more context types may be added in the future.
 examples:
   - title:
     code_markdown:

@@ -53,7 +53,7 @@ layout: default
                 {{page.response.json_markdown | markdownify }}
                 {% endif %}
                 {% if page.response.parameters %}
-                    <h3>Parameters</h3>
+                    <h3>Properties</h3>
                     {% for parameter in page.response.parameters %}
                         <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
                             {{parameter.title}}
