@@ -1,6 +1,5 @@
 ---
 title: List Context Files
-endpoint_id: DownloadContextFile
 categories:
   - context
 layout: v2endpoint

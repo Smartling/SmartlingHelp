@@ -9,7 +9,9 @@ endpoints:
   - title: Get Bindings for a Context File
   - title: Get Bindings for a String
   - title: Get Bindings for a Project
+  - title: Match Context to Strings
   - title: Delete Binding
+  - title: Delete Context File
 ---
 
 
