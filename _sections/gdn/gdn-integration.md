@@ -29,8 +29,8 @@ migration-checklist:
 
 Once you have your basic [DNS setup](/support/sections/gdn-hosting-setup/) working correctly and your requests are being handled by Smartling’s GDN proxy, you have a number of options for controlling how Smartling captures your content for translation and how your translation content is deployed. There are three basic methods of controlling your GDN integration:
 
-* Create ‘Rules’ in the Smartling Dashboard.
-* Tagging HTML elements on your pages with special Smartling classes.
+* Creating ‘Rules’ in the Smartling Dashboard,
+* Tagging HTML elements on your pages with special Smartling classes, and
 * Tagging your JavaScript and JSON content using Smartling directives.
 
 
@@ -40,7 +40,7 @@ The methods you use most for your project will depend on how your website is set
 
 #### Well-formed HTML is important
 
-Smartling needs to parse your content just like a browser. However, Smartling necessarily parses HTML in a less forgiving way than most browsers. Refer to our [GDN Coding Requirements](){: .cc-active}.
+Smartling needs to parse your content just like a browser. However, Smartling necessarily parses HTML in a less forgiving way than most browsers, so it's important that your HTML is compliant with [HTML5 standards](https://www.w3.org/TR/html5/).
 
 #### Remember that the GDN is a proxy service!
 
@@ -52,8 +52,8 @@ GDN integration gives you a lot of power over how content is captured and parsed
 
 #### Dynamic Content is Harder
 
-Static content is the simplest to serve through the GDN. Almost every website has some dynamic content and one of the main purposes of GDN integration is to help you to handle your dynamic content efficiently, but if your project uses Single Page Application architecture, such as AngularJS, a files-based approach may be more effective..
+Static content is the simplest to serve through the GDN. Almost every website has some dynamic content and one of the main purposes of GDN integration is to help you to handle your dynamic content efficiently, but if your project uses Single Page Application architecture, such as AngularJS, a files-based approach may be more effective.
 
 ### A Note on Examples
 
-There are countless ways to build and serve websites and web apps. In our examples, we use mustache.js and jQuery to template strings and build DOM elements on the client-side and straight HTML or EJS templating to demonstrate static or server-built pages. You may not be able to copy/paste our examples directly into your project, but the same general techniques will work regardless of the framework you are using.
+There are countless ways to build and serve websites and web apps. In our examples, we use mustache.js and jQuery to template strings and build DOM elements on the client-side, and straight HTML or EJS templating to demonstrate static or server-built pages. You may not be able to copy/paste our examples directly into your project, but the same general techniques will work regardless of the framework you are using.
