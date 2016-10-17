@@ -12,7 +12,6 @@ request:
     {
        "placeholderFormat":"java",
        "placeholderFormatCustom":"\\[.+?\\]",
-       "uri":"/ui-strings",
        "strings":[
           {
              "stringText": "Search results for [city]:",
@@ -43,12 +42,6 @@ request:
       required: false
       description_markdown: |
         Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders.
-        
-    - title: uri
-      type: string
-      required: false
-      description_markdown: |
-        Sets the URI for a group of strings. This URI is displayed and searchable in the Smartling Dashboard and can help you find a group of strings later.
 
     - title: stringText
       type: string
@@ -131,6 +124,6 @@ examples:
     description_markdown:
 ---
 
-Uploads an array of strings to a Smartling project. A maximum of 100 strings can be created per request. A request with more than 100 items will return an error.
+Uploads an array of strings to a Smartling project. A maximum of 100 strings can be created per request. A request with more than 100 items will return an error. Each string has a character limit of 10 000.
  
  Most uploads will return a `200` response indicating success. If processing the request takes longer than 60 seconds, a `202` request will be returned, including a `processUid` value that can be used to check on the progress of the request.

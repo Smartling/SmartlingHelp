@@ -39,7 +39,7 @@ response:
                       "variant": "key.variant",
                       "keys": [
                           {
-                              "url": "test.properties",
+                              "fileUri": "test.properties",
                               "key": "some.string.key"
                           }
                       ]

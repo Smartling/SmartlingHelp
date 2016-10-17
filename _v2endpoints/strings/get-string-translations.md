@@ -27,7 +27,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Pagination settings. See [limit & offset](/developers/API/v2/General-Information/Limit-and-Offset/) for more.
+        Pagination settings. See [limit & offset](/developers/API/v2/General-Information/Limit-and-Offset/) for more. By default returns will be limited to 500 per request. This is also the maximum allowed value. You can set smaller return sizes by setting `limit` to a value less than `500`.
 
 response:
   json_markdown: |-
@@ -42,7 +42,7 @@ response:
                       "hashcode": "ebb125de896c6b7237c617ca56e73773",
                       "keys": [
                           {
-                              "url": "test.properties",
+                              "fileUri": "test.properties",
                               "key": "some.string.key"
                           }
                       ],
@@ -51,7 +51,8 @@ response:
                       "translations": [
                           {
                               "translation": "Mis Amigos",
-                              "pluralForm": "None"
+                              "pluralForm": "None",
+                              "modifiedDate": "2015-11-21T01:51:17Z"
                           }
                       ]
                   },
@@ -60,11 +61,12 @@ response:
                       "keys": [
                       ]
                       "targetLocaleId": "es-ES",
-                      "workflowUid": "abc123",
+                      "workflowStepUid": "abc123",
                       "translations": [
                           {
                               "translation": "Actividad",
-                              "pluralForm": "None"
+                              "pluralForm": "None",
+                              "modifiedDate": "2015-11-24T01:56:17Z"
                           }
                       ]
                   }
