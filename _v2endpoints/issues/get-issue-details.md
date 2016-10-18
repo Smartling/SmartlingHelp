@@ -4,7 +4,7 @@ endpoint_id:
 categories:
   - issues
 layout: v2endpoint
-endpoint_url: /issues-api/v2/projects/{{projectId}}/issues/{{issueUid}}/state
+endpoint_url: /issues-api/v2/projects/{{projectId}}/issues/{{issueUid}}
 method: GET
 response:
   json_markdown: |

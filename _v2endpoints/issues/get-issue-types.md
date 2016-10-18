@@ -11,6 +11,7 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "totalCount": 2,
                 "items": [{
@@ -43,8 +44,7 @@ response:
                         "description": "Review Translation"
                     }]
                 }]
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~
@@ -54,13 +54,13 @@ response:
       required: false
       description_markdown: |
         Identifies the issue type. `issueTypeCode` is either `SOURCE` or `TRANSLATION`. Each have their own set of `issueSubType` values:
-          * `SOURCE`
-            * `CLARIFICATION`
-            * `MISSPELLING`
-          * `TRANSLATION`
-            * `POOR_TRANSLATION`
-            * `DOES_NOT_FIT_SPACE`
-            * `PLACEHOLDER_ISSUE`
+          * `SOURCE`  
+            * `CLARIFICATION`  
+            * `MISSPELLING`  
+          * `TRANSLATION`  
+            * `POOR_TRANSLATION`  
+            * `DOES_NOT_FIT_SPACE`  
+            * `PLACEHOLDER_ISSUE`  
 examples:
   - title:
     code_markdown:

@@ -32,13 +32,13 @@ request:
       required: true
       description_markdown: |
         Identifies the issue type. `issueTypeCode` is either `SOURCE` or `TRANSLATION`. Each have their own set of `issueSubType` values:
-                  * `SOURCE`
-                    * `CLARIFICATION`
-                    * `MISSPELLING`
-                  * `TRANSLATION`
-                    * `POOR_TRANSLATION`
-                    * `DOES_NOT_FIT_SPACE`
-                    * `PLACEHOLDER_ISSUE`
+                  * `SOURCE`  
+                    * `CLARIFICATION`  
+                    * `MISSPELLING`  
+                  * `TRANSLATION`  
+                    * `POOR_TRANSLATION`  
+                    * `DOES_NOT_FIT_SPACE`  
+                    * `PLACEHOLDER_ISSUE`  
     - title: string.hashcode
       type: string
       required: true
