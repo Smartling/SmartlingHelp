@@ -9,7 +9,7 @@ request:
   json_markdown: |
     ~~~json
     {
-        "issueText": "poor translation",
+        "issueText": "This translation is incorrect. Please fix.",
         "issueSubTypeCode": "POOR_TRANSLATION",
         "issueTypeCode": "TRANSLATION",
         "string": {
@@ -75,17 +75,13 @@ response:
                 "projectId": "e8fa915fa",
                 "issueTypeCode": "SOURCE",
                 "issueSubTypeCode": "CLARIFICATION",
-                "issueStateCode": "OPENED"
+                "issueStateCode": "OPENED",
+                "issueTextModifiedDate": null
             },
             "code": "SUCCESS"
         }
     }
     ~~~
-  parameters:
-    - title:
-      type:
-      required: false
-      description_markdown:
 examples:
   - title:
     code_markdown:

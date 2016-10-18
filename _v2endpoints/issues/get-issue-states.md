@@ -24,11 +24,6 @@ response:
         }
     }
     ~~~
-  parameters:
-    - title:
-      type:
-      required: false
-      description_markdown:
 examples:
   - title:
     code_markdown:
