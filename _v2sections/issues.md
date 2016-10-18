@@ -27,7 +27,7 @@ Issues are a way for Content Owners and Translation Resources to communicate abo
 
 For more information about how Issues work in the Smartling Dashboard, see our [user documentation](/support/articles/issues/).
 
-Smartling’s Issues API provides methods for Creating issues, changing the state of an issue, commenting on an issue and requesting detailed information and reports on issues and comments.
+Smartling’s Issues API provides methods for creating issues, changing the state of an issue, commenting on an issue and requesting detailed information and reports on issues and comments.
 
 ## Parameters
 
