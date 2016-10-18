@@ -1,5 +1,5 @@
 ---
-title: Create Issues Report - Account
+title: Create Issues Report (CSV) - Account
 categories:
   - issues
 layout: v2endpoint
