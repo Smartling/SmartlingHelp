@@ -3,7 +3,7 @@ title: Count Issues
 categories:
   - issues
 layout: v2endpoint
-endpoint_url: /issues-api/v2/projects/{projectId}/issues/count
+endpoint_url: /issues-api/v2/projects/{{projectId}}/issues/count
 method: POST
 request:
   json_markdown: |

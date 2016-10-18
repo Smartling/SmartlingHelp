@@ -11,6 +11,7 @@ request:
     {
         "createdDateBefore": "2015-12-23T18:14:09Z",
         "createdDateAfter": "2015-11-10T15:14:09Z",
+        "projectIds": ["b7af9137e", "4c463f4af"],
         "stringFilter": {
             "hashcodes": [
                 "afe47cdaffe0c0226506919c291d9c1a",

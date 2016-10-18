@@ -16,9 +16,7 @@ endpoints:
   - title: Find Issues
   - title: Count Issues
   - title: Get Summary Report
-  - title: Request Issues Report - Project
   - title: Request Issues Report - Account
-  - title: Create Issues Report (CSV) - Project
   - title: Create Issues Report (CSV) - Account
   - title: Download Report (CSV)
 ---
