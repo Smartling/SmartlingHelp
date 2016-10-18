@@ -12,7 +12,6 @@ request:
       type: string
       required: false
       description_markdown: Returns only projects matching the filter (case insensitive).
-        Filter
     - title: includeArchived
       type: string
       required: false
