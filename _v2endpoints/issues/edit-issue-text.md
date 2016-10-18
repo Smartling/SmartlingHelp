@@ -9,7 +9,7 @@ request:
   json_markdown: |
     ~~~json
     {
-      "issueText": "new issue text"
+      "issueText": "Edited issue text."
     }
     ~~~
 response:
@@ -18,7 +18,7 @@ response:
     {
       "response": {
         "data": {
-          "issueText": "new issue text",
+          "issueText": "Edited issue text.",
           "issueTextModifiedDate": "2015-11-10T16:01:22Z"
         },
         "code": "SUCCESS"

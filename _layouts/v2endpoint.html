@@ -25,27 +25,29 @@ layout: default
                     {% if page.request.json_markdown %}
                         {{page.request.json_markdown | markdownify}}
                     {% endif %}
-                    <h3>Parameters</h3>
-                    {% for parameter in page.request.parameters %}
-                        <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
-                            {{parameter.title}}
-                        </h4>
-                        {% if parameter.description_markdown %}
-                            {{parameter.description_markdown | markdownify }}
-                        {% endif %}
-                        {% for value in parameter.values %}
-                            <div class="row">
-                                <div class="col-md-3">
-                                    {{value.title}}
-                                </div>
-                                {% if value.description_markdown %}
+                    {% if page.request.parameters %}
+                        <h3>Parameters</h3>
+                        {% for parameter in page.request.parameters %}
+                            <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
+                                {{parameter.title}}
+                            </h4>
+                            {% if parameter.description_markdown %}
+                                {{parameter.description_markdown | markdownify }}
+                            {% endif %}
+                            {% for value in parameter.values %}
+                                <div class="row">
                                     <div class="col-md-3">
-                                        {{ value.description_markdown | markdownify }}
+                                        {{value.title}}
                                     </div>
-                                {% endif %}
-                            </div>
+                                    {% if value.description_markdown %}
+                                        <div class="col-md-3">
+                                            {{ value.description_markdown | markdownify }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            {% endfor %}
                         {% endfor %}
-                    {% endfor %}
+                    {% endif %}
                 {% endif %}
 
                 <h2>Response</h2>
