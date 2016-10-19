@@ -34,11 +34,9 @@ migration-checklist:
 ---
 
 
-When Smartling captures content from a file or website, it parses the content into **strings**. Within a Smartling GDN project, strings can be shared, so that content appearing more than once will usually not be duplicated in the Smartling Dashboard. For example, a ‘Home’ button might appear many times on a website, but Smartling captures it as one unique string, to be translated once. For a Files project, handling is different for business documents and resource files. For business documents, each file is considered separately and strings are never shared between files. For Application Resource Files, strings can be shared between files, so a string that appears in two different files is created in the dashboard only once and shared by both files.
+When Smartling captures content from a file or website, it parses the content into **strings**. Within a Smartling GDN project, strings can be shared, so that content appearing more than once will usually not be duplicated in the Smartling Dashboard. For example, a ‘Home’ button might appear many times on a website, but Smartling captures it as one unique string, to be translated once. For a Files project, strings are generally considered to be unique to each file and strings will not be shared between files. String sharing between files can be controlled using [namespaces](/support/articles/string-sharing-namespaces/).
 
-> A [new default sharing behavior](/support/articles/string-sharing-namespaces/) is in effect for accounts created after 31 July 2015.
-
-Sometimes, however, two strings with the same text in the source language may require different translations. For example, the string ‘Home’ on a webpage might refer to the homepage of the domain, or to a residence.
+Sometimes, however, two strings in the same file, with the same text in the source language may require different translations. For example, the string ‘Home’ on a webpage might refer to the homepage of the domain, or to a residence.
 
 To handle these instances, Smartling uses Variants. A Variant is one of two or more unique strings within a project that share the same text in the source language, which Smartling creates as unique based on variant metadata or formatting.
 

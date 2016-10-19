@@ -71,4 +71,4 @@ Please note that when defining the regular expression for a custom placeholder y
 }
 ~~~
 
-If your file has non-standard placeholders and you do not integrate to define them Smartling will capture the string with the placeholder as 'plain text'; they will typically be counted as "words" for translation, translators will have to manually enter the placeholder using the correct syntax, and the Smartling Translation Interface will not be able to warn the translators for missing placeholders or incorrect syntax.
+If your file has non-standard placeholders and you do not integrate to define them Smartling will capture the string with the placeholder as 'plain text'; they will typically be counted as "words" for translation, translators will have to manually enter the placeholder using the correct syntax, and the Smartling Translation Interface will not be able to warn the translators about missing placeholders or incorrect syntax.

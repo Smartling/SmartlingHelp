@@ -33,7 +33,7 @@ migration-checklist:
   reviewed: false
 ---
 
-> This article affects only accounts created after July 31st 2015 or accounts who have chosen to enable namespace behavior. See [Unique Strings and Variants](/support/articles/unique-strings-and-variants/) for string sharing rules for older accounts.
+> This article affects only accounts created after July 31st 2015 or older accounts who have chosen to enable namespace behavior.
 
 By default, in Application Resource Files projects, strings in each file are treated as unique by Smartling. This means that uploading a new file will create new strings in the dashboard, even if they have the same text as strings in other files. This way, you can still leverage your existing translations using SmartMatch, but you also have the freedom to translate a string differently if you need to.
 
