@@ -1,10 +1,46 @@
 ---
-
+layout: article
+title: Smartling iOS Plurals Localization Library
+categories:
+  - supported-file-type
+dev: true
+Applies to:
+  GDN: false
+  Application-Resource-Files: false
+  CMS-Connectors: false
+redirect-url:
+wistia:
+  video: false
+  id:
+read-first:
+  include: false
+  sections:
+    - section
+  articles:
+    - article
+  others:
+    - link:
+      text:
+further-reading:
+  include: false
+  sections:
+    - section
+  articles:
+    - article
+  others:
+    - link:
+      text:
+migration-checklist:
+  internal-links: true
+  images: false
+  FAQs: false
+  related: false
+  reviewed: false
 ---
 
 Smartling has built an open source library to support plurals for iOS applications. The following instructions walk you through the process of integrating the library and plurals with your application.
 
-> Since we developed this library, Apple released the <a href="/developers/supported-file-types/iOS-stringsdict"> Stringsdict format for handling localization rules. You may want to investigate this format to see if it fits your project's requirements.
+> Since we developed this library, Apple released the [Stringsdict format](/developers/supported-file-types/iOS-stringsdict) for handling localization rules. You may want to investigate this format to see if it fits your project's requirements.
 
 ## Background
 
@@ -12,20 +48,24 @@ While iOS files do not normally support plurals, Smartling has extended the form
 
 ## Step by Step Guide
 
-1.  **Download and Integrate the** [**Smartling iOS Library**](https://github.com/Smartling/ios-i18n "Link: https://github.com/Smartling/ios-i18n") **into your Application**.  
-    Download the latest library from the Smartling github page and follow the instructions here: [https://github.com/Smartling/ios-i18n#installation](https://github.com/Smartling/ios-i18n#installation "Link: https://github.com/Smartling/ios-i18n#installation")  
-    Please review the documentation on github for details on required project build configuration settings.
-2.  **Update Your String Files With Plural Indicators**  
-    To detect plurals, you must append a key with “##{pluralTag}” where _pluralTag_ is **zero**, **one**, **two**, **few**, **many** and **other**. For example, for an English-based strings file, a sample plural set of strings looks like:  
-    /* Number of songs from search results */  
-    "%d songs found##{one}" = "One song found";  
-    "%d songs found##{other}" = "%d songs found";  
+**1)** Download and Integrate theSmartling iOS Library into your Application.
 
-    The _pluralTag_s depend on the source language and you should consult the [CLDR plural rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html "Link: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html") to determine which tags to use for your source locale.
+Download the latest library from the Smartling github page and follow the instructions here: [https://github.com/Smartling/ios-i18n#installation](https://github.com/Smartling/ios-i18n#installation "Link: https://github.com/Smartling/ios-i18n#installation")
 
-    Like other file formats that support plurals, keep the various plural forms for a key together within the file. This ensures proper linkage when Smartling provides translations.
+Please review the documentation on github for details on required project build configuration settings.
 
-    **Note**: You can add your plurals strings to any file you have already built by hand or append them to a genstrings-created file. 
+**2)** Update Your String Files With Plural Indicators
+
+To detect plurals, you must append a key with “##{pluralTag}” where _pluralTag_ is **zero**, **one**, **two**, **few**, **many** and **other**. For example, for an English-based strings file, a sample plural set of strings looks like:  
+/* Number of songs from search results */  
+"%d songs found##{one}" = "One song found";  
+"%d songs found##{other}" = "%d songs found";  
+
+The _pluralTag_s depend on the source language and you should consult the [CLDR plural rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html "Link: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html") to determine which tags to use for your source locale.
+
+Like other file formats that support plurals, keep the various plural forms for a key together within the file. This ensures proper linkage when Smartling provides translations.
+
+**Note**: You can add your plurals strings to any file you have already built manually or append them to a genstrings-created file. 
 
 3.  **Replace Calls of NSLocalizedString with Calls to SLPluralizedString**  
     All the newly defined plural strings need to be invoked with the **SLPluralizedString** class from the Smartling i18 framework. **SLPluralizedString** takes one additional parameter which is the variable used to determine the pluralTag at runtime, and the library determines which pluralTag should be used based on the locale.
