@@ -23,7 +23,6 @@ request:
         },
         "offset": 0,
         "limit": 30,
-        "active": true,
         "reportedByUserUid": "661801f19693",
         "issueStateCodes": ["OPENED"],
         "issueTypeCodes": ["TRANSLATION"],
@@ -48,4 +47,4 @@ examples:
     description_markdown:
 ---
 
-Creates a report containing detailed information on all issues in a project matching specified filter options. You can filter based on the date issues were created, strings, target languages, issue types and states and the user who opened the issue. The only required parameters are `createdDateBefore` and `createdDateAfter`. Only active strings will be returned unless you specify `"active": "false"`.  This method will return a reportUid which can then be used to download the CSV file.
+Creates a report containing detailed information on all issues in a project matching specified filter options. You can filter based on the date issues were created, strings, target languages, issue types and states and the user who opened the issue. The only required parameters are `createdDateBefore` and `createdDateAfter`. This method will return a reportUid which can then be used to download the CSV file.

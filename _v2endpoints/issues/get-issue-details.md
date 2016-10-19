@@ -19,7 +19,6 @@ response:
                 },
                 "resolvedByUserUid": null,
                 "reportedByUserUid": "661801f19693",
-                "active": true,
                 "createdDate": "2015-11-10T16:01:22Z",
                 "resolvedDate": null,
                 "issueText": "This translation is incorrect. Please fix.",

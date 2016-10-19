@@ -12,18 +12,16 @@ response:
         "response" : {
             "code" : "SUCCESS",
             "data" : {
-                "items" : [{
-                    "processUid" : "134x4r543435ff",
-                    "processState" : "open | closed | failed",
-                    "createdDate" : "2016-08-21T0B1:51:17Z",
-                    "modifiedDate" : "2016-09-21T0B1:51:17Z",
-                    "processStatistics" : {
-                        "requested" : 100,
-                        "processed" : 95,
-                        "errored" : 5,
-                        "skipped" : 0
-                    }
-                }]
+                "processUid" : "7908ae61-3489-48e1-9e28-10652634d34e",
+                "processState" : "OPEN | CLOSED | FAILED",
+                "createdDate" : "2016-08-21T0B1:51:17Z",
+                "modifiedDate" : "2016-09-21T0B1:51:17Z",
+                "processStatistics" : {
+                    "requested" : 100,
+                    "processed" : 95,
+                    "errored" : 5,
+                    "skipped" : 0
+                }
             }
         }
     }

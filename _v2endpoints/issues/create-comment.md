@@ -41,4 +41,4 @@ examples:
 
 Create a comment for an issue.
 
-> Comment text is plain text only. HTML tags and markdown are not supported.
+> Comment text is plain text only. HTML tags and markdown are not supported. Maximum of 4000 characters.

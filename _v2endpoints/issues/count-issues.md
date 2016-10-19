@@ -23,7 +23,6 @@ request:
         },
         "offset": 0,
         "limit": 30,
-        "active": true,
         "reportedByUserUid": "661801f19693",
         "issueStateCodes": ["OPENED"],
         "issueTypeCodes": ["TRANSLATION"],

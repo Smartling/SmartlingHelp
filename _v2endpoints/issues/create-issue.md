@@ -70,7 +70,6 @@ response:
                 },
                 "resolvedByUserUid": null,
                 "reportedByUserUid": "661801f19693",
-                "active": true,
                 "createdDate": "2015-11-10T16:01:22Z",
                 "resolvedDate": null,
                 "issueText": "asdfsd",
@@ -92,4 +91,4 @@ examples:
 
 Creates a new issue for a string.
 
-> Issue text is plain text only. HTML tags and markdown are not supported.
+> Issue text is plain text only. HTML tags and markdown are not supported. Maximum of 4000 characters.

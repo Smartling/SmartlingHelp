@@ -37,27 +37,32 @@ response:
           "code": "SUCCESS",
           "messages": [],
           "data": {
+              "totalCount": 1,
               "items": [
                   {
                       "hashcode": "ebb125de896c6b7237c617ca56e73773",
+                      "stringText": "My Friends",
+                      "stringVariant": "key.variant",
                       "keys": [
                           {
                               "fileUri": "test.properties",
                               "key": "some.string.key"
                           }
-                      ],
+                      ]
                       "targetLocaleId": "es-ES",
                       "workflowStepUid": "akj2354",
                       "translations": [
                           {
                               "translation": "Mis Amigos",
-                              "pluralForm": "None",
-                              "modifiedDate": "2015-11-21T01:51:17Z"
+                              "pluralForm": null,
+                              "modifiedDate":"2015-11-21T01:51:17Z"
                           }
                       ]
                   },
                   {
                       "hashcode": "cdb125de896c6b7237c617ca56e73774",
+                      "stringText": "My Friends",
+                      "stringVariant": "key.variant",
                       "keys": [
                       ]
                       "targetLocaleId": "es-ES",
@@ -65,8 +70,8 @@ response:
                       "translations": [
                           {
                               "translation": "Actividad",
-                              "pluralForm": "None",
-                              "modifiedDate": "2015-11-24T01:56:17Z"
+                              "pluralForm": null,
+                              "modifiedDate":"2015-11-21T01:51:17Z"
                           }
                       ]
                   }
@@ -83,3 +88,5 @@ examples:
 ---
 
 Returns translated strings from Smartling. You can get strings by specifying a file you want translations for, or you can specify individual strings by hashcode.
+
+Only authorized and active strings will be returned. Excluded, unauthorized & inactive strings will not be returned. If a string is authorized but does not have a published translation, the `translations` array for that string will be empty.
