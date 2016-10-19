@@ -35,3 +35,5 @@ examples:
 ---
 
 Replaces the text of an issue with new text. Note that only the author of the issue can perform this action. The `commentTextModifiedDate` property of an issue object shows when it was last updated.
+
+> Comment text is plain text only. HTML tags and markdown are not supported.

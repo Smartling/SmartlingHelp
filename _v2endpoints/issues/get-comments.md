@@ -10,6 +10,7 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "items": [{
                     "createdByUserUid": "661801f19693",
@@ -19,8 +20,7 @@ response:
                     "commentTextModifiedDate": null
                 }],
                 "totalCount": 1
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~

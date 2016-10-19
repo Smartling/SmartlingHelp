@@ -10,6 +10,7 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "totalCount": 2,
                 "items": [{
@@ -19,8 +20,7 @@ response:
                     "description": "Resolved",
                     "issueStateCode": "RESOLVED"
                 }]
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~

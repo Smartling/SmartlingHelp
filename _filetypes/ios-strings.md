@@ -54,6 +54,6 @@ Smartling will not create an instruction.
 
 ## Standard Placeholder format
 
-{% include standard_placeholders.md %} 
-
 By default, Smartling recognizes ios-style placeholders in iOS String files.
+
+{% include standard_placeholders.md %}

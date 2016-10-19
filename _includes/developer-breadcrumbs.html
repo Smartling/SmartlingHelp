@@ -19,7 +19,13 @@
                 <li><a href="/">v2</a></li>
             {% endif %}
             {% if page.layout == 'supportedfiletype' %}
-                <li><a href="/developers/supported-file-type/">Supported File Types</a></li>
+                <li><a href="/developers/supported-file-type/">Files</a></li>
+            {% endif %}
+            {% if page.dev %}
+                {% assign devcategory = page.categories | first %}
+                {% if devcategory == 'supported-file-type' %}
+                    <li><a href="/developers/supported-file-type/">Files</a></li>
+                {% endif %}
             {% endif %}
             <li>{{page.title}}</li>
         </ol>

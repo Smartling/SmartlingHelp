@@ -11,6 +11,7 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "string": {
                     "hashcode": "c32c16cddafd63dfa0dc12449372a093",
@@ -28,8 +29,7 @@ response:
                 "issueSubTypeCode": "POOR_TRANSLATION",
                 "issueStateCode": "OPENED",
                 "issueTextModifiedDate": null
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~

@@ -17,11 +17,11 @@ response:
     ~~~json
     {
       "response": {
+        "code": "SUCCESS",
         "data": {
           "issueText": "Edited issue text.",
           "issueTextModifiedDate": "2015-11-10T16:01:22Z"
-        },
-        "code": "SUCCESS"
+        }
       }
     }
     ~~~
@@ -32,3 +32,5 @@ examples:
 ---
 
 Replaces the text of an issue with new text. Note that only the author of the issue can perform this action. The `issueTextModifiedDate` property of an issue object shows when it was last updated.
+
+> Issue text is plain text only. HTML tags and markdown are not supported.

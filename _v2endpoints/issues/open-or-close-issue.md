@@ -25,10 +25,10 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "issueStateCode": "RESOLVED"
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~

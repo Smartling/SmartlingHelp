@@ -10,14 +10,14 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "createdByUserUid": "661801f19693",
                 "createdDate": "2015-12-22T11:54:27Z",
                 "commentText": "test comment",
                 "issueCommentUid": "ac5211a26eca",
                 "commentTextModifiedDate": null
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~

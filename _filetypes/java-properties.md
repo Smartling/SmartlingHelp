@@ -48,9 +48,9 @@ If this default behavior is not desirable for your content you can turn off eith
 
 ## Using Placeholder Directives
 
-{% include standard_placeholders.md %} 
-
 By default, Smartling recognizes java-style placeholders in Java Properties files.
+
+{% include standard_placeholders.md %} 
 
 ## Return untranslated strings as empty
 

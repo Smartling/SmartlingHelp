@@ -6,7 +6,12 @@ layout: default
 
 
 <div class="container page">
-    {% include breadcrumbs.html %}
+    {% if page.dev %}
+        {% include developer-breadcrumbs.html %}
+    {% endif %}
+    {% if page.dev == false %}
+        {% include breadcrumbs.html %}
+    {% endif %}
     <div class="row content-start">
 
         <div class="col-md-{{site.left-width}} sidebar" id="sidebar">

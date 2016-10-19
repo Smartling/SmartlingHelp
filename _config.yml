@@ -55,6 +55,10 @@ collections:
     output: true
     permalink: "developers/supported-file-type/:title/"
 
+  developerarticles:
+    output: true
+    permalink: "developers/:categories/:title/"
+
   filedirectives:
     output: false
 

@@ -35,6 +35,7 @@ response:
     ~~~json
     {
         "response": {
+            "code": "SUCCESS",
             "data": {
                 "reportItems": [{
                     "resolvedCount": 3,
@@ -80,8 +81,7 @@ response:
                     },
                     "openCount": 2
                 }]
-            },
-            "code": "SUCCESS"
+            }
         }
     }
     ~~~

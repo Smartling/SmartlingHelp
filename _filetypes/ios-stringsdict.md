@@ -33,9 +33,9 @@ No file API directives are supported.
 
 ## Standard Placeholder Format
 
-{% include standard_placeholders.md %} 
-
 By default, Smartling recognizes ios-style placeholders in iOS Stringsdict files.
+
+{% include standard_placeholders.md %} 
 
 ## Directives
 

@@ -54,6 +54,7 @@ response:
       required: false
       description_markdown: |
         Identifies the issue type. `issueTypeCode` is either `SOURCE` or `TRANSLATION`. Each have their own set of `issueSubType` values:
+        
           * `SOURCE`  
             * `CLARIFICATION`  
             * `MISSPELLING`  
@@ -61,6 +62,7 @@ response:
             * `POOR_TRANSLATION`  
             * `DOES_NOT_FIT_SPACE`  
             * `PLACEHOLDER_ISSUE`  
+            
 examples:
   - title:
     code_markdown:
