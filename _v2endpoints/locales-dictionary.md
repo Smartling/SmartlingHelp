@@ -24,7 +24,7 @@ response:
                     "language": {
                         "languageId": "en",
                         "description": "English"
-                    },
+                    },s
                     "country": null
                 }, {
                     "localeId": "en-US",

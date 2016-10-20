@@ -78,6 +78,8 @@ request:
       required: false
       description_markdown: |
         Sets whether or not the string should be parsed as HTML. Accepted values are `html`, `plain_text` and `auto`. If set to `auto`, Smartling will attempt to detect the presence of HTML tags in the string. 
+        
+        When strings are parsed as HTML, Smartling will automatically ampersand-escape special characters such as angle brackets (`<`) and quotes (`"`). For example, if you upload the string `Dave says "hello."` and set format to HTML, Smartling will return the string with ampersand-escaping: `Dave says &quot;hello&quote;!`.
     
 response:
   json_markdown: |-
@@ -117,7 +119,7 @@ response:
     - title: items
       type: object
       description_markdown:
-        An array including one object for each string created, giving variant metadata, text of the string, the unique hashcode for the string. If the string overwrote an existing string in the Smartling dashboard, `overWritten` will be `true`.     
+        An array including one object for each string created, giving variant metadata, text of the string and a hashcode, created by hashing the variant metadata and string text to provide a unique identifier for the string. If the string overwrote an existing string in the Smartling dashboard, `overWritten` will be `true`.
 examples:
   - title:
     code_markdown:

@@ -62,6 +62,10 @@ and
 
 Both the standard Python style placeholders, and a custom placeholder will be recognized when found in a string. In this example the custom placeholder is delineated by having two open and closed square bracket characters with text in between them: `[[firstName]]`.
 
+To check that your placeholders are being captured as expected, check the string in the List View in the Smartling Dashboard. Correctly captured placeholders will be highlighted:
+
+![](/uploads/placeholder_in_lv.png)
+
 Please note that when defining the regular expression for a custom placeholder you may need to escape characters that are part of the expression to account for the environment (file or shell). After escaping is accounted for the expression will be evaluated as a Perl compatible regular expression (PCRE).  So, in the above example, because brackets have special meaning for PCRE they must be escaped with a backslash (`\`)for the regular expression engine.  However, in another context the backslash itself may need to be escaped.  The most common example is seen in JSON where the backslash character in the value of name/value pair already has special meaning for JSON, and so must be escaped to be valid a character in JSON. Also note when defining a custom placeholder inline of a JSON file we require the expressions to be listed in an array. So the above directives modified to be inside of a JSON file would be:
 
 ~~~json
