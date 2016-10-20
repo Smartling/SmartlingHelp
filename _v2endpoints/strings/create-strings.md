@@ -35,13 +35,13 @@ request:
       type: string
       required: false
       description_markdown: |
-        Specifies a standard placeholder format. Accepted values are: `none`, `c`, `ios`, `python`, `java`, `yaml`, `qt`, `resx`. For more detail on placeholders see [Placeholders in Resource Files]()
+        Specifies a standard placeholder format. Accepted values are: `none`, `c`, `ios`, `python`, `java`, `yaml`, `qt`, `resx`. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-type/placeholders-in-resource-files/)
 
     - title: placeholderFormatCustom
       type: string
       required: false
       description_markdown: |
-        Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders.
+        Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-type/placeholders-in-resource-files/)
 
     - title: stringText
       type: string

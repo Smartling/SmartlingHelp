@@ -37,7 +37,7 @@ response:
           "code": "SUCCESS",
           "messages": [],
           "data": {
-              "totalCount": 1,
+              "totalCount": 2,
               "items": [
                   {
                       "hashcode": "ebb125de896c6b7237c617ca56e73773",
@@ -61,7 +61,7 @@ response:
                   },
                   {
                       "hashcode": "cdb125de896c6b7237c617ca56e73774",
-                      "stringText": "My Friends",
+                      "stringText": "Your Friends",
                       "stringVariant": "key.variant",
                       "keys": [
                       ]
@@ -69,7 +69,7 @@ response:
                       "workflowStepUid": "abc123",
                       "translations": [
                           {
-                              "translation": "Actividad",
+                              "translation": "Tus Amigos",
                               "pluralForm": null,
                               "modifiedDate":"2015-11-21T01:51:17Z"
                           }
@@ -80,6 +80,15 @@ response:
       }
     }
     ~~~
+  parameters:
+    - title: totalCount
+      type: object
+      description_markdown:
+        Total number of translated strings in the response.
+    - title: items
+      type: object
+      description_markdown:
+        An array including one object for each string created, giving variant metadata, text of the string, and an array of translations. In many cases the translation array will only contain one item with a plural form of `null`. For plural strings, a translation array object will be returned for each plural form. Plural forms follow [CLDR rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html).
 examples:
   - title: Curl
     code_markdown: |
