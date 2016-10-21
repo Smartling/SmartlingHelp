@@ -1,5 +1,5 @@
 ---
-title: List Context Files
+title: List Contexts for a Project
 categories:
   - context
 layout: v2endpoint

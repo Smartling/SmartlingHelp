@@ -9,18 +9,18 @@ method: POST
 request:
   json_markdown: |
     ~~~json
-    [
-        {
-          "contextUid": "de2r339a-df7b-4gca-9b67-432144f5e540",
-          "stringHashcode": "2edfdt08510b9483472e7edbf8805356",
-          "coordinates": {
-            "top": 114,
-            "left": 589,
-            "height": 33,
-            "width": 346
-          }
-        }
-    ]
+    "bindings":    [
+            {
+              "contextUid": "de2r339a-df7b-4gca-9b67-432144f5e540",
+              "stringHashcode": "2edfdt08510b9483472e7edbf8805356",
+              "coordinates": {
+                "top": 114,
+                "left": 589,
+                "height": 33,
+                "width": 346
+              }
+            }
+        ]
     ~~~
   parameters:
     - title: contextUid
