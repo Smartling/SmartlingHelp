@@ -26,11 +26,14 @@ layout: default
                         {{page.request.json_markdown | markdownify}}
                     {% endif %}
                     {% if page.request.parameters %}
-                        <h3>Parameters</h3>
+                        <h3 class="req-params">Parameters</h3>
                         {% for parameter in page.request.parameters %}
-                            <h4 class="{% if parameter.required %}required{% endif %}{% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
+                            <h4 class="param-heading {% if parameter.type == 'array' %} array{% elsif parameter.type == 'number' %} number {% elsif parameter.type == 'string' %} string{% elsif parameter.type == 'boolean' %} boolean{% endif %}">
                                 {{parameter.title}}
                             </h4>
+                            {% if parameter.required %}
+                                <h4 class="param-heading required"> - required </h4>
+                            {% endif %}
                             {% if parameter.description_markdown %}
                                 {{parameter.description_markdown | markdownify }}
                             {% endif %}
