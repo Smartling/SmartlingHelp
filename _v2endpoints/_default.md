@@ -1,6 +1,5 @@
 ---
 title:
-endpoint_id:
 categories:
   -
 layout: v2endpoint

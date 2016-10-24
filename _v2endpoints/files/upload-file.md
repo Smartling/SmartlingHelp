@@ -6,7 +6,7 @@ categories:
 layout: v2endpoint
 endpoint_url: '/files-api/v2/projects/{projectId}/file'
 method: POST 
-request:    
+request:
     parameters:
         - title: file
           required: true
