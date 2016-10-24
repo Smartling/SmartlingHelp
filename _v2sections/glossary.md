@@ -20,4 +20,11 @@ endpoints:
   - title: List parts of speech
 ---
 
-Test Text
+The Glossary API allows you to create and edit Glossaries in a Smartling account and populate it with Glossary terms. You can also download your Glossaries as CSV or TBX files and import Excel spreadsheets to create new Glossaries. For general details on Glossary management, see our [Support documentation](/support/sections/glossaries/).
+
+## Rates and Limits
+
+* Maximum of 5 concurrent requests.
+* Maximum of 200 requests in a 15 second window.
+
+

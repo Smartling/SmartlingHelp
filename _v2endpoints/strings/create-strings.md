@@ -59,7 +59,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        If provided a callback request will be sent to this URL when translation for the string is complete.    
+        If provided a callback request will be sent to this URL when translation for the string is complete. See our [callbacks](/developers/apii/v2/callbacks/) documentation for more details.    
 
     - title: callbackMethod
       type: string

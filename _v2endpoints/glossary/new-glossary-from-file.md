@@ -14,16 +14,16 @@ request:
       required: true
       description_markdown: |
         A name for the glossary. This name must be unique. Attempting to use a name already in use in the account will return an error.
+    - title: sourceLocaleId
+      type: string
+      required: true
+      description_markdown: |
+        Source locale for the glossary. 
     - title: description
       type: string
       required: false
       description_markdown: |
         Description for the glossary
-    - title: sourceLocaleId
-      type: string
-      required: false
-      description_markdown: |
-        Source locale for the glossary. 
     - title: importFile
       type: file
       required: false
