@@ -107,7 +107,7 @@
 
             - Value: pseudo
               Default: FALSE
-              Description: 'Smartling returns a modified version of the original text with certain characters transformed and the text expanded. For example, the uploaded string "This is a sample string", will return as "T~hís ~ís á s~ámpl~é str~íñg". Pseudo translations enable you to test how a longer string integrates into your application.'
+              Description: 'Smartling returns a modified version of the original text with certain characters transformed and the text expanded. For example, the uploaded string "This is a sample string", will return as "T~hís ~ís á s~ámpl~é str~íñg". Pseudo translations enable you to cdtest how a longer string integrates into your application.'
 
             - Value: contextMatchingInstrumented
               Default: FALSE

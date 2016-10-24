@@ -62,4 +62,6 @@ examples:
     description_markdown:
 ---
 
-Returns source strings from Smartling. You can get strings by specifying a file you want strings for, or you can specify individual strings by hashcode.
+Returns source strings from Smartling. You can get strings by specifying a file you want strings for, or you can specify individual strings by hashcode. 
+
+> If you do not specify at least one of these parameters (`hashcodes` or `fileUri`) no results will be returned.

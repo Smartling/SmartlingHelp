@@ -98,4 +98,6 @@ examples:
 
 Returns translated strings from Smartling. You can get strings by specifying a file you want translations for, or you can specify individual strings by hashcode.
 
+> If you do not specify at least one of these parameters (`hashcodes` or `fileUri`) no results will be returned.
+
 Only authorized and active strings will be returned. Excluded, unauthorized & inactive strings will not be returned. If a string is authorized but does not have a published translation, the `translations` array for that string will be empty.
