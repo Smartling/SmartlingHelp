@@ -11,12 +11,12 @@ request:
       type: string
       required: false
       description_markdown: |
-        Return only terms matching a string. Match is case-insensitive.
+        Return terms matching a string. Match is case-insensitive and non-strict. For example, `ternText=cold' will match `Cold Call`.
     - title: limit
       type: number
       required: false
       description_markdown: |
-        Maximum number of results returned.
+        Maximum number of results returned. Default for this call is `15`, maximum is `5000`.
     - title: offset
       type: number
       required: false
@@ -26,7 +26,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Identifies a field and direction to sort results by. Formatted as the field and direction separated by a comma, e.g. `sort=termText,asc`. See the response object for accepted field values.
+        Identifies a field and direction to sort results by. Formatted as the field and direction separated by a comma, e.g. `sort=termText,asc`. See the response object for accepted field values. Directions are specified as `asc` or `desc`.
 response:
   json_markdown: |
     ~~~json

@@ -57,4 +57,4 @@ response:
 
 ---
 
-Edits the name, description or source locale of a glossary. All parameters are optional but you must include at least one for your request to have any effect.
+Edits the name, description or source locale of a glossary. This will completely replace the name, description and source locale of the target glossary. If you leave a field blank any existing information will be deleted.

@@ -11,7 +11,7 @@ request:
       type: string
       required: true
       description_markdown: |
-        Sets the file format for the download. Accepted values are `csv` or `tbx`.
+        Sets the file format for the download. Accepted values are `csv`, `tbx` or `xlsx`.
     - title: localeIds
       type: string
       required: false

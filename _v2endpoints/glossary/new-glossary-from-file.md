@@ -67,4 +67,4 @@ examples:
 
 Creates a new Glossary in a Smartling account from an uploaded Excel spreadsheet. The format of the spreadsheet is important. See [Import Glossary](/support/articles/import-glossary/) and [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/).
 
-This process is asynchronous and may take a few minutes to complete. The response includes a `glossaryImportJobUid` which can be used to check the status of the import.
+This process is asynchronous and may take a few minutes to complete. Therefore the response may have a `202` header, instead of the usual `200 SUCCESS`. The response includes a `glossaryImportJobUid` which can be used to check the status of the import. 
