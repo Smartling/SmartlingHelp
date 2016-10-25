@@ -2,7 +2,7 @@
 layout: article
 title: Placeholders in Resource Files
 categories:
-  - supported-file-type
+  - files
 dev: true
 Applies to:
   GDN: false

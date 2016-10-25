@@ -2,7 +2,7 @@
 layout: article
 title: Callbacks
 categories:
-  - apii
+  - api
   - v2
 dev: true
 Applies to:

@@ -47,7 +47,7 @@ Version 3 of the Smartling File Parser was released Tuesday 13 October 2015. All
 
 * <note> tags are now captured as translator instructions for the associated trans-unit.
 * Trans-unit ID field is now captured as Variant metadata
-* Native tags (<ept>, <bpt>, <it>, <ph>, <sub>, <mrk>, <x>, <g>) are no longer captured by custom placeholder directive
+* Native tags (`<ept>`, `<bpt>`, `<it>`, `<ph>`, `<sub>`, `<mrk>`, `<x>`, `<g>`) are no longer captured by custom placeholder directive
 * Empty tags now converted to self-closing tags in translated files
 * All-placeholder strings are now captured across all resource file types.
 

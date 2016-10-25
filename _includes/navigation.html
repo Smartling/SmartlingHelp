@@ -194,7 +194,7 @@
         </li>
 
         <li class="{% if page.url contains "/developers/supported-file-types" %}shown{% endif %}">
-            <a href="/developers/supported-file-types"><i class="fa fa-thumbs-up"></i> Supported File Types</a>
+            <a href="/developers/files"><i class="fa fa-thumbs-up"></i> Supported File Types</a>
             <ul class="secondary">
                 {% for supportedfiletype in site.data.supportedfiletypes %}
                 <li class= "{% if page.url contains supportedfiletype.link %}active{% endif %}"><a href="{{supportedfiletype.link}}">{{supportedfiletype.file_type}}</a></li>

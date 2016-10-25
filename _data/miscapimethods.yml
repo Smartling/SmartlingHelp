@@ -170,7 +170,7 @@
 
         - Name: fileType
           Required: required
-          Description: '<p>The type of file used for imports. Valid values are: <code>ios</code>, <code>android</code>, <code>gettext</code>, <code>javaProperties</code>, <code>xml</code>, <code>json</code>, <code>yaml</code>, and <code>csv</code>.</p><p>To allow translation imports, XML and JSON files must be uploaded with source_key_paths defined.</p>See details on valid directives for each type supported for importing in <a href="/developers/supported-file-types/">Supported File Types.</a></p>'
+          Description: '<p>The type of file used for imports. Valid values are: <code>ios</code>, <code>android</code>, <code>gettext</code>, <code>javaProperties</code>, <code>xml</code>, <code>json</code>, <code>yaml</code>, and <code>csv</code>.</p><p>To allow translation imports, XML and JSON files must be uploaded with source_key_paths defined.</p>See details on valid directives for each type supported for importing in <a href="/developers/files/">Supported File Types.</a></p>'
 
         - Name: locale
           Required: required

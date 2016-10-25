@@ -2,7 +2,8 @@
 layout: article
 title: Migrate to v2
 categories:
-  - supported-file-type
+  - api
+  - v2
 dev: true
 Applies to:
   GDN: false

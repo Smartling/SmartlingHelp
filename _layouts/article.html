@@ -9,9 +9,9 @@ layout: default
     {% if page.dev %}
         {% include developer-breadcrumbs.html %}
     {% endif %}
-    {% if page.dev == false %}
+    {% unless page.dev %}
         {% include breadcrumbs.html %}
-    {% endif %}
+    {% endunless %}
     <div class="row content-start">
 
         <div class="col-md-{{site.left-width}} sidebar" id="sidebar">

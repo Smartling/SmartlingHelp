@@ -53,7 +53,7 @@ collections:
 
   filetypes:
     output: true
-    permalink: "developers/supported-file-type/:title/"
+    permalink: "developers/files/:title/"
 
   developerarticles:
     output: true
@@ -64,11 +64,11 @@ collections:
 
   v2endpoints:
     output: true
-    permalink: "developers/apii/v2/:categories/:title/"
+    permalink: "developers/api/v2/:categories/:title/"
 
   v2sections:
     output: true
-    permalink: "developers/apii/v2/:title/"
+    permalink: "developers/api/v2/:title/"
 
 #  terms:
 #    output: false

@@ -2,7 +2,7 @@
 layout: article
 title: Ruby on Rails Localization
 categories:
-  - supported-file-type
+  - files
 dev: true
 Applies to:
   GDN: false

@@ -2,7 +2,7 @@
 layout: article
 title: Smartling iOS Plurals Localization Library
 categories:
-  - supported-file-type
+  - files
 dev: true
 Applies to:
   GDN: false
@@ -56,33 +56,42 @@ Please review the documentation on github for details on required project build 
 
 **2)** Update Your String Files With Plural Indicators
 
-To detect plurals, you must append a key with “##{pluralTag}” where _pluralTag_ is **zero**, **one**, **two**, **few**, **many** and **other**. For example, for an English-based strings file, a sample plural set of strings looks like:  
+To detect plurals, you must append a key with `##{pluralTag}` where `pluralTag` is `zero`, `one`, `two`, `few`, `many` and `other`. For example, for an English-based strings file, a sample plural set of strings looks like:  
+
+~~~
 /* Number of songs from search results */  
 "%d songs found##{one}" = "One song found";  
 "%d songs found##{other}" = "%d songs found";  
+~~~
 
-The _pluralTag_s depend on the source language and you should consult the [CLDR plural rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html "Link: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html") to determine which tags to use for your source locale.
+The plural tags depend on the source language and you should consult the [CLDR plural rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html "Link: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html") to determine which tags to use for your source locale.
 
 Like other file formats that support plurals, keep the various plural forms for a key together within the file. This ensures proper linkage when Smartling provides translations.
 
 **Note**: You can add your plurals strings to any file you have already built manually or append them to a genstrings-created file. 
 
-3.  **Replace Calls of NSLocalizedString with Calls to SLPluralizedString**  
-    All the newly defined plural strings need to be invoked with the **SLPluralizedString** class from the Smartling i18 framework. **SLPluralizedString** takes one additional parameter which is the variable used to determine the pluralTag at runtime, and the library determines which pluralTag should be used based on the locale.
+**3)** Replace Calls of NSLocalizedString with Calls to SLPluralizedString
 
-4.  **Have Your Strings Translated**  
-    Much like your source strings file, the files for your target languages need to have the correct pluralTags according to the [CLDR plural rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html "Link: http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html"). Your best bet to get this right is to upload the file to Smartling where your translators (or ours if you don’t have your own), will complete the translations. Don’t worry, Smartling insists that it has all the correct forms plural forms. Once translated, simply copy the files back into your application as you normally would. (The files are named the same, are in language subfolders such as **en.lproj/** or **ru.lproj/**)
+All the newly defined plural strings need to be invoked with the `SLPluralizedString` class from the Smartling i18 framework. `SLPluralizedString` takes one additional parameter which is the variable used to determine the pluralTag at runtime, and the library determines which pluralTag should be used based on the locale.
 
-    Your localized strings file (for example, Russian) looks something like this:  
+**4)** Have Your Strings Translated 
 
-    /* Number of songs from search results */  
-    "%d songs found##{one}" = "Найдена одна песня";  
-    "%d songs found##{few}" = "Найдено %d песни";  
-    "%d songs found##{many}" = "Найдено %d песен";  
-    "%d songs found##{other}" = "Найдено %d песен";
+Much like your source strings file, the files for your target languages need to have the correct pluralTags according to the [CLDR plural rules](http://unicode.org/repos/cldr-tmp/trunk/diff/supplemental/language_plural_rules.html). Your best bet to get this right is to upload the file to Smartling where your translators (or ours if you don’t have your own), will complete the translations. Don’t worry, Smartling insists that it has all the correct forms plural forms. Once translated, simply copy the files back into your application as you normally would. (The files are named the same, are in language subfolders such as `en.lproj/` or `ru.lproj/`)
 
-5.  **Migrate from Hard-Coded Logic with Unique Keys**  
-    If you already have hard-coded plural logic into your application with unique strings, you may need to adjust the keys that you are using and migrate from **NSLocalizedString** to **SLPluralizedString**. For example, if you have keys, “songs_found_singular” and “songs_found_plural” with logic in your code to switch between the two, you will need to normalize them to “songs_found##{one}” and “songs_found##{other}” and use **SLPluralizedString** with “songs_found” (it will pick the right one for you).
+Your localized strings file (for example, Russian) looks something like this:  
 
-6.  **Tweet Us**  
-    We want to know your thoughts on the library. Tweet us (@Smartling).
+~~~
+/* Number of songs from search results */  
+"%d songs found##{one}" = "Найдена одна песня";  
+"%d songs found##{few}" = "Найдено %d песни";  
+"%d songs found##{many}" = "Найдено %d песен";  
+"%d songs found##{other}" = "Найдено %d песен";
+~~~
+
+**5)** Migrate from Hard-Coded Logic with Unique Keys
+
+If you already have hard-coded plural logic into your application with unique strings, you may need to adjust the keys that you are using and migrate from `NSLocalizedString` to `SLPluralizedString`. For example, if you have keys, “songs_found_singular” and “songs_found_plural” with logic in your code to switch between the two, you will need to normalize them to “songs_found##{one}” and “songs_found##{other}” and use `SLPluralizedString` with “songs_found” (it will pick the right one for you).
+
+**6)** Tweet Us  
+
+We want to know your thoughts on the library. Tweet us (@Smartling).

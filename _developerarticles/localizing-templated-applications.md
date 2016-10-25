@@ -2,7 +2,7 @@
 layout: article
 title: Localizing Templated Applications
 categories:
-  - supported-file-type
+  - files
 dev: true
 Applies to:
   GDN: false
