@@ -11,7 +11,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Return terms matching a string. Match is case-insensitive and non-strict. For example, `ternText=cold' will match `Cold Call`.
+        Return terms matching a string. Match is case-insensitive and non-strict. For example, `termText=cold` will match `Cold Call`.
     - title: limit
       type: number
       required: false
@@ -26,7 +26,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Identifies a field and direction to sort results by. Formatted as the field and direction separated by a comma, e.g. `sort=termText,asc`. See the response object for accepted field values. Directions are specified as `asc` or `desc`.
+        Identifies a field and direction to sort results by. Formatted as the field and direction separated by a comma, e.g. `sort=termText,asc`. ccepted values are `termText` (default), `createdDate` and `modifiedDate`. Directions are specified as `asc` or `desc`.
 response:
   json_markdown: |
     ~~~json

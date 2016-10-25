@@ -21,4 +21,4 @@ examples:
     description_markdown:
 ---
 
-Delete a Glossary term.
+Delete a Glossary term. This will remove the term and all translations.

@@ -41,4 +41,9 @@ examples:
     description_markdown:
 ---
 
-Returns the status of a Glossary import. Possible `glossaryImportJobStatus` values are `PENDING`, `IN_PROGRESS`, `SUCCESSFUL` or `FAILED`.
+Returns the status of a Glossary import. Possible `glossaryImportJobStatus` values are:
+ 
+ * `PENDING` - the import is in a queue.
+ * `IN_PROGRESS` - the import is in progress.
+ * `SUCCESSFUL` - the import succeeded.
+ * `FAILED` - the import failed.

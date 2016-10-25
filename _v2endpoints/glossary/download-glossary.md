@@ -18,7 +18,7 @@ request:
       description_markdown: |
         Comma-separated list of locales to return translations for.
 response:
-  json_markdown:
+  json_markdown: |
     ~~~
     200 OK
     {{file contents}}
@@ -29,4 +29,4 @@ examples:
     description_markdown:
 ---
 
-Downloads a glossary as a CSV or TBX file.
+Downloads a glossary as a CSV, TBX or XLSX (Open Ecxel) file.

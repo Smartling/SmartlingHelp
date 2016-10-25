@@ -3,7 +3,7 @@ title: Get Glossary terms with translations for a locale - whole Account
 categories:
   - glossary
 layout: v2endpoint
-endpoint_url: /glossary-api/v2/accounts/{accountUid}/locales/{localeId}/terms
+endpoint_url: /glossary-api/v2/accounts/{{accountUid}}/locales/{{localeId}}/terms
 method: GET
 request:
   parameters:
@@ -15,7 +15,6 @@ request:
 response:
   json_markdown: |
     ~~~json
-    200 OK
     {
        "response":{
           "code":"SUCCESS",

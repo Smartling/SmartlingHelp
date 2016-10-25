@@ -9,7 +9,6 @@ endpoints:
   - title: Delete Glossary
   - title: Get Glossary terms - source only
   - title: Get Glossary terms with translations for a locale
-  - title: Get Glossary terms with translations for a locale - whole Account
   - title: Create Glossary term
   - title: Create Glossary terms - batch
   - title: Edit Glossary term

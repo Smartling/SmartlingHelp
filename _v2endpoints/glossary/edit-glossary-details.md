@@ -20,17 +20,17 @@ request:
       type: string
       required: true
       description_markdown: |
-        A name for the glossary. This name must be unique. Attempting to use a name already in use in the account will return an error.
+        A name for the glossary. This name must be unique. Attempting to use a name already in use in the account will return an error. Limit of 170 characters.
+    - title: sourceLocaleId
+      type: string
+      required: true
+      description_markdown: |
+        Source locale for the glossary. Limit of 250 characters.
     - title: description
       type: string
       required: false
       description_markdown: |
-        Description for the glossary
-    - title: sourceLocaleId
-      type: string
-      required: false
-      description_markdown: |
-        Source locale for the glossary. 
+        Description for the glossary.
 response:
   json_markdown: |
     ~~~json
@@ -57,4 +57,4 @@ response:
 
 ---
 
-Edits the name, description or source locale of a glossary. This will completely replace the name, description and source locale of the target glossary. If you leave a field blank any existing information will be deleted.
+Edits the name, description or source locale of a glossary. This will completely replace the name, description and source locale of the target glossary. If you do not provide a field, or leave it blank, any existing information will be deleted.

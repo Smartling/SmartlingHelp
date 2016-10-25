@@ -65,4 +65,4 @@ examples:
     description_markdown:
 ---
 
-Edits the details of a glossary term. With the exception of the `translation` object, you must provide all desired fields every time you edit the term. If you do not provide a field, any existing value for that field will be deleted. To add translations for multiple locales, make a request for each locale. Keep all fields except for the `translation` object identical in each request.
+Edits the details of a glossary term. With the exception of the `translation` object, you must provide all desired fields every time you edit the term. If you do not provide a field or leave it blank, any existing value for that field will be deleted. To add translations for multiple locales, make a request for each locale. Keep all fields except for the `translation` object identical in each request.
