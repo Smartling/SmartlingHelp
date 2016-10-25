@@ -1,12 +1,10 @@
 
 
-
-
 <div class="panel panel-default">
     <div class="panel-heading">
         <a data-toggle="collapse" href="#collapse1">
             <h5 class="panel-title no-anchor">
-                Supported File Types
+                Smartling APIs
             </h5>
 
         </a>
@@ -14,13 +12,13 @@
     <div id="collapse1" class="panel-collapse">
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for type in site.data.supportedfiles.filetypes %}
-                    {% for filetype in site.filetypes %}
-                        {% if filetype.title == type %}
-                            <li><a href="{{filetype.url}}">{{filetype.title}}</a></li>
-                            {% break%}
-                        {% endif %}
-                    {% endfor %}
+                {% for section in site.data.api-nav.sections %}
+                {% for v2section in site.v2sections %}
+                {% if v2section.title == section %}
+                <li><a href="{{v2section.url}}">{{v2section.title}}</a></li>
+                {% break%}
+                {% endif %}
+                {% endfor %}
                 {% endfor %}
             </ul>
         </div>
@@ -39,13 +37,13 @@
     <div id="collapse1" class="panel-collapse">
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for article in site.data.supportedfiles.articles %}
-                    {% for developerarticle in site.developerarticles %}
-                        {% if developerarticle.title == article %}
-                            <li><a href="{{developerarticle.url}}">{{developerarticle.title}}</a></li>
-                            {% break%}
-                        {% endif %}
-                    {% endfor %}
+                {% for article in site.data.api-nav.articles %}
+                {% for developerarticle in site.developerarticles %}
+                {% if developerarticle.title == article %}
+                <li><a href="{{developerarticle.url}}">{{developerarticle.title}}</a></li>
+                {% break%}
+                {% endif %}
+                {% endfor %}
                 {% endfor %}
             </ul>
         </div>

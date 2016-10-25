@@ -1,0 +1,13 @@
+sections:
+  - Authentication
+  - Files
+  - Strings
+  - Glossary
+  - Issues
+  - Image Context
+  - Accounts
+articles:
+  - New in v2
+  - Migrate to v2
+  - Response Format
+  - SDKs

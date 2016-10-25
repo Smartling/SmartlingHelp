@@ -1,29 +1,51 @@
 ---
-layout: devpage
-title: API
-
+layout: default
+title: Smartling API
+sections:
+  -
 ---
 
-<h3>Overview</h3>
-<p>The Smartling Translation API is a REST-like API that allows you to access functionality provided by the Smartling Translation Management Platform using defined <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a> requests and structured <a href="http://en.wikipedia.org/wiki/Json">JSON</a> responses. You can integrate translated content files into your application by simply uploading source content files, Smartling will handle the translations, and then you can download the translated files whenever it makes sense (most likely during deployment). You can always check the status of a file or get a list of files in translation.</p>
+<div class="container page">
+
+    {% include developer-breadcrumbs.html %}
+
+    <div class="row content-start">
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include api-nav.html %}
+            </div>
+        </div>
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content">
+                <h1>{{page.title}}</h1>
+            </div>
+
+            <!-- Heading and article separated for CloudCannon editing, not layout - please don't change -->
+            <div class="main-content editable" id="main-text">
+                <h2>Overview</h2>
+                <p>The Smartling Translation API is a REST-like API that allows you to access functionality provided by the Smartling Translation Management Platform using defined <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a> requests and structured <a href="http://en.wikipedia.org/wiki/Json">JSON</a> responses. You can integrate translated content files into your application by simply uploading source content files, Smartling will handle the translations, and then you can download the translated files whenever it makes sense (most likely during deployment). You can always check the status of a file or get a list of files in translation.</p>
 
 
-<h3>Base URL</h3>
-<p>All URLs within this documentation have the following base:</p>
-<pre>https://api.smartling.com</pre>
+                <h2>Base URL</h2>
+                <p>All URLs within this documentation have the following base:</p>
+                <pre>https://api.smartling.com</pre>
 
 
-<h3>HTTP/HTTPS</h3>
-<p>Smartling Translation API requests must be served over HTTPS. This ensures data privacy which is not provided by HTTP.</p>
+                <h2>HTTP/HTTPS</h2>
+                <p>Smartling Translation API requests must be served over HTTPS. This ensures data privacy which is not provided by HTTP.</p>
 
-<h3>Authentication</h3>
-<p>Every API request you make must include an authentication token in the header. See <a href="/developers/API/v2/Authentication/">Authentication</a> for more information.</p>
+                <h2>Authentication</h2>
+                <p>Every API request you make must include an authentication token in the header. See <a href="/developers/api/v2/authentication/">Authentication</a> for more information.</p>
 
-<h3 id="DateFormat">Date Format</h3>
-<p>All dates will follow the common <a href="http://en.wikipedia.org/wiki/ISO_8601" rel="nofollow">ISO 8601</a> date and time standard format, and will be expressed in UTC:</p>
-<p><code>YYYY-MM-DDThh:mm:ssZ</code></p>
-<p>For example, 10:31 PM UTC on Saturday, August 21, 2010 would be:</p>
-<p><code>2010-08-21T22:31:00Z</code></p>
+                <h2 id="DateFormat">Date Format</h2>
+                <p>All dates will follow the common <a href="http://en.wikipedia.org/wiki/ISO_8601" rel="nofollow">ISO 8601</a> date and time standard format, and will be expressed in UTC:</p>
+                <p><code>YYYY-MM-DDThh:mm:ssZ</code></p>
+                <p>For example, 10:31 PM UTC on Saturday, August 21, 2010 would be:</p>
+                <p><code>2010-08-21T22:31:00Z</code></p>
 
-<h3>Support</h3>
-If you don't find all the answers you need in the API documentation, contact support at support@smartling.com or log a ticket with the Smartling Help Desk via <a href="http://support.smartling.com/">support.smartling.com</a>. You can keep current by following us at <a href="http://blog.smartling.com/">blog.smartling.com</a> or on Twitter <a href="http://twitter.com/#%21/smartling">@smartling.</a>
+                <h2>Support</h2>
+                If you don't find all the answers you need in the API documentation, contact support at support@smartling.com or log a ticket with the Smartling Help Desk via <a href="http://support.smartling.com/">support.smartling.com</a>. You can keep current by following us at <a href="http://blog.smartling.com/">blog.smartling.com</a> or on Twitter <a href="http://twitter.com/#%21/smartling">@smartling.</a>
+            </div>
+        </div>
+    </div>
+</div>
