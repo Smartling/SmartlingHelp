@@ -59,10 +59,5 @@ $(document).ready(function() {
         $("#contents").prepend(ToC);
         $(".panel-toc").show();
     }
-    else {
-        //if there is no ToC and also no other side-widget panels, center the main content container on the page
-        if ( !$('#FurtherReadingPanel').length && !$('#ReadFirstPanel').length ) {
-            $('#main-content-container').removeClass('col-md-offset-4').addClass('col-md-offset-2');
-        }
-    }
+
 });

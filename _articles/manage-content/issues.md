@@ -49,27 +49,27 @@ Issues are a way for users working on a translation workflow to communicate with
 
 There are two kinds of issues: **Source String issues** and **Translation issues**. The kind of issue you create will affect who sees the issue in the dashboard and receives notifications about it. Each string can support multiple issues.
 
-### Source String:
+### Source String
 
 Issues or questions about the original content, such as clarification about the meaning of the original string or a mistake/typo. Source string issues are not language specific and will be visible to all users with access to the string in any language. By default, Account Owners, Project Managers will receive notification about Source String issues if they have enabled notifications.  The Translation Resource who opens the Source String Issue and any other who comments on it will receive notifications about comments and state change.
 
-#### Types:
+#### Types
 
 * Question/Clarification
 * Typo/Misspelling
 
 
-#### Visibility and Notifications:
+#### Visibility and Notifications
 
 * All users can see, comment on and close source string issues.
 * Email notifications for source string issues are sent to all Account Owners and Project Managers for the project as well as any other users who participated in the issue by opening or commenting.
 
 
-### Translation:
+### Translation
 
 Issues dealing with the translation of the string for a particular language. Translation issues will be visible to Account Owners, Project Managers, and Translation Resources working in the same language.
 
-#### Types:
+#### Types
 
 * Poor Translation
 * Review Translation
@@ -78,13 +78,13 @@ Issues dealing with the translation of the string for a particular language. Tra
 * Placeholder Mismatch (created automatically only during translation Imports)
 
 
-#### Visibility and Notifications:
+#### Visibility and Notifications
 
 * Translation issues can be seen, commented on and closed by all Account Owners and Project Managers for the project and any Translation Resources, Translation Resource Managers and Agency Owners working in the relevant language.
 * Email Notifications are sent to any Translation Resources and Translation Resource Managers that worked on the translation as well as anyone who opened or commented on the issue. Account Owners and Project managers don’t receive notifications unless they open or comment on a translation issue.
 
 
-## Create an Issue:
+## Create an Issue
 
 **1)** Open the issues dialog from the string action menu (also accessible from the **String History** tab in the Translation Interface).
 
@@ -118,7 +118,7 @@ You can edit the text of issues and comments you created at any time. Just open 
 
 ![](/uploads/versions/smartling___translations_management-20---x----974-630x---.png)
 
-## Tips for managing Issues:
+## Tips for managing Issues
 
 * At any time, Account Owners and Project Managers can view and manage all open issues for all their projects from the [Account Dashboard](/support/articles/account-dashboard/).
 * Anyone can close an issue, but it is often good practice to let the person who opened an issue close it, to make sure they are satisfied with the resolution.
