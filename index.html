@@ -31,9 +31,9 @@ home: true
 
             <div class="home-section">
                 <div class="row">
-                    <div class="col-md-2 col-sm-2 hidden-xs-down"></div>
+                    <div class="col-md-3 col-sm-3 hidden-xs-down"></div>
                     {% for card in site.data.homepage-content.action-cards %}
-                    <div class="col-md-2 col-sm-2 col-xs-6 action-cards">
+                    <div class="col-md-2 col-sm-2 col-xs-12 action-cards">
                         <div>
                             <a href="{{card.link}}">
                                 <i class="fa {{card.icon}}" aria-hidden="true"></i>
@@ -43,7 +43,7 @@ home: true
                         </div>
                     </div>
                     {% endfor %}
-                    <div class="col-md-2 col-sm-2 hidden-xs-down"></div>
+                    <div class="col-md-3 col-sm-3 hidden-xs-down"></div>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@ home: true
         <div class="home-section whats-new-cards">
             <!-- <h2>What's New?</h2> -->
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <div class="card" id="blog">
                         <h3>Blog</h3>
                         <h4>Test Heading</h4>
@@ -59,14 +59,7 @@ home: true
                         <a href="/" class="read-more">Read more ></a>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card" id="webinars">
-                        <h3>Webinars</h3>
-                        <p>Attend weekly trainings, Q&A sessions, and demos.</p>
-                        <p><a href="/" class="button-yellow">Sign-up for training</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card" id="newsletter">
                         <h3>Newsletter</h3>
                         <p>Get weekly updates straight to your inbox.</p>
@@ -86,9 +79,9 @@ home: true
                 <div class="col-md-6">
                     <div class="card" id="best-practices">
                         <h3>Best Practices</h3>
-                        <h4>Test Heading</h4>
-                        <p>Lormem ipsum dolor sit amet, consectetur adipisicing sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua</p>
-                        <a href="/" class="read-more">Read more ></a>
+                        <h4>How Many Linguistic Packages should you have?</h4>
+                        <p>For the best and easiest way to manage everything that goes into a translation project, Smartling’s Enterprise Translation Platform lets you “package” your linguistic assets together...</p>
+                        <a href="/support/articles/best-practice-how-many-linguistic-packages-should-you-have/" class="read-more">Read more ></a>
                     </div>
                 </div>
             </div>

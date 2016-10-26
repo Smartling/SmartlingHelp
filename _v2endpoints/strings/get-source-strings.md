@@ -35,6 +35,7 @@ response:
                   {
                       "hashcode": "ebb125de896c6b7237c617ca56e73773",
                       "stringText": "My Friends",
+                      "parsedStringText": "",
                       "variant": "key.variant",
                       "keys": [
                           {
@@ -46,6 +47,7 @@ response:
                   {
                       "hashcode": "cdb125de896c6b7237c617ca56e73774",
                       "stringText": "Activity",
+                      "parsedStringText": "",
                       "variant": "key.variant",
                       "keys": [
                       ]

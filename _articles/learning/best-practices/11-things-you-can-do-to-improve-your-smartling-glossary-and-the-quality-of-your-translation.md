@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 11 things you can do to improve your  Smartling glossary (and the quality of your  translation)
+title: 11 things you can do to improve your Smartling Glossary
 draft: true
 Applies to:
   GDN: true

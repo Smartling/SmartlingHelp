@@ -23,6 +23,11 @@ request:
       required: false
       description_markdown: |
         Hashcodes for each string you want to get translations for.
+    - title: retrievalType
+      type: string
+      required: false
+      description_markdown: |
+        Sets the types of translations you want returned. `published` will only return translations that have completed their workflows and been published. `pending` will return any saved translations.
     - title: limit & offset
       type: string
       required: false
@@ -42,6 +47,7 @@ response:
                   {
                       "hashcode": "ebb125de896c6b7237c617ca56e73773",
                       "stringText": "My Friends",
+                      "parsedStringText": "",
                       "stringVariant": "key.variant",
                       "keys": [
                           {
@@ -62,6 +68,7 @@ response:
                   {
                       "hashcode": "cdb125de896c6b7237c617ca56e73774",
                       "stringText": "Your Friends",
+                      "parsedStringText": "",
                       "stringVariant": "key.variant",
                       "keys": [
                       ]

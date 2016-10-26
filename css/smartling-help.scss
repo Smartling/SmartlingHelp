@@ -569,7 +569,7 @@ $headline-padding: 12px;
         }
 
         @mixin card-background($url) {
-            background: url($url) center;
+            background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url($url) center;
         }
 
         &#blog {

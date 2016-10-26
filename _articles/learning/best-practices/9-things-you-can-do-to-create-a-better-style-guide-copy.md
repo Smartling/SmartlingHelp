@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 9 things you can do to create  a better style guide
+title: 9 things you can do to create  a better Style Guide
 draft: true
 Applies to:
   GDN: true
@@ -34,7 +34,6 @@ migration-checklist:
 ---
 
 
-&nbsp;
 
 **1. Provide as much background information as you can about your site or organization**: The better a translator understands who you are where you come from, where you are going, and how you are getting there, the better they can interpret your message. Also don’t just copy and paste your “About” page. Get your entire team involved in telling the story!
 

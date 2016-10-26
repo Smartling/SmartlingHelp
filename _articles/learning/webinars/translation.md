@@ -1,4 +1,4 @@
----
+d---
 layout: article
 title: 'Weekly Q&A: Translation Resources'
 draft: false

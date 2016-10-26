@@ -11,6 +11,12 @@ subarticles:
   - title: 5 ways you can fast track your translation
     learning_type: Guide
     image_path:
+  - title: 9 things you can do to create  a better Style Guide
+    learning_type: Guide
+    image_path:
+  - title: 11 things you can do to improve your Smartling Glossary
+    learning_type: Guide
+    image_path:
   - title: Checking On The Status Of Your Translation Project
     learning_type: Guide
     image_path:
@@ -44,15 +50,6 @@ subarticles:
   - title: 'You Are 3 Minutes Away From Translating: A Quick Video Guide To Smartling'
     learning_type: Video
     image_path:
-  - title: 'Weekly Q&A: Translation Resources'
-    learning_type: Webinar
-    image_path:
-  - title: 'Weekly Q&A: Agencies'
-    learning_type: Webinar
-    image_path:
-  - title: 'Weekly Training: Introduction to Smartling for Account Owners'
-    learning_type: Webinar
-    image_path:
 ---
 
 <div class="container page">
@@ -85,7 +82,7 @@ subarticles:
                                 </div>
                                 <div class="learning-card-bottom">
                                     <h5 class="{% case article.learning.type %}{% when 'Video' %}blue{% when 'Webinar' %}green{% when 'Guide' %}red{% when 'Best Practice' %}yellow{% endcase %}">
-                                        {{subarticle.learning_type}}: {{article.title}}
+                                        <a href="{{article.url}}">{{subarticle.learning_type}}: {{article.title}}</a>
                                     </h5>
                                 </div>
                             </div>

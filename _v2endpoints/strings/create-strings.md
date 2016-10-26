@@ -92,12 +92,14 @@ response:
           { 
              "variant": "results",
              "stringText": "Search results for [city]:",
+             "parsedStringText": "Search results for [city]",
              "hashcode": "bd606147d945h3es74d6874422bne5e0",
              "overWritten": "true"
           },
           { 
              "variant": "nav-back",
              "stringText": "Back to results",
+             "parsedStringText": "",
              "hashcode": "as24874d687239n245g3ss4422f2ecs7",
              "overWritten": "false"
           }
