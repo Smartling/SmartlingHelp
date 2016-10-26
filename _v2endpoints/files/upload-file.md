@@ -4,7 +4,7 @@ endpoint_id: UploadFile
 categories:
   - files
 layout: v2endpoint
-endpoint_url: '/files-api/v2/projects/{projectId}/file'
+endpoint_url: '/files-api/v2/projects/{{projectId}}/file'
 method: POST 
 request:
     parameters:
@@ -124,5 +124,5 @@ examples:
 
 Uploads original source content to Smartling (50MB limit for .ppt, .pptx; 25MB limit for .idml; 20MB limit for .doc, .docx; and 10MB limit for all others).
   
-See [Supported File Types](/developers/Supported-File-Types) for a list of accepted file types.
+See [our Files documentation](/developers/files/) for a list of accepted file types.
 

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Developers
+sections:
+-
+---
+
+<div class="container page">
+
+
+
+    <div class="row content-start">
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include dev-nav.html %}
+            </div>
+        </div>
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content">
+                <h1>{{page.title}}</h1>
+            </div>
+
+            <!-- Heading and article separated for CloudCannon editing, not layout - please don't change -->
+            <div class="main-content editable" id="main-text">
+                <p>Welcome to our Developer Documentation.</p>
+            </div>
+        </div>
+    </div>
+</div>
