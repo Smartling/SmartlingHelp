@@ -23,7 +23,7 @@ The Glossary API allows you to create and edit Glossaries in a Smartling account
 
 ## Rates and Limits
 
-* Maximum of 5 concurrent requests.
+* Maximum of 10 concurrent requests.
 * Maximum of 200 requests in a 15 second window.
 
 
