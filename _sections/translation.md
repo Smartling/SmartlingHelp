@@ -4,6 +4,7 @@ layout: section
 subsections:
   - title: The Translation Interface
 subarticles:
+  - title: Getting Started with Translation
   - title: Jobs (Translation Resource)
   - title: The Summary Screen (Agency Owners)
   - title: The Summary Screen (Translation Resources)
