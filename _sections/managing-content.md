@@ -10,6 +10,7 @@ subarticles:
   - title: Get Started With Smartling
   - title: Account Dashboard
   - title: Jobs
+  - title: Cost Estimates and Rates
   - title: Issues
   - title: Watching Content
   - title: Content Search
