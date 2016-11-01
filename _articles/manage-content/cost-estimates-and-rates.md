@@ -38,7 +38,7 @@ migration-checklist:
 
 ![](/uploads/versions/smartling---fuzzy-match-estimate-report--cost-estimates-test-project----x----897-684x---.png)
 
-<div class="intro">This feature is currently in beta and we are rolling it out to customers gradually. If you would like Cost Estimates enabled for your account, contact your Smartling success manager.</div>
+<div class="info">This feature is currently in beta and we are rolling it out to customers gradually. If you would like Cost Estimates enabled for your account, contact your Smartling success manager.</div>
 
 To help you plan and budget your translation work, Smartling will now automatically include a Cost Estimate when Account Owners and Project Managers run Fuzzy Match Estimate reports for a job, or for unauthorized content. To calculate Cost Estimates, Smartling let's you enter the rates you pay your Agencies and Translation Resources.  If you are purchasing translation services from Smartling the rates will be configured automatically.
 
