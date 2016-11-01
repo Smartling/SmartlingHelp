@@ -1,11 +1,11 @@
 ---
 layout: article
 title: Getting Started with Translation
-draft: true
+draft: false
 Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
+  GDN: true
+  Application-Resource-Files: true
+  CMS-Connectors: true
 edition:
 redirect-url:
 wistia:
@@ -14,22 +14,16 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   faqs:
-    - faq
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   faqs:
-    - faq
   others:
     - link:
       text:
@@ -40,3 +34,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
