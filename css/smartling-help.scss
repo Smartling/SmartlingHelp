@@ -86,7 +86,7 @@ $standard-border: 1px solid $border-grey;
         li {
             a {
                 color: $smartling-white-text-color;
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 300;
                 line-height: 30px;
             }
@@ -292,7 +292,7 @@ $standard-border: 1px solid $border-grey;
         padding-bottom: 30px;
     }
     .toc {
-        @include nav-links(16px, 20px, 8px);
+        @include nav-links(13px, 18px, 8px);
     }
 
     // Fix sidebar on large screens
@@ -333,7 +333,7 @@ $standard-border: 1px solid $border-grey;
 // MAIN CONTENT CONTAINER
 
 // Padding above and below article headline
-$headline-padding: 12px;
+$headline-padding: 8px;
 
 // Set background
 .main-content-container {
@@ -349,6 +349,7 @@ $headline-padding: 12px;
     h1 {
         padding-bottom: $headline-padding;
         color: $text-color;
+        margin-top: 21px;
     }
 
     // Center images and set default size to almost fill the container - standard for full-screen caps

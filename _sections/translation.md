@@ -2,7 +2,7 @@
 title: Translation
 layout: section
 subsections:
-  - title: none
+  - title: The Translation Interface
 subarticles:
   - title: Jobs (Translation Resource)
   - title: The Summary Screen (Agency Owners)
