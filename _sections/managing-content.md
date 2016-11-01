@@ -7,6 +7,7 @@ subsections:
   - title: Projects
   - title: Workflows
 subarticles:
+  - title: Get Started With Smartling
   - title: Account Dashboard
   - title: Jobs
   - title: Issues
@@ -31,7 +32,7 @@ migration-checklist:
 The Smartling Dashboard is your home base for managing all of your translation content. This section will teach you to:
 
 * Create and manage [projects](/support/sections/projects/) to organize your content.
-* Set up custom&nbsp;[translation workflows](/support/sections/workflows/) for different types of content.
+* Set up custom [translation workflows](/support/sections/workflows/) for different types of content.
 * Manage your content string-by-string from our powerful [List View](/support/sections/the-list-view/).
 * Create [Linguistic Assets](/support/sections/linguistic-assets/), such as [Glossaries](/support/sections/glossaries/) and [Style Guides](/support/articles/style-guides/), to help your translators work quickly and accurately.
 * [Leverage](/support/articles/leverage-configuration/) translations you've already done to save time and money.
