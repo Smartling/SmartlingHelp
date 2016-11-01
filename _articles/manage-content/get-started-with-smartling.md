@@ -9,27 +9,21 @@ Applies to:
 edition:
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: bkxddd5abk
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   faqs:
-    - faq
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   faqs:
-    - faq
   others:
     - link:
       text:
@@ -40,3 +34,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
