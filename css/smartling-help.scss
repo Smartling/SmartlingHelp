@@ -481,6 +481,11 @@ $headline-padding: 8px;
 
 // Styles for action cards at the top of the home page 'Getting Started', Account Owners', 'Developers' etc
 
+.get-started-heading {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .action-cards {
     text-align: center;
     i {

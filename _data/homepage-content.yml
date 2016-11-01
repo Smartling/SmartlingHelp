@@ -5,15 +5,15 @@ action-cards:
 
   - title: Translators
     icon: fa-globe
-    link: /
+    link: /support/articles/getting-started-with-translation/
 
   - title: Account Owners
     icon: fa-sliders
-    link: /
+    link: /support/articles/get-started-with-smartling/
 
   - title: Developers
     icon: fa-cogs
-    link: /
+    link: /developers/
 
 
 popular-topics:
