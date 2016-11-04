@@ -24,8 +24,8 @@ layout: default
             {% include wistia-video.html %}
             {% endif %}
 
-            {% if banner_image %}
-            <img src="{{banner_image}}">
+            {% if page.banner_image %}
+            <img src="{{page.banner_image}}">
             {% endif %}
             <div class="main-content" id="main-text">{{content}}</div>
         </div>
