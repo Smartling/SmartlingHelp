@@ -67,3 +67,8 @@ examples:
 Returns source strings from Smartling. You can get strings by specifying a file you want strings for, or you can specify individual strings by hashcode. 
 
 > If you do not specify at least one of these parameters (`hashcodes` or `fileUri`) no results will be returned.
+
+Note that if you use this call to get strings not created with the strings API, you may see differences in the response:
+
+* You may see a value for `parsedStringText` but a `null` value for `stringText`. The `stringText` records the raw input received by the String API so will only appear for strings uploaded via String API.
+* If you are getting a GDN string, the original placeholder values you used will not be returned, as these are not saved by Smartling. GDN strings will have placeholders in the format `{0}`, `{1}`, etc.

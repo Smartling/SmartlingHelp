@@ -87,7 +87,7 @@ response:
     { 
        "wordCount": 6,
        "stringCount": 2,
-       "processUid": "134x4r543435ff"
+       "processUid": "134x4r543435ff",
        "items": [ 
           { 
              "variant": "results",
@@ -131,5 +131,7 @@ examples:
 Uploads an array of strings to a Smartling project. A maximum of 100 strings can be created per request. A request with more than 100 items will return an error. Each string has a character limit of 10 000.
 
 Note that you cannot authorize a string via API. Once you have created the strings, they will need to be [authorized](//support/articles/authorize-content-from-the-list-view/) by a content owner in the Smartling Dashboard.
+
+Smartling creates a unique hashcode for each string based on the parsed string text and any variant metadata provided. If you upload a string with the same text and variant, and therefore the same hashcode, the existng string will be overwritten. This will not change the text of the string, but may update other metadata, such as placeholder and callback values. If the string is currently inactive, overwriting it will cause it to be reactivated. Overwritten strings return `"overWritten": "true"` in the response object.
  
  Most uploads will return a `200` response indicating success. If processing the request takes longer than 60 seconds, a `202` request will be returned, including a `processUid` value that can be used to check on the progress of the request.
