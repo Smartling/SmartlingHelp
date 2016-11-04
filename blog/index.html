@@ -1,0 +1,32 @@
+---
+title: blog
+layout: default
+---
+
+<div class="container page">
+    {% if page.dev %}
+    {% include developer-breadcrumbs.html %}
+    {% endif %}
+    {% unless page.dev %}
+    {% include breadcrumbs.html %}
+    {% endunless %}
+    <div class="row content-start">
+
+
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content"><h1>Product Bloc</h1></div>
+            <!-- Heading, video and article separated for CloudCannon editing, not layout -->
+
+            {% for post in site.posts %}
+
+            <div class="main-content" id="main-text">
+                <h2>{{post.title}}</h2>
+                <p>{{post.excerpt}}</p>
+                <p><a href="{{post.url}}">...more</a></p>
+            </div>
+
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
