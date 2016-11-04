@@ -4,26 +4,24 @@ layout: default
 ---
 
 <div class="container page">
-    {% if page.dev %}
-    {% include developer-breadcrumbs.html %}
-    {% endif %}
-    {% unless page.dev %}
-    {% include breadcrumbs.html %}
-    {% endunless %}
-    <div class="row content-start">
+\
+    <div class="row content-start-no-crumb">
 
 
-        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
-            <div class="main-content"><h1>Product Bloc</h1></div>
+        <div class="col-md-{{site.right-width}} col-md-offset-4 main-content-container" id="main-content-container">
+            <div class="main-content"><h1>Product Blog</h1></div>
+            <div><p><br/></p></div>
             <!-- Heading, video and article separated for CloudCannon editing, not layout -->
 
             {% for post in site.posts %}
 
             <div class="main-content" id="main-text">
                 <h2>{{post.title}}</h2>
+                <img class="banner-image" src="{{post.banner_image}}">
                 <p>{{post.excerpt}}</p>
                 <p><a href="{{post.url}}">...more</a></p>
             </div>
+            <div><p><br/></p></div>
 
             {% endfor %}
         </div>

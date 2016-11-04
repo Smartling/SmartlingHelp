@@ -3,12 +3,16 @@ layout: default
 ---
 
 <div class="container page">
-    {% if page.dev %}
-    {% include developer-breadcrumbs.html %}
-    {% endif %}
-    {% unless page.dev %}
-    {% include breadcrumbs.html %}
-    {% endunless %}
+
+    <div class="row smartling-breadcrumbs">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                <li><a href="/blog/">Product Blog</a></li>
+                <li>{{page.title}}</li>
+            </ol>
+        </div>
+    </div>
+
     <div class="row content-start">
 
         <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
@@ -18,15 +22,17 @@ layout: default
         </div>
 
         <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
-            <div class="main-content"><h1>{{page.title}}</h1></div>
-            <!-- Heading, video and article separated for CloudCannon editing, not layout -->
-            {% if page.wistia.video %}
-            {% include wistia-video.html %}
-            {% endif %}
+            <div class="main-content">
+                <h1>{{page.title}}</h1>
+                <!-- Heading, video and article separated for CloudCannon editing, not layout -->
+                {% if page.wistia.video %}
+                {% include wistia-video.html %}
+                {% endif %}
 
-            {% if page.banner_image %}
-            <img src="{{page.banner_image}}">
-            {% endif %}
+                {% if page.banner_image %}
+                <img class="banner-image" src="{{page.banner_image}}">
+                {% endif %}
+            </div>
             <div class="main-content" id="main-text">{{content}}</div>
         </div>
 

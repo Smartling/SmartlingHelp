@@ -151,7 +151,7 @@ $standard-border: 1px solid $border-grey;
 
 // For pages with no breadcrumb, bump up main content
 .content-start-no-crumb {
-    margin-top: $navbar-height + 50px;
+    margin-top: $navbar-height + 20px;
 }
 
 // END HEADER STYLES AND LAYOUT
@@ -372,6 +372,11 @@ $headline-padding: 8px;
     }
     img[alt="small"] {
         max-width: 40%;
+    }
+
+    img.banner-image {
+        width: 100%;
+        max-width: 100%;
     }
 
     // Paragraph spacing
