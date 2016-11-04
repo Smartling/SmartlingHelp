@@ -35,13 +35,13 @@ request:
       type: string
       required: false
       description_markdown: |
-        Specifies a standard placeholder format. Accepted values are: `none`, `c`, `ios`, `python`, `java`, `yaml`, `qt`, `resx`. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-type/placeholders-in-resource-files/)
+        Specifies a standard placeholder format. Accepted values are: `none`, `c`, `ios`, `python`, `java`, `yaml`, `qt`, `resx`. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-types/placeholders-in-resource-files/)
 
     - title: placeholderFormatCustom
       type: string
       required: false
       description_markdown: |
-        Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-type/placeholders-in-resource-files/)
+        Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-types/placeholders-in-resource-files/)
 
     - title: stringText
       type: string
@@ -59,7 +59,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        If provided a callback request will be sent to this URL when translation for the string is complete. See our [callbacks](/developers/apii/v2/callbacks/) documentation for more details.    
+        If provided a callback request will be sent to this URL when translation for the string is complete. See our [callbacks](/developers/api/v2/callbacks/) documentation for more details.    
 
     - title: callbackMethod
       type: string
@@ -117,7 +117,7 @@ response:
     - title: processUid
       type: string
       description_markdown: |
-        If the request takes longer than 60 seconds to process, a 202 response will be returned, indicating the request has not failed, but is not yet complete. Use the `processUid` value to check the status of the request using the [Check Create String Status](/developers/apii/v2/strings/check-create-strings-status/) request.
+        If the request takes longer than 60 seconds to process, a 202 response will be returned, indicating the request has not failed, but is not yet complete. Use the `processUid` value to check the status of the request using the [Check Create String Status](/developers/api/v2/strings/check-create-strings-status/) request.
     - title: items
       type: object
       description_markdown:

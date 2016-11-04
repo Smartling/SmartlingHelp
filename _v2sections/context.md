@@ -25,11 +25,11 @@ We can use the Image Context API to associate the string with the picture.
 
 ## Manually bind strings with a context image.
 
-**1)** Upload the context image with the [Upload Context File](/developers/apii/v2/context/upload-context/) request and save it's unique ID from the response.
+**1)** Upload the context image with the [Upload Context File](/developers/api/v2/context/upload-context/) request and save it's unique ID from the response.
 
 **2)** Get the string hashcode for our 'Check Availability' string. We can do this using the String API.
 
-**3)** Use the [Create Bindings](/developers/apii/v2/context/create-bindings/) request to create an association in Smartling between the string and the context image. We refer to this association as a 'binding'. Each binding also has a unique ID.
+**3)** Use the [Create Bindings](/developers/api/v2/context/create-bindings/) request to create an association in Smartling between the string and the context image. We refer to this association as a 'binding'. Each binding also has a unique ID.
 
 ## Upload context image and create bindings automatically
 
@@ -37,8 +37,8 @@ Smartling can use optical character recognition (OCR) to automatically bind stri
 
 **1)** Upload your resource files via the File API.
 
-**2)** Upload as many context images as you wish for your project with the [Upload Context File](/developers/apii/v2/context/upload-context/) request.
+**2)** Upload as many context images as you wish for your project with the [Upload Context File](/developers/api/v2/context/upload-context/) request.
 
-**3)** Use the [Match Strings to Context Image](/developers/apii/v2/context/match-context-to-strings/) request to automatically bind the context image to matching strings in your project. Note that this method is not 100% accurate. You may still need to manually match some strings.
+**3)** Use the [Match Strings to Context Image](/developers/api/v2/context/match-context-to-strings/) request to automatically bind the context image to matching strings in your project. Note that this method is not 100% accurate. You may still need to manually match some strings.
 
 We can also use the Image Context API to get a list of all current bindings for a Smartling Project, string, or context image, and to delete any binding to remove the association between a string and image.

@@ -29,7 +29,7 @@ request:
       type: string
       required: true
       description_markdown: |
-        Unique identifier for the context to bind. Available from the [Upload Context](/developers/apii/v2/context/upload-context/) response.
+        Unique identifier for the context to bind. Available from the [Upload Context](/developers/api/v2/context/upload-context/) response.
         
     - title: stringHashcode
       type: string

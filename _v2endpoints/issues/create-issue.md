@@ -45,7 +45,7 @@ request:
       type: string
       required: true
       description_markdown: |
-        Unique identifier for a string in Smartling. Used by the Issues API to attach an issue to a string. You can get the hashcode for a string via [String API](/developers/apii/v2/strings/).
+        Unique identifier for a string in Smartling. Used by the Issues API to attach an issue to a string. You can get the hashcode for a string via [String API](/developers/api/v2/strings/).
       values:
         - title:
           description_markdown:

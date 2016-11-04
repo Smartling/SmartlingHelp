@@ -49,7 +49,7 @@ Some events in Smartling can trigger callbacks to a specified URL. Callbacks usu
 
 ### String is translated for a locale
 
-This callback is sent to the URL provided in the [Create Strings](/developers/apii/v2/strings/create-strings/) request. It can be sent as a GET or POST request. The POST request looks like:
+This callback is sent to the URL provided in the [Create Strings](/developers/api/v2/strings/create-strings/) request. It can be sent as a GET or POST request. The POST request looks like:
 
 ~~~json
 {
