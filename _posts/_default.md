@@ -1,5 +1,5 @@
 ---
-title: Another Test
+title:
 banner_image:
 excerpt:
 categories:

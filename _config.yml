@@ -74,6 +74,9 @@ collections:
 #    output: false
 #    permalink: "/terms/:title/"
 
+  posts:
+    output: true
+    permalink: "blog/:categories/:title"
 
 #CloudCannon Helpers
 
