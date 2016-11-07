@@ -72,7 +72,7 @@ collections:
 
 #  terms:
 #    output: false
-#    permalink: "/terms/:title/"
+#    permalink: "terms/:title/"
 
   posts:
     output: true
