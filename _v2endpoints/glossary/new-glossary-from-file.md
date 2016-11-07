@@ -26,7 +26,7 @@ request:
         Description for the glossary
     - title: importFile
       type: file
-      required: false
+      required: true
       description_markdown: |
         XLSX file containing the Glossary you want to import. See [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/) for details.
 response:
@@ -35,26 +35,26 @@ response:
     {
        "response":{
           "code":"SUCCESS",
-          "data":{
+          "data":{ 
              "glossaryImportJobUid":"78d93dde-5e3d-4beb-8171-415f82ca2c7b",
-             "glossary": {
-               "glossaryUid": "5c8d2aa8-e254-4ab3-8eb3-3b96b24f8609",
-               "name": "Import keysight test",
-               "accountUid": "8a196313",
-               "createdByUserUid": "58870b8ee965",
+             "glossary": { 
+               "glossaryUid": "5c8d2aa8-e254-4ab3-8eb3-3b96b24f8609", 
+               "name": "Import keysight test", 
+               "accountUid": "8a196313", 
+               "createdByUserUid": "58870b8ee965", 
                "sourceLocaleId": "en",
-               "description": "test desc",
+               "description": "test desc", 
                "createdDate": "2016-05-18T12:04:38Z"
              },
-             "fileName":"ExampleImportGlossary2.xlsx",
-             "accountUid":"b76d6285",
-             "glossaryImportJobStatus":"PENDING",
-             "termsNumber":10,
-             "termsProcessed":0,
-             "localesNumber":20,
-             "createdDate":"2016-03-21T15:00:48Z",
-             "modifiedDate":"2016-03-21T15:00:48Z",
-             "createdByUserUid":"58870b8ee965"
+             "fileName": "ExampleImportGlossary2.xlsx",
+             "accountUid": "b76d6285",
+             "glossaryImportJobStatus": "PENDING",
+             "termsNumber": 10,
+             "termsProcessed": 0,
+             "localesNumber": 20,
+             "createdDate": "2016-03-21T15:00:48Z",
+             "modifiedDate": "2016-03-21T15:00:48Z",
+             "createdByUserUid": "58870b8ee965"
           }
        }
     }
@@ -65,6 +65,6 @@ examples:
     description_markdown:
 ---
 
-Creates a new Glossary in a Smartling account from an uploaded Excel spreadsheet. The format of the spreadsheet is important. See [Import Glossary](/support/articles/import-glossary/) and [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/).
+Creates a new Glossary in your account from an uploaded Excel spreadsheet. The format of the spreadsheet is important. See [Import Glossary](/support/articles/import-glossary/) and [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/).
 
 This process is asynchronous and may take a few minutes to complete. Therefore the response will have a `202 ACCEPTED` status, instead of the usual `200 SUCCESS`. The response includes a `glossaryImportJobUid` which can be used to check the status of the import. 

@@ -11,7 +11,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Return terms matching a string. Match is case-insensitive and non-strict. For example, `termText=cold` will match `Cold Call`.
+        Return terms matching a string. Match is wildcard-style and case-insensitive. For example, `termText=cold` will match `Cold Call`, but `termText=Cold Calls` will not.
     - title: limit
       type: number
       required: false
