@@ -15,6 +15,10 @@ Pre-Publish is especially useful for customers using GDN and for customers who h
 
 Whenever content is Saved or Submitted and Pre-Publish is ON, translations are pushed to the live language web site immediately. &nbsp;The content will continue through the Workflow and update at each following Workflow Step.
 
+![](/uploads/versions/image00---x----677-292x---.png)
+
 ## File API with Callback or CMS Connectors
 
 If a customer has integrated with the Smartling File API and has passed a callback URL, as content is completed - a string or an entire file - Smartling will execute a callback to whatever URL was passed in with the string or file on initial upload. &nbsp;This gives the opportunity to validate in-progress translations or push translations live immediately. &nbsp;The content will continue through the Workflow and update at each following Workflow Step.
+
+![](/uploads/versions/image01---x----647-301x---.png)
