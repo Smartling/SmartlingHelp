@@ -78,6 +78,15 @@ collections:
     output: true
     permalink: "blog/:categories/:title"
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /blog/:categories/:title/
+
+
 #CloudCannon Helpers
 
 editions:
