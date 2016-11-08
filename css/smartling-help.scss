@@ -377,6 +377,7 @@ $headline-padding: 8px;
     img.banner-image {
         width: 100%;
         max-width: 100%;
+        margin-bottom: 15px;
     }
 
     // Paragraph spacing
@@ -892,6 +893,20 @@ h4.required {
         display: none;
     }
 
+// Social Buttons
+
+.social-button {
+    display: inline-block !important;
+    vertical-align: top !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.fb-share-button {
+    position: relative;
+    bottom: 5px;
+}
 
 
 

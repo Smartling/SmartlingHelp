@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+<script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+        t._e.push(f);
+    };
+
+    return t;
+}(document, "script", "twitter-wjs"));</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1765996020299431";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="container page">
 
@@ -28,12 +52,21 @@ layout: default
                 {% if page.wistia.video %}
                 {% include wistia-video.html %}
                 {% endif %}
-
+                <div class="fb-share-button social-button" data-href="http://help.smartling.com{{page.url}}" data-layout="button"></div>
+                <div class="twitter-share-button social-button">
+                    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>
                 {% if page.banner_image %}
                 <img class="banner-image" src="{{page.banner_image}}">
                 {% endif %}
             </div>
+
+
+
             <div class="main-content" id="main-text">{{content}}</div>
+
+
         </div>
 
     </div>

@@ -31,7 +31,21 @@
   <!-- Bootstrap Core CSS -->
   <link href="/css/bootstrap.css" rel="stylesheet">
 
+  {% if page.layout == 'blogpost' %}
 
+  <meta property="og:url"           content="http://help.smartling.com{{page.url}}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Smartling - {{page.title}}" />
+  <meta property="og:description"   content="{{page.excerpt}}" />
+  <meta property="og:image"         content="http://help.smartling.com{{page.banner_image}}" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@smartling">
+  <meta name="twitter:title" content="Smartling - {{page.title}}">
+  <meta name="twitter:description" content="{{page.excerpt}}">
+  <meta name="twitter:image" content="http://help.smartling.com{{page.banner_image}}">
+
+  {% endif %}
 
 
 </head>
