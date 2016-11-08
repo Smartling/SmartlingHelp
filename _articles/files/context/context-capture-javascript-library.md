@@ -50,9 +50,36 @@ This project is currently in beta. You will need a unique orgId to upload contex
 
 For a Single-Page Application or any other Javascript-based page, use the following snippet to load the Context Capture Library:
 
+~~~javascript
+(function (w, o) {
+      try {
+        var h = document.getElementsByTagName('head')[0];
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = 1;
+        s.crossorigin = 'anonymous';
+        s.src = '//d2c7xlmseob604.cloudfront.net/tracker.min.js';
+        s.onload = function () {
+          w.SmartlingContextTracker.init({ orgId: o });
+        };
+        h.insertBefore(s, h.firstChild);
+      } catch (ex) {
+      }
+    })(window, '[your orgId]')
+~~~
+
 ### HTML Embedding
 
 For an HTML-based page, just reference the script, and initialize the SmartlingContextTracker object:
+
+~~~html
+<script type="text/javascript" src="//d2c7xlmseob604.cloudfront.net/tracker.min.js"></script>
+<script>
+    SmartlingContextTracker.init({
+      orgId: '[your orgId]'
+    });
+</script>
+~~~
 
 ## Capturing Context
 
