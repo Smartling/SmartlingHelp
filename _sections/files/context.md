@@ -5,6 +5,7 @@ master_category: false
 subsections:
   - title: Chrome Context Capture Extension
 subarticles:
+  - title: Context Capture JavaScript Library
   - title: Adobe InDesign Context
   - title: Image Context for Mobile and Desktop Apps
 migration-checklist:
