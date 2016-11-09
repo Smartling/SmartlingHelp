@@ -41,8 +41,14 @@ In an Application Resource Files or Business Documents projects, an in-progress 
 
 In a GDN project, a string will become inactive if the string is not referred to by the GDN for an extended period of time.
 
+## Finding inactive strings
+
 By default, the list view will hide all inactive strings. However, you can show inactive strings by setting the list view filter to **Inactive Only**.
 
 ![](/uploads/versions/screenshot_6_21_16__1_36_pm---x----2560-1379x---.png)
 
+## Reactivating strings
+
 Inactive strings cannot be edited or translated, but they do still form a part of your translation memory, so poor translations in an inactive string can cause issues with future translations. If you wish to edit the translation for an inactive string, you need to reactivate it by clicking **Reactivate** or, for multiple strings, selecting **Reactivate String** from the **Actions** menu. This action can be performed by Account Owners and Project Managers only.![](/uploads/versions/screenshot_6_21_16__1_45_pm---x----2560-1374x---.png)
+
+<div class="info">It is possible for inactive strings to automatically become reactivated under certain conditions. For example, if you upload a file, then in a later upload of the file, remove one string, that string will become inactive. If you restore the string to the file in a later upload, the string will become reactivated, instead of a new string being created.</div>
