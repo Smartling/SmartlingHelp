@@ -73,6 +73,12 @@ request:
       description_markdown: |
         Creates an instruction that is displayed to translators in the Smartling Translation Interface.    
 
+    - title: namespace
+      type: string
+      required: false
+      description_markdown: |
+        Used to generate the unique hashcode for a string. If you want to have two versions of a string with the same text and variant metadata, you can keep them unique by assigning a different namespace to each string. If not provided, default value is `smartling.strings-api.default.namespace`. A `NULL` value is permitted.
+
     - title: format
       type: string
       required: false
