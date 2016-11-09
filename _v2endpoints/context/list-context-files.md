@@ -5,6 +5,14 @@ categories:
 layout: v2endpoint
 endpoint_url: '/context-api/v2/projects/{{projectId}}/contexts'
 method: GET
+request:
+  parameters:
+    - title: offset
+      type: string
+      required: false
+      description_markdown: |
+        If your original request returns an `offset` value, the set of results is incomplete. Run the request again, with the given `offset` value to see more results. When `offset` is null, there are no more results to return.
+
 response:
   json_markdown: |-
     ~~~json
@@ -12,7 +20,6 @@ response:
       "response": {
         "code": "SUCCESS",
         "data": {
-          "totalCount": 2,
           "items": [
             {
               "contextUid": "456sf9e5-0ef5-4s82-b65f-a00ge12sabv0",
@@ -26,7 +33,8 @@ response:
               "name": "image-context.jpg",
               "created": "09/26/2016 18:22:54.879"
             }
-          ]
+          ],
+          "offset": null
         }
       }
     }
