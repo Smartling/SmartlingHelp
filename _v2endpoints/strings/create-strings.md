@@ -12,6 +12,7 @@ request:
     {
        "placeholderFormat":"java",
        "placeholderFormatCustom":"\\[.+?\\]",
+       "namespace": "result.page",
        "strings":[
           {
              "stringText": "Search results for [city]:",
@@ -19,7 +20,6 @@ request:
              "callbackUrl": "http://smartlinghotels.com/upload/callbacks/",
              "callbackMethod": "POST",
              "format":"html"
-             "namespace": "result.page"
           },
           {
              "stringText": "Back to results",
@@ -43,6 +43,12 @@ request:
       required: false
       description_markdown: |
         Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-types/placeholders-in-resource-files/)
+
+    - title: namespace
+      type: string
+      required: false
+      description_markdown: |
+        Used to generate the unique hashcode for all strings in the request. If you want to have two versions of a string with the same text and variant metadata, you can keep them unique by assigning a different namespace to each string. If not provided, default value is `smartling.strings-api.default.namespace`. A `NULL` value is permitted.
 
     - title: stringText
       type: string
@@ -73,12 +79,6 @@ request:
       required: false
       description_markdown: |
         Creates an instruction that is displayed to translators in the Smartling Translation Interface.    
-
-    - title: namespace
-      type: string
-      required: false
-      description_markdown: |
-        Used to generate the unique hashcode for a string. If you want to have two versions of a string with the same text and variant metadata, you can keep them unique by assigning a different namespace to each string. If not provided, default value is `smartling.strings-api.default.namespace`. A `NULL` value is permitted.
 
     - title: format
       type: string
