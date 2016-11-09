@@ -19,6 +19,7 @@ request:
              "callbackUrl": "http://smartlinghotels.com/upload/callbacks/",
              "callbackMethod": "POST",
              "format":"html"
+             "namespace": "result.page"
           },
           {
              "stringText": "Back to results",
