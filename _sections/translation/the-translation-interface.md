@@ -5,6 +5,7 @@ subsections:
   - title: none
 subarticles:
   - title: Customize Fonts in the Translation Interface
+  - title: Translating Plurals
   - title: Manually Add or Delete Spaces in a Translation
   - title: Insertable Shortcuts
   - title: Placeholders in the Translation Interface
