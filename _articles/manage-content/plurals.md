@@ -57,8 +57,8 @@ In this example, $rooms_available_count is the quantity variable, used to look u
 
 ~~~yaml
 rooms_available:
-        one: “%{rooms_available_count} room available”
-        other: “%{rooms_available_count} rooms available”
+        one: “%{rooms_available_count} room available.”
+        other: “%{rooms_available_count} rooms available.”
 ~~~
 
 Avoid constructions like these:
@@ -66,11 +66,13 @@ Avoid constructions like these:
 ~~~yaml
 rooms_available:
         zero: “Zilch.”
-        #zero is not a standard form for English in CLDR
-        one: “Last room available”
-        #each standard form should refer to the quantity variable
-        other: “%{rooms_available_count} rooms available”
+        # Zero is not a standard form for English in CLDR.
+        one: “Last room available.”
+        # Each standard form should refer to the quantity variable.
+        other: “%{rooms_available_count} rooms available.”
 ~~~
+
+Plural strings should conform to the CLDR standards for plural forms, should always refer to the quantity variable and should only differ as much as is necessary for correct grammar in the target language. If you want to handle a specific quantity in a special way, for example: "Sorry, there are no rooms available!" or "Hurry, there is only one room left!", use conditional statements to fetch a different string.
 
 ## Plurals for Gettext Files
 
