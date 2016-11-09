@@ -34,60 +34,43 @@ migration-checklist:
 ---
 
 
-Many languages have multiple ways to express a [plural form](http://www.unicode.org/cldr/charts/27/supplemental/language_plural_rules.html).
 
-For example, English (Canada) has two plural forms:
+Smartling supports [plural sensitive translation of strings](/articles/translating-plurals/). In order for strings to have pluralized translations, your development platform must also be able to support plural strings in your resource files.  Your application development platform will determine exactly how you can create plural strings in your Smartling project. Typically, this is achieved through special APIs/Functions/Methods that allow the developer to identify strings that need to be pluralized and provide a quantity variable. The appropriate form of the string is selected at runtime according to the quantity variable and the language.  Smartling currently supports plural strings in YAML, Gettext, QT TS Linguist, Android XML and iOS files, as well as in Global Delivery Network projects.
 
-1. For 1 item
-2. For 0, 2, 3, 4, 5, 6… items
+Smartling’s support for plurals is based on the Unicode [CLDR](http://www.unicode.org/cldr/charts/27/supplemental/language_plural_rules.html) standard.  We support two CLDR forms for English; One and Other (which correspond to the 'singular' and 'plural' forms in English gramamr).  If a string is captured as a plural string, we will ask translators to provide the correct number and type of forms - based on CLDR - for each language.  We will then deliver the translations in the correct number of forms in the translated file or via the localized GDN site.  The number of forms for a specific target language can be more or less than the forms for the source language.
 
+## Best practices for working with plurals
 
-Whereas, Belarusian has three plural forms:
-
-1. For 1, 21, 31, 41, 51, 61… items
-2. For 2, 3, 4, 22, 23, 24… items
-3. For 0, 5, 6, 7, 8, 9… items
+* Carefully review your platform’s or selected library's native support and avoid “rolling your own” solution for plurals.
+* Keep plural strings simple; use only a single quantity variable in a string.
+* Include the quantity variable in all of the original forms of the string to avoid confusing translators.
 
 
-Smartling allows you to specify that a string is plural sensitive and that it requires translation to a number of plural forms (depending on the target languages).
+In your application code, deploying a plural string will look something like this:
 
-Smartling currently supports plural forms in YAML, Gettext, QT TS Linguist, Android XML and iOS files.
+~~~
+String rooms = format(‘rooms_available', $rooms_available_count);
+print($rooms);
+~~~
 
-## Add translations for plural forms
+In this example, $rooms_available_count is the quantity variable, used to look up the correct form of the `rooms_available` string. In a YAML file, your `rooms_available` might look something like this:
 
-**1)** [Upload](/articles/upload-and-manage-files/){: .cc-active} the file.
+~~~yaml
+rooms_available:
+        one: “%{rooms_available_count} room available”
+        other: “%{rooms_available_count} rooms available”
+~~~
 
-**2)** The source strings appear at Translations &gt; In progress.
+Avoid constructions like these:
 
-![](/uploads/versions/plurals_list_view---x----576-213x---.jpg)
-
-**3)** The “1” icon indicates that the string is plural sensitive. Click to view all the plural forms in the original language.
-
-**4)** For the plural sensitive string you want to modify, click **Edit**.
-
-**5)** The Translation Interface provides the correct number of plural forms depending on the target language.
-
-![](/uploads/versions/name-ti_content_plurals---x----576-277x---.jpg)
-
-**6)** Add a translation for each form and click **Save**.
-
-**7)** You can copy down the content in the translation box, by clicking **Copy** this translation down to the rest of the plural forms.
-
-**8)** To save the translation, you must provide a translation for each plural form in the target language (Smartling does not allow partial translations).
-
-![](/uploads/versions/name-ti_content_plurals_copydown---x----576-280x---.jpg)
-
-The Prior Versions tab of the Translation Interface displays history for the selected form.
-
-You can now download the file that includes the translated forms.
-
-## Workflow
-
-All forms of the translation move through workflow together. For example, if an editor rejects the translation because there is a problem with one plural form, they reject all plural forms for the translation. A translator only needs to modify the form that requires re-translation, but all plural forms move through the workflow together.
-
-Similarly, [issues](/articles/issues/){: .cc-active} raised for the translation of plural sensitive strings apply to all the forms. If the issue only applies to a specific form, the text of the issue should specify the plural form.
-
-When you download the translated file, the number of plural forms in the file depends on the target language and file format.
+~~~yaml
+rooms_available:
+        zero: “Zilch.”
+        #zero is not a standard form for English in CLDR
+        one: “Last room available”
+        #each standard form should refer to the quantity variable
+        other: “%{rooms_available_count} rooms available”
+~~~
 
 ## Plurals for Gettext Files
 
@@ -168,3 +151,7 @@ ru.lproj/Localizable.strings
 "%d songs found##{many}" = "Найдено %d песен";
 "%d songs found##{other}" = "Найдено %d песен";
 </code></pre></div>
+
+## Plurals in the GDN
+
+Plural strings in the GDN are identified by wrapping the quantity variable in `<span class="sl_plural">` tags. See our [GDN integration documentation](/support/articles/handle-plurals-in-a-gdn-project/) for more details.
