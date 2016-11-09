@@ -32,13 +32,13 @@ migration-checklist:
   reviewed: false
 ---
 
+
 Many languages have multiple ways to express a [plural form](https://en.wikipedia.org/wiki/Plural).
 
-For example, English (Canada) has two plural forms:
+For example, English has two plural forms:
 
 1. For 1 item
 2. For 0, 2, 3, 4, 5, 6… items
-
 
 Whereas, Belarusian has three plural forms:
 
@@ -46,29 +46,25 @@ Whereas, Belarusian has three plural forms:
 2. For 2, 3, 4, 22, 23, 24… items
 3. For 0, 5, 6, 7, 8, 9… items
 
-
-Smartling allows content owners to specify that a string is plural sensitive and that it requires translation to a number of plural forms (depending on the target languages).
-
-Smartling currently supports plural forms in YAML, Gettext, QT TS Linguist, Android XML and iOS files.
+When a string has plural forms, a separate translation is provided for each form.
 
 ## Add translations for plural forms
 
+**1)** Plural source strings appear at **Translations &gt; In Progress**. A cascading pages icon marks plural strings. Mouseover to see all plural forms.
 
-**1)** Plural source strings appear at **Translations > In Progress**. A cascading pages icon marks plural strings. Mouseover to see all plural forms.
-
-![](/uploads/versions/plurals_list_view---x----576-213x---.jpg)
+![](/uploads/versions/smartling---translations-management--smartlinghotels-node----x----1236-588x---.png)
 
 **2)** For the plural sensitive string you want to modify, click **Add Translation** or **Edit**.
 
-**3)** The Translation Interface provides the correct number of plural forms depending on the target language. The Prior Versions tab of the Translation Interface displays history for the curently selected form.
+**3)** The Translation Interface provides the correct number of plural forms depending on the target language. The Prior Versions tab of the Translation Interface displays history for the currently selected form.
 
-![](/uploads/versions/name-ti_content_plurals---x----576-277x---.jpg)
+![](/uploads/versions/smartling---translations-management--smartlinghotels-node----x----1586-802x---.png)
 
 **4)** Add a translation for each plural form and click **Save**.
 
 You can copy down the content in the translation box to the other plural forms with a shortcut:
 
-![](/uploads/versions/name-ti_content_plurals_copydown---x----576-280x---.jpg)
+![](/uploads/versions/smartling---translations-management--smartlinghotels-node----x----1562-772x---.png)
 
 > To save the translation, you must provide a translation for each plural form in the target language (Smartling does not allow partial translations).
 
