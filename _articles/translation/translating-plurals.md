@@ -35,7 +35,7 @@ migration-checklist:
 
 Many languages have multiple ways to express a [plural form](https://en.wikipedia.org/wiki/Plural).
 
-For example, English (Canada) has two plural forms:
+For example, English has two plural forms:
 
 1. For 1 item
 2. For 0, 2, 3, 4, 5, 6… items
@@ -46,9 +46,7 @@ Whereas, Belarusian has three plural forms:
 2. For 2, 3, 4, 22, 23, 24… items
 3. For 0, 5, 6, 7, 8, 9… items
 
-Smartling allows content owners to specify that a string is plural sensitive and that it requires translation to a number of plural forms (depending on the target languages).
-
-Smartling currently supports plural forms in YAML, Gettext, QT TS Linguist, Android XML and iOS files.
+When a string has plural forms, a separate translation is provided for each form.
 
 ## Add translations for plural forms
 
