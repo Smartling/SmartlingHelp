@@ -9,9 +9,9 @@ response:
   json_markdown: |
     ~~~json
     {
-       "response":{
-          "code":"SUCCESS",
-          "data":null
+       "response": {
+          "code": "SUCCESS",
+          "data": null
        }
     }
     ~~~

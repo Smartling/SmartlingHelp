@@ -11,37 +11,34 @@ request:
     {
        "terms":[
           {
-             "termText":"term 22",
-             "partOfSpeechCode":"UNSPECIFIED",
-             "definition":"",
-             "notes":"",
-             "caseSensitive":false,
-             "exactMatch":false,
-             "variations":"",
-             "synonyms":"",
-             "antonyms":"",
-             "seo":false,
-             "doNotTranslate":false
+             "termText": "Cold Call",
+             "partOfSpeechCode": "VERB",
+             "definition": "An unsolicited sales call.",
+             "notes": "Do not translate literally, use appropriate local term.",
+             "caseSensitive": false,
+             "exactMatch": false,
+             "variations": "propspecting",
+             "synonyms": "outbound call",
+             "antonyms": "inbound marketing",
+             "seo": false,
+             "doNotTranslate": false,
+             "translation": {
+                "localeId": "fr-FR",
+                "translatedTerm": "démarchage téléphonique",
+                "notes": "Avoid using 'prospection téléphonique'",
+                "translatorUserUid": "58870b8e965",
+                "submittedForTranslation": true,
+                "lockTranslation": false
+             }
           },
           {
-             "termText":"term 33",
-             "partOfSpeechCode":"UNSPECIFIED",
-             "definition":"",
-             "notes":"",
-             "caseSensitive":false,
-             "exactMatch":false,
-             "variations":"",
-             "synonyms":"",
-             "antonyms":"",
-             "seo":false,
-             "doNotTranslate":false,
-             "translation":{
-                "localeId":"fr-CA",
-                "translatedTerm":"term 33 french ca",
-                "notes":"some notes from user",
-                "translatorUserUid":"58870b8ee965",
-                "lockTranslation":false
-             }
+             "termText": "Banner",
+             "partOfSpeechCode": "NOUN",
+             "definition": "Large web ad.",
+             "caseSensitive": false,
+             "exactMatch": false,
+             "seo": false,
+             "doNotTranslate": false
           }
        ]
     }
@@ -50,44 +47,40 @@ response:
   json_markdown: |
     ~~~json
     {
-       "response":{
-          "code":"SUCCESS",
-          "data":{
-             "totalCount":2,
-             "items":[
+       "response": {
+          "code": "SUCCESS",
+          "data": {
+             "totalCount": 2,
+             "items": [
                 {
-                   "termText":"term 22",
-                   "partOfSpeechCode":"UNSPECIFIED",
-                   "definition":"",
-                   "notes":"",
-                   "caseSensitive":false,
-                   "exactMatch":false,
-                   "variations":"",
-                   "synonyms":"",
-                   "antonyms":"",
-                   "seo":false,
-                   "doNotTranslate":false
+                     "termText": "Cold Call",
+                     "partOfSpeechCode": "VERB",
+                     "definition": "An unsolicited sales call.",
+                     "notes": "Do not translate literally, use appropriate local term.",
+                     "caseSensitive": false,
+                     "exactMatch": false,
+                     "variations": "propspecting",
+                     "synonyms": "outbound call",
+                     "antonyms": "inbound marketing",
+                     "seo": false,
+                     "doNotTranslate": false,
+                     "translation": {
+                        "localeId": "fr-FR",
+                        "translatedTerm": "démarchage téléphonique",
+                        "notes": "Avoid using 'prospection téléphonique'",
+                        "translatorUserUid": "58870b8e965",
+                        "submittedForTranslation": true,
+                        "lockTranslation": false
+                     }
                 },
                 {
-                   "termText":"term 33",
-                   "partOfSpeechCode":"UNSPECIFIED",
-                   "definition":"",
-                   "notes":"",
-                   "caseSensitive":false,
-                   "exactMatch":false,
-                   "variations":"",
-                   "synonyms":"",
-                   "antonyms":"",
-                   "seo":false,
-                   "doNotTranslate":false,
-                   "translation":{
-                      "localeId":"fr-CA",
-                      "translatedTerm":"term 33 french ca",
-                      "notes":"some notes from user",
-                      "translatorUserUid":"58870b8ee965",
-                      "submittedForTranslation":false,
-                      "lockTranslation":false
-                   }
+                     "termText": "Banner",
+                     "partOfSpeechCode": "NOUN",
+                     "definition": "Large web ad.",
+                     "caseSensitive": false,
+                     "exactMatch": false,
+                     "seo": false,
+                     "doNotTranslate": false
                 }
              ]
           }

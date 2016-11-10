@@ -12,11 +12,11 @@ response:
        "response":{
           "code":"SUCCESS",
           "data":{
-               "glossaryUid":"50d9dab5-6b8b-11e5-ba24-127b00b163a3",
-               "name":"Marketing Glossary",
-               "description":"Glossary for marketing terms.",
-               "sourceLocaleId":"en-US",
-               "createdByUserUid":"ah27fhq8",
+               "glossaryUid": "50d9dab5-6b8b-11e5-ba24-127b00b163a3",
+               "name": "Marketing Glossary",
+               "description": "Glossary for marketing terms.",
+               "sourceLocaleId": "en-US",
+               "createdByUserUid": "ah27fhq8",
                "createdDate": "2015-11-21T01:51:17Z"
           }
        }

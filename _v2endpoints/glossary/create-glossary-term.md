@@ -9,23 +9,24 @@ request:
   json_markdown: |
     ~~~json
     {
-       "termText":"cold call",
-       "partOfSpeechCode":"VERB",
-       "definition":"",
-       "notes":"",
-       "caseSensitive":false,
-       "exactMatch":false,
-       "variations":"",
-       "synonyms":"",
-       "antonyms":"",
-       "seo":false,
-       "doNotTranslate":false,
-       "translation":{
-          "localeId":"fr-CA",
-          "translatedTerm":"cold call french ca",
-          "notes":"some notes from user",
-          "translatorUserUid":"58870b8e965",
-          "lockTranslation":false
+       "termText": "Cold Call",
+       "partOfSpeechCode": "VERB",
+       "definition": "An unsolicited sales call.",
+       "notes": "Do not translate literally, use appropriate local term.",
+       "caseSensitive": false,
+       "exactMatch": false,
+       "variations": "propspecting",
+       "synonyms": "outbound call",
+       "antonyms": "inbound marketing",
+       "seo": false,
+       "doNotTranslate": false,
+       "translation": {
+          "localeId": "fr-FR",
+          "translatedTerm": "démarchage téléphonique",
+          "notes": "Avoid using 'prospection téléphonique'",
+          "translatorUserUid": "58870b8e965",
+          "submittedForTranslation": true,
+          "lockTranslation": false
        }
     }
     ~~~
@@ -36,21 +37,21 @@ response:
        "response":{
           "code":"SUCCESS",
           "data":{
-             "termText":"cold call",
+             "termText":"Cold Call",
              "partOfSpeechCode":"VERB",
-             "definition":"",
-             "notes":"",
+             "definition": "An unsolicited sales call.",
+             "notes": "Do not translate literally, use appropriate local term.",
              "caseSensitive":false,
              "exactMatch":false,
-             "variations":"",
-             "synonyms":"",
-             "antonyms":"",
-             "seo":false,
-             "doNotTranslate":false,
+             "variations": "propspecting",
+             "synonyms":"outbound call",
+             "antonyms":"inbound marketing",
+             "seo": false,
+             "doNotTranslate": false,
              "translation":{
                 "localeId":"fr-CA",
-                "translatedTerm":"cold call french ca",
-                "notes":"some notes from user",
+                "translatedTerm":"démarchage téléphonique",
+                "notes":"Avoid using 'prospection téléphonique'",
                 "translatorUserUid":"58870b8e965",
                 "submittedForTranslation":true,
                 "lockTranslation":false

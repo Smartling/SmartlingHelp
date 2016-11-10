@@ -42,58 +42,28 @@ response:
              "totalCount":2,
              "items":[
                 {
-                   "translation":{
-                      "localeId":"fr-FR",
-                      "translatedTerm":"arabian architecture in french",
-                      "notes":"",
-                      "translatorUserUid":null,
-                      "lockTranslation":false,
-                      "submittedForTranslation":false,
-                      "createdDate":"2015-10-21T11:08:01Z",
-                      "modifiedDate":"2015-10-27T13:09:56Z"
-                   },
-                   "termUid":"6b3e1e8c-eb40-4c32-a9f7-024e407b0b30",
-                   "termText":"arabian architecture",
-                   "caseSensitive":true,
-                   "exactMatch":false,
-                   "partOfSpeechCode":"VERB",
-                   "definition":"",
-                   "variations":"",
-                   "synonyms":"",
-                   "antonyms":"",
-                   "seo":true,
-                   "doNotTranslate":false,
-                   "deprecated":false,
-                   "notes":"",
-                   "createdDate":"2015-10-19T15:48:34Z",
-                   "modifiedDate":"2015-11-09T15:33:19Z"
-                },
-                {
-                   "translation":{
-                      "localeId":"fr-FR",
-                      "translatedTerm":"summer time french 22",
-                      "notes":"",
-                      "translatorUserUid":null,
-                      "lockTranslation":false,
-                      "submittedForTranslation":false,
-                      "createdDate":"2015-12-02T14:28:00Z",
-                      "modifiedDate":"2015-12-02T14:28:00Z"
-                   },
-                   "termUid":"aaf416ee-98ff-11e5-b159-0ad0c2f6b537",
-                   "termText":"summer time",
-                   "caseSensitive":false,
-                   "exactMatch":false,
-                   "partOfSpeechCode":"ADJECTIVE",
-                   "definition":"",
-                   "variations":"",
-                   "synonyms":"",
-                   "antonyms":"",
-                   "seo":false,
-                   "doNotTranslate":false,
-                   "deprecated":false,
-                   "notes":"",
-                   "createdDate":"2015-12-02T14:19:15Z",
-                   "modifiedDate":"2015-12-02T14:19:15Z"
+                    "termText": "Cold Call",
+                    "partOfSpeechCode": "VERB",
+                    "definition": "An unsolicited sales call.",
+                    "notes": "Do not translate literally, use appropriate local term.",
+                    "caseSensitive": false,
+                    "exactMatch": false,
+                    "variations": "propspecting",
+                    "synonyms": "outbound call",
+                    "antonyms": "inbound marketing",
+                    "seo": false,
+                    "doNotTranslate": false,
+                    "translation": {
+                       "localeId": "fr-FR",
+                       "translatedTerm": "démarchage téléphonique",
+                       "notes": "Avoid using 'prospection téléphonique'",
+                       "translatorUserUid": "58870b8e965",
+                       "submittedForTranslation": true,
+                       "lockTranslation": false
+                    },
+                    "deprecated":false,
+                    "createdDate":"2015-10-19T15:48:34Z",
+                    "modifiedDate":"2015-11-09T15:33:19Z"
                 }
              ]
           }

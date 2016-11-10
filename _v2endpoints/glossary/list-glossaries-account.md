@@ -21,26 +21,27 @@ response:
   json_markdown: |
     ~~~json
     {
-       "response":{
-          "code":"SUCCESS",
-          "data":{
+       "response": {
+          "code": "SUCCESS",
+          "data": {
            "totalCount": 2,
-             "items":[
+             "items": [
                 {
-                   "glossaryUid":"50d9dab5-6b8b-11e5-ba24-127b00b163a3",
-                   "name":"Another document tester-Glossary",
-                   "createdByUserUid":"ah27fhq8",
-                   "createdDate":"2015-11-21T01:51:17Z",
-                   "sourceLocaleId":"en-US",
-                   "description":"some desc"
+                   "glossaryUid": "50d9dab5-6b8b-11e5-ba24-127b00b163a3",
+                   "name": "Marketing Glossary",
+                   "description": "Glossary for marketing terms.",
+                   "sourceLocaleId": "en-US",
+                   "createdByUserUid": "ah27fhq8",
+                   "createdDate": "2015-11-21T01:51:17Z"
                 },
                 {
-                   "glossaryUid":"50e5c8d3-6b8b-11e5-ba24-127b00b163a3",
-                   "name":"BizDocs test Max's project-Glossary",
-                   "createdByUserUid":"ah27fhq8",
-                   "createdDate":"2015-11-21T01:51:17Z",
-                   "sourceLocaleId":"en-US",
-                   "description":"some desc"
+                   "glossaryUid": "50e5c8d3-6b8b-12e5-gz21-152k4cb163x1",
+                   "name": "App Glossary",
+                   "description": "Terms from the SmartlingHotels app",
+                   "createdByUserUid": "ah27fhq8",
+                   "createdDate": "2015-08-21T03:21:33Z",
+                   "sourceLocaleId": "en-US"
+                   
                 }
              ]
           }
