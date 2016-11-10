@@ -32,19 +32,6 @@ migration-checklist:
   reviewed: false
 ---
 
-Many languages have multiple ways to express a plural form.
-
-For example, English has two plural forms:
-
-1.  For 1 item
-2.  For 0, 2, 3, 4, 5, 6... items
-
-Whereas, Belarusian has three plural forms:
-
-1.  For 1, 21, 31, 41, 51, 61... items
-2.  For 2, 3, 4, 22, 23, 24... items
-3.  For 0, 5, 6, 7, 8, 9... items
-
 The Smartling Global Delivery Network allows you to specify that a string is plural sensitive and that it requires translation to a number of plural forms (depending on the target languages).To identify content as plural sensitive, tag the source HTML content that should appear as plural, ingest content in one of your target languages, and it appears on in the Smartling List View as plural sensitive. To have this feature enabled for your site, contact Smartling support.
 
 ## Translate plural forms

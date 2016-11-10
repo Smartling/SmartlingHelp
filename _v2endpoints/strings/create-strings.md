@@ -12,6 +12,7 @@ request:
     {
        "placeholderFormat":"java",
        "placeholderFormatCustom":"\\[.+?\\]",
+       "namespace": "result.page",
        "strings":[
           {
              "stringText": "Search results for [city]:",
@@ -42,6 +43,12 @@ request:
       required: false
       description_markdown: |
         Specifies a custom placeholder with a Java Regular Expression. For example `\[.+?\]` would capture all values surrounded by square brackets as placeholders. For more detail on placeholders see [Placeholders in Resource Files](/developers/supported-file-types/placeholders-in-resource-files/)
+
+    - title: namespace
+      type: string
+      required: false
+      description_markdown: |
+        Used to generate the unique hashcode for all strings in the request. If you want to have two versions of a string with the same text and variant metadata, you can keep them unique by assigning a different namespace to each string. If not provided, default value is `smartling.strings-api.default.namespace`. A `NULL` value is permitted.
 
     - title: stringText
       type: string
@@ -132,6 +139,6 @@ Uploads an array of strings to a Smartling project. A maximum of 100 strings can
 
 Note that you cannot authorize a string via API. Once you have created the strings, they will need to be [authorized](//support/articles/authorize-content-from-the-list-view/) by a content owner in the Smartling Dashboard.
 
-Smartling creates a unique hashcode for each string based on the parsed string text and any variant metadata provided. If you upload a string with the same text and variant, and therefore the same hashcode, the existng string will be overwritten. This will not change the text of the string, but may update other metadata, such as placeholder and callback values. If the string is currently inactive, overwriting it will cause it to be reactivated. Overwritten strings return `"overWritten": "true"` in the response object.
+Smartling creates a unique hashcode for each string based on the parsed string text and any variant or namespace metadata provided. If you upload a string with the same text, variant and namespace, and therefore the same hashcode, the existng string will be overwritten. This will not change the text of the string, but may update other metadata, such as placeholder and callback values. If the string is currently inactive, overwriting it will cause it to be reactivated. Overwritten strings return `"overWritten": "true"` in the response object.
  
  Most uploads will return a `200` response indicating success. If processing the request takes longer than 60 seconds, a `202` request will be returned, including a `processUid` value that can be used to check on the progress of the request.
