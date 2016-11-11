@@ -8,13 +8,13 @@ endpoint_url: '/context-api/v2/projects/{{projectId}}/contexts'
 method: POST
 request:
   json_markdown: |
-    The Upload Context File request body takes the form of a multi-part post request. For example, in cURL, this might look look like `content=@image-context.jpg`.
+    The Upload Context File request body takes the form of a multi-part post request. For example, in cURL, this might look like `content=@image-context.jpg;type=image/jpg`.
   parameters:
     - title: content
       type: array
       required: true
       description_markdown: |
-        The context image file. Supported image types are `.png` and `.jpg` / `jpeg`.
+        The context image file and content type. Supported content types are `imgage/png` and `image/jpg` / `jpeg`.
 response:
   json_markdown: |-
     ~~~json

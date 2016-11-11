@@ -6,8 +6,9 @@ endpoints:
   - title: Upload File
   - title: Download Original File
   - title: Download Translated File - Single Locale
-  - title: 
-  - title: 
+  - title: List Files
+  - title: List File Types
+  - title: Status - All Locales
   - title: 
   - title: 
   - title: 
