@@ -22,18 +22,16 @@ response:
                 "fileUri": "[/myproject/i18n/admin_ui.properties]",
                 "totalStringCount": "[number]",
                 "totalWordCount": "[number]",
-                "fileType": "[fileType]",
+                "authorizedStringCount": "[number]",
+                "completedStringCount": "[number]",
+                "excludedStringCount": "[number]",
+                "completedWordCount": "[number]",
+                "authorizedWordCount": "[number]",
+                "excludedWordCount": "[number]",
                 "lastUploaded": "[YYYY-MM-DDThh:mm:ssZ]",
-                "totalCount": "1",
+                "fileType": "[fileType]",
                 "parserVersion": "3",
-                "hasInstructions": "true",
-                "items": [{
-                    "localeId": "de-DE",
-                    "authorizedStringCount": "[number]",
-                    "completedStringCount": "[number]",
-                    "authorizedWordCount": "[number]",
-                    "excludedWordCount": "[number]"
-                }]
+                "hasInstructions": "true"
             }
         }
     }
