@@ -43,15 +43,35 @@ Account Owners and Agency Account Owners can generate a fuzzy match estimate for
 
 Fuzzy match estimates display the number of words for the profile at the time you run the report and report on content which is approved but not yet Translated.
 
-> Fuzzy match estimates are based on comparisons with all content in your TM. This includes translations that have been saved but not yet published.
+> Fuzzy match estimates are based on comparisons with all content in your TM. 
+
+## Internal Matches
+
+A Fuzzy Match Estimate also compares content in an estimate to itself. For example, if the segment ‘Welcome, {0}!’’ appears twice in a Job, but isn’t already in your Translation Memory at the time you run the estimate, Fuzzy Match Estimates count the second instance as a 100% match, since you will only need to translate it once. Fuzzy Match estimates will always pick the highest match score, whether it's an internal or Translation Memory match.
+
+## Weighted Words
+
+Fuzzy Match Estimates also show a Weighted Words count, designed to help you estimate the actual cost of translating the words in a Fuzzy Match Estimate. This number is calculated differently depending on your account setup:
+
+* If you use Smartling Translation Resources, the Weighted Words count reflects Smartling's Fuzzy Match pricing including [SmartMatch](http://localhost:4000/support/articles/smartmatch-settings/).  
+* If you have set up custom Fuzzy Match tiers, the Weighted Words count will reflect your custom settings including SmartMatch. Contact your Customer Success manager if you wish to set up custom Fuzzy Match tiers for your account.  
+* If you do not use Smartling's translation resources and have not set up custom Fuzzy Match tiers in Smartling, the Weighted Words count is simply the Total Estimated Words minus SmartMatched words.  
+
+For example, in the following estimate:
+
+* Total Estimated Words: 500  
+* 100 words SmartMatched  
+* 100 words in the 85.0-94.9% fuzzy match tier, which are invoiced at 60% in your custom Fuzzy Match Profile  
+
+Your Weighted Words count will be 360 words.
 
 ## View and manage Fuzzy Match Estimates
 
 ![](/uploads/versions/fuzzy_match_estimate_report1---x----1228-737x---.png)
 
-**1)**Navigate to **Content &gt; Fuzzy Estimates**.
+**1)** Navigate to **Content > Fuzzy Estimates**.
 
-**2)** Run a new report by clicking&lt; **Create New Estimates**. Reports may take a few minutes to run and will be added to the reports table when complete. Fuzzy Match Estimates are kept in the dashboard for 60 days. You can run a report [just for the content in a specific Job](/support/articles/jobs/#view-fuzzy-match-estimates-for-a-job) from the **Jobs** page. You can also run a report for any selection of strings from the List View. See below for details.
+**2)** Run a new report by clicking **Create New Estimates**. Reports may take a few minutes to run and will be added to the reports table when complete. Fuzzy Match Estimates are kept in the dashboard for 60 days. You can run a report [just for the content in a specific Job](/support/articles/jobs/#view-fuzzy-match-estimates-for-a-job) from the **Jobs** page. You can also run a report for any selection of strings from the List View. See below for details.
 
 **3)** View any past reports by clicking **Show/Hide**, or click **Download** to download an estimate as a CSV file.
 

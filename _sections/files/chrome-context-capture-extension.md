@@ -21,3 +21,8 @@ migration-checklist:
 ---
 
 
+![](/uploads/versions/smartling_global_content_translation_and_localization_solution-1---x----1264-499x---.png)
+
+The Chrome Context Capture Extension is an add-on for the Chrome browser that captures dynamic HTML context for a web application as you browse. Any content you can display in a browser can be contextualised this way.
+
+You can also use browser automation software such as Selenium to automate context capture, or simply provide your sitemap and have the extension crawl your site.

@@ -22,6 +22,7 @@ further-reading:
   include: false
   sections:
   articles:
+    - title: Cost Estimates and Rates
   others:
     - link:
       text:
@@ -38,7 +39,7 @@ Users for a Smartling account are managed from the **Team** page. The users you 
 
 You can click an **active user** to edit their profile, add a user, search for users by name, email address, or role, and click an&nbsp;**invited user** to re-send an email invitation. You can also filter your list of users by name, status, and the workflow steps and languages they are assigned to.
 
-You can manage Agencies in the same way as managing individual users, by switching to the Agency tab. If you assign an Agency to a Workflow step, the Agency Owner or Translation Resource Manager can then assign work in that step to Agency translators. To add a new Agency relationship to your account, contact your Smartling Customer Service Manager.
+You can manage Agency workflow assignments in the same way, by switching to the Agency tab. If you assign an Agency to a Workflow step, they can then assign work in that step to Agency translators. To add a new Agency relationship to your account, contact your Smartling Customer Service Manager.
 
 ![](/uploads/versions/smartling___team-2---x----1257-779x---.png)
 
@@ -58,7 +59,7 @@ You can manage Agencies in the same way as managing individual users, by switchi
 
 The new user will appear immediately on the Team Page as an invited user. When they accept the invitation and complete the registration process, they will become an active user.
 
-> You cannot edit the role of an existing user. If you want to change the role of the user, you should revoke the invitation and send a new one.
+> You cannot edit the role of an existing user, except to switch between Translation Resource and Translation Resource Manager. If you want to change the role of the user in any other way, you should revoke the invitation and send a new one.
 
 ## Edit or delete a user or agency profile
 

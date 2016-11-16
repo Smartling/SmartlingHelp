@@ -31,7 +31,7 @@ Context is gathered automatically when you capture content from your website. Fo
 
 ## Context for Files projects
 
-Any content that can be displayed in a browser can be captured using the Smartling Context Capture Chrome Extension. The JavaScript Context LibraryFor other content, such as mobile apps, you can [upload screenshots](/support/articles/adding-image-context-for-mobile-and-desktop-application-files/){: .cc-active} to provide context.
+Any content that can be displayed in a browser can be captured using the Smartling Context Capture Chrome Extension or the JavaScript Context Library. For other content, such as mobile apps, you can [upload screenshots](/support/articles/adding-image-context-for-mobile-and-desktop-application-files/){: .cc-active} to provide context.
 
 ## Context for Business Documents projects
 

@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-In addition to apps and websites, Smartling also helps you translate your business documents, including Microsoft Word (.docx & .doc), Excel (.xlsx), Powerpoint (.pptx) and [Adobe InDesign](/support/articles/translating-adobe-indesign-files/){: .cc-active} (.idml). You get the option to create a dedicated Business Documents project for your files, or upload business documents to any Files project. If your business documents share content with your website or app it may make sense to use the same project for easier leverage of your Translation Memory.
+In addition to apps and websites, Smartling also helps you translate your business documents, including Microsoft Word (.docx & .doc), Excel (.xlsx), Powerpoint (.pptx) and [Adobe InDesign](/support/articles/translating-adobe-indesign-files/){: .cc-active} (.idml). You can create a dedicated Business Documents project for your files, or upload business documents to any Files project.
 
 ## Strings and Segments
 
