@@ -23,7 +23,7 @@ We want our translators to realize that the string 'Check Availability' is insid
 
 We can use the Image Context API to associate the string with the picture.
 
-## Manually bind strings with a context image.
+## Explicitly bind strings with a context image.
 
 **1)** Upload the context image with the [Upload Context File](/developers/api/v2/context/upload-context/) request and save it's unique ID from the response.
 
