@@ -40,7 +40,7 @@ Smartling’s Context Capture Library is a javascript library, which can be embe
 
 The library sends contextual information to Smartling when a page is browsed, so make sure you embed the library in an environment that is used. The library has been calibrated to minimize any impact on page performance.
 
-This project is currently in beta. You will need a unique orgId to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
+You will need a unique orgId to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
 
 ![](/uploads/versions/smartling---api--besttest-web-app----x----1252-572x---.png)
 
