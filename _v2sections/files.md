@@ -9,10 +9,10 @@ endpoints:
   - title: List Files
   - title: List File Types
   - title: Status - All Locales
-  - title: 
-  - title: 
-  - title: 
-  - title: 
+  - title: Rename File
+  - title: Delete File
+  - title: Last Modified - Single Locale
+  - title: Last Modified - All Locales
   - title: 
   - title: 
   - title: 
