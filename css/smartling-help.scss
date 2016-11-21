@@ -857,6 +857,9 @@ h4.required {
         padding: 0em;
     }
 
+    .reg-highlight {
+        background-color: yellow;
+    }
     // Underline Smartling Terms
     .term-underline {
         border-bottom: 1px dashed $smartling-link-color;

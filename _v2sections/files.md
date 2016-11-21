@@ -6,16 +6,21 @@ endpoints:
   - title: Upload File
   - title: Download Original File
   - title: Download Translated File - Single Locale
+  - title: Download Translated File - Multiple Locales as Zip
+  - title: Download Translated File - All Locales as Zip
+  - title: Download Translated File - All Locales in O
+
+
   - title: List Files
   - title: List File Types
+  - title: Status - Single Locale
   - title: Status - All Locales
   - title: Rename File
   - title: Delete File
   - title: Last Modified - Single Locale
   - title: Last Modified - All Locales
-  - title: 
-  - title: 
-  - title: 
+  - title: Import Translations
+  - title: Get Translations
 ---
 
 Smartling's File API allows you to upload and retrieve files, display a list of recently uploaded files, and check the status of a translation’s progress.
