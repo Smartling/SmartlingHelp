@@ -67,7 +67,7 @@ home: true
 
 
                 <ul>
-                    {% assign datedposts = site.posts | sort: date %}
+                    {% assign datedposts = site.posts | sort: "id", "first" %}
                     {% for post in datedposts %}
                     {% unless post.categories contains 'product-update' %}
                     <li><a href="{{post.url}}">{{post.title}}</a></li>
