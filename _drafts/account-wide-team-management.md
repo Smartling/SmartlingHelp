@@ -21,10 +21,6 @@ Instead of making workflow assignments project-by-project, you can make all assi
 
 When making a workflow assignment to a User or Agency, you now select the language or languages for the assignment first. The list of workflow choices will be filtered to include only those workflows available for all selected Languages.
 
-<script src="//fast.wistia.com/embed/medias/qli6lswh3o.jsonp" async=""></script>
-<script src="//fast.wistia.com/assets/external/E-v1.js" async=""></script>
-<div class="wistia_embed wistia_async_qli6lswh3o" style="height: 382px; width: 630px;"> </div>
-
 ## Increased Visibility of User Assignments
 
 By moving assignments outside of individual projects, we allow for greater visibility for Project Managers and Translation Resource Managers who need to share management of translation resources. These users can now see workflow assignments for languages and projects they do not manage, helping them have a better understanding of a translator’s overall workload and capacity.
