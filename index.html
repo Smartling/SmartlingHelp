@@ -52,7 +52,7 @@ home: true
             <ul>
                     {% assign datedposts = site.posts | sort: date %}
                     {% for post in datedposts %}
-                        {% if post.categories contains 'product update' %}
+                        {% if post.categories contains 'product-update' %}
                                     <li><a href="{{post.url}}">{{post.title}}</a></li>
                         {% endif %}
                     {% endfor %}
