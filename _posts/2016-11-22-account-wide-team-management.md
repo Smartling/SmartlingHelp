@@ -134,7 +134,7 @@ height:18px;
 width:74px;
 }
 #wistia_50_socialbar_tumblr {
-background:url('http://platform.tumblr.com/v1/share_1.png') 0 0 no-repeat transparent;
+background:url(//http--platformzx-tumblrzx-com.proxee.co/v1/share_1.png) 0 0 no-repeat transparent;
 height:20px;
 overflow:hidden;
 text-indent:-9999px;
