@@ -22,10 +22,10 @@ migration-checklist:
 
 When you upload a file, Smartling parses it's content into translatable 'strings.' This section covers:
 
-* What happens if there are more than one string with the same text in files uploaded to a project. String uniqueness is affected by [variant metadata](/support/articles/unique-strings-and-variants/) within a file, and by [namespaces](/support/articles/string-sharing-namespaces/) across multiple files.
+* What happens if there are more than one string with the same text in files uploaded to a project. String uniqueness is affected by [variant metadata](/knowledge-base/articles/unique-strings-and-variants/) within a file, and by [namespaces](/knowledge-base/articles/string-sharing-namespaces/) across multiple files.
 
-* How to handle [placeholders](/support/articles/exclude-dynamic-content-using-placeholder-code/) in strings with variables.
+* How to handle [placeholders](/knowledge-base/articles/exclude-dynamic-content-using-placeholder-code/) in strings with variables.
 
-* How to instruct Smartling about how to parse your files, using either [inline directives or the File API](/support/articles/file-integration-and-the-smartling-api/).
+* How to instruct Smartling about how to parse your files, using either [inline directives or the File API](/knowledge-base/articles/file-integration-and-the-smartling-api/).
 
-* How file parsing has changed with the implementation of our [newest parser](/support/articles/file-parser-version-3-13-october-2015/).
+* How file parsing has changed with the implementation of our [newest parser](/knowledge-base/articles/file-parser-version-3-13-october-2015/).

@@ -41,7 +41,7 @@ Have developers install the Mobile Delivery Network SDK in your [iOS](https://gi
 
 ## Create separate projects for your iOS and Android apps
 
-To deliver your translations via the MDN, each app needs it's own Smartling project. This doesn't mean you have to translate everything twice. You can create a [Leverage Configuration](/support/articles/leverage-configuration/) to allow you to share translations between the two projects.
+To deliver your translations via the MDN, each app needs it's own Smartling project. This doesn't mean you have to translate everything twice. You can create a [Leverage Configuration](/knowledge-base/articles/leverage-configuration/) to allow you to share translations between the two projects.
 
 ## Name your Resource Files
 

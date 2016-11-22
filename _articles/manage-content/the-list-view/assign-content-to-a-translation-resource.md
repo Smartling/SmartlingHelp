@@ -35,7 +35,7 @@ migration-checklist:
 
 ## Turn on Assignment
 
-From **Project Settings** &gt; **Translation Workflow**, edit the Workflow step you want to assign content for and [enable Content Assignment](/support/articles/create-and-customize-a-workflow/#customize-a-workflow).
+From **Project Settings** &gt; **Translation Workflow**, edit the Workflow step you want to assign content for and [enable Content Assignment](/knowledge-base/articles/create-and-customize-a-workflow/#customize-a-workflow).
 
 
 ## Assign content to a translation resource
@@ -44,7 +44,7 @@ From **Project Settings** &gt; **Translation Workflow**, edit the Workflow step 
 
 ![](/uploads/versions/assign1---x----2480-1172x---.png)
 
-**2)** Select the string/s to assign and select **Assign Resources.** To assign all content in a workflow step, [filter for that workflow step](/support/articles/search-and-filter-in-the-list-view/#filter-by-workflow/step) and select **Assign All.** This will assign all content in the workflow step to a maximum of 5000 strings.
+**2)** Select the string/s to assign and select **Assign Resources.** To assign all content in a workflow step, [filter for that workflow step](/knowledge-base/articles/search-and-filter-in-the-list-view/#filter-by-workflow/step) and select **Assign All.** This will assign all content in the workflow step to a maximum of 5000 strings.
 
 ![](/uploads/versions/assign2---x----2476-1272x---.png)
 
@@ -61,7 +61,7 @@ From **Project Settings** &gt; **Translation Workflow**, edit the Workflow step 
 
 ![](/uploads/versions/assign4---x----2468-1388x---.png)
 
-**2)** Check strings to unassign and, from the **Actions** menu, select **Unassign.** You can also unassign all content in a workflow step by [filtering for that workflow step](/support/articles/search-and-filter-in-the-list-view/#filter-by-workflow/step) and selecting **Unassign All**.
+**2)** Check strings to unassign and, from the **Actions** menu, select **Unassign.** You can also unassign all content in a workflow step by [filtering for that workflow step](/knowledge-base/articles/search-and-filter-in-the-list-view/#filter-by-workflow/step) and selecting **Unassign All**.
 
 ![](/uploads/versions/assign5---x----2478-1186x---.png)
 

@@ -75,7 +75,7 @@ response:
       description_markdown: Total number of glossary terms returned.
     - title: items
       type: array
-      description_markdown: An object for each glossary term. See our [Glossary documentation](/support/articles/manage-glossaries/#term-details) for details on the fields.
+      description_markdown: An object for each glossary term. See our [Glossary documentation](/knowledge-base/articles/manage-glossaries/#term-details) for details on the fields.
 examples:
   - title:
     code_markdown:

@@ -77,6 +77,6 @@ Click the arrow next to the source language to download the original file, view 
 
 ![](/uploads/versions/uploadingfile7---x----1006-660x---.png)
 
-You can also delete a file by clicking the Trashcan icon that appears on mouseover. If you delete a file with any strings already translated, those strings will become [inactive](/support/articles/inactive-strings/).
+You can also delete a file by clicking the Trashcan icon that appears on mouseover. If you delete a file with any strings already translated, those strings will become [inactive](/knowledge-base/articles/inactive-strings/).
 
 ![](/uploads/versions/uploadfile8---x----209-232x---.png)

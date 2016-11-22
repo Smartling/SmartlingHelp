@@ -23,4 +23,4 @@ examples:
     description_markdown:
 ---
 
-Deletes a Glossary. Note that if a Glossary has been assigned to a Linguistic Package, you will not be able to delete it. Linguistic Packages are [managed in the Smartling Dashboard](/support/sections/linguistic-assets/).
+Deletes a Glossary. Note that if a Glossary has been assigned to a Linguistic Package, you will not be able to delete it. Linguistic Packages are [managed in the Smartling Dashboard](/knowledge-base/sections/linguistic-assets/).

@@ -60,7 +60,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Creates [variant](/support/articles/unique-strings-and-variants/) metadata for a new string.
+        Creates [variant](/knowledge-base/articles/unique-strings-and-variants/) metadata for a new string.
     
     - title: callbackUrl
       type: string
@@ -72,7 +72,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Creates [variant](/support/articles/unique-strings-and-variants/) metadata for a new string.
+        Creates [variant](/knowledge-base/articles/unique-strings-and-variants/) metadata for a new string.
  
     - title: instruction
       type: string
@@ -137,7 +137,7 @@ examples:
 
 Uploads an array of strings to a Smartling project. A maximum of 100 strings can be created per request. A request with more than 100 items will return an error. Each string has a character limit of 10 000.
 
-Note that you cannot authorize a string via API. Once you have created the strings, they will need to be [authorized](//support/articles/authorize-content-from-the-list-view/) by a content owner in the Smartling Dashboard.
+Note that you cannot authorize a string via API. Once you have created the strings, they will need to be [authorized](//knowledge-base/articles/authorize-content-from-the-list-view/) by a content owner in the Smartling Dashboard.
 
 Smartling creates a unique hashcode for each string based on the parsed string text and any variant or namespace metadata provided. If you upload a string with the same text, variant and namespace, and therefore the same hashcode, the existng string will be overwritten. This will not change the text of the string, but may update other metadata, such as placeholder and callback values. If the string is currently inactive, overwriting it will cause it to be reactivated. Overwritten strings return `"overWritten": "true"` in the response object.
  

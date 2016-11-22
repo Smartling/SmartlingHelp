@@ -27,11 +27,11 @@ Image context is a static JPG or PNG image used to display context for non-web c
 
 ## Context for GDN projects
 
-Context is gathered automatically when you capture content from your website. For many websites, you may get adequate context without taking any further action. However, automatic context gathering through the GDN is limited with some types of web content, such as javascript. In these instances, you can use the [Smartling Context Capture Chrome Extension](/support/sections/chrome-context-capture-extension/){: .cc-active} to fill in any gaps in your context.
+Context is gathered automatically when you capture content from your website. For many websites, you may get adequate context without taking any further action. However, automatic context gathering through the GDN is limited with some types of web content, such as javascript. In these instances, you can use the [Smartling Context Capture Chrome Extension](/knowledge-base/sections/chrome-context-capture-extension/){: .cc-active} to fill in any gaps in your context.
 
 ## Context for Files projects
 
-Any content that can be displayed in a browser can be captured using the Smartling Context Capture Chrome Extension or the JavaScript Context Library. For other content, such as mobile apps, you can [upload screenshots](/support/articles/adding-image-context-for-mobile-and-desktop-application-files/){: .cc-active} to provide context.
+Any content that can be displayed in a browser can be captured using the Smartling Context Capture Chrome Extension or the JavaScript Context Library. For other content, such as mobile apps, you can [upload screenshots](/knowledge-base/articles/adding-image-context-for-mobile-and-desktop-application-files/){: .cc-active} to provide context.
 
 ## Context for Business Documents projects
 

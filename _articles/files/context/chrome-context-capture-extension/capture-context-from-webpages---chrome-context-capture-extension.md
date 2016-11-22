@@ -33,7 +33,7 @@ migration-checklist:
 ---
 
 
-Smartling Account Owners and Project Managers can use the Chrome Context Capture Extension to [capture context](/support/sections/context/).
+Smartling Account Owners and Project Managers can use the Chrome Context Capture Extension to [capture context](/knowledge-base/sections/context/).
 
 Only use the Chrome extension on **source language sites**. For example, if your primary web site is [www.domain.com](http://www.domain.com/) and the Spanish version is [es.domain.com](http://es.domain.com/), only use the extension on [www.domain.com](http://www.domain.com/).
 
@@ -59,7 +59,7 @@ Smartling posts the snapshot to the selected project. If it matches uploaded str
 
 ## Targeting Specific Strings
 
-By default, a Chrome Context snapshot will capture all strings visible on a page at that moment. You can use the string selection tool to target specific strings for contextualization and exclude strings for which the snapshot will not provide good context. For example, if you want to capture context for a modal dialog in the middle of the page, but exclude strings outside that dialog, use the selection tool to target only the dialog and its strings. Using this function will [overwrite](/support/articles/override-existing-context-with-the-chrome-context-capture-extension/) any existing context for your selected strings.
+By default, a Chrome Context snapshot will capture all strings visible on a page at that moment. You can use the string selection tool to target specific strings for contextualization and exclude strings for which the snapshot will not provide good context. For example, if you want to capture context for a modal dialog in the middle of the page, but exclude strings outside that dialog, use the selection tool to target only the dialog and its strings. Using this function will [overwrite](/knowledge-base/articles/override-existing-context-with-the-chrome-context-capture-extension/) any existing context for your selected strings.
 
 ### To use string selection:
 

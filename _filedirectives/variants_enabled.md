@@ -6,7 +6,7 @@ values_markdown: |
 description_markdown: |
   When enabled, Smartling will make strings unique using variant metadata. Must be used in conjunction with the `source_key_paths` directive, which provides the information needed to generate variant metadata.
   
-  > If you have previously uploaded a file with variants turned off, and reupload the file with variants on, Smartling will capture all content as new strings. You can configure [Smartmatch](/support/articles/smartmatch-settings/) to automatically match the existing translations.
+  > If you have previously uploaded a file with variants turned off, and reupload the file with variants on, Smartling will capture all content as new strings. You can configure [Smartmatch](/knowledge-base/articles/smartmatch-settings/) to automatically match the existing translations.
   
 examples:
     - type: xml

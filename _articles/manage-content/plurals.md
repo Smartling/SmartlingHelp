@@ -35,7 +35,7 @@ migration-checklist:
 
 
 
-Smartling supports [plural sensitive translation of strings](/support/articles/translating-plurals/). In order for strings to have pluralized translations, your development platform must also be able to support plural strings in your resource files.  Your application development platform will determine exactly how you can create plural strings in your Smartling project. Typically, this is achieved through special APIs/Functions/Methods that allow the developer to identify strings that need to be pluralized and provide a quantity variable. The appropriate form of the string is selected at runtime according to the quantity variable and the language.  Smartling currently supports plural strings in YAML, Gettext, QT TS Linguist, Android XML and iOS files, as well as in Global Delivery Network projects.
+Smartling supports [plural sensitive translation of strings](/knowledge-base/articles/translating-plurals/). In order for strings to have pluralized translations, your development platform must also be able to support plural strings in your resource files.  Your application development platform will determine exactly how you can create plural strings in your Smartling project. Typically, this is achieved through special APIs/Functions/Methods that allow the developer to identify strings that need to be pluralized and provide a quantity variable. The appropriate form of the string is selected at runtime according to the quantity variable and the language.  Smartling currently supports plural strings in YAML, Gettext, QT TS Linguist, Android XML and iOS files, as well as in Global Delivery Network projects.
 
 Smartling’s support for plurals is based on the Unicode [CLDR](http://www.unicode.org/cldr/charts/27/supplemental/language_plural_rules.html) standard.  We support two CLDR forms for English; One and Other (which correspond to the 'singular' and 'plural' forms in English gramamr).  If a string is captured as a plural string, we will ask translators to provide the correct number and type of forms - based on CLDR - for each language.  We will then deliver the translations in the correct number of forms in the translated file or via the localized GDN site.  The number of forms for a specific target language can be more or less than the forms for the source language.
 
@@ -156,4 +156,4 @@ ru.lproj/Localizable.strings
 
 ## Plurals in the GDN
 
-Plural strings in the GDN are identified by wrapping the quantity variable in `<span class="sl_plural">` tags. See our [GDN integration documentation](/support/articles/handle-plurals-in-a-gdn-project/) for more details.
+Plural strings in the GDN are identified by wrapping the quantity variable in `<span class="sl_plural">` tags. See our [GDN integration documentation](/knowledge-base/articles/handle-plurals-in-a-gdn-project/) for more details.

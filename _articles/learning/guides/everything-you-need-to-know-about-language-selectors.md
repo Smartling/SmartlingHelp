@@ -56,7 +56,7 @@ There are quite few [types of website language selection solutions available](ht
 
 #### **Does Smartling provide its own solution?**
 
-We do offer an embeddable language selector available to Subdomain and ccTLD-type sites. the selector’s code can be pasted onto your site’s template. Not only does the language selector adds [customizable language drop-down](/support/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active} list to your site, it also detects the the user’s browser language preferences and automatically redirects them to the appropriate translation of your site.
+We do offer an embeddable language selector available to Subdomain and ccTLD-type sites. the selector’s code can be pasted onto your site’s template. Not only does the language selector adds [customizable language drop-down](/knowledge-base/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active} list to your site, it also detects the the user’s browser language preferences and automatically redirects them to the appropriate translation of your site.
 
 #### **Can I use another language selector than the one you are offering?**
 
@@ -89,6 +89,6 @@ In the case of Forced IP, the server uses the IP address location of the request
 
 #### **Other Resources**
 
-Smartling Help Center: [Install and customize the Smarting Language Selector](/support/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active}
+Smartling Help Center: [Install and customize the Smarting Language Selector](/knowledge-base/articles/everything-you-need-to-know-about-language-selectors/){: .cc-active}
 
 Smartling Blog: [A few tips on Navigation for multilingual site](https://www.smartling.com/blog/a-few-tips-for-language-navigation-on-multilingual-sites/)

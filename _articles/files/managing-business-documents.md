@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-In addition to apps and websites, Smartling also helps you translate your business documents, including Microsoft Word (.docx & .doc), Excel (.xlsx), Powerpoint (.pptx) and [Adobe InDesign](/support/articles/translating-adobe-indesign-files/){: .cc-active} (.idml). You can create a dedicated Business Documents project for your files, or upload business documents to any Files project.
+In addition to apps and websites, Smartling also helps you translate your business documents, including Microsoft Word (.docx & .doc), Excel (.xlsx), Powerpoint (.pptx) and [Adobe InDesign](/knowledge-base/articles/translating-adobe-indesign-files/){: .cc-active} (.idml). You can create a dedicated Business Documents project for your files, or upload business documents to any Files project.
 
 ## Strings and Segments
 
@@ -51,7 +51,7 @@ Each string may be further divided into segments, only visible in the Translatio
 
 ## Uploading and Downloading Files
 
-[Uploading](/support/articles/upload-and-manage-files/#upload-files) Business Documents for translation and [downloading](/support/articles/download-files/) translated files follows the same process as resource files, but Business Documents have the extra option of ‘Updating’ a file.
+[Uploading](/knowledge-base/articles/upload-and-manage-files/#upload-files) Business Documents for translation and [downloading](/knowledge-base/articles/download-files/) translated files follows the same process as resource files, but Business Documents have the extra option of ‘Updating’ a file.
 
 ## Updating Files
 
@@ -75,7 +75,7 @@ You can achieve the same effect as updating by uploading the changed file again 
 
 When you upload business documents, Smartling parses all the main text of the document as translatable content, so any notes for translators or explanation of the document not intended to be included in the translated file should be removed. However, you can add instructions to a file within Smartling to give translators any extra information they need. There are two ways to do this:
 
-* [Upload instructions from the Files screen](/support/articles/add-translator-instructions-to-a-file/){: .cc-active}. Click the file card, select your source language and click **Add File Instruction**. Instructions can be any file type you want and will be available in the Translation Interface for any strings from that file.
+* [Upload instructions from the Files screen](/knowledge-base/articles/add-translator-instructions-to-a-file/){: .cc-active}. Click the file card, select your source language and click **Add File Instruction**. Instructions can be any file type you want and will be available in the Translation Interface for any strings from that file.
   <br>![](/uploads/versions/smartling___manage_files-3---x----1348-1092x---.png)
 * Find any individual string in the list view and click the instruction icon to add instructions for that string.
   <br>![](/uploads/versions/smartling___translations_management-3---x----1338-520x---.png)

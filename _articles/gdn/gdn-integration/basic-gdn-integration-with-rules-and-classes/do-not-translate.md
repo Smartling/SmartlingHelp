@@ -53,7 +53,7 @@ When applied to inline elements, such as a span tag, this will cause a placehold
 <p class="notranslate">This paragraph won’t be captured for translation</p>
 ~~~
 
-If you add ‘notranslate’ to an inline tag at the very beginning of a string, the string will be split instead of a placeholder being created. This may be unwanted behavior. In these cases, you may want to [create a pattern rule](/support/articles/create-and-manage-patterns-gdn/) in the dashboard instead. For example:
+If you add ‘notranslate’ to an inline tag at the very beginning of a string, the string will be split instead of a placeholder being created. This may be unwanted behavior. In these cases, you may want to [create a pattern rule](/knowledge-base/articles/create-and-manage-patterns-gdn/) in the dashboard instead. For example:
 
 ~~~
 <p><span class="notranslate">5</span> items in cart.</p>

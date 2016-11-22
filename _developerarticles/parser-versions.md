@@ -38,7 +38,7 @@ migration-checklist:
   reviewed: false
 ---
 
-How [strings are created](/support/articles/unique-strings-and-variants/) from files you upload to Smartling is determined by the file format, any configuration you do, and the version of the Smartling parser that is applied. The most recent update to Smartling's file parser was the [release of Version 3 on October 13 2015](/support/articles/file-parser-version-3-13-october-2015/) and we are continuing to add new features to version 3 ahead of the next major release. Some new integration features are only available for files using this version.
+How [strings are created](/knowledge-base/articles/unique-strings-and-variants/) from files you upload to Smartling is determined by the file format, any configuration you do, and the version of the Smartling parser that is applied. The most recent update to Smartling's file parser was the [release of Version 3 on October 13 2015](/knowledge-base/articles/file-parser-version-3-13-october-2015/) and we are continuing to add new features to version 3 ahead of the next major release. Some new integration features are only available for files using this version.
 
 When you upload a 'new' file it will always use the latest parser version. When you update (overwrite) a file that is already in your project, the parser version that was used originally for the file continues to be used for all future updates. This avoids updates to your file resulting in strings being created differently, which could impact the translation status of the file.
 
@@ -58,7 +58,7 @@ Known major impacts of a parser upgrade include:
 
 In order to “upgrade” the parser version used by a file that has already been uploaded you must first delete the file, then re-upload it. You can use the same URI as before in this case, but the upload will not be considered an update or overwrite, it will be considered a new file. The file will be parsed with the latest parser version on this upload. Immediately after you delete the file its strings will become unavailable until the file has been re-uploaded and re-parsed.
 
-If you are using custom file [namespaces](/support/articles/string-sharing-namespaces/), it is critical that you use the same namespace when you re-upload the file. Changing the namespace will result in ALL the file’s strings being considered new, unique strings.
+If you are using custom file [namespaces](/knowledge-base/articles/string-sharing-namespaces/), it is critical that you use the same namespace when you re-upload the file. Changing the namespace will result in ALL the file’s strings being considered new, unique strings.
 
 ### Estimating the Impact of a Parser Version Upgrade
 

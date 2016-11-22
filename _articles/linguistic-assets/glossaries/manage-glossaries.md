@@ -40,7 +40,7 @@ migration-checklist:
 
 ![](/uploads/versions/smartling___linguistic_assets-20---x----1386-592x---.png)
 
-**2)** Give a name, source language and a short description for your Glossary. If you chose Import, choose an Excel (.xlsx) file to import. For information on formatting this file, see [Import Glossary](/support/articles/import-glossary/). Click **Create Glossary** / **Import Glossary**.
+**2)** Give a name, source language and a short description for your Glossary. If you chose Import, choose an Excel (.xlsx) file to import. For information on formatting this file, see [Import Glossary](/knowledge-base/articles/import-glossary/). Click **Create Glossary** / **Import Glossary**.
 
 ![](/uploads/versions/smartling___linguistic_assets-21---x----576-490x---.png)
 

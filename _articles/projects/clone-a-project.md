@@ -35,7 +35,7 @@ migration-checklist:
 
 Any Business Document, Application Resource File or CMS Connector project can be used as a template to clone a new project. The cloned project has the same languages, users, and settings as the source project, but no content or context files.
 
-All project-level Workflows will be copied to the cloned project, and users will have access to the same Workflow steps. Any locale-specific [Fuzzy Match profiles](/support/articles/fuzzy-match-estimates/){: .cc-active} will also be copied to the cloned project.
+All project-level Workflows will be copied to the cloned project, and users will have access to the same Workflow steps. Any locale-specific [Fuzzy Match profiles](/knowledge-base/articles/fuzzy-match-estimates/){: .cc-active} will also be copied to the cloned project.
 
 Cloning is useful if you expect to launch new projects frequently, or you want to organize your content into separate projects with similar settings. It’s also a quick way to get started on a new project with your usual settings.
 

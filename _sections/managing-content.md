@@ -32,11 +32,11 @@ migration-checklist:
 
 The Smartling Dashboard is your home base for managing all of your translation content. This section will teach you to:
 
-* Create and manage [projects](/support/sections/projects/) to organize your content.
-* Set up custom [translation workflows](/support/sections/workflows/) for different types of content.
-* Manage your content string-by-string from our powerful [List View](/support/sections/the-list-view/).
-* Create [Linguistic Assets](/support/sections/linguistic-assets/), such as [Glossaries](/support/sections/glossaries/) and [Style Guides](/support/articles/style-guides/), to help your translators work quickly and accurately.
-* [Leverage](/support/articles/leverage-configuration/) translations you've already done to save time and money.
-* [Find](/support/articles/global-search/) the content you need, whenever you need it.
-* Communicate with your translation team using [Issues](/support/articles/issues/).
-* Create [packages of translation work](/support/articles/jobs/) and predict your translation costs.
+* Create and manage [projects](/knowledge-base/sections/projects/) to organize your content.
+* Set up custom [translation workflows](/knowledge-base/sections/workflows/) for different types of content.
+* Manage your content string-by-string from our powerful [List View](/knowledge-base/sections/the-list-view/).
+* Create [Linguistic Assets](/knowledge-base/sections/linguistic-assets/), such as [Glossaries](/knowledge-base/sections/glossaries/) and [Style Guides](/knowledge-base/articles/style-guides/), to help your translators work quickly and accurately.
+* [Leverage](/knowledge-base/articles/leverage-configuration/) translations you've already done to save time and money.
+* [Find](/knowledge-base/articles/global-search/) the content you need, whenever you need it.
+* Communicate with your translation team using [Issues](/knowledge-base/articles/issues/).
+* Create [packages of translation work](/knowledge-base/articles/jobs/) and predict your translation costs.

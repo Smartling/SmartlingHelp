@@ -27,7 +27,7 @@ migration-checklist:
 ---
 
 
-Once you have your basic [DNS setup](/support/sections/gdn-hosting-setup/) working correctly and your requests are being handled by Smartling’s GDN proxy, you have a number of options for controlling how Smartling captures your content for translation and how your translation content is deployed. There are three basic methods of controlling your GDN integration:
+Once you have your basic [DNS setup](/knowledge-base/sections/gdn-hosting-setup/) working correctly and your requests are being handled by Smartling’s GDN proxy, you have a number of options for controlling how Smartling captures your content for translation and how your translation content is deployed. There are three basic methods of controlling your GDN integration:
 
 * Creating ‘Rules’ in the Smartling Dashboard,
 * Tagging HTML elements on your pages with special Smartling classes, and

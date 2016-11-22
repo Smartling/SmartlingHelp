@@ -86,7 +86,7 @@ Before you can install the Smartling Connector, you need to have the following i
 
 **(5)** Select your target locales and enter the locale code for each language, e.g. fr-FR for ‘French - FRANCE’ If you are unsure of the correct locale codes, check [Project Settings &gt; API](https://dashboard.smartling.com/settings/api.htm) for a list of codes for your project.
 
-**(6)** Set retrieval type. This determines the type of translations that will be retrieved from Smartling. See our documentation for [retrieval options](/support/articles/download-files/#file-download-options){: .cc-active}.
+**(6)** Set retrieval type. This determines the type of translations that will be retrieved from Smartling. See our documentation for [retrieval options](/knowledge-base/articles/download-files/#file-download-options){: .cc-active}.
 
 **(7)** Select your resubmit preference. **Automatically** means the Connector resubmits content to Smartling whenever a change is detected.**Manually** means the user must resubmit content.
 

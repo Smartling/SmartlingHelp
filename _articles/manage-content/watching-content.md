@@ -33,7 +33,7 @@ migration-checklist:
 ---
 
 
-The new Watching feature allows you to mark content you want to pay close attention to. There are three levels of content you can watch:
+The Watch feature allows you to mark content you want to pay close attention to. There are three levels of content you can watch:
 
 * A whole project
 * A workflow

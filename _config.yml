@@ -39,15 +39,15 @@ collections:
   # Main Support Center
   articles:
     output: true
-    permalink: "support/articles/:title/"
+    permalink: "knowledge-base/articles/:title/"
 
   sections:
     output: true
-    permalink: "support/sections/:title/"
+    permalink: "knowledge-base/sections/:title/"
 
   faqs:
     output: true
-    permalink: "support/faq/:title/"
+    permalink: "knowledge-base/faq/:title/"
 
   # Developers
 

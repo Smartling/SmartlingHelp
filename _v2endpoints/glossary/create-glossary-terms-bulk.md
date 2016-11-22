@@ -93,4 +93,4 @@ examples:
     description_markdown:
 ---
 
-Creates new glossary terms. The only required parameter for each term is `termText`. See our [Glossary documentation](/support/articles/manage-glossaries/#term-details) for details on each term parameter. All terms must pass validation or the entire request will return an error.
+Creates new glossary terms. The only required parameter for each term is `termText`. See our [Glossary documentation](/knowledge-base/articles/manage-glossaries/#term-details) for details on each term parameter. All terms must pass validation or the entire request will return an error.

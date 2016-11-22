@@ -60,4 +60,4 @@ There may be a short delay while Smartling captures the content. Once the conten
 
 ## Authorize Strings
 
-Once you have captured your content, you must [authorize it for translation](/support/articles/authorize-content-from-the-list-view/){: .cc-active} for it to remain in the Smartling Dashboard and not expire. Unauthorized strings captured from your website will be removed from the authorization queue after four days.
+Once you have captured your content, you must [authorize it for translation](/knowledge-base/articles/authorize-content-from-the-list-view/){: .cc-active} for it to remain in the Smartling Dashboard and not expire. Unauthorized strings captured from your website will be removed from the authorization queue after four days.

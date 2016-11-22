@@ -43,4 +43,4 @@ Account owners and project managers can manually add content for translation in 
 
 **3)** Type your string then click **Add**. You can include HTML tags in your strings, as well as add strings that match an existing pattern, like: `Hello {1+chars}`, or specify placeholders, like: `Hello {0}`.
 
-**4)** The string appears under **Awaiting Authorization**. You can search for the string by entering keywords or by setting your [URL filter](/support/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) to 'strings'.
+**4)** The string appears under **Awaiting Authorization**. You can search for the string by entering keywords or by setting your [URL filter](/knowledge-base/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) to 'strings'.

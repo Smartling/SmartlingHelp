@@ -33,7 +33,7 @@ migration-checklist:
   reviewed: false
 ---
 
-Before beginning to set up Smartling’s HubSpot connector you should have a Smartling account and have [added a project](/support/articles/create-a-project/){: .cc-active} to your account of type Hubspot Connector to hold your HubSpot translations.
+Before beginning to set up Smartling’s HubSpot connector you should have a Smartling account and have [added a project](/knowledge-base/articles/create-a-project/){: .cc-active} to your account of type Hubspot Connector to hold your HubSpot translations.
 
 ## Connect Smartling to your HubSpot account
 

@@ -38,7 +38,7 @@ Click **+ Add Language** to add a new language for translation.
 
 ![](/uploads/versions/download-4---x----1241-767x---.png)
 
-Mouseover next to the name of a language to reveal the option to Edit or Delete a language. The Edit option allows you to change the [Default Workflow](/support/articles/create-and-customize-a-workflow/#default-authorization-settings) for that language.
+Mouseover next to the name of a language to reveal the option to Edit or Delete a language. The Edit option allows you to change the [Default Workflow](/knowledge-base/articles/create-and-customize-a-workflow/#default-authorization-settings) for that language.
 
 ![](/uploads/versions/download-5---x----482-235x---.png)
 

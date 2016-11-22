@@ -39,7 +39,7 @@ The Requester Portal must be enabled by Smartling before it can be accessed by a
 
 ## Create a Requester
 
-**1)** Follow the steps in [Add a User](/support/articles/add-and-manage-users-and-agencies/#add-a-user).
+**1)** Follow the steps in [Add a User](/knowledge-base/articles/add-and-manage-users-and-agencies/#add-a-user).
 
 **2)** Select **Requester** as the user role.
 

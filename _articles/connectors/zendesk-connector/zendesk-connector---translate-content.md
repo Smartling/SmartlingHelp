@@ -27,7 +27,7 @@ The Zendesk Connector allows you to request translation of Articles and Dynamic 
 
 Once you have requested translation for an article or item of dynamic content, Smartling will automatically detect future changes to that article and upload new strings to Smartling for translation.
 
-<div class="info"><strong>Notes:</strong><ul><li>If your content contains internal links, for example, links to other articles in your Help Center, these will be automatically changed in your translated file to point to the correct language. For example <code>&lt;a href="/hc/en-us/articles/204372677-Summary"&gt;</code> will become <code>&lt;a href="/hc/fr-FR/articles/204372677-Summary"&gt;</code> in your translated French article.</li><li>It is possible to swap images in your translated articles. See <a href="/support/articles/zendesk-connector-localize-images/">Localize Images</a> for details.</li></ul></div>
+<div class="info"><strong>Notes:</strong><ul><li>If your content contains internal links, for example, links to other articles in your Help Center, these will be automatically changed in your translated file to point to the correct language. For example <code>&lt;a href="/hc/en-us/articles/204372677-Summary"&gt;</code> will become <code>&lt;a href="/hc/fr-FR/articles/204372677-Summary"&gt;</code> in your translated French article.</li><li>It is possible to swap images in your translated articles. See <a href="/knowledge-base/articles/zendesk-connector-localize-images/">Localize Images</a> for details.</li></ul></div>
 
 ## Request translation
 

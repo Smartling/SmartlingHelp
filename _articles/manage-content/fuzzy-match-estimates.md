@@ -39,7 +39,7 @@ Smartling rounds match percentages down to ensure that translators understand th
 
 The Smartling Fuzzy Match tool allows Smartling Administrators to create profiles for fuzzy matches by defining percentage matches to the existing Translation Memory (TM), and then apply these profiles to specific locales. Contact your Customer Service Manager if you want to discuss creating a custom Fuzzy Match profile for your account.
 
-Account Owners and Agency Account Owners can generate a fuzzy match estimate for a specific locale to help estimate how much it will cost to translate new content. [Translation Resources can also create estimates](/support/articles/fuzzy-match-estimates-translators/) for the content in their translation queue.
+Account Owners and Agency Account Owners can generate a fuzzy match estimate for a specific locale to help estimate how much it will cost to translate new content. [Translation Resources can also create estimates](/knowledge-base/articles/fuzzy-match-estimates-translators/) for the content in their translation queue.
 
 Fuzzy match estimates display the number of words for the profile at the time you run the report and report on content which is approved but not yet Translated.
 
@@ -53,7 +53,7 @@ A Fuzzy Match Estimate also compares content in an estimate to itself. For examp
 
 Fuzzy Match Estimates also show a Weighted Words count, designed to help you estimate the actual cost of translating the words in a Fuzzy Match Estimate. This number is calculated differently depending on your account setup:
 
-* If you use Smartling Translation Resources, the Weighted Words count reflects Smartling's Fuzzy Match pricing including [SmartMatch](http://localhost:4000/support/articles/smartmatch-settings/).  
+* If you use Smartling Translation Resources, the Weighted Words count reflects Smartling's Fuzzy Match pricing including [SmartMatch](http://localhost:4000/knowledge-base/articles/smartmatch-settings/).  
 * If you have set up custom Fuzzy Match tiers, the Weighted Words count will reflect your custom settings including SmartMatch. Contact your Customer Success manager if you wish to set up custom Fuzzy Match tiers for your account.  
 * If you do not use Smartling's translation resources and have not set up custom Fuzzy Match tiers in Smartling, the Weighted Words count is simply the Total Estimated Words minus SmartMatched words.  
 
@@ -71,7 +71,7 @@ Your Weighted Words count will be 360 words.
 
 **1)** Navigate to **Content > Fuzzy Estimates**.
 
-**2)** Run a new report by clicking **Create New Estimates**. Reports may take a few minutes to run and will be added to the reports table when complete. Fuzzy Match Estimates are kept in the dashboard for 60 days. You can run a report [just for the content in a specific Job](/support/articles/jobs/#view-fuzzy-match-estimates-for-a-job) from the **Jobs** page. You can also run a report for any selection of strings from the List View. See below for details.
+**2)** Run a new report by clicking **Create New Estimates**. Reports may take a few minutes to run and will be added to the reports table when complete. Fuzzy Match Estimates are kept in the dashboard for 60 days. You can run a report [just for the content in a specific Job](/knowledge-base/articles/jobs/#view-fuzzy-match-estimates-for-a-job) from the **Jobs** page. You can also run a report for any selection of strings from the List View. See below for details.
 
 **3)** View any past reports by clicking **Show/Hide**, or click **Download** to download an estimate as a CSV file.
 
@@ -81,7 +81,7 @@ Your Weighted Words count will be 360 words.
 
 **1)** Navigate to **Content&gt;Translation** and select either **In Progress** or **Awaiting Authorization.**
 
-**2)** [Search or filter the List View](/support/articles/search-and-filter-in-the-list-view/) to find your content, select the strings you want included in the report and, from the **Actions** menu, select either **Fuzzy Estimate**, or **Fuzzy Estimate All** Running **Fuzzy Estimate All** will create an estimate for all strings matching your current filter settings.
+**2)** [Search or filter the List View](/knowledge-base/articles/search-and-filter-in-the-list-view/) to find your content, select the strings you want included in the report and, from the **Actions** menu, select either **Fuzzy Estimate**, or **Fuzzy Estimate All** Running **Fuzzy Estimate All** will create an estimate for all strings matching your current filter settings.
 
 ![](/uploads/versions/fuzzyestimates2---x----1226-547x---.png)
 

@@ -57,7 +57,7 @@ Smartling gives Account Owners the ability to add and delete languages in a proj
 
 **(3)** Click **Add**.
 
-You can [manage workflow settings](/support/articles/create-and-customize-a-workflow/#default-authorization-settings){: .cc-active} for the new language at **Project Settings &gt; Workflow Settings**
+You can [manage workflow settings](/knowledge-base/articles/create-and-customize-a-workflow/#default-authorization-settings){: .cc-active} for the new language at **Project Settings &gt; Workflow Settings**
 
 ## Delete a language
 
@@ -80,4 +80,4 @@ From the **Summary** screen, mouseover to the right of the language you want to 
 
 ![small](/uploads/versions/smartling___summary-6---x----473-273x---.png)
 
-From the edit dialog box, you can select the [default workflow](/support/articles/create-and-customize-a-workflow/#default-authorization-settings){: .cc-active} for the language.
+From the edit dialog box, you can select the [default workflow](/knowledge-base/articles/create-and-customize-a-workflow/#default-authorization-settings){: .cc-active} for the language.

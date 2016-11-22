@@ -42,7 +42,7 @@
 
         - Name: smartling.namespace
           Required: optional
-          Description: 'For accounts created after July 31st 2015 only. Define a custom <a href="http://support.smartling.com/hc/en-us/articles/207178807">namespace</a> for the file. This works for Application Resource Files only. For Business Documents, see <a href="http://support.smartling.com/hc/en-us/articles/201182377-Managing-Business-Documents#Update">Update File</a>. <strong>Note:</strong> while this parameter shares the format of other file directives, it will not work as an inline directive and must be specified in the API call.'
+          Description: 'For accounts created after July 31st 2015 only. Define a custom <a href="http://knowledge-base.smartling.com/hc/en-us/articles/207178807">namespace</a> for the file. This works for Application Resource Files only. For Business Documents, see <a href="http://knowledge-base.smartling.com/hc/en-us/articles/201182377-Managing-Business-Documents#Update">Update File</a>. <strong>Note:</strong> while this parameter shares the format of other file directives, it will not work as an inline directive and must be specified in the API call.'
 
         - Name: smartling.file_charset
           Required: optional

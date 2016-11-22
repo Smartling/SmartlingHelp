@@ -19,7 +19,7 @@ endpoints:
   - title: List parts of speech
 ---
 
-The Glossary API allows you to create and edit Glossaries in a Smartling account and populate it with Glossary terms. You can also download your Glossaries as CSV or TBX files and import Excel spreadsheets to create new Glossaries. For general details on Glossary management, see our [Support documentation](/support/sections/glossaries/).
+The Glossary API allows you to create and edit Glossaries in a Smartling account and populate it with Glossary terms. You can also download your Glossaries as CSV or TBX files and import Excel spreadsheets to create new Glossaries. For general details on Glossary management, see our [Support documentation](/knowledge-base/sections/glossaries/).
 
 ## Rates and Limits
 

@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-Smartling allows you to Export any glossary as a spreadsheet. If you wish, you can edit this spreadsheet to modify your glossary, then import it back into Smartling. It may be useful to edit your glossary in this way if you want to collaborate with stakeholders outside of Smartling. You can export your Glossary, use your preferred spreadsheet software to edit and track your changes, and import your changes back into Smartling when you are ready. Preserving the correct formatting is important. See [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/){: .cc-active}.
+Smartling allows you to Export any glossary as a spreadsheet. If you wish, you can edit this spreadsheet to modify your glossary, then import it back into Smartling. It may be useful to edit your glossary in this way if you want to collaborate with stakeholders outside of Smartling. You can export your Glossary, use your preferred spreadsheet software to edit and track your changes, and import your changes back into Smartling when you are ready. Preserving the correct formatting is important. See [Glossary Spreadsheet Format](/knowledge-base/articles/glossary-spreadsheet-format/){: .cc-active}.
 
 ![](/uploads/versions/smartling___linguistic_assets-23---x----1258-422x---.png)
 
@@ -64,4 +64,4 @@ Select your file and click **Upload**.
 
 ## Add New Terms from a New File
 
-If you only want to add new terms to your glossary, it isn’t necessary to start from an exported file. However, you need to pay careful attention to [formatting](/support/articles/glossary-spreadsheet-format/) if you’re creating a Glossary spreadsheet from scratch. Any terms without an entry in an ID column are treated as new.
+If you only want to add new terms to your glossary, it isn’t necessary to start from an exported file. However, you need to pay careful attention to [formatting](/knowledge-base/articles/glossary-spreadsheet-format/) if you’re creating a Glossary spreadsheet from scratch. Any terms without an entry in an ID column are treated as new.

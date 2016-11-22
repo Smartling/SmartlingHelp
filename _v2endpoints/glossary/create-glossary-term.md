@@ -66,4 +66,4 @@ examples:
     description_markdown:
 ---
 
-Creates a new glossary term. The only required parameter is `termText`. See our [Glossary documentation](/support/articles/manage-glossaries/#term-details) for details on each term parameter. You can only add one translation object in this request. To add additional translations, use [Edit Glossary term](/developers/api/v2/glossary/edit-glossary-term/).
+Creates a new glossary term. The only required parameter is `termText`. See our [Glossary documentation](/knowledge-base/articles/manage-glossaries/#term-details) for details on each term parameter. You can only add one translation object in this request. To add additional translations, use [Edit Glossary term](/developers/api/v2/glossary/edit-glossary-term/).

@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-When Smartling captures content from a file or website, it parses the content into **strings**. Within a Smartling GDN project, strings can be shared, so that content appearing more than once will usually not be duplicated in the Smartling Dashboard. For example, a ‘Home’ button might appear many times on a website, but Smartling captures it as one unique string, to be translated once. For a Files project, strings are generally considered to be unique to each file and strings will not be shared between files. String sharing between files can be controlled using [namespaces](/support/articles/string-sharing-namespaces/).
+When Smartling captures content from a file or website, it parses the content into **strings**. Within a Smartling GDN project, strings can be shared, so that content appearing more than once will usually not be duplicated in the Smartling Dashboard. For example, a ‘Home’ button might appear many times on a website, but Smartling captures it as one unique string, to be translated once. For a Files project, strings are generally considered to be unique to each file and strings will not be shared between files. String sharing between files can be controlled using [namespaces](/knowledge-base/articles/string-sharing-namespaces/).
 
 Sometimes, however, two strings in the same file, with the same text in the source language may require different translations. For example, the string ‘Home’ on a webpage might refer to the homepage of the domain, or to a residence.
 
@@ -199,4 +199,4 @@ Since Smartling’s List View displays the plain text of a string, it can be dif
 
 ## Using Smartmatch to avoid re-translating identical text
 
-You can [set up Smartmatch](/support/articles/smartmatch-settings/) to match variants of strings in your Translation Memory. Enabling **100% match with variants** will only match strings with identical text when their variant metadata is the same. Enabling **100% match without variants** will ignore variant metadata and match any strings with identical text.
+You can [set up Smartmatch](/knowledge-base/articles/smartmatch-settings/) to match variants of strings in your Translation Memory. Enabling **100% match with variants** will only match strings with identical text when their variant metadata is the same. Enabling **100% match without variants** will ignore variant metadata and match any strings with identical text.

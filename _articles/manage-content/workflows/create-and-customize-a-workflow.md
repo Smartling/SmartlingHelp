@@ -57,7 +57,7 @@ Access Workflows from **Settings &gt; Translation Workflow**. Workflows can be c
 | Field       | Description |
  ---------    : --------    |
 | Content Assignment       | If set to ‘ON’ each string must be assigned to a specific translation resource. If ‘OFF’, any resource with access to this step can work on any string. |
-| Primary Action       | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/support/articles/smartmatch-settings/) strings enter the workflow. |
+| Primary Action       | For Revision steps, the Primary Action is either Edit or Review. This can be used for invoicing and also affects where [SmartMatched](/knowledge-base/articles/smartmatch-settings/) strings enter the workflow. |
 | Resources can revise content       | If checked, Translation Resources can edit the translation. Checking **Automatically submit edits by Resources** will cause strings to proceed to the next Workflow step when a Translation Resource saves an edit. |
 | Resources can reject content to:       | If set, Translation Resources on revision steps will be able to return content to a previous step. |
 | Resources can Reject and Edit Published Content       | If checked, Translation Resources assigned to this step will also be able to edit or reject published strings from this workflow. |
@@ -83,7 +83,7 @@ Access to each workflow step is customizable. Content owners have access to all 
 
 ![medium](/uploads/versions/smartling___translation_workflow-6---x----576-245x---.png)
 
-**3)** The dialog will only show existing users who are available to work in the step. A user is considered available if they have been invited to the project and are set up to translate the selected language. Agency translators will not be displayed. To add a new user or manage a particular user’s access to languages and workflow steps in detail, use the **Team** page. See [Manage Users and Agencies](/support/articles/add-and-manage-users-and-agencies/) for more information.
+**3)** The dialog will only show existing users who are available to work in the step. A user is considered available if they have been invited to the project and are set up to translate the selected language. Agency translators will not be displayed. To add a new user or manage a particular user’s access to languages and workflow steps in detail, use the **Team** page. See [Manage Users and Agencies](/knowledge-base/articles/add-and-manage-users-and-agencies/) for more information.
 
 ## Workflow Holds and Pre-Translation Steps
 
@@ -96,5 +96,5 @@ Click **Language Settings** from the **Translation Workflow** page to set a de
 ![](/uploads/versions/smartling___translation_workflow-7---x----1249-497x---.png)
 
 <div class="info">
-You can also manage default workflow for each language from the <a href="/support/articles/manage-languages-in-a-project/">Project Summary page</a>.
+You can also manage default workflow for each language from the <a href="/knowledge-base/articles/manage-languages-in-a-project/">Project Summary page</a>.
 </div>

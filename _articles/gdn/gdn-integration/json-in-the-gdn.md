@@ -44,7 +44,7 @@ Smartling does not automatically capture JSON content for translation, since tra
 
 JSON is made up of name/value pairs. Smartling translates only JSON values.
 
-> This article assumes JSON is the result of a JSON request. To identify JSON appearing within a Javascript string literal see [here](/support/articles/javascript-in-the-gdn/).
+> This article assumes JSON is the result of a JSON request. To identify JSON appearing within a Javascript string literal see [here](/knowledge-base/articles/javascript-in-the-gdn/).
 
 ## Identify Translatable Content
 
@@ -79,7 +79,7 @@ Smartling automatically recognizes HTML content in JSON strings and parses it as
 
 ## Create Variant Metadata for JSON strings
 
-If you want to create [variant metadata](/support/articles/unique-strings-and-variants/){: .cc-active} in Smartling, you can describe it by adding an `"sl_variant"` entry to your JSON object. This should contain a comma separated list of JSON names and variant values. For example:
+If you want to create [variant metadata](/knowledge-base/articles/unique-strings-and-variants/){: .cc-active} in Smartling, you can describe it by adding an `"sl_variant"` entry to your JSON object. This should contain a comma separated list of JSON names and variant values. For example:
 
 ~~~
 {

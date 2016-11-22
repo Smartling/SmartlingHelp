@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-Smartling offers several ways to give your Translation Resources information: For project-level information, use your [Style Guide](/support/articles/style-guides/) and [Glossary](/support/sections/glossaries/). For information that affects a particular file, Smartling let’s you attach your instructions directly to the file itself:
+Smartling offers several ways to give your Translation Resources information: For project-level information, use your [Style Guide](/knowledge-base/articles/style-guides/) and [Glossary](/knowledge-base/sections/glossaries/). For information that affects a particular file, Smartling let’s you attach your instructions directly to the file itself:
 
 ## Add a File Instruction
 
@@ -42,7 +42,7 @@ Smartling offers several ways to give your Translation Resources information: Fo
 
 ![](/uploads/versions/smartling---manage-files-4---x----2488-1346x---.png)
 
-**2)** Either type your instruction in the text box or upload a file. [Markdown-format links](/support/faq/adding-links-to-translator-instructions-or-issues/) are supported. The file can be of any type, for example, an image file to aid Indesign translation, a Word document, spreadsheet, etc.
+**2)** Either type your instruction in the text box or upload a file. [Markdown-format links](/knowledge-base/faq/adding-links-to-translator-instructions-or-issues/) are supported. The file can be of any type, for example, an image file to aid Indesign translation, a Word document, spreadsheet, etc.
 
 ![medium](/uploads/versions/smartling---manage-files-5---x----1150-812x---.png)
 

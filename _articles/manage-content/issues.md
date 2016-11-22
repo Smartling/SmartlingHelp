@@ -41,7 +41,7 @@ migration-checklist:
 
 Issues are a way for users working on a translation workflow to communicate with other users about the original source content and translations. For example, a Translator might create an Issue to ask a question about terminology in a particular string. By using Issues, you can record any communication about a string, and this can be seen by anyone working on it. Issues streamline the translation workflow. Translators get answers to their questions about the original content so they can translate it quickly and correctly.  Translation resources can review and provide feedback about translations collaboratively. Issues can be created, commented on and resolved.
 
-[Markdown-format links](/support/faq/adding-links-to-translator-instructions-or-issues/) are supported in issue text.
+[Markdown-format links](/knowledge-base/faq/adding-links-to-translator-instructions-or-issues/) are supported in issue text.
 
 > The processes below are for managing Issues from the List View. The same functionality is also accessible from the **Issues** tab of the Translation Interface.
 
@@ -120,10 +120,10 @@ You can edit the text of issues and comments you created at any time. Just open 
 
 ## Tips for managing Issues
 
-* At any time, Account Owners and Project Managers can view and manage all open issues for all their projects from the [Account Dashboard](/support/articles/account-dashboard/).
+* At any time, Account Owners and Project Managers can view and manage all open issues for all their projects from the [Account Dashboard](/knowledge-base/articles/account-dashboard/).
 * Anyone can close an issue, but it is often good practice to let the person who opened an issue close it, to make sure they are satisfied with the resolution.
 * You can manage your e-mail notification preferences from the Project Notifications tab of your Smartling Profile
-* Account Owners and Project Managers can keep track of issues in the [Issues Report](/support/articles/issues-report/){: .cc-active}.
+* Account Owners and Project Managers can keep track of issues in the [Issues Report](/knowledge-base/articles/issues-report/){: .cc-active}.
 * We recommend that issues get resolved before the translation is published. We allow content to be published with open issues because most users don’t want to hold up their translation workflow, however, it’s good practice to resolve all issues so that the reports will accurately reflect your project’s current state. If needed you can return translations for editing after they are published in order to address the issue.
 * Content owners (Account Owners and Project Managers) should respond to Source String Issues as fast as possible.  When translators open source string issues there is a good chance they are not able to proceed with translation or don’t feel confident in creating a translation because they need resolution of their question. It’s also a strong indication that there might be integration/content capture issues that need to be resolved, and the string shouldn’t be translated at all.
 

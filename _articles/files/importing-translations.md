@@ -35,7 +35,7 @@ migration-checklist:
 
 Account Owners and Project Managers can import translations for Android, iOS, Java Properties, gettext, XML, JSON, YAML, Qt, CSV, RESX and PRES files. You can import strings and overwrite any existing translations, and you can place the strings in different workflow states.
 
-You cannot import translations unless there are source strings in the Smartling Dashboard to match those translations to. You must [upload your source file](/support/articles/upload-and-manage-files/) first, then import your translations. Smartling matches translated strings with source strings that share the same key, so you can only import translations for files that use key/value pairs. If you have [integration directives](http://docs.smartling.com/pages/supported-file-types/) in the source file, you should add the same directives to the translated file to make sure Smartling can match the strings.
+You cannot import translations unless there are source strings in the Smartling Dashboard to match those translations to. You must [upload your source file](/knowledge-base/articles/upload-and-manage-files/) first, then import your translations. Smartling matches translated strings with source strings that share the same key, so you can only import translations for files that use key/value pairs. If you have [integration directives](http://docs.smartling.com/pages/supported-file-types/) in the source file, you should add the same directives to the translated file to make sure Smartling can match the strings.
 
 
 **1)** From the **Files** page, click the file for which you want to import translations, and next to the language, select**Import Translations**.

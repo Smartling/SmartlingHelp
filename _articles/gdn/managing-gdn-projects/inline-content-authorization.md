@@ -53,5 +53,5 @@ By default, this will send the content to the default Workflow for all locales. 
 
 ![](/uploads/versions/inline-authorization-3---x----598-264x---.png)
 
-> To choose a non-default Workflow, do not use the inline authorization tool. Instead, [authorize the content from the list view](/support/articles/authorize-content-from-the-list-view/).
+> To choose a non-default Workflow, do not use the inline authorization tool. Instead, [authorize the content from the list view](/knowledge-base/articles/authorize-content-from-the-list-view/).
 

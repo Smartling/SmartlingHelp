@@ -28,7 +28,7 @@ request:
       type: file
       required: true
       description_markdown: |
-        XLSX file containing the Glossary you want to import. See [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/) for details.
+        XLSX file containing the Glossary you want to import. See [Glossary Spreadsheet Format](/knowledge-base/articles/glossary-spreadsheet-format/) for details.
 response:
   json_markdown: |
     ~~~json
@@ -65,6 +65,6 @@ examples:
     description_markdown:
 ---
 
-Creates a new Glossary in your account from an uploaded Excel spreadsheet. The format of the spreadsheet is important. See [Import Glossary](/support/articles/import-glossary/) and [Glossary Spreadsheet Format](/support/articles/glossary-spreadsheet-format/).
+Creates a new Glossary in your account from an uploaded Excel spreadsheet. The format of the spreadsheet is important. See [Import Glossary](/knowledge-base/articles/import-glossary/) and [Glossary Spreadsheet Format](/knowledge-base/articles/glossary-spreadsheet-format/).
 
 This process is asynchronous and may take a few minutes to complete. Therefore the response will have a `202 ACCEPTED` status, instead of the usual `200 SUCCESS`. The response includes a `glossaryImportJobUid` which can be used to check the status of the import. 

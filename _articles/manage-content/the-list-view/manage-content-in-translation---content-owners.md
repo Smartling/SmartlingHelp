@@ -35,7 +35,7 @@ migration-checklist:
 
 Once your content is part of a project,you can manage your content from the List View at **Content &gt; Translations**.
 
-**(1)** From the list view, use the [Search and Filter](/support/articles/search-and-filter-in-the-list-view/) options to find the strings you wish to manage and either:
+**(1)** From the list view, use the [Search and Filter](/knowledge-base/articles/search-and-filter-in-the-list-view/) options to find the strings you wish to manage and either:
 
 **(a)** Select the individual strings you want to manage.
 
@@ -51,7 +51,7 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Add/Remove Tags
 
-* Add a tag to strings. You can [filter](/support/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) the list view by tags to locate these strings later.
+* Add a tag to strings. You can [filter](/knowledge-base/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) the list view by tags to locate these strings later.
 
 
 ### Add Translator Instruction
@@ -62,26 +62,26 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Add to / Remove from Job
 
-* Add strings to an existing [Job](/support/articles/jobs/#add-or-remove-translations-from-a-job) or create a new Job.
-* To remove strings from a Job, [filter](/support/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) the list view for that Job and select the strings you wish to remove.
+* Add strings to an existing [Job](/knowledge-base/articles/jobs/#add-or-remove-translations-from-a-job) or create a new Job.
+* To remove strings from a Job, [filter](/knowledge-base/articles/search-and-filter-in-the-list-view/#filter-by-string-properties) the list view for that Job and select the strings you wish to remove.
 
 
 ### Assign/ Assign All
 
-* [Assign](/support/articles/assign-content-to-a-translation-resource/) a Translation Resource to the selected string.
-* Assign All will select all strings matching the current filter. To unlock this option you must set the [List View filter](/support/articles/search-and-filter-in-the-list-view/#filter-by-workflow/step) to show results for a single workflow step.
+* [Assign](/knowledge-base/articles/assign-content-to-a-translation-resource/) a Translation Resource to the selected string.
+* Assign All will select all strings matching the current filter. To unlock this option you must set the [List View filter](/knowledge-base/articles/search-and-filter-in-the-list-view/#filter-by-workflow/step) to show results for a single workflow step.
 
 
 ### Authorize for Translation
 
 * Move strings from the **Awaiting Translation** queue to **In Progress** and add to your chosen Languages and Workflows.
-* [See Authorize Content from the List View](/support/articles/authorize-content-from-the-list-view/).
+* [See Authorize Content from the List View](/knowledge-base/articles/authorize-content-from-the-list-view/).
 
 
 ### Authorize All
 
 * Authorize all strings in the current filter for all language and add to your chosen Languages and Workflows
-* [See Authorize Content from the List View.](/support/articles/authorize-content-from-the-list-view/)
+* [See Authorize Content from the List View.](/knowledge-base/articles/authorize-content-from-the-list-view/)
 
 
 ### Clear Authorization Queue
@@ -91,7 +91,7 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Create Pattern
 
-* Use selected strings to [define a pattern](/support/articles/create-and-manage-patterns-gdn/).
+* Use selected strings to [define a pattern](/knowledge-base/articles/create-and-manage-patterns-gdn/).
 
 
 ### Delete String (GDN projects only)
@@ -108,17 +108,17 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Fuzzy Estimate / Fuzzy Estimate All
 
-* Create a [Fuzzy Match Estimate](/support/articles/fuzzy-match-estimates/#create-a-fuzzy-estimate-from-the-list-view), either for selected strings, or all strings in the current filter.
+* Create a [Fuzzy Match Estimate](/knowledge-base/articles/fuzzy-match-estimates/#create-a-fuzzy-estimate-from-the-list-view), either for selected strings, or all strings in the current filter.
 
 
 ### Move/Move all
 
-* [Move strings](/support/articles/move-strings-between-workflow-steps/) from one Workflow step to another.
+* [Move strings](/knowledge-base/articles/move-strings-between-workflow-steps/) from one Workflow step to another.
 
 
 ### Pre-Publish
 
-* Pre-publish strings that are In Progress, but are not yet complete. Pre-published strings appear on your translated GDN site and are considered 'Published' when [downloading translated files](/support/articles/download-files/), but still proceed through the editing workflow as normal. Pre-publishing is useful if you want to get provisional translations live as soon as possible but leave the option to edit them later before you finalize the translation.
+* Pre-publish strings that are In Progress, but are not yet complete. Pre-published strings appear on your translated GDN site and are considered 'Published' when [downloading translated files](/knowledge-base/articles/download-files/), but still proceed through the editing workflow as normal. Pre-publishing is useful if you want to get provisional translations live as soon as possible but leave the option to edit them later before you finalize the translation.
 
 
 ### Publish
@@ -128,7 +128,7 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Reactivate String
 
-* For [inactive strings](/support/articles/inactive-strings/) only - reactivate the string so it can be edited and published.
+* For [inactive strings](/knowledge-base/articles/inactive-strings/) only - reactivate the string so it can be edited and published.
 
 
 ### Reset Context (Files project only)
@@ -143,7 +143,7 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Set Maximum Length
 
-* Set a [character limit](/support/articles/set-a-character-limit-for-a-translation/) for translations of selected strings.
+* Set a [character limit](/knowledge-base/articles/set-a-character-limit-for-a-translation/) for translations of selected strings.
 
 
 ### Submit to Next Step
@@ -153,7 +153,7 @@ Once your content is part of a project,you can manage your content from the List
 
 ### Unauthorize
 
-* Returns authorized strings to the Awaiting Authorization queue. See [Unauthorize Content](/support/articles/authorize-content-from-the-list-view/#unauthorize-content) for more information.
+* Returns authorized strings to the Awaiting Authorization queue. See [Unauthorize Content](/knowledge-base/articles/authorize-content-from-the-list-view/#unauthorize-content) for more information.
 
 
 ### Unassign / Unassign all

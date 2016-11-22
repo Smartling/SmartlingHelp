@@ -68,7 +68,7 @@ The new version of the connector is now ready for use.
 
 **4)** On the entry for the Smartling Connector, click **Network Activate**.
 
-**5)** Check your [Smartling Connector configuration](/support/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin){: .cc-active}.
+**5)** Check your [Smartling Connector configuration](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin){: .cc-active}.
 
 The new version of the connector will be ready for use.
 

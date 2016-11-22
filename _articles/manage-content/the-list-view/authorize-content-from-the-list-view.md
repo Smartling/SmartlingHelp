@@ -52,7 +52,7 @@ To authorize strings on a per-language basis or specify a workflow for those str
 
 ![](/uploads/versions/smartling___translations_management-9---x----1343-601x---.png)
 
-**3)** In the Authorize dialog box, select your languages, the Workflow for each language and a [job](/support/articles/jobs/){: .cc-active}, if desired. Click **Submit**.
+**3)** In the Authorize dialog box, select your languages, the Workflow for each language and a [job](/knowledge-base/articles/jobs/){: .cc-active}, if desired. Click **Submit**.
 
 ![medium](/uploads/versions/smartling___translations_management-10---x----571-431x---.png)
 

@@ -61,7 +61,7 @@ request:
           description_markdown: |
             > For accounts created after July 31st 2015 only. 
             
-            Define a custom [namespace](/support/articles/string-sharing-namespaces/) for the file. This works for Application Resource Files only. For Business Documents, see [Update File](/support/articles/managing-business-documents/#updating-files). 
+            Define a custom [namespace](/knowledge-base/articles/string-sharing-namespaces/) for the file. This works for Application Resource Files only. For Business Documents, see [Update File](/knowledge-base/articles/managing-business-documents/#updating-files). 
             > While this parameter shares the format of other file directives, it will not work as an inline directive and must be specified in the API call.'
         - title: smartling.file_charset
           required: false

@@ -52,7 +52,7 @@ Localized images will have the same re-sizing applied as your source image, so f
 
 > Zendesk does not display image names, only thumbnails. So check that you have named your files correctly before uploading.
 
-**5)** [Translate](/support/articles/zendesk-connector-translate-content/) your Zendesk article as normal.
+**5)** [Translate](/knowledge-base/articles/zendesk-connector-translate-content/) your Zendesk article as normal.
 
 Once your translated articles are published, they should display on your translated sites in the same position and at the same size as the source image.
 

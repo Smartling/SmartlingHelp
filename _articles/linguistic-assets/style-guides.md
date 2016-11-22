@@ -56,4 +56,4 @@ A style guide is a collection of rules about your preferences for content format
 
 ## Assign a Style Guide to a Project
 
-Style guides are assigned to a project as part of a Linguistic Package. See [Create and Manage Linguistic Packages](/support/articles/create-and-manage-linguistic-packages/) for more information.
+Style guides are assigned to a project as part of a Linguistic Package. See [Create and Manage Linguistic Packages](/knowledge-base/articles/create-and-manage-linguistic-packages/) for more information.

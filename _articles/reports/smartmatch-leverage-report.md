@@ -18,7 +18,7 @@ migration-checklist:
 ---
 
 
-The SmartMatch Leverage report shows you the number of words in a project automatically translated by SmartMatch for a selected date range. An&nbsp;[account-level version](/support/articles/account-level-reports/)&nbsp;of this report is also available.
+The SmartMatch Leverage report shows you the number of words in a project automatically translated by SmartMatch for a selected date range. An&nbsp;[account-level version](/knowledge-base/articles/account-level-reports/)&nbsp;of this report is also available.
 
 To run the report, select Languages and a date range and click&nbsp;**Filter**.
 

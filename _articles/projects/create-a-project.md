@@ -43,10 +43,10 @@ Your first project will be created as you set up your Smartling account, but you
 
 ![medium](/uploads/versions/smartling___create_a_project---x----650-587x---.png)
 
-Most project types require you to upload resource files for translation and are generally referred to as [Application Resource File](/support/sections/files/){: .cc-active} projects. There are three special project types to be aware of:
+Most project types require you to upload resource files for translation and are generally referred to as [Application Resource File](/knowledge-base/sections/files/){: .cc-active} projects. There are three special project types to be aware of:
 
-* **Web &gt; Global Delivery Network** - Capture and deliver web content through the Smartling [Global Delivery Network](/support/sections/gdn/){: .cc-active} without uploading files.
-* **Web &gt; CMS Connector** - Integrate directly with your site's CMS using a [Smartling Connector](/support/sections/connector-projects/){: .cc-active}.
+* **Web &gt; Global Delivery Network** - Capture and deliver web content through the Smartling [Global Delivery Network](/knowledge-base/sections/gdn/){: .cc-active} without uploading files.
+* **Web &gt; CMS Connector** - Integrate directly with your site's CMS using a [Smartling Connector](/knowledge-base/sections/connector-projects/){: .cc-active}.
 * **Business Documents** - Translate Microsoft Office documents or Adobe InDesign files.
 
 
@@ -54,7 +54,7 @@ Most project types require you to upload resource files for translation and are 
 
 * Project Name
 * Website URL (if available)
-* Linguistic Package - A package of translation assets to use for this project. See [Create and Manage Linguistic Packages](/support/articles/create-and-manage-linguistic-packages/){: .cc-active} for details. If you don't want to use an existing Linguistic Package, you can create a new one.
+* Linguistic Package - A package of translation assets to use for this project. See [Create and Manage Linguistic Packages](/knowledge-base/articles/create-and-manage-linguistic-packages/){: .cc-active} for details. If you don't want to use an existing Linguistic Package, you can create a new one.
 * Target Languages - Translation languages for the project. You will only be able to add languages that are part of your selected Linguistic Package. You can add more languages to the package if necessary.
 
 
