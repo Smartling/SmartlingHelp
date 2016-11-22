@@ -38,6 +38,7 @@ The Watch feature allows you to mark content you want to pay close attention to.
 * A whole project
 * A workflow
 * A single workflow step
+* A job
 
 
 Within each level, you can choose to watch all languages or a specified language. You can mark up to 100 items of content to watch in the dashboard by clicking the **eye** icon:

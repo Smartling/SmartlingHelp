@@ -44,7 +44,7 @@ Access the Account Dashboard by clicking the **Smartling** logo.
 
 ## Watch Content
 
-Use the new **Watch** feature to mark any group of content you want to keep an eye on. You can watch a whole project, a workflow or a single workflow step - either for a chosen language or for all languages. Click the **Eye** anywhere content appears in the dashboard to add content to your watch list.
+Use the **Watch** feature to mark any group of content you want to keep an eye on. You can watch a whole project, a workflow or a single workflow step - either for a chosen language or for all languages. Click the **Eye** anywhere content appears in the dashboard to add content to your watch list.
 
 ![](/uploads/versions/smartling---summary-7---x----476-474x---.png)
 
