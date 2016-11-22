@@ -3,7 +3,7 @@ title: Introducing New Search Tools (Beta)
 layout: blogpost
 banner_image: 
 categories:
-  - product update
+  - product-update
 ---
 
 We're excited to introduce a new updated search for finding content in Smartling.  This new search service is built to be faster, provide more relevant search results, and support common search parameters such as exact search and boolean operators (AND/OR).

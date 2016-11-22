@@ -3,7 +3,7 @@ title: Upload Image Context From The List View
 layout: blogpost
 banner_image:
 categories:
-  - product update
+  - product-update
 ---
 
 
