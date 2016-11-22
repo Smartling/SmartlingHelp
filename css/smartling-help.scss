@@ -109,7 +109,7 @@ $standard-border: 1px solid $border-grey;
 }
 
 .header-logo {
-    width: 220px;
+    width: 180px;
     position: relative;
     margin-top: 20px;
     bottom: 7px;
@@ -449,7 +449,7 @@ $headline-padding: 8px;
 
 .content-start-homepage {
     position: relative;
-    top: 50px
+    top: 150px
 }
 
 // Search Bar
@@ -602,7 +602,8 @@ $headline-padding: 8px;
     }
 }
 
-.search-main.affix {
+.search-main {
+    position: fixed;
     top: 60px;
     width: 100%;
     z-index: 1030;
