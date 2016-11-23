@@ -10,6 +10,7 @@ subarticles:
   - title: Inline Content Authorization
   - title: Take Advantage of Your Staging Environment
   - title: Manually Add Content to a GDN Project
+  - title: URL Translation
 wistia:
   video: false
   id:
