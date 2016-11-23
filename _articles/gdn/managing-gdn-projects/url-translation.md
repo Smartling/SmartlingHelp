@@ -46,13 +46,13 @@ To make sure that we don’t break any links on your site, we need to follow a f
 
 3) When translation is complete, switch over to translated URLs
 
-Capture your URLs
+## Capture your URLs
 
 URLs are translated like any other string in the GDN and are captured when a page is served. To get started, go to Content &gt; URL Translation and make sure Enable capture of URL strings is checked.
 
 Now, as your translated sites are browsed, Smartling will begin to capture URLs. You can use a crawler to capture URLs more quickly. You can also manually add URLs by clicking +Add URL.
 
-Authorize URLs you want to translate
+## Authorize URLs you want to translate
 
 As your URLs are captured they will be displayed at Content &gt; URL Translation. The default view shows your source URLs. To authorize URLs for translation, select a language from the language dropdown.
 
@@ -60,12 +60,12 @@ For each language, you can authorize individual URLs by clicking Translate or ch
 
 URL strings will be authorized into the default workflow for the language. You will see a ‘Translation in Progress’ message next to each requested URL.
 
-Switch over to Translated URLs
+## Switch over to Translated URLs
 
 To serve any translated URLs, the Enable URL Translation functionality box must be checked on theContent &gt; URL Translation page. Unchecking this box at any time will turn off all translated URLs. For a consistent launch, you may want to leave this box unchecked until all URLs are translated.
 
 To enable serving a translated URL, select a language and either switch individual URLs ON or by checking multiple URLs and selecting Enable URL.
 
-Filter out URLs you don’t want to translate
+## Filter out URLs you don’t want to translate
 
 Your site may include URLs that you don’t want to translate, for example, URLs for resources like JavaScript files. While having them in Content &gt; URL Translation won’t affect functionality, it can make it more difficult to find the URLs you do want to translate. To filter out these unwanted URLs &nbsp;go to the URL Filters tab and click Add Filter. A filter is formated as a Java Regular Expression inside ellipses. For example, (/+.js/) will exclude any URLs ending in .js.
