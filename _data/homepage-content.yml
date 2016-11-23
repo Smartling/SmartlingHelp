@@ -31,5 +31,8 @@ blog-posts:
 
 
 latest-updates:
+  - title: URL Translation
+    link: /knowledge-base/articles/url-translation/
+
   - title: Cost Estimates and Rates
     link: /knowledge-base/articles/cost-estimates-and-rates/

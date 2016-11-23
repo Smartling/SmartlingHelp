@@ -9,4 +9,4 @@ resources:
     link: 'https://matroska.org/technical/specs/subtitles/srt.html'
 ---
 
-Smartling supports translation of SubRip SRT Files.
+Smartling supports translation of SubRip SRT Files. No inline directives are supported for this file type.
