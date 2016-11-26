@@ -13,24 +13,11 @@ getting-started:
     link: /developers/
 
 
-popular-topics:
-# Section and title of popular topics. Careful what you put here.
-# First <p> element will be displayed under the heading truncated to ____. If it starts straight in with
-# numbered instructions it will look bad. The relevant section page is probably better.
-  - type: section
-    title: Linguistic Assets
-
-  - type: section
-    title: Glossaries
-
-  - type: section
-    title: Context
-
-blog-posts:
-  - title: Reduce time to market with Pre-Publish
-
 
 latest-updates:
+  - title: SubRip SRT files
+    link: /developers/files/subrip-srt/
+
   - title: URL Translation
     link: /knowledge-base/articles/url-translation/
 
