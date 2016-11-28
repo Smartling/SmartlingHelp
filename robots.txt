@@ -2,7 +2,7 @@ User-agent: Twitterbot
 Disallow:
 
 User-agent: Swiftbot
-Disallow: 
+Disallow:
 
 User-agent: *
 Disallow: /
