@@ -314,6 +314,10 @@ $standard-border: 1px solid $border-grey;
 .main-nav {
     .toc {
         @include nav-links(16px, 20px, 15px);
+        a {
+            padding-bottom: 6px !important;
+        }
+        margin-bottom: 20px;
     }
     h4 {
         a {
