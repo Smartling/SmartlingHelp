@@ -15,6 +15,7 @@ migration-checklist:
 ---
 
 
+![](/uploads/versions/browse-hotels---smartlinghotels---x----393-629x---.png)
 
 Mobile apps can require a little extra care when it comes to translation, since screen real-estate is at such a high premium. In a desktop environment, elements can often stretch to accommodate a little more or a little less text, but on mobile, controlling the length of your translations can be crucial. Keeping localized apps up to date can also be challenging, as, unlike a website, the content is often stored directly on the users device and the process of releasing an update through the Android and iOS app stores can be slow.
 
