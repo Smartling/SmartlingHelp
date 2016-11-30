@@ -5,6 +5,7 @@ master_category: true
 subsections:
   - title: Capturing Content from Files
   - title: Context
+  - title: Mobile Apps
   - title: Business Documents
 subarticles:
   - title: Supported File Types
