@@ -33,6 +33,7 @@ migration-checklist:
 ---
 
 
+![](/uploads/versions/localized-app-png---x----377-696x---.png)
 
 With Smartling's In-App Review feature, you can review and edit your UI strings directly from inside your App, either on a simulator or a real device.
 
@@ -44,11 +45,11 @@ With Smartling's In-App Review feature, you can review and edit your UI strings 
 
 **2)** Log in with your Smartling credentials.
 
-
+![](/uploads/versions/login-to-smartling-png---x----367-698x---.png)
 
 **3)** Select the language you want to review.
 
-
+![](/uploads/versions/main-menu-png---x----377-695x---.png)
 
 **4)** Select the Workflow step you want to review. This will affect the text you see in the App. Strings in your selected step and published strings will be displayed in your selected language. All other strings will be displayed in your source language.
 
@@ -60,23 +61,23 @@ With Smartling's In-App Review feature, you can review and edit your UI strings 
 
 Once you have set up your review environment, you can use your app normally and edit your strings in context. A long press on any string will bring up the editor for that string. A long press elsewhere on the screen will bring up an editor for all strings in the current view and its subviews.
 
-
+![](/uploads/versions/translation-editor-png---x----387-699x---.png)
 
 From the editor, you can:
 
-* Directly edit the text of a string. Take care when making edits, as there is currently no undo function.  
-* Click **Accept** to advance the string to the next workflow step.  
-* Click **Reject** to return the string to the previous workflow step. This action will open the issue dialog. Select an issue type and give a reason for rejecting the string. Reject will only be available if the workflow step [allows reviewers to reject strings](/knowledge-base/articles/create-and-customize-a-workflow/#customize-a-workflow.
+* Directly edit the text of a string. Take care when making edits, as there is currently no undo function.
+* Click **Accept** to advance the string to the next workflow step.
+* Click **Reject** to return the string to the previous workflow step. This action will open the issue dialog. Select an issue type and give a reason for rejecting the string. Reject will only be available if the workflow step [allows reviewers to reject strings](/knowledge-base/articles/create-and-customize-a-workflow/#customize-a-workflow).
+  <br>![](/uploads/versions/raising-an-issue-png---x----382-704x---.png)
 
 ## Placeholders
 
 Placeholders are displayed in the editor as **Variable** fields.
 
-
-
- 
+![](/uploads/versions/placeholders-png---x----369-243x---.png)
 
 ## Submit your Review
 
 Any in-context edits only affect your local device until you submit your edits to Smartling. To submit your changes, open the Smartling Actions Panel with a 2-second, three-finger press (alt + click & hold on iOS simulator) and select **Save My Changes**.
 
+![](/uploads/versions/main-menu-png-1---x----382-705x---.png)
