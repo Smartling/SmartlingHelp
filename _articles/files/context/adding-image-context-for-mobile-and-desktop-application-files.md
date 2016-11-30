@@ -35,7 +35,9 @@ migration-checklist:
 
 For non-web content such as mobile or desktop apps, Image files can be uploaded to provide context.
 
-> If your content can be viewed in a browser, it is preferable to capture dynamic context with the [Chrome Context Capture Extension](/knowledge-base/sections/chrome-context-capture-extension/).
+<div class="info">
+If your content can be viewed in a browser, it is preferable to capture dynamic context with the <a href="/knowledge-base/sections/chrome-context-capture-extension/">Chrome Context Capture Extension</a>.
+</div>
 
 ## Add Image Context files
 
