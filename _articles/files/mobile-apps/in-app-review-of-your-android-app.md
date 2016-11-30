@@ -67,7 +67,7 @@ From the editor, you can:
 
 * Directly edit the text of a string. Take care when making edits, as there is currently no undo function.
 * Click **Accept** to advance the string to the next workflow step.
-* Click **Reject** to return the string to the previous workflow step. This action will open the issue dialog. Select an issue type and give a reason for rejecting the string. Reject will only be available if the workflow step [allows reviewers to reject strings](/knowledge-base/articles/create-and-customize-a-workflow/#customize-a-workflow.
+* Click **Reject** to return the string to the previous workflow step. This action will open the issue dialog. Select an issue type and give a reason for rejecting the string. Reject will only be available if the workflow step [allows reviewers to reject strings](/knowledge-base/articles/create-and-customize-a-workflow/#customize-a-workflow).
 
 ## Placeholders
 
