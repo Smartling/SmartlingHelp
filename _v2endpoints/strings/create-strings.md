@@ -142,3 +142,5 @@ Note that you cannot authorize a string via API. Once you have created the strin
 Smartling creates a unique hashcode for each string based on the parsed string text and any variant or namespace metadata provided. If you upload a string with the same text, variant and namespace, and therefore the same hashcode, the existng string will be overwritten. This will not change the text of the string, but may update other metadata, such as placeholder and callback values. If the string is currently inactive, overwriting it will cause it to be reactivated. Overwritten strings return `"overWritten": "true"` in the response object.
  
  Most uploads will return a `200` response indicating success. If processing the request takes longer than 60 seconds, a `202` request will be returned, including a `processUid` value that can be used to check on the progress of the request.
+ 
+If you set up a POST callback for the string, you can automatically receive the translation for a string as soon as it is complete. See [Callbacks](/developers/api/v2/callbacks/#string-is-translated-for-a-locale) for more details.

@@ -9,6 +9,7 @@ sections:
 articles:
   - New in v2
   - Migrate to v2
+  - Callbacks
   - Rate Limiting
   - Response Format
   - SDKs

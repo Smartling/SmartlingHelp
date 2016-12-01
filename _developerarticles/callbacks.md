@@ -49,16 +49,22 @@ Some events in Smartling can trigger callbacks to a specified URL. Callbacks usu
 
 ### String is translated for a locale
 
-This callback is sent to the URL provided in the [Create Strings](/developers/api/v2/strings/create-strings/) request. It can be sent as a GET or POST request. The POST request looks like:
+This callback is sent to the URL provided in the [Create Strings](/developers/api/v2/strings/create-strings/) request. It can be sent as a GET or POST request, thouh only the POST request includes translations. The POST request looks like:
 
 ~~~json
 {
-    "projectId":"9db9036e6",
-    "hashcode":"0361626e34448db7bcc510501c4f0d26",
-    "localeId":"fr-FR",
-    "type":"string.localeCompleted",
-    "ts":"1476112501495"
+  "projectId": "51df0cf05",
+  "hashcode": "3325fc569a651bef02a93732e48701b4",
+  "localeId": "fr-FR",
+  "type": "string.localeCompleted",
+  "translations": [
+    {
+      "translation": "Bonjour!",
+      "pluralForm": null,
+      "modifiedDate": "2016-12-01T14:18:00Z"
+    }
+  ]
 }
 ~~~
 
-A GET request includes the same information as querystring parameters: `?projectID=9db9036e6` etc.
+A GET request includes the same information - with the exception of the `translations` object as querystring parameters: `?projectID=9db9036e6` etc. 
