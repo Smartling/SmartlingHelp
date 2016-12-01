@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Set up your GDN Site
+title: Setup your GDN Site
 draft: false
 Applies to:
   GDN: false
