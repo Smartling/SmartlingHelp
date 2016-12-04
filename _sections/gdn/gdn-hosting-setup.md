@@ -5,12 +5,12 @@ subsections:
   - title: none
 subarticles:
   - title: Setup your GDN Site
-  - title: Authenticating Users Using Facebook
   - title: Effects of GDN load-balancing on user IP addresses and workarounds
-  - title: Managing Locale in the HTTP Head of a Page
+  - title: Specifying Locale in the HTTP Header
   - title: Modify the Smartling Language Selector Menu
   - title: Smartling Bot
   - title: SSL Certificate Requirements for the GDN
+  - title: Authenticating Users Using Facebook
 wistia:
   video: false
   id:

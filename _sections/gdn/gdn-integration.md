@@ -7,11 +7,12 @@ subsections:
 subarticles:
   - title: JavaScript in the GDN
   - title: JSON in the GDN
-  - title: Creating Localized Content
+  - title: Creating Localized Content with Content Swaps
+  - title: Translating and excluding title and meta tags
   - title: Search Integration
   - title: Third-Party Form and Button Integration
   - title: How to Specify a Language-Specific CSS
-  - title: Handle Plurals in a GDN Project
+  - title: Specifying Plurals in a GDN Project
   - title: Translate Text in Buttons, Tabs, and, Navigation
   - title: GDN - Create Pattern Match Rules
   - title: Specifying Professional and Community Translation Content in the GDN

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Handle Plurals in a GDN Project
+title: Specifying Plurals in a GDN Project
 draft: false
 Applies to:
   GDN: false
