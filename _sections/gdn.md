@@ -18,4 +18,7 @@ migration-checklist:
   reviewed: false
 ---
 
+
+![](/uploads/versions/gdn-final-7-7---x----960-622x---.gif)
+
 Smartling's Global Delivery Network (GDN) is a proxy service that handles incoming requests to your site and swaps in translated content on the fly.
