@@ -11,7 +11,7 @@ subarticles:
   - title: SmartMatch Settings
   - title: Style Guides
 wistia:
-  video: true
+  video: false
   id: gds77xzgmg
 migration-checklist:
   internal-links: true
@@ -21,6 +21,12 @@ migration-checklist:
   reviewed: false
 ---
 
+Linguistic Assets are resources that help you develop quality translations fast. There are four types of linguistic asset:
+
+  * Style Guide - information about your brand and house style to help translators choose an appropriate style.  
+  * Glossary - information on key terms for your brand to make sure they are treated correctly and consistently in your translated content.  
+  * Translation Memory - all translations are stored in a Translation Memory so they can be used again for simliar source content in the future.  
+  * Leverage Configuration - a collection of Translation Memories and other translations available to be reused.
 
 Instead of managing your Glossaries, Style Guides and Translation Memories, on a project-by-project basis, Smartling  gives you one place to manage all Linguistic Assets for your account. Your Assets are then combined into Linguistic Packages that can be assigned to a Smartling project.
 
