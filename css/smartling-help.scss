@@ -758,8 +758,28 @@ $headline-padding: 8px;
 
 // END SPECIAL CLASSES FOR LEARNING PAGE
 
+// FOOTER
 
-// SUBSRIPTION PAGE
+$footer-text-color: grey;
+
+.footer-content {
+    color: $footer-text-color;
+    margin-bottom: 20px;
+    a {
+        color: $footer-text-color;
+    }
+    .footer-logo {
+        width: 170px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+
+//END FOOTER
+
+// SUBSCRIPTION PAGE
 
 .row.first {
     margin-top: 80px;

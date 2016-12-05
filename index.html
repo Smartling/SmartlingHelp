@@ -22,18 +22,7 @@ home: true
 </div>
 
 <div class="container page">
-
-
-
-    <div class="content-start-homepage">
-
-
-
-
-
-
-
-    <div class="row">
+    <div class="row content-start-homepage">
         <div class="home-section col-md-6">
             <h2>Get Started with Smartling</h2>
             <ul>
@@ -58,14 +47,8 @@ home: true
             </ul>
         </div>
 
-    </div>
-        <div class="row">
-            <div class="home-section col-md-6">
-                <h2>Product Blog</h2>
-
-
-
-
+        <div class="home-section col-md-6">
+            <h2>Product Blog</h2>
                 <ul>
 
                     {% for post in site.posts %}
@@ -74,12 +57,9 @@ home: true
                     {% endunless %}
                     {% endfor %}
                 </ul>
-
-
-
-            </div>
-            <div class="home-section col-md-6">
-                <h2>Latest Documentation Updates</h2>
+        </div>
+        <div class="home-section col-md-6">
+            <h2>Latest Documentation Updates</h2>
                 <ul>
                     {% for latest-update in site.data.homepage-content.latest-updates %}
 
@@ -88,32 +68,24 @@ home: true
 
                     {% endfor %}
                 </ul>
-            </div>
 
         </div>
 
-
-    <div class="row">
         <div class="home-section col-md-6">
             <h2>Submit a Ticket</h2>
 
             <p>Have a question or a problem? <a href="https://support.smartling.com/hc/en-us/requests/new" target="_blank">Send us a ticket</a> and we’ll start working on a solution immediately.</p>
-
-
-
-
-
-
-
         </div>
         <div class="home-section col-md-6">
             <h2>Newsletter</h2>
                 <p><a href="/manage-subscriptions">Signup</a> to receive regular updates from Smartling about new features, updates, bug fixes.</p>
         </div>
+    </div>
 
-    </div>
+
 </div>
-    </div>
+<p><br><br><br><br></p>
+
 
 
 
