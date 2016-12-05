@@ -33,7 +33,7 @@ migration-checklist:
 ---
 
 
-When you browse a translated site, you will see `smartling_editmode=1` in your broswer's address bar. By changing the value of `smartling_editmode`, you can switch to one of four edit modes.
+When you browse a translated site, you will see `smartling_editmode=1` in your browser's address bar. By changing the value of `smartling_editmode`, you can switch to one of four edit modes.
 
 ## `smartling_editmode=1`
 
