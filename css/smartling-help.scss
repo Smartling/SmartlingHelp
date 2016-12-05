@@ -39,6 +39,7 @@ $navbar-height: 60px;
 $breadcrumb-height: 53px;
 $home-banner-height: 160px;
 
+
 // Top Margins
 $search-top-margin: $navbar-height;
 $breadcrumb-top-margin: $navbar-height;
@@ -47,6 +48,12 @@ $content-start-top-margin: $navbar-height + $breadcrumb-height;
 // Target Height/Margin - Stops deeplink headings disappearing under fixed headers
 $target-height: $content-start-top-margin + 10px;
 $target-margin: 0 - $target-height;
+
+
+
+// Max sidebar height
+$breadcrumb-diff: $content-start-top-margin + 80px;
+
 
 // END HEIGHTS AND TOP MARGINS
 
@@ -301,7 +308,7 @@ $standard-border: 1px solid $border-grey;
     // Fix sidebar on large screens
     @media only screen and (min-width: 992px) {
         position: fixed;
-        max-height: 80%; // Stop bottom of fixed sidebar disappearing
+        max-height: calc(100% - 195px); // Stop bottom of fixed sidebar disappearing
         overflow-y: scroll; // Scroll overflow when lots of nav entries
         overflow-x: hidden;
     }
@@ -767,12 +774,17 @@ $headline-padding: 8px;
     margin-bottom: -100px;
 }
 
+footer {
+    hr {
+        margin-bottom: 10px;
+    }
+}
 
 $footer-text-color: grey;
 
 .footer-content {
     color: $footer-text-color;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     a {
         color: $footer-text-color;
     }
