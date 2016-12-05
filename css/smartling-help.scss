@@ -366,6 +366,11 @@ $headline-padding: 8px;
         border-radius: 4px;
     }
 
+    img.author-image {
+        width: 150px;
+        margin-left: 0;
+    }
+
     //Non-default image sizes - editors can apply these sizes using alt tags in markdown like ![medium](/image/url/)
     img[alt="large"] {
         max-width: 70%;
