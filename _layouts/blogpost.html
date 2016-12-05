@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+{% if page.blog-author %}
+  {% for author in site.authors %}
+     {% if author.title == page.blog-author %}
+       {% assign articleauthor = author %}
+     {% endif %}
+  {% endfor %}
+{% endif %}
+
 <script>window.twttr = (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
             t = window.twttr || {};
@@ -48,6 +57,10 @@ layout: default
         <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
             <div class="main-content">
                 <h1>{{page.title}}</h1>
+                {% if articleauthor %}
+                <img class="author-image" src="{{articleauthor.image_path}}">
+                <h5>{{articleauthor.title}}</h5>
+                {% endif %}
                 <!-- Heading, video and article separated for CloudCannon editing, not layout -->
                 {% if page.wistia.video %}
                 {% include wistia-video.html %}

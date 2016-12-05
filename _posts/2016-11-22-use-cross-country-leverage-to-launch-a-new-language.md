@@ -2,6 +2,7 @@
 title: Use Cross-Country Leverage to launch a new language
 layout: blogpost
 banner_image: /uploads/Screen Shot 2016-11-03 at 1.11.49 PM.png
+blog-author: Andrew Saxe
 categories:
   - tips
 ---
