@@ -1,4 +1,6 @@
 ---
 title: Andrew Saxe
-image_path:
+image_path: /uploads/andrew_company_picture.png
 ---
+
+
