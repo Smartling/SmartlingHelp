@@ -7,6 +7,7 @@ endpoints:
   - title: Refresh Authentication
 ---
 
+
 Every call to a v2 API endpoint must include an access token in the header. Access tokens are acquired by calling the Authentication API, using your User Identifier and Token Secret.
 
 ## Obtain a User ID and Token Secret
@@ -14,10 +15,12 @@ Every call to a v2 API endpoint must include an access token in the header. Acce
 **1)** Navigate to the API section of the Dashboard, switch to the v2.0 tab, click **Create Token** and enter a name.
 
 Account tokens provide access to any project in the account. Project tokens will only give access to a single project.
-![](/uploads/auth1.png)
+
+![](/uploads/versions/smartling---account-dashboard--hotels----x----1097-685x---.png)
 
 **2)** Once the token is created, record your User ID and Token Secret for use in Authentication requests. **Note:** The Token Secret is only available when the token is first created so make sure you record it immediately.
-![](/uploads/auth2.png)
+
+![](/uploads/versions/smartling---account-dashboard--hotels----x----1269-707x---.png)
 
 Authentication header format is `Authorization: Bearer {token}`
 
