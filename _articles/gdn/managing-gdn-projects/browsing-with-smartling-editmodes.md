@@ -1,4 +1,4 @@
-f---
+---
 layout: article
 title: Browsing with Smartling editmodes
 draft: false
