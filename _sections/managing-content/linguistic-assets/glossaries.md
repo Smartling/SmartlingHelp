@@ -25,7 +25,13 @@ A Glossary &nbsp;is a unique set of words or phrases that are important to your 
 * Not translate it (e.g. the name of your products or services)
 * Translate it in single consistent way for each language
 
-Each glossary term that requires translation should have a definition or any information in relation to your company or industry, ensuring appropriate and consistent translation throughout your project.
+Each glossary term that requires translation should include a definition along with any relevant information, ensuring appropriate and consistent translation throughout your project.
+
+Your glossaries are made available to Translators in the Translation Interface and glossary terms are highlighted to show that information exists for that term.
+
+![](/uploads/versions/smartling---translations-management--smartling-hotels--1---x----944-742x---.png)
+
+See our [translation documentation](/knowledge-base/articles/glossary-in-the-translation-interface/) for more details on the Glossary in the Translation Interface.
 
 To help you create a comprehensive glossary, Smartling scans all strings in your project for recurring terms and provides suggestions for terms to add to your Glossary.
 
