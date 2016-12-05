@@ -23,4 +23,4 @@ migration-checklist:
 ---
 
 
-This section covers capturing and translating content from your source site to be delivered on your translated sites.&nbsp;
+This section covers capturing and translating content from your source site to be delivered on your translated sites.

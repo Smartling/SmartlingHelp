@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 9 things you can do to create  a better Style Guide
+title: 9 things you can do to create a better Style Guide
 draft: true
 Applies to:
   GDN: true
