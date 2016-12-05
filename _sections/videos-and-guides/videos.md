@@ -14,3 +14,5 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+These training videos can help you get started with Smartling's basic features. When you're ready, see the rest of our [Knowledge Base](/knowledge-base/) for more information.
