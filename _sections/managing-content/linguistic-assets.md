@@ -23,7 +23,7 @@ migration-checklist:
 
 Linguistic Assets are resources that help you develop quality translations fast. There are four types of linguistic asset:
 
-  * Style Guide - information about your brand and house style to help translators choose an appropriate style.  
+  * Style Guide** - information about your brand and house style to help translators choose an appropriate style.  
   * Glossary - information on key terms for your brand to make sure they are treated correctly and consistently in your translated content.  
   * Translation Memory - all translations are stored in a Translation Memory so they can be used again for simliar source content in the future.  
   * Leverage Configuration - a collection of Translation Memories and other translations available to be reused.
