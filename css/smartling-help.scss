@@ -134,7 +134,8 @@ $standard-border: 1px solid $border-grey;
     overflow-x: auto;
     height: $breadcrumb-height;
     ol {
-        margin-top: 9px;
+        margin-top: 14px;
+        padding: 0px 15px;
     }
     @media only screen and (min-width: 992px) {
        display: block !important;
@@ -204,7 +205,9 @@ $standard-border: 1px solid $border-grey;
 
 
 .side-nav-widget {
-    margin: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 95%;
     .panel {
         border: $standard-border;
@@ -759,6 +762,11 @@ $headline-padding: 8px;
 // END SPECIAL CLASSES FOR LEARNING PAGE
 
 // FOOTER
+.page {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
 
 $footer-text-color: grey;
 
