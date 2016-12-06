@@ -52,3 +52,30 @@ Version  | Android File URIs  | iOS File URIs
 Have developers install the Mobile Delivery Network SDK in your [iOS](https://github.com/Smartling/ios-mdn-sdk) or [Android](https://github.com/Smartling/android-mdn-sdk) app.
 
 If your app is already launched, you will need to create a new store version to start using the MDN. From that version onward, your app will regularly check Smartling for new translations in the correct version. Any updates made in Smartling will automatically propagate to all copies of your app without needing to create a new version, as long as you continue to follow the correct naming conventions for your resource files.
+
+## Frequently Asked Questions
+
+### How large is the SDK?
+
+The iOS SDK adds less than 750kb to your iOS application and 300kb to your Android application.
+
+### How much data is used by the MDN, and can the user control data use for WiFi and cellular networks?
+
+We strive to minimize network data consumption and have taken many steps to minimize the amount of data transferred between MDN and the user’s device. An update check sends approximately 250 bytes. The data returned if the user already has the latest updates is approximately 300 bytes. The size of an actual update is dependent on the amount of strings contained your project. We deliver strings GZip compressed and encrypted, reducing the payload size. Additionally, a user’s device will only download strings for their current locale.
+
+
+The MDN SDK has no user facing controls. However, it will obey the settings for your application in system preferences. For example, if the user has disabled cellular data for your application, our SDK will only check for updates while on a WiFi network.
+
+### When are new translations delivered to my users?
+
+The SDKs check for updates from the MDN under any the following circumstances as long as an appropriate network connection is present:
+1. Your App is launched from a cold state, OR
+2. Your user changes their device’s locale, OR
+3. The SDK determines the apps cached translations are stale.
+
+### What is a Monthly Active User? How does Smartling measure it?
+
+A user is a uniquely identified by device and application combination. For a given MDN enabled application, The Monthly Active User metric tracks how many devices check for content updates on the MDN in a given month. Instances of the application that are running in the original (development) language are excluded from this count. 
+
+**Example:**
+You have an Application installed on 5,000,000 devices. In a calendar month, 4,000,000 users interact with your application. Of those 4,000,000 interactions, 1,500,000 users are using the translated version of your application. Your Monthly Active User count is 1,500,000.
