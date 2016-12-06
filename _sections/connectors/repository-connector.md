@@ -7,6 +7,9 @@ subsections:
     published: true
 subarticles:
   - title: Repository Connector - Version History
+  - title: Repository Connector - Installation and Setup
+  - title: Repository Connector - Translation Settings
+  - title: Repository Connector - Frequently Asked Questions
 wistia:
   video: false
   id:
