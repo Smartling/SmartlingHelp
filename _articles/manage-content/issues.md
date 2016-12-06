@@ -61,12 +61,12 @@ Issues dealing with the translation of the string for a particular language. Tra
 
 Each category of issue has subtypes, giving a little more information on what the issue is about. Subtypes are:
 
-| Source            |  Translation |
-| --------          |--------------|
-Review Translation  | Clarification
-Doesn’t Fit Space   | Misspelling
-Placeholder Issues  |
-Poor Translations   |
+| Source | Translation |
+| --- | --- |
+| Review Translation | Clarification |
+| Doesn’t Fit Space | Misspelling |
+| Placeholder Issues | &nbsp; |
+| Poor Translations | &nbsp; |
 
 ### Permissions and Notifications
 
@@ -90,7 +90,7 @@ Different types of users have different levels of access to issues:
 
 **3)** Select the kind and type of issue, enter a description and click **Open this issue.**
 
-![](/uploads/versions/smartling___translations_management-17---x----542-303x---.png)
+![](/uploads/versions/smartling---translations-management--smartling-hotels----x----544-292x---.png)
 
 ## Comment on and Close an Issue
 
@@ -120,4 +120,3 @@ You can edit the text of issues and comments you created at any time. Just open 
 * You can manage your e-mail notification preferences from the Project Notifications tab of your Smartling Profile
 * Account Owners and Project Managers can keep track of issues in the [Issues Report](/knowledge-base/articles/issues-report/){: .cc-active}.
 * We recommend that issues get resolved before the translation is published. We allow content to be published with open issues because most users don’t want to hold up their translation workflow, however, it’s good practice to resolve all issues so that the reports will accurately reflect your project’s current state. If needed you can return translations for editing after they are published in order to address the issue. Alternatively, you can opt to use Smartling's [pre-publishing](/blog/tips/reduce-time-to-market-with-pre-publish/) functionality, so you can begin serving translations immediately, but wait to resolve all issues before they are published.
-
