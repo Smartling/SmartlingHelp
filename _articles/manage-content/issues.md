@@ -57,21 +57,17 @@ Issues or questions about the original content, such as clarification about the 
 
 Issues dealing with the translation of the string for a particular language. Translation issues will be visible to Account Owners, Project Managers, and Translation Resources working in the same language.
 
-#### &nbsp;
+### Subtypes
 
-#### &nbsp;
+Each category of issue has subtypes, giving a little more information on what the issue is about. Subtypes are:
 
-### &nbsp;
+| Source            |  Translation |
+| --------          |--------------|
+Review Translation  | Clarification
+Doesn’t Fit Space   | Misspelling
+Placeholder Issues  |
+Poor Translations   |
 
-#### Types
-
-* Poor Translation
-* Review Translation
-* Doesn’t Fit Space
-* Placeholder Issues - placeholders in the translated string do not match the source string.
-* Placeholder Mismatch (created automatically only during translation Imports)
-
-#### &nbsp;
 
 ## Create an Issue
 
