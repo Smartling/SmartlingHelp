@@ -33,12 +33,13 @@ migration-checklist:
   reviewed: false
 ---
 
+
+
 ## Install the connector
 
 Download the [Repository Connector package](https://smartling-connector-public.s3.amazonaws.com/repo_connector/repo-connector-1.5.4-bin.zip) and unpack it into the desired folder. The application should be hosted on a server that is continuously available and publicly addressable, with Java version 7 or higher.
 
 As of version 1.5.0, the Repository Connector uses version 2 of the Smartling File API. This version is not backwards compatible with previous versions and requires new API credentials. See [Authentication](/developers/api/v2/authentication/) for help obtaining the User Identifier and User Secret you will need to set up the connector.
-
 
 
 ## Connect to your repository and Smartling

@@ -55,6 +55,10 @@ If your app is already launched, you will need to create a new store version to 
 
 ## Frequently Asked Questions
 
+### Are there separate SDKs for the MDN and in-app review?
+
+Currently, we use a single SDK both features. However, only one feature can be enabled at a time in the SDK. Ensure that the MDN is enabled for production releases of your app.
+
 ### How large is the SDK?
 
 The iOS SDK adds less than 750kb to your iOS application and 300kb to your Android application.
