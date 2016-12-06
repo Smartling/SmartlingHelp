@@ -68,6 +68,15 @@ Doesn’t Fit Space   | Misspelling
 Placeholder Issues  |
 Poor Translations   |
 
+### Permissions and Notifications
+
+Different types of users have different levels of access to issues:
+
+| &nbsp; | **Source String Issues** | **Translation Issues** |
+| **Account Owner** | Can see, comment and close. Receives notifications for all issues. | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
+| **Project Manager** | Can see, comment and close. Receives notifications for all issues. | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
+| **Translation Resource/ Translation Resource Manager** | Can see, comment and close. Receives notifications only if they have opened or commented on the issue. | Can see, comment and close if they have access to the language that the issue is for. Receives notifications if they have worked on the translation or if they opened or commented on the issue. |
+| **Agency Owner** | Can see, comment and close. Receives notifications only if they have opened or commented on the issue. | Can see, comment and close if they have access to the language that the issue is for. Receives notifications if they opened or commented on the issue. |
 
 ## Create an Issue
 
@@ -112,10 +121,3 @@ You can edit the text of issues and comments you created at any time. Just open 
 * Account Owners and Project Managers can keep track of issues in the [Issues Report](/knowledge-base/articles/issues-report/){: .cc-active}.
 * We recommend that issues get resolved before the translation is published. We allow content to be published with open issues because most users don’t want to hold up their translation workflow, however, it’s good practice to resolve all issues so that the reports will accurately reflect your project’s current state. If needed you can return translations for editing after they are published in order to address the issue. Alternatively, you can opt to use Smartling's [pre-publishing](/blog/tips/reduce-time-to-market-with-pre-publish/) functionality, so you can begin serving translations immediately, but wait to resolve all issues before they are published.
 
-## Permissions and Notifications Quick Reference
-
-| &nbsp; | **Source String Issues** | **Translation Issues** |
-| **Account Owner** | Can see, comment and close. Receives notifications for all issues. | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
-| **Project Manager** | Can see, comment and close. Receives notifications for all issues. | Can see, comment and close. Receives notifications if they opened or commented on the issue. |
-| **Translation Resource/ Translation Resource Manager** | Can see, comment and close. Receives notifications only if they have opened or commented on the issue. | Can see, comment and close if they have access to the language that the issue is for. Receives notifications if they have worked on the translation or if they opened or commented on the issue. |
-| **Agency Owner** | Can see, comment and close. Receives notifications only if they have opened or commented on the issue. | Can see, comment and close if they have access to the language that the issue is for. Receives notifications if they opened or commented on the issue. |
