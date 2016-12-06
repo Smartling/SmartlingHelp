@@ -63,10 +63,10 @@ Each category of issue has subtypes, giving a little more information on what th
 
 | Source | Translation |
 | --- | --- |
-| Review Translation | Clarification |
-| Doesn’t Fit Space | Misspelling |
-| Placeholder Issues | &nbsp; |
-| Poor Translations | &nbsp; |
+| Clarification | Review Translation |
+| Misspelling | Doesn’t Fit Space |
+| &nbsp; | Placeholder Issues |
+| &nbsp; | Poor Translations |
 
 ### Permissions and Notifications
 
