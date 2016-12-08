@@ -1,0 +1,35 @@
+---
+layout: default
+title: Smartling Release Notes
+---
+
+<div class="container page">
+    <div class="row content-start">
+
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include search-box.html %}
+            </div>
+
+        </div>
+
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content"><h1>{{page.title}}</h1></div>
+            <!-- Heading, video and article separated for CloudCannon editing, not layout -->
+            {% if page.wistia.video %}
+            {% include wistia-video.html %}
+            {% endif %}
+            <div class="main-content" id="main-text">
+                {% assign notes = site.data.releasenotes %}
+                {% for note in notes %}
+                <div class="row">
+                    <div class="col-sm-2">{{note.date}}</div>
+                    <div class="col-sm-10">{{note.update_markdown | markdownify}}</div>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+
+    </div>
+</div>

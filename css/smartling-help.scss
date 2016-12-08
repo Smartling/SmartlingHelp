@@ -467,7 +467,7 @@ $headline-padding: 8px;
 
 .content-start-homepage {
     position: relative;
-    top: 150px
+    top: 120px
 }
 
 // Search Bar
@@ -535,7 +535,7 @@ $headline-padding: 8px;
         font-size: 19px;
         margin-bottom: 15px;
         }
-    padding-bottom: 30px; //leave space below each heading
+    padding-bottom: 0; //leave space below each heading
 }
 
 
@@ -762,6 +762,11 @@ $headline-padding: 8px;
     }
 }
 
+.release-note {
+    p {
+        margin-bottom: 0;
+    }
+}
 
 
 
