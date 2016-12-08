@@ -1,4 +1,6 @@
 ---
 title: Kale Bogdanovs
-image_path:
+image_path: /uploads/kale-blog.jpg
 ---
+
+
