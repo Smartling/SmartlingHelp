@@ -452,6 +452,32 @@ $headline-padding: 8px;
 
 // END MAIN CONTENT CONTAINER
 
+// SECTION PAGE CARDS
+
+.section-card {
+    background-color: #9ddef1;
+    background-image: url('/img/fingerprint1.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+
+    background-blend-mode: color-burn;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    .section-card-align {
+        padding: 20px 10px 10px 10px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #296879;
+        font-weight: 400;
+
+
+    }
+}
+
+
 // SPECIAL CLASSES FOR HOME PAGE
 
 //Content height adjustment to allow for banner

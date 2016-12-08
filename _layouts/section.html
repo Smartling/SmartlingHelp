@@ -71,6 +71,57 @@ layout: default
                     {% endfor %}
 
                 </ul> -->
+                <style>
+
+
+                </style>
+                <div class="row">
+                    {% for subsection in page.subsections %}
+
+
+                        {% for section in site.sections %}
+                        {% if section.title == subsection.title %}
+                    <div class="col-sm-4">
+                        <a href="{{section.url}}">
+                        <div class="section-card" data-aspect-ratio="3:2">
+                            <div class="section-card-align">
+                                {{section.title}}
+                            </div>
+                        </div>
+                        </a>
+
+
+                    </div>
+                        {% break %}
+                        {% endif %}
+                        {% endfor %}
+
+
+                    {% endfor %}
+
+                    {% for subarticle in page.subarticles %}
+
+                    {% for article in site.articles %}
+                    {% if article.title == subarticle.title %}
+                    <div class="col-sm-4" >
+                        <a href="{{article.url}}">
+                        <div class="section-card" data-aspect-ratio="3:2">
+                            <div class="section-card-align">
+                            {{article.title | split: ' - ' | last}}
+                            </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+
+                    {% endfor %}
+                </div>
+
+
+
             </div>
         </div>
     </div>
