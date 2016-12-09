@@ -10,7 +10,7 @@ subarticles:
   - title: Modify the Smartling Language Selector Menu
   - title: Smartling Bot
   - title: SSL Certificate Requirements for the GDN
-  - title: Authenticating Users Using Facebook
+  - title: Authenticating users with Facebook
 wistia:
   video: false
   id:
