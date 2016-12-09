@@ -89,9 +89,9 @@ Don’t forget the square brackets for array values, even if you’re only passi
 If you’re already using v1 of Smartling’s File API, you may be able to improve on your integration with the new, more powerful calls included in v2. Significant new options include:
 
 *   You now have four different options for downloading files:
-    *   [Download a single translated file;](/developers/API/v2/FileAPI/Download-File/Single-Locale)
-    *   [Download all locales for a single file as a .ZIP archive](/developers/API/v2/FileAPI/Download-File/All-Locales)
-    *   [Download multiple files for multiple locales as a .ZIP archive](/developers/API/v2/FileAPI/Download-File/Multiple-Locales)
-    *   [Download translations for all locales in a single CSV file](/developers/API/v2/FileAPI/Download-File/All-Locales-CSV)
-*   Choose between detailed status of a file in a [single locale](/developers/API/v2/FileAPI/Status/Single-Locale) or a summary for [all locales.](/developers/API/v2/FileAPI/Status/All-Locales)
-*   Check last modified dates for a [selected locale](/developers/API/v2/FileAPI/Last-Modified/Single-Locale/) or [all locales.](/developers/API/v2/FileAPI/Last-Modified/All-Locales/)
+    *   Download a single translated file;
+    *   Download all locales for a single file as a .ZIP archive
+    *   Download multiple files for multiple locales as a .ZIP archive
+    *   Download translations for all locales in a single CSV file
+*   Choose between detailed status of a file in a single locale or a summary for all locales.
+*   Check last modified dates for a selected locale

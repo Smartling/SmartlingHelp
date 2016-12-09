@@ -63,7 +63,7 @@ Many v2 requests use similar parameters to their v1 equivalents, with a few key 
 
 You should now be ready to start using Smartling API v2.
 
-## V1 to v2 Endpoints - Nearest Equivalent
+<!-- ## V1 to v2 Endpoints - Nearest Equivalent
 
 <div dir="ltr">
 
@@ -255,4 +255,4 @@ GET - projects-api/v2/projects/{projectId}
 
 </table>
 
-</div>
+</div> -->
