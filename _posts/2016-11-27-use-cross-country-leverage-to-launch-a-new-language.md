@@ -27,4 +27,4 @@ Cross Locale Leveraging and be setup for any variant of a language.  For exampl
 * Portuguese (Brazil) -&gt; Portuguese (Portugal)
 * Spanish (Latin America) -&gt; Spanish (Mexico)
 
-Learn More about setting up cross-locale leverage and how to configure it in the [Knowledge Base](/knowledge-base/articles/leverage-configuration/).
+Learn More about setting up cross-locale leverage and how to configure it in the [Knowledge Base](/knowledge-base/articles/leverage-configuration).
