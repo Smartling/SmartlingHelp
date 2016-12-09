@@ -8,4 +8,4 @@ resources:
     link: 'http://www.adobe.com/devnet/indesign/documentation.html#idml'
 ---
 
-Smartling supports Adobe InDesign's IDML file type. No integration directives are available. See [Translating Adobe InDesign Files](support/articles/translating-adobe-indesign-files/) for more information.
+Smartling supports Adobe InDesign's IDML file type. No integration directives are available. See [Translating Adobe InDesign Files](/knowledge-base/articles/translating-adobe-indesign-files/) for more information.
