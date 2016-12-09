@@ -132,6 +132,6 @@ To delete strings, go to the Authorization or In Progress view. Once deleted, st
 
 **What you need to know about Unauthorize**- Unauthorizing content is more of a way to send back content in the authorization queue that was mistakenly authorized for translation. Please note that you can only unauthorize content that has not yet been translated.
 
-To [unauthorize strings](/authorize-content-from-the-list-view/), go to the In progress view. Once unauthorized strings are removed from the In Progress view and placed back in your authorization queue.&nbsp;
+To [unauthorize strings](/knowledge-base/articles/authorize-content-from-the-list-view/#unauthorize-content), go to the In progress view. Once unauthorized strings are removed from the In Progress view and placed back in your authorization queue.&nbsp;
 
 ![](/uploads/versions/unauthorize---x----1509-951x---.png)
