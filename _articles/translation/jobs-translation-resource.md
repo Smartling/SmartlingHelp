@@ -35,7 +35,7 @@ migration-checklist:
 
 With the **Jobs** feature, Smartling enables Account Owners and Project Managers to group and prioritize content for translation: create a job, select the content for the job, and add a due date as needed.
 
-As a Translator you have access to a list of jobs with due dates in the Summary View. Jobs are organized by earliest due dates. Click **Fuzzy Match Estimates** below any job to view a [Fuzzy Match Estimates report](/hc/en-us/articles/209449587-Fuzzy-Match-Estimates-Translation-Resources) covering the strings for that job:
+As a Translator you have access to a list of jobs with due dates in the Summary View. Jobs are organized by earliest due dates. Click **Fuzzy Match Estimates** below any job to view a [Fuzzy Match Estimates report](/knowledge-base/articles/fuzzy-match-estimates-translators/) covering the strings for that job:
 
 ![](/uploads/versions/trjob1---x----1234-652x---.png)
 
