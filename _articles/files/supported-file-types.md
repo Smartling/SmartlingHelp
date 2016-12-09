@@ -132,7 +132,7 @@ Directives can be added to some file types to activate Smartling features, inclu
 * [Translator Instructions](){: .cc-active}
 
 
-See our [Files Integration](http://docs.smartling.com/pages/files/) documentation to find out what integration options are supported for the file types you use.
+See our [Files Integration](/developers/files) documentation to find out what integration options are supported for the file types you use.
 
 ## Business Documents
 

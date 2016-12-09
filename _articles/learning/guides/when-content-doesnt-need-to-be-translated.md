@@ -40,7 +40,7 @@ migration-checklist:
 
 Although we are in the business of translation, we’ll be the first to point out that not all of your content needs, or even should be translated. As a matter of fact, there are few different ways to exclude or eliminate content from the translation process, before or after it has been captured.&nbsp;
 
-#### Option #1 - Exclude
+## Exclude
 
 **Project types availability** - Global Delivery Network, Files, and Connectors
 
@@ -50,7 +50,7 @@ Although we are in the business of translation, we’ll be the first to point ou
 
 ![](/uploads/versions/exclude-1---x----1176-654x---.png)
 
-#### Option #2 - notranslate tag
+## `notranslate` tag
 
 **Project types availability** - Global Delivery Network
 
@@ -66,7 +66,7 @@ If you are dealing with an element that does not have a unique class or ID, then
 
 ![](/uploads/versions/example-notranslate--html---x----1176-288x---.png)
 
-#### Option #3 - NOTRANSLATE Style
+## `NOTRANSLATE` Style
 
 **Project types availability** - Business Documents (excel and Word documents)&nbsp;
 
@@ -78,7 +78,7 @@ For both excel and word documents, you create a NOTRANSLATE Style, then apply th
 
 ![](/uploads/versions/notranslate-style-1---x----1726-723x---.png)
 
-#### Option #4 - Patterns
+## Patterns
 
 **Project types availability** - Global Delivery Network&nbsp;
 
@@ -86,7 +86,7 @@ For both excel and word documents, you create a NOTRANSLATE Style, then apply th
 
 **When should you use Patterns&nbsp;**- Use patterns to exclude only a part of string instead of the entire string.
 
-To [create a pattern](/create-and-manage-patterns-gdn/), head over to the list view, select the string you want to exclude content from, and go to the actions menu.&nbsp;
+To [create a pattern](/knowledge-base/articles/create-and-manage-patterns-gdn/), head over to the list view, select the string you want to exclude content from, and go to the actions menu.&nbsp;
 
 In the pattern window, replace the content you don’t want translated by a placeholder.&nbsp; Then run a pattern match to see if there are any similar strings.&nbsp; Finally click Apply to run the pattern rule on the selected matches: this will ensure that static content is only translated&nbsp; once and that smartling passes through any “paternized value” the GDN may see, without translation.&nbsp;
 
@@ -100,7 +100,7 @@ In the pattern window, replace the content you don’t want translated by a plac
 
 In the previous example your pattern ensures that dynamic content is preceded or followed by static content in order to trigger the pattern rule. In the current example you have created, what we refer to, as a greedy pattern which will replace any strings with an email address, no matter what other words precedes or follows it.&nbsp;
 
-#### Option #5 Files directives&nbsp;
+## Files directives&nbsp;
 
 **Project types availability** - Files Project
 
@@ -110,7 +110,7 @@ When you integrate directives inline into the file, you can change the behavior 
 
 ![](/uploads/versions/custom-xml---smartling-slack---x----1014-717x---.png)&nbsp;
 
-#### Option #6 - Delete a string
+## Delete a string
 
 **Project types availability** - Global Delivery Network&nbsp;
 

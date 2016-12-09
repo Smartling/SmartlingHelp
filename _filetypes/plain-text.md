@@ -3,7 +3,6 @@ title: 'Plain Text'
 layout: supportedfiletype
 extension: '.txt'
 smartling_identifier: 'plainText'
-download_sample: 'ios.strings'
 directive_prefix: ''
 directive_suffix: ''
 directive_format: 'smartling.[directive_name] = [value]'

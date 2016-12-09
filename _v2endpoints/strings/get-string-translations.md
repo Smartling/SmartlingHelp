@@ -32,7 +32,7 @@ request:
       type: string
       required: false
       description_markdown: |
-        Pagination settings. See [limit & offset](/developers/API/v2/General-Information/Limit-and-Offset/) for more. By default returns will be limited to 500 per request. This is also the maximum allowed value. You can set smaller return sizes by setting `limit` to a value less than `500`.
+        Pagination settings. By default returns will be limited to 500 per request. This is also the maximum allowed value. You can set smaller return sizes by setting `limit` to a value less than `500`.
 
 response:
   json_markdown: |-

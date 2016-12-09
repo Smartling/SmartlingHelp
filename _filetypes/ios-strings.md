@@ -3,7 +3,6 @@ title: 'iOS Strings'
 layout: supportedfiletype
 extension: '.strings'
 smartling_identifier: 'ios'
-download_sample: 'ios.strings'
 resources: 
   - title: String Resources
     link: 'https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/LoadingResources/Strings/Strings.html'
