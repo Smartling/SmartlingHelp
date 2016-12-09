@@ -34,7 +34,7 @@ migration-checklist:
 ---
 
 
-Account Owners and Project Managers have several different options for filtering strings in the list view:
+There are several ways to filter your content in the list view. Your options will vary depending on your user type.
 
 ![](/uploads/versions/smartling___translations_management-21---x----2488-1396x---.png)
 
@@ -51,7 +51,7 @@ Account Owners and Project Managers have several different options for filtering
 ![small](/uploads/versions/smartling___translations_management-22---x----392-560x---.png)
 
 * **Pending assignment:** Translations are authorized but still need to be assigned to translators
-* **Available for pre-publishing:** Translations can be [pre-published](/hc/en-us/articles/203233287#pre) but will remain in the workflow until all workflow steps are complete.
+* **Available for pre-publishing:** Translations can be [pre-published](/knowledge-base/articles/manage-content-in-translation-content-owners/#pre-publish) but will remain in the workflow until all workflow steps are complete.
 * **Not Translated:** No translation is saved for the string.
 * **Translated:** A translation is saved for the string.
 * **Unresolved issues:** Displays all strings that still have open issues or questions.

@@ -52,7 +52,7 @@ When these strings are translated by Smartling, they will be returned with the a
       string1: 'Bonjour'
       string2: 'Au Revoir'
 
-If you want to return the full [Smartling Locale Code](/developers/Misc/Language-Identifiers/) in your translated files, alter your source file to match your full source locale code. For example.
+If you want to return the full Smartling Locale Code in your translated files, alter your source file to match your full source locale code. For example.
 
     en-US:
       string1: 'Hello'

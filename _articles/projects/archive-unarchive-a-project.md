@@ -34,15 +34,15 @@ migration-checklist:
 
 Projects that are no longer in use can be archived. This removes but does not delete the project from the project view. An archived project can be unarchived at any time.
 
-[Translation Memory](/hc/en-us/articles/201413006-Translation-Memory) from archived projects is available for all projects, and the words in archived projects are included in [Words Under Management](/hc/en-us/articles/201684323-Words-Under-Management). Archiving a project will not affect published content.
+[Translation Memory](/knowledge-base/articles/translation-memory/) from archived projects is available for all projects, and the words in archived projects are included in [Words Under Management](/knowledge-base/articles/words-under-management/). Archiving a project will not affect published content.
 
-**Archive a project**
+## Archive a project
 
 From the **Projects** section of the account dashboard, find your project and, under the **Actions** column, click the **Archive** icon.
 
 ![](/uploads/versions/download---x----1257-559x---.png)
 
-**Unarchive a project:**
+## Unarchive a project
 
 **(1)** From the Projects section of the account dashboard, click **Settings** and check **Always display archived projects**.
 

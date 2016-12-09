@@ -19,7 +19,7 @@ directives:
 
 By default Smartling will create a single String for each block element in the HTML document. Additionally the value of `alt` and `title` attributes are captured as a single string. Smartling does not capture the values of any other attributes.
 
-> HTML-like template files, such as those used by Angular, Ember, Backbone, EJS, Handlebars, etc, are not officially supported by Smartling and should not be uploaded as HTML files. See [Localizing Templated Applications](/developers/misc/localizing-templated-applications/) for more information.
+> HTML-like template files, such as those used by Angular, Ember, Backbone, EJS, Handlebars, etc, are not officially supported by Smartling and should not be uploaded as HTML files. See [Localizing Templated Applications](/developers/files/localizing-templated-applications/) for more information.
 
 ## Standard Placeholder format
 
