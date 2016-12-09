@@ -64,7 +64,7 @@ translated into French(France), will return:
       string1: 'Hello'
       string2: 'Goodbye'
 
-If you wish, locale substitution can be turned off completely using a [file directive](/developers/files/YAML/#yaml_yaml_locale_substitution). This may be desirable if the first key in your yaml file happens to match a language code unintentionally.
+If you wish, locale substitution can be turned off completely using a file directive. This may be desirable if the first key in your yaml file happens to match a language code unintentionally.
 
 ## Plurals
 
