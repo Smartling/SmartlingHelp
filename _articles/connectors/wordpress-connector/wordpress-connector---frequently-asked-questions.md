@@ -79,11 +79,11 @@ The exception is when you upload a single post from the Smartling widget, which 
 
 ## What is the Translation Locked checkbox for?
 
-This is an option for translated post that prevents the Connector from downloading new translations for the post, even if changes are available. See [here](/hc/en-us/articles/205418617-WordPress-Connector-User-Guide#Lock) for more details.
+This is an option for translated post that prevents the Connector from downloading new translations for the post, even if changes are available. See [here](/knowledge-base/articles/wordpress-connector-user-guide/#lock-a-translated-post) for more details.
 
 ## What happens when I edit a post that's already been translated?\*\*
 
-If you have configured the plugin to [resubmit changed content automatically](/hc/en-us/articles/205418457-WordPress-Connector-Installation-and-Configuration#Configure), then your changes will be uploaded to Smartling immediately. Otherwise, the post will be flagged as outdated and you can resubmit it manually when you're ready.
+If you have configured the plugin to [resubmit changed content automatically](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin), then your changes will be uploaded to Smartling immediately. Otherwise, the post will be flagged as outdated and you can resubmit it manually when you're ready.
 
 ## What does the 'Translation completed' checkbox do?
 
@@ -93,7 +93,7 @@ The&nbsp;**Translation completed**&nbsp;checkbox in the **Publish** widget is pa
 
 ## What does Enqueue for Upload/Download do?
 
-The&nbsp;**Enqueue for Upload/Download** bulk actions add the selected items to a queue of items that will be uploaded by a Cron task. This is to stop large uploads from slowing down your Wordpress instance. You can change the frequency of this task by editing your [crontab](/hc/en-us/articles/205418457-WordPress-Connector-Installation-and-Configuration#ConfigureWPCron).
+The&nbsp;**Enqueue for Upload/Download** bulk actions add the selected items to a queue of items that will be uploaded by a Cron task. This is to stop large uploads from slowing down your Wordpress instance. You can change the frequency of this task by editing your [crontab](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-wp-cron).
 
 ## Does submitting a single post from the Smartling widget work faster than using Bulk Submit or the Submissions Board?
 
@@ -118,6 +118,6 @@ The Connector offers three ways to submit your source content to Smartling.
 
 Each Smartling project has only a single source language. If you want to submit content from another language - for example, you may want to submit content written in your Spanish (es-ES) site to push it to other Spanish locals (es-CO, es-MX, es-AR, etc) - you need to first create a new Smartling project with the appropriate source language.
 
-Then create a new [Smartling Settings Profile](/hc/en-us/articles/205418457-WordPress-Connector-Installation-and-Configuration#Configure) in Wordpress, using the details of the new project.
+Then create a new [Smartling Settings Profile](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin) in Wordpress, using the details of the new project.
 
 If you have previously tried to upload any content in your alternate source language, you will need to upload this content again.
