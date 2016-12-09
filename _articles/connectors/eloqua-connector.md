@@ -8,8 +8,8 @@ Applies to:
 edition: Express
 redirect-url:
 wistia:
-  video: false
-  id:
+  video: true
+  id: snu4acayaq
 read-first:
   include: false
   sections:
