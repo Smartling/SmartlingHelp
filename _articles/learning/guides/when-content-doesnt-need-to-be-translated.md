@@ -54,15 +54,15 @@ Although we are in the business of translation, we’ll be the first to point ou
 
 **Project types availability** - Global Delivery Network
 
-**What you need to know about the &lt;notranslate&gt; tag**- When using the &lt;notranslate&gt; tag, content contained in the tag is eliminated from the translation process and appear unchanged from the original language.
+**What you need to know about the `<notranslate>` tag**- When using the `<notranslate>` tag, content contained in the tag is eliminated from the translation process and appear unchanged from the original language.
 
-**When should you use the &lt;notranslate&gt; tag**- Use&nbsp; if you don’t want a set or class of strings translated but still need them displayed ‘as-is’ in the localized version of your site or file, for example email addresses, proper names, company names, addresses etc.&nbsp;
+**When should you use the `<notranslate>` tag**- Use&nbsp; if you don’t want a set or class of strings translated but still need them displayed ‘as-is’ in the localized version of your site or file, for example email addresses, proper names, company names, addresses etc.&nbsp;
 
 &nbsp;If you know what HTML element the strings are being ingested from, and the element has a unique class or ID, you can simply apply the no translate rule to that specific class or ID via the GDN rule configuration.&nbsp;
 
 ![](/uploads/versions/notranslate-1---x----1671-1038x---.png)
 
-If you are dealing with an element that does not have a unique class or ID, then go ahead and [tag the element directly in the source code](http://docs.smartling.com/pages/supported-file-types/)[.](__notset__)
+If you are dealing with an element that does not have a unique class or ID, then go ahead and tag the element directly in the source code
 
 ![](/uploads/versions/example-notranslate--html---x----1176-288x---.png)
 
@@ -70,7 +70,7 @@ If you are dealing with an element that does not have a unique class or ID, then
 
 **Project types availability** - Business Documents (excel and Word documents)&nbsp;
 
-**What you need to know about the NOTRANSLATE Style&nbsp;**- When using the &lt;notranslate&gt; style, content contained in that style is eliminated from the translation process and all localized versions of the site.&nbsp;
+**What you need to know about the NOTRANSLATE Style&nbsp;**- When using the NOTRANSLATE style, content contained in that style is eliminated from the translation process and all localized versions of the site.&nbsp;
 
 **When should you use the &lt;notranslate&gt; style&nbsp;**- The NOTRANSLATE Style can be used to exclude content for translation as you are creating or formatting your document. It’s also a great option when you have large sections of a document, or notes that need to be excluded from the translation process.
 
