@@ -41,4 +41,4 @@ By default, downloading pseudo translations increases the length of the original
 
 ## Customizing Pseudo Translations
 
-If you want a higher rate of inflation that the standard, you can set a custom rate of inflation, between 50 and 100 percent, by using file integration or an API directive. Check Smartling's [Supported File Types](/developers/supported-file-types/) information for your files to see if the 'pseudo_inflation' directive is supported.
+If you want a higher rate of inflation that the standard, you can set a custom rate of inflation, between 50 and 100 percent, by using file integration or an API directive. Check Smartling's [Supported File Types](/developers/files/) information for your files to see if the 'pseudo_inflation' directive is supported.

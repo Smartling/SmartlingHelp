@@ -40,7 +40,7 @@ migration-checklist:
 
 Smartling has built an open source library to support plurals for iOS applications. The following instructions walk you through the process of integrating the library and plurals with your application.
 
-> Since we developed this library, Apple released the [Stringsdict format](/developers/supported-file-types/iOS-stringsdict) for handling localization rules. You may want to investigate this format to see if it fits your project's requirements.
+> Since we developed this library, Apple released the [Stringsdict format](/developers/files/iOS-stringsdict) for handling localization rules. You may want to investigate this format to see if it fits your project's requirements.
 
 ## Background
 

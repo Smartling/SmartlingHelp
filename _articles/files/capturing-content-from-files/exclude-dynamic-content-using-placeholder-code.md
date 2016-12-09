@@ -55,4 +55,4 @@ Smartling will output:
 
 ## Custom Placeholders
 
-You can use Smartling Files API or file directives to specify a custom placeholder format when uploading a file. See the [Supported File Types](/developers/supported-file-types/) documentation for more details on placeholders for each file type.
+You can use Smartling Files API or file directives to specify a custom placeholder format when uploading a file. See the [Supported File Types](/developers/files/) documentation for more details on placeholders for each file type.

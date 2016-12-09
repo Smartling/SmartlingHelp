@@ -25,7 +25,7 @@ directives:
   - pseudo_inflation
 ---
 
-Smartling supports the Android XML resource file format. When you upload an Android XML file, make sure to specify that it is an android file, so it is not parsed as a [custom XML](/developers/supported-file-types/custom-xml/) file.
+Smartling supports the Android XML resource file format. When you upload an Android XML file, make sure to specify that it is an android file, so it is not parsed as a [custom XML](/developers/files/custom-xml/) file.
 
 ## Keys / Variants
 

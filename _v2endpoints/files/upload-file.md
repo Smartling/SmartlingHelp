@@ -75,7 +75,7 @@ request:
         - title: 'smartling.{command}'
           required: false
           description_markdown: |
-            Provides custom parser configuration for supported file types. See [Supported File Types](/developers/supported-file-types/) for more details.
+            Provides custom parser configuration for supported file types. See [Supported File Types](/developers/files/) for more details.
             
         - title: callbackUrl
           required: false

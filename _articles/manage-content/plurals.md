@@ -126,7 +126,7 @@ Smartling conforms to the Android standard for plurals: [http://developer.androi
 
 ## Plurals for iOS Files
 
-While Apple has now released the [Stringsdict format](/developers/supported-file-types/iOS-stringsdict/){: .cc-active} to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
+While Apple has now released the [Stringsdict format](/developers/files/iOS-stringsdict/){: .cc-active} to handle plurals, Smartling has previously extended iOS strings format by developing an [open source library](https://github.com/Smartling/ios-i18n) to accommodate plurals.
 
 Plural sensitive forms for iOS files are indicated by source files with strings in the following form:
 

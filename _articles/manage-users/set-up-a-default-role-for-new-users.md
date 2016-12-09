@@ -48,7 +48,7 @@ Account Owners can configure their Smartling account to allow anyone with an ema
 
 **5)** Add the projects you want new users to have access to under **Default Projects**
 
-**6)** Set the Default User Role. You can choose either Requester or Project Manager. See our [User Roles documentation](/sd) for details.
+**6)** Set the Default User Role. You can choose either Requester or Project Manager.
 
 **7)** Click **Save**
 

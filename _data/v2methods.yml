@@ -625,7 +625,7 @@
 
         - Name: 'smartling.[command]'
           Required: optional
-          Description: 'Provides custom parser configuration for supported file types. See <a href=/developers/Supported-File-Types/>Supported File Types</a> for more details.'
+          Description: 'Provides custom parser configuration for supported file types. See <a href=/developers/files/>Supported File Types</a> for more details.'
 
         - Name: callbackUrl
           Required: optional
