@@ -49,8 +49,6 @@ Smartling’s Eloqua Connector lets you use Smartling’s Global Fluency Platfor
 
 <div class="info">While it is not required, it's a good idea to create a new Eloqua user for the Connector to use. That way, content added by the Connector won't be confused with that created by a regular user and the Connector will continue to function if any of your Eloqua users are disabled.</div>
 
-&nbsp;
-
 **4)** Navigate to&nbsp;**Project Settings &gt; Eloqua Settings** and set up your preferences for resubmitting translated content. If you select&nbsp;**Auto**, once you request translation for a piece of content, any further changes you make to the source content in Eloqua will be automatically uploaded to Smartling for translation.
 
 ![](/uploads/versions/smartling---eloqua-settings--smartling---eloqua----x----1602-1126x---.png)
