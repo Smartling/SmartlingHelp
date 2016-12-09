@@ -1,0 +1,122 @@
+---
+-
+    date: 12/01/16
+    area: Machine Translation
+    update_markdown: Smartling now offers integration with [IBM's Watson Language Translator](/blog/tips/integrate-with-watson-language-translator/).
+-
+    date: 01/23/16
+    area: Image Context
+    update_markdown: Image context can now be added directly [from the list view](/blog/product-update/upload-image-context-from-the-list-view/).
+-
+    date: 11/08/16
+    area: Files
+    update_markdown: Smartling now supports [SubRip SRT](/developers/files/subrip-srt/) files.
+-
+    date: 10/16/16
+    area: Tags
+    update_markdown: Added more helpful error messaging when a user tries to create string tags with forbidden characters.
+-
+    date: 10/13/16
+    area: Image Context
+    update_markdown: Thumbnails for Image Context are now displayed in the List View
+-
+    date: 10/10/16
+    area: Files
+    update_markdown: Added support for XML attributes containing the colon (`:`) character.
+-
+    date: 10/04/16
+    area: Glossary
+    update_markdown: Fixed a bug that removed capitalization in Glossary terms when a definition was edited from the Translation Interface.
+-
+    date: 09/16/16
+    area: Connectors
+    update_markdown: When you submit an email for translation, the Eloqua connector automatically picks up any related Dynamic Content items.
+-
+    date: 09/15/16
+    area: Workflow
+    update_markdown: The Copy Source to Translation workflow step option now supports strings with plural forms.
+-
+    date: 09/15/16
+    area: Workflows
+    update_markdown: Account-Level workflows can now be copied at the account-level provided this is done by an Account Owner.
+-
+    date: 09/12/16
+    area: Content Managemnt
+    update_markdown: Added more detailed messages when a language, workflow or step cannot be deleted because it contains content.
+-
+    date: 09/08/16
+    area: Translation Interface
+    update_markdown: We fixed a bug that that caused errors when trying to close the Translation Interface after editing a Glossary term.
+-
+    date: 09/02/16
+    area: Notifications
+    update_markdown: We fixed a bug that affected agencies with more than one Agency Owner user. When a Smartling account generated an Agency Owner notification, all AO users for that agency received the notification, instead of just the AO assigned to the account.
+-
+    date: 09/02/16
+    area: Accounts
+    update_markdown: 'We fixed a bug that caused some users to receive an ''Inactive Account'' message when logging in.'
+-
+    date: 09/02/16
+    area: Jobs
+    update_markdown: When you exclude a string, that string is now removed from any Job it was part of.
+-
+    date: 08/26/16
+    area: Search
+    update_markdown: We fixed a bug that caused searches containing some special characters, including curly brackets {} to return incomplete results when searching from the List View.
+-
+    date: 08/24/16
+    area: Translation Interface
+    update_markdown: We updated our Insertables feature to ignore placeholders containing only whitespace.
+-
+    date: 08/23/16
+    area: Fuzzy Estimates
+    update_markdown: We fixed a bug that caused errors when running a fuzzy estimate for selected strings from the list view.
+-
+    date: 08/10/16
+    area: Image Context
+    update_markdown: Image context is now available for all files-based project types.
+-
+    date: 08/09/16
+    area: Linguistic Packages
+    update_markdown: We fixed a bug that caused labels for target languages not to display when editing a linguistic package.
+-
+    date: 07/27/16
+    area: Dashboard
+    update_markdown: Titles of Dashboard pages now show the Account name for account-level pages or the Project name for project-level pages.
+-
+    date: 07/25/16
+    area: Fuzzy Estimates
+    update_markdown: Downloaded Fuzzy Estimate CSVs now clearly label words to be SmartMatched.
+-
+    date: 07/15/16
+    area: Files
+    update_markdown: We fixed a bug that caused instrumented xml files not to work.
+-
+    date: 07/13/16
+    area: Translation Interface
+    update_markdown: We fixed a bug that caused some glossary terms to be repeated in the Translation Interface Insertables menu.
+-
+    date: 07/11/16
+    area: Jobs
+    update_markdown: We fixed a bug that prevented users from editing details of a job while large numbers of strings were being authorized for that job.
+-
+    date: 07/08/16
+    area: Glossary
+    update_markdown: 'We fixed a bug that stopped the ''Show More / Show Less'' slider on the Glossary Suggestions page from functioning.'
+-
+    date: 07/07/16
+    area: Jobs
+    update_markdown: We fixed a bug that prevented some archived files-based jobs from being unarchived.
+-
+    date: 07/05/16
+    area: Style Guide
+    update_markdown: 'We fixed a bug that prevented the ''Last Updated'' field on a style guide from being updated if a new file was uploaded.'
+-
+    date: 07/05/16
+    area: Dashboard
+    update_markdown: We fixed a bug that hid error IDs for some errors in the Dashboard.
+-
+    date: 07/04/16
+    area: Files
+    update_markdown: We fixed a bug that caused some placeholders in Gettext files to be displayed incorrectly in the TI. Placeholders in translated files were correct.
+

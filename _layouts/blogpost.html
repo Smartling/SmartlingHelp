@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+
+{% if page.blog-author %}
+  {% for author in site.authors %}
+     {% if author.title == page.blog-author %}
+       {% assign articleauthor = author %}
+     {% endif %}
+  {% endfor %}
+{% endif %}
+
 <script>window.twttr = (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0],
             t = window.twttr || {};
@@ -47,7 +56,31 @@ layout: default
 
         <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
             <div class="main-content">
+
+                {% if articleauthor %}
+                <div class="row" style="margin-top: 10px; margin-bottom: 20px;">
+                    <div class="col-sm-3 match-height" data-aspect-ratio="1:1" style="text-align: center; background-image: url('{{articleauthor.image_path}}'); background-origin: content-box; background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
+                        <!-- <img class="author-image" src="{{articleauthor.image_path}}"> -->
+                        <div class="author-name">
+                            <div class="author-align">
+                            <h5>{{articleauthor.title}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 match-height" style="position: relative;">
+                        <div style="position: absolute; bottom: 0; margin-bottom: 0;">
+                            <h1 style="margin-bottom: 0;">{{page.title}}</h1>
+                            <p style="margin-bottom: 2px;">{{ page.date | date_to_long_string }}</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                {% else %}
                 <h1>{{page.title}}</h1>
+                {% endif %}
+
                 <!-- Heading, video and article separated for CloudCannon editing, not layout -->
                 {% if page.wistia.video %}
                 {% include wistia-video.html %}
@@ -60,6 +93,7 @@ layout: default
                 {% if page.banner_image %}
                 <img class="banner-image" src="{{page.banner_image}}">
                 {% endif %}
+
             </div>
 
 

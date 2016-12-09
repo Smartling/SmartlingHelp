@@ -20,6 +20,109 @@ layout: default
             {% include wistia-video.html %}
             {% endif %}
             <div class="main-content" id="main-text">{{content}}</div>
+
+            <div class="main-content">
+               <!--  <h2>Section Contents</h2>
+                <ul class="nav nav-stacked">
+                    {% for section in site.sections %}
+                    {% if section.title == page.title %}
+                    {% assign currentSection = section %}
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+
+                    {% for subsection in currentSection.subsections %}
+                    {% unless subsection.title == 'none' %}
+                    {% for section in site.sections %}
+                    {% if section.title == subsection.title %}
+                    {% assign currentSubsection = section%}
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+                    <li class="primary-nav"><a href="{{currentSubsection.url}}">{{currentSubsection.title}}</a></li>
+                    {% for subsection in currentSubsection.subsections %}
+                    {% for section in site.sections %}
+                    {% if section.title == subsection.title %}
+                    <li class="secondary-nav"><a href="{{section.url}}">{{section.title}}</a></li>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% for subarticle in currentSubsection.subarticles %}
+                    {% for article in site.articles %}
+                    {% if article.title == subarticle.title %}
+                    <li class="secondary-nav"><a href="{{article.url}}">{{article.title}}</a></li>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% endunless %}
+                    {% endfor %}
+
+                    {% for subarticle in page.subarticles %}
+                    {% unless subarticle.title == 'none' %}
+                    {% for article in site.articles %}
+                    {% if article.title == subarticle.title %}
+                    <li class="primary-nav"><a href="{{article.url}}">{{article.title}}</a></li>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endunless %}
+                    {% endfor %}
+
+                </ul> -->
+                <style>
+
+
+                </style>
+                <div class="row">
+                    {% for subsection in page.subsections %}
+
+
+                        {% for section in site.sections %}
+                        {% if section.title == subsection.title %}
+                    <div class="col-sm-4">
+                        <a href="{{section.url}}">
+                        <div class="section-card" data-aspect-ratio="3:2">
+                            <div class="section-card-align">
+                                {{section.title}}
+                            </div>
+                        </div>
+                        </a>
+
+
+                    </div>
+                        {% break %}
+                        {% endif %}
+                        {% endfor %}
+
+
+                    {% endfor %}
+
+                    {% for subarticle in page.subarticles %}
+
+                    {% for article in site.articles %}
+                    {% if article.title == subarticle.title %}
+                    <div class="col-sm-4" >
+                        <a href="{{article.url}}">
+                        <div class="section-card" data-aspect-ratio="3:2">
+                            <div class="section-card-align">
+                            {{article.title | split: ' - ' | last}}
+                            </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+
+                    {% endfor %}
+                </div>
+
+
+
+            </div>
         </div>
     </div>
 </div>

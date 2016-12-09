@@ -22,19 +22,8 @@ home: true
 </div>
 
 <div class="container page">
-
-
-
-    <div class="content-start-homepage">
-
-
-
-
-
-
-
-    <div class="row">
-        <div class="home-section col-md-6">
+    <div class="row content-start-homepage">
+        <div class="home-section col-md-6 match-height">
             <h2>Get Started with Smartling</h2>
             <ul>
                 {% for getting-started in site.data.homepage-content.getting-started %}
@@ -46,76 +35,76 @@ home: true
             </ul>
 
         </div>
-        <div class="home-section col-md-6">
-            <h2>Product Updates</h2>
-            <ul>
 
-                    {% for post in site.posts %}
-                        {% if post.categories contains 'product-update' %}
-                                    <li><a href="{{post.url}}">{{post.title}}</a></li>
-                        {% endif %}
-                    {% endfor %}
+        <div class="home-section col-md-6 match-height">
+            <h2>Latest Documentation Updates</h2>
+            <ul>
+                {% for latest-update in site.data.homepage-content.latest-updates %}
+
+
+                <li><a href="{{latest-update.link}}">{{latest-update.title}}</a></li>
+
+                {% endfor %}
+            </ul>
+
+        </div>
+
+
+
+        <div class="home-section col-md-6 match-height">
+            <h2>Release Notes</h2>
+
+            <ul>
+                {% assign notes = site.data.releasenotes %}
+                {% for note in notes limit: 6 %}
+
+                <div class="row release-note">
+                    <div class="col-sm-2">{{note.date}}</div>
+                    <div class="col-sm-10">{{note.update_markdown | markdownify}}</div>
+                </div>
+                {% endfor %}
+                <div class="row release-note">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-10"><a href="/release-notes">See all release notes</a></div>
+
+                </div>
             </ul>
         </div>
 
-    </div>
-        <div class="row">
-            <div class="home-section col-md-6">
-                <h2>Product Blog</h2>
+        <div class="home-section col-md-6 match-height">
+            <h2>Product Blog</h2>
+            <ul>
 
-
-
-
-                <ul>
-
-                    {% for post in site.posts %}
-                    {% unless post.categories contains 'product-update' %}
-                    <li><a href="{{post.url}}">{{post.title}}</a></li>
-                    {% endunless %}
-                    {% endfor %}
-                </ul>
-
-
-
-            </div>
-            <div class="home-section col-md-6">
-                <h2>Latest Documentation Updates</h2>
-                <ul>
-                    {% for latest-update in site.data.homepage-content.latest-updates %}
-
-
-                    <li><a href="{{latest-update.link}}">{{latest-update.title}}</a></li>
-
-                    {% endfor %}
-                </ul>
-            </div>
-
+                {% for post in site.posts limit: 6 %}
+                <div class="row">
+                    <div class="col-sm-2">{{post.date | date: "%m/%d/%y" }}</div>
+                    <div class="col-sm-10"><a href="{{post.url}}">{{post.title}}</a></div>
+                </div>
+                <!-- <li><a href="{{post.url}}">{{post.title}}</a></li>  -->
+                {% endfor %}
+            </ul>
         </div>
 
 
-    <div class="row">
-        <div class="home-section col-md-6">
+
+        <div class="home-section col-md-6 match-height">
             <h2>Submit a Ticket</h2>
-
-            <p>Have a question or a problem? <a href="https://support.smartling.com/hc/en-us/requests/new" target="_blank">Send us a ticket</a> and we’ll start working on a solution immediately.</p>
-
-
-
-
-
-
-
-        </div>
-        <div class="home-section col-md-6">
-            <h2>Request a Feature</h2>
             <ul>
-                <p>Share your ideas. Let us know what features you would like to see added into OneLogin. Vote up the features you care about.</p>
+            <p>Have a question or a problem? <a href="https://support.smartling.com/hc/en-us/requests/new" target="_blank">Send us a ticket</a> and we’ll start working on a solution immediately.</p>
             </ul>
         </div>
+        <div class="home-section col-md-6">
+            <h2>Newsletter</h2>
+             <ul>
+            <p><a href="/manage-subscriptions">Signup</a> to receive regular updates from Smartling about new features, updates, bug fixes.</p>
+             </ul>
+        </div>
+    </div>
 
-    </div>
+
 </div>
-    </div>
+<p><br><br><br><br><br><br></p>
+
 
 
 

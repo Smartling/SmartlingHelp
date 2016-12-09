@@ -1,6 +1,6 @@
 ---
 layout: article
-title: How Many Linguistic Packages should you have
+title: How many Linguistic Packages should you have?
 draft: false
 Applies to:
   GDN: true

@@ -8,7 +8,7 @@ subarticles:
   - title: Create and Manage Patterns in the GDN
   - title: Capture GDN Content
   - title: URL Translation
-  - title: Inline Content Authorization
+  - title: Browsing with Smartling editmodes
   - title: Take Advantage of Your Staging Environment
   - title: Manually Add Content to a GDN Project
 wistia:
@@ -23,3 +23,4 @@ migration-checklist:
 ---
 
 
+This section covers capturing and translating content from your source site to be delivered on your translated sites.

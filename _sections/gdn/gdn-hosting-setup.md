@@ -4,15 +4,13 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: Authenticating Users Using Facebook
-  - title: Configure Country Code Top-Level Domains
-  - title: Edit Your Localized Domain Settings
+  - title: Setup your GDN Site
   - title: Effects of GDN load-balancing on user IP addresses and workarounds
-  - title: Edit your Localized Subfolders Path in Smartling
-  - title: Managing Locale in the HTTP Head of a Page
+  - title: Specifying Locale in the HTTP Header
   - title: Modify the Smartling Language Selector Menu
   - title: Smartling Bot
   - title: SSL Certificate Requirements for the GDN
+  - title: Authenticating users with Facebook
 wistia:
   video: false
   id:
@@ -24,4 +22,6 @@ migration-checklist:
   reviewed: false
 ---
 
+Before you can begin capturing, translating and serving content through the GDN, you will need to set up some infrastructure to allow Smartling to handle incoming requests for your translated content.
 
+There are many different ways to set up your GDN site, ranging from simple to complex. Work with your Smartling Success Manager to find the best solution for your needs.

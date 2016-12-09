@@ -78,6 +78,9 @@ collections:
     output: true
     permalink: "blog/:categories/:title"
 
+  authors:
+    output: false
+
 defaults:
   -
     scope:
@@ -96,6 +99,14 @@ editions:
   - Growth
   - Enterprise
   - Extra
+
+blog-authors:
+  - Andrew Saxe
+  - Eric Negron
+  - Katya Kameneva
+  - Kunal Sarda
+  - Tobias Kahn
+  - Kale Bogdanovs
 
 learning_types:
   - Guide

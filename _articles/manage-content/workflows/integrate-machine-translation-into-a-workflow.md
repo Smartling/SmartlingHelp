@@ -41,7 +41,7 @@ Third Party providers must register with Smartling before they can be integrated
 * Unbabel
 * CrossLang
 * Microsoft Bing
-
+* [Watson Language Translator](/blog/tips/integrate-with-watson-language-translator/)
 
 Third-Party machine translations will only be applied to untranslated strings. Machine translation from an External Workflow Step will not overwrite existing translations.
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Creating Localized Content
+title: Creating Localized Content with Content Swaps
 draft: false
 Applies to:
   GDN: false
@@ -80,6 +80,17 @@ You will need to make sure you have captured your source content by browsing to 
 * To avoid overloading existing elements, you can always surround them with a tag and use that to hold the sl_swap class and unique id.
 * Be aware that using sl_swap on an inline tag will cause Smartling to treat it as a block tag. This may cause unexpected results. So use a block tag where possible and be sure to check that the resulting content displays as expected.
 
+### Content Swaps in the head
+
+Content swaps also work on `<title>` and `<meta>` elements in the head of the page:
+
+~~~
+<!-- SL:swap-start:id:/page/html.html-keywords -->
+<meta name="keywords" content="Paris, reservation, hotel">
+<!-- SL:swap-end -->
+~~~
+
+If you tag meta keywords for swapping, Smartling will treat the swapped content as a comma-separated list.
 
 ## Automatic Image, Flash & Binary Swaps
 

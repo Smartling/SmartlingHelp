@@ -52,7 +52,6 @@ Translation Memory is managed from **Assets &gt; Translation Memory**. From here
 * Import an external TMX file
 * Manage/Export a Translation Memory.
 
-
 ## Import
 
 You can import translations in TMX format to Smartling. TMX files must follow the TMX standard. The specifications appear [here](https://www.gala-global.org/tmx-14b). In addition to the TMX standard, the file must contain a `<header>` tag with `srclang` and `datatype` attributes/values:
@@ -75,7 +74,6 @@ The `datatype` value must be one of the following:
 * `sgml`
 * `xml`
 
-
 If your TMX file has a first line like:
 
 ~~~xml
@@ -96,3 +94,8 @@ This is a legacy Trados text TM format that does not conform to the latest TMX s
 
 **2)** Select or Drag/Drop your TMX file and click OK.
 
+## Export
+
+At any time, you can export a Translation Memory as a .tmx file. On the asset page, simply click&nbsp;**Export TM**, choose a language and select whether you wish to download only published translations or include pending translations as well.
+
+![](/uploads/versions/smartling---linguistic-assets--hotels----x----951-642x---.png)

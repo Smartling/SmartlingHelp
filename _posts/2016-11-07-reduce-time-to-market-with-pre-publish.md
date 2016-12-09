@@ -2,6 +2,7 @@
 title: Reduce time to market with Pre-Publish
 layout: blogpost
 banner_image: /uploads/smartling---translation-workflow--smartling-hotels-.png
+blog-author: Andrew Saxe
 categories:
   - tips
 ---

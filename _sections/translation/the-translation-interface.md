@@ -10,6 +10,7 @@ subarticles:
   - title: Insertable Shortcuts
   - title: Placeholders in the Translation Interface
   - title: Spell Check
+  - title: Glossary in the Translation Interface
   - title: Style Guide in the Translation Interface
   - title: Translation Memory in the Translation Interface
 wistia:

@@ -39,6 +39,7 @@ $navbar-height: 60px;
 $breadcrumb-height: 53px;
 $home-banner-height: 160px;
 
+
 // Top Margins
 $search-top-margin: $navbar-height;
 $breadcrumb-top-margin: $navbar-height;
@@ -47,6 +48,12 @@ $content-start-top-margin: $navbar-height + $breadcrumb-height;
 // Target Height/Margin - Stops deeplink headings disappearing under fixed headers
 $target-height: $content-start-top-margin + 10px;
 $target-margin: 0 - $target-height;
+
+
+
+// Max sidebar height
+$breadcrumb-diff: $content-start-top-margin + 80px;
+
 
 // END HEIGHTS AND TOP MARGINS
 
@@ -134,7 +141,8 @@ $standard-border: 1px solid $border-grey;
     overflow-x: auto;
     height: $breadcrumb-height;
     ol {
-        margin-top: 9px;
+        margin-top: 14px;
+        padding: 0px 15px;
     }
     @media only screen and (min-width: 992px) {
        display: block !important;
@@ -204,7 +212,9 @@ $standard-border: 1px solid $border-grey;
 
 
 .side-nav-widget {
-    margin: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 95%;
     .panel {
         border: $standard-border;
@@ -298,9 +308,15 @@ $standard-border: 1px solid $border-grey;
     // Fix sidebar on large screens
     @media only screen and (min-width: 992px) {
         position: fixed;
-        max-height: 80%; // Stop bottom of fixed sidebar disappearing
+        max-height: calc(100% - 195px); // Stop bottom of fixed sidebar disappearing
         overflow-y: scroll; // Scroll overflow when lots of nav entries
         overflow-x: hidden;
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        width: 293px;
+    }
+    @media only screen and (min-width: 1200px) {
+        width: 360px;
     }
 
 
@@ -364,6 +380,10 @@ $headline-padding: 8px;
         margin-right: auto;
         border: 3px solid white;
         border-radius: 4px;
+    }
+
+    img.author-image {
+        width: 150px;
     }
 
     //Non-default image sizes - editors can apply these sizes using alt tags in markdown like ![medium](/image/url/)
@@ -432,6 +452,32 @@ $headline-padding: 8px;
 
 // END MAIN CONTENT CONTAINER
 
+// SECTION PAGE CARDS
+
+.section-card {
+    background-color: #9ddef1;
+    background-image: url('/img/fingerprint1.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+
+    background-blend-mode: color-burn;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    .section-card-align {
+        padding: 20px 10px 10px 10px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #296879;
+        font-weight: 400;
+
+
+    }
+}
+
+
 // SPECIAL CLASSES FOR HOME PAGE
 
 //Content height adjustment to allow for banner
@@ -453,7 +499,7 @@ $headline-padding: 8px;
 
 .content-start-homepage {
     position: relative;
-    top: 150px
+    top: 120px
 }
 
 // Search Bar
@@ -467,6 +513,7 @@ $headline-padding: 8px;
     .search-input {
         position: relative;
         bottom: 6px;
+        padding: 7px 11px 7px 0 !important;
         display: inline-block;
         background: inherit;
         border: none;
@@ -520,7 +567,10 @@ $headline-padding: 8px;
         font-size: 19px;
         margin-bottom: 15px;
         }
-    padding-bottom: 30px; //leave space below each heading
+    ul {
+        list-style: none;
+    }
+    padding-bottom: 0; //leave space below each heading
 }
 
 
@@ -747,14 +797,49 @@ $headline-padding: 8px;
     }
 }
 
+.release-note {
+    p {
+        margin-bottom: 0;
+    }
+}
 
 
 
 
 // END SPECIAL CLASSES FOR LEARNING PAGE
 
+// FOOTER
+.page {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
 
-// SUBSRIPTION PAGE
+footer {
+    hr {
+        margin-bottom: 10px;
+    }
+}
+
+$footer-text-color: grey;
+
+.footer-content {
+    color: $footer-text-color;
+    margin-bottom: 5px;
+    a {
+        color: $footer-text-color;
+    }
+    .footer-logo {
+        width: 170px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+
+//END FOOTER
+
+// SUBSCRIPTION PAGE
 
 .row.first {
     margin-top: 80px;
@@ -832,6 +917,32 @@ h4.required {
 
 
 // END DEVELOPER DOCS
+
+
+
+// PRODUCT BLOG
+
+.author-name {
+    .author-align {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        h5 {
+            background-color: white;
+            border-radius: 5px;
+            border: 1px black;
+            padding: 4px 7px;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+    }
+
+}
+
+
+// END PRODUCT BLOG
+
 
 
     // MISC
@@ -947,4 +1058,59 @@ h4.required {
     float: right;
     margin-top: 24px !important;
     margin-right: 24px !important;
+}
+
+// aspect ratio
+
+[data-aspect-ratio] {
+    display: block;
+    max-width: 100%;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+    }
+
+    > * {
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+[data-aspect-ratio="3:1"]:before {
+    padding-top: 33.33%;
+}
+[data-aspect-ratio="2:1"]:before {
+    padding-top: 50%;
+}
+[data-aspect-ratio="16:9"]:before {
+    padding-top: 56.25%;
+}
+[data-aspect-ratio="3:2"]:before {
+    padding-top: 66.66%;
+}
+[data-aspect-ratio="4:3"]:before {
+    padding-top: 75%;
+}
+[data-aspect-ratio="1:1"]:before {
+    padding-top: 100%;
+}
+[data-aspect-ratio="3:4"]:before {
+    padding-top: 133.33%;
+}
+[data-aspect-ratio="2:3"]:before {
+    padding-top: 150%;
+}
+[data-aspect-ratio="9:16"]:before {
+    padding-top: 177.77%;
+}
+[data-aspect-ratio="1:2"]:before {
+    padding-top: 200%;
+}
+[data-aspect-ratio="1:3"]:before {
+    padding-top: 300%;
 }

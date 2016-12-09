@@ -13,9 +13,8 @@ subsections:
   - title: Hybris Connector
   - title: Repository Connector
   - title: Sitecore Connector
-##  - title: Magento Connector
 subarticles:
-  - title: none
+  - title: Eloqua Connector
 migration-checklist:
   internal-links: false
   images: false
