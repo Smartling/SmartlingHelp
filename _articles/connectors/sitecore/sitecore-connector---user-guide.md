@@ -75,7 +75,7 @@ A Content Editor Warning displays status, and a red light indicates that the ite
 
 ![](/uploads/versions/sitecore_content_folders---x----144-142x---.jpg)
 
-> If you want auto-translated items to move to a specific workflow state use the&nbsp;[Target Workflow State](){: .cc-active} field in the module settings.
+> If you want auto-translated items to move to a specific workflow state use the Target Workflow State field in the module settings.
 
 ## Reviewing Translations
 
@@ -87,7 +87,7 @@ If your site doesn't have a language selector, you can do this manually by addin
 
 ## Translating Media Items
 
-You can use the connector to translate files from the media library. They will be sent to a separate Smartling project. You can setup this project under the **Media** section in [Settings](/hc/en-us/articles/202088268#configure).
+You can use the connector to translate files from the media library. They will need be sent to a separate Smartling project.
 
 ![](/uploads/versions/sitecore_media---x----504-275x---.jpg)
 

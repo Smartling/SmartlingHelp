@@ -35,7 +35,7 @@ migration-checklist:
 
 Smartling Account Owners and Project Managers can use the Chrome Context Capture Extension to [capture context](/knowledge-base/sections/context/).
 
-Only use the Chrome extension on **source language sites**. For example, if your primary web site is [www.domain.com](http://www.domain.com/) and the Spanish version is [es.domain.com](http://es.domain.com/), only use the extension on [www.domain.com](http://www.domain.com/).
+Only use the Chrome extension on **source language sites**. For example, if your primary web site is `es.smartlinghotels.com` and the Spanish version is `es.smartlinghotels.com`, only use the extension on `www.smartlinghotels.com`.
 
 ## Taking a Snapshot
 

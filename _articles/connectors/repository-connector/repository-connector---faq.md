@@ -39,7 +39,7 @@ If you add locales to your project you will need to update your translation conf
 
 ## Can I map one locale in Smartling to multiple locales in my repository?
 
-No. All locale mappings are 1:1\. If you have two similar locales, like `es` and `es-ES` best pracice is to create both locales in Smartling and use [Cross-Country Leverage](https://support.smartling.com/hc/en-us/articles/218671488-Leverage-Configuration#NewLeverageConfiguration) to share translations.
+No. All locale mappings are 1:1. If you have two similar locales, like `es` and `es-ES` best pracice is to create both locales in Smartling and use [Cross-Country Leverage](/knowledge-base/articles/leverage-configuration/#set-up-a-new-leverage-configuration) to share translations.
 
 ## My source files aren't being imported into Smartling.
 
@@ -53,7 +53,7 @@ The most common cause of this problem is an incorrect value in your `smartling-c
 There are a few reasons translated files might not be appearing in your repository:
 
 *   If your scheduler is set to update less frequently, it's possible that you might just need to wait for the Repository Connector to check for new translations. You can update the scheduler in your `repo-connector.conf`.
-*   By default the Repository Connector will only download a file when all translations are published. You can choose a less restrictive setting. For example, you can download the file once there are saved translations for all strings in a file. See [here](/pages/Repository-Connector/FAQ-and-Advanced/#DownloadOptions) for more details.
+*   By default the Repository Connector will only download a file when all translations are published. You can choose a less restrictive setting. For example, you can download the file once there are saved translations for all strings in a file. See [here](/knowledge-base/articles/repository-connector-faq/#what-are-my-options-for-downloading-translated-files?) for more details.
 *   For a public repository, you may not have specified credentials. This would allow you to get source files from the repository but not push translations back. Make sure you have provided commit credentials for your repository in your `repo-connector.conf`
 *   Finally, you must provide a value for `translationPathExpression` for each resource set in your `smartling-config.json`, or translated files cannot be returned to your repository. See the previous answer for help tuning your Regular Expression.
 
@@ -73,9 +73,9 @@ Smartling gives you a few advanced options for configuring how you get your tran
 
 *   `trigger` - `COMPLETED` or `ONCHANGE` - determines when to download translated files from Smartling. `COMPLETED` downloads files only when all translations are complete. `ONCHANGE` downloads translated files whenever they are updated. Default is `COMPLETED.`
 
-*   `retrievalType` - Sets type of translation for downloaded files. Allowed values are `PUBLISHED` (default), `PENDING`, and `PSEUDO`. See [Download Files](http://docs.smartling.com/pages/API/FileAPI/Download-File/) for more information on retrieval type.
+*   `retrievalType` - Sets type of translation for downloaded files. Allowed values are `PUBLISHED` (default), `PENDING`, and `PSEUDO`. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information on retrieval type.
 
-*   `includeOriginalStrings` - If `TRUE`, Smartling returns the original string if there is no translations available. If `FALSE`, Smartling returns a blank string if there is no translations. Defaults to `TRUE`. This parameter is supported only for Gettext, java properties, custom XML, Android XML and JSON files. See [Download Files](/pages/API/v1/FileAPI/Download-File/) for more information.
+*   `includeOriginalStrings` - If `TRUE`, Smartling returns the original string if there is no translations available. If `FALSE`, Smartling returns a blank string if there is no translations. Defaults to `TRUE`. This parameter is supported only for Gettext, java properties, custom XML, Android XML and JSON files. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information.
 
 ## Can I upload/download resource files from all branches except my master branch?
 
@@ -117,7 +117,7 @@ For your Git repository
 *   Remote ports: 443
 *   Remote hosts: {host of your git repository}
 
-These outbound rules will allow the connector to work with Cron scheduling but will not allow the neccessary inbound connections for accepting [callbacks](#Callback) from Smartling or [Webhooks from your repository](#Webhooks). For these you will need to create inbound rules for Smartling callbacks:
+These outbound rules will allow the connector to work with Cron scheduling but will not allow the neccessary inbound connections for accepting [callbacks](/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker?) from Smartling or [Webhooks from your repository](/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository?). For these you will need to create inbound rules for Smartling callbacks:
 
 *   Protocol: TCP
 *   Local ports: all ports
@@ -187,13 +187,13 @@ To configure callbacks, you need to add an "http" section to the repo-connector.
 *   `protocol` - can be set to `http` or `https` depending on the requirements of your server.
 *   `callbackURL` - URL for your instance of the Repository Connector. This is the URL that Smartling will send a callback to on completion of translation for a file.
 
-Even if you set up callbacks, you must still provide a valide cron expression in the [scheduler](/pages/Repository-Connector/Install-and-Setup/#scheduler) section.
+Even if you set up callbacks, you must still provide a valide cron expression in the `scheduler` section of your `repo-connector.conf`.
 
 ## Can I automate uploads when I make a commit to my repository?
 
 The simplest way to deal with uploading new translations to Smartling and downloading translated files is to use the built-in scheduler to regularly check Smartling and the repository for changes. However, if it is vital to have new commits to your repository uploaded to Smartling with no latency, you can configure a webhook in your Github or Beanstalk repository.
 
-Before you can get your webhooks working, you need to configure your http listener settings in your `repo-connector.conf` file. See [the previous question on callbacks](#Callback) for instructions on configuring your http listener.
+Before you can get your webhooks working, you need to configure your http listener settings in your `repo-connector.conf` file. See [the previous question on callbacks](/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker?) for instructions on configuring your http listener.
 
 Webhooks require your Connector to be publicly addressable. If you have set up the Connector behind a firewall you may have difficulty getting your webhooks to work.
 
@@ -217,7 +217,7 @@ For a Beanstalk repository, under **Settings > Integration** create a new webhoo
 
 You do not need to make any changes to your `repo-connector.conf` file. If your webhook is set up correctly, any new push to the repository will trigger the connector to look for any changes to translatable files (or new files) to upload to Smartling.
 
-Even if you set up callbacks, you must still provide a valide cron expression in the [scheduler](/pages/Repository-Connector/Install-and-Setup/#scheduler) section.
+Even if you set up callbacks, you must still provide a valid cron expression in the `scheduler` section of your `repo-connector.conf`.
 
 ## Can the Connector work from behind a proxy?
 
@@ -234,7 +234,7 @@ Your startup command should look something like this:
 java -Dhttp.proxyHost=localhost -Dhttp.proxyPort=3128 -Dhttp.proxyUsername=testuser -Dhttp.proxyPassword=password -jar repo-connector-1.5.1.jar -start
 ~~~
 
-If you are having trouble connecting, try [using curl to test your proxy connection with Smartling independently of the Repository Connector]().
+If you are having trouble connecting, try using curl to test your proxy connection with Smartling independently of the Repository Connector.
 
 ## Can I set up different rules and configuration for different sets of content in my source repository, for example, can I translate some source content into only French and other content into only German?
 
@@ -246,7 +246,7 @@ For each set of source content you want to handle, create a separate repository 
 
 You can then create multiple `repo-connector.conf` files in the Repository Connector folder. By default, this file is kept in the `/cfg/` directory. You will need to create a seperate directory for each file: `/cfg/french/`, `/cfg/german/`, etc. Keep the same login information in each config file, but change the `resourcesConfig` value to point to the correct repository configuration file.
 
-**Note:** If you prefer, you can store your repository configuration files on the Repository Connector server itself. In this case, set the `serverResourcesConfig`parameter instead. See [Installation and Setup](/pages/Repository-Connector/Install-and-Setup/#Modify)for more.
+**Note:** If you prefer, you can store your repository configuration files on the Repository Connector server itself. In this case, set the `serverResourcesConfig`parameter instead. See [Installation and Setup](/knowledge-base/articles/repository-connector-installation-and-setup/#connect-to-your-repository-and-smartlingfor more.
 
 Finally, start the connector multiple times, providing a specific config path each time using the `-configuration` parameter:
 	

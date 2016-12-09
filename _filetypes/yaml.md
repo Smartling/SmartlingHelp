@@ -26,7 +26,7 @@ directives:
   - sltrans
 ---
 
-YAML files are often used in Ruby on Rails Localization. If you're localizing your Ruby on Rails app using YAML files, see [Ruby on Rails Localization](/developers/misc/ruby-localization/) for important information.
+YAML files are often used in Ruby on Rails Localization. If you're localizing your Ruby on Rails app using YAML files, see [Ruby on Rails Localization](/developers/files/ruby-localization/) for important information.
 
 ## Keys/Variants
 
