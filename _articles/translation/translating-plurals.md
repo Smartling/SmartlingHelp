@@ -74,6 +74,6 @@ The string can now be published as normal.
 
 All forms of the translation move through workflow together. For example, if an editor rejects the translation because there is a problem with one plural form, they reject all plural forms for the translation. A translator only needs to modify the form that requires re-translation, but all plural forms move through the workflow together.
 
-Similarly, [issues](/articles/issues/){: .cc-active} raised for the translation of plural sensitive strings apply to all the forms. If the issue only applies to a specific form, the text of the issue should specify the plural form.
+Similarly, [issues](knowledge-base/articles/issues/){: .cc-active} raised for the translation of plural sensitive strings apply to all the forms. If the issue only applies to a specific form, the text of the issue should specify the plural form.
 
 When you download translated files, the number of plural forms in the file depends on the target language and file format.

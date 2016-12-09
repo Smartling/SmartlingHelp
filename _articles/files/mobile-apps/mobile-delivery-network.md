@@ -49,6 +49,6 @@ Version  | Android File URIs  | iOS File URIs
 
 ## Install the MDN SDKs
 
-Have developers install the Mobile Delivery Network SDK in your [iOS](https://github.com/Smartling/ios-mdn-sdk) or [Android](https://github.com/Smartling/android-mdn-sdk) app.
+Have developers install the Mobile Delivery Network SDK in your app. Contact your Smartling Success Manager for access to the SKDs.
 
 If your app is already launched, you will need to create a new store version to start using the MDN. From that version onward, your app will regularly check Smartling for new translations in the correct version. Any updates made in Smartling will automatically propagate to all copies of your app without needing to create a new version, as long as you continue to follow the correct naming conventions for your resource files.
