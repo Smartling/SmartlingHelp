@@ -46,7 +46,7 @@ To exclude a string from translation use the `translatable="FALSE"` attribute an
 </string>
 ~~~
 
-When downloading translated Android XML files via the [File API](/developers/API/FileAPI/Download-File/), setting the parameter `includeOriginalStrings=false` will strip untranslated elements from the file.' 
+When downloading translated Android XML files via the [File API](/developers/api/v2/files/download-translated-file-single-locale/), setting the parameter `includeOriginalStrings=false` will strip untranslated elements from the file.' 
 
 ## Standard Placeholder format
 
