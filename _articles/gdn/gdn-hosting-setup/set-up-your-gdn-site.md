@@ -240,6 +240,6 @@ In the same way you can leverage the GDN to split the traffic, an HTTP server wi
 
 > **SSL Implications:** If encryption is required, the certificates are deployed on your server. Traffic between the proxy and Smartling is encrypted using unsigned certificates, so certificates will not be needed on the Smartling proxies.
 
-## Test your Configuration
+## Test your configuration
 
 Before you can begin serving your translated site throught the GDN, you must verify that your DNS settings work. From the configuration dialog for the translated domain, click **Verify DNS**. If verification is not successful, check your CNAME settings. You may simply wait for your DNS records to propagate to all name servers.

@@ -22,4 +22,4 @@ The SmartMatch Leverage report shows you the number of words in a project automa
 
 To run the report, select Languages and a date range and click&nbsp;**Filter**.
 
-![](/uploads/versions/smartling___smartmatch_leverage---x----1268-704x---.png)s
+![](/uploads/versions/smartling___smartmatch_leverage---x----1268-704x---.png)

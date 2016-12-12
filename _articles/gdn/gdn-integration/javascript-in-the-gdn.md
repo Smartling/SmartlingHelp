@@ -65,6 +65,7 @@ Apart from it being difficult for the translator to understand and translate the
 A much more localization-friendly way to handle the same content is by using a simple templating engine like [mustache.js](https://github.com/janl/mustache.js) or by extending the String class with a [supplant method](https://gist.github.com/pbroschwitz/3891293). Here’s an example using mustache:
 
 ~~~html
+{% raw %}
 <script type="text/javascript" src="/js/mustache.min.js"></script>
 <script>
 	var item = {...};
@@ -73,6 +74,7 @@ A much more localization-friendly way to handle the same content is by using a s
 	// </sl:translate>
 	var checkoutStatus = Mustache.render(checkoutStatus, item);
 </script>
+{% endraw %}
 ~~~
 
 You will need to create a placeholder rule to capture content in double curly braces as a placeholder. Contact your Success representative to discuss your needs.
