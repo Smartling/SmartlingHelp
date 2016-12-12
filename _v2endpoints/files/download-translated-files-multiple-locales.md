@@ -13,6 +13,20 @@ request:
       required: true
       description_markdown:
         Unique identifier for the file to be downloaded.
+    - title: retrievalType
+      type: string
+      required: false
+      description_markdown: |
+        Sets the type of translations that will be retrieved. Accepted values are:
+          
+          * `pending` - Returns any saved translations (including non-published translations).
+          
+          * `published` - Returns only published/pre-published translations.
+          
+          * `pseudo` - Returns a modified version of the original text with additional characters inserted to expand the text. For example, the uploaded string `This is a sample string`, will be returned as `T~hís ~ís á s~ámpl~é str~íñg`. Pseudo translations enable you to test how a longer string integrates into your application.
+          
+          * `contextMatchingInstrumented` - Returns a modified version of the original file with strings wrapped in a non-visible Unicode symbols that can later be recognized and matched by the [Chrome Context Capture Extension](/knowledge-base/articles/capture-context-from-webpages-chrome-context-capture-extension/#improve-context-matching-with-instrumented-files.).
+
 
 response:
   json_markdown: |

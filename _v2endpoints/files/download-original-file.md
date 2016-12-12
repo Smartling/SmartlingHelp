@@ -12,7 +12,7 @@ request:
       type: string
       required: true
       description_markdown:
-        Unique identifier for the file you w
+        Unique identifier for the file to be downloaded.
 
 response:
   json_markdown: |
