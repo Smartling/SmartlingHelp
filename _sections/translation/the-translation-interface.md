@@ -25,3 +25,12 @@ migration-checklist:
 ---
 
 
+![](/uploads/versions/busque-hoteles---smartlinghotels---x----1113-867x---.png)
+
+The Translation Interface (TI) is where the work of translation happens. From the TI, translators and editors can:
+
+* Add and edit translations for a string
+* Access the Glossary and Style Guide
+* Raise issues
+* View context for a string, if available
+* See the complete translation history for the string.
