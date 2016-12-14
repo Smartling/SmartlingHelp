@@ -12,6 +12,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta class='swiftype' data-type='string' name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta class='swiftype' data-type='string' name="category" content='{% if page.url contains "/knowledge-base/" %}Knowledge Base{% endif %}{% if page.url contains "/developers/" %}Developers{% endif %}{% if page.url contains "/blog/" %}Product Blog{% endif %}'>
 
 
   <!-- Set canonical URL -->
