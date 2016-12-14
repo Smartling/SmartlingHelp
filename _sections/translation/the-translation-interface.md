@@ -35,4 +35,4 @@ The Translation Interface (TI) is where the work of translation happens. From th
 * View context for a string, if available
 * See the complete translation history for the string.
 
-If you're new to translation, check our Getting Started with Translation video for a look at the TI in action.
+If you're new to translating with Smartling, check our [Getting Started with Translation](/knowledge-base/articles/getting-started-with-translation/) video for a look at the TI in action.
