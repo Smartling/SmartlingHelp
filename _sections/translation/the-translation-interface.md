@@ -34,3 +34,5 @@ The Translation Interface (TI) is where the work of translation happens. From th
 * Raise issues
 * View context for a string, if available
 * See the complete translation history for the string.
+
+If you're new to translation, check our Getting Started with Translation video for a look at the TI in action.
