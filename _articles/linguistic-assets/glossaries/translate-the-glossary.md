@@ -64,6 +64,6 @@ In the Authorize dialog, select your dedicated Glossary translation project, and
 
 > Rememeber that this will cause any existing translations for these terms to be overwritten. If your Glossary is not evenly translated across languages, and you want to keep your current translations, work through your Glossary one language at a time, filtering for untranslated terms and authorizing them only for the current language.
 
-Each glossary term will be created as a string and added to your chosen workflow. The 'Definition', 'Part of Speech', 'Notes', 'Variations', Synonyms' and 'Antonyms' attributes of the term are captured as translation instructions. Glossary terms are translated like any other strings. To find Glossary strings in translation, filter your list view for the URI: '/Glossary'.
+Each glossary term will be created as a string and added to your chosen workflow. The `Definition`, `Part of Speech`, `Notes`, `Variations`, `Synonyms` and `Antonyms` attributes of the term are captured as translation instructions. Glossary terms are translated like any other strings. To find Glossary strings in translation, filter your list view for the URI: `/Glossary`.
 
 When a Glossary string is Published, the translation will be written to the Translation field of the original Glossary term.
