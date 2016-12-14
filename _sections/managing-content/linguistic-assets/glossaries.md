@@ -8,6 +8,7 @@ subarticles:
   - title: Import Glossary
   - title: Update Glossary from File
   - title: Glossary Spreadsheet Format
+  - title: Translate the Glossary
 wistia:
   video: false
   id:
@@ -20,7 +21,7 @@ migration-checklist:
 ---
 
 
-A Glossary &nbsp;is a unique set of words or phrases that are important to your content. &nbsp;By adding terms to the glossary you highlight them to translators, no matter where they appear inside larger strings. &nbsp;For each term you can instruct the translators to:
+A Glossary  is a unique set of words or phrases that are important to your content.  By adding terms to the glossary you highlight them to translators, no matter where they appear inside larger strings.  For each term you can instruct the translators to:
 
 * Not translate it (e.g. the name of your products or services)
 * Translate it in single consistent way for each language
