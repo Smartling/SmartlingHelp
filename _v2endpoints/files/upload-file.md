@@ -25,7 +25,7 @@ request:
           description_markdown: |
             Unique identifier for the file type. 
             
-            Permitted values are: `android`, `ios`, `gettext`, `html`, `javaProperties`, `yaml`, `xliff`, `xml`, `json`, `docx`, `pptx`, `xlsx`, `idml`, `qt`, `resx`, `plaintext`, `cvs`, or `stringsdict`.'
+            Permitted values are: `android`, `ios`, `gettext`, `html`, `javaProperties`, `yaml`, `xliff`, `xml`, `json`, `docx`, `pptx`, `xlsx`, `idml`, `qt`, `resx`, `plaintext`, `csv`, or `stringsdict`.'
             
         - title: authorize
           required: false
