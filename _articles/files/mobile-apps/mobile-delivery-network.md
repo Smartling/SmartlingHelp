@@ -36,11 +36,11 @@ Smartling's Mobile Delivery Network continuously delivers translations to your m
 
 ## Create separate projects for your iOS and Android apps
 
-To deliver your translations via the MDN, each app needs it's own Smartling project. This doesn't mean you have to translate everything twice. You can create a [Leverage Configuration](/knowledge-base/articles/leverage-configuration/) to allow you to share translations between the two projects.
+To deliver your translations via the MDN, each app needs its own Smartling project. This doesn't mean you have to translate everything twice. You can create a [Leverage Configuration](/knowledge-base/articles/leverage-configuration/) to allow you to share translations between the two projects.
 
 ## Name your resource files
 
-As you continue to update your app, multiple versions will be installed on mobile devices out in the world, and they will all need to have accurate translations. For this reason, to use the MDN, you need to follow a Smartling naming convention for your resource files to make sure the correct translations are delivered to each version of your app. All you need to do is include your version number directly after the root folder, giving you a URI like: `/1.0.0/strings.xml`.
+As you continue to update your app, multiple versions will be installed on mobile devices out in the world, and they will all need to have accurate translations. For this reason, to use the MDN, you need to use a specific naming convention when you upload your files to Smartling to make sure the correct translations are delivered to each version of your app. All you need to do is include your version number directly after the root folder, giving you a URI like: `/1.0.0/strings.xml`.
 
 Version  | Android File URIs  | iOS File URIs
 ---------| -------------------| -------------|
@@ -51,7 +51,7 @@ Version  | Android File URIs  | iOS File URIs
 
 Have developers install the Mobile Delivery Network SDK in your app. Contact your Smartling Success Manager for access to the SDKs.
 
-If your app is already launched, you will need to create a new store version to start using the MDN. From that version onward, your app will regularly check Smartling for new translations in the correct version. Any updates made in Smartling will automatically propagate to all copies of your app without needing to create a new version, as long as you continue to follow the correct naming conventions for your resource files.
+If your app is already live, you will need to release a new version with the MDN enabled to start using the MDN. From that version onward, your app will regularly check Smartling for new translations in the correct version. Any updates made in Smartling will automatically propagate to all copies of your app without needing to create a new version, as long as you continue to follow the correct naming conventions for your resource files.
 
 ## Frequently Asked Questions
 
