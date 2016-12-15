@@ -1,4 +1,9 @@
 ---
+
+-
+    date: 12/08/16
+    area: List View
+    update_markdown: Fixed a bug that cleared the Job filter in the list view when a keyword search was added.
 -
     date: 12/01/16
     area: Machine Translation
