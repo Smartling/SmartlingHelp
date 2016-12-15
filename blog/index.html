@@ -23,6 +23,7 @@ layout: default
 
             <div class="main-content" id="main-text">
                 <h2>{{post.title}}</h2>
+                <p style="margin-top: -10px;">{{post.date | date_to_long_string }}</p>
                 {% if post.banner_image %}
                 <img class="banner-image" src="{{post.banner_image}}">
                 {% endif %}

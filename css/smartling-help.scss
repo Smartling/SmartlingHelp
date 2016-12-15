@@ -359,6 +359,7 @@ $headline-padding: 8px;
 .main-content-container {
     background-color: $background-grey;
     padding-bottom: 20px; //Stop the end of scrolling content getting cramped at the bottom of the viewport
+    margin-bottom: 30px;
 }
 
 // Styles for article content
@@ -811,14 +812,15 @@ $headline-padding: 8px;
 // FOOTER
 .page {
     min-height: 100%;
-    margin-bottom: -100px;
 }
 
 footer {
     hr {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 }
+
+
 
 $footer-text-color: grey;
 
