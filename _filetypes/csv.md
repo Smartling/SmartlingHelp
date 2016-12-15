@@ -17,6 +17,7 @@ directives:
   - placeholder_format
   - placeholder_format_custom
   - pseudo_inflation
+  - string_format_paths
 ---
 
 ## String Instructions
