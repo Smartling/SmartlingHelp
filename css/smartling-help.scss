@@ -247,7 +247,8 @@ $standard-border: 1px solid $border-grey;
             text-align: left;
             .search-input {
                 position: relative;
-                bottom: 3px;
+                height: 20px !important;
+                bottom: 4px;
                 display: inline-block;
                 background: inherit;
                 border: none;
