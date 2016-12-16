@@ -242,13 +242,12 @@ $standard-border: 1px solid $border-grey;
         padding-left: 24px;
         .search-bar {
             #help-search::-webkit-input-placeholder { font-style:italic; color: $text-color;}
-            #help-search::-moz-placeholder { font-style:italic; color: $text-color;}
+            #help-search::-moz-placeholder { font-style:italic; color: $text-color; line-height: 14px;}
             margin-bottom: -5px;
             text-align: left;
             .search-input {
                 position: relative;
-                height: 20px !important;
-                bottom: 4px;
+                bottom: 3px;
                 display: inline-block;
                 background: inherit;
                 border: none;
@@ -508,7 +507,7 @@ $headline-padding: 8px;
 
 // Make placeholder text italic (only available for firefox/safari/chrome - nothing I can do about IE.)
 #help-search::-webkit-input-placeholder { font-style:italic; }
-#help-search::-moz-placeholder { font-style:italic; }
+#help-search::-moz-placeholder { font-style:italic; line-height: 14px;}
 
 .search-bar {
     text-align: center;
@@ -673,7 +672,7 @@ $headline-padding: 8px;
 
 .search-bar-home {
     #help-search::-webkit-input-placeholder { font-style:italic; color: $text-color;}
-    #help-search::-moz-placeholder { font-style:italic; color: $text-color;}
+    #help-search::-moz-placeholder { font-style:italic; color: $text-color; line-height: 14px;}
     text-align: left;
     height: 50px;
     background: $background-grey;
