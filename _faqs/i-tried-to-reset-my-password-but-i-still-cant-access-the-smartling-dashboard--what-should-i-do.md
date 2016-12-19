@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: faq
 title: "I tried to reset my password but I still can't access the Smartling dashboard. What should I do?"
 draft: false
 Applies to:

@@ -1,5 +1,8 @@
 {% include search-box.html %}
 
+{% if page.include-related %}
+
+
 <div class="panel panel-default" id="FurtherReadingPanel">
     <div class="panel-heading">
         <a data-toggle="collapse" href="#collapse2">
@@ -35,3 +38,5 @@
         </div>
     </div>
 </div>
+
+{% endif %}

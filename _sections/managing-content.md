@@ -18,6 +18,7 @@ subarticles:
   - title: Inactive Strings
   - title: Adding links to Translator Instructions or Issues
   - title: Fuzzy Match Estimates
+  - title: Automatic Machine Translation
 wistia:
   video: false
   id:

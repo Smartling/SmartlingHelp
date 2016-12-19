@@ -10,7 +10,7 @@ url:
 ---
 
 
-If users are trying to visit your localized site, eg, `http://www.mysite.ru` and seeing the Smartling login page, you may have password protection set up for the localized site.
+If users are trying to visit your localized site, eg, `http://www.smartlinghotels.ru` and seeing the Smartling login page, you may have password protection set up for the localized site.
 
 To remove password protection:
 

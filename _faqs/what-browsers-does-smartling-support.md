@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: faq
 title: What Browsers Does Smartling Support?
 draft: false
 Applies to:
@@ -34,14 +34,14 @@ migration-checklist:
 
 You can access the Smartling Dashboard and Tools using any web browser (with JavaScript enabled) and an Internet connection, but the platform works best in the browsers noted below.  Smartling cannot guarantee the experience in browsers other than the following browser type and version.
 
-**Recommended Browsers for better performance**
+## Recommended Browsers for better performance
 
 * Google Chrome (Mac OS, Windows 7, 8): 13.0 +
 * Firefox (Mac OS, Windows 7, 8): 6.0 +
 * Safari (Mac OS): last version
 
 
-**Also Supported**
+## Also Supported
 
 * Internet Explorer: 11 +
 * Microsoft Edge
