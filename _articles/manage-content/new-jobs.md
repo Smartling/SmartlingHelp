@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Jobs
+title: Updates to Jobs
 draft: true
 Applies to:
   GDN: true
@@ -52,14 +52,28 @@ When we release the new version of Jobs to your account, you will notice some ch
 
 ## Lifecycle of a job
 
-**1)** Create a new job from the **Jobs** page. Add if you're translating files, add files by dragging them onto the Job dialog. Give the job a due date and description, and select the languages you want to translate. Click **Create**.
+**1)** Create a new job from the **Jobs** page.
+
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----577-349x---.png)
+
+If you're translating files, add files by dragging them onto the Job dialog. Give the job a due date and description, and select the languages you want to translate. Click**Create**.
+
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----574-601x---.png)
 
 **2)** For a GDN project, or if you want to add additional strings to the job, select the strings in the list view and choose **Add to job** from the **Actions** menu.
 
 **3)** When you have finished adding content, go to the **Jobs** page and click **Authorize**.
 
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----581-358x---.png)
+
 Select a workflow for each language in the job.
+
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----571-356x---.png)
 
 **4)** The content in the Job will be sent to the first workflow step for each language. At any time you can click **View Details** on the job card to see a breakdown of progress in the job by Language, Files or Workflows.
 
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----574-438x---.png)
+
 From the job card, you can also run a Fuzzy Estimate on the job, download the job files or cancel the job.
+
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----571-356x---.png)
