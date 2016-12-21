@@ -7,7 +7,7 @@ Applies to:
   Application-Resource-Files: true
   CMS-Connectors: true
 edition: Express
-redirect-url: /hc/en-us/articles/202670453
+redirect-url:
 wistia:
   video: false
   id:
@@ -41,6 +41,8 @@ We're rolling out an update to how our Jobs feature works, to help you better or
 When we release the new version of Jobs to your account, you will notice some changes:
 
 * We no longer distinguish between 'strings' jobs and 'files' jobs. You can now create jobs from new files by dragging a file onto the Jobs page. This functionality was previously only available as part of the Requester Portal.
+
+* If you add a file that is already uploaded to Smartling to a job, the file will be overwritten. Any new content will be added to the job.
 
 * Unauthorized strings can now be added to a job.
 
@@ -76,4 +78,4 @@ Select a workflow for each language in the job.
 
 From the job card, you can also run a Fuzzy Estimate on the job, download the job files or cancel the job.
 
-![](/uploads/versions/smartling---jobs--katya-jobs2----x----571-356x---.png)
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----309-288x---.png)
