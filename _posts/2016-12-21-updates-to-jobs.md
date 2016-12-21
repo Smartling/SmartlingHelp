@@ -8,7 +8,7 @@ categories:
 
 We're rolling out an update to how our Jobs feature works, to help you better organize your translation work and keep relevant content together as it moves through the translation process.
 
-## Changes from old Jobs
+## Changes to Jobs functionality
 
 When we release the new version of Jobs to your account, you will notice some changes:
 
