@@ -42,6 +42,8 @@ When we release the new version of Jobs to your account, you will notice some ch
 
 * We no longer distinguish between 'strings' jobs and 'files' jobs. You can now create jobs from new files by dragging a file onto the Jobs page. This functionality was previously only available as part of the Requester Portal.
 
+* If you add a file that is already uploaded to Smartling to a job, the file will be overwritten. Any new content will be added to the job.
+
 * Unauthorized strings can now be added to a job.
 
 * Each job is authorized when it is ready to begin translation. Authorizing a job authorizes all strings in the job. Once any job is authorized, no further content or languages can be added, but translation of individual files or languages within a job can be cancelled. Cancelling removes files from a job, strings are returned to your Authorization queue.
