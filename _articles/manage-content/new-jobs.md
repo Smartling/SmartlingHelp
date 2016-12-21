@@ -58,7 +58,9 @@ If you're translating files, add files by dragging them onto the Job dialog. Giv
 
 ![](/uploads/versions/smartling---jobs--katya-jobs2----x----574-601x---.png)
 
-**2)** For a GDN project, or if you want to add additional strings to the job, select the strings in the list view and choose **Add to job** from the **Actions** menu.
+<div class="info">As before, you can also create a new job when authorizing strings from the List View.</div>
+
+**2)** For a GDN project, you add strings to a job as before, select the strings in the list view and choose **Add to job** from the **Actions** menu. You can also add strings to a job this way in a files project.
 
 **3)** When you have finished adding content, go to the **Jobs** page and click **Authorize**.
 
