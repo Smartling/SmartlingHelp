@@ -33,6 +33,7 @@ migration-checklist:
   reviewed: true
 ---
 
+> We are currently rolling out [Updates to the Jobs feature](/blog/product-update/updates-to-jobs/). See the Product Blog for details. This article will be updated as the rollout continues.
 
 With the **Jobs** feature, Smartling enables Account Owners and Project Managers to group and prioritize content for translation: create a job, select the content for the job, and add a due date as needed.
 
