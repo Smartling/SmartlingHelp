@@ -7,7 +7,7 @@ Applies to:
   Application-Resource-Files: true
   CMS-Connectors: true
 edition: Express
-redirect-url: /hc/en-us/articles/202670453
+redirect-url:
 wistia:
   video: false
   id:
@@ -74,4 +74,4 @@ Select a workflow for each language in the job.
 
 From the job card, you can also run a Fuzzy Estimate on the job, download the job files or cancel the job.
 
-![](/uploads/versions/smartling---jobs--katya-jobs2----x----571-356x---.png)
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----309-288x---.png)
