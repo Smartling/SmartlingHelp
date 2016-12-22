@@ -1,10 +1,10 @@
 sections:
   - Authentication
   - Files
-#  - Strings
+  - Strings
 #  - Glossary
-#  - Issues
-#  - Image Context
+  - Issues
+  - Image Context
 #  - Accounts
 articles:
   - New in v2
