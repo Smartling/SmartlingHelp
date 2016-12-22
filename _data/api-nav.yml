@@ -2,7 +2,7 @@ sections:
   - Authentication
   - Files
   - Strings
-#  - Glossary
+  - Glossary
   - Issues
   - Image Context
 #  - Accounts
