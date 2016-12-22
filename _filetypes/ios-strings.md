@@ -19,7 +19,6 @@ directives:
   - placeholder_format
   - placeholder_format_custom
   - pseudo_inflation
-  - instruction_attributes
 ---
 
 ## Keys/Variants

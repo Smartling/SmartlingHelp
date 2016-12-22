@@ -17,7 +17,7 @@ directives:
   - placeholder_format_custom
   - translate_paths
   - translate_paths (to be deprecated)
-  - source_key_paths (to be deprecated)
+  - source_key_paths_json_deprecated
   - variants_enabled
   - string_format_paths
 ---
@@ -39,7 +39,7 @@ Smartling parses JSON files for translatable strings, and for key/variant metada
 If you include no integration directives, Smartling will apply its default template and capture all JSON values as translatable strings and the complete name path leading to each string as key and variant metadata. The following placeholder types will be captured:
 
 * `{x}`
-* `{{x}}`
+* `{% raw %} {{x}} {% endraw %}`
 * `${x}`
 * `%x%`
 * `%%x%%`

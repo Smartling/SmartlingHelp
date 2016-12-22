@@ -1,5 +1,8 @@
 ---
-
+-
+    date: 12/12/16
+    area: Files
+    update_markdown: YAML files now support the `includeOriginalStrings = false` directive when downloading via API. For untranslated strings, the key/value pair is omitted from the file.
 -
     date: 12/08/16
     area: List View

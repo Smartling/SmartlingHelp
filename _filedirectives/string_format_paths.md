@@ -61,4 +61,7 @@ examples:
   - type: xml
     code_single_line: 'smartling.string_format_paths = html: /product/description/'
     description_markdown: Smartling enables HTML in `/product/description` and all its child nodes.
+  - type: xml
+    code_single_line: 'smartling.string_format_paths = html: /product/description/, html: /product/title'
+    description_markdown: Smartling enables HTML in `/product/description` and all its child nodes, and the `product/title` node.
 ---

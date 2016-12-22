@@ -15,7 +15,7 @@ directive_suffix: ' --&gt'
 directives:
   - variants_enabled
   - 'translate_paths '
-  - string_format_paths_csv
+  - string_format_paths
   - placeholder_format_custom
   - placeholder_format
   - sltrans

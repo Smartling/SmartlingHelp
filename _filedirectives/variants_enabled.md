@@ -10,14 +10,7 @@ description_markdown: |
   
 examples:
     - type: xml
-      code_single_line: smartling.variants_enabled = TRUE
-      code_block_markdown:
-      description_markdown:
-        Strings will be captured with variant metadata.  
+      code_single_line: 'smartling.variants_enabled = TRUE'
     - type: json
-      block: false
       code_single_line: '"variants_enabled" : "TRUE"'
-      code_block_markdown:
-      description_markdown: |
-        Strings will be captured with variant metadata.
 ---

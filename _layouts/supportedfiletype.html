@@ -82,10 +82,13 @@ layout: default
                             <div class="row">
                                 <div class="col-md-12"><h3>{{directive.title}}</h3></div>
                             </div>
+                            {% if directive.values_markdown %}
                             <div class="row">
                                 <div class="col-md-2"><strong>Values</strong></div>
                                 <div class="col-md-10">{{directive.values_markdown | markdownify}}</div>
                             </div>
+                            {% endif %}
+                            {% if directive.description_markdown %}
                             <div class="row">
                                 <div class="col-md-2">
                                     <strong>Description</strong>
@@ -94,6 +97,8 @@ layout: default
                                     {{directive.description_markdown | markdownify}}
                                 </div>
                             </div>
+                            {% endif %}
+                           {% if directive.examples %}
                             <div class="row">
                                 <div class="col-md-2">
                                     <strong>Examples</strong>
@@ -126,6 +131,7 @@ layout: default
                                     {% endfor %}
                                 </div>
                             </div>
+                            {% endif %}
                             {% break %}
                         {% endif %}
                     {% endfor %}

@@ -1,6 +1,6 @@
 ---
-directive_id: 'sltran'
-title: 'sltrans'
+directive_id: ''
+title: ''
 values_markdown: |
   
 description_markdown: |

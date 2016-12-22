@@ -18,6 +18,8 @@ directives:
   - placeholder_format_custom
   - pseudo_inflation
   - string_format_paths
+  - field_separator
+  - string_encloser
 ---
 
 ## String Instructions
