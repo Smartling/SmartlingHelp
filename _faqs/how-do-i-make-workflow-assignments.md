@@ -6,9 +6,7 @@ promoted: false
 related:
   sections:
   articles:
-other-links:
-  - text:
-url:
+
 ---
 
 

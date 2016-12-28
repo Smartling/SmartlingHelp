@@ -4,9 +4,6 @@ title: Does Smartling Offer Computer-Generated Translation?
 draft: true
 related-articles:
   - title: 
-other-links:
-  - text:
-    url:
 
 ---
 

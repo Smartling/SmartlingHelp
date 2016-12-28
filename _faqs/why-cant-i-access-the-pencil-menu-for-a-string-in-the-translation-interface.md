@@ -4,9 +4,7 @@ title: "Why can't I access the Pencil Menu for a string in the Translation Inter
 draft: false
 related-articles:
   - article: 11-things-you-can-do-to-improve-your-smartling-glossary-and-the-quality-of-your-translation
-other-links:
-  - text:
-url: /hc/en-us/articles/200638337
+
 ---
 
 

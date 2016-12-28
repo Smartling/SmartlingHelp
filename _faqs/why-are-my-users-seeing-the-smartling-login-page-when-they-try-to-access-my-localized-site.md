@@ -4,9 +4,6 @@ title: Why are my users seeing the Smartling login page when they try to access 
 draft: false
 related-articles:
   - article:
-other-links:
-  - text:
-url:
 ---
 
 

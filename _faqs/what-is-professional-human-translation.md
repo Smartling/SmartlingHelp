@@ -4,9 +4,6 @@ title: What is Professional Human Translation?
 draft: false
 related-articles:
   - article:
-other-links:
-  - text:
-url:
 ---
 
 > This article applies to Smartling Basic and Pro self-service accounts.

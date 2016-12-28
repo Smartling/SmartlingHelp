@@ -4,9 +4,6 @@ title: "What happens when the text of a string in the TM matches my string, but 
 draft: false
 related-articles:
   - article:
-other-links:
-  - text:
-url:
 ---
 
 

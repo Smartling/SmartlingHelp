@@ -4,9 +4,6 @@ title: Why are there numbers in my placeholders?
 draft: true
 related-articles:
   - article: account-level-reports
-other-links:
-  - text:
-url:
 ---
 
 
