@@ -83,4 +83,4 @@ For an HTML-based page, just reference the script, and initialize the SmartlingC
 
 ## Capturing Context
 
-Once the library is embedded on your site, context will be uploaded to your Smartling project. The package has been carefully designed to minimize impact on page load times. For more technical information see the attached&nbsp;[readme](/JSContextCaptureREADME.pdf).
+Once the library is embedded on your site, context will be uploaded to your Smartling project. The package has been carefully designed to minimize impact on page load times. For more technical information see the attached&nbsp;[readme](/public/JSContextCaptureREADME.pdf).

@@ -58,7 +58,7 @@ In your sitemap.xml file you can create a `<url-list>` node populated with a lis
 </smartlingconfig>
 ~~~
 
-You can download a custom sitemap template <a href="/resources/smartling-chrome-automation-sitemap-example.xml" download target="_blank">here</a>
+You can download a custom sitemap template [here](/public/smartling-chrome-automation-sitemap-example.xml)
 
 **4)** Set up the automation tool:
 
