@@ -6,6 +6,7 @@ categories:
   - product-update
 ---
 
+
 We're rolling out an update to how our Jobs feature works, to help you better organize your translation work and keep relevant content together as it moves through the translation process.
 
 ## Changes to Jobs functionality
@@ -50,4 +51,4 @@ Select a workflow for each language in the job.
 
 From the job card, you can also run a Fuzzy Estimate on the job, download the job files or cancel the job.
 
-![](/uploads/versions/smartling---jobs--katya-jobs2----x----309-288x---.png)****
+![](/uploads/versions/smartling---jobs--katya-jobs2----x----309-288x---.png)
