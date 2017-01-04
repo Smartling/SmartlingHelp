@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Translation Velocity Report
+title: Translation Memory Leverage Reports
 Applies to:
   GDN: true
   Application-Resource-Files: true

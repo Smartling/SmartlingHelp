@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Translation Velocity Report
+title: Translation Changes Report
 Applies to:
   GDN: true
   Application-Resource-Files: true
