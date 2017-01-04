@@ -20,6 +20,12 @@ directives:
   - string_format_paths
   - field_separator
   - string_encloser
+  - paths
+  - translation_language_path
+  - output_original_row
+  - strip_instructions_on_download
+  - first_row_header
+  - string_instructions_paths
 ---
 
 ## String Instructions

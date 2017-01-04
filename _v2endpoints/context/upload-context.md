@@ -14,7 +14,7 @@ request:
       type: array
       required: true
       description_markdown: |
-        The context image file and content type. Supported content types are `imgage/png` and `image/jpg` / `jpeg`.
+        The context image file and content type. Supported content types are `image/png` and `image/jpg` / `jpeg`.
 response:
   json_markdown: |-
     ~~~json
