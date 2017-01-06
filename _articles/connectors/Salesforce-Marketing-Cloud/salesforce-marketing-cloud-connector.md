@@ -42,6 +42,11 @@ This if for salesforce
 
 ## HEadings
 
+
+### Another Heading
+
+## A third heading
+
 `code snippet`
 
 ![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test----x----1245-683x---.png)
