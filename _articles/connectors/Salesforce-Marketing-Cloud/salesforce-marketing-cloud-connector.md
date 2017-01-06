@@ -13,7 +13,7 @@ wistia:
   id:
 read-first:
   include: false
-  sections:
+  sections:https://app.cloudcannon.com/editor#/site/19991/collections/_articles/connectors/Salesforce-Marketing-Cloud/salesforce-marketing-cloud-connector.md
   articles:
   faqs:
   others:
@@ -37,3 +37,14 @@ migration-checklist:
 
 
 This if for salesforce
+
+**bold**
+
+## HEadings 
+
+
+`code snippet`
+
+~~~javascript
+var katya = a thing
+~~~
