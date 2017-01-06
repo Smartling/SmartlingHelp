@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Salesforce Marketing Cloud Connector
-draft: true
+draft: false
 Applies to:
   GDN: false
   Application-Resource-Files: false
@@ -14,22 +14,16 @@ wistia:
 read-first:
   include: false
   sections:
-    - section
   articles:
-    - article
   faqs:
-    - faq
   others:
     - link:
       text:
 further-reading:
   include: false
   sections:
-    - section
   articles:
-    - article
   faqs:
-    - faq
   others:
     - link:
       text:
@@ -40,3 +34,6 @@ migration-checklist:
   related: false
   reviewed: false
 ---
+
+
+This if for salesforce
