@@ -13,7 +13,7 @@ wistia:
   id:
 read-first:
   include: false
-  sections:https://app.cloudcannon.com/editor#/site/19991/collections/_articles/connectors/Salesforce-Marketing-Cloud/salesforce-marketing-cloud-connector.md
+  sections:
   articles:
   faqs:
   others:
