@@ -82,7 +82,7 @@ The package contains an annotated version of `repo-connector.conf` to help you s
 
   Remember that `/` is an escape character both for JSON and RegEx, so you need to double-escape special characters for your Regular Expressions to work.
 
-  * `pollingSchedule` - Cron expression defining how often the Repository Connector polls your repository for updates. We strongly recommend using this method to upload new translatsable files and downlaod translations. However, if you need upload of new files to occur with minimum latency, you can [set up a webhook](){: .cc-active}.
+  * `pollingSchedule` - Cron expression defining how often the Repository Connector polls your repository for updates. We strongly recommend using this method to upload new translatable files and download translations. However, if you need upload of new files to occur with minimum latency, you can [set up a webhook](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository){: .cc-active}.
 
   * `Scheduler`
 
