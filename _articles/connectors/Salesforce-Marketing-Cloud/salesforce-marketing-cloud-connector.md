@@ -40,10 +40,11 @@ This if for salesforce
 
 **bold**
 
-## HEadings 
-
+## HEadings
 
 `code snippet`
+
+![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test----x----1245-683x---.png)
 
 ~~~javascript
 var katya = a thing
