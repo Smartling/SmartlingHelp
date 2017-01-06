@@ -14,7 +14,7 @@
     <div id="collapse1" class="panel-collapse">
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for type in site.data.supportedfiles.filetypes %}
+                {% for type in site.data.nav.developers.files.filetypes %}
                     {% for filetype in site.filetypes %}
                         {% if filetype.title == type %}
                             <li><a href="{{filetype.url}}">{{filetype.title}}</a></li>
@@ -39,7 +39,7 @@
     <div id="collapse1" class="panel-collapse">
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for article in site.data.supportedfiles.articles %}
+                {% for article in site.data.nav.developers.files.articles %}
                     {% for developerarticle in site.developerarticles %}
                         {% if developerarticle.title == article %}
                             <li><a href="{{developerarticle.url}}">{{developerarticle.title}}</a></li>

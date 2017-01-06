@@ -9,11 +9,12 @@
 # Cheers,
 # Kale
 
+
 # Site settings
 version: 3.0.3
 title: Smartling Help
 baseurl: ""
-url: "http://help.smartling.com/" # the base hostname & protocol for your site
+url: "http://help.smartling.com/"
 
 
 # Build settings
@@ -28,8 +29,7 @@ incremental: false
 left-width: 4
 right-width: 8
 
-# Set up Home Nav
-homeCardNavLimit: 6 #Max entries in nav cards
+
 
 
 #Collections
@@ -90,7 +90,9 @@ defaults:
       permalink: /blog/:categories/:title/
 
 
-#CloudCannon Helpers
+# CloudCannon Helpers
+# These are used to aid front-matter editing in CloudCannon
+# Not used to build the actual site
 
 editions:
   - Express

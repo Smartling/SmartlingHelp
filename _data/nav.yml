@@ -1,10 +1,56 @@
-- Manage Content
-- Translation
-- Manage Users
-- GDN Projects
-- Files Projects
-- Reports
-- Mobile Apps
-- Videos and Guides
-- Connector Projects
-- Requester Portal
+knowledge-base:
+ - Manage Content
+ - Translation
+ - Manage Users
+ - GDN Projects
+ - Files Projects
+ - Reports
+ - Mobile Apps
+ - Videos and Guides
+ - Connector Projects
+ - Requester Portal
+
+developers:
+  api:
+    sections:
+     - Authentication
+     - Files
+     - Strings
+     - Glossary
+     - Issues
+     - Image Context
+#     - Accounts
+    articles:
+     - New in v2
+     - Migrate to v2
+     - Callbacks
+     - Rate Limiting
+     - Response Format
+     - SDKs
+  files:
+    filetypes:
+     - Android XML
+     - iOS Strings
+     - iOS Stringsdict
+     - Gettext PO/POT
+     - HTML
+     - XLIFF
+     - Custom XML
+     - JSON
+     - YAML
+     - QT Linguist
+     - MadCap Lingo ZIP Packages
+     - Office Open XML
+     - InDesign Markup Language
+     - RESX
+     - SubRip SRT
+     - Plain Text
+     - CSV
+    articles:
+     - Placeholders in Resource Files
+     - Ruby on Rails Localization
+     - Localizing Templated Applications
+     - Smartling iOS Plurals Localization Library
+     - Parser Versions
+     - Advanced JSON configuration
+     - CSV Download Options

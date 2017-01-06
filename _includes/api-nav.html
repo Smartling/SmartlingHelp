@@ -13,7 +13,7 @@
     <div id="collapse1" class="panel-collapse">
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for section in site.data.api-nav.sections %}
+                {% for section in site.data.nav.developers.api.sections %}
                 {% for v2section in site.v2sections %}
                 {% if v2section.title == section %}
                 <li><a href="{{v2section.url}}">{{v2section.title}}</a></li>
@@ -38,7 +38,7 @@
     <div id="collapse1" class="panel-collapse">
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
-                {% for article in site.data.api-nav.articles %}
+                {% for article in site.data.nav.developers.api.articles %}
                 {% for developerarticle in site.developerarticles %}
                 {% if developerarticle.title == article %}
                 <li><a href="{{developerarticle.url}}">{{developerarticle.title}}</a></li>

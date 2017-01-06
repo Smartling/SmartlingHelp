@@ -14,7 +14,7 @@
         <div class="panel-body toc">
             <ul class="nav nav-stacked">
                 <li class="primary-nav"><a href="/developers/api/v2">Smartling API</a></li>
-                {% for section in site.data.api-nav.sections %}
+                {% for section in site.data.nav.developers.api.sections %}
                 {% for v2section in site.v2sections %}
                 {% if v2section.title == section %}
                 <li class="secondary-nav"><a href="{{v2section.url}}">{{v2section.title}}</a></li>
@@ -22,7 +22,7 @@
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
-                {% for article in site.data.api-nav.articles %}
+                {% for article in site.data.nav.developers.api.articles %}
                 {% for developerarticle in site.developerarticles %}
                 {% if developerarticle.title == article %}
                 <li class="secondary-nav"><a href="{{developerarticle.url}}">{{developerarticle.title}}</a></li>
@@ -31,7 +31,7 @@
                 {% endfor %}
                 {% endfor %}
                 <li class="primary-nav"><a href="/developers/files">File Integration</a></li>
-                {% for type in site.data.supportedfiles.filetypes %}
+                {% for type in site.data.nav.developers.files.filetypes %}
                 {% for filetype in site.filetypes %}
                 {% if filetype.title == type %}
                 <li class="secondary-nav"><a href="{{filetype.url}}">{{filetype.title}}</a></li>
@@ -39,7 +39,7 @@
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
-                {% for article in site.data.supportedfiles.articles %}
+                {% for article in site.data.nav.developers.files.articles %}
                 {% for developerarticle in site.developerarticles %}
                 {% if developerarticle.title == article %}
                 <li class="secondary-nav"><a href="{{developerarticle.url}}">{{developerarticle.title}}</a></li>

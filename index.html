@@ -1,7 +1,15 @@
 ---
 layout: default
 title: Smartling Help
-home: true
+latest-updates:
+  - title: SubRip SRT files
+    link: /developers/files/subrip-srt/
+  - title: URL Translation
+    link: /knowledge-base/articles/url-translation/
+  - title: Eloqua Connector
+    link: /knowledge-base/articles/eloqua-connector/
+  - title: Cost Estimates and Rates
+    link: /knowledge-base/articles/cost-estimates-and-rates/
 --- 
 
 <!-- Home Page Content -->
@@ -26,12 +34,9 @@ home: true
         <div class="home-section col-md-6 match-height">
             <h2>Get Started with Smartling</h2>
             <ul>
-                {% for getting-started in site.data.homepage-content.getting-started %}
-
-
-                <li><a href="{{getting-started.link}}">{{getting-started.title}}</a></li>
-
-                {% endfor %}
+                <li><a href="/knowledge-base/articles/getting-started-with-translation/">Translators</a></li>
+                <li><a href="/knowledge-base/articles/get-started-with-smartling/">Account Owners</a></li>
+                <li><a href="/developers/">Developers</a></li>
             </ul>
 
         </div>
@@ -39,7 +44,7 @@ home: true
         <div class="home-section col-md-6 match-height">
             <h2>Latest Documentation Updates</h2>
             <ul>
-                {% for latest-update in site.data.homepage-content.latest-updates %}
+                {% for latest-update in page.latest-updates %}
 
 
                 <li><a href="{{latest-update.link}}">{{latest-update.title}}</a></li>

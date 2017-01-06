@@ -1,7 +1,7 @@
 <header class="site-header">
 
 <!-- Navigation -->
-    <nav class="navbar navbar-fixed-top {% if page.home %}smartling-header-home{% else %}smartling-header-page{% endif %}" role="navigation">
+    <nav class="navbar navbar-fixed-top {% if page.url == '/' %}smartling-header-home{% else %}smartling-header-page{% endif %}" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -28,9 +28,6 @@
                     <li>
                         <a {% if page.url contains "/developers/" %} class="active" {% endif %} href="/developers">Developers</a>
                     </li>
-                    <!-- <li>
-                        <a {% if page.url contains "/learning/" %} class="active" {% endif %} href="/learning/">Learning</a>
-                    </li> -->
                     <li>
                         <a {% if page.url contains "/blog/" %} class="active" {% endif %} href="/blog/">Product Blog</a>
                     </li>
@@ -47,18 +44,5 @@
         <!-- /.container -->
     </nav>
 
-    <!--
-    <div class="{% if page.home %}search-bar-home{% else %}search-bar-page{% endif %}">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}}">
-                    <span class="search-icon"></span><input class="search-input" placeholder="Search Smartling Help...">
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-
 
 </header>
- <!-- test -->

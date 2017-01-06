@@ -1,5 +1,5 @@
 //
-// This script compiles a Table of Contents based on h2 and h3 elements.
+// This script compiles a Table of Contents based on h2, h3 and h4 elements.
 // Styles are in /css/smartling-help.scss
 //
 

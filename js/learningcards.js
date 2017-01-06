@@ -1,5 +1,6 @@
 /**
  * Created by kalebogdanovs on 7/29/16.
+ * This isn't used on the site as of when Kale left on Jan '17
  */
 
 // Initialize on page load
