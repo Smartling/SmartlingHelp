@@ -56,7 +56,7 @@ Your selected items will be authorized into the default workflow for each langua
 
 &nbsp;
 
-### Monitor Translation Progress
+## Monitor Translation Progress
 
 ![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test--and-update-smartling-help---x----1434-775x---.png)
 
