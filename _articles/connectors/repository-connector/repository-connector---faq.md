@@ -40,7 +40,7 @@ If you add locales to your project you will need to update your translation conf
 
 ## Can I map one locale in Smartling to multiple locales in my repository?
 
-No. All locale mappings are 1:1. If you have two similar locales, like `es` and `es-ES` best pracice is to create both locales in Smartling and use [Cross-Country Leverage](/knowledge-base/articles/leverage-configuration/#set-up-a-new-leverage-configuration) to share translations.
+No. All locale mappings are 1:1. If you have two similar locales, like `es` and `es-ES` best practice is to create both locales in Smartling and use [Cross-Country Leverage](/knowledge-base/articles/leverage-configuration/#set-up-a-new-leverage-configuration) to share translations.
 
 ## My source files aren't being imported into Smartling.
 
@@ -83,7 +83,7 @@ Smartling gives you a few advanced options for configuring how you get your tran
 Sure. If you'd rather control your master branch via pull requests, you can set up the Repository Connector not to check the master brance. In the `repo-connector.conf` file, write your `branches` regular expression like this, to exclude your master branch:
 
 ~~~
-"branches": "^(?!master).\*",
+"branches": "^(?!master).\\*",
 ~~~
 
 ## I'm getting 'repository not found' or 'cannot connect to git' errors.
