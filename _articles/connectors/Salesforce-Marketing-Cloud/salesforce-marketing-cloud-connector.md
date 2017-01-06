@@ -36,21 +36,34 @@ migration-checklist:
 ---
 
 
-This if for salesforce
+Smartling's Salesforce Marketing Cloud connector helps you to quickly and easily translate email content in Smartling. You can download original content from Salesforce Marketing Cloud for translation in Smartling. Completed content is automatically exported back to SMC. Or translations can be exported manually at any stage.
 
-**bold**
+## Translate Content
 
-## HEadings
+1) In your Smartling project, navigate to SF Marketing Cloud
 
+2) Smartling supports assets created in Content Builder or Emails, you can toggle between the two using tabs in the top right of the page. Make sure you're in the correct section.
 
-### Another Heading
+3) Check the items you want translated, and click Request Translation.
 
-## A third heading
+![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test--and-eloqua-connector---x----1435-777x---.png)
 
-`code snippet`
+4) Select your target languages and click Request Translation.
 
-![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test----x----1245-683x---.png)
+![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test----x----576-312x---.png)
 
-~~~javascript
-var katya = a thing
-~~~
+Your selected items will be authorized into the default workflow for each language.
+
+&nbsp;
+
+### Monitor Translation Progress
+
+![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test--and-update-smartling-help---x----1434-775x---.png)
+
+Click on an asset for a detailed view of progress in multiple languages.
+
+![](/uploads/versions/smartling---translate-content--salesforce-marketing-cloud-connector-test--and-eloqua-connector---x----1436-765x---.png)
+
+Completed translations are returned to SFMC in the same folder as the original, with the same filename, but with a language code added to the end.
+
+&nbsp;
