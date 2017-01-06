@@ -83,7 +83,7 @@ Smartling gives you a few advanced options for configuring how you get your tran
 Sure. If you'd rather control your master branch via pull requests, you can set up the Repository Connector not to check the master brance. In the `repo-connector.conf` file, write your `branches` regular expression like this, to exclude your master branch:
 
 ~~~
-"branches": "^(?!master).\\*",
+"branches": "^(?!master).\\\*",
 ~~~
 
 ## I'm getting 'repository not found' or 'cannot connect to git' errors.
