@@ -16,20 +16,24 @@ Late December 2016, we released four new endpoints:
 * Issues
 * Image Context
 
-Strings API
+**Strings API**
+<br>This set of endpoints allows for content to be created as individual strings rather than as part of a file and then retrieve translations for each string and translated locale. &nbsp;This is particularly useful when customers have content in a database - such as a product catalog - and there isn't a logical grouping or representation of the content in a particular format.
 
-This set of endpoints allows for content to be created as individual strings rather than as part of a file and then retrieve translations for each string and translated locale. &nbsp;This is particularly useful when customers have content in a database - such as a product catalog - and there isn't a logical grouping or representation of the content in a particular format.
+[Learn more about Strings API](http://help.smartling.com/developers/api/v2/strings/).
 
-Glossary API
+**Glossary API**
+<br>The Glossary endpoints allows for Glossaries to be managed and manipulated from outside of Smartling. &nbsp;This endpoint is useful when, for example, syncing glossaries between Smartling and a third-party term base.
 
-The Glossary endpoints allows for Glossaries to be managed and manipulated from outside of Smartling. &nbsp;This endpoint is useful when, for example, syncing glossaries between Smartling and a third-party term base.
+[Learn more about Glossary API](http://help.smartling.com/developers/api/v2/glossary/).
 
-Issues API
+**Issues API**
+<br>The Issues endpoints allows for complete control of Issues in Smartling: creating, closing, commenting, and searching. &nbsp;Many of Smartling's customers have organizational tools to manage bugs and issues and integrating to the Issues API is one way to bring Issues from Smartling into the tools.
 
-The Issues endpoints allows for complete control of Issues in Smartling: creating, closing, commenting, and searching. &nbsp;Many of Smartling's customers have organizational tools to manage bugs and issues and integrating to the Issues API is one way to bring Issues from Smartling into the tools.
+[Learn more about Issues API](http://help.smartling.com/developers/api/v2/issues/).
 
 **Image Context API**
+<br>Image Context endpoints controls how images as context are handled in Smartling. &nbsp;First, the endpoint accepts an image as Context. &nbsp;Second, it allows for several methods of associating the image to strings in Smartling: &nbsp;1. &nbsp;Individual strings can be passed to the endpoint to directly associate the strings with a particular image, and 2. &nbsp;Using the Match Context to Strings endpoint, Smartling will OCR the image and automatically associate found strings to the image.
 
-Image Context endpoints controls how images as context are handled in Smartling. &nbsp;First, the endpoint accepts an image as Context. &nbsp;Second, it allows for several methods of associating the image to strings in Smartling: &nbsp;1. &nbsp;Individual strings can be passed to the endpoint to directly associate the strings with a particular image, and 2. &nbsp;Using the Match Context to Strings endpoint, Smartling will OCR the image and automatically associate found strings to the image.
+[Learn more about Image Context API](http://help.smartling.com/developers/api/v2/context/).
 
 &nbsp;
