@@ -16,7 +16,7 @@ layout: default
 
         <div class="col-md-{{site.right-width}} col-md-offset-4 main-content-container" id="main-content-container">
             <div class="main-content"><h1>Product Blog</h1></div>
-            <div><p><br/></p></div>
+            <!-- <div><p><br/></p></div> -->
             <!-- Heading, video and article separated for CloudCannon editing, not layout -->
 
             {% for post in site.posts %}
@@ -30,7 +30,7 @@ layout: default
                 <p>{{post.excerpt}}</p>
                 <p><a href="{{post.url}}">...more</a></p>
             </div>
-            <div><p><br/></p></div>
+            <!-- <div><p><br/></p></div> -->
 
             {% endfor %}
         </div>
