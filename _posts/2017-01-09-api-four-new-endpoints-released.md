@@ -1,0 +1,37 @@
+---
+title: 'API:  Four New Endpoints Released'
+layout: blogpost
+blog-author: Andrew Saxe
+categories:
+  - product-update
+---
+
+
+At Smartling we have an "APIs for Everything" strategy, meaning, as we develop new functionality we make sure that we're building APIs with the intention of making those APIs public.
+
+Late December 2016, we released four new endpoints:
+
+* Strings
+* Glossary
+* Issues
+* Image Context
+
+**Strings API**
+<br>This set of endpoints allows for content to be created as individual strings rather than as part of a file and then retrieve translations for each string and translated locale.  This is particularly useful when customers have content in a database - such as a product catalog - and there isn't a logical grouping or representation of the content in a particular format.
+
+[Learn more about Strings API](http://help.smartling.com/developers/api/v2/strings/).
+
+**Glossary API**
+<br>The Glossary endpoints allows for Glossaries to be managed and manipulated from outside of Smartling.  This endpoint is useful when, for example, syncing glossaries between Smartling and a third-party term base.
+
+[Learn more about Glossary API](http://help.smartling.com/developers/api/v2/glossary/).
+
+**Issues API**
+<br>The Issues endpoints allows for complete control of Issues in Smartling: creating, closing, commenting, and searching.  Many of Smartling's customers have organizational tools to manage bugs and issues and integrating to the Issues API is one way to bring Issues from Smartling into the tools.
+
+[Learn more about Issues API](http://help.smartling.com/developers/api/v2/issues/).
+
+**Image Context API**
+<br>Image Context endpoints controls how images as context are handled in Smartling.  First, the endpoint accepts an image as Context.  Second, it allows for several methods of associating the image to strings in Smartling:  1.  Individual strings can be passed to the endpoint to directly associate the strings with a particular image, and 2.  Using the Match Context to Strings endpoint, Smartling will OCR the image and automatically associate found strings to the image.
+
+[Learn more about Image Context API](http://help.smartling.com/developers/api/v2/context/).
