@@ -11,13 +11,10 @@ At Smartling we have an "APIs for Everything" strategy, meaning, as we develop n
 
 Late December 2016, we released four new endpoints:
 
-Strings
-
-Glossary
-
-Issues
-
-Image Context
+* Strings
+* Glossary
+* Issues
+* Image Context
 
 Strings API
 
