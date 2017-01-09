@@ -97,4 +97,4 @@ examples:
 
 Link context images with the strings they contain. The binding tells Smartling which context images to show translators for which strings.
 
-A maximum of 100 bindings can be created per request. A request with more than 100 items will return a `400` response.
+A maximum of 100 bindings can be created per request. A request with more than 100 items will return a `400` response indicating validation error.
