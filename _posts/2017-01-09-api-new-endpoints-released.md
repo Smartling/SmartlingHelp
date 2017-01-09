@@ -1,5 +1,5 @@
 ---
-title: 'API:  Four New Endpoints Released'
+title: 'API: New Endpoints Released'
 layout: blogpost
 blog-author: Andrew Saxe
 categories:
