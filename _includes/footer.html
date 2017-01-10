@@ -104,3 +104,16 @@
 
 </script>
 
+<!-- let users show the edit link via keyboard press of the tilde key (code: 126) -->
+
+<script>
+    $(document).keypress(function(e) {
+      console.log(e);
+      if(e.which == 126) {
+//          alert('You pressed ~!');
+          $('#editLink').show();
+//          document.getElementById("editLink").style.visibility="visible";
+      }
+  });
+</script>
+
