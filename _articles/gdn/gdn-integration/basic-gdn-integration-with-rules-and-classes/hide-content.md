@@ -1,40 +1,6 @@
 ---
 layout: article
 title: Hide Content
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-    - section
-  articles:
-    - article
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-    - section
-  articles:
-    - article
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 The Hide rule prevents an element from appearing on your translated sites completely. For example, if you have physical business locations in the US, but not in other markets, you may wish to hide relevant sections of your site in those markets. So if your Site navigation looks like this:

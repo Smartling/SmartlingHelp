@@ -1,35 +1,7 @@
 ---
 layout: article
 title: Watching Content
-draft: true
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
 redirect-url: /hc/en-us/articles/213731208
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

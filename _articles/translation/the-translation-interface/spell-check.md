@@ -1,35 +1,7 @@
 ---
 layout: article
 title: Spell Check
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
 redirect-url: /hc/admin/articles/201896668/
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

@@ -1,40 +1,6 @@
 ---
 layout: article
 title: 'Reviewing with Smartling: A video guide for internal reviewers'
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
-redirect-url:
-wistia:
-  video: true
-  id: lfmkhi2qfo
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
-learning:
-  include: true
-  type: Video
-  image_path: 
 ---
 
 

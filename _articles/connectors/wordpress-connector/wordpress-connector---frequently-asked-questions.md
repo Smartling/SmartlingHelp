@@ -1,39 +1,6 @@
 ---
 layout: article
 title: Wordpress Connector - Frequently Asked Questions
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-edition: Express
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: true
-  sections:
-  articles:
-    - upload-and-manage-files
-  others:
-    - link:
-      text:
-further-reading:
-  include: true
-  sections:
-    - context
-  articles:
-    - files/managing-business-documents
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

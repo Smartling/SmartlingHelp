@@ -1,36 +1,7 @@
 ---
 layout: article
 title: Jobs
-draft: true
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-edition: Express
 redirect-url: /hc/en-us/articles/202670453
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: true
 ---
 
 > We are currently rolling out [Updates to the Jobs feature](/blog/product-update/updates-to-jobs/). See the Product Blog for details. This article will be updated as the rollout continues.

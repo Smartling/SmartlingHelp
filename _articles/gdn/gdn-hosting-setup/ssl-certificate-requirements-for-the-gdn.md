@@ -1,39 +1,6 @@
 ---
 layout: article
 title: SSL Certificate Requirements for the GDN
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-    - section
-  articles:
-    - article
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-    - section
-  articles:
-    - article
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 If your source website has a Secure Sockets Layer (SSL) certificate and uses the HTTPS protocol, you must obtain and maintain an SSL certificate for your language domains. If there are several language domains in scope a “wildcard” certificate or a UC/SAN certificate is preferable to obtain coverage for all subdomains appropriate for your original website and alternate language websites.

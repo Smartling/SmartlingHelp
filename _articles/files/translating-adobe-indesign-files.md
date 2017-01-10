@@ -1,38 +1,7 @@
 ---
 layout: article
 title: Translating Adobe InDesign Files
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
 redirect-url: /hc/en-us/articles/201575813
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  faqs:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  faqs:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 You can use Smartling to translate the content of Adobe InDesign documents. Smartling supports files in the Adobe InDesign Markup Language format (IDML). IDML is a lightweight XML based format that is ideal for data exchange with tools like Smartling.

@@ -1,20 +1,6 @@
 ---
 layout: article
 title: GDN Site Traffic
-draft: false
-wistia:
-  video: false
-  id:
-related-articles:
-  - article: account-level-reports
-  - article: account-level-reports
-  - article: account-level-reports
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 Smartling offers high-level, downloadable Site Traffic Report compiling requests for each one of the locales set-up in your project.

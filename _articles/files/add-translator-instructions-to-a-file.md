@@ -1,36 +1,6 @@
 ---
 layout: article
 title: Add translator instructions to a file
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-wistia:
-  video: false
-  id:
-related-articles:
-  - article:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

@@ -1,35 +1,6 @@
 ---
 layout: article
 title: Specifying Plurals in a GDN Project
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 The Smartling Global Delivery Network allows you to specify that a string is plural sensitive and that it requires translation to a number of plural forms (depending on the target languages).To identify content as plural sensitive, tag the source HTML content that should appear as plural, ingest content in one of your target languages, and it appears on in the Smartling List View as plural sensitive. To have this feature enabled for your site, contact Smartling support.

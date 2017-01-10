@@ -1,38 +1,6 @@
 ---
 layout: article
 title: Glossary in the Translation Interface
-draft: true
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: true
-  sections:
-    - managing-content/linguistic-assets/glossaries
-  articles:
-    - linguistic-assets/glossaries/manage-glossaries
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

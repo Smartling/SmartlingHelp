@@ -1,38 +1,7 @@
 ---
 layout: article
 title: Account Dashboard
-draft: true
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
 redirect-url: /hc/en-us/articles/214197607
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: true
-  sections:
-  articles:
-    - projects/the-project-summary-view
-    - manage-content/watching-content
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

@@ -1,35 +1,6 @@
 ---
 layout: article
 title: Chrome Context Capture Extension - Capture Context from Webpages
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: true
-  CMS-Connectors: false
-redirect-url: /hc/en-us/articles/202007178/
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

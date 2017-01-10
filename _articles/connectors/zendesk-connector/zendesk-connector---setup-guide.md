@@ -1,25 +1,6 @@
 ---
 layout: article
 title: Zendesk Connector - Setup Guide
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: true
-wistia:
-  video: false
-  id:
-related-articles:
-  - article:
-further-reading:
-  - link:
-    text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

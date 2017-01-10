@@ -15,12 +15,6 @@ subsections:
   - title: Sitecore Connector
 subarticles:
   - title: Eloqua Connector
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

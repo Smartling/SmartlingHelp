@@ -1,35 +1,7 @@
 ---
 layout: article
 title: Manually Add Content to a GDN Project
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: false
-  CMS-Connectors: false
 redirect-url: /hc/en-us/articles/201015567
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

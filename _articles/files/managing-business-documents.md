@@ -1,36 +1,7 @@
 ---
 layout: article
 title: Managing Business Documents
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: true
-  CMS-Connectors: false
-edition: Express
 redirect-url: /hc/en-us/articles/201182377
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

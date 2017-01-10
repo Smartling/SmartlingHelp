@@ -1,37 +1,7 @@
 ---
 layout: article
 title: Manage Users and Agencies
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
 redirect-url: /hc/en-us/articles/201016167
-wistia:
-  video: true
-  id: 7egjhpsav9
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-    - title: Cost Estimates and Rates
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

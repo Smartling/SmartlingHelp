@@ -1,25 +1,6 @@
 ---
 layout: article
 title: Zendesk Connector - Translate Content
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-wistia:
-  video: false
-  id:
-related-articles:
-  - article: automatic-machine-translation
-further-reading:
-  - link:
-    text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

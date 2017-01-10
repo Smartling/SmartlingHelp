@@ -1,35 +1,9 @@
 ---
 layout: article
 title: Style Guides
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-redirect-url:
 wistia:
   video: true
   id: mjtoo12ho5
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

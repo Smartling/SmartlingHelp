@@ -1,39 +1,6 @@
 ---
 layout: article
 title: Issues
-draft: true
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-edition: Express
-redirect-url:
-wistia:
-  video: true
-  id: quji34kue9
-read-first:
-  include: false
-  sections:
-  articles:
-  faqs:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  faqs:
-    - adding-links-to-translator-instructions-or-issues
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: true
 ---
 
 

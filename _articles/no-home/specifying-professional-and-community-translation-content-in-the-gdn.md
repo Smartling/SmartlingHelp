@@ -1,35 +1,6 @@
 ---
 layout: article
 title: Specifying Professional and Community Translation Content in the GDN
-draft: true
-Applies to:
-  GDN: true
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 When you add a language to the Smartling Dashboard, you specify a default translation method (Volunteer or Professional), and Smartling accordingly extracts and makes content available for translation. In some cases it may be appropriate to explicitly set a translation method that differs from the language-specific default translation method.

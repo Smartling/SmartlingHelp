@@ -1,27 +1,6 @@
 ---
 layout: article
 title: Translation Changes Report
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
 ---
 
 The goal of this report is to show how much content is changing in each step of a workflow

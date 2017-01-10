@@ -13,12 +13,6 @@ subarticles:
 wistia:
   video: false
   id: gds77xzgmg
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 Linguistic Assets are resources that help you develop quality translations fast. There are four types of linguistic asset:

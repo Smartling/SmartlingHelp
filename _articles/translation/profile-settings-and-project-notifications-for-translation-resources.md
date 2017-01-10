@@ -1,36 +1,6 @@
 ---
 layout: article
 title: Profile Settings and Project Notifications  for Translation Resources
-draft: true
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-edition: Express
-redirect-url:
-wistia:
-  video: true
-  id: 52sx2doao5
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

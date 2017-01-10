@@ -10,12 +10,6 @@ subarticles:
 wistia:
   video: false
   id:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 In addition to translating 'resource' files for desktop, mobile and web apps, Smartling is also able to translate the Office Open XML files used by the Microsoft Office suite and Layout files from Adobe InDesign.

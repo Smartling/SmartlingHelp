@@ -1,36 +1,8 @@
 ---
 layout: article
 title: Global Content Search
-draft: true
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
 redirect-url: /hc/en-us/articles/202898196-Global-Search
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-    - manage-content/the-list-view/search-and-filter-in-the-list-view
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: true
-  reviewed: false
+
 ---
 
 

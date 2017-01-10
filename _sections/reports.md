@@ -16,11 +16,5 @@ subarticles:
   - title: Translation Resource Word Count Report
   - title: Translation Velocity Report
   - title: Words Under Management
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 

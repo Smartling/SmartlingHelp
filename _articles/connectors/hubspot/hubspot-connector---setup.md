@@ -1,36 +1,6 @@
 ---
 layout: article
 title: HubSpot Connector - Setup
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-edition: Express
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 Before beginning to set up Smartling’s HubSpot connector you should have a Smartling account and have [added a project](/knowledge-base/articles/create-a-project/){: .cc-active} to your account of type Hubspot Connector to hold your HubSpot translations.

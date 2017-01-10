@@ -1,35 +1,6 @@
 ---
 layout: article
 title: Configure Country Code Top-Level Domains
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 Smartling uses CNAME DNS records to direct localized traffic to the correct servers in the GDN infrastructure. DNS specifications do not allow CNAME records to be used with top-level domain records, so you cannot use top level domains with the Smartling GDN, directly.

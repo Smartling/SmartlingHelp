@@ -1,27 +1,6 @@
 ---
 layout: article
 title: Translation Velocity Report
-Applies to:
-  GDN: true
-  Application-Resource-Files: true
-  CMS-Connectors: true
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
 ---
 
 This report allows a user to see how much time, on average, a word or a string spends in each workflow step from content authorization to publish

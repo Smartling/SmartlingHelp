@@ -13,12 +13,6 @@ subarticles:
   - title: Importing Translations
   - title: Add translator instructions to a file
   - title: Pseudo translations
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

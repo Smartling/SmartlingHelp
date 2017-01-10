@@ -1,35 +1,6 @@
 ---
 layout: article
 title: How to Specify a Language-Specific CSS
-draft: false
-Applies to:
-  GDN: true
-  Application-Resource-Files: false
-  CMS-Connectors: false
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 The Smartling service adds a specific class to the `<body>` tag of each language website, specific to that language. The added class is in the format `smartling-{language code}`; for example:
 

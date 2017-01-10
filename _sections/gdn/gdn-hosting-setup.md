@@ -14,12 +14,6 @@ subarticles:
 wistia:
   video: false
   id:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 Before you can begin capturing, translating and serving content through the GDN, you will need to set up some infrastructure to allow Smartling to handle incoming requests for your translated content.

@@ -1,35 +1,6 @@
 ---
 layout: article
 title: Mobile Delivery Network
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: true
-  CMS-Connectors: false
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 Smartling's Mobile Delivery Network continuously delivers translations to your mobile apps over the air, eliminating the need to go through the process of submitting updates to app stores just to update your translations. The MDN can work for any Android or iOS app using the standard resource file types: Android XML for Android apps, iOS strings and stringsdict files for iOS. The Mobile Delivery Network depends on using these native app formats. Apple provides developer tools for [automatically generating strings files](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/LoadingResources/Strings/Strings.html). To get started with using the MDN, you need to do three things: Create separate projects for your iOS and Android apps, make sure your resource files follow the required naming convention, and install the MDN SDKs in your app source code.

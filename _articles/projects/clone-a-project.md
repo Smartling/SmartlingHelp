@@ -1,35 +1,7 @@
 ---
 layout: article
 title: Clone a Project
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: true
-  CMS-Connectors: true
 redirect-url: /hc/en-us/articles/201997687
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

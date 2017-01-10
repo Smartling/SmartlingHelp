@@ -30,7 +30,7 @@ further-reading:
   others:
     - link:
       text:
-migration-checklist:
+
   internal-links: true
   images: false
   FAQs: false

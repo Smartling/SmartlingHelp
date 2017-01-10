@@ -1,40 +1,6 @@
 ---
 layout: article
 title: Customize String Capture
-draft: false
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
-redirect-url:
-wistia:
-  video: false
-  id:
-read-first:
-  include: false
-  sections:
-    - section
-  articles:
-    - article
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-    - section
-  articles:
-    - article
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 By default, Smartling captures each block-level tag as a single string. However, you may wish to alter this behavior to avoid having to retranslate content when you have a high number of similar block-level elements. You may also want to split up breadcrumbs or titles, depending on how these are generated in your platform.

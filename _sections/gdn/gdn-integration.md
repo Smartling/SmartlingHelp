@@ -19,12 +19,6 @@ subarticles:
 wistia:
   video: false
   id:
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

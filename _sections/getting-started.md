@@ -7,12 +7,6 @@ subsections:
     published: true
 subarticles:
   - title: Get Started with Smartling
-migration-checklist:
-  internal-links: false
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

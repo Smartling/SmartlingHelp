@@ -1,36 +1,9 @@
 ---
 layout: article
 title: 'Profile Settings & Project Notifications'
-draft: true
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: false
-edition:
-redirect-url:
 wistia:
   video: true
   id: 52sx2doao5
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 

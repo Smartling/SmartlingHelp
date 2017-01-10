@@ -1,35 +1,6 @@
 ---
 layout: article
 title: Eloqua Connector
-Applies to:
-  GDN: false
-  Application-Resource-Files: false
-  CMS-Connectors: true
-edition: Express
-redirect-url:
-wistia:
-  video: true
-  id: snu4acayaq
-read-first:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-further-reading:
-  include: false
-  sections:
-  articles:
-  others:
-    - link:
-      text:
-migration-checklist:
-  internal-links: true
-  images: false
-  FAQs: false
-  related: false
-  reviewed: false
 ---
 
 
