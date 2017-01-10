@@ -1,0 +1,80 @@
+---
+title: User Permissions
+layout: default
+---
+
+<div class="container page">
+    {% if page.dev %}
+    {% include developer-breadcrumbs.html %}
+    {% endif %}
+    {% unless page.dev %}
+    {% include breadcrumbs.html %}
+    {% endunless %}
+    <div class="row content-start">
+
+        <div class="col-md-{{site.left-width}} sidebar" id="sidebar">
+            <div class="side-nav-widget" id="side-nav-widget">
+                {% include search-box.html %}
+            </div>
+        </div>
+
+        <div class="col-md-{{site.right-width}} col-md-offset-{{site.left-width}} main-content-container" id="main-content-container">
+            <div class="main-content"><h1>{{page.title}}</h1></div>
+            <!-- Heading, video and article separated for CloudCannon editing, not layout -->
+            {% if page.wistia.video %}
+            {% include wistia-video.html %}
+            {% endif %}
+            <div class="main-content" id="main-text">
+
+                <style>
+                    td.bool {
+                        text-align: center;
+                    }
+                    th {
+                        text-align: center;
+                    }
+
+                </style>
+
+
+
+
+
+                <table>
+                    <thead>
+                    <th></th>
+                    <th>Account Owner</th>
+                    <th>Project Manager</th>
+                    <th>Agency Owner</th>
+                    <th>Translation Resource Manager</th>
+                    <th>Translation Resource</th>
+                    <th>Translation Requester</th>
+                    </thead>
+
+                    <tbody>
+
+                    {% for function in site.data.userroles %}
+
+                    <tr>
+                        <td>{% if function.CategoryHeading %}<strong>{% endif %}{{function.FunctionName}}{% if function.CategoryHeading %}</strong>{% endif %}</td>
+                        <td class="bool">{% if function.AccountOwner %} X {% endif %}</td>
+                        <td class="bool">{% if function.ProjectManager %} X {% endif %}</td>
+                        <td class="bool">{% if function.AgencyOwner %} X {% endif %}</td>
+                        <td class="bool">{% if function.TranslationResourceManager %} X {% endif %}</td>
+                        <td class="bool">{% if function.TranslationResource %} X {% endif %}</td>
+                        <td class="bool">{% if function.Requester %} X {% endif %}</td>
+                    </tr>
+
+
+                    {% endfor %}
+
+                    </tbody>
+
+
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
