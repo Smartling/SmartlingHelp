@@ -1,6 +1,9 @@
 ---
 layout: article
 title: 'Reviewing with Smartling: A video guide for internal reviewers'
+wistia:
+  video: true
+  id: lfmkhi2qfo
 ---
 
 
