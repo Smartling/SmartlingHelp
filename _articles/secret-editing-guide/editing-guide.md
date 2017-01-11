@@ -57,7 +57,7 @@ You can edit the front matter for any page directly in Jekyll's code editor. Be 
 
 ## Liquid templating language
 
-If you get into editing the templates in the /_includes and /_layouts folders, you will need to know a little bit of Liquid templating. The syntax is pretty simple, see the [Jekyll Docs](https://jekyllrb.com/docs/home/) for info. This [cheat sheet](http://cheat.markdunkley.com/) is a useful reference too.
+If you get into editing the templates in the `/_includes` and `/_layouts` folders, you will need to know a little bit of Liquid templating. The syntax is pretty simple, see the [Jekyll Docs](https://jekyllrb.com/docs/home/) for info. This [cheat sheet](http://cheat.markdunkley.com/) is a useful reference too.
 
 ## Table of Contents for articles
 
