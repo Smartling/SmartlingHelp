@@ -53,7 +53,10 @@ If you want to create a custom page not using an article/section/etc template, y
 
 **2)** In the index.html file, make YAML front-matter for your page, setting the layout to `default` and the title to whatever you like:
 
-~~~ layout: default title: Developers ~~~
+~~~ 
+layout: default 
+title: Developers 
+~~~
 
 This tells Jekyll to use the 'default' template. Which brings in the standard header and footer and loads all necessary fonts, javascript and stylesheets.
 
