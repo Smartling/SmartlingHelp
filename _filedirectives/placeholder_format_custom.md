@@ -9,8 +9,12 @@ description_markdown: |
   
 examples:
     - type: generic
-      code_single_line: smartling.placeholder_format_custom = \[.+?\]
+      code_single_line: 'smartling.placeholder_format_custom = \[.+?\]'
       code_block_markdown:
+      description_markdown:
+        Any characters surrounded by square brackets will be treated as a placeholder. 
+    - type: json
+      code_single_line: '"placeholder_format_custom" : ["\\[.+?\\]"]'
       description_markdown:
         Any characters surrounded by square brackets will be treated as a placeholder. 
 ---

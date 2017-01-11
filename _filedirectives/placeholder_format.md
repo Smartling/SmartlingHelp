@@ -8,8 +8,11 @@ description_markdown: |
   
 examples:
     - type: generic
-      code_single_line: smartling.placeholder_format = IOS
-      code_block_markdown:
+      code_single_line: 'smartling.placeholder_format = IOS'
+      description_markdown:
+        Specifies iOS-style placeholders for the file.  
+    - type: json
+      code_single_line: '"placeholder_format" : "IOS"'
       description_markdown:
         Specifies iOS-style placeholders for the file.  
 ---

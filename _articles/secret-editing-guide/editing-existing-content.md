@@ -66,15 +66,72 @@ One-off html page. Navigation is populated from developers.files object in /_dat
 
 URL: `developers/files/{file-type}` File: `/_filetypes` collection and `/_filedirectives` collection
 
-&nbsp;
+Supported file type pages are built from two collections, one for the filetype pages themselves, and one for file directives, which can be referred to by multiple file types.
+
+**Sample front matter:**
+
+~~~yaml
+title: 'YAML'
+layout: supportedfiletype #don't change! sets the template type
+extension: '.yaml'
+smartling_identifier: 'yaml'
+download_sample: 'yaml.yml' #name of a sample file uploaded to the directory /public/example-files
+resources: # array of links to useful resources. Can have more than one entry
+  - title: Rails Internationalization
+    link: 'http://guides.rubyonrails.org/i18n.html'
+directive_prefix: '# ' # What goes before the directive? Usually a hash character or <!-- for XMLish files
+directive_suffix: '' # what goes at the end of the directives? For hash comment file types this is blank. XMLish files often close like -->
+directive_format: '# smartling.[directive_name] = [value]' # full example of the directive format
+directive_instructions_markdown: |
+
+  The directive must be a single comment on one line, and there should not be any inline trailing symbols after the directive.  Directives apply to all strings that follow them. Directives can be changed throughout the file.
+
+directives: #an array of directive IDs. These match items in the /_filedirectives collection
+  - placeholder_format
+  - placeholder_format_custom
+  - plurals_detection
+  - download_format
+  - string_format_paths
+  - pseudo_inflation
+  - yaml_locale_substitution
+  - pseudo_inflation
+  - sltrans
+~~~
+
+#### File Directive
+
+Each file directive has it's own document, referred to in the directives array of a Supported File page. Wherever possible, these are standardized, so that the details for a directive like `placeholder_format_custom` can be written just once and referred to by every file type. However, because some file types require paths to be specified with a particular syntax, or apply slightly different business rules, it is necessary to provide filetype-specific examples for some directives.
+
+Each directive has an array of examples. Each example has a type which may be the Smarling identifier of a filetype or may be `generic`. When building the page for a particular filetype, the template looks first for examples specific to that file type. If at least one is found, `generic`-type examples are not used.
+
+**Sample front matter:**
+
+~~~yaml
+directive_id: 'placeholder_format' #unlike all other collections a special ID is used to match directives to filetypes, since not all titles are not unique
+title: 'placeholder_format' #this is the title that will be rendered on the page
+values_markdown: |
+  `NONE`; `C`; `IOS`; `PYTHON`; `JAVA`; `YAML`; `QT`; `RESX`
+description_markdown: |
+  Used to specify a standard placeholder format.
+  
+examples:
+    - type: json #on the page for JSON this will be used as the example
+      code_single_line: '"placeholder_format" : "IOS"'
+      description_markdown:
+        Specifies iOS-style placeholders for the file.  
+    - type: generic #all other filetypes use this generic example. The proper formatting at the beginning and end is added for each file type
+      code_single_line: 'smartling.placeholder_format = IOS'
+      #code_block_markdown: If an example can't be done in one line, you can instead use this value to create a markdown block containing a highlighted multi-line code block. Each example should have either code_single_line or code_block_markdown - but not both
+      description_markdown:
+        Specifies iOS-style placeholders for the file.  
+
+~~~
 
 #### Developer Articles (Files)
 
 URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collection
 
-![](/uploads/versions/files---x----1183-948x---.png)
-
-These use the same template as Knowledge Base articles, but there are no 'sections' in the Developer docs. Once you're ready to publish your article, add it under the array developers.files.article array in /_data/nav.yml.&nbsp;
+These use the same template as Knowledge Base articles, but there are no 'sections' in the Developer docs. Once you're ready to publish your article, add it under the `developers.files.article` array in `/_data/nav.yml`.
 
 ### &nbsp;
 
@@ -183,6 +240,8 @@ response: #Details of response
 #### Developer Articles (API)
 
 URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collection
+
+These use the same template as Knowledge Base articles, but there are no 'sections' in the Developer docs. Once you're ready to publish your article, add it under the `developers.api.article` array in `/_data/nav.yml`.
 
 ## Product Blog
 
