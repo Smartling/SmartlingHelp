@@ -20,11 +20,11 @@ Content for most pages is written in markdown. If you don't want to write Markdo
 
 * If you want a line-break without a paragraph, end the line with two spaces.
 
-* Write unordered lists with `\\*`.
+* Write unordered lists with `\\\*`.
 
 * You can do unordered lists by writing `1.`, `2.`, etc, but don't. HTML ordered lists aren't good for instructions, as new paragraphs or images can reset the numbering. Style for the HC is to write numbers as a bold number followed by a bracket, eg **1)**, **2)**, etc
 
-* Bold text by surrounding with double stars. `\\*\\*Bold Text\\*\\*` becomes **Bold Text**.
+* Bold text by surrounding with double stars. `\\\*\\\*Bold Text\\\*\\\*` becomes **Bold Text**.
 
 * Surround with underscores for emphasis. `_Italic Text_` becomes *Italic Text*.
 
@@ -52,6 +52,10 @@ Data in the front matter is then available as variables. For example, the header
 ~~~
 
 You can edit the front matter for any page directly in Jekyll's code editor. Be mindful of formatting. The most common cause of a failed Jekyll build is incorrect formatting in the Front Matter of a document. If there is an error, you'll get an error message stating the document and line/column coordinates for the error, so they're not hard to fix.
+
+## Liquid templating language
+
+If you get into editing the templates in the /_includes and /_layouts folders, you will need to know a little bit of Liquid templating. The syntax is pretty simple, see the [Jekyll Docs](https://jekyllrb.com/docs/home/) for info. This [cheat sheet](http://cheat.markdunkley.com/) is a useful reference too.
 
 ## Table of Contents for articles
 
