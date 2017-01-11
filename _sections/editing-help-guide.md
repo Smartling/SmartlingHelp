@@ -2,9 +2,11 @@
 title: Editing Help Guide
 layout: section
 subsections:
-  - title: ''
+  - title:
 subarticles:
+  - title: Help Center Basics
   - title: Add new content
   - title: Editing existing content
-  - title: Help Center Resources
 ---
+
+
