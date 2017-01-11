@@ -20,11 +20,11 @@ Content for most pages is written in markdown. If you don't want to write Markdo
 
 * If you want a line-break without a paragraph, end the line with two spaces.
 
-* Write unordered lists with `*`.
+* Write unordered lists with `\*`.
 
 * You can do unordered lists by writing `1.`, `2.`, etc, but don't. HTML ordered lists aren't good for instructions, as new paragraphs or images can reset the numbering. Style for the HC is to write numbers as a bold number followed by a bracket, eg **1)**, **2)**, etc
 
-* Bold text by surrounding with double stars. `**Bold Text**` becomes **Bold Text**.
+* Bold text by surrounding with double stars. `\*\*Bold Text\*\*` becomes **Bold Text**.
 
 * Surround with underscores for emphasis. `_Italic Text_` becomes *Italic Text*.
 
@@ -71,6 +71,8 @@ Help center articles have an automatically generated table of contents in the le
 ## Swiftype
 
 Smartling Help search is powered by Swiftype. You can view analysis and create result rankings by logging into Swiftype and selecting the **docs** engine. See the [wiki](https://wiki.smartling.net/pages/editpage.action?pageId=53512396) for credentials.
+
+![](/uploads/versions/search-analytics---swiftype---x----1272-757x---.png)
 
 ## Set up the 'Edit' bookmarklet
 
