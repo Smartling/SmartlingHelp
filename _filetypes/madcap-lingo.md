@@ -1,5 +1,5 @@
 ---
-title: 'MadCap Lingo Zip Packages'
+title: MadCap Lingo ZIP Packages
 layout: supportedfiletype
 extension: '.zip'
 smartling_identifier: 'madcap'
