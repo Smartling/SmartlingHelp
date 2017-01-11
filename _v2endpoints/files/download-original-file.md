@@ -22,11 +22,6 @@ response:
     Content-Disposition: attachment; filename="{{filename}}"
     file contents
     ~~~
-  parameters:
-    - title:
-      type:
-      required: false
-      description_markdown:
 examples:
   - title:
     code_markdown: |

@@ -1,5 +1,5 @@
 ---
-title: Download Translated File - Multiple Locales as Zip
+title: Download Translated Files - Multiple Locales as Zip
 endpoint_id:
 categories:
   - files
@@ -79,11 +79,7 @@ response:
     Content-Disposition: attachment; filename="fname.ext"
     file contents
     ~~~
-  parameters:
-    - title:
-      type:
-      required: false
-      description_markdown:
+
 examples:
   - title:
     code_markdown: |

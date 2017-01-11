@@ -6,9 +6,9 @@ endpoints:
   - title: Upload File
   - title: Download Original File
   - title: Download Translated File - Single Locale
-  - title: Download Translated File - Multiple Locales as Zip
-  - title: Download Translated File - All Locales as Zip
-  - title: Download Translated File - All Locales in One File - CSV
+  - title: Download Translated Files - Multiple Locales as Zip
+  - title: Download Translated File - All Locales as a Zip file
+  - title: Download Translated File - All Locales as CSV
   - title: List Files
   - title: List File Types
   - title: Status - Single Locale
