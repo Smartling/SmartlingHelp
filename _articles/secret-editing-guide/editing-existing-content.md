@@ -28,7 +28,11 @@ One-off HTML page. The top level sections are populated from a YAML array at /_d
 
 URL: `/knowledge-base/sections/{page-name}` File: `/_sections` collection
 
+![](/uploads/versions/gdn-projects---x----1182-953x---.png)
+
 See [Add new content](/knowledge-base/articles/add-new-content/) for details on creating new sections. To edit an existing section, navigate to the section you want to edit and press `Shift` + `~` to reveal the edit button.
+
+There are two types of nav on the section page - top-level cards are there mostly to avoid a blank page if there's not much intro content, full section nav is on the left. These derive from the front-matter of the section and any subsections. When adding content, all you need to do, is make sure the article or section is added to it's immediate parent, then the navigation will generate itself.
 
 #### Knowledge Base Articles
 
@@ -59,6 +63,10 @@ URL: `developers/files/{file-type}` File: `/_filetypes` collection and `/_filedi
 #### Developer Articles (Files)
 
 URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collection
+
+These use the same template as Knowledge Base articles, but there are no 'sections' in the Developer docs. Once you're ready to publish your article, add it under the array developers.files.article array in /_data/nav.yml.&nbsp;
+
+### &nbsp;
 
 ### API
 
