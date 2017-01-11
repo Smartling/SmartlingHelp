@@ -6,6 +6,7 @@ wistia:
   id:
 ---
 
+> A note about titles! Titles are important in the Help Center. Titles of articles should be unique, and articles are placed in the navigation using their title. By the time you're ready to publish an article, hopefully you've settled on a title. Remember if you change the title of an article later, you need to update the parent section with the new title, or your article will stop being navigable. You can check the [status](/status) page to see if this is happening. Articles that aren't navigable are listed under 'Unpublished Articles'.
 
 ## Create an article
 
