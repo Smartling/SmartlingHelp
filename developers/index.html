@@ -38,6 +38,37 @@ sections:
                     If your project uses translatable resource files, you can customize how Smartling parses your file into translatable strings. The File Integration section contains information on all file types supported by Smartling, directives you can add to files to change how they are parsed, and advice for working with common frameworks.
                 </p>
 
+                <h2>Mobile SDKs</h2>
+
+                <p>
+                    Smartling provides three separate Mobile localization features.</p>
+                <h3>Mobile Context Creation</h3>
+                <p>The automatic mobile screenshot creation tool is currently in private beta.<br>
+                   The Mobile Screenshot Context SDK helps teams generate screenshots that can be used as visual context for Smartling localization
+                    projects.  After integrating and enabling the SDK a user of the mobile app can create screenshots interactively when running the app
+                    on device or in an emulator.<br>The screenshots will be "full screen" (including the part of the screen that may not be visible).  
+                    The screenshot will also be submitted to the configure Smartling project using the Smartling Image Context API, with all the current
+                    strings submitted and configured for their coordinates in the screnshot.<br>
+                    Automation features are also available so that the screenshots can be submitted without user interaction by leverage UI test 
+                    frameworks.<br>
+                    Mobile Context should be <em>disabled</em> before submitting app your app for release in an app store.
+                </p>
+                <h3>In App Review</h3>
+                <p>Creating the initial translation using visual context can dramatically help improve the speed and quality of the translation.  However 
+                    the screenshot visual context preview the translators will see does not provide a dynamic representation of the translation in the
+                    app's user interface.  Reviewing the translations in the app is critical to confirm the translation will be correct both technically
+                    (fits in the alloted space) and linguistically (makes sense based on the how the string is used in the context of the app).  The 
+                    <a href="http://help.smartling.com/knowledge-base/sections/mobile-apps/">Smartling In App Review</a> feature provides content owners with a tool to review the translations in the app as part of their translation
+                    workflow. <br>
+                    The In App Review SDK enables this interactive translation review tool.  A Smartling Login is required for users to
+                    enable the interactive mode and work with strings in the app.<br>
+                    In App Review should be <em>disabled</em> before submitting app your app for release in an app store.
+                </p>
+                <h3>Mobile Delivery Network (Over The Air translation updates)</h3>
+                <p>The <a href="http://help.smartling.com/knowledge-base/sections/mobile-apps/">Smartling Mobile Delivery Network</a> allows app owners to update the string translations in their app without
+                    needing to submit an app store update that must in turn be downloaded by the end users.<br>
+                    Mobile Delivery Network should be <em>enabled</em> before submitting app your app for release in an app store.
+                </p>
                 <div class="info">This section concerns technical integration only. For business rules, and general information on managing translations in Smartling, see our <a href="/knowledge-base">Support documentation</a>. </div>
             </div>
         </div>
