@@ -19,7 +19,7 @@ wistia:
 
 **3)** Write your content in the WYSIWYG editor, or in the Code editor using Markdown syntax.
 
-**4)** You can preview your content by going to help.smartling.com/knowledge-base/articles/{filename minus extension}/. For example, the file for this article is add-new-content.md, and it's URL is help.smartling.com/knowledge-base/articles/add-new-content/
+**4)** You can preview your content by going to [help.smartling.com/status](/status.html) and finding it's title under **Unpublished Articles**.
 
 **5)** To make the article accessible to users, you need to place it in a section. From **Collections &gt; Sections**, Find the appropriate section, and under Subarticles, copy and paste the articles title into a new field. You can also do this from the Code editor.
 
