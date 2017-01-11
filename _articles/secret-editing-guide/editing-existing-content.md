@@ -181,3 +181,5 @@ One-off HTML page displays all blogposts in chronological order
 ## Blogpost
 
 URL: `/blog/{categories}/{page-name}` File: `/_posts` collection
+
+See [Add new content](/knowledge-base/articles/add-new-content/) for details on creating new blog posts. To edit an existing post, press `Shift` + `~` to reveal the edit button.
