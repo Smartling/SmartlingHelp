@@ -66,6 +66,8 @@ One-off html page. Navigation is populated from developers.files object in /_dat
 
 URL: `developers/files/{file-type}` File: `/_filetypes` collection and `/_filedirectives` collection
 
+![](/uploads/versions/json---x----1181-886x---.png)
+
 Supported file type pages are built from two collections, one for the filetype pages themselves, and one for file directives, which can be referred to by multiple file types.
 
 **Sample front matter:**
@@ -113,18 +115,17 @@ values_markdown: |
   `NONE`; `C`; `IOS`; `PYTHON`; `JAVA`; `YAML`; `QT`; `RESX`
 description_markdown: |
   Used to specify a standard placeholder format.
-  
+
 examples:
     - type: json #on the page for JSON this will be used as the example
       code_single_line: '"placeholder_format" : "IOS"'
       description_markdown:
-        Specifies iOS-style placeholders for the file.  
+        Specifies iOS-style placeholders for the file.
     - type: generic #all other filetypes use this generic example. The proper formatting at the beginning and end is added for each file type
       code_single_line: 'smartling.placeholder_format = IOS'
       #code_block_markdown: If an example can't be done in one line, you can instead use this value to create a markdown block containing a highlighted multi-line code block. Each example should have either code_single_line or code_block_markdown - but not both
       description_markdown:
-        Specifies iOS-style placeholders for the file.  
-
+        Specifies iOS-style placeholders for the file.
 ~~~
 
 #### Developer Articles (Files)
@@ -139,7 +140,9 @@ These use the same template as Knowledge Base articles, but there are no 'sectio
 
 URL: `/developers/api/v2/` File: `/developers/api/v2/index.html`
 
-&nbsp;
+![](/uploads/versions/smartling-api---x----1190-923x---.png)
+
+One-off HTML page. Navigation derived from the developers.api object in /data/nav.yml
 
 #### API Collections
 
