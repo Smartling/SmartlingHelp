@@ -68,8 +68,10 @@ layout: default
                 {% assign directiveslength = page.directives | size %}
                 {% if directiveslength > 0 %}
                     <h2>Directives</h2>
+                    {% if page.directive_format %}
                     <h3 class="no-toc">Format</h3>
                     <pre class="highlight"><code>{{page.directive_format}}</code></pre>
+                    {% endif %}
                     {% if page.directive_instrucions_markdown %}
                         <p>{{page.directive_instructions_markdown | markdownify}}</p>
                     {% endif %}

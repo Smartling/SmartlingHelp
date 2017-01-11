@@ -21,7 +21,12 @@ directives:
   - field_separator
   - string_encloser
   - paths
+  - string_format_paths
+  - source_key_paths
   - translation_language_path
+  - first_row_header
+  - locales_map
+  - add_utf8_bom
   - output_original_row
   - strip_instructions_on_download
   - first_row_header
@@ -54,7 +59,7 @@ If you want to use the symbol " inside quoted value you escape it with double qu
 
 which corresponds to the string: `She said "hello" to me`
 
-Smartling offers several options for [downloading CSV files]().
+Smartling offers several options for [downloading CSV files](/developers/files/csv-download-options/).
 
 ## Standard Placeholder format
 

@@ -14,6 +14,7 @@ directives:
   - placeholder_format
   - placeholder_format_custom
   - force_inline_for_tags
+  - include_translatable_attributes
   - pseudo_inflation
 ---
 

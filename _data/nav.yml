@@ -34,6 +34,7 @@ developers:
      - iOS Stringsdict
      - Gettext PO/POT
      - HTML
+     - Java Properties
      - XLIFF
      - Custom XML
      - JSON

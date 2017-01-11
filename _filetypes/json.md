@@ -16,7 +16,7 @@ directives:
   - placeholder_format
   - placeholder_format_custom
   - translate_paths
-  - translate_paths (to be deprecated)
+  - translate_paths_deprecated
   - source_key_paths_json_deprecated
   - variants_enabled
   - string_format_paths

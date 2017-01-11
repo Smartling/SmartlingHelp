@@ -14,7 +14,7 @@ directive_prefix: '&lt!-- '
 directive_suffix: ' --&gt'
 directives:
   - variants_enabled
-  - 'translate_paths '
+  - translate_paths_xml
   - string_format_paths
   - placeholder_format_custom
   - placeholder_format

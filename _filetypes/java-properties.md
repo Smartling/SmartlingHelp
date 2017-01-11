@@ -20,7 +20,6 @@ directives:
   - pseudo_inflation
   - string_format
   - download_format
-  - instruction_comments_enabled
   - sltrans
 ---
 

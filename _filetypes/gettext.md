@@ -18,6 +18,7 @@ directives:
   - placeholder_format
   - placeholder_format_custom
   - pseudo_inflation
+  - sltrans
 ---
 
 ## Keys/Variants
