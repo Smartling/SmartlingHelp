@@ -23,9 +23,15 @@ wistia:
 
 **5)** To make the article accessible to users, you need to place it in a section. From **Collections &gt; Sections**, Find the appropriate section, and under Subarticles, copy and paste the articles title into a new field. You can also do this from the Code editor.
 
+![](/uploads/versions/cloudcannon---x----1126-595x---.png)
+
+![](/uploads/versions/cloudcannon---x----840-331x---.png)
+
 ## Create a Section
 
 Follow the same process as for an article, but starting from **Collections &gt; Sections**. If you're making a subsection, add it's title to the `subsections` array of its parent section. If you're making a top-level section to display on the front page of the Knowledge Base, add it to the `knowledge-base` array of `/_data/nav.yml`.
+
+![](/uploads/versions/cloudcannon-and-filedirectives-yml---smartlinghelp5------documents-webstormprojects-smartlinghelp5----x----844-312x---.png)
 
 ## Create a new Blog Post
 
@@ -36,6 +42,8 @@ Follow the same process as for an article, but starting from **Collections &gt; 
 **3)** Write your post in the WYSISYG editor, or in markdown syntax in the code editor.
 
 **4)** Click the 'Publish' button to put the post live. The blog post will be added to the top of the Product Blog page and to the Product Blog widget on the home page.
+
+![](/uploads/versions/cloudcannon---x----1132-659x---.png)
 
 ## Create a new one-off HTML page.
 
