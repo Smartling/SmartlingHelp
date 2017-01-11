@@ -50,11 +50,17 @@ See Add new content for details on creating new sections. To edit an existing se
 
 URL: `/developers` File: `/developers/index.html`
 
+![](/uploads/versions/smartling-developer-documentation---x----1240-774x---.png)
+
 One-off html page. Navigation is populated from the `developers` array in `_data/nav.yml`.
 
 ### File Integration
 
 URL: `/developers/files/` File: `/developers/files/index.html`
+
+&nbsp;
+
+One-off html page. Navigation is populated from developers.files object in /_data/nav.yml.
 
 #### Supported File Type
 
@@ -64,6 +70,8 @@ URL: `developers/files/{file-type}` File: `/_filetypes` collection and `/_filedi
 
 URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collection
 
+![](/uploads/versions/files---x----1183-948x---.png)
+
 These use the same template as Knowledge Base articles, but there are no 'sections' in the Developer docs. Once you're ready to publish your article, add it under the array developers.files.article array in /_data/nav.yml.&nbsp;
 
 ### &nbsp;
@@ -71,6 +79,8 @@ These use the same template as Knowledge Base articles, but there are no 'sectio
 ### API
 
 URL: `/developers/api/v2/` File: `/developers/api/v2/index.html`
+
+&nbsp;
 
 #### API Collections
 
