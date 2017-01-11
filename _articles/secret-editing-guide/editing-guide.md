@@ -28,6 +28,8 @@ Content for most pages is written in markdown. If you don't want to write Markdo
 
 * Surround with underscores for emphasis. `_Italic Text_` becomes *Italic Text*.
 
+* Link syntax: `Here is a [link](/url) in markdown`.
+
 * Surround with backticks for inline code. For example `/url` becomes `/url`.
 
 * Code blocks are created with a triple tilde (`~~~`) at the beginning and end of a block. Make sure there is a blank line before and after the code block. For highlighting, you can add the code type after the opening tildes. For example: `~~~javascript` or `~~~html`.
