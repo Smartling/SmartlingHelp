@@ -3,85 +3,68 @@ layout: article
 title: Editing existing content
 ---
 
-You can edit any page on the Help Center by pressing `Shift` + `~` and then clicking the edit button that is revealed.
 
+You can edit any page on the Help Center by pressing `Shift` + `~` and then clicking the edit button that is revealed.
 
 For pages that are built from jekyll collections (Articles, Sections, API Collections, API Endpoints, Supported File Types), the `Edit` button will take you to the relevant collection item. For articles, most of the content is free markdown text. For Developer docs, much of the content is written as key-value pairs in the YAML front-matter of the document. See details for editing different content types below.
 
-
 ## Home
 
-URL: `/`
-File: `/index.html`
+URL: `/` File: `/index.html`
 
 This is a one-off HTML page on the `default` template. Release Notes and Blog Post sections maintain themselves as content is added. Documentation Updates can be edited in the page's YAML front matter.
 
-
 ## Knowledge Base (`/knowledge-base`)
 
-URL: `/knowledge-base`
-File: `/knowledge-base/index.html`
+URL: `/knowledge-base` File: `/knowledge-base/index.html`
 
 One-off HTML page. The top level sections are populated from a YAML array at /_data/nav.yml
 
-
 ### Knowledge Base Sections
 
-URL: `/knowledge-base/sections/{page-name}`
-File: `/_sections` collection
+URL: `/knowledge-base/sections/{page-name}` File: `/_sections` collection
 
 See [Add new content](/knowledge-base/articles/add-new-content/) for details on creating new sections. To edit an existing section, navigate to the section you want to edit and press `Shift` + `~` to reveal the edit button.
 
-
 #### Knowledge Base Articles
 
-URL: `/knowledge-base/articles/{page-name}`
-File: `/_articles` collection
+URL: `/knowledge-base/articles/{page-name}` File: `/_articles` collection
 
 See Add new content for details on creating new articles. To edit an existing article, press `Shift` + `~` to reveal the edit button.
 
 ### Knowledge Base FAQs
 
-URL: `/knowledge-base/articles/{page-name}`
-File: `/_faqs` collection
+URL: `/knowledge-base/articles/{page-name}` File: `/_faqs` collection
 
 See Add new content for details on creating new sections. To edit an existing section, press `Shift` + `~` to reveal the edit button.
 
 ## Developers
 
-URL: `/developers`
-File: `/developers/index.html`
+URL: `/developers` File: `/developers/index.html`
 
 One-off html page. Navigation is populated from the `developers` array in `_data/nav.yml`.
 
 ### File Integration
 
-URL: `/developers/files/`
-File: `/developers/files/index.html`
-
+URL: `/developers/files/` File: `/developers/files/index.html`
 
 #### Supported File Type
 
-URL: `developers/files/{file-type}`
-File: `/_filetypes` collection and `/_filedirectives` collection
-
+URL: `developers/files/{file-type}` File: `/_filetypes` collection and `/_filedirectives` collection
 
 #### Developer Articles (Files)
 
-URL: `/developers/{categories}/{page-name}`
-File: `/_developerarticles` collection
-
+URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collection
 
 ### API
 
-URL: `/developers/api/v2/`
-File: `/developers/api/v2/index.html`
-
+URL: `/developers/api/v2/` File: `/developers/api/v2/index.html`
 
 #### API Collections
 
-URL: `/developers/api/v2/{collection-name}`
-File: `/v2sections` collection
+URL: `/developers/api/v2/{collection-name}` File: `/v2sections` collection
+
+![](/uploads/versions/glossary---x----1052-724x---.png)
 
 Introductory text for the collection is written as Markdown text. In the YAML front matter, an array of endpoint titles populates the left-hand navigation.
 
@@ -105,8 +88,7 @@ endpoints: # create an entry for each endpoint. Titles must match exactly
 
 #### Endpoints
 
-URL: `/developers/api/v2/{collection-name}/{endpoint-name}`
-File: `/_v2endpoints` collection
+URL: `/developers/api/v2/{collection-name}/{endpoint-name}` File: `/_v2endpoints` collection
 
 Apart from a small free text description of the endpoint, almost all info about Endpoints i
 
@@ -121,7 +103,7 @@ endpoint_url: /glossary-api/v2/accounts/{{accountUid}}/glossaries
 method: POST
 request: #Request object -
   # json markdown for post requests only. Make a multi-line scalar by using the pipe character and indenting the block two spaces
-  json_markdown: | 
+  json_markdown: |
     ~~~json
     {
        "name": "Marketing Glossary",
@@ -129,7 +111,7 @@ request: #Request object -
        "sourceLocaleId": "en-US"
     }
     ~~~
-    
+
   parameters: #array of parameters for the request - delete if there are no params
     - title: name
       type: string
@@ -140,7 +122,7 @@ request: #Request object -
       type: string
       required: true
       description_markdown: |
-        Source locale for the glossary. 
+        Source locale for the glossary.
     - title: description
       type: string
       required: false
@@ -170,26 +152,18 @@ response: #Details of response
       required: false
       description_markdown: |
         Details of the created glossary, including a unique identifier, glossary name, description, source locale, created date and an ID for the user who created the glossary.
-
 ~~~
-
-
 
 #### Developer Articles (API)
 
-URL: `/developers/{categories}/{page-name}`
-File: `/_developerarticles` collection
-
+URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collection
 
 ## Product Blog
 
-URL: `/blog/`
-File: `/blog/index.html`
+URL: `/blog/` File: `/blog/index.html`
 
 One-off HTML page displays all blogposts in chronological order
 
-
 ## Blogpost
 
-URL: `/blog/{categories}/{page-name}`
-File: `/_posts` collection
+URL: `/blog/{categories}/{page-name}` File: `/_posts` collection
