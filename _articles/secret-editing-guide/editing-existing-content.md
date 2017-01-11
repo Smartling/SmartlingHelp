@@ -58,13 +58,15 @@ One-off html page. Navigation is populated from the `developers` array in `_data
 
 URL: `/developers/files/` File: `/developers/files/index.html`
 
-&nbsp;
+![](/uploads/versions/files---x----1183-948x---.png)
 
 One-off html page. Navigation is populated from developers.files object in /_data/nav.yml.
 
 #### Supported File Type
 
 URL: `developers/files/{file-type}` File: `/_filetypes` collection and `/_filedirectives` collection
+
+&nbsp;
 
 #### Developer Articles (Files)
 
