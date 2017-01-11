@@ -15,6 +15,7 @@ subsections:
   - title: Sitecore Connector
 subarticles:
   - title: Eloqua Connector
+  - title: Translate Sendwithus Emails
 ---
 
 

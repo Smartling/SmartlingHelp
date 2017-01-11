@@ -8,6 +8,7 @@ subarticles:
   - title: Glossary in the Translation Interface
   - title: Style Guide in the Translation Interface
   - title: Manually Add or Delete Spaces in a Translation
+  - title: Keyboard Shortcuts in the Translation Interface
   - title: Translating Plurals
   - title: Placeholders in the Translation Interface
   - title: Insertable Shortcuts

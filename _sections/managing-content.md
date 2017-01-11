@@ -13,7 +13,7 @@ subarticles:
   - title: Cost Estimates and Rates
   - title: Issues
   - title: Watching Content
-  - title: Content Search
+  - title: Global Content Search
   - title: Plurals
   - title: Inactive Strings
   - title: Adding links to Translator Instructions or Issues

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: SmartMatch Leverage Report
-
+---
 
 The SmartMatch Leverage report shows you the number of words in a project automatically translated by SmartMatch for a selected date range. An&nbsp;[account-level version](/knowledge-base/articles/account-level-reports/)&nbsp;of this report is also available.
 
