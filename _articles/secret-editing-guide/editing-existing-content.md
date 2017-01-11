@@ -6,7 +6,7 @@ title: Editing existing content
 
 You can edit any page on the Help Center by pressing `Shift` + `~` and then clicking the edit button that is revealed.
 
-For pages that are built from jekyll collections (Articles, Sections, API Collections, API Endpoints, Supported File Types), the `Edit` button will take you to the relevant collection item. For articles, most of the content is free markdown text. For Developer docs, much of the content is written as key-value pairs in the YAML front-matter of the document. See details for editing different content types below.
+For pages that are built from Jekyll collections (Articles, Sections, API Collections, API Endpoints, Supported File Types), the `Edit` button will take you to the relevant collection item. For articles, most of the content is free markdown text. For Developer docs, much of the content is written as key-value pairs in the YAML front-matter of the document. See details for editing different content types below.
 
 ## Home
 
@@ -142,7 +142,7 @@ URL: `/developers/api/v2/` File: `/developers/api/v2/index.html`
 
 ![](/uploads/versions/smartling-api---x----1190-923x---.png)
 
-One-off HTML page. Navigation derived from the developers.api object in /data/nav.yml
+One-off HTML page. Navigation derived from the `developers.api` object in `/data/nav.yml`
 
 #### API Collections
 
