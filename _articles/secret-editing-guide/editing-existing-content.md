@@ -12,11 +12,15 @@ For pages that are built from jekyll collections (Articles, Sections, API Collec
 
 URL: `/` File: `/index.html`
 
+![](/uploads/versions/smartling-help---x----1235-709x---.png)
+
 This is a one-off HTML page on the `default` template. Release Notes and Blog Post sections maintain themselves as content is added. Documentation Updates can be edited in the page's YAML front matter.
 
-## Knowledge Base (`/knowledge-base`)
+## Knowledge Base
 
 URL: `/knowledge-base` File: `/knowledge-base/index.html`
+
+![](/uploads/versions/smartling-knowledge-base-and-slack---x----1191-1002x---.png)
 
 One-off HTML page. The top level sections are populated from a YAML array at /_data/nav.yml
 
@@ -89,8 +93,10 @@ endpoints: # create an entry for each endpoint. Titles must match exactly
 #### Endpoints
 
 URL: `/developers/api/v2/{collection-name}/{endpoint-name}` File: `/_v2endpoints` collection
+<br>
+<br>![](/uploads/versions/create-glossary-and-filedirectives-yml---smartlinghelp5------documents-webstormprojects-smartlinghelp5----x----1023-984x---.png)
 
-Apart from a small free text description of the endpoint, almost all info about Endpoints i
+Apart from a small free text description of the endpoint, almost all info about Endpoints is written in the front matter.
 
 **Sample front matter:**
 
