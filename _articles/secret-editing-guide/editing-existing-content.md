@@ -134,7 +134,6 @@ URL: `/developers/{categories}/{page-name}` File: `/_developerarticles` collecti
 
 These use the same template as Knowledge Base articles, but there are no 'sections' in the Developer docs. Once you're ready to publish your article, add it under the `developers.files.article` array in `/_data/nav.yml`.
 
-### &nbsp;
 
 ### API
 
