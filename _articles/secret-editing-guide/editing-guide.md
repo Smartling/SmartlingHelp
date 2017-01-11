@@ -68,6 +68,10 @@ Help center articles have an automatically generated table of contents in the le
 * The table of contents is indented to create a tree, so don't create an h3 heading, unless it fits under a higher level h2 heading.
   <br>![](/uploads/versions/download-files---x----310-280x---.png)
 
+## Swiftype
+
+Smartling Help search is powered by Swiftype. You can view analysis and create result rankings by logging into Swiftype and selecting the **docs** engine. See the [wiki](https://wiki.smartling.net/pages/editpage.action?pageId=53512396) for credentials.
+
 ## Set up the 'Edit' bookmarklet
 
 > For the edit bookmarklet to work you need to be logged into CloudCannon. See the [Smartling Wiki](https://wiki.smartling.net/display/product/Help+Center+Resources) for credentials.
