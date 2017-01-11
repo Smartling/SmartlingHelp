@@ -32,5 +32,3 @@ You can also provide document instructions to provide context. By attaching a JP
 ## InDesign Translation Tips
 
 Find out how you can [better prepare your InDesign document](/Translating InDesign Files.pdf) for translation
-
-<iframe src="https://docs.google.com/viewer?srcid=14TvmQZLcWKSgQ_pSCLSDUN6P5TCVbmz_DrK9Memg4QQ&amp;pid=explorer&amp;efh=false&amp;a=v&amp;chrome=false&amp;embedded=true" width="640px" height="480px"></iframe>
