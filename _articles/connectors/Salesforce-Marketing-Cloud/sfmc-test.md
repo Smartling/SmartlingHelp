@@ -5,7 +5,7 @@ wistia:
   video: true
   id: u69ykdb5a5
   
- wistia:
+wistia:
   video: true
   id: u69ykdb5a5
 ---
