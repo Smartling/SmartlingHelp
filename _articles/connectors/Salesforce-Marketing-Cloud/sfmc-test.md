@@ -3,7 +3,7 @@ layout: article
 title: SFMC Test
 
 ---
-        <p>Find all the how-to videos you need to manage a Smartling Project: </p>
+Find all the how-to videos you need to manage a Smartling Project: 
 <p><strong>Video 1 - The Project summary view </strong></p>
 <p><iframe class="wistia_embed" src="//fast.wistia.net/embed/iframe/b5tf573pr1" name="wistia_embed" width="640" height="400" frameborder="0" scrolling="no" allowfullscreen=""></iframe></p>
 <script src="//fast.wistia.net/assets/external/E-v1.js" async=""></script>
