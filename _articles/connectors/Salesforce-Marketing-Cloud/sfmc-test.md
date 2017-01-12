@@ -2,6 +2,6 @@
 layout: article
 title: SFMC Test
 wistia:
-  video: false
-  id:
+  video: true
+  id: u69ykdb5a5
 ---
