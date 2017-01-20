@@ -7,13 +7,15 @@ categories:
 ---
 
 
-We're rolling out an update to how our Jobs feature works, to help you better organize your translation work and keep relevant content together as it moves through the translation process.
+We’re rolling out an update to how our Jobs feature works, to help you better organize your translation work and keep relevant content together as it moves through the translation process.
+
+Job is becoming more defined package of content with the start and end date. After job is completed you can't add more content to it. In the future releases we will also stop allowing adding more content to the job once it is authorized for translation.
 
 ## Changes to Jobs functionality
 
 When we release the new version of Jobs to your account, you will notice some changes:
 
-* We no longer distinguish between 'strings' jobs and 'files' jobs. You can now create jobs from new files by dragging a file onto the Jobs page. This functionality was previously only available as part of the Requester Portal.
+* We no longer distinguish between ‘strings’ jobs and ‘files’ jobs. You can now create jobs from new files by dragging a file onto the Jobs page. This functionality was previously only available as part of the Requester Portal feature.
 
 * If you add a file that is already uploaded to Smartling to a job, the file will be overwritten. Any new content will be added to the job.
 
@@ -29,7 +31,7 @@ When we release the new version of Jobs to your account, you will notice some ch
 
 ![large](/uploads/versions/smartling---jobs--katya-jobs2----x----577-349x---.png)
 
-If you're translating files, add files by dragging them onto the Job dialog. Give the job a due date and description, and select the languages you want to translate. Click **Create**.
+If you’re translating files, add files by dragging them onto the Job dialog. Give the job a due date and description, and select the languages you want to translate. Click **Create**.
 
 ![large](/uploads/versions/smartling---jobs--katya-jobs2----x----574-601x---.png)
 
