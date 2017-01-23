@@ -4,17 +4,17 @@ title: Importing Translations
 ---
 
 
-# Introduction
+## Introduction
 
 There are two ways to import translations in Smartling. &nbsp;This article covers resource file based translation imports.
 
 This kind of translation import is based on a one:one mapping of an original language resource file and its translated version. This is useful if you are migrating from another tool or process to Smartling and you want to import the translations that have already been done. &nbsp;Another option is importing&nbsp;[TMX files that can then be configured](http://help.smartling.com/knowledge-base/articles/translation-memory/#import) as part of a linguistic package.&nbsp; Using resource file based imports are then better option when you have them as you are getting an "exact" import of a translation. &nbsp;
 
-## Example
+### Example
 
 When would you have resource files versus TMX files? &nbsp;A simple example is in the case of a collection of translated Word Documents and mobile resource files that you have previously translated. &nbsp;When you translate the mobile resource file you get a 1:1 mapping. The original language file and its translated version. The resource file has "keys" which allow for the mapping of the strings and the translations. You can import following the direction on this page. &nbsp;If you also have some Word Documents that contain the marketing copy of that app you won't have a resource file to import. Though you might have the translated word document it has no structure that allows the Smartling platform to import translations. However you should have a TMX file that contains these translations. You can import your TMX file to leverage the translations you have already done.
 
-## Usage
+### Usage
 
 Account Owners and Project Managers can import translations for Android, iOS, Java Properties, gettext, XML, JSON, YAML, Qt, CSV, RESX and PRES files. You can import strings and overwrite any existing translations, and you can place the strings in different workflow states.
 
