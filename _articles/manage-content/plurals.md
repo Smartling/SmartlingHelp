@@ -34,6 +34,7 @@ rooms_available:
 Avoid constructions like these:
 
 ~~~yaml
+# Do NOT do this this is example of something not supported.
 rooms_available:
         zero: “Zilch.”
         # Zero is not a standard form for English in CLDR.
