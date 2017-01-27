@@ -21,7 +21,7 @@ When we released v2 we had set a deprecation date of v1 for one year later - Mar
 
 **What does this mean?**&nbsp;
 
-If you've already migrated to v2, then you're ahead of the game - you can begin using new endpoints immediately. &nbsp;If you haven't been able to update your integration to v2, you have more time.
+If you've already migrated to v2, then you're ahead of the game - you can begin using new endpoints immediately. &nbsp;If you haven't been able to update your integration to v2, you have more time; however, it's good to get ahead of the changes so don't delay for too long.
 
 We know that planning for API changes takes time. &nbsp;And for some customers pushing the deprecation date means that they would have likely pushed their development out as well. &nbsp;We understand that changes like this can have impact that is not always visible to the Smartling team. &nbsp; As such, given that not all endpoints are fully migrated to v2 and some customers need more time, we're pushing the deprecation date back to October 2017.
 
