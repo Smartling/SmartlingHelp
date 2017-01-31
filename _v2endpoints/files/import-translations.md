@@ -21,7 +21,7 @@ request:
       type: string
       required: true
       description_markdown: |
-        The type of file being uploaded. Permitted values are: `android`, `ios`, `gettext`, `html`, `javaProperties`, `yaml`, `xliff`, `xml`, `json`, `docx`, `pptx`, `xlsx`, `idml`, `qt`, `resx`, `plaintext`, `cvs`, or `stringsdict`.'
+        The type of file being uploaded. Permitted values are: `android`, `ios`, `gettext`, `javaProperties`, `yaml`, `xml`, `json`, `csv`
     - title: translationState
       type: string
       required: true
