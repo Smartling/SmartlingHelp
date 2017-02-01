@@ -22,3 +22,4 @@ When you set up a new user, you give them access to a limited number of features
 
 
 See our [User Permissions](/knowledge-base/articles/user-permissions/) matrix for a complete list of permissions for each user type.
+
