@@ -7,7 +7,7 @@ subarticles:
   - title: Manage Users and Agencies
   - title: Set Up A Default Role For New Users
   - title: 'Profile Settings & Project Notifications'
-  - title: User Roles
+  - title: User Roles and Status
 wistia:
   video: false
   id:
