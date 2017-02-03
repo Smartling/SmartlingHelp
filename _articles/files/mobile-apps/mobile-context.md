@@ -8,7 +8,7 @@ Smartling’s mobile SDKs include the ability to interactively or automatically 
 
 ## Optimize your process
 
-You’ll want to create screenshots as soon as you add strings to your resource file and have upload that to Smartling. The string must be in Smartling to be matched. The best practice is to upload the resource file, then give the strings visual context, then finally authorize the strings for translation. You’ll want to coordinate with your colleagues who are managing the translation process in Smartling if you aren’t sure about the timing, process and workflow.
+You’ll want to create screenshots as soon as you add strings to your resource file and have uploaded the resource files to Smartling. The string must be in Smartling to be associated with the context. The best practice is to upload the resource file, then give the strings visual context, then authorize the strings for translation. You’ll want to coordinate with your colleagues who are managing the translation process in Smartling if you aren’t sure about the timing, process and workflow. Of course you can add context after authorizing but then there is a chance that the translators will begin work without the visual context.
 
 ## Integrate the SDK and turn on the context screenshot feature
 
