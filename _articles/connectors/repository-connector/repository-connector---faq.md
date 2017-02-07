@@ -48,24 +48,7 @@ Smartling gives you a few advanced options for configuring how you get your tran
 
 * `includeOriginalStrings` - If `TRUE`, Smartling returns the original string if there is no translations available. If `FALSE`, Smartling returns a blank string if there is no translations. Defaults to `TRUE`. This parameter is supported only for Gettext, java properties, custom XML, Android XML and JSON files. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information.
 
-Example of usage
-~~~json
-{
-  "repositories": [
-    {
-      "url": "https://github.com/user/repository.git",
-      ...
-      "downloadTranslations": {
-          "trigger": "COMPLETED",
-          "retrievalType": "PUBLISHED",
-          "includeOriginalStrings": false
-      },
-      ...
-    }
-  ],
-  ...
-}
-~~~
+You can find example of usage in [complete repo-connector.conf example file](/public/example-files/repo-connector-complete-example.conf)
 
 ## Can I upload/download resource files from all branches except my master branch?
 
@@ -241,11 +224,11 @@ You can then create multiple `repo-connector.conf` files in the Repository Conne
 Finally, start the connector multiple times, providing a specific config path each time using the `-configuration` parameter:
 
 ~~~
-java -jar repo-connector-1.5.4.jar -configuration ./cfg/french/ -start
+java -jar repo-connector-1.5.5.jar -configuration ./cfg/french/ -start
 ~~~
 
 ~~~
-java -jar repo-connector-1.5.4.jar -configuration ./cfg/german/ -start
+java -jar repo-connector-1.5.5.jar -configuration ./cfg/german/ -start
 ~~~
 
 You now have multiple instances of the Repository Connector with different configurations, connected to the same repository.
