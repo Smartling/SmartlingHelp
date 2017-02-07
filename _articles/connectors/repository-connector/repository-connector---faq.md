@@ -132,9 +132,17 @@ java -jar repo-connector-{version}.jar -stop
 
 **2)** Edit your smartling-config.json file. Adjust the regular expression in the appropriate `resourceSets` entry so it doesn't match the file you need to delete.
 
-**3)** Reset the connector by deleting the following folders from its directory: \* `cfg/activemq-data` \* `cfg/db-data` \* `cfg/repository-data`
+**3)** Reset the connector by deleting the following folders from its directory:
 
-**4)** Delete the file in the Smartling Dashboard. **5)** Restart the Connector.
+~~~
+cfg/activemq-data
+cfg/db-data
+cfg/repository-data
+~~~
+
+**4)** Delete the file in the Smartling Dashboard. 
+
+**5)** Restart the Connector.
 
 ## Can I configure callbacks for completed translation instead of using the cron checker?
 
@@ -153,7 +161,7 @@ To configure callbacks, you need to add an "http" section to the repo-connector.
 
 **Parameters:**
 
-* `host` - the host name, set by default to localhost. Public server may require value to be set to ‘0.0.0.0’
+* `host` - the host name, set by default to localhost. Public server may require value to be set to `0.0.0.0`
 * `port` - the local port for the http listener. Any free port can be assigned.
 * `protocol` - can be set to `http` or `https` depending on the requirements of your server.
 * `callbackURL` - URL for your instance of the Repository Connector. This is the URL that Smartling will send a callback to on completion of translation for a file.
@@ -194,10 +202,10 @@ Even if you set up callbacks, you must still provide a valid cron expression in 
 
 Yes. From version 1.5.1 onward, the Connector can work with a proxy. The following arguments need to be passed to the Connector on start:
 
-* http.proxyHost
-* http.proxyPort
-* http.proxyPassword
-* http.proxyUsername
+* `http.proxyHost`
+* `http.proxyPort`
+* `http.proxyPassword`
+* `http.proxyUsername`
 
 Your startup command should look something like this:
 
@@ -213,11 +221,23 @@ Configuration for the Repository Connector is contained in the `repo-connector.c
 
 The connector can only refer to one `repo-connector.conf` file which, in turn, references one repository configuration file. However, you can run more than one instance of the Repository Connector pointed at the same repository.
 
-For each set of source content you want to handle, create a separate repository configuration file in your repository. See [Translation Settings](/knowledge-base/articles/repository-connector-translation-settings/) for help with these files. Give each a unique name: `smartling-config-french.json`, `smartling-config-german.json` etc. Set up the `resourceSets` in each file to identify specific source content and set the other parameters as desired. For example, you might set `"locales": [{"smartling" : "fr-FR","application" : "fr"}]` in one file and `"locales": [{"smartling" : "de-DE","application" : "de"}]` in another.
+For each set of source content you want to handle, create a separate repository configuration file in your repository. See [Translation Settings](/knowledge-base/articles/repository-connector-translation-settings/) for help with these files. Give each a unique name: `smartling-config-french.json`, `smartling-config-german.json` etc. Set up the `resourceSets` in each file to identify specific source content and set the other parameters as desired. For example, you might set 
+
+~~~json
+"locales": [{"smartling" : "fr-FR","application" : "fr"}]
+~~~
+
+in one file and 
+
+~~~json
+"locales": [{"smartling" : "de-DE","application" : "de"}]`
+~~~
+
+in another.
 
 You can then create multiple `repo-connector.conf` files in the Repository Connector folder. By default, this file is kept in the `/cfg/` directory. You will need to create a seperate directory for each file: `/cfg/french/`, `/cfg/german/`, etc. Keep the same login information in each config file, but change the `resourcesConfig` value to point to the correct repository configuration file.
 
-**Note:** If you prefer, you can store your repository configuration files on the Repository Connector server itself. In this case, set the `serverResourcesConfig`parameter instead. See [Installation and Setup](/knowledge-base/articles/repository-connector-installation-and-setup/#connect-to-your-repository-and-smartlingfor more.
+**Note:** If you prefer, you can store your repository configuration files on the Repository Connector server itself. In this case, set the `serverResourcesConfig`parameter instead. See [Installation and Setup](/knowledge-base/articles/repository-connector-installation-and-setup/#connect-to-your-repository-and-smartling) for more.
 
 Finally, start the connector multiple times, providing a specific config path each time using the `-configuration` parameter:
 
