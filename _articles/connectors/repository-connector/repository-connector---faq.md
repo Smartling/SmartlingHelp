@@ -40,13 +40,32 @@ You can alter the translation configuration file while the connector is running.
 
 ## What are my options for downloading translated files?
 
-Smartling gives you a few advanced options for configuring how you get your translated files back from Smartling. To set these up, you need to add a `downloadTranslations` node to the repo-connector.conf file. The `downloadTranslations` node can contain the following parameters:
+Smartling gives you a few advanced options for configuring how you get your translated files back from Smartling. To set these up, you need to add a `downloadTranslations` node on repository level to the repo-connector.conf file. The `downloadTranslations` node can contain the following parameters:
 
 * `trigger` - `COMPLETED` or `ONCHANGE` - determines when to download translated files from Smartling. `COMPLETED` downloads files only when all translations are complete. `ONCHANGE` downloads translated files whenever they are updated. Default is `COMPLETED.`
 
 * `retrievalType` - Sets type of translation for downloaded files. Allowed values are `PUBLISHED` (default), `PENDING`, and `PSEUDO`. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information on retrieval type.
 
 * `includeOriginalStrings` - If `TRUE`, Smartling returns the original string if there is no translations available. If `FALSE`, Smartling returns a blank string if there is no translations. Defaults to `TRUE`. This parameter is supported only for Gettext, java properties, custom XML, Android XML and JSON files. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information.
+
+Example of usage
+~~~json
+{
+  "repositories": [
+    {
+      "url": "https://github.com/user/repository.git",
+      ...
+      "downloadTranslations": {
+          "trigger": "COMPLETED",
+          "retrievalType": "PUBLISHED",
+          "includeOriginalStrings": false
+      },
+      ...
+    }
+  ],
+  ...
+}
+~~~
 
 ## Can I upload/download resource files from all branches except my master branch?
 
