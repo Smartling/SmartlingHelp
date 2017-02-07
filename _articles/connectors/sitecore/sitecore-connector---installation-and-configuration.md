@@ -26,7 +26,7 @@ further-reading:
     - link:
       text:
 
-  
+
   images: false
   FAQs: false
   related: false
@@ -36,13 +36,13 @@ further-reading:
 
 ## Installing Sitecore Connecter Module
 
-**1)** Create a new database, and at the SQL Server, execute the script **Sitecore_Data.sql** (can be found in the `%website root%/sitecore modules/Shell/Smartling.Connector` folder).
+**1)** Create a new database, and at the SQL Server, execute the script **Sitecore_Data.sql** (can be found in the **%website root%/sitecore modules/Shell/Smartling.Connector** folder).
 
-> Don't forget to update first line of the script (USE [%**your database name**%]).
+> Don't forget to update first line of the script (`USE [%**your database name**%]`).
 
-**2)** Add new connection string to /Website/App_Config/ConnectionStrings.config, name should be "SitecoreLocalization", here's the example:
+**2)** Add new connection string to **/Website/App_Config/ConnectionStrings.config**, name should be `SitecoreLocalization`, here's the example:
 
-~~~
+~~~xml
 <add name="SitecoreLocalization" connectionString="user id=sa;password=Password12345;Data Source=.\SQLEXPRESS;Database=SitecoreLocalization_Data"/>
 ~~~
 
@@ -133,7 +133,7 @@ Check the&nbsp;**Auto Authorize Content** box to automatically Authorize your co
 
 ### Test Connection
 
-Browse to module settings (/sitecore/system/Modules/Smartling Connector) and verify your connection by clicking **Test Connection**.
+Browse to module settings (`/sitecore/system/Modules/Smartling Connector`) and verify your connection by clicking **Test Connection**.
 
 ![small](/uploads/versions/sitecore_testconnection---x----144-79x---.jpg)
 
@@ -143,17 +143,17 @@ Go to Sitecore Desktop, and install **Smartling.Connector.Remove.ver.[version].z
 
 ## Configuring Sitecore Remote Connector (Optional)
 
-**1)** Open Sitecore Content Editor and browse to **/sitecore/system/Modules/Smartling Connector/Context** . It contains the following settings:
+**1)** Open Sitecore Content Editor and browse to `/sitecore/system/Modules/Smartling Connector/Context`. It contains the following settings:
 
-* **Server Url** - the remote module uses this URL for requesting HTML and resources such as CSS\JS\Img. In general, it should contain the domain of your site. Please don't use 'localhost' as the Server Url. If you test the connector on a local environment, then register the name in a hosts file and use it in the browser.
+* **Server Url** - the remote module uses this URL for requesting HTML and resources such as CSS\JS\Img. In general, it should contain the domain of your site. Please don't use `localhost` as the Server Url. If you test the connector on a local environment, then register the name in a hosts file and use it in the browser.
 * **Impersonated User** - User account that used for getting HTML. If you didn't provide an user account, then Sitecore uses anonymous access.
 * **Enabled** - You can enable\disable Context for translation
   <br>![](/uploads/versions/sitecore_context---x----576-339x---.jpg)
 
 
-**2)** Browse to each of your settings profiles (items under **/sitecore/system/Modules/Smartling Connector/Profiles**).
+**2)** Browse to each of your settings profiles (items under `/sitecore/system/Modules/Smartling Connector/Profiles`).
 
-**3)** Click **Connect**, and the remote module will use the **Api Key** + **Project Id** for connecting to the Smartling context Service.
+**3)** Click **Connect**, and the remote module will use the **Api Key** + **User Identifier** for connecting to the Smartling context Service.
 
 ![](/uploads/versions/sitecore_connect---x----576-384x---.jpg)
 
@@ -202,11 +202,20 @@ In general, the **LinkFieldTranslator** package doesn't require additional confi
 **Master Database**
 
 ~~~
-\sitecore\system\Modules\Smartling Connector\sitecore\system\Settings\Validation Rules\Field Rules\System\SitecoreLocalization Api Key\sitecore\system\Settings\Validation Rules\Field Rules\System\SitecoreLocalization Api Url\sitecore\system\Settings\Validation Rules\Field Rules\System\SitecoreLocalization Project Id\sitecore\templates\User Defined\SitecoreLocalization
+\sitecore\system\Modules\Smartling Connector
+\sitecore\system\Settings\Validation Rules\Field Rules\System\SitecoreLocalization Api Key
+\sitecore\system\Settings\Validation Rules\Field Rules\System\SitecoreLocalization Api Url
+\sitecore\system\Settings\Validation Rules\Field Rules\System\SitecoreLocalization Project Id
+\sitecore\templates\User Defined\SitecoreLocalization
 ~~~
 
 **Core Database**
 
 ~~~
-\sitecore\content\Applications\Translation Status\sitecore\content\Applications\Content Editor\Ribbons\Chunks\Translate\Translate\sitecore\content\Applications\Content Editor\Ribbons\Chunks\Translate\Translate\Run Agents\sitecore\content\Applications\Content Editor\Ribbons\Contextual Ribbons\SitecoreLocalization Settings\sitecore\content\Documents and settings\All users\Start menu\Left\Smartling Translate.item\sitecore\content\Documents and settings\All users\Start menu\Left\Smartling Status
+\sitecore\content\Applications\Translation Status
+\sitecore\content\Applications\Content Editor\Ribbons\Chunks\Translate\Translate
+\sitecore\content\Applications\Content Editor\Ribbons\Chunks\Translate\Translate\Run Agents
+\sitecore\content\Applications\Content Editor\Ribbons\Contextual Ribbons\SitecoreLocalization Settings
+\sitecore\content\Documents and settings\All users\Start menu\Left\Smartling Translate.item
+\sitecore\content\Documents and settings\All users\Start menu\Left\Smartling Status
 ~~~
