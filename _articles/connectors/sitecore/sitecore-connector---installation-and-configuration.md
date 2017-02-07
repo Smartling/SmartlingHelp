@@ -50,18 +50,19 @@ further-reading:
 
 ![](/uploads/versions/sitecore_install_wizard---x----465-512x---.jpg)
 
-**4)** Add the following to the Web.config section:
+**4)** Add the following snippet to the `<log4net>` section of configuration file. Use **Web.config** file for Sitecore 8.0 and below. The **App_Config\Sitecore.config** file should be used for Sitecore 8.1 and above
 
-~~~
+~~~xml
 <appender name="SmartlingLogFileAppender" type="log4net.Appender.SitecoreLogFileAppender, Sitecore.Logging">
-&nbsp; &nbsp; <file value="$(dataFolder)/logs/SitecoreLocalization.log.{date}.txt" />
-&nbsp; &nbsp; <appendToFile value="true" />
-&nbsp; &nbsp; <layout type="log4net.Layout.PatternLayout"><conversionPattern value="%4t %d{ABSOLUTE} %-5p %m%n" />
-&nbsp; &nbsp; </layout>
+  <file value="$(dataFolder)/logs/SitecoreLocalization.log.{date}.txt" />
+  <appendToFile value="true" />
+  <layout type="log4net.Layout.PatternLayout">
+	<conversionPattern value="%4t %d{ABSOLUTE} %-5p %m%n" />
+  </layout>
 </appender>
 <logger name="Smartling.Connector.Diagnostics.SmartlingLogger" additivity="false">
-&nbsp; &nbsp; <level value="INFO" />
-&nbsp; &nbsp; <appender-ref ref="SmartlingLogFileAppender" />
+  <level value="DEBUG" />
+  <appender-ref ref="SmartlingLogFileAppender" />
 </logger>
 ~~~
 
@@ -174,19 +175,19 @@ In general, the **LinkFieldTranslator** package doesn't require additional confi
 
 ## Uninstalling Sitecore Connector Module
 
-**1)** Remove the following sections from Web.config:
+**1)** Remove the following sections from **Web.config** if you have  Sitecore 8.0 and below, or **App_Config\Sitecore.config** for Sitecore 8.1 and above
 
-~~~
+~~~xml
 <appender name="SmartlingLogFileAppender" type="log4net.Appender.SitecoreLogFileAppender, Sitecore.Logging">
-&nbsp; <file value="$(dataFolder)/logs/SitecoreLocalization.log.{date}.txt" />
-&nbsp; <appendToFile value="true" />
-&nbsp; <layout type="log4net.Layout.PatternLayout">
-&nbsp; &nbsp; <conversionPattern value="%4t %d{ABSOLUTE} %-5p %m%n" />
-&nbsp; </layout>
+  <file value="$(dataFolder)/logs/SitecoreLocalization.log.{date}.txt" />
+  <appendToFile value="true" />
+  <layout type="log4net.Layout.PatternLayout">
+	<conversionPattern value="%4t %d{ABSOLUTE} %-5p %m%n" />
+  </layout>
 </appender>
-<logger name="SitecoreLocalization.Module.Diagnostics.SmartlingLogger" additivity="false">
-&nbsp; <level value="INFO" />
-&nbsp; <appender-ref ref="SmartlingLogFileAppender" />
+<logger name="Smartling.Connector.Diagnostics.SmartlingLogger" additivity="false">
+  <level value="DEBUG" />
+  <appender-ref ref="SmartlingLogFileAppender" />
 </logger>
 ~~~
 
