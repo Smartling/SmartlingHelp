@@ -16,7 +16,7 @@ Ask your developer to follow the [developer documentation](http://help.smartling
 
 ## Generate screenshots
 
-With the SDK integrated and the feature turned on, you can now start creating screenshots that are uploaded to the configured Smartling project. You can do this interactively with an emulator or by installing the app on device. For the Interactive Mode you’ll need to perform the Smartling specific screenshot gesture. You’ll see a visual indication that the screenshot was taken and sent to the Smartling project. If you integration for full automation you simply execute your automated QA tests.
+With the SDK integrated and the feature turned on, you can now start creating screenshots that are uploaded to the configured Smartling project. You can do this interactively with an emulator or by installing the app on device. For the Interactive Mode you’ll need to perform the Smartling specific screenshot gesture (3 finger long press). You’ll see a visual indication that the screenshot was taken similar to taking a regular screenshot on the device. This screenshot is automatically sent to the Smartling project as configured by the SDK. &nbsp;If you integrate for full automation you simply execute your automated QA tests.
 
 ## Review the results
 
