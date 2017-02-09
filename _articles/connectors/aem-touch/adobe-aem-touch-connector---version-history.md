@@ -7,7 +7,15 @@ wistia:
 ---
 
 
-## Version 3.1.0 - 12/01/2016 (current)
+## Version 3.1.1 - 02/09/2017 (current)
+
+### Improvements & Fixes
+
+* Fixed issues with HTTP proxy support
+* Fixed issue with submitting content when the target locale is disabled in Smartling.
+
+
+## Version 3.1.0 - 12/01/2016
 
 ### Improvements & Fixes
 
