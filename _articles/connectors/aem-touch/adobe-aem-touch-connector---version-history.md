@@ -7,7 +7,43 @@ wistia:
 ---
 
 
-## Version 2.1.0 - 03/25/2016 (current)
+## Version 3.1.0 - 12/01/2016 (current)
+
+### Improvements & Fixes
+
+* The connector now uses Smartling API v2 and is not backwards compatible with earlier versions. After installing you must create [v2 credentials](http://docs.smartling.com/pages/API/v2/Authentication/) and add them to each Cloud Configuration.
+* Improved context capture performance.
+* Fixed issue with missing context on some configurations of AEM.
+* A separate log file `smartling.touch.log` has been created to capture all the log messages coming from the Connector.
+
+
+## Version 3.0.1 - 08/19/2016
+
+### Improvements & Fixes
+
+* Improved performance of the connector under heavy loads. 
+
+
+## Version 3.0.0 - 07/13/2016
+
+### Improvements & Fixes
+
+Support for AEM 6.2 with the following limitations:
+
+* Due date on a translation job is not supported even if set on the AEM side.
+* Reject translation from AEM is not fully supported: once translation is rejected in AEM, the only option is to cancel all the translation job manually, wait until translation is corrected and request translation once again as a new job in AEM.
+
+
+## Version 2.2.0 - 07/01/2016
+
+### Improvements & Fixes
+
+* Added the ability to configure an HTTP proxy in a *single place* to be used by the connector - via Felix OSGi Console, *Smartling - Network Settings* configuration entry.
+* Support anonymous proxy configuration via Java System properties.
+* Fixes to translation context to improve quality and make troubleshooting easier.
+
+
+## Version 2.1.0 - 03/25/2016
 
 ### Improvements & Fixes
 
