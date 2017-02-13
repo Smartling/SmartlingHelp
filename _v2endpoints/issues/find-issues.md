@@ -3,7 +3,7 @@ title: Find Issues
 categories:
   - issues
 layout: v2endpoint
-endpoint_url: /issues-api/v2/projects/{projectId}/issues/list
+endpoint_url: '/issues-api/v2/projects/{projectId}/issues/list'
 method: POST
 request:
   json_markdown: |
@@ -51,7 +51,7 @@ response:
                     "issueTypeCode": "TRANSLATION",
                     "issueSubTypeCode": "DOES_NOT_FIT_SPACE",
                     "issueStateCode": "OPENED",
-                    "issueTextModifiedDate": null
+                    "issueTextModifiedDate":
                 }],
                 "totalCount": 1
             }
@@ -64,4 +64,5 @@ examples:
     description_markdown:
 ---
 
-Returns a list of issues matching specified filter options. You can filter based on the date issues were created, target languages, strings, issue types and states and the user who opened the issue. Unless otherwise specified, request will return a maximum of 30 results.. All parameters are optional.
+
+Returns a list of issues matching specified filter options. You can filter based on the date issues were created, target languages, strings, issue types and states and the user who opened the issue. Unless otherwise specified, request will return a maximum of 30 results. All parameters are optional.
