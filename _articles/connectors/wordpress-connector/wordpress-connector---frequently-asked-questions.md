@@ -70,15 +70,17 @@ Yes. Bulk Submit and the Submissions board use cron tasks, which is necessary to
 
 The Connector offers three ways to submit your source content to Smartling.
 
-1. Bulk submit (
+**1)** Bulk submit (
 
    <tt>/wp-admin/admin.php?page=smartling-bulk-submit</tt>) was designed to be primary means of submitting content. It allows you to submit multiple posts, tags, menus, and other entities for multiple locales in single click.
    <br>Some entities can be submitted only from Bulk submit:
    * Theme Widgets
    * Media Attachments
    * Navigation Menus
-2. The Smartling widget on the Post Edit screen. This allows you &nbsp;to submit only current post for chosen locales
-3. The Submissions Board. It's similar to Bulk Submit but here you can find only content / entities that were submitted before. Use this view to resubmit content that you want to retranslate, for example, because the source content has changed.
+
+**2)** The Smartling widget on the Post Edit screen. This allows you &nbsp;to submit only current post for chosen locales
+
+**3)** The Submissions Board. It's similar to Bulk Submit but here you can find only content / entities that were submitted before. Use this view to resubmit content that you want to retranslate, for example, because the source content has changed.
 
 
 ## Can I submit content from a translated site?
