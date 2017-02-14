@@ -90,3 +90,26 @@ Each Smartling project has only a single source language. If you want to submit 
 Then create a new [Smartling Settings Profile](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin) in Wordpress, using the details of the new project.
 
 If you have previously tried to upload any content in your alternate source language, you will need to upload this content again.
+
+
+## Why the Connector doesn't parse large pieces of content to strings
+
+An example you have a post with 5 paragraphs. It looks great in WordPress, but when you submit it to Smartling TMS you can find a really long string in translation queue
+
+![5 paragraphs in Visual editor](/uploads/versions/wordpress-split-paragraphs1.png)
+![Long string in Smartling](/uploads/versions/wordpress-split-paragraphs2.png)
+
+You may notice such behavior because WordPress default behavior. WordPress stores and renders content:
+* WordPress Visual editor doesn't add `<p>` tags for paragraphs
+* Even if you will paste html snippet with `<p>` tags then they will be deleted by WordPress during save
+* WordPress automatically adds `<p>` tags for new lines during page rendering. It's possible to control but requires additional code
+
+It's very popular topic in WordPress community and google returns hundreds of search results. We would recommend following 2 plugins:
+
+**1)** [Don't Muck My Markup](https://wordpress.org/plugins/dont-muck-my-markup/) - small, simple and clear. You have a full control on what is going on with content. But it requires  manually add `<p>` tags during content editing. There is no additional support from visual editor.
+
+**2)** [TinyMCE Advanced](https://wordpress.org/plugins/tinymce-advanced/) - powerful visual editor. Looks and works great. It not only generates a new content with tags but also implicit converts existing content when you open and save post. A couple screenshots of how the same post will look in Smartling after editing in TinyMCE.
+
+![TinyMCE configuration](/uploads/versions/wordpress-split-paragraphs3.png)
+![TinyMCE visual editor](/uploads/versions/wordpress-split-paragraphs4.png)
+![Contend is split by paragraphs](/uploads/versions/wordpress-split-paragraphs5.png)
