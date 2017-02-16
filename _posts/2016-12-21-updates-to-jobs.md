@@ -24,6 +24,7 @@ When we release the new version of Jobs to your account, you will notice some ch
 * Each job is authorized when it is ready to begin translation. Authorizing a job authorizes all strings in the job. Once any job is authorized, no further content or languages can be added, but translation of individual files or languages within a job can be cancelled. Cancelling removes files from a job, strings are returned to your Authorization queue.
 
 * A string can now only be a part of one job at a time. When you add strings to a job you will need to choose what you want to do if any of the selected strings are already in a job. Checking **Move to selected job** will force a move. Leaving it unchecked will not move any strings that are already part of a job.
+
 * You can **Cancel** entire Job or part of it (language or file). On Cancellation strings are removed from translation workflow and returned back to Awaiting Authorization list, not published translations are removed.
 
 ## Lifecycle of a job
