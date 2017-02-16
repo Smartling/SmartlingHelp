@@ -9,7 +9,7 @@ categories:
 
 We’re rolling out an update to how our Jobs feature works, to help you better organize your translation work and keep relevant content together as it moves through the translation process.
 
-Job is becoming more defined package of content with the start and end date. After job is completed you can't add more content to it. In the future releases we will also stop allowing adding more content to the job once it is authorized for translation.
+Job is becoming more defined package of content with the start and end date. After job is completed you can’t add more content to it. In the future releases we will also stop allowing adding more content to the job once it is authorized for translation.
 
 ## Changes to Jobs functionality
 
@@ -19,11 +19,12 @@ When we release the new version of Jobs to your account, you will notice some ch
 
 * If you add a file that is already uploaded to Smartling to a job, the file will be overwritten. Any new content will be added to the job.
 
-* Unauthorized strings can now be added to a job.
+* Unauthorized strings can now be in the job.
 
 * Each job is authorized when it is ready to begin translation. Authorizing a job authorizes all strings in the job. Once any job is authorized, no further content or languages can be added, but translation of individual files or languages within a job can be cancelled. Cancelling removes files from a job, strings are returned to your Authorization queue.
 
 * A string can now only be a part of one job at a time. When you add strings to a job you will need to choose what you want to do if any of the selected strings are already in a job. Checking **Move to selected job** will force a move. Leaving it unchecked will not move any strings that are already part of a job.
+* You can **Cancel** entire Job or part of it (language or file). On Cancellation strings are removed from translation workflow and returned back to Awaiting Authorization list, not published translations are removed.
 
 ## Lifecycle of a job
 
