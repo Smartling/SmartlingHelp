@@ -4,18 +4,18 @@ title: Context Capture JavaScript Library
 ---
 
 
-When you upload resource files to Smartling there isn't any visual context for the strings that are extracted. &nbsp;If your strings are for a web site or application you can quickly and easily add HTML context by integrating the javascript Context Capture Library. Read more about the value of &nbsp;[visual context](http://help.smartling.com/knowledge-base/sections/context/)if you are not already familiar with it.
+When you upload resource files to Smartling there isn’t any visual context for the strings that are extracted. &nbsp;If your strings are for a web site or application you can quickly and easily add HTML context by integrating the javascript Context Capture Library. Not familiar with visual context or don't understand its value? Read more about [visual context](http://help.smartling.com/knowledge-base/sections/context/).
 
 ## What the javascript Context Capture Library does and how it works
 {: .present-before-paste}
 
 Smartling’s Context Capture Library is a javascript library, which can be embedded in a web page to automatically send HTML snapshots of the current page state to a Smartling Project. &nbsp;
 
-The library is triggered when a page is rendered in a browser and as the page UI is updated from user interactions (the DOM changes). &nbsp;So you will need to integrate and use it in an environment that is generating page requests and interactions. &nbsp;You can use it on your development, staging or production environment. The library has been calibrated to minimize any impact on page performance.
+The library is triggered when a page is rendered in a browser and also as the page UI is updated from user interactions (the DOM changes). &nbsp;You will need to integrate and use it in an environment that is generating page requests and interactions. &nbsp;The library has been calibrated to minimize any impact on page performance. You can use it on your development, staging or production environment. &nbsp;NOTE: the unique orgId will be visible to anyone who inspects your page.
 
 ## How to configure and use the Context Capture javascript library
 
-The library uses the standard Smartling API. You will need a unique <pre>orgId<pre> to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
+The library uses the standard Smartling API. You will need a unique **orgId** to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
 
 ![](/uploads/versions/smartling---api--besttest-web-app----x----1252-572x---.png)
 
