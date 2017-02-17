@@ -4,24 +4,18 @@ title: Context Capture JavaScript Library
 ---
 
 
-[Visual context](http://help.smartling.com/knowledge-base/sections/context/)greatly enhances the productivity of human translations.
+When you upload resource files to Smartling there isn't any visual context for the strings that are extracted. &nbsp;If your strings are for a web site or application you can quickly and easily add HTML context by integrating the javascript Context Capture Library. Read more about the value of &nbsp;[visual context](http://help.smartling.com/knowledge-base/sections/context/)if you are not already familiar with it.
 
 ## What the javascript Context Capture Library does and how it works
 {: .present-before-paste}
 
-When you upload resource files to Smartling there isn't any visual context for the strings that are extracted. &nbsp;If your content is for a web site or application, you can quickly and easily add HTML context by integrating the javascript Context Capture Library.
-
 Smartling’s Context Capture Library is a javascript library, which can be embedded in a web page to automatically send HTML snapshots of the current page state to a Smartling Project. &nbsp;
 
-The library is triggered when a page is accessed and as the pages UI is updated (the DOM changes). &nbsp;So you will need to integrated and use it in an environment that is generating page requests and interactions. &nbsp;You can use on your production site. The library has been calibrated to minimize any impact on page performance.
-
-&nbsp;
+The library is triggered when a page is rendered in a browser and as the page UI is updated from user interactions (the DOM changes). &nbsp;So you will need to integrate and use it in an environment that is generating page requests and interactions. &nbsp;You can use it on your development, staging or production environment. The library has been calibrated to minimize any impact on page performance.
 
 ## How to configure and use the Context Capture javascript library
 
-The library uses the standard Smartling API.
-
-You will need a unique orgId to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
+The library uses the standard Smartling API. You will need a unique orgId to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
 
 ![](/uploads/versions/smartling---api--besttest-web-app----x----1252-572x---.png)
 
