@@ -15,7 +15,7 @@ The library is triggered when a page is rendered in a browser and as the page UI
 
 ## How to configure and use the Context Capture javascript library
 
-The library uses the standard Smartling API. You will need a unique orgId to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
+The library uses the standard Smartling API. You will need a unique <pre>orgId<pre> to upload context for your project. This is available from any Smartling Project at Project Settings &gt; API.
 
 ![](/uploads/versions/smartling---api--besttest-web-app----x----1252-572x---.png)
 
