@@ -7,10 +7,9 @@ subarticles:
   - title: Sitecore Connector - Installation and Configuration
   - title: Sitecore Connector - User Guide
   - title: Sitecore Connector - Upgrading to Version 1.3x
+  - title: Sitecore Connector - Upgrading to Version 1.4x
   - title: Sitecore Connector - Version History
 wistia:
   video: false
   id:
 ---
-
-
