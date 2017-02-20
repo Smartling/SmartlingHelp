@@ -6,7 +6,7 @@ title: Sitecore Connector - Version History
 
 ## Versions 1.3 - 30/05/2016
 
-> **Important!** You must complete the steps described in [Upgrade to version 1.3](){: .cc-active}. The new DB schema is not compatible with the previous version and the Connector will stop working if you do not follow these instructions.
+> **Important!** You must complete the steps described in [Upgrade to version 1.3](/knowledge-base/articles/sitecore-connector-upgrading-to-version-1-3x/). The new DB schema is not compatible with the previous version and the Connector will stop working if you do not follow these instructions.
 
 ### Improvements:
 
@@ -15,7 +15,7 @@ title: Sitecore Connector - Version History
 * Changed callback HTTP response code from 202 to 200. This is what the Smartling Callback service expects
 * Previous version required that `Callback` host didnt contain a trailing slash. The new one handles trailing slash if it's present.
 * Simplified installation. The `Remote` package doesn't ask question how to update items anymore
-* The Connector now sets status to&nbsp;`completed` for items that were uploaded but don't contain strings for translation
+* The Connector now sets status to `completed` for items that were uploaded but don't contain strings for translation
 * Set maximum of concurrent requests to Smartling to 2
 
 
@@ -23,7 +23,7 @@ title: Sitecore Connector - Version History
 
 * Fixed preview button
 * `Language` field validator no longer crashes when value is empty
-* Updated&nbsp;`Word count` column on `Submissions Board`
+* Updated `Word count` column on `Submissions Board`
 * Fixed errors that were caused if a file was manually deleted in Smartling
 
 
@@ -110,4 +110,4 @@ title: Sitecore Connector - Version History
 
 ### Known issues
 
-* Context connection doesn't re-establish connection with new settings after changing`/sitecore/System/Modules/Smartling Connector/Context.`
+* Context connection doesn't re-establish connection with new settings after changing `/sitecore/System/Modules/Smartling Connector/Context.`
