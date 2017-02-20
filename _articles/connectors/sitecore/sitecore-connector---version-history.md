@@ -3,6 +3,42 @@ layout: article
 title: Sitecore Connector - Version History
 ---
 
+## Versions 1.4.0 - 16/02/2017
+
+> **Important!** You must complete the steps described in [Upgrade to version 1.4](/knowledge-base/articles/sitecore-connector-upgrading-to-version-1-4x/). The new DB schema is not compatible with the previous version and the Connector will stop working if you do not follow these instructions.
+
+### Improvements:
+
+* Sitecore introduced [presentation layout customization per language](http://www.kewlcodes.com/posts/1160/Versioned-layouts-Shared-and-final-layout-in-Sitecore-8). It means that content editor can adjust presentation (add personalization and so on) for every language without involving developers. We added native support for this feature in our connector.  
+Starting from this release the connector copies `Final layout` from a source to a target language when the first revision is created. But if connector creates 2nd, 3rd, and so on revisions of target language then `Final layout` is not copied from a source. It's done to preserve your possible changes of `Final layout`.
+* Added the new Sitecore Workflow action which allows to submit item to configured locales. So if you use Sitecore Workflow then upload to Smartling can be just a part of your Workflow and no need to send content to Smartling explicit. Every new content, or update in content will be submitted to Smartling automatically.
+* Updates in UI:
+  * Multiple upload buttons are replaced with the single large button in Smartling toolbar.
+  ![toolbar](https://cloud.githubusercontent.com/assets/1511122/23136929/dec30ada-f7a7-11e6-94f7-1bfe2cd77f24.png)
+  * New icons in menu.
+  ![start menu](https://cloud.githubusercontent.com/assets/1511122/23136962/01c69f38-f7a8-11e6-8a63-fc3e29b04d90.png)
+  * Updated **Translations Progress** screen. Now `completed` and `in progress` items are present in the same table. Added more filters.
+  ![Translations Progress](https://cloud.githubusercontent.com/assets/1511122/23137046/75d70822-f7a8-11e6-8520-b1344b6c9fb0.png)
+
+
+### Bugfixes:
+
+* Fixed issue with flag icon in Stecore 8.1
+
+
+## Versions 1.3.1 - 22/10/2016
+
+### Improvements:
+
+* Undisplayable unicode characters (codes `\u0000`-`\u0008`) are stripped before uploading content to Smartling.
+* Changed the way Smartling check's progress of translations to prevent errors.
+* Added more detailed logs.
+
+
+### Bugfixes:
+
+* We fixed an issue that caused errors checking and downloading translations in cases where the Sitecore language codes are different from Smartling's locale codes.
+
 
 ## Versions 1.3 - 30/05/2016
 
