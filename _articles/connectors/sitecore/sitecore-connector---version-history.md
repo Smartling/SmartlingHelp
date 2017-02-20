@@ -40,7 +40,7 @@ title: Sitecore Connector - Version History
 ### Bugfixes:
 
 * Connector now treats the language named in the settings profile as the source language.
-* Context connection doesn't use actual settings from \Modules\Smartling Connector\Context.
+* Context connection doesn't use actual settings from `/sitecore/system/Modules/Smartling Connector/Context`.
 
 
 ## Version 1.2.1 - 05/15/2015
@@ -68,7 +68,7 @@ title: Sitecore Connector - Version History
 ### Bugfixes:
 
 * Wrote some smartling exceptions in smartling log (instead of general sitecore log).
-* Context connection doesn't use actual settings from \Modules\Smartling Connector\Context.
+* Context connection doesn't use actual settings from `/sitecore/system/Modules/Smartling Connector/Context`.
 
 
 ## Version 1.2-beta4 - 01/12/2015
@@ -89,7 +89,7 @@ title: Sitecore Connector - Version History
 
 ### Known issues
 
-* Context connection doesn't re-establish connection with new settings after changing`/sitecore/System/Modules/Smartling Connector/Context.`
+* Context connection doesn't re-establish connection with new settings after changing `/sitecore/system/Modules/Smartling Connector/Context.`
 
 
 ## Version 1.2-beta2 - 11/17/2014
@@ -110,4 +110,4 @@ title: Sitecore Connector - Version History
 
 ### Known issues
 
-* Context connection doesn't re-establish connection with new settings after changing `/sitecore/System/Modules/Smartling Connector/Context.`
+* Context connection doesn't re-establish connection with new settings after changing `/sitecore/system/Modules/Smartling Connector/Context.`
