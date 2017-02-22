@@ -4,7 +4,45 @@ title: Repository Connector - Version History
 ---
 
 
-## Version 1.5.1 06/10/2016 [current]
+## Version 1.5.5 02/03/2016 [current]
+
+### Features
+
+* Updated validation pattern for `application` locale code. Now you can use any string as `application` locale code in `smartling-config.json` (length: 1 to 50).
+* Added `cleanup` step before `checkout` and `commit` for SVN repositories, in order not to have issue with locks.
+* Added updating the `last modified` flag for files that are not changed and should not be pushed in order not to download content every time check translation status is executed.
+* Automatically recover connector from inconsistent state, when there exist local commits that were not pushed to remote repository.
+
+
+## Version 1.5.4 10/19/2016
+
+### Features
+
+* Updated the way the connector commits translated files back to your repository. Previously, a separate commit was made for each locale of each source file. Now, all available locales are included in one commit per source file.
+
+
+## Version 1.5.3 09/16/2016
+
+### Features
+
+* `resourcesConfig` parameter now accepts relative paths with leading `./`.
+* Added more helpful error logging for network errors between the Connector and Smartling API.
+
+
+### Bug Fixes
+
+* Uploading resources files no longer fails due to an empty file or a parsing error.
+* Status check no longer fails if a file has been manually deleted from Smartling.
+
+
+## Version 1.5.2 08/17/2016
+
+### Bug Fixes
+
+* Prevent fail on resources linked to repository that doesn't exist in the configuration.
+
+
+## Version 1.5.1 06/10/2016
 
 ### Features
 

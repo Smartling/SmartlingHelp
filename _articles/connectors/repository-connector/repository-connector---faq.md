@@ -40,13 +40,15 @@ You can alter the translation configuration file while the connector is running.
 
 ## What are my options for downloading translated files?
 
-Smartling gives you a few advanced options for configuring how you get your translated files back from Smartling. To set these up, you need to add a `downloadTranslations` node to the repo-connector.conf file. The `downloadTranslations` node can contain the following parameters:
+Smartling gives you a few advanced options for configuring how you get your translated files back from Smartling. To set these up, you need to add a `downloadTranslations` node on repository level to the repo-connector.conf file. The `downloadTranslations` node can contain the following parameters:
 
 * `trigger` - `COMPLETED` or `ONCHANGE` - determines when to download translated files from Smartling. `COMPLETED` downloads files only when all translations are complete. `ONCHANGE` downloads translated files whenever they are updated. Default is `COMPLETED.`
 
 * `retrievalType` - Sets type of translation for downloaded files. Allowed values are `PUBLISHED` (default), `PENDING`, and `PSEUDO`. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information on retrieval type.
 
 * `includeOriginalStrings` - If `TRUE`, Smartling returns the original string if there is no translations available. If `FALSE`, Smartling returns a blank string if there is no translations. Defaults to `TRUE`. This parameter is supported only for Gettext, java properties, custom XML, Android XML and JSON files. See [Download Files](/developers/api/v2/files/download-translated-file-single-locale/) for more information.
+
+You can find example of usage in [complete repo-connector.conf example file](/public/example-files/repo-connector-complete-example.conf)
 
 ## Can I upload/download resource files from all branches except my master branch?
 
@@ -242,11 +244,11 @@ You can then create multiple `repo-connector.conf` files in the Repository Conne
 Finally, start the connector multiple times, providing a specific config path each time using the `-configuration` parameter:
 
 ~~~
-java -jar repo-connector-1.5.4.jar -configuration ./cfg/french/ -start
+java -jar repo-connector-1.5.5.jar -configuration ./cfg/french/ -start
 ~~~
 
 ~~~
-java -jar repo-connector-1.5.4.jar -configuration ./cfg/german/ -start
+java -jar repo-connector-1.5.5.jar -configuration ./cfg/german/ -start
 ~~~
 
 You now have multiple instances of the Repository Connector with different configurations, connected to the same repository.
