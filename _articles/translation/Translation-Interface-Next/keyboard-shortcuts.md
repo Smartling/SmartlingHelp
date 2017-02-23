@@ -8,4 +8,4 @@ wistia:
 
 This is the article's content.
 
-## This is an H2
+## **This is an H2**
