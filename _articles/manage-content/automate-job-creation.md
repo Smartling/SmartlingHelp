@@ -17,7 +17,7 @@ To create new rule provide the following:
 
 2)**Schedule** - defines when the process will be executed.
 
-We will also add timestamp to the job name in order to keep jobs unique. For example, job name is set to “Daily batch” and scheduled to run daily at 5:00PM Pacific Time. It will result in the job with name “Daily Batch (2017.03.21 17:00 PST)”
+We will also add timestamp to the job name in order to keep jobs unique. For example, job name is set to “Daily batch” and scheduled to run daily at 5:00 PM Pacific Time. It will result in the job with name “Daily Batch (2017.03.21 17:00 PST)”
 
 3) **Languages**. All the content in Awaiting Authorization (including partially authorized) that is not yet in another Job will be added to the newly created Job for the selected languages.
 
