@@ -13,7 +13,7 @@ All commonly used actions have a keyboard shortcut.
 
 Hover over action for current shortcut (gif)
 
-<video src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4">
+<video width="640" height="360" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4">
 
 Settings&gt; keyboard pref: actions which there are shortcuts
 
