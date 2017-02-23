@@ -15,7 +15,7 @@ To determine if an action has a keyboard shortcut, hover over the action button 
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" controls="">&nbsp;</video>
 
-Settings&gt; keyboard pref: actions which there are shortcuts
+To display all of the keyboard shortcuts, Click![](/uploads/versions/screen-shot-2017-02-23-at-4-42-23-pm---x----85-29x---.png)&nbsp;"SettingsSettings&gt; keyboard pref: actions which there are shortcuts
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Settings_Keyboard Pref.mp4" controls="">&nbsp;</video>
 
