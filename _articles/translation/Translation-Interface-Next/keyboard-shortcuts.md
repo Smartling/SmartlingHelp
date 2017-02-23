@@ -4,9 +4,11 @@ title: Keyboard Shortcuts
 ---
 
 
-## What actions have keyboard shortcuts in TI Next?
+## What commands have keyboard shortcuts in TI Next?
 
-All commonly used actions have a keyboard shortcut.
+All commonly used commands have a keyboard shortcut.
+
+![](/uploads/versions/screen-shot-2017-02-23-at-4-55-45-pm---x----1556-662x---.png)
 <br>&nbsp;
 
 ## How do I know whether an action has a keyboard shortcut or not?
@@ -17,11 +19,11 @@ To determine if an action has a keyboard shortcut, hover over the action button 
 
 To display all of the keyboard shortcuts:&nbsp;
 
-1. &nbsp;Click "Settings"
+1. &nbsp;Click “Settings”
 
 ![](/uploads/versions/screen-shot-2017-02-23-at-4-42-23-pm---x----85-29x---.png)
 
-2. Select &nbsp;"Keyboard Preferences"
+1. Select &nbsp;“Keyboard Preferences”
 
 ![](/uploads/versions/screen-shot-2017-02-23-at-4-51-50-pm---x----153-146x---.png)
 
