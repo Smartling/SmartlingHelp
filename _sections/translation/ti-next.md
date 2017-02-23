@@ -4,7 +4,7 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: none
+  - title: Keyboard Shortcuts
 wistia:
   video: false
   id:
