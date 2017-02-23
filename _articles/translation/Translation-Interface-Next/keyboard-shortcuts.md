@@ -13,6 +13,8 @@ All commonly used actions have a keyboard shortcut.
 
 Hover over action for current shortcut (gif)
 
+<video src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" autoplay>
+
 Settings&gt; keyboard pref: actions which there are shortcuts
 
 ## I don’t like the default keyboard shortcuts. How can I set up my own keyboard shortcuts?
