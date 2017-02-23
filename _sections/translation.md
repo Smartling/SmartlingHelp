@@ -3,7 +3,6 @@ title: Translation
 layout: section
 subsections:
   - title: The Translation Interface
-  - title: TI Next
 subarticles:
   - title: Getting Started with Translation
   - title: Jobs (Translation Resource)
