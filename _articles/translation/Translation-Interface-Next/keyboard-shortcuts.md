@@ -11,7 +11,7 @@ All commonly used actions have a keyboard shortcut.
 
 ## How do I know whether an action has a keyboard shortcut or not?
 
-Hover over action for current shortcut (gif)
+To determine if an action has a keyboard shortcut, hover over the action button in the interface. When the action is hovered over, a window will appear that details the action function and the keyboard shortcut.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" controls="">&nbsp;</video>
 
