@@ -21,7 +21,7 @@ To display all of the keyboard shortcuts:&nbsp;
 
 ![](/uploads/versions/screen-shot-2017-02-23-at-4-42-23-pm---x----85-29x---.png)
 
-1. Select &nbsp;"Keyboard Preferences"
+2. Select &nbsp;"Keyboard Preferences"
 
 ![](/uploads/versions/screen-shot-2017-02-23-at-4-51-50-pm---x----153-146x---.png)
 
