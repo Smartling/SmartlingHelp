@@ -31,6 +31,3 @@ Default keyboard shortcut profiles in drop down
 
 Hover over updates
 
-<video src="/uploads/bulkfileupload-sd.mp4" autoplay>
-
-Link to [file](/uploads/bulkfileupload-sd.mp4)
