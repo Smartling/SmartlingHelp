@@ -23,7 +23,7 @@ We will also add timestamp to the job name in order to keep jobs unique. For exa
 
 4) **Authorization.&nbsp;**You can have created job authorized into default workflows after creation. Or you can keep it not authorized and do it later on the Jobs page.&nbsp;
 
-5) **Due date** be set from the time of the Job creation. By default only weekdays are considered in the due date calculation. “Include weekends” setting will consider Sat and Sun as working days for the translation team.
+5) **Due date**&nbsp;can be set from the time of the Job creation. By default only weekdays are considered in the due date calculation. “Include weekends” setting will consider Sat and Sun as working days for the translation team.
 
 For example, if job is due in 48 hours and it is created on Fri - it will be due on Tue. With “Include weekends” option Job will be due on Sun.
 
