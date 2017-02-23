@@ -37,6 +37,7 @@ If overwrite, previous action becomes blank
 ## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get TI Next to behave like my other CAT tool?
 
 Default keyboard shortcut profiles in drop down
+
 <video src="/uploads/TI-NEXT-VIDEOS/Default keyboard shortcut profiles in drop down.mp4" autoplay>
 
 Hover over updates
