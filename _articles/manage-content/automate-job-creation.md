@@ -15,7 +15,7 @@ To create new rule provide the following:
 
 1) **Job name**. This text will be used in the name of the created job.
 
-2)**&nbsp;Schedule -&nbsp;**defines when the process will be executed.
+2)**Schedule** - defines when the process will be executed.
 
 We will also add timestamp to the job name in order to keep jobs unique. For example, job name is set to "Daily batch" and scheduled to run daily at 5:PM Pacific Time. It will result in the job with name "Daily Batch (2017.03.21 5:00 PM PST)"
 
