@@ -21,42 +21,34 @@ The package contains an annotated version of `repo-connector.conf` to help you s
 * `repositories` - Defines an array of source repositories. A repository cannot have more than one authentication attribute and a public repository may have neither. Without authentication information, the connector will be able to get files from the repository but not download translated files from Smartling. Repositories have the following attributes:
 
   * `url` - the URL for the repository. Must be unique in the array
-
   * `alias` - alias for the repository. The alias is used in creating the [fileURI](/developers/api/v2/files/upload-file/#fileuri) that is registered with Smartling for uploaded files. A unique alias value is recommended but not required. The complete uri will be "alias/branch/file”.
-
   * `type` - Repository type. Possible values are GIT and SVN
-
   * `userPassword` (optional) - defines user/password authentication type for a Github repository. Other authentication options are available.
-
     * `user` - user name
-
     * `password` - user password
 
   * `smartlingProject` - defines your Smartling project credentials. You can find these in the Smartling Dashboard on the account-level API page. **Note:** This section was changed in version 1.5.0 and is not backwards compatible with previous versions.
 
     * `projectId` - unique id for your project.
-
     * `userIdentifier` - The User Identifier for your Smartling v2 API Token.
-
     * `tokenSecret` - The token secret for your Smartling v2 API Token.
 
   * `resourcesConfig` - the path to the repository configuration file, if hosted in your code repository. Default is 'smartling-config.json'
-
   * `serverResourcesConfig` - if you would prefer not to commit the repository configuration file to your code repository, you can host it on the Connector server. In this case, use serverResourcesConfig to define a path to the config file. You can define the absolute path or the relative path from the repo-connector.conf folder.
-
-  * `namespace` - `TRUE` or `FALSE` (default). If `TRUE`, strings are shared between all files. Repeated strings are translated only once in Smartling. If your file names contain version information, this setting will avoid having to retranslate entire files when you upload a new version. If `FALSE`, strings are unique to each file. See the [namespace](http://support.smartling.com/hc/en-us/articles/207178807) documentation for more details. **Warning:** This property should not be edited after you start uploading content to Smartling.
-
+  * `namespace` - `TRUE` or `FALSE` (default). If `TRUE`, strings are shared between all files. Repeated strings are translated only once in Smartling. If your file names contain version information, this setting will avoid having to retranslate entire files when you upload a new version. If `FALSE`, strings are unique to each file. See the [namespace](http://support.smartling.com/hc/en-us/articles/207178807) documentation for more details.
+  > **Warning:** This property should not be edited after you start uploading content to Smartling.
   * `branches` - Regular expression for branch names to be checked for resources. If this is undefined, all branch names will be checked. Example:
 
-  `"branches": "(dev|master|dev_cx-chat|dev_active-booking)"`
+    ~~~json
+    "branches": "(dev|master|dev_cx-chat|dev_active-booking)"
+    ~~~
 
-  Remember that `/` is an escape character both for JSON and RegEx, so you need to double-escape special characters for your Regular Expressions to work.
+    Remember that `/` is an escape character both for JSON and RegEx, so you need to double-escape special characters for your Regular Expressions to work.
 
-  * `pollingSchedule` - Cron expression defining how often the Repository Connector polls your repository for updates. We strongly recommend using this method to upload new translatable files and download translations. However, if you need upload of new files to occur with minimum latency, you can [set up a webhook](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository){: .cc-active}.
-
+  * `pollingSchedule` - Cron expression defining how often the Repository Connector polls your repository for updates. We strongly recommend using this method to upload new translatable files and download translations. However, if you need upload of new files to occur with minimum latency, you can [set up a webhook](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository).
   * `Scheduler`
 
-    * `checkTranslation` - Cron expression defining how often the Connector will poll Smartling projects for updated translations. You must provide a valid expression, even if you set up [webhooks](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository){: .cc-active} and [callbacks](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker){: .cc-active}.
+    * `checkTranslation` - Cron expression defining how often the Connector will poll Smartling projects for updated translations. You must provide a valid expression, even if you set up [webhooks](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository) and [callbacks](http://help.smartling.com/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker).
 * Other authentication options are included in the example file.
 
 ## Start the Repository Connector Application
@@ -73,16 +65,14 @@ To stop the Repository Connector, execute:
 java -jar repo-connector-1.5.5.jar -stop
 ~~~
 
-If you have saved your configuration files in a folder other than the default (/cfg) add the parameter -configuration
-
-<folder_name> to the command.</folder_name>
+If you have saved your configuration files in a folder other than the default (`/cfg`) add the parameter `-configuration <folder_name>` to the command.
 
 To run as a daemon, execute:
 
 ~~~
-java -jar repo-connector-1.5.5.jar -start
+java -jar repo-connector-1.5.5.jar -start&
 ~~~
 
 ## Configure your Translation Settings
 
-Now that the Repository Connector is up and running, it's time to [set up how you will translate your project](){: .cc-active}.
+Now that the Repository Connector is up and running, it's time to [set up how you will translate your project](/knowledge-base/articles/repository-connector-translation-settings/).
