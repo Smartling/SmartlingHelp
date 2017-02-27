@@ -1,10 +1,8 @@
 ---
 layout: article
-title: Translation History
+title: Translations with Character Limits
 ---
 
-## What is translation history?
-What information is included in the history, latest history 
+## How do I see if a segment has character limits, and how long my translation is?
+In additional details 
 
-## How do I access translation history?
-Side bar 
