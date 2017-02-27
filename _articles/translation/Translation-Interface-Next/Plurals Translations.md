@@ -1,10 +1,9 @@
 ---
 layout: article
-title: Translation History
+title: Plurals Translations
 ---
 
-## What is translation history?
-What information is included in the history, latest history 
+## What are plurals, and how are they displayed in TI Next?
+## How do I translate a plural term?
 
-## How do I access translation history?
-Side bar 
+Product specs for Plurals Support: https://docs.google.com/a/smartling.com/document/d/1CY9CPBCqqHRrXl16hhjPDEuEyphZVYh3NfBmy1f7pD4/edit?usp=sharing
