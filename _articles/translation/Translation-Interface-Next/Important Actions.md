@@ -9,7 +9,6 @@ title: Important Actions
 ## What happens when I Save translations?
 
 ## What are the alerts I see in my translation in TI Next?
-<br>&nbsp;
 
 ## What happens if I haven’t saved my translations and I lose internet connectivity?
 
