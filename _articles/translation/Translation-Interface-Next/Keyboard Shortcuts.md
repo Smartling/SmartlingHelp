@@ -35,8 +35,6 @@ Smartling now offers preset keyboard shortcuts that align with the settings of o
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Default keyboard shortcut profiles in drop down.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
-&nbsp;
-
 ## I don’t like the default keyboard shortcuts. How can I set up my own keyboard shortcuts?
 
 All of the keyboard shortcuts can be customized.
