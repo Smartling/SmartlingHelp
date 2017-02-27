@@ -1,18 +1,16 @@
 ---
 layout: article
-title: Overview
+title: Insertables/Placeholders 
 ---
 
-## Why are you changing the current TI?
+What are placeholders and insertables?
+How are insertables displayed in TI Next?
+Clickable objects in the source. 
+How do I insert or remove insertables in TI Next?
+Click on insertable in the source and it populates in target 
+Autocomplete:start typing and get suggestions 
+Click on the editor toolbar (Insertable) 
+Keyboard shortcut (insertable)  
+How do I ensure that I have inserted all the right insertables from the source in the target?
 
-
-## What’s new in the TI Next experience?
-Translator experience
-Editor/ reviewer experience
-
-
-## How do the features of TI Next compare to TI?
-What features are new?
-What features are missing?
-When will I get the missing features in TI Next?
 
