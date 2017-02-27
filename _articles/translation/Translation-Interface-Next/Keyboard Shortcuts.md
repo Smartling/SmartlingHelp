@@ -29,6 +29,14 @@ To display all of the keyboard shortcuts:&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Settings_Keyboard Pref.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
+## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get TI Next to behave like my other CAT tool?
+
+Smartling now offers preset keyboard shortcuts that align with the settings of other CAT tools. To access these presets, simply select your desired CAT tool settings from the drop down in the “Keyboard Shortcuts” window (Settings &gt; Keyboard Preferences).&nbsp;
+
+<video width="750" src="/uploads/TI-NEXT-VIDEOS/Default keyboard shortcut profiles in drop down.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
+
+&nbsp;
+
 ## I don’t like the default keyboard shortcuts. How can I set up my own keyboard shortcuts?
 
 All of the keyboard shortcuts can be customized.
@@ -55,11 +63,5 @@ If a keyboard shortcut has already been assigned to a command, a warning pop up 
 When a shortcut is overwritten, the keyboard shortcut for the original command becomes blank. The original command will not have a keyboard shortcut until a new unique keyboard shortcut is assigned.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Overwrite Shortcut.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
-
-## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get TI Next to behave like my other CAT tool?
-
-Smartling now offers preset keyboard shortcuts that align with the settings of other CAT tools. To access these presets, simply select your desired CAT tool settings from the drop down in the “Keyboard Shortcuts” window (Settings &gt; Keyboard Preferences).&nbsp;
-
-<video width="750" src="/uploads/TI-NEXT-VIDEOS/Default keyboard shortcut profiles in drop down.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
 &nbsp;
