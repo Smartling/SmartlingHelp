@@ -13,7 +13,7 @@ All commonly used commands have a keyboard shortcut.
 
 ## How do I know whether an command has a keyboard shortcut or not?
 
-To determine if an action has a keyboard shortcut, hover over the command button in the interface. When the action is hovered over, a window will appear that details the action function and the keyboard shortcut.&nbsp;
+To determine if an command has a keyboard shortcut, hover over the command button in the interface. When the action is hovered over, a window will appear that details the action function and the keyboard shortcut.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" autoplay="" loop="loop">&nbsp;</video>
 
