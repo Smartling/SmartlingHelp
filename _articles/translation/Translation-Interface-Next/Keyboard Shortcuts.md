@@ -35,24 +35,32 @@ All of the keyboard shortcuts can be customized.
 
 To customize a shortcut:
 
-1. Enter the &nbsp;"Keyboard Shortcuts" &nbsp;window (Settings &gt; Keyboard Preferences).&nbsp;
-2. Click inside the box next to the shortcut you would like to customize.&nbsp;
+1. Enter the &nbsp;"Keyboard Shortcuts" &nbsp;window (Settings &gt; Keyboard Preferences)
+2. Click inside the box next to the shortcut you would like to customize
+3. Enter your desired shortcut
+4. Click the blue "Save Changes" button on the bottom left corner of the window
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Set Custom Shortcut.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
-Hover over updates
+When you edit a keyboard shortcut, the hover over details for the command in the translation interface will also update.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hoverover Updates.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
 ## Why am I unable to set a keyboard shortcut?
 
-If overwrite, previous action becomes blank
+Each Keyboard shortcut can only be designated to one command.
+
+If a keyboard shortcut has already been assigned to a command, a warning pop up will appear. This pop up, will give you the option to overwrite the existing assignment.&nbsp;
+
+When a shortcut is overwritten, the keyboard shortcut for the original command becomes blank. The original command will not have a keyboard shortcut until a new unique keyboard shortcut is assigned.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Overwrite Shortcut.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
 ## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get TI Next to behave like my other CAT tool?
 
-Default keyboard shortcut profiles in drop down
+Smartling now offers preset keyboard shortcuts that align with the settings of other CAT tools. To access these presets, simply select your desired CAT tool settings from the drop down in the "Keyboard Shortcuts" window (Settings &gt; Keyboard Preferences).&nbsp;
+
+These presets can also be customized.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Default keyboard shortcut profiles in drop down.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
