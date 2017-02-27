@@ -1,18 +1,11 @@
 ---
 layout: article
-title: Overview
+title: Accessing TI Next
 ---
 
-## Why are you changing the current TI?
+## How do I access TI Next?
+## How can I go back to TI if I do not like TI Next?
+## What happens to my translations if I go back from TI Next to TI?
+## Why am I not able to access TI Next?
 
-
-## What’s new in the TI Next experience?
-Translator experience
-Editor/ reviewer experience
-
-
-## How do the features of TI Next compare to TI?
-What features are new?
-What features are missing?
-When will I get the missing features in TI Next?
 
