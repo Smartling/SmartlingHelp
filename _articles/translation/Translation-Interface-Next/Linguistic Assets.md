@@ -37,13 +37,13 @@ Highlight in editor + Keyboard shortcut
 I would like to see more/ less T.M. result matches
 Search options 
 
-## How do I search glossary in TI Next?
+## How do I search glossary in the new CAT tool?
 Same as TM 
 
 ## How do I see details about the T.M?
  Hover over the “i” 
 
-## How do I add glossary terms and translations in TI Next?
+## How do I add glossary terms and translations in the new CAT tool? 
 
 ## How do I access the glossary for a translation?
 glossary will also be a link
