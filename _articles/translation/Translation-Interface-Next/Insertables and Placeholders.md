@@ -20,11 +20,11 @@ title: Insertables and Placeholders
 
 There are multiple ways to add **insertables**and **placeholders** in the new CAT tool:
 
-* Click on insertable in the source and it populates in target.
+* Click on the insertable/placeholder in the source and it populates in target.
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Click on source to add insertables.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-* Click on the editor toolbar
+* Click the desired insertable on editor toolbar.
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Adding insertable from action bar.mp4" autoplay="" loop="loop">&nbsp;</video>
 
@@ -32,7 +32,7 @@ There are multiple ways to add **insertables**and **placeholders** in the new CA
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-* Start typing and and the tool will provide a suggestion. Click enter to add the suggestion to the target.&nbsp;
+* Start typing and the tool will provide a suggestion. Click enter to add the suggestion to the target.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/insertables autofill.mp4" autoplay="" loop="loop">&nbsp;</video>
 
