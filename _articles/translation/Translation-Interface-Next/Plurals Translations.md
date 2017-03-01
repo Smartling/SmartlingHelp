@@ -3,7 +3,7 @@ layout: article
 title: Plurals Translations
 ---
 
-## What are plurals, and how are they displayed in TI Next?
+## What are plurals, and how are they displayed in SMartling's new CAT tool?
 
 ## How do I translate a plural term?
 
