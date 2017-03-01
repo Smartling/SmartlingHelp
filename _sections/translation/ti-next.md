@@ -1,5 +1,5 @@
 ---
-title: TI Next
+title: The New CAT Tool
 layout: section
 subsections:
   - title:
@@ -12,4 +12,3 @@ wistia:
 ---
 
 
-Placeholder for TI Next articles
