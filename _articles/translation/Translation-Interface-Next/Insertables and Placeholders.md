@@ -6,11 +6,11 @@ title: Insertables and Placeholders
 
 ## What are placeholders and insertables?
 
-## How are insertables displayed in TI Next?
+## How are insertables displayed in the new CAT tool?
 
 Clickable objects in the source.
 
-## How do I insert or remove insertables in TI Next?
+## How do I insert or remove insertables in the new CAT tool?
 
 Click on insertable in the source and it populates in target Autocomplete:start typing and get suggestions Click on the editor toolbar (Insertable) Keyboard shortcut (insertable)
 
