@@ -10,29 +10,29 @@ title: Insertables and Placeholders
 
 **Insertable**: An **insertable** is a formatting marker. Such as, a non-breaking space (**NBSP**) or line break (**BR**).
 
-## How are insertables displayed in the new CAT tool?
+## How are insertables/placeholders displayed in the new CAT tool?
 
-**Insertables&nbsp;**will be displayed as clickable light grey bubbles within the source.&nbsp;
+**Insertables** and&nbsp;**placeholders**&nbsp;will be displayed as clickable light grey bubbles within the source.&nbsp;
 
 ![](/uploads/versions/screen-shot-2017-03-01-at-3-19-43-pm---x----463-81x---.png)![](/uploads/versions/screen-shot-2017-03-01-at-3-20-21-pm---x----465-71x---.png)
 
-## How do I insert or remove insertables in the new CAT tool?
+## How do I insert or remove insertables/placeholder in the new CAT tool?
 
-**Insertable:**
+There are multiple ways to add **insertables**and **placeholders** in the new CAT tool:
 
-Click on insertable in the source and it populates in target
+* Click on insertable in the source and it populates in target.
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Click on source to add insertables.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-Click on the editor toolbar (Insertable)
+* Click on the editor toolbar
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Adding insertable from action bar.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-Keyboard shortcut (insertable)
+* Use a keyboard shortcut[http://help.smartling.com/knowledge-base/articles/Keyboard-Shortcuts/](http://help.smartling.com/knowledge-base/articles/Keyboard-Shortcuts/).
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-Start typing and get suggestions
+* Start typing and and the tool will provide a suggestion. Click enter to add the suggestion to the target.&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/insertables autofill.mp4" autoplay="" loop="loop">&nbsp;</video>
 
