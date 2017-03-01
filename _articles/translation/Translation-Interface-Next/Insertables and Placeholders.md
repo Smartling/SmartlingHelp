@@ -28,7 +28,7 @@ There are multiple ways to add **insertables**and **placeholders** in the new CA
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Adding insertable from action bar.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-* Use a keyboard shortcut[http://help.smartling.com/knowledge-base/articles/Keyboard-Shortcuts/](http://help.smartling.com/knowledge-base/articles/Keyboard-Shortcuts/).
+* Use a [keyboard shortcut](/knowledge-base/articles/Keyboard-Shortcuts/).
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" autoplay="" loop="loop">&nbsp;</video>
 
