@@ -5,7 +5,7 @@ subsections:
   - title:
 subarticles:
   - title: Keyboard Shortcuts
-  - title: Issues
+  - title: Managing Issues
 wistia:
   video: false
   id:
