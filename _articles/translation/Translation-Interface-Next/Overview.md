@@ -3,16 +3,16 @@ layout: article
 title: Overview
 ---
 
-## Why are you changing the current TI?
+## Why are you changing the current CAT tool?
 
 
-## What’s new in the TI Next experience?
+## What’s new in the CAT tool experience?
 Translator experience
 Editor/ reviewer experience
 
 
-## How do the features of TI Next compare to TI?
+## How do the features of Smartling's new CAT tool compare to the classic CAT tool?
 What features are new?
-What features are missing?
-When will I get the missing features in TI Next?
+What additional features are still going to be released?
+When will these addional features be released?
 
