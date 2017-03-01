@@ -4,7 +4,7 @@ title: Keyboard Shortcuts
 ---
 
 
-## What commands have keyboard shortcuts in TI Next?
+## What commands have keyboard shortcuts in the new CAT tool?
 
 All commonly used commands have a keyboard shortcut.
 
@@ -29,7 +29,7 @@ To display all of the keyboard shortcuts:&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Settings_Keyboard Pref.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
-## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get TI Next to behave like my other CAT tool?
+## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get Smartling's new CAT tool to behave like my other CAT tool?
 
 Smartling now offers preset keyboard shortcuts that align with the settings of other CAT tools. To access these presets, simply select your desired CAT tool settings from the drop down in the “Keyboard Shortcuts” window (Settings &gt; Keyboard Preferences).&nbsp;
 
