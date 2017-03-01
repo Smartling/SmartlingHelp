@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Accessing TI Next
+title: Accessing The New CAT Tool
 ---
 
 
