@@ -14,7 +14,7 @@ subarticles:
   - title: Translations with Character Limits
   - title: Linguistic Assets
   - title: Quality Checks
-  - title: Segment Translations
+  - title: Segment Translation
   - title: Translation History
 wistia:
   video: false
