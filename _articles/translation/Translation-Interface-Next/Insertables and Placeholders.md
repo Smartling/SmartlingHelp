@@ -37,3 +37,7 @@ There are multiple ways to add **insertables**and **placeholders** in the new CA
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/insertables autofill.mp4" autoplay="" loop="loop">&nbsp;</video>
 
 ## How do I ensure that I have inserted all the right insertables from the source in the target?
+
+Link to QA Check?&nbsp;
+
+&nbsp;
