@@ -2,8 +2,8 @@
 title: Translation
 layout: section
 subsections:
-  - title: The Translation Interface
   - title: The New CAT Tool
+  - title: The Translation Interface
 subarticles:
   - title: Getting Started with Translation
   - title: Jobs (Translation Resource)
