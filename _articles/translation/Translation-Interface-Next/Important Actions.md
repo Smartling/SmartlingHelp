@@ -4,11 +4,11 @@ title: Important Actions
 ---
 
 
-## How do I Save a translation in TI Next?
+## How do I Save a translation in Smartling's new CAT tool?
 
 ## What happens when I Save translations?
 
-## What are the alerts I see in my translation in TI Next?
+## What are the alerts I see in my translation in the new CAT tool?
 
 ## What happens if I haven’t saved my translations and I lose internet connectivity?
 
@@ -22,4 +22,4 @@ title: Important Actions
 
 ## Why am I unable to save/ submit my translations?
 
-## Why am I unable to change a translation in TI Next?
+## Why am I unable to change a translation in the new CAT tool?
