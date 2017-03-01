@@ -6,11 +6,13 @@ title: Tag Handling
 
 ## What happened to code view?
 
-No more code view. Tags in editor. Reason: a lot of translators say it is helpful. Allows more flexibility around which tags they want to use.
+The code view in Smartling's classic CAT tool has been upgraded to a new intergrated veiw. All of the code, tags, and markup will now be avaible for the user directly in the editor.
 
 ## How are tags displayed in the new CAT tool?
 
-Grey highlighted. “Simple View” (visually easier to focus on text) vs. “Expanded” (code view). “Toggle Tags”: how you change settings (gif)
+The tags are signified by grey highlighting. The translators are given an option to toggle between a simple view (visually easier to focus on text) and expanded view. This simple view conceals the code as a [placeholder](/knowledge-base/articles/Insertables-and-Placeholders/) allowing the user to focus on the text. The expanded view shows all of the code within the editor. 
+
+To switch between the expanded and simplified view, simply click on the toggle tags (</>) on the toolbar or utilize the [keyboard shortcut] (/knowledge-base/articles/Keyboard-Shortcuts/).
 
 ## How do I insert or remove tags in the new CAT tool ?
 
