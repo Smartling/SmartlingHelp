@@ -13,7 +13,6 @@ subarticles:
   - title: Tag Handling
   - title: Translations with Character Limits
   - title: Linguistic Assets
-  - title: Plurals Translations
   - title: Quality Checks
   - title: Segment Translations
   - title: Translation History
