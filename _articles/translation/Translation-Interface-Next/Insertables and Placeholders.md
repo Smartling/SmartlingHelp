@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Insertables/Placeholders
+title: Insertables and Placeholders
 ---
 
 
