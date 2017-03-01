@@ -3,8 +3,8 @@ layout: article
 title: Segment Translation
 ---
 
-## What are segments, and how are they displayed in TI Next?
-Can not change order of segments in TI next 
+## What are segments, and how are they displayed in the new CAT tool?
+Can not change order of segments in the new CAT tool 
 Merge segments: little diagonal arrows on the top bar ( you can revert too) 
 Blue bar shows segments in a string 
 
