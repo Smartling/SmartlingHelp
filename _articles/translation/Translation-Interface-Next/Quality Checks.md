@@ -23,4 +23,4 @@ title: Quality Checks
 
 ## I want to add certain words to my dictionary to make sure they don’t appear as spelling errors. What should I do?
 
-## I would like to see other quality checks in TI Next.
+## I would like to see other quality checks in the new CAT tool.
