@@ -21,11 +21,15 @@ title: Insertables and Placeholders
 **Insertable:**
 
 Click on insertable in the source and it populates in target
+<video width="750" src="/uploads/TI-NEXT-VIDEOS/Click on source to add insertables.mp4" autoplay="" loop="loop">&nbsp;</video>
 
 Click on the editor toolbar (Insertable)
+<video width="750" src="/uploads/TI-NEXT-VIDEOS/Adding insertable from action bar.mp4" autoplay="" loop="loop">&nbsp;</video>
 
 Keyboard shortcut (insertable)
+<video width="750" src="/uploads/TI-NEXT-VIDEOS/Hover Over Keyboard Shortcuts.mp4" autoplay="" loop="loop">&nbsp;</video>
 
 Start typing and get suggestions
+<video width="750" src="/uploads/TI-NEXT-VIDEOS/insertables autofill.mp4" autoplay="" loop="loop">&nbsp;</video>
 
 ## How do I ensure that I have inserted all the right insertables from the source in the target?
