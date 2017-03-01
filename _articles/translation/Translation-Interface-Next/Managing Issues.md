@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Issues
+title: Managing Issues
 ---
 
 ## What is an Issue?
