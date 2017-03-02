@@ -144,11 +144,14 @@ For example, if job is due in 48 hours and it is created on Fri - it will be due
 Job auto-creation will be useful in the project where:
 
 * Your content upload to Smartling is already automated via Global Delivery Network, File API or Repository Connector
-* Your current integration already automatically authorizes all uploaded content for translation. Though this content to be added to auto-created jobs authorization on content upload should be disabled.
+* Your current integration already automatically authorizes all uploaded content for translation. Though for this content to be added to auto-created job authorization on upload should be disabled.
 * You rarely exclude content from translation
 * You create Jobs manually by grouping content into daily/weekly batches
 
 You should be careful using Job auto-creation in projects where you already have integration with Jobs API. Make sure scheduled Jobs and Jobs created via API don't try to get the same content added.
+
+**What if I want to run job creation few times a day?**
+You can create multiple rules to run at the same day. You can use the same text for the Job name in each rule configuration.
 
 **I set up the rules but Jobs are not created, what might be wrong?**
 
