@@ -140,20 +140,28 @@ For example, if job is due in 48 hours and it is created on Fri - it will be due
 ### FAQ
 
 **Is this feature for me?**
-- This feature will be useful if:
-- Your content upload to Smartling is already automated
-- Your current integration already automatically authorizes content for translation on upload (this have to be changed if want this feature to work for you) 
-- You rarely exclude content from translation
-- You create Jobs manually by grouping content into daily/weekly batches
+
+- Job auto-creation will be useful in the project where:
+
+* Your content upload to Smartling is already automated via Global Delivery Network, File API or Repository Connector
+* Your current integration already automatically authorizes all uploaded content for translation. Though this content to be added to auto-created jobs authorization on content upload should be disabled.
+* You rarely exclude content from translation
+* You create Jobs manually by grouping content into daily/weekly batches
+
+- You should be careful using Job auto-creation in projects where you already have integration with Jobs API. Make sure scheduled Jobs and Jobs created via API don't try to get the same content added.
 
 **I set up the rules but Jobs are not created, what might be wrong?**
+
 - Make sure content is not automatically authorized on the upload. Job will be created only if there is content that is not yet authorized and not yet in the job.
 
 **Are there any limitations on the size of the created Job?**
+
 - Yes, maximum of 10,000 of source strings will be added to the Job on each run.
 
 **Can I schedule few rules to run at the same time?**
-- Yes, this is a valid configuration. For example, you might want to create multiple jobs with different set of languages at the same time. Though the rules will run consequently one after another, so you might notice that some Jobs are created few minutes later than the others.
 
-**Why Job was created at the not scheduled time?**
+- Yes, this is a valid configuration. For example, you might want to create multiple jobs with different set of languages. But the rules will run consequently one after another, so you might notice that some Jobs are created few minutes later than the others.
+
+**Why Job was created at not scheduled time?**
+
 - Though this will not happen on the regular basis, it is possible that system was unavailable at the time when Job was scheduled to be created. In this case the rule will be run once the system is up and running.
