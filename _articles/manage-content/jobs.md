@@ -123,7 +123,7 @@ To create new rule provide the following:
 
 1) **Job name**. This text will be used in the name of the created job.
 
-2)**Schedule** - defines when the process will be executed.
+2)&nbsp;**Schedule** - defines when the process will be executed.
 
 We will also add timestamp to the job name in order to keep jobs unique. For example, job name is set to “Daily batch” and scheduled to run daily at 5:00 PM Pacific Time. It will result in the job with name “Daily Batch (2017.03.21 17:00 PST)”
 
@@ -141,14 +141,14 @@ For example, if job is due in 48 hours and it is created on Fri - it will be due
 
 **Is this feature for me?**
 
-- Job auto-creation will be useful in the project where:
+Job auto-creation will be useful in the project where:
 
 * Your content upload to Smartling is already automated via Global Delivery Network, File API or Repository Connector
 * Your current integration already automatically authorizes all uploaded content for translation. Though this content to be added to auto-created jobs authorization on content upload should be disabled.
 * You rarely exclude content from translation
 * You create Jobs manually by grouping content into daily/weekly batches
 
-- You should be careful using Job auto-creation in projects where you already have integration with Jobs API. Make sure scheduled Jobs and Jobs created via API don't try to get the same content added.
+You should be careful using Job auto-creation in projects where you already have integration with Jobs API. Make sure scheduled Jobs and Jobs created via API don't try to get the same content added.
 
 **I set up the rules but Jobs are not created, what might be wrong?**
 
