@@ -156,7 +156,7 @@ Make sure content is not automatically authorized on the upload. Job will be cre
 
 **Are there any limitations on the size of the created Job?**
 
-Yes, maximum of 10,000 of source strings will be added to the Job on each run.
+Yes, maximum of 10,000 of source strings will be added to the new Job on each run.
 
 **Can I schedule job creation to more than one time a day?**
 
