@@ -123,7 +123,7 @@ To create new rule provide the following:
 
 1) **Job name**. This text will be used in the name of the created job.
 
-2)&nbsp;**Schedule** - defines when the process will be executed.
+2) **Schedule** - defines when the process will be executed.
 
 We will also add timestamp to the job name in order to keep jobs unique. For example, job name is set to “Daily batch” and scheduled to run daily at 5:00 PM Pacific Time. It will result in the job with name “Daily Batch (2017.03.21 17:00 PST)”
 
@@ -152,16 +152,16 @@ You should be careful using Job auto-creation in projects where you already have
 
 **I set up the rules but Jobs are not created, what might be wrong?**
 
-- Make sure content is not automatically authorized on the upload. Job will be created only if there is content that is not yet authorized and not yet in the job.
+Make sure content is not automatically authorized on the upload. Job will be created only if there is content that is not yet authorized and not yet in the job.
 
 **Are there any limitations on the size of the created Job?**
 
-- Yes, maximum of 10,000 of source strings will be added to the Job on each run.
+Yes, maximum of 10,000 of source strings will be added to the Job on each run.
 
 **Can I schedule few rules to run at the same time?**
 
-- Yes, this is a valid configuration. For example, you might want to create multiple jobs with different set of languages. But the rules will run consequently one after another, so you might notice that some Jobs are created few minutes later than the others.
+Yes, this is a valid configuration. For example, you might want to create multiple jobs with different set of languages. But the rules will run consequently one after another, so you might notice that some Jobs are created few minutes later than the others.
 
 **Why Job was created at not scheduled time?**
 
-- Though this will not happen on the regular basis, it is possible that system was unavailable at the time when Job was scheduled to be created. In this case the rule will be run once the system is up and running.
+Though this will not happen on the regular basis, it is possible that system was unavailable at the time when Job was scheduled to be created. In this case the rule will be run once the system is up and running.
