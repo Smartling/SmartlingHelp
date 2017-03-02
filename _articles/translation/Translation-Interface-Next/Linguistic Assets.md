@@ -6,6 +6,7 @@ title: Linguistic Assets
 ## What does the number next to my current string represent?
 Highest fuzzy available for segment 
 Screen shot of side bar and hover over for T.M. details 
+<video width="750" src="/uploads/TI-NEXT-VIDEOS/side bar TM details.mp4" autoplay="" loop="loop">&nbsp;</video>
 
 ## How do I see the top T.M. matches available to me on the current string?
 
