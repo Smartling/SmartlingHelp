@@ -6,7 +6,7 @@ title: Linguistic Assets
 
 ## What does the number next to my current string represent?
 
-The number next to the string represents the highest fuzzy available for segment. For more details, &nbsp;the **Language Resources** section shows all of the translation memory &nbsp;Screen shot of side bar and hover over for T.M. details
+The number next to the string represents the highest fuzzy available for segment. For more details, &nbsp;the **Language Resources** section shows all of the [translation memory](/knowledge-base/articles/translation-memory/) &nbsp;Screen shot of side bar and hover over for T.M. details
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/side bar TM details.mp4" autoplay="" loop="loop">&nbsp;</video>
 
