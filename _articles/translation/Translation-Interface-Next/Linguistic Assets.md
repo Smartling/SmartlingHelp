@@ -10,9 +10,11 @@ The number next to the string represents the highest [fuzzy match](/knowledge-ba
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/side bar TM details.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-## How do I see the difference between the my current segment and a T.M. match?
+## How do I see the difference between the my current segment and a translation memory match?
 
-Color codes and cross outs in sidebar
+Under the **Language Resources**&nbsp;tab on the side bar, there are color coded breakdowns of all of the translation differences for each translation memory match.
+
+![](/uploads/versions/cross-out---x----560-84x---.png)
 
 ## How do I get additional information (such as who translated T.M. entry, when etc?) on a T.M. match?
 
