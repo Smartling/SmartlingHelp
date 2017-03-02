@@ -150,9 +150,6 @@ Job auto-creation will be useful in the project where:
 
 You should be careful using Job auto-creation in projects where you already have integration with Jobs API. Make sure scheduled Jobs and Jobs created via API don't try to get the same content added.
 
-**Can I schedule job creation to more than one time a day?**
-You can create multiple rules to run at the same day. Also you can use the same text for the Job name in each rule configuration.
-
 **I set up the rules but Jobs are not created, what might be wrong?**
 
 Make sure content is not automatically authorized on the upload. Job will be created only if there is content that is not yet authorized and not yet in the job.
@@ -160,6 +157,10 @@ Make sure content is not automatically authorized on the upload. Job will be cre
 **Are there any limitations on the size of the created Job?**
 
 Yes, maximum of 10,000 of source strings will be added to the Job on each run.
+
+**Can I schedule job creation to more than one time a day?**
+
+You can create multiple rules to run at the same day. Also you can use the same text for the Job name in each rule configuration.
 
 **Can I schedule few rules to run at the same time?**
 
