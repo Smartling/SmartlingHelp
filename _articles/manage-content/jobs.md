@@ -150,8 +150,8 @@ Job auto-creation will be useful in the project where:
 
 You should be careful using Job auto-creation in projects where you already have integration with Jobs API. Make sure scheduled Jobs and Jobs created via API don't try to get the same content added.
 
-**What if I want to run job creation few times a day?**
-You can create multiple rules to run at the same day. You can use the same text for the Job name in each rule configuration.
+**Can I schedule job creation to more than one time a day?**
+You can create multiple rules to run at the same day. Also you can use the same text for the Job name in each rule configuration.
 
 **I set up the rules but Jobs are not created, what might be wrong?**
 
