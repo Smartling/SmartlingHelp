@@ -117,8 +117,6 @@ You can generate&nbsp;[Fuzzy Match Estimates](/knowledge-base/articles/fuzzy-mat
 
 Account Owners and Project Managers can set up simple rules to automatically package new content into Jobs for translation in&nbsp;**Project Settings &gt; Job Automation**.
 
-This is convenient when your engineering team has already automated content upload into Smartling, and you want to submit it for translation is the predictable and organized way.
-
 ![](/uploads/versions/screenshot-2017-02-23-17-24-13---x----1978-360x---.png)
 
 To create new rule provide the following:
@@ -141,18 +139,21 @@ For example, if job is due in 48 hours and it is created on Fri - it will be due
 
 ### FAQ
 
-**I set up the rules but Jobs are not created, what might be wrong?**&nbsp;
+**Is this feature for me?**
+- This feature will be useful if:
+- Your content upload to Smartling is already automated
+- Your current integration already automatically authorizes content for translation on upload (this have to be changed if want this feature to work for you) 
+- You rarely exclude content from translation
+- You create Jobs manually by grouping content into daily/weekly batches
 
+**I set up the rules but Jobs are not created, what might be wrong?**
 - Make sure content is not automatically authorized on the upload. Job will be created only if there is content that is not yet authorized and not yet in the job.
 
 **Are there any limitations on the size of the created Job?**
-
 - Yes, maximum of 10,000 of source strings will be added to the Job on each run.
 
 **Can I schedule few rules to run at the same time?**
-
 - Yes, this is a valid configuration. For example, you might want to create multiple jobs with different set of languages at the same time. Though the rules will run consequently one after another, so you might notice that some Jobs are created few minutes later than the others.
 
 **Why Job was created at the not scheduled time?**
-
-- Though this will not be a request case, it is possible that system was unavailable at the time when Job was scheduled to be created. In this case the rule will be run once the system is up and running.
+- Though this will not happen on the regular basis, it is possible that system was unavailable at the time when Job was scheduled to be created. In this case the rule will be run once the system is up and running.
