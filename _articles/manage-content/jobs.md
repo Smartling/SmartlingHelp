@@ -129,7 +129,7 @@ We will also add timestamp to the job name in order to keep jobs unique. For exa
 
 3) **Languages**. All the content in Awaiting Authorization (including partially authorized) that is not yet in another Job will be added to the newly created Job for the selected languages.
 
-4) **Authorization.&nbsp;**You can have created job authorized into default workflows after creation. Or you can keep it not authorized and do it later on the Jobs page.&nbsp;
+4) **Authorization.&nbsp;**You can have created job authorized into the workflows of your choice after creation. Or you can keep it not authorized and do it later on the Jobs page.&nbsp;
 
 5) **Due date**&nbsp;can be set from the time of the Job creation. By default only weekdays are considered in the due date calculation. “Include weekends” setting will consider Sat and Sun as working days for the translation team.
 
