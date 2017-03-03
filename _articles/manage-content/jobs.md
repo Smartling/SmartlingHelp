@@ -117,6 +117,8 @@ You can generate&nbsp;[Fuzzy Match Estimates](/knowledge-base/articles/fuzzy-mat
 
 Account Owners and Project Managers can set up simple rules to automatically package new content into Jobs for translation in&nbsp;**Project Settings &gt; Job Automation**.
 
+For example, every day at 6:00 PM package all new content into a job, authorize it for translation into default workflows, set due date to be completed in 2 days.
+
 ![](/uploads/versions/screenshot-2017-02-23-17-24-13---x----1978-360x---.png)
 
 To create new rule provide the following:
