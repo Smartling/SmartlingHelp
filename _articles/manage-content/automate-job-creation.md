@@ -7,7 +7,7 @@ wistia:
 ---
 
 
-Account Owners and Project Managers can set up simple rules to automatically package new content into Jobs for translation in&nbsp;**Project Settings &gt; Job Automation**.
+[//]: # Account Owners and Project Managers can set up simple rules to automatically package new content into Jobs for translation in&nbsp;**Project Settings &gt; Job Automation**.
 
 ![](/uploads/versions/screenshot-2017-02-23-17-24-13---x----1978-360x---.png)
 
