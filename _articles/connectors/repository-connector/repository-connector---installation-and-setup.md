@@ -36,7 +36,7 @@ The package contains an annotated version of `repo-connector.conf` to help you s
 
   * `resourcesConfig` - the path to the repository configuration file, if hosted in your code repository. Default is 'smartling-config.json'
   * `serverResourcesConfig` - if you would prefer not to commit the repository configuration file to your code repository, you can host it on the Connector server. In this case, use serverResourcesConfig to define a path to the config file. You can define the absolute path or the relative path from the repo-connector.conf folder.
-  * `namespace` - `TRUE` or `FALSE` (default). If `TRUE`, strings are shared between all files. Repeated strings are translated only once in Smartling. If your file names contain version information, this setting will avoid having to retranslate entire files when you upload a new version. If `FALSE`, strings are unique to each file. See the [namespace](http://support.smartling.com/hc/en-us/articles/207178807) documentation for more details.  
+  * `namespace` - `TRUE` or `FALSE` (default). If `FALSE`, strings are shared between all files. Repeated strings are translated only once in Smartling. If your file names contain version information, this setting will avoid having to retranslate entire files when you upload a new version. If `TRUE`, strings are unique to each file. See the [namespace](/knowledge-base/articles/string-sharing-namespaces/) documentation and [File API](/developers/api/v2/files/upload-file/#smartling-namespace) for more details.  
   **Warning:** This property should not be edited after you start uploading content to Smartling.
   * `branches` - Regular expression for branch names to be checked for resources. If this is undefined, all branch names will be checked. Example:
 
