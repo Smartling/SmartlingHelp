@@ -8,7 +8,7 @@ title: Overview
 
 To build the best CAT tool on the market, we realized we’d have to renew our commitment to helping users achieve their goals. As a result, we focused our design process exclusively around three key results:
 
-![](/uploads/versions/screen-shot-2017-03-06-at-10-14-03-am---x----631-340x---.png)![](/uploads/versions/screen-shot-2017-03-06-at-10-15-28-am---x----609-357x---.png)![](/uploads/versions/screen-shot-2017-03-06-at-10-16-58-am---x----628-409x---.png)
+![](/uploads/versions/screen-shot-2017-03-06-at-10-46-45-am---x----451-825x---.png)
 
 ## What’s new in the CAT tool experience?
 
