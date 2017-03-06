@@ -18,7 +18,7 @@ To build the best CAT tool on the market, we realized we’d have to renew our c
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 1_Multi string editor video&gt;
 
-2. **Faster translations with keyboard shortcuts:**We have introduced the most robust and customizable keyboard shortcut library to translators. With shortcuts for every major command, the New CAT Tool also allows translators to “Bring their own shortcuts”, letting them customize the New CAT Tool to mimic the shortcuts of their favorite offline CAT too.
+1. **Faster translations with keyboard shortcuts:**We have introduced the most robust and customizable keyboard shortcut library to translators. With shortcuts for every major command, the New CAT Tool also allows translators to “Bring their own shortcuts”, letting them customize the New CAT Tool to mimic the shortcuts of their favorite offline CAT too.
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -26,7 +26,7 @@ To build the best CAT tool on the market, we realized we’d have to renew our c
 
 <br>&nbsp;
 
-3. **New tag-handling experience:**Perhaps the biggest change in the New CAT Tool is the new tag-handling experience. Tags are pieces of code that ensure that your translations render correctly on your website, document, mobile app or video. Our customers desire greater flexibility in how to manage the tags, and not be restricted to making tags identical in the source and target. To do so, we’ve introduced a new experience for translators to be able to easily work with tags in the New CAT Tool.
+1. **New tag-handling experience:**Perhaps the biggest change in the New CAT Tool is the new tag-handling experience. Tags are pieces of code that ensure that your translations render correctly on your website, document, mobile app or video. Our customers desire greater flexibility in how to manage the tags, and not be restricted to making tags identical in the source and target. To do so, we’ve introduced a new experience for translators to be able to easily work with tags in the New CAT Tool.
 
 <br>&nbsp;
 
@@ -34,11 +34,11 @@ To build the best CAT tool on the market, we realized we’d have to renew our c
 
 <br>&nbsp;
 
-4. **“Draft” auto-save for translations:**While working in the browser, translators may lose their work if they lose connectivity or close their browser by accident. To prevent this, we’ve introduced a new “Draft Mode” that automatically backs up your content in your local browser, as you type it, where it remains available even if you lose connectivity or close your browser until the time you are ready to save. It is important to note that draft translations cannot be retained if browsing privately, or if a user clears out her browser cache.
+1. **“Draft” auto-save for translations:**While working in the browser, translators may lose their work if they lose connectivity or close their browser by accident. To prevent this, we’ve introduced a new “Draft Mode” that automatically backs up your content in your local browser, as you type it, where it remains available even if you lose connectivity or close your browser until the time you are ready to save. It is important to note that draft translations cannot be retained if browsing privately, or if a user clears out her browser cache.
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 4_Draft Mode video&gt;
 
-5. **Translation Quality Checks:**The New CAT Tool introduces a new “quality check” tool that identifies the most common translation errors and categorizes them for the user, allowing for an easy, intuitive interface for managing translation quality prior to submitting content.
+1. **Translation Quality Checks:**The New CAT Tool introduces a new “quality check” tool that identifies the most common translation errors and categorizes them for the user, allowing for an easy, intuitive interface for managing translation quality prior to submitting content.
 
 <br>&nbsp;
 
@@ -50,6 +50,4 @@ How do the features of New CAT Tool compare to those of Smartling’s Classic CA
 
 &nbsp;&nbsp; &nbsp;Below is a snapshot of how the New CAT Tool compares against Smartling’s Classic CAT Tool
 
-## How do the features of Smartling’s new CAT tool compare to the classic CAT tool?
-
-What features are new? What additional features are still going to be released? When will these addional features be released?
+![](/uploads/versions/screen-shot-2017-03-06-at-10-28-19-am---x----663-346x---.png)
