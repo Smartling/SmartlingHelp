@@ -53,7 +53,7 @@ The Editor can also also choose to Reject all unsubmitted translations using the
 
 ## Why am I unable to save/ submit my translations?
 
-&nbsp;&nbsp; &nbsp;Depending on a user’s account settings, translations with certain quality errors in them are prevented from saving, till these errors are corrected. Save/ Submit errors are shown in a message box as follows:
+Depending on a user’s account settings, translations with certain quality errors in them are prevented from saving, till these errors are corrected. Save/ Submit errors are shown in a message box as follows:
 
 ![](/uploads/versions/screen-shot-2017-03-06-at-11-54-59-am---x----499-399x---.png)
 <br>&nbsp;
