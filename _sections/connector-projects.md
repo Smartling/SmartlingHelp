@@ -7,12 +7,13 @@ subsections:
   - title: Drupal Connector
   - title: Adobe Experience Manager - Classic Connector
   - title: Adobe Experience Manger - Touch Connector
-  - title: Marketo Connector
-  - title: Zendesk Connector
-  - title: Hubspot Connector
-  - title: Hybris Connector
-  - title: Repository Connector
   - title: Sitecore Connector
+  - title: Marketo Connector
+  - title: Hubspot Connector
+  - title: Zendesk Connector
+  - title: Hybris Connector
+  - title: Demandware Connector
+  - title: Repository Connector
 subarticles:
   - title: Eloqua Connector
   - title: Translate Sendwithus Emails
