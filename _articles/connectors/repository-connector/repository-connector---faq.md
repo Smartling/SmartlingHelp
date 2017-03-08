@@ -55,7 +55,7 @@ You can find example of usage in [complete repo-connector.conf example file](/pu
 Sure. If you'd rather control your master branch via pull requests, you can set up the Repository Connector not to check the master brance. In the `repo-connector.conf` file, write your `branches` regular expression like this, to exclude your master branch:
 
 ~~~
-"branches": "^(?!master).\\\*",
+"branches": "^(?!master).*",
 ~~~
 
 ## I'm getting 'repository not found' or 'cannot connect to git' errors.
@@ -84,35 +84,39 @@ In short, yes, but some extra work is required. First, your firewall needs to al
 
 For Smartling API:
 
-* Protocol: TCP
-* Local ports: all ports
-* Remote ports: 443
-* Remote hosts: api.smartling.com
+* Protocol: `TCP`
+* Local ports: `all ports`
+* Remote ports: `443`
+* Remote hosts: `api.smartling.com`
 
 For your Git repository
 
-* Protocol: TCP
-* Local ports: all ports
-* Remote ports: 443
-* Remote hosts: {host of your git repository}
+* Protocol: `TCP`
+* Local ports: `all ports`
+* Remote ports: `443`
+* Remote hosts: `{host of your git repository}`
 
 These outbound rules will allow the connector to work with Cron scheduling but will not allow the neccessary inbound connections for accepting [callbacks](/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker?) from Smartling or [Webhooks from your repository](/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository?). For these you will need to create inbound rules for Smartling callbacks:
 
-* Protocol: TCP
-* Local ports: all ports
-* Remote ports: 443
-* Remote hosts: 184.73.255.141
+* Protocol: `TCP`
+* Local ports: `all ports`
+* Remote ports: `443`
+* Remote hosts: `184.73.255.141`
 
 Or for your Repository
 
-* Protocol: TCP
-* Local ports: all ports
-* Remote ports: 443
-* Remote hosts: {ip address used by your repository provider for webhooks}
+* Protocol: `TCP`
+* Local ports: `all ports`
+* Remote ports: `443`
+* Remote hosts: `{ip address used by your repository provider for webhooks}`
 
 ## How much memory do I need to allocate?
 
-On average, memory consumption for an instance of the Repository Connector is around 40M. We recommend having at least 64M available. You can define maximum memory allocation for the connector by starting with the `-Xmx` flag on startup. For example, to set the max memory to 64M: `java -Xmx64M -jar repo-connector-1.4.2.jar -start`
+On average, memory consumption for an instance of the Repository Connector is around 40M. We recommend having at least 64M available. You can define maximum memory allocation for the connector by starting with the `-Xmx` flag on startup. For example, to set the max memory to 64M:
+
+~~~
+java -Xmx64M -jar repo-connector-1.4.2.jar -start
+~~~
 
 ## How do I control the size of my logs?
 
@@ -142,7 +146,7 @@ cfg/db-data
 cfg/repository-data
 ~~~
 
-**4)** Delete the file in the Smartling Dashboard. 
+**4)** Delete the file in the Smartling Dashboard.
 
 **5)** Restart the Connector.
 
@@ -180,7 +184,13 @@ Webhooks require your Connector to be publicly addressable. If you have set up t
 
 To configure a Github webhook, go to **Settings &gt; Webhooks** for your repository and add a webhook. Required details are:
 
-* `Payload URL`: Your publicly addressable URL for the connector. Takes the form `https://{host}:{port}/github?resourcesConfig={path to config file}`. Default resoucesConfig value is smartling-config.json. Your port value should match the one set in the `http` object in your `repo-conenctor.conf` file.
+* `Payload URL`: Your publicly addressable URL for the connector. Takes the form
+
+  ~~~
+  https://{host}:{port}/github?resourcesConfig={path to config file}
+  ~~~
+
+  Default `resoucesConfig` value is `smartling-config.json`. Your port value should match the one set in the `http` object in your `repo-conenctor.conf` file.
 * `Content type`: Set to 'application/json'.
 * `Secret`: Your Smartling API token secret.
 * `Which events would you like to trigger this webhook?`: Set 'just the push event'.
@@ -192,9 +202,11 @@ For a Beanstalk repository, under **Settings &gt; Integration** create a new web
 * `Name`: Choose a name for the webhook.
 * `URL`: Your publicly addressable URL for the connector. takes the form
 
-  `http{/s}://{host}:{port}/beanstalkapp?userIdentifier={userIdentifier}&resourcesConfig={path to config file}`.
+  ~~~
+  http{/s}://{host}:{port}/beanstalkapp?userIdentifier={userIdentifier}&resourcesConfig={path to config file}
+  ~~~
 
-  Default resoucesConfig value is `smartling-config.json`. userIdentifier is your Smartlign API v2 user identifier. Your port value should match the one set in the `http` object in your `repo-conenctor.conf` file.
+  Default `resoucesConfig` value is `smartling-config.json`. `userIdentifier` is your Smartlign API v2 user identifier. Your port value should match the one set in the `http` object in your `repo-conenctor.conf` file.
 
 You do not need to make any changes to your `repo-connector.conf` file. If your webhook is set up correctly, any new push to the repository will trigger the connector to look for any changes to translatable files (or new files) to upload to Smartling.
 
@@ -223,23 +235,23 @@ Configuration for the Repository Connector is contained in the `repo-connector.c
 
 The connector can only refer to one `repo-connector.conf` file which, in turn, references one repository configuration file. However, you can run more than one instance of the Repository Connector pointed at the same repository.
 
-For each set of source content you want to handle, create a separate repository configuration file in your repository. See [Translation Settings](/knowledge-base/articles/repository-connector-translation-settings/) for help with these files. Give each a unique name: `smartling-config-french.json`, `smartling-config-german.json` etc. Set up the `resourceSets` in each file to identify specific source content and set the other parameters as desired. For example, you might set 
+For each set of source content you want to handle, create a separate repository configuration file in your repository. See [Translation Settings](/knowledge-base/articles/repository-connector-translation-settings/) for help with these files. Give each a unique name: `smartling-config-french.json`, `smartling-config-german.json` etc. Set up the `resourceSets` in each file to identify specific source content and set the other parameters as desired. For example, you might set
 
 ~~~json
-"locales": [{"smartling" : "fr-FR","application" : "fr"}]
+"locales": [{"smartling" : "fr-FR", "application" : "fr"}]
 ~~~
 
-in one file and 
+in one file and
 
 ~~~json
-"locales": [{"smartling" : "de-DE","application" : "de"}]`
+"locales": [{"smartling" : "de-DE", "application" : "de"}]`
 ~~~
 
 in another.
 
 You can then create multiple `repo-connector.conf` files in the Repository Connector folder. By default, this file is kept in the `/cfg/` directory. You will need to create a seperate directory for each file: `/cfg/french/`, `/cfg/german/`, etc. Keep the same login information in each config file, but change the `resourcesConfig` value to point to the correct repository configuration file.
 
-**Note:** If you prefer, you can store your repository configuration files on the Repository Connector server itself. In this case, set the `serverResourcesConfig`parameter instead. See [Installation and Setup](/knowledge-base/articles/repository-connector-installation-and-setup/#connect-to-your-repository-and-smartling) for more.
+**Note:** If you prefer, you can store your repository configuration files on the Repository Connector server itself. In this case, set the `serverResourcesConfig` parameter instead. See [Installation and Setup](/knowledge-base/articles/repository-connector-installation-and-setup/#connect-to-your-repository-and-smartling) for more.
 
 Finally, start the connector multiple times, providing a specific config path each time using the `-configuration` parameter:
 
