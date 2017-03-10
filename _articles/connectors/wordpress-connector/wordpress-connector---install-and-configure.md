@@ -10,11 +10,11 @@ Smartling’s WordPress Connector allows you to integrate Smartling translations
 
 Before you can install the Smartling Connector, you need to have the following in your WordPress installation:
 
-* WordPress version 4.3 or higher
+* WordPress version 4.6 or higher
 * [Multisite mode](http://codex.wordpress.org/Create_A_Network) enabled.
 * [Multilingual Press](https://wordpress.org/plugins/multilingual-press/) free plugin must be installed.
 * A Smartling project of the CMS Connectors type.
-* PHP Version 5.4 or higher.
+* PHP Version 5.5 or higher.
 * PHP extensions
 * mb_string
 * curl
@@ -50,21 +50,21 @@ Before you can install the Smartling Connector, you need to have the following i
 
 ![](/uploads/versions/configuration_profiles_-_network_admin__wpmod2_dev_smartling_net_sites_-_wordpress---x----1117-824x---.png)
 
-**3)** Set **Project ID** and User Identifier and User Secretand save the settings. The Connector uses version 2 of Smartling's API. You need to [obtain a User ID and User Secret](/developers/api/v2/authentication/) for the Connector.
+**3)** Set **Project ID**, **User Identifier** and **User Secret** and save the settings. The Connector uses version 2 of Smartling's API. You need to [obtain a User ID and User Secret](/developers/api/v2/authentication/) for the Connector.
 
-**(4)** Select the **Default Locale** and save settings.
+**4)** Select the **Default Locale** and save settings.
 
-**(5)** Select your target locales and enter the locale code for each language, e.g. fr-FR for ‘French - FRANCE’ If you are unsure of the correct locale codes, check [Project Settings &gt; API](https://dashboard.smartling.com/settings/api.htm) for a list of codes for your project.
+**5)** Select your target locales and enter the locale code for each language, e.g. `fr-FR` for **French - FRANCE** If you are unsure of the correct locale codes, check [Project Settings &gt; API](https://dashboard.smartling.com/settings/api.htm) for a list of codes for your project.
 
-**(6)** Set retrieval type. This determines the type of translations that will be retrieved from Smartling. See our documentation for [retrieval options](/knowledge-base/articles/download-files/#file-download-options){: .cc-active}.
+**6)** Set retrieval type. This determines the type of translations that will be retrieved from Smartling. See our documentation for [retrieval options](/knowledge-base/articles/download-files/#file-download-options).
 
-**(7)** Select your resubmit preference. **Automatically** means the Connector resubmits content to Smartling whenever a change is detected.**Manually** means the user must resubmit content.
+**7)** Select your resubmit preference. **Automatically** means the Connector resubmits content to Smartling whenever a change is detected. **Manually** means the user must resubmit content.
 
-**(8)** By default the **Auto Authorize** option is off, so you must go to the Smartling dashboard and authorize all strings for translation. By turning on this option all sent strings will be Authorized for translation automatically.
+**8)** By default the **Auto Authorize** option is off, so you must go to the Smartling dashboard and authorize all strings for translation. By turning on this option all sent strings will be Authorized for translation automatically.
 
 ![](/uploads/versions/profile_setup_-_wpmod2_dev_smartling_net_-_wordpress---x----808-843x---.png)
 
-**(8)** Click **Save Changes**.
+**9)** Click **Save Changes**.
 
 ## Configure WP Cron
 
@@ -72,11 +72,13 @@ The Wordpress Connector uses WP-Cron to run regular tasks. See here for further 
 
 **1)** Ensure that the domain name of your Wordpress site is resolved on the server by pinging it when you're logged in via ssh. e.g.:
 
-`ping mywordpressinstallation.com`
+~~~
+ping mywordpressinstallation.com
+~~~
 
 If you get a response like `Could not resolve host: mywordpressinstallation.com`, then you will need to add a record to your `/etc/hosts` file
 
-**2)** To configure a Cron task, edit your crontab (using the appropriate user `nginx`\ `www-data`)
+**2)** To configure a Cron task, edit your crontab (using the appropriate user `nginx`\`www-data`)
 
 ~~~
 sudo -u nginx crontab -e
@@ -85,13 +87,13 @@ sudo -u nginx crontab -e
 **3)** Add a line to the end of the file
 
 ~~~
-\\*/5 \\* \\* \\* \\* curl http://mywordpressinstallation.com/wp-cron.php  > /dev/null 2>&1
+*/5 * * * * curl http://mywordpressinstallation.com/wp-cron.php  > /dev/null 2>&1
 ~~~
 
 or
 
 ~~~
-\\*/5 \\* \\* \\* \\* wget -O - -q -t 1 http://mywordpressinstallation.com/wp-cron.php
+*/5 * * * * wget -O - -q -t 1 http://mywordpressinstallation.com/wp-cron.php
 ~~~
 
 This will run Wordpress cron every 5 minutes.

@@ -16,7 +16,7 @@ Translation for individual pieces of content is handled by the Smartling Widget,
 
 Submit content to Smartling
 
-Select all target languages as you want translated and click **Send to Smartling.**
+Select all target languages as you want translated and click **Send to Smartling**.
 
 ![](/uploads/versions/2bdcc9ce-d95e-11e4-8ad5-a40f3492135b_png__999-907_---x----281-259x---.png)
 
@@ -36,10 +36,10 @@ The Bulk Submit page shows detailed information for every item under a content t
 
 ![](/uploads/versions/425bc3de-d95f-11e4-956d-f3270881fa93_png__994-675_---x----987-674x---.png)
 
-**(1)** Select the content type.
-<br>**(2)** Select your target languages
-<br>**(3)** Select the content to submit.
-<br>**(4)** Click **Send to Smartling**.
+**1)** Select the content type.
+**2)** Select your target languages.
+**3)** Select the content to submit.
+**4)** Click **Send to Smartling**.
 
 > When using bulk submit, there may be a slight delay before the content appears in the Smartling Dashboard.
 
@@ -49,10 +49,10 @@ The Submissions board shows every item that has been submitted to Smartling.
 
 ![](/uploads/versions/posts_-_my_personal_site_-_wordpress---x----324-142x---.png)
 
-**(1)** Filter by type and status.
-<br>**(2)** Search by keyword.
-<br>**(3)** Resend or Download any individual item by clicking the links revealed by mouseover.
-<br>**(4)**&nbsp;Enqueue selected items for Upload or Download using the **Bulk Actions** menu.
+**1)** Filter by type and status.
+**2)** Search by keyword.
+**3)** Resend or Download any individual item by clicking the links revealed by mouseover.
+**4)** Enqueue selected items for Upload or Download using the **Bulk Actions** menu.
 
 ![](/uploads/versions/submissions_board_-_my_personal_site_-_wordpress---x----1033-702x---.png)
 
@@ -62,10 +62,10 @@ The Submissions board shows every item that has been submitted to Smartling.
 
 If you want to prevent a translated post from being affected by changes to the original post, you can lock the translation.
 
-**(1)** Switch to the dashboard for your translated site from&nbsp;**My Sites &gt; Network Admin &gt; Sites**.
+**1)** Switch to the dashboard for your translated site from **My Sites > Network Admin > Sites**.
 
 ![](/uploads/versions/sites_-_network_admin__smartling_sites_-_wordpress---x----1272-615x---.png)
 
-**(2)** Select the post you want to lock and check **Translation Locked** in the **Publish&nbsp;**widget.
+**2)** Select the post you want to lock and check **Translation Locked** in the **Publish** widget.
 
 ![](/uploads/versions/edit_post_-_my_french_company_site_-_wordpress---x----291-356x---.png)

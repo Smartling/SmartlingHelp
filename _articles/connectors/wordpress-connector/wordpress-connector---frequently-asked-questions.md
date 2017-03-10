@@ -24,13 +24,13 @@ When the translated post is downloaded to Wordpress, it will be rebuilt with upd
 
 ## Can I translate URL slugs?
 
-By default, the 'slug' property of a post is excluded from translation, but you can change this by navigating to your Smartling settings profile and removing&nbsp;**slug** from the&nbsp;**Exclude fields by field name&nbsp;**list.
+By default, the "slug" property of a post is excluded from translation, but you can change this by navigating to your Smartling settings profile and removing `slug` from the **Exclude fields by field name** list.
 
 ![](/uploads/versions/exclude_settings---x----907-571x---.png)
 
 ## Can I translate permalinks?
 
-Not directly but, since Wordpress uses the **post_name** field to generate permalinks, you can alter permalinks by translating the post_name field. This field is excluded by default, but can be translated by removing the **post_name&nbsp;**entry from your&nbsp;**Exclude fields by field name**&nbsp;setting in your Smartling settings profile.
+Not directly but, since Wordpress uses the `post_name` field to generate permalinks, you can alter permalinks by translating the post_name field. This field is excluded by default, but can be translated by removing the `post_name` entry from your **Exclude fields by field name** setting in your Smartling settings profile.
 
 ![](/uploads/versions/smartling_settings---x----905-582x---.png)
 
@@ -41,14 +41,13 @@ Like all large operations in Wordpress, uploads and downloads between Wordpress 
 * Posts marked ready to upload are uploaded every 5 minutes.
 * Translation progress in Smartling is checked and completed translations downloaded every 3 hours.
 
-
 The exception is when you upload a single post from the Smartling widget, which occurs immediately.
 
 ## What is the Translation Locked checkbox for?
 
 This is an option for translated post that prevents the Connector from downloading new translations for the post, even if changes are available. See [here](/knowledge-base/articles/wordpress-connector-user-guide/#lock-a-translated-post) for more details.
 
-## What happens when I edit a post that's already been translated?\*\*
+## What happens when I edit a post that's already been translated?
 
 If you have configured the plugin to [resubmit changed content automatically](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin), then your changes will be uploaded to Smartling immediately. Otherwise, the post will be flagged as outdated and you can resubmit it manually when you're ready.
 
@@ -56,11 +55,11 @@ If you have configured the plugin to [resubmit changed content automatically](/k
 
 ![](/uploads/versions/translation-completed-1---x----285-380x---.png)
 
-The&nbsp;**Translation completed**&nbsp;checkbox in the **Publish** widget is part of the MultilingualPress plugin and does not have any effect in Smartling.
+The **Translation completed** checkbox in the **Publish** widget is part of the MultilingualPress plugin and does not have any effect in Smartling.
 
 ## What does Enqueue for Upload/Download do?
 
-The&nbsp;**Enqueue for Upload/Download** bulk actions add the selected items to a queue of items that will be uploaded by a Cron task. This is to stop large uploads from slowing down your Wordpress instance. You can change the frequency of this task by editing your [crontab](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-wp-cron).
+The **Enqueue for Upload/Download** bulk actions add the selected items to a queue of items that will be uploaded by a Cron task. This is to stop large uploads from slowing down your Wordpress instance. You can change the frequency of this task by editing your [crontab](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-wp-cron).
 
 ## Does submitting a single post from the Smartling widget work faster than using Bulk Submit or the Submissions Board?
 
@@ -70,15 +69,16 @@ Yes. Bulk Submit and the Submissions board use cron tasks, which is necessary to
 
 The Connector offers three ways to submit your source content to Smartling.
 
-1. Bulk submit (
+**1)** Bulk submit (`/wp-admin/admin.php?page=smartling-bulk-submit`) was designed to be primary means of submitting content. It allows you to submit multiple posts, tags, menus, and other entities for multiple locales in single click.
 
-   <tt>/wp-admin/admin.php?page=smartling-bulk-submit</tt>) was designed to be primary means of submitting content. It allows you to submit multiple posts, tags, menus, and other entities for multiple locales in single click.
-   <br>Some entities can be submitted only from Bulk submit:
-   * Theme Widgets
-   * Media Attachments
-   * Navigation Menus
-2. The Smartling widget on the Post Edit screen. This allows you &nbsp;to submit only current post for chosen locales
-3. The Submissions Board. It's similar to Bulk Submit but here you can find only content / entities that were submitted before. Use this view to resubmit content that you want to retranslate, for example, because the source content has changed.
+Some entities can be submitted only from Bulk submit:
+
+* Theme Widgets
+* Media Attachments
+* Navigation Menus
+
+**2)** The Smartling widget on the Post Edit screen. This allows you  to submit only current post for chosen locales
+**3)** The Submissions Board. It's similar to Bulk Submit but here you can find only content / entities that were submitted before. Use this view to resubmit content that you want to retranslate, for example, because the source content has changed.
 
 
 ## Can I submit content from a translated site?

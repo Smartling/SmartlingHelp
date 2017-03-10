@@ -18,7 +18,7 @@ The Wordpress Connector is available to sites managed via [WP Engine](https://wp
 
 The install will take several minutes.
 
-**3)** Now login to WordPress and navigate to **My Sites &gt; Network Admin &gt; Dashboard**.
+**3)** Now login to WordPress and navigate to **My Sites > Network Admin > Dashboard**.
 
 ![](/uploads/versions/image03-2---x----339-111x---.png)
 
@@ -31,7 +31,7 @@ The install will take several minutes.
 
 ## Configure Multilingual Press and creating translated sites.
 
-**1)** Navigate to **My Sites &gt; Network Admin &gt; Sites** and edit your primary site.
+**1)** Navigate to **My Sites > Network Admin > Sites** and edit your primary site.
 
 ![](/uploads/versions/image04-2---x----238-88x---.png)
 
@@ -53,9 +53,11 @@ The install will take several minutes.
 
 **1)** Edit your wp-config file and add the line:
 
-`define('DISABLE_WP_CRON', true);`
+~~~
+define('DISABLE_WP_CRON', true);
+~~~
 
-**2)** Return to your main site Dashboard and navigate to **Tools &gt; Crontrol**
+**2)** Return to your main site Dashboard and navigate to **Tools > Crontrol**
 
 ![](/uploads/versions/image05-1---x----322-122x---.png)
 
@@ -67,7 +69,7 @@ The install will take several minutes.
 
 ![](/uploads/versions/image10---x----922-481x---.png)
 
-**5)** If you want to save your interval, go to **Settings &gt; Cron Schedules**
+**5)** If you want to save your interval, go to **Settings > Cron Schedules**
 
 ![](/uploads/versions/image01-3---x----316-207x---.png)
 

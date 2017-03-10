@@ -6,9 +6,9 @@ title: Wordpress Connector - Upgrade or Uninstall
 
 ## Upgrade to a new version
 
-**1)** Go to the Plugins page at **Network Admin -&gt; Plugins** (`/wp-admin/network/plugins.php`)
+**1)** Go to the Plugins page at **Network Admin > Plugins** (`/wp-admin/network/plugins.php`)
 
-**2)** On the entry for the Smartling Connector, click **update now.**
+**2)** On the entry for the Smartling Connector, click **update now**.
 
 ![](/uploads/versions/74m0zkd---x----1190-486x---.png)
 
@@ -26,9 +26,9 @@ The new version of the connector is now ready for use.
 
 ## Alternative Manual Upgrade
 
-**1)** Go to the Plugins page at **Network Admin -&gt; Plugins** (`/wp-admin/network/plugins.php`)
+**1)** Go to the Plugins page at **Network Admin > Plugins** (`/wp-admin/network/plugins.php`)
 
-**()** On the entry for the Smartling Connector, click **Network Deactivate,** then click **Delete.**
+**()** On the entry for the Smartling Connector, click **Network Deactivate**, then click **Delete**.
 
 ![](/uploads/versions/74m0zkd-1---x----987-123x---.png)
 
@@ -38,17 +38,17 @@ The new version of the connector is now ready for use.
 
 **4)** On the entry for the Smartling Connector, click **Network Activate**.
 
-**5)** Check your [Smartling Connector configuration](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin){: .cc-active}.
+**5)** Check your [Smartling Connector configuration](/knowledge-base/articles/wordpress-connector-install-and-configure/#configure-smartling-plugin).
 
 The new version of the connector will be ready for use.
 
 ## Uninstall
 
-**1)** Go to the Plugins page at&nbsp;**Network Admin -&gt; Plugins** (`/wp-admin/network/plugins.php`).
+**1)** Go to the Plugins page at **Network Admin -> Plugins** (`/wp-admin/network/plugins.php`).
 
-**2)**&nbsp;On the entry for the Smartling Connector, click **Edit**.
+**2)** On the entry for the Smartling Connector, click **Edit**.
 
-**3)** Select&nbsp;**unistall.php**from the **Plugin Files** column.
+**3)** Select **unistall.php** from the **Plugin Files** column.
 
 ![](/uploads/versions/edit_plugins_-_network_admin__wpmod2_dev_smartling_net_sites_-_wordpress---x----1095-671x---.png)
 
@@ -56,4 +56,4 @@ The new version of the connector will be ready for use.
 
 ![](/uploads/versions/edit_plugins_-_network_admin__wpmod2_dev_smartling_net_sites_-_wordpress-1---x----1221-662x---.png)
 
-**5)** From the Smartling Connector entry on the plugins page, click&nbsp;**Network Deactivate,** then&nbsp;**Delete.**
+**5)** From the Smartling Connector entry on the plugins page, click **Network Deactivate**, then **Delete**.
