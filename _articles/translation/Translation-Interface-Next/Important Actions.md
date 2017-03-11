@@ -10,7 +10,7 @@ As a translator, Saving your translations makes them available in the customer�
 
 You can either Save your translation individually by choosing to save multiple translations simultaneously by using the global Save button, or you can save strings one at a time, by using the string-level Save action.
 
-&lt;insert 8_Save video&gt;
+[//]: #&lt;insert 8_Save video&gt;
 
 <br>&nbsp;
 
@@ -22,7 +22,7 @@ No Saving is required in the Edit/ Review step, as translations are already save
 
 With the new Draft Mode, the New CAT Tool automatically backs up translations in the local browser, as you type it, where it remains available even if you lose connectivity or close your browser until the time you are ready to save. It is important to note that draft translations cannot be retained if browsing privately, or if a user clears out her browser cache.
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 4_Draft Mode video&gt;
+[//]: #&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 4_Draft Mode video&gt;
 
 <br>
 <br>&nbsp;
@@ -33,7 +33,7 @@ Submitting a translation finalizes your translation and moves it to the next ste
 
 You can choose to either Submit only your saved translations that you have already finalized, or you can choose to submit all your translations. With this option, all your translations are first saved, and them submitted to the next step in one go.
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 9_Submit video&gt;
+[//]: #&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 9_Submit video&gt;
 
 ## As an editor/ reviewer, how do I Confirm a translation? What happens when I Confirm translations?
 
@@ -47,7 +47,7 @@ The Editor can choose to Reject a translation, or a set of translations. Rejecti
 
 <br>&nbsp;
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 11_Reject video&gt;
+[//]: #&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 11_Reject video&gt;
 
 The Editor can also also choose to Reject all unsubmitted translations using the global Reject command. Doing so rejects all unsubmitted strings back to an earlier workflow step, and attaches the reject comments as an issue to all the rejected strings.
 
@@ -66,6 +66,6 @@ The decision of which errors should prevent a user from saving or submitting tra
 
 Translations can no longer be changed, once they move to another step in the workflow than the one the user is currently accessing the New CAT Tool for. This may happen because the user herself submitted a translation, following which a “Lock” icon appears on the submitted translations.
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 12_Submit Lock video&gt;
+[//]: #&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 12_Submit Lock video&gt;
 
 <br>Alternatively, another user who may be authorized to translate the same content may Submit translations, thereby locking these for the user to change or Submit herself.
