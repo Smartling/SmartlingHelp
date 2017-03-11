@@ -16,11 +16,11 @@ Doing so launches the New CAT Tool for all strings in the current list view, tha
 
 On hitting Continue, the New CAT Tool loads with the selected strings, and highlights your selected string ready for translation
 
-&lt;insert 7_TI Entry_1 video&gt;
+[//]: #&lt;insert 7_TI Entry_1 video&gt;
 
 As a translator or agency owner, you can also launch TI Next from your Jobs dashboard. You can do so by either clicking on the Job name in a Job card: This takes you to the list view with the filtered list of strings and workflow steps you are authorized for the current job. Or, you can select a command from the "Available for Work" panel at the bottom, that loads list view with all content in the current workflow step that you are authorized for. From here, loading the New CAT Tool works the same as before.
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 7_TI Entry_2 video&gt;
+[//]: #&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 7_TI Entry_2 video&gt;
 
 ## How can I go back to the classic CAT tool if I do not like the new CAT tool?
 
