@@ -22,7 +22,7 @@ Some quality errors are errors shown in the editor. In the video below, you can 
 
 To run a quality check on all translations currently on your screen, use the QA check button, which creates a report of all errors detected in your translations.You can then filter by specific error categories, click into a specific error, and fix it. The report updates itself in real time. Once you are certain that you have fixed all quality errors, you are ready to Submit your translations.
 
-<script src="https://fast.wistia.com/embed/medias/thpv9kw3uo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_thpv9kw3uo popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:113px;width:150px">&nbsp;</span>
+<script src="https://fast.wistia.com/embed/medias/thpv9kw3uo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_thpv9kw3uo popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:400px;width:300px">&nbsp;</span>
 
 <br>
 <br>&nbsp;
