@@ -16,13 +16,13 @@ To build the best CAT tool on the market, we realized we’d have to renew our c
 
 &nbsp;&nbsp; &nbsp;
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 1_Multi string editor video&gt;
+<script src="https://fast.wistia.com/embed/medias/b637seca0u.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_b637seca0u popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:53px;width:150px">&nbsp;</span>
 
 1. **Faster translations with keyboard shortcuts:**We have introduced the most robust and customizable keyboard shortcut library to translators. With shortcuts for every major command, the New CAT Tool also allows translators to “Bring their own shortcuts”, letting them customize the New CAT Tool to mimic the shortcuts of their favorite offline CAT too.
 
 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 2_Keyboard Shortcuts video&gt;
+<script src="https://fast.wistia.com/embed/medias/gz81r127ta.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_gz81r127ta popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:86px;width:150px">&nbsp;</span>
 
 <br>&nbsp;
 
@@ -30,19 +30,19 @@ To build the best CAT tool on the market, we realized we’d have to renew our c
 
 <br>&nbsp;
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 3_Tag handling introduction video&gt;
+<script src="https://fast.wistia.com/embed/medias/ko7hsudu58.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_ko7hsudu58 popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:34px;width:150px">&nbsp;</span>
 
 <br>&nbsp;
 
 1. **“Draft” auto-save for translations:**While working in the browser, translators may lose their work if they lose connectivity or close their browser by accident. To prevent this, we’ve introduced a new “Draft Mode” that automatically backs up your content in your local browser, as you type it, where it remains available even if you lose connectivity or close your browser until the time you are ready to save. It is important to note that draft translations cannot be retained if browsing privately, or if a user clears out her browser cache.
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 4_Draft Mode video&gt;
+<script src="https://fast.wistia.com/embed/medias/e11dttjrnh.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_e11dttjrnh popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:79px;width:150px">&nbsp;</span>
 
 1. **Translation Quality Checks:**The New CAT Tool introduces a new “quality check” tool that identifies the most common translation errors and categorizes them for the user, allowing for an easy, intuitive interface for managing translation quality prior to submitting content.
 
 <br>&nbsp;
 
-&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 6_QA Checks&gt;
+<script src="https://fast.wistia.com/embed/medias/5oz7htslbb.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_5oz7htslbb popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:93px;width:150px">&nbsp;</span>
 
 &nbsp;
 
