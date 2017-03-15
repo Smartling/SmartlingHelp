@@ -24,8 +24,11 @@ The package contains an annotated version of `repo-connector.conf` to help you s
   * `alias` - alias for the repository. The alias is used in creating the [fileURI](/developers/api/v2/files/upload-file/#fileuri) that is registered with Smartling for uploaded files. A unique alias value is recommended but not required. The complete uri will be "alias/branch/file”.
   * `type` - Repository type. Possible values are GIT and SVN
   * `userPassword` (optional) - defines user/password authentication type for a Github repository. Other authentication options are available.
+
     * `user` - user name
     * `password` - user password
+
+    All possible authentication options are included in [the example file](/public/example-files/repo-connector-complete-example.conf).
 
   * `smartlingProject` - defines your Smartling project credentials. You can find these in the Smartling Dashboard on the account-level API page.  
   **Note:** This section was changed in version 1.5.0 and is not backwards compatible with previous versions.
@@ -47,10 +50,12 @@ The package contains an annotated version of `repo-connector.conf` to help you s
     Remember that `/` is an escape character both for JSON and RegEx, so you need to double-escape special characters for your Regular Expressions to work.
 
   * `pollingSchedule` - Cron expression defining how often the Repository Connector polls your repository for updates. We strongly recommend using this method to upload new translatable files and download translations. However, if you need upload of new files to occur with minimum latency, you can [set up a webhook](/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository).
-  * `Scheduler`
 
-    * `checkTranslation` - Cron expression defining how often the Connector will poll Smartling projects for updated translations. You must provide a valid expression, even if you set up [webhooks](/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository) and [callbacks](/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker).
-* Other authentication options are included in the example file.
+* `Scheduler`
+
+  * `checkTranslation` - Cron expression defining how often the Connector will poll Smartling projects for updated translations. You must provide a valid expression, even if you set up [webhooks](/knowledge-base/articles/repository-connector-faq/#can-i-automate-uploads-when-i-make-a-commit-to-my-repository) and [callbacks](/knowledge-base/articles/repository-connector-faq/#can-i-configure-callbacks-for-completed-translation-instead-of-using-the-cron-checker).
+
+* Options above and other additional configuration are included in [the example file](/public/example-files/repo-connector-complete-example.conf).
 
 ## Start the Repository Connector Application
 
