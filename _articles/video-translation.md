@@ -7,7 +7,7 @@ wistia:
 ---
 
 
-Smartling allows translators to translate SubRip (SRT) files with video context, for more accurate translations. While largely the same as our CAT tool interface for text, there are a few &nbsp;customizations for video translation. You can find general information on Smartling’s New CAT Tool [here](http://help.smartling.com/knowledge-base/sections/ti-next/).
+Smartling allows translators to translate SubRip (SRT) files with video context, for more accurate translations. While largely the same as our CAT tool interface for text, there are a few key customizations for video translation. You can find general information on Smartling’s New CAT Tool [here](http://help.smartling.com/knowledge-base/sections/ti-next/).
 
 Note: Smartling video translation tools are currently available to a limited subset of users. We’ll be rolling this out to all users in the future. If you have any questions please contact your customer success representative.
 
