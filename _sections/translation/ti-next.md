@@ -15,7 +15,7 @@ subarticles:
   - title: Linguistic Assets
   - title: Quality Checks
   - title: Segment Translation
-  [//]: #- title: Translation History
+  
 wistia:
   video: false
   id:
