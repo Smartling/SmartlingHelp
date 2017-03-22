@@ -32,14 +32,4 @@ By clicking **Command I&nbsp;**on your keyboard and continuing to click rapidly,
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/insertables autofill.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-\*\*\* Copy tag to target (not released yet)
-
-Snipets Mode (coming soon)
-
-## How do I ensure that I have inserted all the right tags from the source in the target?
-
-qa?
-
-## Why am I not able to submit a string with missing tags in the new CAT tool?
-
-qa?
+Lastly, you can also use a keyboard shorcut to copy over all tags from the source into the target. The keyboard shorcut for this can be found as an optin under the command for copy source into target command in the editor toolbar.
