@@ -32,4 +32,4 @@ By clicking **Command I&nbsp;**on your keyboard and continuing to click rapidly,
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/insertables autofill.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-Lastly, you can also use a keyboard shorcut to copy over all tags from the source into the target. The keyboard shorcut for this can be found as an optin under the command for copy source into target command in the editor toolbar.
+Lastly, you can also use a keyboard shortcut to copy over all tags from the source into the target. The keyboard shortcut for this can be found as an option under the command for copy source into target command in the editor toolbar.
