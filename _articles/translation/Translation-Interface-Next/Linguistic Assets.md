@@ -38,7 +38,7 @@ The new CAT tool offers a “Search TM” command in the top tool bar. Clicking 
 
 You can also use the keyboard shortcut (available in the hover-over) for the Search TM command to first highlight a term anywhere in the editor, and then simply use the keyboard shortcut to automatically launch TM search for that term.
 
-How do I search glossary in the new CAT tool?
+## How do I search glossary in the new CAT tool?
 
 Similar to Search TM, the new CAT tool offers a “Search Glossary” command in the top tool bar. Clicking on this enables a search box, into which you can type your search term. As soon as you finish typing, the context panel is taken over by the results of the Glossary search, and source and target translations for the Glossary entries are shown with the search term highlighted. You can get additional information on your Glossary entry by simply hovering over the "i" icon provided next to it. On doing so, you will see additional details such as the source of the Glossary, and date and time the entry was created. To make it visually easier to identify the highest value TM entries, those already published are marked with a green "i". Once you find the TM entry you want to insert, simply click on the arrow next to the entry to insert it into the current segment.
 
