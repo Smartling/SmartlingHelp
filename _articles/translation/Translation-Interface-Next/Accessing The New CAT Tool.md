@@ -12,15 +12,15 @@ First, in the list View on the Smartling Dashboard, you can select Add Translati
 
 Doing so launches the New CAT Tool for all strings in the current list view, that are also in the same workflow step as the selected string. This is because the New CAT Tool adapts and gives you different translation tools, based on whether you are translating, reviewing or proofreading content.
 
+<script src="https://fast.wistia.com/embed/medias/b9cxoji7sh.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_b9cxoji7sh popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:300px;width:400px">&nbsp;</span>
+
 <br>If your current list view filter contains strings in multiple workflow steps, you will first be asked to confirm that you want to select content in the same workflow step as your current string, or be asked to select another workflow step you'd like to filter by.
 
 On hitting Continue, the New CAT Tool loads with the selected strings, and highlights your selected string ready for translation
 
-[//]: #&lt;insert 7_TI Entry_1 video&gt;
-
 As a translator or agency owner, you can also launch TI Next from your Jobs dashboard. You can do so by either clicking on the Job name in a Job card: This takes you to the list view with the filtered list of strings and workflow steps you are authorized for the current job. Or, you can select a command from the "Available for Work" panel at the bottom, that loads list view with all content in the current workflow step that you are authorized for. From here, loading the New CAT Tool works the same as before.
 
-[//]: #&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;insert 7_TI Entry_2 video&gt;
+<script src="https://fast.wistia.com/embed/medias/d3vijln55l.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_d3vijln55l popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:300px;width:400px">&nbsp;</span>
 
 ## How can I go back to the classic CAT tool if I do not like the new CAT tool?
 
