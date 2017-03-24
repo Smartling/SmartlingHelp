@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: article
 title: Salesforce Marketing Cloud
 ---
 
@@ -34,20 +34,20 @@ Completed translations are returned to SFMC in the same folder as the original, 
 
 ## Configure your SFMC account with Smartling
 
-It's necessary to connect your SFMC account to Smartling by creating an API integration in SFMC and entering those credentials into the Smartling project.
+It’s necessary to connect your SFMC account to Smartling by creating an API integration in SFMC and entering those credentials into the Smartling project.
 
-Follow Salesforce's instructions for creating an API integration, we've summarized the instructions below. https://developer.salesforce.com/docs/atlas.en-us.mc-getting-started.meta/mc-getting-started/get-api-key.htm
+Follow Salesforce’s instructions for creating an API integration, we’ve summarized the instructions below. https://developer.salesforce.com/docs/atlas.en-us.mc-getting-started.meta/mc-getting-started/get-api-key.htm
 
-1) Navigate to the [app center](https://appcenter-auth.s1.marketingcloudapps.com/)&nbsp;and login or create an account
+1) Navigate to the [app center](https://appcenter-auth.s1.marketingcloudapps.com/) and login or create an account
 
 2) Select Create New App then API Integration
 
-3) Select unique name and package, this doesn't matter for Smartling
+3) Select unique name and package, this doesn’t matter for Smartling
 
 4) Click the Link to Account button and set it up with your SFMC account
 
 5) Now you should be in the Data Access tab. Under Channels enable Read/Send/Write under Data &gt; Data Extensions enable Read/Write
 
-6) After you've created the app click on it so you should see the details page with Client ID and Client Secret etc.
+6) After you’ve created the app click on it so you should see the details page with Client ID and Client Secret etc.
 
-7) In your new Salesforce Marketing Cloud project in Smartling go to Project Settings &gt; SF Marketing Cloud Settings and then enter in the Client ID and Client Secret. Click Save and you're done!
+7) In your new Salesforce Marketing Cloud project in Smartling go to Project Settings &gt; SF Marketing Cloud Settings and then enter in the Client ID and Client Secret. Click Save and you’re done!
