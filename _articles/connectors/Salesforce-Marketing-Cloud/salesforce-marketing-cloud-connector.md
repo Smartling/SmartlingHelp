@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Salesforce Marketing Cloud Connector
+title: Salesforce Marketing Cloud
 ---
 
 
