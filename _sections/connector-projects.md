@@ -18,6 +18,7 @@ subsections:
 subarticles:
   - title: Eloqua Connector
   - title: Translate Sendwithus Emails
+  - title: Salesforce Marketing Cloud
 ---
 
 
