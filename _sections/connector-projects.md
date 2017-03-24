@@ -3,6 +3,7 @@ title: Connector Projects
 layout: section
 master_category: true
 subsections:
+  - title: Salesforce Marketing Cloud
   - title: Wordpress Connector
   - title: Drupal Connector
   - title: Adobe Experience Manager - Classic Connector
@@ -14,7 +15,6 @@ subsections:
   - title: Hybris Connector
   - title: Demandware Connector
   - title: Repository Connector
-  - title: Salesforce Marketing Cloud
 subarticles:
   - title: Eloqua Connector
   - title: Translate Sendwithus Emails
