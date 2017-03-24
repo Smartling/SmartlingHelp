@@ -33,84 +33,73 @@ When capturing strings from a Java Properties file Smartling assumes that the st
 
 The default behavior is the same as if you integrated with the following commands
 
-`placeholder_format=JAVA`{: .highlighter-rouge}
+`placeholder_format=JAVA`{: .highlighter-rouge.highlighter-rouge}
 
-`string_format=MESSAGE_FORMAT`{: .highlighter-rouge}
+`string_format=MESSAGE_FORMAT`{: .highlighter-rouge.highlighter-rouge}
 
-&nbsp;
+`placeholder_format=JAVA`{: .highlighter-rouge.highlighter-rouge} implies that the strings are being formatted using [java.util.Formatter](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html). A string using that class will have standard c-style/printf format specifiers for variables and bebecause those variables use the percent char ‘%’ to mark them, when you want an actual percent character to display in your string you must escape it as ‘%%’ (both in the original and in translated strings).
 
-`placeholder_format=JAVA`{: .highlighter-rouge} implies that the strings are being formatted using [java.util.Formatter](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html). A string using that class will have standard c-style/printf format specifiers for variables and bebecause those variables use the percent char ‘%’ to mark them, when you want an actual percent character to display in your string you must escape it as ‘%%’ (both in the original and in translated strings).
-
-`string_format=MESSAGE_FORMAT`{: .highlighter-rouge} implies that the strings are being formatted using [java.text.MessageFormat](https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html). A string using that class will have FormatElements in curly braces and because the single quote character is used to escape the special characters { and } a single quote that you want to appear as a character must be escaped as ‘’ (both in the original and in translated strings)
+`string_format=MESSAGE_FORMAT`{: .highlighter-rouge.highlighter-rouge} implies that the strings are being formatted using [java.text.MessageFormat](https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html). A string using that class will have FormatElements in curly braces and because the single quote character is used to escape the special characters { and } a single quote that you want to appear as a character must be escaped as ‘’ (both in the original and in translated strings)
 
 The most frequent integration issues encountered in Smartling when using java properties files is caused by not integrating your file to get the behavior needed for the strings in regards to placeholder formatting and special character escaping.
 
 For example if your original file has:
 
-~~~
-string=Your subscription is %d% off.
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>string=Your subscription is %d% off.
+</code></pre></div>
 
 The string captured by Smartling will have incorrect placeholder integration and not be correctly translatable. Strictly speaking “% o” is a valid format specifier. There are two ways to avoid this integration issue.
 
 If your strings are formatted by Formatter, the % should be escaped in your resource file:
 
-~~~
-string1=Your subscription is %d%% off.
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>string1=Your subscription is %d%% off.
+</code></pre></div>
 
 Conversely if you have a string like this:
 
-~~~
-string=Your subscription is 50% off.
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>string=Your subscription is 50% off.
+</code></pre></div>
 
-That is NOT being formatted by Formatter Smartling will identify a placeholder, where one may not be needed. To avoid this being captured with a placeholder turn off the formatting and then turn it back on if you need subsequent strings formatted:
+That is NOT being formatted by Formatter Smartling will still identify a placeholder ('% o') for the same reason. &nbsp;To avoid this string being captured with a placeholder, turn off the formatting and then turn it back on if you need subsequent strings to be captured ready for formatting:
 
-~~~
-smartling.placeholder_format=NONE
+<div class="highlighter-rouge"><pre class="highlight"><code>smartling.placeholder_format=NONE
 string=Your subscription is 50% off.
 #smartling.placeholder_format=JAVA
-~~~
+</code></pre></div>
 
-So the string will be captured without a placeholder, and assuming the % char is still present in the translation it will not be escaped as %% when delivered to you.
+With this integration the string will be captured without a placeholder, and assuming the % char is still present in the translation it will not be escaped as %% when you download the translated files.
 
 Similar issues are seen for the MessageFormat behavior. If your source file has this string which will be passed through MessageFormat:
 
-~~~
-string1=You can't delete {0}.{: .highlighter-rouge}
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>string1=You can't delete {0}.
+</code></pre></div>
 
 The ‘ should be escaped if it’s passing through MessageFormat:
 
-~~~
-string1=You can''t delete {0}{: .highlighter-rouge}
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>string1=You can''t delete {0}
+</code></pre></div>
 
 Similarly if you have a string with the literal characters { } or the ‘ character that is NOT passing through MessageFormat:
 
-~~~
-string1=You can't delete it. {We won't let you!}{: .highlighter-rouge}
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code>string1=You can't delete it. {We won't let you!}
+</code></pre></div>
 
-You can insure proper capture and delivery of the translation by turning off MessageFormat and then turning it back on when needed after the string:
+You can insure proper capture and delivery of the translation by turning off MessageFormat and then turning it back on when needed after the string to insure subsequent strings get MessageFormat treatement:
 
-~~~
-smartling.string_format=NONE
-string1=You can’t delete it. {We won’t let you!}
+<div class="highlighter-rouge"><pre class="highlight"><code>smartling.string_format=NONE
+string1=You can&rsquo;t delete it. {We won&rsquo;t let you!}
 # smartling.string_format=MESSAGE_FORMAT
-~~~
+</code></pre></div>
 
-When integrating the directives “inline” in your file note that once your set a directive it will apply to all subsequent strings. If you know your file is entirely made of strings that require MESSAGE_FORMAT but not JAVA formatting you can place the following at the top of your file:
+When integrating the directives “inline” in your file once your set a directive it will apply to all subsequent strings. &nbsp;So for example, if you know your file is entirely made of strings that require MESSAGE_FORMAT but not JAVA formatting you can place the following at the top of your file:
 
-~~~
-# smartling.string_format=MESSAGE_FORMAT
-{: .highlighter-rouge}# smartling.placeholder_format=NONE{: .highlighter-rouge}
-~~~
+<div class="highlighter-rouge"><pre class="highlight"><code># smartling.string_format=MESSAGE_FORMAT
+# smartling.placeholder_format=NONE
+</code></pre></div>
 
-Remember that this behavior will be true for capturing strings and delivering translations. It is especially common for translators to use the single quote character as part of their translation even when the original language string did not have any quote characters.
+Remember that this behavior will be true for capturing strings and delivering translations. It is very common for translators to use the single quote character as part of their translation even when the original language string did not have any quote characters.
 
-We recommend uploading your complete set of Java Properties files and then downloading the pseudo translation, and then use that to bring up your application with the pseudo localization to check for any issues or errors.
+We recommend uploading your complete set of Java Properties files and then downloading the [pseudo translation](http://help.smartling.com/knowledge-base/articles/pseudo-articles/), and then use that to bring up your application with the pseudo localization to check for any issues or errors.
 
 See [Placeholders in resource files](/developers/files/placeholders-in-resource-files/) for more on placeholders.
 
