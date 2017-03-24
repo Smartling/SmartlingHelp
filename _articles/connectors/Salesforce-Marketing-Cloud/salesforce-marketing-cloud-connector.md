@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: section
 title: Salesforce Marketing Cloud
 ---
 
