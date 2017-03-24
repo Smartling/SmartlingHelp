@@ -3,7 +3,6 @@ title: Connector Projects
 layout: section
 master_category: true
 subsections:
-  - title: Salesforce Marketing Cloud
   - title: Wordpress Connector
   - title: Drupal Connector
   - title: Adobe Experience Manager - Classic Connector
