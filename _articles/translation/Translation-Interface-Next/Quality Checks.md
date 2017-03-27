@@ -35,7 +35,7 @@ To run a quality check on all translations currently on your screen, use the QA 
 
 Quality checks can be enabled/ disabled at the account level by Smartling. Please contact Smartling support if you would like to change how quality checks are set up on your account.
 
-## What languages does the spellcheck have?
+## What languages does the spellcheck support?
 
 Below is the full list of languages currently supported by spellcheck in the new CAT tool:
 
@@ -101,7 +101,7 @@ Galician
 
 Gascon
 
-German- de_DE de_AT de_LI de_LU de_CHde_CT
+German- de_DE de_AT de_LI de_LU de_CH de_CT
 
 German - Old Spelling
 
