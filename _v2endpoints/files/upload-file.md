@@ -50,9 +50,9 @@ request:
           description_markdown: |
             This value, if set, authorizes strings for translation into specific locales. Use the project/locale/list call to get the list of locales for the project or see them in the dashboard on the API settings page. 
             
-            Use multiple localeIdsToAuthorize parameter pairs to authorize more than one locale. You can add languages by uploading the file again and indicating the language to authorize with `localeIdsToAuthorize` or all languages with `authorized`, or in the dashboard using the "Show Partially Authorized" filter option from the Awaiting Authorization list. 
+            Use multiple localeIdsToAuthorize parameter pairs to authorize more than one locale. You can add languages by uploading the file again and indicating the language to authorize with `localeIdsToAuthorize[]` or all languages with `authorized`, or in the dashboard using the "Show Partially Authorized" filter option from the Awaiting Authorization list. 
             
-            If string has been completely excluded for translation from all languages, or excluded from translation for a specific language, `localesIdsToAuthorize` will NOT authorize it. 
+            If string has been completely excluded for translation from all languages, or excluded from translation for a specific language, `localeIdsToAuthorize[]` will NOT authorize it. 
             
             > Do not set the `authorized` parameter to TRUE if you want to specify individual locales to authorize. Submitting an upload with both of these parameters set will result in a validation error.
             
