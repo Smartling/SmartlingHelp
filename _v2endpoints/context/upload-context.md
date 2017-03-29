@@ -9,6 +9,7 @@ method: POST
 request:
   json_markdown: |
     The Upload Context File request body takes the form of a multi-part post request. For example, in cURL, this might look like: 
+
     `curl -X POST -H "Authorization: Bearer $AUTH_TOKEN" -H "Content-Type: multipart/form-data" -F "content=@image.png;type=image/png" "https://api.smartling.com/context-api/v2/projects/$PROJECT_ID/contexts”`
   parameters:
     - title: content
