@@ -23,8 +23,6 @@ further-reading:
   others:
     - link:
       text:
-
-  
   images: false
   FAQs: false
   related: false
@@ -32,16 +30,14 @@ further-reading:
 ---
 
 
-You can access the Smartling Dashboard and Tools using any web browser (with JavaScript enabled) and an Internet connection, but the platform works best in the browsers noted below.  Smartling cannot guarantee the experience in browsers other than the following browser type and version.
+You can access the Smartling Dashboard and Tools using any web browser (with JavaScript enabled) and an Internet connection, but the platform works best in the browsers noted below. &nbsp;Smartling cannot guarantee the experience in browsers other than the following browser type and version.
 
 ## Recommended Browsers for better performance
 
-* Google Chrome (Mac OS, Windows 7, 8): 13.0 +
-* Firefox (Mac OS, Windows 7, 8): 6.0 +
-* Safari (Mac OS): last version
-
+* Google Chrome (Mac OS, Windows 7, 8): 46.0 +
+* Firefox (Mac OS, Windows 7, 8): 42.0 +
+* Safari (Mac OS): 9+
 
 ## Also Supported
 
-* Internet Explorer: 11 +
 * Microsoft Edge
