@@ -14,8 +14,8 @@ subsections:
   - title: Hybris Connector
   - title: Demandware Connector
   - title: Repository Connector
-subarticles:
   - title: Eloqua Connector
+subarticles:
   - title: Translate Sendwithus Emails
   - title: Salesforce Marketing Cloud
 ---
