@@ -7,6 +7,21 @@ wistia:
 ---
 
 
+## Version 3.7.2 - 11/01/2017
+
+### Features:
+
+*   Cancel live copy inheritance on property level if component (dialog) is configured to show "locks" for every property.
+*   The [Path Rewrites](/knowledge-base/articles/aem-classic-connector-configure-rewrites/#path-rewrites) mechanism now supports extensions.  
+
+### Bug Fixes:
+
+*   Fixed an issue with proxy authentication. The connector could not provide context when working through an HTTP proxy.
+*   Fixed a memory leak in the connector.
+*   Fixed translation progress calculation. If content was uploaded without authorization, then connector will not treat such files 
+as completed. Progress will remain 0% until at least one string will be authorized and translated later.
+
+
 ## Version 3.7.0 - 29/11/2016 
 
 ### Features:
