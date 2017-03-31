@@ -15,6 +15,8 @@ To begin, find the "Rewrite Rules" tab under the Eloqua section of your Eloqua p
 
 ![](/uploads/versions/rewrite-rule---x----1099-167x---.png)
 
+&nbsp;
+
 Under the replacements section, enter whatever you would like the rewrite to be in the appropriate language and press the Save button.
 
 &nbsp;
