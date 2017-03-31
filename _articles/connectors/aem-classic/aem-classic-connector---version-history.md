@@ -7,20 +7,24 @@ wistia:
 ---
 
 
+## Version 3.9.0 - 3/28/2017
+
+### Features:
+
+* Add ability to handle context requests in parallel, which improves performance of context loading
+* Implemented common-purpose workflow step that may be embedded in existing workflows
+* Implemented property "locking" feature. Properties edited in the target page can now be "locked" and not overwritten on subsequent translations of the source page&nbsp;
+
+### Bug Fixes:
+
+* Added reconnect in case of authentication error
+* Fixed issue with incorrect encoding in context
+* Fixed issue with replacing content that contains :&nbsp;symbol, so now path that contains :symbol is matched and replaced against rules
+
 ## Version 3.8.0 - 1/23/2017
 
 * Reworked functionality of internal URL rewriter. It now combines features of rewriting node paths in reference properties and in text. A property must contain only path to a node or a path should be in quotes if property contains text
-* Removed backward compatibility in Smartling Workflow and introduced the new required parameter, an array of locales. Example of 3.8+ Smartling workflow:&nbsp;
-
-~~~
-
-String modelPath = isBulk ? "/etc/workflow/models/smartling-bulk-translation/jcr:content/model" : "/etc/workflow/models/smartling-translation/jcr:content/model";
-
-WorkflowModel workflowModel = workflowSession.getModel(modelPath);
-
-WorkflowData workflowData = workflowSession.newWorkflowData("JCR_PATH", pagePath); Map&lt;String, Object&gt; workflowMetaData = new HashMap&lt;&gt;(); workflowMetaData.put("locales", "de_de,fr_fr"); workflowMetaData.put("useApprovedContent", false); workflowSession.startWorkflow(workflowModel, workflowData, workflowMetaData);
-
-~~~
+* Removed backward compatibility in Smartling Workflow and introduced the new required parameter, an array of locales. Example of 3.8+
 
 ## Version 3.7.2 - 11/01/2017
 
