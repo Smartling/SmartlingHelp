@@ -14,7 +14,11 @@ wistia:
 
 ~~~
 
-String modelPath = isBulk ? "/etc/workflow/models/smartling-bulk-translation/jcr:content/model" : "/etc/workflow/models/smartling-translation/jcr:content/model"; WorkflowModel workflowModel = workflowSession.getModel(modelPath); WorkflowData workflowData = workflowSession.newWorkflowData("JCR_PATH", pagePath); Map&lt;String, Object&gt; workflowMetaData = new HashMap&lt;&gt;(); workflowMetaData.put("locales", "de_de,fr_fr"); workflowMetaData.put("useApprovedContent", false); workflowSession.startWorkflow(workflowModel, workflowData, workflowMetaData);
+String modelPath = isBulk ? "/etc/workflow/models/smartling-bulk-translation/jcr:content/model" : "/etc/workflow/models/smartling-translation/jcr:content/model";
+
+WorkflowModel workflowModel = workflowSession.getModel(modelPath);
+
+WorkflowData workflowData = workflowSession.newWorkflowData("JCR_PATH", pagePath); Map&lt;String, Object&gt; workflowMetaData = new HashMap&lt;&gt;(); workflowMetaData.put("locales", "de_de,fr_fr"); workflowMetaData.put("useApprovedContent", false); workflowSession.startWorkflow(workflowModel, workflowData, workflowMetaData);
 
 ~~~
 
