@@ -7,6 +7,15 @@ wistia:
 ---
 
 
+## Version 3.9.1 - 3/30/2017
+
+### Bug fixes:
+
+* Optimized translation download process speed for live copies
+* Fixed an issue with translation download and "lock properties" feature
+
+&nbsp;
+
 ## Version 3.9.0 - 3/28/2017
 
 ### Features:
