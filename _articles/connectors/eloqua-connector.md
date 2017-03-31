@@ -32,7 +32,7 @@ Smartling’s Eloqua Connector lets you use Smartling’s Global Fluency Platfor
 
 **3)**Click on a folder to navigate to its contents&nbsp;
 
-![](/uploads/versions/eloqua-navigation---x0-10-1431-754-1255-661x---.png)
+![](/uploads/versions/toggle-between-asset-types---x----708-287x---.png)![](/uploads/versions/folder-navigate---x----457-468x---.png)
 
 **4)** Check the items you want translated and click&nbsp;**Request Translation.&nbsp;**Note that if you are translating an Email, the connector will pick up any related Dynamic Content items automatically.
 
@@ -56,7 +56,7 @@ Additionally, status information is displayed next to an asset in the main view.
 
 3) Some kind of error (red warning sign)
 
-![](/uploads/versions/status-examples---x----908-116x---.png)
+![](/uploads/versions/status-examples---x----372-116x---.png)
 
 ## Change Eloqua Users
 
