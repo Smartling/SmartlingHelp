@@ -4,8 +4,8 @@ layout: section
 subsections:
   - title: none
 subarticles:
-  - title: Eloqua - Rewrites
-  - title: Eloqua - Connector
+  - title: Eloqua Rewrites
+  - title: Eloqua Connector
 wistia:
   video: false
   id:
