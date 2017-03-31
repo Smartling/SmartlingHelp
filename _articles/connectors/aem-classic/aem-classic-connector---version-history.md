@@ -21,10 +21,14 @@ wistia:
 * Fixed issue with incorrect encoding in context
 * Fixed issue with replacing content that contains :&nbsp;symbol, so now path that contains :symbol is matched and replaced against rules
 
+## &nbsp;
+
 ## Version 3.8.0 - 1/23/2017
 
 * Reworked functionality of internal URL rewriter. It now combines features of rewriting node paths in reference properties and in text. A property must contain only path to a node or a path should be in quotes if property contains text
 * Removed backward compatibility in Smartling Workflow and introduced the new required parameter, an array of locales. Example of 3.8+
+
+## &nbsp;
 
 ## Version 3.7.2 - 11/01/2017
 
@@ -39,11 +43,15 @@ wistia:
 * Fixed a memory leak in the connector.
 * Fixed translation progress calculation. If content was uploaded without authorization, then connector will not treat such files as completed. Progress will remain 0% until at least one string will be authorized and translated later.
 
+## &nbsp;
+
 ## Version 3.7.1 - 09/12/2016
 
 ### Bug Fixes:
 
 * Fixed an issue with the connector not starting on AEM 6.2.
+
+## &nbsp;
 
 ## Version 3.7.0 - 29/11/2016
 
@@ -57,6 +65,8 @@ wistia:
 ### Bug Fixes:
 
 * Fixed delay when starting translations from the Sidekick.
+
+## &nbsp;
 
 ## Version 3.6.1 - 23/11/2016
 
@@ -72,6 +82,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Connector now prevents status checks or downloads on submissions with states NEW, FAILED and CANCELED.
 * Fixed an issue with sending image metadata.
 
+## &nbsp;
+
 ## Version 3.6.0 - 14/11/2016
 
 This new major release is fully backwards compatible with 3.5.x
@@ -85,6 +97,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed a bug that caused visual context errors when AEM machine has no internet access and proxy is explicitly configured via OSGi Web Console.
 * Fixed bugs that caused translations to fail for pages created under folders and pages with names equal to locale codes.
 
+## &nbsp;
+
 ## Version 3.5.3 - 30/09/2016
 
 ### Features:
@@ -94,6 +108,8 @@ This new major release is fully backwards compatible with 3.5.x
 ### Bug Fixes:
 
 * Fixed a bug that created errors on dictionaries that have messages without an explicitly specified key.
+
+## &nbsp;
 
 ## Version 3.5.2 - 23/09/2016
 
@@ -105,11 +121,15 @@ This new major release is fully backwards compatible with 3.5.x
 
 * Improved messaging when returning a 202 response if sending content for translation from the sidekick.
 
+## &nbsp;
+
 ## Version 3.5.1 - 07/07/2016
 
 ### Bug Fixes:
 
 * Fixed an issue with proxy configuration.
+
+## &nbsp;
 
 ## Version 3.5.0 - 07/01/2016
 
@@ -126,6 +146,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed an issue with sending non-structured content via Advanced Node Translator on Windows machines.
 * Fixed a minor issue with the Advanced Node Translator which used to lead to false-positive ERRORs in log files.
 
+## &nbsp;
+
 ## Version 3.4.0 - 04/01/2016
 
 ### Features:
@@ -138,6 +160,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Bulk Submit dialog didn't display content tree on AEM 6.1
 * Context was created even when explicitly disabled in the server configuration
 
+## &nbsp;
+
 ## Version 3.3.5 - 03/16/2016
 
 ### Bug Fixes:
@@ -145,11 +169,15 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed incorrect property mapping behaviour for some cases.
 * Fixed broken translate button in the Sidekick caused by conflict with customer's custom client-side code.
 
+## &nbsp;
+
 ## Version 3.3.3 - 12/18/2015
 
 ### Bug Fixes:
 
 * Fixed a bug that caused problems working with proxies that did not require any authentication.
+
+## &nbsp;
 
 ## Version 3.3.2 - 10/29/2015
 
@@ -159,11 +187,15 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed exception when connector tries to download translation but original page is already deleted.
 * Fixed exception for getting translation progress status when smartling config was deleted after sending page for translation.
 
+## &nbsp;
+
 ## Version 3.3.1 - 10/02/2015
 
 ### Bug Fixes:
 
 * A user could not cancel translation from AEM if the corresponding file had been previously deleted in the Smartling Dashboard.
+
+## &nbsp;
 
 ## Version 3.3.0 - 10/02/2015
 
@@ -182,11 +214,15 @@ This new major release is fully backwards compatible with 3.5.x
 
 * Fixed behavior of submissions statuses for some edge cases.
 
+## &nbsp;
+
 ## Version 3.2.6 - 09/09/2015
 
 ### Bug Fixes:
 
 * Fix related to translation of properties which contain JSON&nbsp;
+
+## &nbsp;
 
 ## Version 3.2.5 - 09/07/2015
 
@@ -198,6 +234,8 @@ This new major release is fully backwards compatible with 3.5.x
 
 * Live copy Relationship is not cancelled for a placeholder in cases where an original node is a Blueprint and Live copy at same time.
 
+## &nbsp;
+
 ## Version 3.2.4 - 07/17/2015
 
 ### Bug Fixes:
@@ -206,6 +244,8 @@ This new major release is fully backwards compatible with 3.5.x
 * User can now edit Source Path on Smartling settings.
 * Fixed errors with submissions Board when Smartling configuration was broken or changed.
 * Disable preview mode when submission no longer has an appropriate Smartling configuration.
+
+## &nbsp;
 
 ## Version 3.2.3 - 06/15/2015
 
@@ -216,6 +256,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Mixing types are now properly copied.
 * Added missed frozen property to exclude list.
 * Save language copy for Non-page Translation mode.
+
+## &nbsp;
 
 ## Version 3.2.2 - 04/14/2015
 
@@ -244,6 +286,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed an issue with locating Smartling config by source path which caused some content to be sent to wrong projects.
 * Fixed broken Submissions Board page.
 * Disallow to set set root path "/" as source path and target path in configuration.
+
+## &nbsp;
 
 ## Version 3.2.1 - 03/18/2015
 
@@ -276,6 +320,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed issue with downloading from sidekick.&nbsp;
 * Logs added for CMS Gateway client library.
 
+## &nbsp;
+
 ## Version 3.2.0 - 02/16/2015
 
 ### Features:
@@ -301,6 +347,8 @@ This new major release is fully backwards compatible with 3.5.x
 
 * Synchronization of placeholder layout works well for sites based on language copy but doesn't work at all if target site is Live copy, because rollouts mechanism is responsible for this
 
+## &nbsp;
+
 ## Version 3.1.6 - 01/16/2015
 
 ### Features:
@@ -314,6 +362,8 @@ This new major release is fully backwards compatible with 3.5.x
 * Fixed URL pattern at translation processing.
 * Fixed replace of multiple links in a single property.
 * Don't copy all child pages under current page if target page doesn't exist.
+
+## &nbsp;
 
 ## Version 3.1.5 - 01/16/2015
 
@@ -337,6 +387,8 @@ This new major release is fully backwards compatible with 3.5.x
 
 * `Path Property Rewriter` was refactored in this version. If you used it before then all previous settings will be lost. Administrator must configure `Path Property Rewriter` to specify which properties have to be rewritten.
 * Properties that are subject to rewriting, *should not* be sent for translation.
+
+## &nbsp;
 
 ## Version 3.1.4 - 01/06/2015
 
