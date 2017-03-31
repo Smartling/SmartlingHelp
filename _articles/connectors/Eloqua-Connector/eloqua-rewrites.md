@@ -25,4 +25,4 @@ Under the replacements section, enter whatever you would like the rewrite to be 
 
 &nbsp;
 
-The rewrite will be applied across all emails you translate from Eloqua. For example if you have an English email address help@mycompany.com and would like to use hilfen@mycompany.com for all of your German translations, you only need to create one rewrite rule, and it will be applied whenever the connector sees "help@mycompany.com".
+The rewrite will be applied across all assets you translate from Eloqua. For example if you have an English email address help@mycompany.com and would like to use hilfen@mycompany.com for all of your German translations, you only need to create one rewrite rule, and it will be applied whenever the connector sees "help@mycompany.com".
