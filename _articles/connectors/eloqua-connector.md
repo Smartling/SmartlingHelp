@@ -30,9 +30,11 @@ Smartling’s Eloqua Connector lets you use Smartling’s Global Fluency Platfor
 
 **2)** Select the content type you want to translate: Email, Landing Page or Dynamic Content via the tabs in the top right.
 
-**3)**Click on a folder to navigate to its contents&nbsp;
+**3)&nbsp;**Click on a folder to navigate to its contents&nbsp;
 
-![](/uploads/versions/toggle-between-asset-types---x----708-287x---.png)![](/uploads/versions/folder-navigate---x----457-468x---.png)
+![](/uploads/versions/toggle-between-asset-types---x----708-287x---.png)
+
+![](/uploads/versions/folder-navigate---x----457-468x---.png)
 
 **4)** Check the items you want translated and click&nbsp;**Request Translation.&nbsp;**Note that if you are translating an Email, the connector will pick up any related Dynamic Content items automatically.
 
