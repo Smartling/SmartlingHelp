@@ -12,11 +12,11 @@ wistia:
 * Reworked functionality of internal URL rewriter. It now combines features of rewriting node paths in reference properties and in text. A property must contain only path to a node or a path should be in quotes if property contains text
 * Removed backward compatibility in Smartling Workflow and introduced the new required parameter, an array of locales. Example of 3.8+ Smartling workflow:&nbsp;
 
-```
+~~~
 
 String modelPath = isBulk ? "/etc/workflow/models/smartling-bulk-translation/jcr:content/model" : "/etc/workflow/models/smartling-translation/jcr:content/model"; WorkflowModel workflowModel = workflowSession.getModel(modelPath); WorkflowData workflowData = workflowSession.newWorkflowData("JCR_PATH", pagePath); Map&lt;String, Object&gt; workflowMetaData = new HashMap&lt;&gt;(); workflowMetaData.put("locales", "de_de,fr_fr"); workflowMetaData.put("useApprovedContent", false); workflowSession.startWorkflow(workflowModel, workflowData, workflowMetaData);
 
-```
+~~~
 
 ## Version 3.7.2 - 11/01/2017
 
