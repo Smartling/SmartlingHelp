@@ -78,6 +78,8 @@ This new major release is fully backwards compatible with 3.5.x
 
 
 ## Version 3.5.0 - 07/01/2016
+**Note**: This version of the AEM Classic connector switches to using version 2 of the Smartling API. 
+After upgrading you will need to follow the [migration instructions](/knowledge-base/articles/aem-classic-connector-upgrade-to-version-3.5.0/).
 
 ### Features:
 
