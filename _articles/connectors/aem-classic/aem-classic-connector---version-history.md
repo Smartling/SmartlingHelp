@@ -22,6 +22,13 @@ wistia:
 as completed. Progress will remain 0% until at least one string will be authorized and translated later.
 
 
+## Version 3.7.1 - 09/12/2016
+
+### Bug Fixes:
+
+*   Fixed an issue with the connector not starting on AEM 6.2.
+
+
 ## Version 3.7.0 - 29/11/2016 
 
 ### Features:
