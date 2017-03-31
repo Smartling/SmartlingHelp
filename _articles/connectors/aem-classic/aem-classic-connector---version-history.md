@@ -7,6 +7,92 @@ wistia:
 ---
 
 
+## Version 3.7.0 - 29/11/2016 
+
+### Features:
+
+*   _AEM 5.6.1 is no longer supported_. Minimal compatible version is 6.0.
+*   Performance improvements added for AEM 6.x.
+*   Live copy handling: cancel inheritance for page-level properties.
+*   Live copy handling: keep inheritance locks if component strings were not modified.
+
+### Bug Fixes:
+
+*   Fixed delay when starting translations from the Sidekick.
+
+
+## Version 3.6.1 - 23/11/2016 
+This new major release is fully backwards compatible with 3.5.x
+
+### Features:
+
+*   Added compatibility with AEM 6.2 version.
+*   Added language sorting in the Sidekick.
+
+### Bug Fixes:
+
+*   Connector now prevents status checks or downloads on submissions with states NEW, FAILED and CANCELED.
+*   Fixed an issue with sending image metadata.
+
+
+## Version 3.6.0 - 14/11/2016
+This new major release is fully backwards compatible with 3.5.x
+
+### Features:
+
+*   The Connector creates a new revision of a translated page any time new translations are saved.
+
+### Bug Fixes:
+
+*   Fixed a bug that caused visual context errors when AEM machine has no internet access and proxy is explicitly configured via OSGi Web Console.
+*   Fixed bugs that caused translations to fail for pages created under folders and pages with names equal to locale codes.
+
+
+## Version 3.5.3 - 30/09/2016
+
+### Features:
+
+*   Usability improvements for Bulk Translation dialog when called from the Sidekick.
+
+### Bug Fixes:
+
+*   Fixed a bug that created errors on dictionaries that have messages without an explicitly specified key.
+
+
+## Version 3.5.2 - 23/09/2016
+
+### Features:
+
+*   Added the ability to [treat dictionary strings as unique](https://support.smartling.com/hc/en-us/articles/201428916#unique) in a Smartling project.
+
+### Bug Fixes:
+
+*   Improved messaging when returning a 202 response if sending content for translation from the sidekick.
+
+
+## Version 3.5.1 - 07/07/2016
+
+### Bug Fixes:
+
+*   Fixed an issue with proxy configuration.
+
+
+## Version 3.5.0 - 07/01/2016
+
+### Features:
+
+*   Added the ability to configure an HTTP proxy in a single place to be used by the connector - via the Felix OSGi Console, 
+at the _Smartling - Network Settings_ configuration entry.
+*   Removed the API URL from the Project Configuration dialog. Now the endpoint can be changed via the Felix OSGi Console.
+*   Added the ability to customize regular expressions used to cut placeholders from translated strings. 
+Please, note that this is **potentially dangerous** operation.
+
+### Bug Fixes:
+
+*   Fixed an issue with sending non-structured content via Advanced Node Translator on Windows machines.
+*   Fixed a minor issue with the Advanced Node Translator which used to lead to false-positive ERRORs in log files.
+
+
 ## Version 3.4.0 - 04/01/2016
 
 ### Features:
