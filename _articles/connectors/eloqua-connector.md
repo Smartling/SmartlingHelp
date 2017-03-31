@@ -28,13 +28,15 @@ Smartling’s Eloqua Connector lets you use Smartling’s Global Fluency Platfor
 
 **1)** In your Smartling project, navigate to&nbsp;**Eloqua &gt; Translate content**.
 
-**2)** Select the content type you want to translate: Email, Landing Page or Dynamic Content.
+**2)** Select the content type you want to translate: Email, Landing Page or Dynamic Content via the tabs in the top right.
 
-**3)** Check the items you want translated and click&nbsp;**Request Translation.&nbsp;**Note that if you are translating an Email, the connector will pick up any related Dynamic Content items automatically.
+**3)**Click on a folder to navigate to its contents&nbsp;
 
-![](/uploads/versions/smartling---translate-content--connector-project--1---x----1255-661x---.png)
+![](/uploads/versions/eloqua-navigation---x0-10-1431-754-1255-661x---.png)
 
-**4)**&nbsp;Select your target languages and click&nbsp;**Request Translation**.
+**4)** Check the items you want translated and click&nbsp;**Request Translation.&nbsp;**Note that if you are translating an Email, the connector will pick up any related Dynamic Content items automatically.
+
+**5)**&nbsp;Select your target languages and click&nbsp;**Request Translation**.
 
 ![](/uploads/versions/smartling---translate-content--connector-project--2---x----573-294x---.png)
 
@@ -42,15 +44,19 @@ Your selected items will be authorized into the default workflow for each langua
 
 ## Monitor translation progress
 
-Navigate to&nbsp;**Eloqua &gt; Translation Progress.**
+To check on the translation progress for an asset, like an email, click anywhere on the row showing information about the asset, this will show its details.
 
-The page displays a list of all Eloqua content authorized for translation. A separate entry is created for each language. When translation of an item is 100% complete it will be automatically exported back to Eloqua. You can also manually export an incomplete translation at any time by checking the item and clicking&nbsp;**Export to Eloqua**.
+![](/uploads/versions/email-details---x----1143-463x---.png)
 
-![](/uploads/versions/smartling---translation-progress--connector-project--and-capture-context-from-webpages---chrome-context-capture-extension-md---smartlinghelp2------documents-webstormprojects-smartlinghelp2----x----1258-521x---.png)
+Additionally, status information is displayed next to an asset in the main view. There are 3 possible states:
 
-In Eloqua, translated items will have the same filename as the original, but with the language code added to the end.
+1) Translation complete for all requested languages (blue checkmark)
 
-![](/uploads/versions/eloqua-10---x----1163-751x---.png)
+2) Translation in progress (orange arrows)
+
+3) Some kind of error (red warning sign)
+
+![](/uploads/versions/status-examples---x----908-116x---.png)
 
 ## Change Eloqua Users
 
