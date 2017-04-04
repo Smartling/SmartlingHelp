@@ -12,7 +12,7 @@ request:
       type: array
       required: true
       description_markdown: |
-        The context image file and content type. Supported content types are `image/png` and `image/jpg` / `jpeg`.
+        The context image file and content type. Supported content types are `image/png` and `image/jpg`.
         The Upload Context File request body takes the form of a multi-part post request. For example, in cURL, this might look like:
 
 response:
