@@ -18,7 +18,6 @@ examples:
   - title: Curl
     code_markdown: |
       ~~~curl
-    curl -X POST -H "Authorization: Bearer {token}" -H "Content-Type: multipart/form-data" -F "content=@image.png;type=image/png" "https://api.smartling.com/context-api/v2/projects/{projectId}/contexts”      
       ~~~
 
 response:
