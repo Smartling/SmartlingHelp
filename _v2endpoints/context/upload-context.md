@@ -14,6 +14,12 @@ request:
       description_markdown: |
         The context image file and content type. Supported content types are `image/png` and `image/jpg`.
         The Upload Context File request body takes the form of a multi-part post request. For example, in cURL, this might look like:
+examples:
+  - title: Curl
+    code_markdown: |
+      ~~~curl
+    curl -X POST -H "Authorization: Bearer {token}" -H "Content-Type: multipart/form-data" -F "content=@image.png;type=image/png" "https://api.smartling.com/context-api/v2/projects/{projectId}/contexts”      
+      ~~~
 
 response:
   json_markdown: |-
