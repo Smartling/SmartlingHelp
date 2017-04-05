@@ -2,7 +2,7 @@
 title: The New CAT Tool
 layout: section
 subsections:
-  - title:
+  - title: New Feature Releases/ Bug Fixes
 subarticles:
   - title: Overview
   - title: Accessing The New CAT Tool
