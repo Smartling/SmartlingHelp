@@ -12,6 +12,7 @@ subarticles:
   - title: Tag Handling
   - title: Linguistic Assets
   - title: Quality Checks
+  - title: New Feature Releases/ Bug Fixes
 wistia:
   video: false
   id:
