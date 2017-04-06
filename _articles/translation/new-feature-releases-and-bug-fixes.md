@@ -11,6 +11,8 @@ wistia:
 
 ## Apr 4, 2017
 
+* 100% TM match pre-population enabled
+
 ## Apr 3, 2017
 
 ## Apr 2, 2017
