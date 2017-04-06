@@ -35,7 +35,7 @@ To run a quality check on all translations currently on your screen, use the QA 
 
 Quality checks can be enabled/ disabled or adjusted at the account level by account owners. This feature is accessed through the "Quality Checks" settings under "Assets" in the account dashboard.
 
-![](/uploads/versions/quality-checks-screenshot---x----1247-624x---.png)
+![](/uploads/versions/quality-checks-screenshot---x0-0-1247-624-1247-624x---.png)
 
 Each quality check in Smartling has the following settings:
 
