@@ -13,6 +13,7 @@ subarticles:
   - title: Linguistic Assets
   - title: Quality Checks
   - title: New Feature Releases/ Bug Fixes
+  - title: New Feature Releases and Bug Fixes
 wistia:
   video: false
   id:
