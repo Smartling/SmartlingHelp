@@ -7,6 +7,16 @@ wistia:
 ---
 
 
+## Apr 7, 2017
+
+* Fixed performance issues for Microsoft Edge
+* Fixed Issue count bubble not changing when using the Issue resolved toggle
+* Resolved translators getting errors when fetching workflow data for a string outside their workflow step
+* Fixed adjacent placeholders/ tags not being tokenized appropriately
+* Fixed translators not being able to insert characters D and M
+* Added keyboard shortcut hover-over for Restore Segmentation command
+* ***New feature: Link to new features/ bug fixes added to new CAT tool under Help***
+
 ## Apr 6, 2017
 
 * Autoscroll jitter for Video translation fixed
@@ -45,7 +55,7 @@ wistia:
 
 ## Mar 30, 2017
 
-* Fixed TM source showing "No source specified"
+* Fixed TM source showing “No source specified”
 * Renamed double-space quality check to whitespace check, to account for Asian languages
 * Fixed broken context when image tag appears in source in word documents
 * ***New feature: Launched shortcut for Save and Next String***
@@ -54,14 +64,14 @@ wistia:
 
 ## Mar 29, 2017
 
-* Corrected validation for issue type presence on issue create: fixed "Creating Issue" message
+* Corrected validation for issue type presence on issue create: fixed “Creating Issue” message
 * Improved string loading behavior in the presence of large glossary updates
-* Fixed problem inserting "&lt;&lt;" due to conflict with keyboard shortcuts
+* Fixed problem inserting “&lt;&lt;” due to conflict with keyboard shortcuts
 * ***New feature: Made language resources insert shortcuts customizable***
 
 ## Mar 28, 2017
 
-* Fixed incorrect "missing tags" error message, even when tags inserted properly
+* Fixed incorrect “missing tags” error message, even when tags inserted properly
 * Made string order in CAT tool consistent with string order in List View
 * Fixed tag insertion order when source HTML is broken
 * Improved handling of &lt;/br&gt; as a special character
