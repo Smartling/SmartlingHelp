@@ -29,7 +29,7 @@ To display all of the keyboard shortcuts:&nbsp;
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Settings_Keyboard Pref.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
-## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get Smartling's new CAT tool to behave like my other CAT tool?
+## I am a current Trados/ MemoQ/ OmegaT/ Deja Vu user. How can I get Smartling’s new CAT tool to behave like my other CAT tool?
 
 Smartling now offers preset keyboard shortcuts that align with the settings of other CAT tools. To access these presets, simply select your desired CAT tool settings from the drop down in the “Keyboard Shortcuts” window (Settings &gt; Keyboard Preferences).&nbsp;
 
@@ -62,4 +62,6 @@ When a shortcut is overwritten, the keyboard shortcut for the original command b
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Overwrite Shortcut.mp4" autoplay="" loop="loop">&gt;&nbsp;</video>
 
-&nbsp;
+## Why am I unable to enter special characters in the CAT tool?
+
+If you are unable to type special characters in the CAT tool, this is most likely because the action to insert this character is conflicting with a keyboard shortcut in your current profile. In order to fix this, you can simply go to Settings&gt; Keyboard Preferences, and they change the shortcut that is interfering with your special character.
