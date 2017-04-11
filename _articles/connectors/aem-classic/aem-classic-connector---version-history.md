@@ -7,6 +7,14 @@ wistia:
 ---
 
 
+## Version 3.9.2 - 4/07/2017
+
+### Bug fixes:
+
+* Fix an issue with a resource leak which could lead to `java.lang.OutOfMemoryError: unable to create new native thread`
+* Fix an URL rewriting bug when connector has more than one configuration. Now connector uses rewrite results of the 1st configuration as input for the 2nd configuration and so on
+
+
 ## Version 3.9.1 - 3/30/2017
 
 ### Bug fixes:
