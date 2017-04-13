@@ -34,8 +34,8 @@ You can access the Smartling Dashboard and Tools using any web browser (with Jav
 
 ## Recommended Browsers for better performance
 
-* Google Chrome (Mac OS, Windows 7, 8): 46.0 +
-* Firefox (Mac OS, Windows 7, 8): 42.0 +
+* Google Chrome (Mac OS, Windows 7+): 46.0 +
+* Firefox (Mac OS, Windows 7+): 42.0 +
 * Safari (Mac OS): 9+
 
 ## Also Supported
