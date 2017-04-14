@@ -11,4 +11,4 @@ wistia:
   id:
 ---
 
-The Marketo Connector allows you to upload your Marketo emails, landing pages, and snippets to the Smartling Dashboard for translation, and export translated assets back into HubSpot for deployment.
+The Marketo Connector allows you to upload your Marketo emails, landing pages, forms, programs, and snippets to the Smartling Dashboard for translation, and export translated assets back into Marketo for deployment.
