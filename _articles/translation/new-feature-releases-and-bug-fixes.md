@@ -7,6 +7,31 @@ wistia:
 ---
 
 
+## Apr 13, 2017
+
+* Fixed inability to save strings with only placeholders/ tags/ insertables (no translatable text)
+* Improved autoscrolling with exceptionally large segments
+* Corrected "jumping" of segments- translators loosing visibility to current segment when it scrolls out of view
+
+## Apr 12, 2017
+
+* Improved handling of "%" in filter search
+* Fixed locked strings for translators, even when they are in the same workflow step
+* Fixed 100% match pre-population (was inserting string-level matches in stead of segment-level matches)
+* Corrected conversion of nbsp
+
+## Apr 11, 2017
+
+* Improved TM search for special characters
+* Improved TM search to not include tags in search input
+* Fixed regular text getting inserted as tags in insert TM
+* Corrected certain translators only being able to translate in CAPS
+
+## Apr 10, 2017
+
+* Fixed typo on Save String confirmation modal
+* Fixed error with not being able to save strings with reordered tags
+
 ## Apr 7, 2017
 
 * Fixed performance issues for Microsoft Edge
