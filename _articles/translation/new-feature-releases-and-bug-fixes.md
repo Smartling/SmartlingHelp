@@ -11,11 +11,12 @@ wistia:
 
 * Fixed inability to save strings with only placeholders/ tags/ insertables (no translatable text)
 * Improved autoscrolling with exceptionally large segments
-* Corrected "jumping" of segments- translators loosing visibility to current segment when it scrolls out of view
+* Corrected “jumping” of segments- translators loosing visibility to current segment when it scrolls out of view
 
 ## Apr 12, 2017
 
-* Improved handling of "%" in filter search
+* ***New feature: Account owners can now set severity of quality checks. (Support documentation [here](http://help.smartling.com/knowledge-base/articles/Quality-Checks/#how-do-i-enable-disable-quality-checks-on-my-account))***
+* Improved handling of “%” in filter search
 * Fixed locked strings for translators, even when they are in the same workflow step
 * Fixed 100% match pre-population (was inserting string-level matches in stead of segment-level matches)
 * Corrected conversion of nbsp
