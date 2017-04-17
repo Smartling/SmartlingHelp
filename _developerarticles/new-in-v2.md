@@ -39,7 +39,7 @@ further-reading:
   reviewed: false
 ---
 
-Smartling is rolling out a new, expanded suite of APIs. Beginning with Authentication and Files APIs. API v1 is still supported but will be deprecated on March 1 2017.
+Smartling is rolling out a new, expanded suite of APIs. Beginning with Authentication and Files APIs. API v1 is still supported but will be deprecated on October 1 2017.
 
 Version 2 of FilesAPI will be familiar to you if you’ve used v1 but there are some important differences to keep in mind while you’re getting started.
 
