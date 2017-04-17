@@ -40,7 +40,7 @@ further-reading:
 ---
 
 
-Many of Smartling’s v1 API methods are scheduled to be deprecated March 1 2017, so all users should start preparing to transition to v2 methods. Migrating your existing integrations from v1 to v2 requires four steps.
+Many of Smartling’s v1 API methods are scheduled to be deprecated October 1 2017, so all users should start preparing to transition to v2 methods. Migrating your existing integrations from v1 to v2 requires four steps.
 
 ## Create an authentication strategy
 
