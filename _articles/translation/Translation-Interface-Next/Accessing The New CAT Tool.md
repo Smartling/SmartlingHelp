@@ -17,7 +17,7 @@ Google Chrome (Mac OS, Windows 7+): Last ten versions&nbsp;
 
 ## How do I access Smartling’s new CAT tool?
 
-There are 2 main ways in which you can begin translating on the new CAT tool
+There are two main ways in which you can begin translating on the new CAT tool
 
 First, in the list View on the Smartling Dashboard, you can select Add Translation or Edit Translation from a specific string, or select Add or Edit translation in the dropdown on the right
 
