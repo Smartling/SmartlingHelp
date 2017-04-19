@@ -6,7 +6,7 @@ title: Tag Handling
 
 ## What happened to code view?
 
-The code view in Smartling’s classic CAT tool has been upgraded to a new intergrated veiw. All of the code, tags, and markup will now be avaible for the user directly in the editor.
+The code view in Smartling’s classic CAT tool has been upgraded to a new integrated view. All of the code, tags, and markup will now be available for the user directly in the editor.
 
 ## How are tags displayed in the new CAT tool?
 
@@ -24,7 +24,7 @@ Tags are always added and removed in pairs to preserve code.
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Tags get removed in pairs.mp4" autoplay="" loop="loop">&nbsp;</video>
 
-By clicking **Command I&nbsp;**on your keyboard and continuing to click rapidly, you can cycle through all of the tag options present in the source string.
+By using the "Insert Next Tag"**&nbsp;**shortcut on your keyboard and continuing to click rapidly, you can cycle through all of the tag options present in the source string.
 
 <video width="750" src="/uploads/TI-NEXT-VIDEOS/Cycling Tags With Comand i.mp4" autoplay="" loop="loop">&nbsp;</video>
 
