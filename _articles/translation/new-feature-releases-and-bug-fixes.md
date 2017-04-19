@@ -7,6 +7,29 @@ wistia:
 ---
 
 
+## Apr 18, 2017
+
+* Fixed persistent "loading content..." message being shown in workspace
+* Fixed tag changing to plain character after space is inserted
+* Fixed poor experience on collapsing context in Firefox
+* Fixed "save and next string" shortcut for Edit step
+
+## Apr 17, 2017
+
+* Fixed span tags getting removed from translation when choosing a TM match
+* Improved messaging around CAT tool compatibility with mobile devices
+* Improved glossary loading for large glossaries
+* Resolved bugs preventing segment saving
+* Fixed nbsp appearing as encoded HTML entries
+* Fixed removal of emojis when glossary terms are added
+* Fixed leading/ trailing space errors incorrectly displaying for character-based languages
+* Fixed closing tag getting removed when glossary term is highlighted
+
+## Apr 14, 2017
+
+* Fixed span tags getting removed from translation when choosing a TM match
+* Improved click-to-insert tag experience in Firefox
+
 ## Apr 13, 2017
 
 * Fixed inability to save strings with only placeholders/ tags/ insertables (no translatable text)
