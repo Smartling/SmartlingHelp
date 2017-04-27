@@ -7,12 +7,49 @@ wistia:
 ---
 
 
+## Apr 26, 2017
+
+* Fixed tag alignment errors when inserting TM from language resources
+* ***New feature:&nbsp;***Added "additional details" to TM matches in language resources
+* Fixed QA report for plurals
+
+## Apr 25, 2017
+
+* Fixed improper editor scrolling for large segments
+* Fixed false positive leading/ trailing space error reporting
+
+## Apr 24, 2017
+
+* ***New feature:*** Messaging to user when local storage is disabled, preventing saves in Draft Mode
+* Fixed bug wiping out user keyboard preference settings on save
+* Fixed bug that incorrectly scrolled to different target segment, when user clicks on a segment
+* Fixed MT insert from language resources converting escaped single quotes to placeholder in editor on insert
+* ​MT results return escaped single quotes which converts to placeholder in editor on insert
+* Fixed bug with setting keyboard shortcut as Enter​
+
+## Apr 21, 2017
+
+* Improved detection and handling of apostrophes, em-dashes and trademark symbols
+* Fixed target character count discrepancies between segments in same string
+
+## Apr 20, 2017
+
+* Fixed bug preventing users from selecting Keyboard Preferences in Microsoft Edge
+
+## Apr 19, 2017
+
+* Fixed "Previous Unsaved" and "Next Unsaved" string keyboard shortcuts for Firefox
+* New performance optimizations for resource panel
+* ***New feature:*** Translators can see file level instructions and attachments under "Additional Details"
+* Fixed links in instructions box to be clickable
+* Fixed placeholder rendering to context for Zendesk connector project
+
 ## Apr 18, 2017
 
-* Fixed persistent "loading content..." message being shown in workspace
+* Fixed persistent “loading content…” message being shown in workspace
 * Fixed tag changing to plain character after space is inserted
 * Fixed poor experience on collapsing context in Firefox
-* Fixed "save and next string" shortcut for Edit step
+* Fixed “save and next string” shortcut for Edit step
 
 ## Apr 17, 2017
 
