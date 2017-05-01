@@ -7,6 +7,17 @@ wistia:
 ---
 
 
+## Version 3.9.3 - 4/28/2017
+
+### Features:
+
+* Added compatibility with the new AEM service pack (AEM 6.2 CFP 1)
+
+### Bug fixes:
+
+* Fix a minor issue with the connector breaking OOTB Image component
+
+
 ## Version 3.9.2 - 4/07/2017
 
 ### Bug fixes:
