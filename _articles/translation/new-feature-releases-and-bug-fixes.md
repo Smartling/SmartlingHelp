@@ -7,9 +7,21 @@ wistia:
 ---
 
 
+## May 10, 2017
+
+* Fixed autocomplete suggestions for tags/ placeholders overriding "save and next string" shortcut
+* Fixed HTML rendering of styleguide and special instructions
+* Fixed discrepancy in total spelling errors shown in the editor and the QA report
+* Fixed QA error being displayed spelling errors surrounding tags
+* ***New feature:&nbsp;***Added user-defined character limit to quality checks&nbsp;
+* Added string-level check for character count limit
+* Fixed character counts to be based on plural forms
+* Fixed certain Polish characters not being recognized in CAT tool
+
 ## May 9, 2017
 
-* ***New feature:&nbsp;***Launched option to show spaces between words (for parity with old code view). Option can be found under Settings&gt; Preferences in CAT tool.
+* ***New feature:&nbsp;***Launched option to show spaces between words (for parity with old code view). Option can be found under Settings &gt; Preferences in CAT tool.
+* Fixed CAT tool not scrolling to active string selected in List View
 
 ## May 8, 2017
 
