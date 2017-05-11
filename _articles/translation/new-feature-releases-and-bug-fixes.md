@@ -7,6 +7,10 @@ wistia:
 ---
 
 
+## May 9, 2017
+
+* ***New feature:&nbsp;***Launched option to show spaces between words (for parity with old code view). Option can be found under Settings&gt; Preferences in CAT tool.
+
 ## May 8, 2017
 
 * Fixed strings not loading for certain old content
